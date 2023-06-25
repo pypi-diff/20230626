@@ -459,3 +459,52 @@
 [2023-06-26 00:44:46] INFO root fetch - processPackages [drawsvg]: Remove: archive file [/home/abi/fetcher/tmp/drawsvg-2.2.0-py3-none-any.whl.zip]
 [2023-06-26 00:44:46] INFO root fetch - main [MainThread]: End processing [drawsvg]: success
 [2023-06-26 00:44:46] INFO root fetch - main [MainThread]: Store serial: [18639533]
+[2023-06-26 00:49:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639533]
+[2023-06-26 00:49:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 00:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotPython
+[2023-06-26 00:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyphetools
+[2023-06-26 00:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CodeToCAD
+[2023-06-26 00:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nano-autograds
+[2023-06-26 00:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nano-autograds
+[2023-06-26 00:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trimnet
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-06-26 00:49:55] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-26 00:49:55] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1687733068]
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-06-26 00:49:55] INFO root fetch - processPackages [pyphetools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-26 00:49:55] WARNING root fetch - processPackages [trimnet]: Skipping, unable to determine old version
+[2023-06-26 00:49:55] INFO root fetch - main [MainThread]: End processing [trimnet] error
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: Downloading https://files.pythonhosted.org/packages/11/ea/287d3998de720901010ddedcd5250056eb129a9708cb18c15dd6edaa34e7/nano-autograds-0.0.1.tar.gz
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: Downloading https://files.pythonhosted.org/packages/11/ea/287d3998de720901010ddedcd5250056eb129a9708cb18c15dd6edaa34e7/nano-autograds-0.0.1.tar.gz
+[2023-06-26 00:49:55] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/40/c4/b083c36a5d95bd09747ca9dc58cb0f3eb7683dff27fb962748a2494da075/CodeToCAD-0.2.1687733068.tar.gz
+[2023-06-26 00:49:55] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/49/2a/48f4d6bf3f8763098b7c44b4427e493878bff16eacd86092108dde6f5a04/pyphetools-0.3.0.tar.gz
+[2023-06-26 00:49:55] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-26 00:49:55] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-06-26 00:49:55] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/c2/5f/536b72bfe23519881649904e8414a776f56460335371aa31b16efea6dbef/pyphetools-0.3.1.tar.gz
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: Downloading https://files.pythonhosted.org/packages/a3/75/a9b1f0850ca2fc3e316f6176e2db436a6d8e4e0dac12d39c7587c65020db/nano-autograds-0.1.1.tar.gz
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: Downloading https://files.pythonhosted.org/packages/a3/75/a9b1f0850ca2fc3e316f6176e2db436a6d8e4e0dac12d39c7587c65020db/nano-autograds-0.1.1.tar.gz
+[2023-06-26 00:49:55] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-06-26 00:49:55] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.3.0.tar.gz tmp/pyphetools-0.3.1.tar.gz --markdown 20230626/p/pyphetools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: executing diffoscope
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nano-autograds-0.0.1.tar.gz tmp/nano-autograds-0.1.1.tar.gz --markdown 20230626/n/nano-autograds/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: executing diffoscope
+[2023-06-26 00:49:55] INFO root fetch - processPackages [nano-autograds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nano-autograds-0.0.1.tar.gz tmp/nano-autograds-0.1.1.tar.gz --markdown 20230626/n/nano-autograds/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 00:49:55] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-06-26 00:49:55] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1687733068.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230626/C/CodeToCAD/0.2.1687733068-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 00:49:57] INFO root fetch - processPackages [nano-autograds]: Remove: archive file [/home/abi/fetcher/tmp/nano-autograds-0.0.1.tar.gz]
+[2023-06-26 00:49:57] INFO root fetch - processPackages [nano-autograds]: Remove: archive file [/home/abi/fetcher/tmp/nano-autograds-0.1.1.tar.gz]
+[2023-06-26 00:49:57] INFO root fetch - main [MainThread]: End processing [nano-autograds]: success
+[2023-06-26 00:49:57] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-26 00:49:57] INFO root fetch - main [MainThread]: End processing [nano-autograds]: success
+[2023-06-26 00:49:57] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.3.0.tar.gz]
+[2023-06-26 00:49:57] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.3.1.tar.gz]
+[2023-06-26 00:49:57] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-06-26 00:49:57] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1687733068.tar.gz]
+[2023-06-26 00:49:57] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-06-26 00:49:57] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-06-26 00:49:59] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-26 00:49:59] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230626/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 00:50:11] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-26 00:50:11] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-26 00:50:11] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-26 00:50:11] INFO root fetch - main [MainThread]: Store serial: [18639552]
