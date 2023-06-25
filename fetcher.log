@@ -747,3 +747,64 @@
 [2023-06-26 01:06:15] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.1.tar.gz]
 [2023-06-26 01:06:15] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-06-26 01:06:15] INFO root fetch - main [MainThread]: Store serial: [18639647]
+[2023-06-26 01:11:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639647]
+[2023-06-26 01:11:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopack-tools
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arkdriver
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-compiler-opt
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gttrl
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arkdriver
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test1321
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stormlibpp
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rds-cep
+[2023-06-26 01:11:25] INFO root fetch - processPackages [stormlibpp]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-26 01:11:25] ERROR root fetch - processPackages [test1321]: Unable to get metadata: No such project 'test1321'
+[2023-06-26 01:11:25] INFO root fetch - main [MainThread]: End processing [test1321] error
+[2023-06-26 01:11:25] INFO root fetch - processPackages [gttrl]: New version: [1.1] Old Version: [1.0]
+[2023-06-26 01:11:25] INFO root fetch - processPackages [arkdriver]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306252306] Old Version: [0.0.1.dev202306250008]
+[2023-06-26 01:11:25] INFO root fetch - processPackages [rds-cep]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 01:11:25] WARNING root fetch - processPackages [autopack-tools]: Skipping, unable to determine old version
+[2023-06-26 01:11:25] INFO root fetch - main [MainThread]: End processing [autopack-tools] error
+[2023-06-26 01:11:25] INFO root fetch - processPackages [arkdriver]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 01:11:25] INFO root fetch - processPackages [stormlibpp]: Downloading https://files.pythonhosted.org/packages/fd/3d/497e899d368a80aa7fc2c8ac5bf4c8d4398dc25ff6a6c7691eced7b85364/stormlibpp-0.2.0.tar.gz
+[2023-06-26 01:11:25] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/25/d1/2cd56af9a00e4baa5a1fca6994e965da6fa1c24fb8e33d15b35905d20a7c/arkdriver-1.0.8.tar.gz
+[2023-06-26 01:11:25] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/d1/bf/62fcab1aac90c8836a3608946babc2144d15316986d375d59a4b795c2980/ml-compiler-opt-0.0.1.dev202306250008.tar.gz
+[2023-06-26 01:11:25] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/25/d1/2cd56af9a00e4baa5a1fca6994e965da6fa1c24fb8e33d15b35905d20a7c/arkdriver-1.0.8.tar.gz
+[2023-06-26 01:11:26] INFO root fetch - processPackages [gttrl]: Downloading https://files.pythonhosted.org/packages/be/5c/0aefbe304cf279064abf41dfcbf21c99a49a6341b31ab9c781a6b721d370/gttrl-1.0.tar.gz
+[2023-06-26 01:11:26] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/15/6e/3e574dee52ba1b5442b8257a8437806ce83ab5dbee089f49e26ada0a247d/arkdriver-1.0.9.tar.gz
+[2023-06-26 01:11:26] INFO root fetch - processPackages [rds-cep]: Downloading https://files.pythonhosted.org/packages/93/51/e41f6315b02f7f4b132cdfaa201ad55a3f0863a844f118ba72610ce2ec7d/rds-cep-0.0.1.tar.gz
+[2023-06-26 01:11:26] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/15/6e/3e574dee52ba1b5442b8257a8437806ce83ab5dbee089f49e26ada0a247d/arkdriver-1.0.9.tar.gz
+[2023-06-26 01:11:26] INFO root fetch - processPackages [arkdriver]: executing diffoscope
+[2023-06-26 01:11:26] INFO root fetch - processPackages [arkdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdriver-1.0.8.tar.gz tmp/arkdriver-1.0.9.tar.gz --markdown 20230626/a/arkdriver/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 01:11:26] INFO root fetch - processPackages [arkdriver]: executing diffoscope
+[2023-06-26 01:11:26] INFO root fetch - processPackages [arkdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdriver-1.0.8.tar.gz tmp/arkdriver-1.0.9.tar.gz --markdown 20230626/a/arkdriver/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 01:11:26] INFO root fetch - processPackages [stormlibpp]: Downloading https://files.pythonhosted.org/packages/c0/66/9dabb2b0654948e8237714b13d7827100660a505a4f7e299f632bc226723/stormlibpp-0.3.0.tar.gz
+[2023-06-26 01:11:26] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/f1/98/8699d853dce182c94a3dec1890b4135aa20d0593b5a671d4a0f3514a4ee7/ml-compiler-opt-0.0.1.dev202306252306.tar.gz
+[2023-06-26 01:11:26] INFO root fetch - processPackages [gttrl]: Downloading https://files.pythonhosted.org/packages/76/3e/1fb40b7b85019a07d7f9373084605849776aab04fceed25050f0d9b8da85/gttrl-1.1.tar.gz
+[2023-06-26 01:11:26] INFO root fetch - processPackages [gttrl]: executing diffoscope
+[2023-06-26 01:11:26] INFO root fetch - processPackages [gttrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gttrl-1.0.tar.gz tmp/gttrl-1.1.tar.gz --markdown 20230626/g/gttrl/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-26 01:11:26] INFO root fetch - processPackages [rds-cep]: Downloading https://files.pythonhosted.org/packages/5a/a1/e0d50af63034bd369952d034d2cd657a1f9ba0caa63f8f0c351a46779e23/rds-cep-0.0.2.tar.gz
+[2023-06-26 01:11:26] INFO root fetch - processPackages [stormlibpp]: executing diffoscope
+[2023-06-26 01:11:26] INFO root fetch - processPackages [stormlibpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stormlibpp-0.2.0.tar.gz tmp/stormlibpp-0.3.0.tar.gz --markdown 20230626/s/stormlibpp/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 01:11:26] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-26 01:11:26] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306250008.tar.gz tmp/ml-compiler-opt-0.0.1.dev202306252306.tar.gz --markdown 20230626/m/ml-compiler-opt/0.0.1.dev202306250008-0.0.1.dev202306252306/diff.md --exclude *.pyd
+[2023-06-26 01:11:26] INFO root fetch - processPackages [rds-cep]: executing diffoscope
+[2023-06-26 01:11:26] INFO root fetch - processPackages [rds-cep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-cep-0.0.1.tar.gz tmp/rds-cep-0.0.2.tar.gz --markdown 20230626/r/rds-cep/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 01:11:27] INFO root fetch - processPackages [arkdriver]: Remove: archive file [/home/abi/fetcher/tmp/arkdriver-1.0.8.tar.gz]
+[2023-06-26 01:11:27] INFO root fetch - processPackages [arkdriver]: Remove: archive file [/home/abi/fetcher/tmp/arkdriver-1.0.9.tar.gz]
+[2023-06-26 01:11:27] INFO root fetch - main [MainThread]: End processing [arkdriver]: success
+[2023-06-26 01:11:27] INFO root fetch - main [MainThread]: End processing [arkdriver]: success
+[2023-06-26 01:11:27] INFO root fetch - processPackages [gttrl]: Remove: archive file [/home/abi/fetcher/tmp/gttrl-1.0.tar.gz]
+[2023-06-26 01:11:27] INFO root fetch - processPackages [gttrl]: Remove: archive file [/home/abi/fetcher/tmp/gttrl-1.1.tar.gz]
+[2023-06-26 01:11:27] INFO root fetch - main [MainThread]: End processing [gttrl]: success
+[2023-06-26 01:11:28] INFO root fetch - processPackages [stormlibpp]: Remove: archive file [/home/abi/fetcher/tmp/stormlibpp-0.2.0.tar.gz]
+[2023-06-26 01:11:28] INFO root fetch - processPackages [stormlibpp]: Remove: archive file [/home/abi/fetcher/tmp/stormlibpp-0.3.0.tar.gz]
+[2023-06-26 01:11:28] INFO root fetch - main [MainThread]: End processing [stormlibpp]: success
+[2023-06-26 01:11:28] INFO root fetch - processPackages [rds-cep]: Remove: archive file [/home/abi/fetcher/tmp/rds-cep-0.0.1.tar.gz]
+[2023-06-26 01:11:28] INFO root fetch - processPackages [rds-cep]: Remove: archive file [/home/abi/fetcher/tmp/rds-cep-0.0.2.tar.gz]
+[2023-06-26 01:11:28] INFO root fetch - main [MainThread]: End processing [rds-cep]: success
+[2023-06-26 01:11:28] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306250008.tar.gz]
+[2023-06-26 01:11:28] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306252306.tar.gz]
+[2023-06-26 01:11:28] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-26 01:11:28] INFO root fetch - main [MainThread]: Store serial: [18639675]
