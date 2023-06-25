@@ -941,3 +941,52 @@
 [2023-06-26 01:27:09] INFO root fetch - processPackages [cutde]: Remove: archive file [/home/abi/fetcher/tmp/cutde-23.6.25.tar.gz]
 [2023-06-26 01:27:09] INFO root fetch - main [MainThread]: End processing [cutde]: success
 [2023-06-26 01:27:09] INFO root fetch - main [MainThread]: Store serial: [18639766]
+[2023-06-26 01:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639766]
+[2023-06-26 01:32:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 01:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowtask
+[2023-06-26 01:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextkg-api
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctd-python
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adaux
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-sale-coupon-commercial-partner-applicability
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctd-python
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 01:32:19] INFO root fetch - processPackages [flowtask]: New version: [4.5.8] Old Version: [4.5.7]
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/a7/b3/9b001feaddfdcc55828534ea48a7262cb31256fec1250de97198a665ebc3/ctd-python-0.0.5.tar.gz
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/a7/b3/9b001feaddfdcc55828534ea48a7262cb31256fec1250de97198a665ebc3/ctd-python-0.0.5.tar.gz
+[2023-06-26 01:32:19] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/98/3b/df19eb65d82c6c6e4a15e770cb0c85ba2c3b4f521f7c338fa79a59939d5b/flowtask-4.5.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 01:32:19] INFO root fetch - processPackages [nextkg-api]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-26 01:32:19] INFO root fetch - processPackages [adaux]: New version: [2.5.0] Old Version: [2.4.5]
+[2023-06-26 01:32:19] WARNING root fetch - processPackages [odoo13-addon-sale-coupon-commercial-partner-applicability]: Skipping, unable to determine old version
+[2023-06-26 01:32:19] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-coupon-commercial-partner-applicability] error
+[2023-06-26 01:32:19] INFO root fetch - processPackages [nextkg-api]: Downloading https://files.pythonhosted.org/packages/5a/7d/bbd9de930c55dce8c75a07ba0906cc5652d6d97136c68dc3ac9263b87ccd/nextkg-api-0.1.tar.gz
+[2023-06-26 01:32:19] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/bb/ba/7e6b3232c43d133687734b7534e9bf74bf69387057494a0cc364e1557285/ctd-python-0.0.6.tar.gz
+[2023-06-26 01:32:19] INFO root fetch - processPackages [adaux]: Downloading https://files.pythonhosted.org/packages/0c/bc/5339ba9ee31ab20dbfb24534b58c1537d0cfc9da54cb6ce9a1aabf94420e/adaux-2.4.5.tar.gz
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/bb/ba/7e6b3232c43d133687734b7534e9bf74bf69387057494a0cc364e1557285/ctd-python-0.0.6.tar.gz
+[2023-06-26 01:32:19] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-26 01:32:19] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230626/f/flowtask/4.5.7-4.5.8/diff.md --exclude *.pyd
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.0.5.tar.gz tmp/ctd-python-0.0.6.tar.gz --markdown 20230626/c/ctd-python/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-06-26 01:32:19] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.0.5.tar.gz tmp/ctd-python-0.0.6.tar.gz --markdown 20230626/c/ctd-python/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 01:32:19] INFO root fetch - processPackages [nextkg-api]: Downloading https://files.pythonhosted.org/packages/fc/f5/d8da08dbd0af940d0f5cda93b5b6ccd4a257c111080a266c9fc8dac53205/nextkg-api-0.1.1.tar.gz
+[2023-06-26 01:32:19] INFO root fetch - processPackages [adaux]: Downloading https://files.pythonhosted.org/packages/ed/77/4775380bcd9600ae5b3a52760a07bc2dbd419f3ef674df2309cfab6bff67/adaux-2.5.0.tar.gz
+[2023-06-26 01:32:19] INFO root fetch - processPackages [nextkg-api]: executing diffoscope
+[2023-06-26 01:32:19] INFO root fetch - processPackages [nextkg-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextkg-api-0.1.tar.gz tmp/nextkg-api-0.1.1.tar.gz --markdown 20230626/n/nextkg-api/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 01:32:19] INFO root fetch - processPackages [adaux]: executing diffoscope
+[2023-06-26 01:32:19] INFO root fetch - processPackages [adaux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaux-2.4.5.tar.gz tmp/adaux-2.5.0.tar.gz --markdown 20230626/a/adaux/2.4.5-2.5.0/diff.md --exclude *.pyd
+[2023-06-26 01:32:20] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.0.5.tar.gz]
+[2023-06-26 01:32:20] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.0.6.tar.gz]
+[2023-06-26 01:32:20] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-06-26 01:32:20] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-06-26 01:32:21] INFO root fetch - processPackages [nextkg-api]: Remove: archive file [/home/abi/fetcher/tmp/nextkg-api-0.1.tar.gz]
+[2023-06-26 01:32:21] INFO root fetch - processPackages [nextkg-api]: Remove: archive file [/home/abi/fetcher/tmp/nextkg-api-0.1.1.tar.gz]
+[2023-06-26 01:32:21] INFO root fetch - main [MainThread]: End processing [nextkg-api]: success
+[2023-06-26 01:32:21] INFO root fetch - processPackages [adaux]: Remove: archive file [/home/abi/fetcher/tmp/adaux-2.4.5.tar.gz]
+[2023-06-26 01:32:21] INFO root fetch - processPackages [adaux]: Remove: archive file [/home/abi/fetcher/tmp/adaux-2.5.0.tar.gz]
+[2023-06-26 01:32:21] INFO root fetch - main [MainThread]: End processing [adaux]: success
+[2023-06-26 01:32:21] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 01:32:21] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 01:32:21] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-26 01:32:21] INFO root fetch - main [MainThread]: Store serial: [18639782]
