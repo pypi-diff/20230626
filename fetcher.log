@@ -1,0 +1,75 @@
+[2023-06-26 00:02:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639287]
+[2023-06-26 00:02:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-26 00:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openweathersdk
+[2023-06-26 00:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nitric
+[2023-06-26 00:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-06-26 00:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bare-estate
+[2023-06-26 00:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diambra-arena
+[2023-06-26 00:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c4m-pdk-ihpsg13g2
+[2023-06-26 00:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quik-ai
+[2023-06-26 00:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ultralytics
+[2023-06-26 00:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: g29py
+[2023-06-26 00:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kfish
+[2023-06-26 00:02:06] WARNING root fetch - processPackages [openweathersdk]: Skipping, unable to determine old version
+[2023-06-26 00:02:06] INFO root fetch - main [MainThread]: End processing [openweathersdk] error
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kfish]: New version: [99.0.202306252019] Old Version: [99.0.202306251827]
+[2023-06-26 00:02:06] INFO root fetch - processPackages [quik-ai]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-26 00:02:06] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/73/ed/72650860fd02a9abd81a266f4cba6c436ea6bdd908818c7c73eff4f36158/kfish-99.0.202306251827-py3-none-any.whl
+[2023-06-26 00:02:06] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/db/ce/b6c39188c0ef35eb96fe79eda2f3732fa6c5a9d6c59319ae2af1f8aef21f/quik-ai-1.1.0.tar.gz
+[2023-06-26 00:02:06] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-06-26 00:02:06] WARNING root fetch - processPackages [g29py]: Skipping, unable to determine old version
+[2023-06-26 00:02:06] INFO root fetch - main [MainThread]: End processing [g29py] error
+[2023-06-26 00:02:06] INFO root fetch - processPackages [bare-estate]: New version: [0.4] Old Version: [0.3]
+[2023-06-26 00:02:06] INFO root fetch - processPackages [diambra-arena]: New version: [2.1.0rc9] Old Version: [2.1.0rc8]
+[2023-06-26 00:02:06] INFO root fetch - processPackages [nitric]: New version: [0.9.2.dev4] Old Version: [0.9.2.dev3]
+[2023-06-26 00:02:06] WARNING root fetch - processPackages [c4m-pdk-ihpsg13g2]: Skipping, unable to determine old version
+[2023-06-26 00:02:06] INFO root fetch - main [MainThread]: End processing [c4m-pdk-ihpsg13g2] error
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kcli]: New version: [99.0.202306252159] Old Version: [99.0.202306252017]
+[2023-06-26 00:02:06] INFO root fetch - processPackages [quik-ai]: Downloading https://files.pythonhosted.org/packages/72/11/ceb3e90470f56dbb60acf233f42feafe19f8048e3ed361237c9736fd0b61/quik-ai-1.2.0.tar.gz
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/38/9c/62ba60b2fefa4e6690995fc0223d99e724b9e34e7b4e8ec913f558eb5063/kcli-99.0.202306252017-py3-none-any.whl
+[2023-06-26 00:02:06] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-06-26 00:02:06] INFO root fetch - processPackages [bare-estate]: Downloading https://files.pythonhosted.org/packages/31/fa/44f1341c32431d5bce827c406b79d2470d511b78c6ed18cc2d52374ee699/bare_estate-0.3.tar.gz
+[2023-06-26 00:02:06] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/36/be/d2c1fdfcc0ada2982dd1414051b7dfd198c6410fd2783d172ac0a6cdf19b/diambra-arena-2.1.0rc8.tar.gz
+[2023-06-26 00:02:06] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/07/f0/595fbac9f206ec8f9649c834789bcf28dcdcb8f8807d4362c3ceea12e922/nitric-0.9.2.dev3.tar.gz
+[2023-06-26 00:02:06] INFO root fetch - processPackages [quik-ai]: executing diffoscope
+[2023-06-26 00:02:06] INFO root fetch - processPackages [quik-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quik-ai-1.1.0.tar.gz tmp/quik-ai-1.2.0.tar.gz --markdown 20230626/q/quik-ai/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-26 00:02:06] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-06-26 00:02:06] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230626/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ff/38/4d4770dcc1c5229111b54d29bde841c9f312e42b060a33f85fb636537a96/kfish-99.0.202306252019-py3-none-any.whl
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306251827-py3-none-any.whl.zip tmp/kfish-99.0.202306252019-py3-none-any.whl.zip --markdown 20230626/k/kfish/99.0.202306251827-99.0.202306252019/diff.md --exclude *.pyd
+[2023-06-26 00:02:06] INFO root fetch - processPackages [bare-estate]: Downloading https://files.pythonhosted.org/packages/89/a0/e7ced1c3c77dd5a44cadbe8e3740b9e33ebe48f76ffb2ba50e34b7cf0924/bare_estate-0.4.tar.gz
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f5/41/49d077e37b8721179857b6066a611839f6fee8b46f294140ecbeb09830e4/kcli-99.0.202306252159-py3-none-any.whl
+[2023-06-26 00:02:06] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/6c/f7/5a35481a367b79b44cb842b15a2c47b07f5f622cb7bd647ea48e8fe508e0/diambra-arena-2.1.0rc9.tar.gz
+[2023-06-26 00:02:06] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/81/ed/c83b8e908616ce5f569a349cac17e6f68a635038057e0e6a74828dab1bdf/nitric-0.9.2.dev4.tar.gz
+[2023-06-26 00:02:06] INFO root fetch - processPackages [bare-estate]: executing diffoscope
+[2023-06-26 00:02:06] INFO root fetch - processPackages [bare-estate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bare_estate-0.3.tar.gz tmp/bare_estate-0.4.tar.gz --markdown 20230626/b/bare-estate/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-26 00:02:06] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306252017-py3-none-any.whl.zip tmp/kcli-99.0.202306252159-py3-none-any.whl.zip --markdown 20230626/k/kcli/99.0.202306252017-99.0.202306252159/diff.md --exclude *.pyd
+[2023-06-26 00:02:06] INFO root fetch - processPackages [diambra-arena]: executing diffoscope
+[2023-06-26 00:02:06] INFO root fetch - processPackages [diambra-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-arena-2.1.0rc8.tar.gz tmp/diambra-arena-2.1.0rc9.tar.gz --markdown 20230626/d/diambra-arena/2.1.0rc8-2.1.0rc9/diff.md --exclude *.pyd
+[2023-06-26 00:02:06] INFO root fetch - processPackages [nitric]: executing diffoscope
+[2023-06-26 00:02:06] INFO root fetch - processPackages [nitric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitric-0.9.2.dev3.tar.gz tmp/nitric-0.9.2.dev4.tar.gz --markdown 20230626/n/nitric/0.9.2.dev3-0.9.2.dev4/diff.md --exclude *.pyd
+[2023-06-26 00:02:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306251827-py3-none-any.whl.zip]
+[2023-06-26 00:02:08] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306252019-py3-none-any.whl.zip]
+[2023-06-26 00:02:08] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-26 00:02:08] INFO root fetch - processPackages [bare-estate]: Remove: archive file [/home/abi/fetcher/tmp/bare_estate-0.3.tar.gz]
+[2023-06-26 00:02:08] INFO root fetch - processPackages [bare-estate]: Remove: archive file [/home/abi/fetcher/tmp/bare_estate-0.4.tar.gz]
+[2023-06-26 00:02:08] INFO root fetch - main [MainThread]: End processing [bare-estate]: success
+[2023-06-26 00:02:08] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.1.0.tar.gz]
+[2023-06-26 00:02:08] INFO root fetch - processPackages [quik-ai]: Remove: archive file [/home/abi/fetcher/tmp/quik-ai-1.2.0.tar.gz]
+[2023-06-26 00:02:08] INFO root fetch - main [MainThread]: End processing [quik-ai]: success
+[2023-06-26 00:02:08] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra-arena-2.1.0rc8.tar.gz]
+[2023-06-26 00:02:08] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra-arena-2.1.0rc9.tar.gz]
+[2023-06-26 00:02:08] INFO root fetch - main [MainThread]: End processing [diambra-arena]: success
+[2023-06-26 00:02:08] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-0.9.2.dev3.tar.gz]
+[2023-06-26 00:02:08] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-0.9.2.dev4.tar.gz]
+[2023-06-26 00:02:08] INFO root fetch - main [MainThread]: End processing [nitric]: success
+[2023-06-26 00:02:09] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-06-26 00:02:09] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-06-26 00:02:09] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-06-26 00:02:14] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306252017-py3-none-any.whl.zip]
+[2023-06-26 00:02:14] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306252159-py3-none-any.whl.zip]
+[2023-06-26 00:02:14] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-26 00:02:14] INFO root fetch - main [MainThread]: Store serial: [18639321]
