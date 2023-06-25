@@ -1168,3 +1168,42 @@
 [2023-06-26 01:53:59] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.6.tar.gz]
 [2023-06-26 01:53:59] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-06-26 01:53:59] INFO root fetch - main [MainThread]: Store serial: [18639847]
+[2023-06-26 01:59:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639847]
+[2023-06-26 01:59:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-26 01:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytheus-backend-rs
+[2023-06-26 01:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swampyer
+[2023-06-26 01:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctfcli
+[2023-06-26 01:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flook
+[2023-06-26 01:59:08] INFO root fetch - processPackages [flook]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 01:59:08] INFO root fetch - processPackages [swampyer]: New version: [3.0.20230623] Old Version: [3.0.20230614]
+[2023-06-26 01:59:08] INFO root fetch - processPackages [pytheus-backend-rs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 01:59:08] INFO root fetch - processPackages [ctfcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 01:59:08] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/34/82/d2d51eef9153fa3025c5926930cd4922191e5b2f2cd3015f72f8cba90199/flook-0.1.2.tar.gz
+[2023-06-26 01:59:08] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/29/b8/26bf3a31b07b72b764f4df1ced8fdefb05a2f83482732e85ae4ad10ae8bf/flook-0.1.3.tar.gz
+[2023-06-26 01:59:08] INFO root fetch - processPackages [swampyer]: Downloading https://files.pythonhosted.org/packages/be/3a/c92617514852c5e7b557c786c27aeebc7dde09453b8b7b9d24b46a9b3f88/swampyer-3.0.20230614.tar.gz
+[2023-06-26 01:59:08] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/8d/d4/da64d04f8ff8909618797a871eb96dfcf2fa78a2610546173ef0d869cbcd/pytheus_backend_rs-0.0.4.tar.gz
+[2023-06-26 01:59:08] INFO root fetch - processPackages [ctfcli]: Downloading https://files.pythonhosted.org/packages/64/4e/e4e87b7c0ee11bb75ca1e68a4fdee4d1b0188b609e5e08731c8458cea27f/ctfcli-0.0.8.tar.gz
+[2023-06-26 01:59:08] INFO root fetch - processPackages [flook]: executing diffoscope
+[2023-06-26 01:59:08] INFO root fetch - processPackages [flook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flook-0.1.2.tar.gz tmp/flook-0.1.3.tar.gz --markdown 20230626/f/flook/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 01:59:08] INFO root fetch - processPackages [swampyer]: Downloading https://files.pythonhosted.org/packages/83/a2/44195285d967f506a11a28b6bdbc7d7d134020c53cd3ee08cd43f626762b/swampyer-3.0.20230623.tar.gz
+[2023-06-26 01:59:08] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/1d/a6/2a82173591d99ca6bb3e1721b5180c07fbd9ed3c928aa92a880de2e992df/pytheus_backend_rs-0.0.5.tar.gz
+[2023-06-26 01:59:08] INFO root fetch - processPackages [swampyer]: executing diffoscope
+[2023-06-26 01:59:08] INFO root fetch - processPackages [swampyer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swampyer-3.0.20230614.tar.gz tmp/swampyer-3.0.20230623.tar.gz --markdown 20230626/s/swampyer/3.0.20230614-3.0.20230623/diff.md --exclude *.pyd
+[2023-06-26 01:59:08] INFO root fetch - processPackages [ctfcli]: Downloading https://files.pythonhosted.org/packages/97/87/25ecc333825fbb2fe265299e332a259cc1fc0037969ce58b6a06acc38632/ctfcli-0.0.9.tar.gz
+[2023-06-26 01:59:08] INFO root fetch - processPackages [pytheus-backend-rs]: executing diffoscope
+[2023-06-26 01:59:08] INFO root fetch - processPackages [pytheus-backend-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus_backend_rs-0.0.4.tar.gz tmp/pytheus_backend_rs-0.0.5.tar.gz --markdown 20230626/p/pytheus-backend-rs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 01:59:09] INFO root fetch - processPackages [ctfcli]: executing diffoscope
+[2023-06-26 01:59:09] INFO root fetch - processPackages [ctfcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctfcli-0.0.8.tar.gz tmp/ctfcli-0.0.9.tar.gz --markdown 20230626/c/ctfcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 01:59:10] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.2.tar.gz]
+[2023-06-26 01:59:10] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.3.tar.gz]
+[2023-06-26 01:59:10] INFO root fetch - main [MainThread]: End processing [flook]: success
+[2023-06-26 01:59:10] INFO root fetch - processPackages [swampyer]: Remove: archive file [/home/abi/fetcher/tmp/swampyer-3.0.20230614.tar.gz]
+[2023-06-26 01:59:10] INFO root fetch - processPackages [swampyer]: Remove: archive file [/home/abi/fetcher/tmp/swampyer-3.0.20230623.tar.gz]
+[2023-06-26 01:59:10] INFO root fetch - main [MainThread]: End processing [swampyer]: success
+[2023-06-26 01:59:10] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.4.tar.gz]
+[2023-06-26 01:59:10] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.5.tar.gz]
+[2023-06-26 01:59:10] INFO root fetch - main [MainThread]: End processing [pytheus-backend-rs]: success
+[2023-06-26 01:59:10] INFO root fetch - processPackages [ctfcli]: Remove: archive file [/home/abi/fetcher/tmp/ctfcli-0.0.8.tar.gz]
+[2023-06-26 01:59:10] INFO root fetch - processPackages [ctfcli]: Remove: archive file [/home/abi/fetcher/tmp/ctfcli-0.0.9.tar.gz]
+[2023-06-26 01:59:10] INFO root fetch - main [MainThread]: End processing [ctfcli]: success
+[2023-06-26 01:59:10] INFO root fetch - main [MainThread]: Store serial: [18639915]
