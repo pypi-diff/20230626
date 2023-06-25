@@ -73,3 +73,63 @@
 [2023-06-26 00:02:14] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306252159-py3-none-any.whl.zip]
 [2023-06-26 00:02:14] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-26 00:02:14] INFO root fetch - main [MainThread]: Store serial: [18639321]
+[2023-06-26 00:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639321]
+[2023-06-26 00:07:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-mvg-api
+[2023-06-26 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightmotif
+[2023-06-26 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-ecosystem-services
+[2023-06-26 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: countach
+[2023-06-26 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdxbasics
+[2023-06-26 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trimnet
+[2023-06-26 00:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kappadata
+[2023-06-26 00:07:23] INFO root fetch - processPackages [async-mvg-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 00:07:23] WARNING root fetch - processPackages [trimnet]: Skipping, unable to determine old version
+[2023-06-26 00:07:23] INFO root fetch - main [MainThread]: End processing [trimnet] error
+[2023-06-26 00:07:23] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-26 00:07:23] INFO root fetch - processPackages [countach]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-26 00:07:23] INFO root fetch - processPackages [lightmotif]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-26 00:07:23] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 00:07:23] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-26 00:07:23] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-26 00:07:23] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/c5/80/77c18d6fe20c85e84690c356497f237d348af2b7558ce01b14c460db59e9/kappadata-1.2.8.tar.gz
+[2023-06-26 00:07:23] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-06-26 00:07:23] INFO root fetch - processPackages [async-mvg-api]: Downloading https://files.pythonhosted.org/packages/a0/02/3cfa07554a689efdb84c24458b406a8428103aaa5df8314aac6882b628b1/async_mvg_api-0.1.4.tar.gz
+[2023-06-26 00:07:23] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/6b/25/ceb4f83c59a4447b0c7e6db154402e4159e2a5dd958e4428d855e0248515/kappadata-1.2.9.tar.gz
+[2023-06-26 00:07:23] INFO root fetch - processPackages [lightmotif]: Downloading https://files.pythonhosted.org/packages/57/b0/ec01c22536824a662a36ca89c813f0a00325d7559991a2a8cd6d6378c240/lightmotif-0.2.0.tar.gz
+[2023-06-26 00:07:23] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-26 00:07:23] INFO root fetch - processPackages [countach]: Downloading https://files.pythonhosted.org/packages/16/09/b4d2d633867bf99f912d61381b188d676868b4dca04c091acbb6693dd17c/countach-1.0.1.tar.gz
+[2023-06-26 00:07:24] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-06-26 00:07:24] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-06-26 00:07:24] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230626/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-26 00:07:24] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-26 00:07:24] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230626/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-26 00:07:24] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-06-26 00:07:24] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230626/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 00:07:24] INFO root fetch - processPackages [async-mvg-api]: Downloading https://files.pythonhosted.org/packages/17/94/847cd5fe29c98e55a6ad91dffa895767c801e50819735e7a04e154231292/async_mvg_api-0.1.5.tar.gz
+[2023-06-26 00:07:24] INFO root fetch - processPackages [countach]: Downloading https://files.pythonhosted.org/packages/b6/c5/103b9d112dbaa721f94b3d563c62489edc2a07c9636fc11fc86318ee85f2/countach-1.1.0.tar.gz
+[2023-06-26 00:07:24] INFO root fetch - processPackages [async-mvg-api]: executing diffoscope
+[2023-06-26 00:07:24] INFO root fetch - processPackages [async-mvg-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_mvg_api-0.1.4.tar.gz tmp/async_mvg_api-0.1.5.tar.gz --markdown 20230626/a/async-mvg-api/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 00:07:24] INFO root fetch - processPackages [countach]: executing diffoscope
+[2023-06-26 00:07:24] INFO root fetch - processPackages [countach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countach-1.0.1.tar.gz tmp/countach-1.1.0.tar.gz --markdown 20230626/c/countach/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-26 00:07:24] INFO root fetch - processPackages [lightmotif]: Downloading https://files.pythonhosted.org/packages/15/25/f97d0dcd72ac6b9ad24aa78eee3b3cd957a9a5115e92f7feecc0f738f167/lightmotif-0.3.0.tar.gz
+[2023-06-26 00:07:24] INFO root fetch - processPackages [lightmotif]: executing diffoscope
+[2023-06-26 00:07:24] INFO root fetch - processPackages [lightmotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightmotif-0.2.0.tar.gz tmp/lightmotif-0.3.0.tar.gz --markdown 20230626/l/lightmotif/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 00:07:25] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-26 00:07:25] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-26 00:07:25] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-26 00:07:25] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-06-26 00:07:25] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-06-26 00:07:25] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-06-26 00:07:25] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.8.tar.gz]
+[2023-06-26 00:07:25] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.2.9.tar.gz]
+[2023-06-26 00:07:25] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-06-26 00:07:25] INFO root fetch - processPackages [countach]: Remove: archive file [/home/abi/fetcher/tmp/countach-1.0.1.tar.gz]
+[2023-06-26 00:07:25] INFO root fetch - processPackages [countach]: Remove: archive file [/home/abi/fetcher/tmp/countach-1.1.0.tar.gz]
+[2023-06-26 00:07:25] INFO root fetch - main [MainThread]: End processing [countach]: success
+[2023-06-26 00:07:26] INFO root fetch - processPackages [lightmotif]: Remove: archive file [/home/abi/fetcher/tmp/lightmotif-0.2.0.tar.gz]
+[2023-06-26 00:07:26] INFO root fetch - processPackages [lightmotif]: Remove: archive file [/home/abi/fetcher/tmp/lightmotif-0.3.0.tar.gz]
+[2023-06-26 00:07:26] INFO root fetch - main [MainThread]: End processing [lightmotif]: success
+[2023-06-26 00:07:26] INFO root fetch - processPackages [async-mvg-api]: Remove: archive file [/home/abi/fetcher/tmp/async_mvg_api-0.1.4.tar.gz]
+[2023-06-26 00:07:26] INFO root fetch - processPackages [async-mvg-api]: Remove: archive file [/home/abi/fetcher/tmp/async_mvg_api-0.1.5.tar.gz]
+[2023-06-26 00:07:26] INFO root fetch - main [MainThread]: End processing [async-mvg-api]: success
+[2023-06-26 00:07:26] INFO root fetch - main [MainThread]: Store serial: [18639379]
