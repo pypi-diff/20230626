@@ -384,3 +384,78 @@
 [2023-06-26 00:39:33] INFO root fetch - processPackages [plone.distribution]: Remove: archive file [/home/abi/fetcher/tmp/plone.distribution-1.0.0a8.tar.gz]
 [2023-06-26 00:39:33] INFO root fetch - main [MainThread]: End processing [plone.distribution]: success
 [2023-06-26 00:39:33] INFO root fetch - main [MainThread]: Store serial: [18639506]
+[2023-06-26 00:44:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639506]
+[2023-06-26 00:44:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-26 00:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eons
+[2023-06-26 00:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UnlimitedGPT
+[2023-06-26 00:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VisualFlow
+[2023-06-26 00:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asBASE
+[2023-06-26 00:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: framegrab
+[2023-06-26 00:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Tools-OC
+[2023-06-26 00:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drawsvg
+[2023-06-26 00:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sigstickers
+[2023-06-26 00:44:43] INFO root fetch - processPackages [VisualFlow]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 00:44:43] INFO root fetch - processPackages [asBASE]: New version: [0.5] Old Version: [0.4]
+[2023-06-26 00:44:43] INFO root fetch - processPackages [eons]: New version: [2.6.5] Old Version: [2.6.4]
+[2023-06-26 00:44:43] INFO root fetch - processPackages [framegrab]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 00:44:43] INFO root fetch - processPackages [UnlimitedGPT]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-26 00:44:43] INFO root fetch - processPackages [Tools-OC]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-26 00:44:43] INFO root fetch - processPackages [drawsvg]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-26 00:44:43] INFO root fetch - processPackages [framegrab]: Downloading https://files.pythonhosted.org/packages/ab/0a/ed8f96da7083286b13033e31d909a83886c4eaf7c9ddf2a62b882d493adc/framegrab-0.1.1.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [sigstickers]: New version: [2022.1.1] Old Version: [2022.1]
+[2023-06-26 00:44:43] INFO root fetch - processPackages [VisualFlow]: Downloading https://files.pythonhosted.org/packages/98/47/077a5f27aeee7e2dd5900f29742166e5e67ed01da3b1f760db20b21854ea/VisualFlow-0.1.0.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [asBASE]: Downloading https://files.pythonhosted.org/packages/4b/97/41551da8cf6aaaf78a8b9b4c8394c53676c12103b5501266d4f9bfbd74b4/asBASE-0.4.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [Tools-OC]: Downloading https://files.pythonhosted.org/packages/84/ec/8859629c2e0b21d86cff630c78bbb1e6ad7a09ba9c643fa2e66f0386a5b2/Tools-OC-1.1.0.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/dd/f7/74d905a2706756fd23cb19d4abe85d19479cb4690d117a68b9cf65a6122e/eons-2.6.4.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [UnlimitedGPT]: Downloading https://files.pythonhosted.org/packages/06/f3/f89ea038c299c51666c49babe9b818a929c59c7d17caea4198f8244dcf06/UnlimitedGPT-0.1.6.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [drawsvg]: Downloading https://files.pythonhosted.org/packages/4e/66/82d45bfcec672377f8b7051343c0164200d1eaf92cca6f5f846bde191e57/drawsvg-2.1.1-py3-none-any.whl
+[2023-06-26 00:44:43] INFO root fetch - processPackages [sigstickers]: Downloading https://files.pythonhosted.org/packages/54/0d/973a2dfe0137511db5bfb3a0107d4c3f413695bf37c52d277a096969470b/sigstickers-2022.1.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [framegrab]: Downloading https://files.pythonhosted.org/packages/98/96/651df959d9efc3d023a16e16efab152957a7fc418b914a144c141f38f6a5/framegrab-0.1.2.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [asBASE]: Downloading https://files.pythonhosted.org/packages/98/9e/105242569fe909e85696d1a21be0ee8a16e4ed7314dbb1ce2853de3f31d6/asBASE-0.5.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [framegrab]: executing diffoscope
+[2023-06-26 00:44:43] INFO root fetch - processPackages [framegrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framegrab-0.1.1.tar.gz tmp/framegrab-0.1.2.tar.gz --markdown 20230626/f/framegrab/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 00:44:43] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/bc/ec/6fbd8f34ef0145e0ebe1e4450bd51641d0dc09459aefe4f71634f395b7c2/eons-2.6.5.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [VisualFlow]: Downloading https://files.pythonhosted.org/packages/14/fd/1233e7657d1d38445a86a46988b27bcb9307c97c2edc9905c2ae2bd8cb56/VisualFlow-0.1.1.tar.gz
+[2023-06-26 00:44:43] INFO root fetch - processPackages [asBASE]: executing diffoscope
+[2023-06-26 00:44:43] INFO root fetch - processPackages [asBASE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asBASE-0.4.tar.gz tmp/asBASE-0.5.tar.gz --markdown 20230626/a/asBASE/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-26 00:44:43] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-06-26 00:44:43] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.6.4.tar.gz tmp/eons-2.6.5.tar.gz --markdown 20230626/e/eons/2.6.4-2.6.5/diff.md --exclude *.pyd
+[2023-06-26 00:44:44] INFO root fetch - processPackages [VisualFlow]: executing diffoscope
+[2023-06-26 00:44:44] INFO root fetch - processPackages [VisualFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisualFlow-0.1.0.tar.gz tmp/VisualFlow-0.1.1.tar.gz --markdown 20230626/V/VisualFlow/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 00:44:44] INFO root fetch - processPackages [drawsvg]: Downloading https://files.pythonhosted.org/packages/b6/4c/f03341a58c65328ee6f6c1f4966d928e61d3ec2160a85c5aaebca35f8e4e/drawsvg-2.2.0-py3-none-any.whl
+[2023-06-26 00:44:44] INFO root fetch - processPackages [UnlimitedGPT]: Downloading https://files.pythonhosted.org/packages/7f/e3/abcdda603d02022ae0e78a0baab9c0cfc46ecdeb7930f1c422fc06cf84ee/UnlimitedGPT-0.1.7.tar.gz
+[2023-06-26 00:44:44] INFO root fetch - processPackages [Tools-OC]: Downloading https://files.pythonhosted.org/packages/49/f0/0e055f1e642363f018b5502a135ab945a4489bf772b70670a3c2e8a1290d/Tools-OC-1.2.0.tar.gz
+[2023-06-26 00:44:44] INFO root fetch - processPackages [sigstickers]: Downloading https://files.pythonhosted.org/packages/70/e9/939a560af467ae7ddaa7ccf7a275ae79582540a7399d9c6f4216b3e8e88a/sigstickers-2022.1.1.tar.gz
+[2023-06-26 00:44:44] INFO root fetch - processPackages [drawsvg]: executing diffoscope
+[2023-06-26 00:44:44] INFO root fetch - processPackages [drawsvg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drawsvg-2.1.1-py3-none-any.whl.zip tmp/drawsvg-2.2.0-py3-none-any.whl.zip --markdown 20230626/d/drawsvg/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-26 00:44:44] INFO root fetch - processPackages [UnlimitedGPT]: executing diffoscope
+[2023-06-26 00:44:44] INFO root fetch - processPackages [UnlimitedGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnlimitedGPT-0.1.6.tar.gz tmp/UnlimitedGPT-0.1.7.tar.gz --markdown 20230626/U/UnlimitedGPT/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-26 00:44:44] INFO root fetch - processPackages [Tools-OC]: executing diffoscope
+[2023-06-26 00:44:44] INFO root fetch - processPackages [Tools-OC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tools-OC-1.1.0.tar.gz tmp/Tools-OC-1.2.0.tar.gz --markdown 20230626/T/Tools-OC/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-26 00:44:44] INFO root fetch - processPackages [sigstickers]: executing diffoscope
+[2023-06-26 00:44:44] INFO root fetch - processPackages [sigstickers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigstickers-2022.1.tar.gz tmp/sigstickers-2022.1.1.tar.gz --markdown 20230626/s/sigstickers/2022.1-2022.1.1/diff.md --exclude *.pyd
+[2023-06-26 00:44:45] INFO root fetch - processPackages [asBASE]: Remove: archive file [/home/abi/fetcher/tmp/asBASE-0.4.tar.gz]
+[2023-06-26 00:44:45] INFO root fetch - processPackages [asBASE]: Remove: archive file [/home/abi/fetcher/tmp/asBASE-0.5.tar.gz]
+[2023-06-26 00:44:45] INFO root fetch - main [MainThread]: End processing [asBASE]: success
+[2023-06-26 00:44:45] INFO root fetch - processPackages [framegrab]: Remove: archive file [/home/abi/fetcher/tmp/framegrab-0.1.1.tar.gz]
+[2023-06-26 00:44:45] INFO root fetch - processPackages [framegrab]: Remove: archive file [/home/abi/fetcher/tmp/framegrab-0.1.2.tar.gz]
+[2023-06-26 00:44:45] INFO root fetch - main [MainThread]: End processing [framegrab]: success
+[2023-06-26 00:44:45] INFO root fetch - processPackages [VisualFlow]: Remove: archive file [/home/abi/fetcher/tmp/VisualFlow-0.1.0.tar.gz]
+[2023-06-26 00:44:45] INFO root fetch - processPackages [VisualFlow]: Remove: archive file [/home/abi/fetcher/tmp/VisualFlow-0.1.1.tar.gz]
+[2023-06-26 00:44:45] INFO root fetch - main [MainThread]: End processing [VisualFlow]: success
+[2023-06-26 00:44:45] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.4.tar.gz]
+[2023-06-26 00:44:45] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.5.tar.gz]
+[2023-06-26 00:44:45] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-06-26 00:44:46] INFO root fetch - processPackages [UnlimitedGPT]: Remove: archive file [/home/abi/fetcher/tmp/UnlimitedGPT-0.1.6.tar.gz]
+[2023-06-26 00:44:46] INFO root fetch - processPackages [UnlimitedGPT]: Remove: archive file [/home/abi/fetcher/tmp/UnlimitedGPT-0.1.7.tar.gz]
+[2023-06-26 00:44:46] INFO root fetch - main [MainThread]: End processing [UnlimitedGPT]: success
+[2023-06-26 00:44:46] INFO root fetch - processPackages [Tools-OC]: Remove: archive file [/home/abi/fetcher/tmp/Tools-OC-1.1.0.tar.gz]
+[2023-06-26 00:44:46] INFO root fetch - processPackages [Tools-OC]: Remove: archive file [/home/abi/fetcher/tmp/Tools-OC-1.2.0.tar.gz]
+[2023-06-26 00:44:46] INFO root fetch - main [MainThread]: End processing [Tools-OC]: success
+[2023-06-26 00:44:46] INFO root fetch - processPackages [sigstickers]: Remove: archive file [/home/abi/fetcher/tmp/sigstickers-2022.1.tar.gz]
+[2023-06-26 00:44:46] INFO root fetch - processPackages [sigstickers]: Remove: archive file [/home/abi/fetcher/tmp/sigstickers-2022.1.1.tar.gz]
+[2023-06-26 00:44:46] INFO root fetch - main [MainThread]: End processing [sigstickers]: success
+[2023-06-26 00:44:46] INFO root fetch - processPackages [drawsvg]: Remove: archive file [/home/abi/fetcher/tmp/drawsvg-2.1.1-py3-none-any.whl.zip]
+[2023-06-26 00:44:46] INFO root fetch - processPackages [drawsvg]: Remove: archive file [/home/abi/fetcher/tmp/drawsvg-2.2.0-py3-none-any.whl.zip]
+[2023-06-26 00:44:46] INFO root fetch - main [MainThread]: End processing [drawsvg]: success
+[2023-06-26 00:44:46] INFO root fetch - main [MainThread]: Store serial: [18639533]
