@@ -1144,3 +1144,27 @@
 [2023-06-26 01:48:48] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.5.0.tar.gz]
 [2023-06-26 01:48:48] INFO root fetch - main [MainThread]: End processing [hdx-python-country]: success
 [2023-06-26 01:48:48] INFO root fetch - main [MainThread]: Store serial: [18639837]
+[2023-06-26 01:53:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639837]
+[2023-06-26 01:53:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-26 01:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m23
+[2023-06-26 01:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellregulondb
+[2023-06-26 01:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midas-data-util
+[2023-06-26 01:53:57] INFO root fetch - processPackages [m23]: New version: [1.8.6] Old Version: [1.8.5]
+[2023-06-26 01:53:57] INFO root fetch - processPackages [midas-data-util]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-26 01:53:57] WARNING root fetch - processPackages [cellregulondb]: Skipping, unable to determine old version
+[2023-06-26 01:53:57] INFO root fetch - main [MainThread]: End processing [cellregulondb] error
+[2023-06-26 01:53:57] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/59/a8b8a5ef1d5105b956ec890065e8c1d6eebd659b328b2850eaed0850cb99/m23-1.8.5.tar.gz
+[2023-06-26 01:53:57] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/55/3c/9a6c668a90301008e64b106ebabddef7becf89016aced6d0af784e1ef0f2/midas-data-util-0.2.4.tar.gz
+[2023-06-26 01:53:57] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/2d/ae/88fce9f881a89d68b358208573ab65d284e14295becbaa5b920683a3d983/midas-data-util-0.2.5.tar.gz
+[2023-06-26 01:53:57] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/f9/87/ef78cc5190d799e1c4e6278b61605502f642152d1a21dca2f9bf3e1be42b/m23-1.8.6.tar.gz
+[2023-06-26 01:53:57] INFO root fetch - processPackages [midas-data-util]: executing diffoscope
+[2023-06-26 01:53:57] INFO root fetch - processPackages [midas-data-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-data-util-0.2.4.tar.gz tmp/midas-data-util-0.2.5.tar.gz --markdown 20230626/m/midas-data-util/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-26 01:53:57] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-26 01:53:57] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.8.5.tar.gz tmp/m23-1.8.6.tar.gz --markdown 20230626/m/m23/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2023-06-26 01:53:58] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.2.4.tar.gz]
+[2023-06-26 01:53:58] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.2.5.tar.gz]
+[2023-06-26 01:53:58] INFO root fetch - main [MainThread]: End processing [midas-data-util]: success
+[2023-06-26 01:53:59] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.5.tar.gz]
+[2023-06-26 01:53:59] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.6.tar.gz]
+[2023-06-26 01:53:59] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-26 01:53:59] INFO root fetch - main [MainThread]: Store serial: [18639847]
