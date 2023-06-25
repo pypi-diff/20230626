@@ -808,3 +808,31 @@
 [2023-06-26 01:11:28] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306252306.tar.gz]
 [2023-06-26 01:11:28] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
 [2023-06-26 01:11:28] INFO root fetch - main [MainThread]: Store serial: [18639675]
+[2023-06-26 01:16:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639675]
+[2023-06-26 01:16:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-26 01:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopack-tools
+[2023-06-26 01:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cstore
+[2023-06-26 01:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopack-tools
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 01:16:37] INFO root fetch - processPackages [cstore]: New version: [0.6.0] Old Version: [0.3.3]
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/6c/ef/8a9694a8ade0f2c7e2bca0dc011d2629d611ffa410fa69bfd0a049ab9717/autopack_tools-0.1.1.tar.gz
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/6c/ef/8a9694a8ade0f2c7e2bca0dc011d2629d611ffa410fa69bfd0a049ab9717/autopack_tools-0.1.1.tar.gz
+[2023-06-26 01:16:37] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/0b/c0/c7d5ba7c6e61f08967a8b2ce7ce35b6e4346f6558f3a50dd68121cb0e6fe/cstore-0.3.3.tar.gz
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/b8/f6/d5fcb6095973e9009a2f6a16a55d92a7e21a36e8e3ffed56c64715d914ec/autopack_tools-0.1.2.tar.gz
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/b8/f6/d5fcb6095973e9009a2f6a16a55d92a7e21a36e8e3ffed56c64715d914ec/autopack_tools-0.1.2.tar.gz
+[2023-06-26 01:16:37] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/61/a8/ac49223701db5e3c6480ffe62ad2eb445653e5e21dbeb40e69a37212af35/cstore-0.6.0.tar.gz
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.1.1.tar.gz tmp/autopack_tools-0.1.2.tar.gz --markdown 20230626/a/autopack-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 01:16:37] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.1.1.tar.gz tmp/autopack_tools-0.1.2.tar.gz --markdown 20230626/a/autopack-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 01:16:38] INFO root fetch - processPackages [cstore]: executing diffoscope
+[2023-06-26 01:16:38] INFO root fetch - processPackages [cstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstore-0.3.3.tar.gz tmp/cstore-0.6.0.tar.gz --markdown 20230626/c/cstore/0.3.3-0.6.0/diff.md --exclude *.pyd
+[2023-06-26 01:16:39] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.1.tar.gz]
+[2023-06-26 01:16:39] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.2.tar.gz]
+[2023-06-26 01:16:39] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-06-26 01:16:39] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.3.3.tar.gz]
+[2023-06-26 01:16:39] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.6.0.tar.gz]
+[2023-06-26 01:16:39] INFO root fetch - main [MainThread]: End processing [cstore]: success
+[2023-06-26 01:16:39] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-06-26 01:16:39] INFO root fetch - main [MainThread]: Store serial: [18639688]
