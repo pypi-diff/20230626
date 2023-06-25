@@ -890,3 +890,54 @@
 [2023-06-26 01:21:56] INFO root fetch - processPackages [mypy]: Remove: archive file [/home/abi/fetcher/tmp/mypy-1.4.1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-26 01:21:56] INFO root fetch - main [MainThread]: End processing [mypy]: success
 [2023-06-26 01:21:56] INFO root fetch - main [MainThread]: Store serial: [18639722]
+[2023-06-26 01:27:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639722]
+[2023-06-26 01:27:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 01:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygount
+[2023-06-26 01:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PLZREMLA23Team09LibProject
+[2023-06-26 01:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopack-tools
+[2023-06-26 01:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cutde
+[2023-06-26 01:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hardyweinbergcalculator
+[2023-06-26 01:27:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pillar1
+[2023-06-26 01:27:05] WARNING root fetch - processPackages [PLZREMLA23Team09LibProject]: Skipping, unable to determine old version
+[2023-06-26 01:27:05] INFO root fetch - main [MainThread]: End processing [PLZREMLA23Team09LibProject] error
+[2023-06-26 01:27:05] INFO root fetch - processPackages [pygount]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-26 01:27:05] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-26 01:27:05] INFO root fetch - processPackages [autopack-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 01:27:05] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.45] Old Version: [0.1.8.44]
+[2023-06-26 01:27:05] INFO root fetch - processPackages [cutde]: New version: [23.6.25] Old Version: [22.3.17.5]
+[2023-06-26 01:27:05] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/f8/20/da61835f8ce0ea577d30a8c33a7e50cbb0a39a0ace11aa778b6dfc156bea/pillar1-0.1.8.44.tar.gz
+[2023-06-26 01:27:05] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/b8/f6/d5fcb6095973e9009a2f6a16a55d92a7e21a36e8e3ffed56c64715d914ec/autopack_tools-0.1.2.tar.gz
+[2023-06-26 01:27:05] INFO root fetch - processPackages [pygount]: Downloading https://files.pythonhosted.org/packages/51/a5/2285e04702c688b817e7076165b77d4aaa38afc9994f8b1aeedcb29424ce/pygount-1.5.1.tar.gz
+[2023-06-26 01:27:05] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/6b/29/daf2fa5fa815babde5277e427ba590f03a41ab90a380ca9c98b1692bfaec/hardyweinbergcalculator-0.3.4.zip
+[2023-06-26 01:27:05] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/b0/e5/7661a35482fbd5f766095cc2436957d655625d663bdcc276885c2a90b57e/pillar1-0.1.8.45.tar.gz
+[2023-06-26 01:27:05] INFO root fetch - processPackages [cutde]: Downloading https://files.pythonhosted.org/packages/b2/84/41c9d2c74ff8a829b9e23e1f587927679e743373067685d26799d53c6fbc/cutde-22.3.17.5.tar.gz
+[2023-06-26 01:27:05] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-26 01:27:05] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.44.tar.gz tmp/pillar1-0.1.8.45.tar.gz --markdown 20230626/p/pillar1/0.1.8.44-0.1.8.45/diff.md --exclude *.pyd
+[2023-06-26 01:27:05] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/40/a1/66f5c6a34c33523fac764391e7dae9c8e5b6d351893a94d9d5c390aea1ba/autopack_tools-0.1.3.tar.gz
+[2023-06-26 01:27:06] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-06-26 01:27:06] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.1.2.tar.gz tmp/autopack_tools-0.1.3.tar.gz --markdown 20230626/a/autopack-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 01:27:06] INFO root fetch - processPackages [pygount]: Downloading https://files.pythonhosted.org/packages/90/bc/bb2810bc0e824a84d926d75f9976b0dee5e8bc8aa785ed23226af735b768/pygount-1.6.0.tar.gz
+[2023-06-26 01:27:06] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/26/ac/69b32134ba684de603b307bec6ee172ea3889ac473df2675e1602951c938/hardyweinbergcalculator-0.3.5.zip
+[2023-06-26 01:27:06] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-26 01:27:06] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.3.4.zip tmp/hardyweinbergcalculator-0.3.5.zip --markdown 20230626/h/hardyweinbergcalculator/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-26 01:27:06] INFO root fetch - processPackages [pygount]: executing diffoscope
+[2023-06-26 01:27:06] INFO root fetch - processPackages [pygount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygount-1.5.1.tar.gz tmp/pygount-1.6.0.tar.gz --markdown 20230626/p/pygount/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-26 01:27:06] INFO root fetch - processPackages [cutde]: Downloading https://files.pythonhosted.org/packages/08/15/0ae45db8fcc0d2da6002d13900689e2fe7773da038922b1ff450ab08088e/cutde-23.6.25.tar.gz
+[2023-06-26 01:27:06] INFO root fetch - processPackages [cutde]: executing diffoscope
+[2023-06-26 01:27:06] INFO root fetch - processPackages [cutde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutde-22.3.17.5.tar.gz tmp/cutde-23.6.25.tar.gz --markdown 20230626/c/cutde/22.3.17.5-23.6.25/diff.md --exclude *.pyd
+[2023-06-26 01:27:07] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.44.tar.gz]
+[2023-06-26 01:27:07] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.45.tar.gz]
+[2023-06-26 01:27:07] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-26 01:27:07] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.2.tar.gz]
+[2023-06-26 01:27:07] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.1.3.tar.gz]
+[2023-06-26 01:27:07] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-06-26 01:27:07] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.4.zip]
+[2023-06-26 01:27:07] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.5.zip]
+[2023-06-26 01:27:07] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-26 01:27:07] INFO root fetch - processPackages [pygount]: Remove: archive file [/home/abi/fetcher/tmp/pygount-1.5.1.tar.gz]
+[2023-06-26 01:27:07] INFO root fetch - processPackages [pygount]: Remove: archive file [/home/abi/fetcher/tmp/pygount-1.6.0.tar.gz]
+[2023-06-26 01:27:07] INFO root fetch - main [MainThread]: End processing [pygount]: success
+[2023-06-26 01:27:09] INFO root fetch - processPackages [cutde]: Remove: archive file [/home/abi/fetcher/tmp/cutde-22.3.17.5.tar.gz]
+[2023-06-26 01:27:09] INFO root fetch - processPackages [cutde]: Remove: archive file [/home/abi/fetcher/tmp/cutde-23.6.25.tar.gz]
+[2023-06-26 01:27:09] INFO root fetch - main [MainThread]: End processing [cutde]: success
+[2023-06-26 01:27:09] INFO root fetch - main [MainThread]: Store serial: [18639766]
