@@ -285,3 +285,63 @@
 [2023-06-26 00:28:12] INFO root fetch - processPackages [amid]: Remove: archive file [/home/abi/fetcher/tmp/amid-0.9.1.tar.gz]
 [2023-06-26 00:28:12] INFO root fetch - main [MainThread]: End processing [amid]: success
 [2023-06-26 00:28:12] INFO root fetch - main [MainThread]: Store serial: [18639466]
+[2023-06-26 00:33:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639466]
+[2023-06-26 00:33:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 00:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Telegram-Alert
+[2023-06-26 00:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WIDscript
+[2023-06-26 00:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inventree-wled-locator
+[2023-06-26 00:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: judini
+[2023-06-26 00:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml-starter
+[2023-06-26 00:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyphetools
+[2023-06-26 00:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dlt
+[2023-06-26 00:33:21] INFO root fetch - processPackages [inventree-wled-locator]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-26 00:33:21] WARNING root fetch - processPackages [judini]: Skipping, unable to determine old version
+[2023-06-26 00:33:21] INFO root fetch - main [MainThread]: End processing [judini] error
+[2023-06-26 00:33:21] INFO root fetch - processPackages [Telegram-Alert]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-26 00:33:21] INFO root fetch - processPackages [ml-starter]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 00:33:21] INFO root fetch - processPackages [WIDscript]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-26 00:33:21] INFO root fetch - processPackages [pyphetools]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-26 00:33:21] INFO root fetch - processPackages [inventree-wled-locator]: Downloading https://files.pythonhosted.org/packages/7c/1f/eee749e27669fdcd9bf1e90f64ca38457a2f3949efef5a011f790af0f346/inventree-wled-locator-0.2.1.tar.gz
+[2023-06-26 00:33:21] INFO root fetch - processPackages [dlt]: New version: [0.3.2] Old Version: [0.3.1a0]
+[2023-06-26 00:33:21] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/2f/3e/df3eb7e5c259a4839e4410adaf9d3ab35029f958296bf4d375fc5dbad9af/pyphetools-0.2.7.tar.gz
+[2023-06-26 00:33:21] INFO root fetch - processPackages [Telegram-Alert]: Downloading https://files.pythonhosted.org/packages/f1/d0/03d81520f83aeeecb8b953d62b21162af32fe92b7dbb0fb0c078b6dd70b5/Telegram%20Alert-1.0.3.tar.gz
+[2023-06-26 00:33:21] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/c4/1e/75afee3d2671fd56025f3eadbaf150061030fe5daece81745a2ee7b2c3ea/ml-starter-0.1.4.tar.gz
+[2023-06-26 00:33:21] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/a0/09/c043bb89e8451345bc5af62e161c70bf3f9b43e8e2887f9b5a02998acc48/pyphetools-0.2.9.tar.gz
+[2023-06-26 00:33:22] INFO root fetch - processPackages [inventree-wled-locator]: Downloading https://files.pythonhosted.org/packages/a0/e6/bb7a6174126413c057820485c4ad1eaadae89e55f6f6800b160b110ccaa5/inventree-wled-locator-0.2.2.tar.gz
+[2023-06-26 00:33:22] INFO root fetch - processPackages [WIDscript]: Downloading https://files.pythonhosted.org/packages/78/62/b6209cf36ca62a0cd5655d6ad7bdc419ce09e947844c12d9d0d10fa4be9b/WIDscript-1.1.1.tar.gz
+[2023-06-26 00:33:22] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/a3/d4/1cc89ec416257fac50216368462791a0883deaccf61c9b8dccb5ea1d627d/dlt-0.3.1a0.tar.gz
+[2023-06-26 00:33:22] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-06-26 00:33:22] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.2.7.tar.gz tmp/pyphetools-0.2.9.tar.gz --markdown 20230626/p/pyphetools/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 00:33:22] INFO root fetch - processPackages [inventree-wled-locator]: executing diffoscope
+[2023-06-26 00:33:22] INFO root fetch - processPackages [inventree-wled-locator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-wled-locator-0.2.1.tar.gz tmp/inventree-wled-locator-0.2.2.tar.gz --markdown 20230626/i/inventree-wled-locator/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-26 00:33:22] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/1b/ca/609323a36da463954419ac8c5c91a658bfe3dc87ec618f7bce547e06db4f/ml-starter-0.1.5.tar.gz
+[2023-06-26 00:33:22] INFO root fetch - processPackages [Telegram-Alert]: Downloading https://files.pythonhosted.org/packages/91/9b/bf461cb6f79e3b79f1a549ccbb1649201494bd85ab34d0510cec30939374/Telegram%20Alert-1.0.4.tar.gz
+[2023-06-26 00:33:22] INFO root fetch - processPackages [WIDscript]: Downloading https://files.pythonhosted.org/packages/e5/8a/e58e34f5e94c9a082af05f71d20525ed81e0bd8f3cfc0e49f83f4e93cf2d/WIDscript-1.1.2.tar.gz
+[2023-06-26 00:33:22] INFO root fetch - processPackages [Telegram-Alert]: executing diffoscope
+[2023-06-26 00:33:22] INFO root fetch - processPackages [Telegram-Alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telegram Alert-1.0.3.tar.gz tmp/Telegram Alert-1.0.4.tar.gz --markdown 20230626/T/Telegram-Alert/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-26 00:33:22] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-26 00:33:22] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.4.tar.gz tmp/ml-starter-0.1.5.tar.gz --markdown 20230626/m/ml-starter/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 00:33:22] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/53/1d/d7839b7d82f90b785777e0c8168dfefdbfcba90870edad3eb40a2d000e76/dlt-0.3.2.tar.gz
+[2023-06-26 00:33:22] INFO root fetch - processPackages [WIDscript]: executing diffoscope
+[2023-06-26 00:33:22] INFO root fetch - processPackages [WIDscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WIDscript-1.1.1.tar.gz tmp/WIDscript-1.1.2.tar.gz --markdown 20230626/W/WIDscript/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-26 00:33:22] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-06-26 00:33:22] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.3.1a0.tar.gz tmp/dlt-0.3.2.tar.gz --markdown 20230626/d/dlt/0.3.1a0-0.3.2/diff.md --exclude *.pyd
+[2023-06-26 00:33:23] INFO root fetch - processPackages [inventree-wled-locator]: Remove: archive file [/home/abi/fetcher/tmp/inventree-wled-locator-0.2.1.tar.gz]
+[2023-06-26 00:33:23] INFO root fetch - processPackages [inventree-wled-locator]: Remove: archive file [/home/abi/fetcher/tmp/inventree-wled-locator-0.2.2.tar.gz]
+[2023-06-26 00:33:23] INFO root fetch - main [MainThread]: End processing [inventree-wled-locator]: success
+[2023-06-26 00:33:23] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.7.tar.gz]
+[2023-06-26 00:33:23] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.9.tar.gz]
+[2023-06-26 00:33:23] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-06-26 00:33:23] INFO root fetch - processPackages [Telegram-Alert]: Remove: archive file [/home/abi/fetcher/tmp/Telegram Alert-1.0.3.tar.gz]
+[2023-06-26 00:33:23] INFO root fetch - processPackages [Telegram-Alert]: Remove: archive file [/home/abi/fetcher/tmp/Telegram Alert-1.0.4.tar.gz]
+[2023-06-26 00:33:23] INFO root fetch - main [MainThread]: End processing [Telegram-Alert]: success
+[2023-06-26 00:33:25] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.1a0.tar.gz]
+[2023-06-26 00:33:25] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.2.tar.gz]
+[2023-06-26 00:33:25] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-06-26 00:33:26] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.4.tar.gz]
+[2023-06-26 00:33:26] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.5.tar.gz]
+[2023-06-26 00:33:26] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-26 00:34:16] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.1.1.tar.gz]
+[2023-06-26 00:34:16] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.1.2.tar.gz]
+[2023-06-26 00:34:16] INFO root fetch - main [MainThread]: End processing [WIDscript]: success
+[2023-06-26 00:34:16] INFO root fetch - main [MainThread]: Store serial: [18639490]
