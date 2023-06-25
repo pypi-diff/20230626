@@ -541,3 +541,52 @@
 [2023-06-26 00:55:22] INFO root fetch - processPackages [cc2dataset]: Remove: archive file [/home/abi/fetcher/tmp/cc2dataset-1.5.0.tar.gz]
 [2023-06-26 00:55:22] INFO root fetch - main [MainThread]: End processing [cc2dataset]: success
 [2023-06-26 00:55:22] INFO root fetch - main [MainThread]: Store serial: [18639566]
+[2023-06-26 01:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639566]
+[2023-06-26 01:00:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m23
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discminer
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numba-mpi
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tstickers
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vollseg
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ngitl-common-py
+[2023-06-26 01:00:32] INFO root fetch - processPackages [discminer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 01:00:32] INFO root fetch - processPackages [m23]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ngitl-common-py]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-26 01:00:32] INFO root fetch - processPackages [tstickers]: New version: [2022.1.1] Old Version: [2022.1]
+[2023-06-26 01:00:32] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-26 01:00:32] INFO root fetch - processPackages [numba-mpi]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ngitl-common-py]: Downloading https://files.pythonhosted.org/packages/79/18/3229855dcb4db7b4a47e2219778a239ad228acf64d243d28c63b401e96d0/ngitl_common_py-0.4.2.tar.gz
+[2023-06-26 01:00:32] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-26 01:00:32] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-26 01:00:32] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-26 01:00:32] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b3/b0/20f7f9c07c3b2e52513acdbc3fe736e7bf6bef46c642013a44a73388b6e5/m23-1.8.4.tar.gz
+[2023-06-26 01:00:32] INFO root fetch - processPackages [tstickers]: Downloading https://files.pythonhosted.org/packages/92/ab/331be20f22f5366bbdff0c6d51cbd31b5ed5a4aff2d17a0883411803569e/tstickers-2022.1.tar.gz
+[2023-06-26 01:00:32] INFO root fetch - processPackages [numba-mpi]: Downloading https://files.pythonhosted.org/packages/43/69/4493b57b08e27ae1afd21f4bc077827266fbe0fd8dbdda6549000a102e4b/numba-mpi-0.8.tar.gz
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ngitl-common-py]: Downloading https://files.pythonhosted.org/packages/5e/df/4e47167754210ac2b3665fa5c5d7fc3d5e1d83a37e8112f029df735b757c/ngitl_common_py-0.4.3.tar.gz
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ngitl-common-py]: executing diffoscope
+[2023-06-26 01:00:32] INFO root fetch - processPackages [ngitl-common-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngitl_common_py-0.4.2.tar.gz tmp/ngitl_common_py-0.4.3.tar.gz --markdown 20230626/n/ngitl-common-py/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-26 01:00:32] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/82/25/c05cbcbaea7b51dcc80bf33dbe97400f612e7521d9e0a7c767f170087a8c/discminer-0.2.9.tar.gz
+[2023-06-26 01:00:33] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/59/a8b8a5ef1d5105b956ec890065e8c1d6eebd659b328b2850eaed0850cb99/m23-1.8.5.tar.gz
+[2023-06-26 01:00:33] INFO root fetch - processPackages [tstickers]: Downloading https://files.pythonhosted.org/packages/1d/2c/b4b01748bffa5aac2b3936545d908ac55dbc3656202aff2b5eb585bad7e5/tstickers-2022.1.1.tar.gz
+[2023-06-26 01:00:33] WARNING root fetch - processPackages [discminer]: Skipping package: exceeds size limit 11323881>=10485760
+[2023-06-26 01:00:33] INFO root fetch - main [MainThread]: End processing [discminer] error
+[2023-06-26 01:00:33] INFO root fetch - processPackages [tstickers]: executing diffoscope
+[2023-06-26 01:00:33] INFO root fetch - processPackages [tstickers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tstickers-2022.1.tar.gz tmp/tstickers-2022.1.1.tar.gz --markdown 20230626/t/tstickers/2022.1-2022.1.1/diff.md --exclude *.pyd
+[2023-06-26 01:00:33] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-26 01:00:33] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.8.4.tar.gz tmp/m23-1.8.5.tar.gz --markdown 20230626/m/m23/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-06-26 01:00:33] INFO root fetch - processPackages [numba-mpi]: Downloading https://files.pythonhosted.org/packages/4a/59/a101d48fb8a639efdef0e206d08a6fb7a891bc095d64bcd69caf7daca87e/numba-mpi-0.9.tar.gz
+[2023-06-26 01:00:33] INFO root fetch - processPackages [numba-mpi]: executing diffoscope
+[2023-06-26 01:00:33] INFO root fetch - processPackages [numba-mpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba-mpi-0.8.tar.gz tmp/numba-mpi-0.9.tar.gz --markdown 20230626/n/numba-mpi/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 01:00:34] INFO root fetch - processPackages [ngitl-common-py]: Remove: archive file [/home/abi/fetcher/tmp/ngitl_common_py-0.4.2.tar.gz]
+[2023-06-26 01:00:34] INFO root fetch - processPackages [ngitl-common-py]: Remove: archive file [/home/abi/fetcher/tmp/ngitl_common_py-0.4.3.tar.gz]
+[2023-06-26 01:00:34] INFO root fetch - main [MainThread]: End processing [ngitl-common-py]: success
+[2023-06-26 01:00:34] INFO root fetch - processPackages [tstickers]: Remove: archive file [/home/abi/fetcher/tmp/tstickers-2022.1.tar.gz]
+[2023-06-26 01:00:34] INFO root fetch - processPackages [tstickers]: Remove: archive file [/home/abi/fetcher/tmp/tstickers-2022.1.1.tar.gz]
+[2023-06-26 01:00:34] INFO root fetch - main [MainThread]: End processing [tstickers]: success
+[2023-06-26 01:00:34] INFO root fetch - processPackages [numba-mpi]: Remove: archive file [/home/abi/fetcher/tmp/numba-mpi-0.8.tar.gz]
+[2023-06-26 01:00:34] INFO root fetch - processPackages [numba-mpi]: Remove: archive file [/home/abi/fetcher/tmp/numba-mpi-0.9.tar.gz]
+[2023-06-26 01:00:34] INFO root fetch - main [MainThread]: End processing [numba-mpi]: success
+[2023-06-26 01:00:35] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.4.tar.gz]
+[2023-06-26 01:00:35] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.5.tar.gz]
+[2023-06-26 01:00:35] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-26 01:00:35] INFO root fetch - main [MainThread]: Store serial: [18639583]
