@@ -241,3 +241,47 @@
 [2023-06-26 00:23:00] INFO root fetch - processPackages [timeplus]: Remove: archive file [/home/abi/fetcher/tmp/timeplus-1.3.0b2.tar.gz]
 [2023-06-26 00:23:00] INFO root fetch - main [MainThread]: End processing [timeplus]: success
 [2023-06-26 00:23:00] INFO root fetch - main [MainThread]: Store serial: [18639430]
+[2023-06-26 00:28:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639430]
+[2023-06-26 00:28:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 00:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amid
+[2023-06-26 00:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web3Batch
+[2023-06-26 00:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powerbeatsvr
+[2023-06-26 00:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VisualFlow
+[2023-06-26 00:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vollseg
+[2023-06-26 00:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UpyTest
+[2023-06-26 00:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: REMLA23Team09LibProject
+[2023-06-26 00:28:10] INFO root fetch - processPackages [amid]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 00:28:10] INFO root fetch - processPackages [powerbeatsvr]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-26 00:28:10] WARNING root fetch - processPackages [web3Batch]: Skipping, unable to determine old version
+[2023-06-26 00:28:10] INFO root fetch - main [MainThread]: End processing [web3Batch] error
+[2023-06-26 00:28:10] WARNING root fetch - processPackages [VisualFlow]: Skipping, unable to determine old version
+[2023-06-26 00:28:10] INFO root fetch - main [MainThread]: End processing [VisualFlow] error
+[2023-06-26 00:28:10] INFO root fetch - processPackages [UpyTest]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-06-26 00:28:10] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-26 00:28:10] WARNING root fetch - processPackages [REMLA23Team09LibProject]: Skipping, unable to determine old version
+[2023-06-26 00:28:10] INFO root fetch - main [MainThread]: End processing [REMLA23Team09LibProject] error
+[2023-06-26 00:28:10] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/56/f3/552527ae6fc26e176ac5a502d5075f69301fe448265f32b0f87f6c5397d7/UpyTest-3.1.2.tar.gz
+[2023-06-26 00:28:10] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-26 00:28:10] INFO root fetch - processPackages [amid]: Downloading https://files.pythonhosted.org/packages/63/b6/7b8fbac0e861e9709a550fb10b182f206e9daf576813d1ab075397ecd4bc/amid-0.9.0.tar.gz
+[2023-06-26 00:28:10] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-26 00:28:10] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-26 00:28:10] INFO root fetch - processPackages [powerbeatsvr]: Downloading https://files.pythonhosted.org/packages/c7/f4/01fd4c9ce895012f657ce724fb7fbd943135c51c141665eac9fe48a4def0/powerbeatsvr-0.2.0.tar.gz
+[2023-06-26 00:28:10] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/b9/6b/b39c7c8be9ac03f1506130fd4ca0058b523445f33f0cc686a48aa5065848/UpyTest-3.1.3.tar.gz
+[2023-06-26 00:28:11] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-06-26 00:28:11] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UpyTest-3.1.2.tar.gz tmp/UpyTest-3.1.3.tar.gz --markdown 20230626/U/UpyTest/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-06-26 00:28:11] INFO root fetch - processPackages [amid]: Downloading https://files.pythonhosted.org/packages/0b/92/30a29361e79dfdb9bd10412e1465fd6fb5e780e40a34f24dc5f071fc07bc/amid-0.9.1.tar.gz
+[2023-06-26 00:28:11] INFO root fetch - processPackages [powerbeatsvr]: Downloading https://files.pythonhosted.org/packages/e0/f3/8da408ad14213b7087cee0f91e4cb574e7490ee45ea670ff7224b80bb1ba/powerbeatsvr-0.3.0.tar.gz
+[2023-06-26 00:28:11] INFO root fetch - processPackages [powerbeatsvr]: executing diffoscope
+[2023-06-26 00:28:11] INFO root fetch - processPackages [powerbeatsvr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbeatsvr-0.2.0.tar.gz tmp/powerbeatsvr-0.3.0.tar.gz --markdown 20230626/p/powerbeatsvr/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 00:28:11] INFO root fetch - processPackages [amid]: executing diffoscope
+[2023-06-26 00:28:11] INFO root fetch - processPackages [amid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amid-0.9.0.tar.gz tmp/amid-0.9.1.tar.gz --markdown 20230626/a/amid/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 00:28:12] INFO root fetch - processPackages [powerbeatsvr]: Remove: archive file [/home/abi/fetcher/tmp/powerbeatsvr-0.2.0.tar.gz]
+[2023-06-26 00:28:12] INFO root fetch - processPackages [powerbeatsvr]: Remove: archive file [/home/abi/fetcher/tmp/powerbeatsvr-0.3.0.tar.gz]
+[2023-06-26 00:28:12] INFO root fetch - main [MainThread]: End processing [powerbeatsvr]: success
+[2023-06-26 00:28:12] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.1.2.tar.gz]
+[2023-06-26 00:28:12] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.1.3.tar.gz]
+[2023-06-26 00:28:12] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-06-26 00:28:12] INFO root fetch - processPackages [amid]: Remove: archive file [/home/abi/fetcher/tmp/amid-0.9.0.tar.gz]
+[2023-06-26 00:28:12] INFO root fetch - processPackages [amid]: Remove: archive file [/home/abi/fetcher/tmp/amid-0.9.1.tar.gz]
+[2023-06-26 00:28:12] INFO root fetch - main [MainThread]: End processing [amid]: success
+[2023-06-26 00:28:12] INFO root fetch - main [MainThread]: Store serial: [18639466]
