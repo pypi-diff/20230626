@@ -508,3 +508,36 @@
 [2023-06-26 00:50:11] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-26 00:50:11] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-26 00:50:11] INFO root fetch - main [MainThread]: Store serial: [18639552]
+[2023-06-26 00:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639552]
+[2023-06-26 00:55:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-26 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: captif-cpx-config
+[2023-06-26 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ProjectREMLA23Team09Lib
+[2023-06-26 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VisualFlow
+[2023-06-26 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cc2dataset
+[2023-06-26 00:55:20] WARNING root fetch - processPackages [ProjectREMLA23Team09Lib]: Skipping, unable to determine old version
+[2023-06-26 00:55:20] INFO root fetch - main [MainThread]: End processing [ProjectREMLA23Team09Lib] error
+[2023-06-26 00:55:20] INFO root fetch - processPackages [VisualFlow]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 00:55:20] INFO root fetch - processPackages [captif-cpx-config]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 00:55:20] INFO root fetch - processPackages [VisualFlow]: Downloading https://files.pythonhosted.org/packages/14/fd/1233e7657d1d38445a86a46988b27bcb9307c97c2edc9905c2ae2bd8cb56/VisualFlow-0.1.1.tar.gz
+[2023-06-26 00:55:20] INFO root fetch - processPackages [cc2dataset]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-26 00:55:20] INFO root fetch - processPackages [captif-cpx-config]: Downloading https://files.pythonhosted.org/packages/5b/d6/37e5a128391bcf109730b8f93478929f1fd0aaea2e6d491f9fc8e0ab3c0a/captif_cpx_config-0.8.tar.gz
+[2023-06-26 00:55:20] INFO root fetch - processPackages [cc2dataset]: Downloading https://files.pythonhosted.org/packages/a9/92/74f41ff04ce846a5748e06adaa2e503c971168ea5da39c5a9426abca491d/cc2dataset-1.4.0.tar.gz
+[2023-06-26 00:55:21] INFO root fetch - processPackages [VisualFlow]: Downloading https://files.pythonhosted.org/packages/49/f2/e266448d40b882c66a18ebf5773c97d5c701d1860e386f00f3326b1e2efc/VisualFlow-0.1.2.tar.gz
+[2023-06-26 00:55:21] INFO root fetch - processPackages [VisualFlow]: executing diffoscope
+[2023-06-26 00:55:21] INFO root fetch - processPackages [VisualFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisualFlow-0.1.1.tar.gz tmp/VisualFlow-0.1.2.tar.gz --markdown 20230626/V/VisualFlow/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 00:55:21] INFO root fetch - processPackages [captif-cpx-config]: Downloading https://files.pythonhosted.org/packages/0d/49/17ffebfa229a949511a32a58f7e9534aa7f3cbb3662e0c8188898a429a8c/captif_cpx_config-0.9.tar.gz
+[2023-06-26 00:55:21] INFO root fetch - processPackages [captif-cpx-config]: executing diffoscope
+[2023-06-26 00:55:21] INFO root fetch - processPackages [captif-cpx-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_config-0.8.tar.gz tmp/captif_cpx_config-0.9.tar.gz --markdown 20230626/c/captif-cpx-config/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 00:55:21] INFO root fetch - processPackages [cc2dataset]: Downloading https://files.pythonhosted.org/packages/1c/34/6d3150135577dd3650811d4eb72b57142a3f413ff968ea378bd3734e2cf2/cc2dataset-1.5.0.tar.gz
+[2023-06-26 00:55:21] INFO root fetch - processPackages [cc2dataset]: executing diffoscope
+[2023-06-26 00:55:21] INFO root fetch - processPackages [cc2dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc2dataset-1.4.0.tar.gz tmp/cc2dataset-1.5.0.tar.gz --markdown 20230626/c/cc2dataset/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-26 00:55:22] INFO root fetch - processPackages [captif-cpx-config]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_config-0.8.tar.gz]
+[2023-06-26 00:55:22] INFO root fetch - processPackages [captif-cpx-config]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_config-0.9.tar.gz]
+[2023-06-26 00:55:22] INFO root fetch - main [MainThread]: End processing [captif-cpx-config]: success
+[2023-06-26 00:55:22] INFO root fetch - processPackages [VisualFlow]: Remove: archive file [/home/abi/fetcher/tmp/VisualFlow-0.1.1.tar.gz]
+[2023-06-26 00:55:22] INFO root fetch - processPackages [VisualFlow]: Remove: archive file [/home/abi/fetcher/tmp/VisualFlow-0.1.2.tar.gz]
+[2023-06-26 00:55:22] INFO root fetch - main [MainThread]: End processing [VisualFlow]: success
+[2023-06-26 00:55:22] INFO root fetch - processPackages [cc2dataset]: Remove: archive file [/home/abi/fetcher/tmp/cc2dataset-1.4.0.tar.gz]
+[2023-06-26 00:55:22] INFO root fetch - processPackages [cc2dataset]: Remove: archive file [/home/abi/fetcher/tmp/cc2dataset-1.5.0.tar.gz]
+[2023-06-26 00:55:22] INFO root fetch - main [MainThread]: End processing [cc2dataset]: success
+[2023-06-26 00:55:22] INFO root fetch - main [MainThread]: Store serial: [18639566]
