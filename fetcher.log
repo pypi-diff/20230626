@@ -345,3 +345,42 @@
 [2023-06-26 00:34:16] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.1.2.tar.gz]
 [2023-06-26 00:34:16] INFO root fetch - main [MainThread]: End processing [WIDscript]: success
 [2023-06-26 00:34:16] INFO root fetch - main [MainThread]: Store serial: [18639490]
+[2023-06-26 00:39:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639490]
+[2023-06-26 00:39:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-26 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngitl-common-py
+[2023-06-26 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plone.distribution
+[2023-06-26 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebbs
+[2023-06-26 00:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eons
+[2023-06-26 00:39:25] INFO root fetch - processPackages [plone.distribution]: New version: [1.0.0a8] Old Version: [1.0.0a7]
+[2023-06-26 00:39:25] INFO root fetch - processPackages [ngitl-common-py]: New version: [0.4.2] Old Version: [0.3.0]
+[2023-06-26 00:39:25] INFO root fetch - processPackages [ebbs]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-26 00:39:25] INFO root fetch - processPackages [eons]: New version: [2.6.5] Old Version: [2.6.4]
+[2023-06-26 00:39:25] INFO root fetch - processPackages [plone.distribution]: Downloading https://files.pythonhosted.org/packages/09/09/bb882d4c52324e87d74657bac0cce40f5b3a249dc23dbcb58001a4a68b21/plone.distribution-1.0.0a7.tar.gz
+[2023-06-26 00:39:25] INFO root fetch - processPackages [ngitl-common-py]: Downloading https://files.pythonhosted.org/packages/17/0e/e654e95355b69d39aa9284d0680e54ade076d483f2834f89863be32dfe91/ngitl_common_py-0.3.0.tar.gz
+[2023-06-26 00:39:26] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/e4/4d/600e9b8522cb5e4288fadbaae0e9d2b951d0b79be24416d8b78414a5efb6/ebbs-2.2.8.tar.gz
+[2023-06-26 00:39:26] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/dd/f7/74d905a2706756fd23cb19d4abe85d19479cb4690d117a68b9cf65a6122e/eons-2.6.4.tar.gz
+[2023-06-26 00:39:26] INFO root fetch - processPackages [ngitl-common-py]: Downloading https://files.pythonhosted.org/packages/79/18/3229855dcb4db7b4a47e2219778a239ad228acf64d243d28c63b401e96d0/ngitl_common_py-0.4.2.tar.gz
+[2023-06-26 00:39:26] INFO root fetch - processPackages [plone.distribution]: Downloading https://files.pythonhosted.org/packages/5f/c8/eb46209124e4cae1db3f8df4a314ec49400c72402719f73931610fb0335e/plone.distribution-1.0.0a8.tar.gz
+[2023-06-26 00:39:26] INFO root fetch - processPackages [ngitl-common-py]: executing diffoscope
+[2023-06-26 00:39:26] INFO root fetch - processPackages [ngitl-common-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngitl_common_py-0.3.0.tar.gz tmp/ngitl_common_py-0.4.2.tar.gz --markdown 20230626/n/ngitl-common-py/0.3.0-0.4.2/diff.md --exclude *.pyd
+[2023-06-26 00:39:26] INFO root fetch - processPackages [eons]: Downloading https://files.pythonhosted.org/packages/bc/ec/6fbd8f34ef0145e0ebe1e4450bd51641d0dc09459aefe4f71634f395b7c2/eons-2.6.5.tar.gz
+[2023-06-26 00:39:26] INFO root fetch - processPackages [ebbs]: Downloading https://files.pythonhosted.org/packages/a1/17/09488d6e7c260166edfebc9cb5a173db17c6d6a621677ea3280cda9da438/ebbs-2.2.9.tar.gz
+[2023-06-26 00:39:26] INFO root fetch - processPackages [plone.distribution]: executing diffoscope
+[2023-06-26 00:39:26] INFO root fetch - processPackages [plone.distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.distribution-1.0.0a7.tar.gz tmp/plone.distribution-1.0.0a8.tar.gz --markdown 20230626/p/plone.distribution/1.0.0a7-1.0.0a8/diff.md --exclude *.pyd
+[2023-06-26 00:39:26] INFO root fetch - processPackages [ebbs]: executing diffoscope
+[2023-06-26 00:39:26] INFO root fetch - processPackages [ebbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebbs-2.2.8.tar.gz tmp/ebbs-2.2.9.tar.gz --markdown 20230626/e/ebbs/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-26 00:39:27] INFO root fetch - processPackages [eons]: executing diffoscope
+[2023-06-26 00:39:27] INFO root fetch - processPackages [eons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eons-2.6.4.tar.gz tmp/eons-2.6.5.tar.gz --markdown 20230626/e/eons/2.6.4-2.6.5/diff.md --exclude *.pyd
+[2023-06-26 00:39:27] INFO root fetch - processPackages [ngitl-common-py]: Remove: archive file [/home/abi/fetcher/tmp/ngitl_common_py-0.3.0.tar.gz]
+[2023-06-26 00:39:27] INFO root fetch - processPackages [ngitl-common-py]: Remove: archive file [/home/abi/fetcher/tmp/ngitl_common_py-0.4.2.tar.gz]
+[2023-06-26 00:39:27] INFO root fetch - main [MainThread]: End processing [ngitl-common-py]: success
+[2023-06-26 00:39:27] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.8.tar.gz]
+[2023-06-26 00:39:27] INFO root fetch - processPackages [ebbs]: Remove: archive file [/home/abi/fetcher/tmp/ebbs-2.2.9.tar.gz]
+[2023-06-26 00:39:27] INFO root fetch - main [MainThread]: End processing [ebbs]: success
+[2023-06-26 00:39:28] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.4.tar.gz]
+[2023-06-26 00:39:28] INFO root fetch - processPackages [eons]: Remove: archive file [/home/abi/fetcher/tmp/eons-2.6.5.tar.gz]
+[2023-06-26 00:39:28] INFO root fetch - main [MainThread]: End processing [eons]: success
+[2023-06-26 00:39:33] INFO root fetch - processPackages [plone.distribution]: Remove: archive file [/home/abi/fetcher/tmp/plone.distribution-1.0.0a7.tar.gz]
+[2023-06-26 00:39:33] INFO root fetch - processPackages [plone.distribution]: Remove: archive file [/home/abi/fetcher/tmp/plone.distribution-1.0.0a8.tar.gz]
+[2023-06-26 00:39:33] INFO root fetch - main [MainThread]: End processing [plone.distribution]: success
+[2023-06-26 00:39:33] INFO root fetch - main [MainThread]: Store serial: [18639506]
