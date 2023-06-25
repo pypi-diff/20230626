@@ -199,3 +199,24 @@
 [2023-06-26 00:12:38] INFO root fetch - processPackages [PyOdoo]: Remove: archive file [/home/abi/fetcher/tmp/PyOdoo-0.6.0.tar.gz]
 [2023-06-26 00:12:38] INFO root fetch - main [MainThread]: End processing [PyOdoo]: success
 [2023-06-26 00:12:38] INFO root fetch - main [MainThread]: Store serial: [18639417]
+[2023-06-26 00:17:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639417]
+[2023-06-26 00:17:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-26 00:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nitrado
+[2023-06-26 00:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FlightRadarAPI
+[2023-06-26 00:17:47] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 00:17:47] INFO root fetch - processPackages [FlightRadarAPI]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-26 00:17:47] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/63/1a/5788b9a3d7dbec3e360f12308c0db8bb6b03b8342d60d6104cd7276dc766/FlightRadarAPI-1.3.5.tar.gz
+[2023-06-26 00:17:47] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/f6/b0/4cf1f50d5c8e637d80dac078436faf6ba1e14ba95ad7e140959ed2925f7e/nitrado-1.0.8.tar.gz
+[2023-06-26 00:17:47] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/18/5d/a182a36879b2e7f8aaebc3d49a610d00a10f3ecf37211672fc9db139c4b7/nitrado-1.0.9.tar.gz
+[2023-06-26 00:17:47] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/f6/b1/080b9deac7d2803ff3ead8c0deac1d31e79e43eeeea7c99ed2287b914e0b/FlightRadarAPI-1.3.6.tar.gz
+[2023-06-26 00:17:47] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-06-26 00:17:47] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230626/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 00:17:47] INFO root fetch - processPackages [FlightRadarAPI]: executing diffoscope
+[2023-06-26 00:17:47] INFO root fetch - processPackages [FlightRadarAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlightRadarAPI-1.3.5.tar.gz tmp/FlightRadarAPI-1.3.6.tar.gz --markdown 20230626/F/FlightRadarAPI/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-26 00:17:48] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.5.tar.gz]
+[2023-06-26 00:17:48] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.6.tar.gz]
+[2023-06-26 00:17:48] INFO root fetch - main [MainThread]: End processing [FlightRadarAPI]: success
+[2023-06-26 00:17:48] INFO root fetch - processPackages [nitrado]: Remove: archive file [/home/abi/fetcher/tmp/nitrado-1.0.8.tar.gz]
+[2023-06-26 00:17:48] INFO root fetch - processPackages [nitrado]: Remove: archive file [/home/abi/fetcher/tmp/nitrado-1.0.9.tar.gz]
+[2023-06-26 00:17:48] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-06-26 00:17:48] INFO root fetch - main [MainThread]: Store serial: [18639423]
