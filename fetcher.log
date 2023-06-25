@@ -1091,3 +1091,56 @@
 [2023-06-26 01:43:37] INFO root fetch - processPackages [hdx-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_utilities-3.6.0.tar.gz]
 [2023-06-26 01:43:37] INFO root fetch - main [MainThread]: End processing [hdx-python-utilities]: success
 [2023-06-26 01:43:37] INFO root fetch - main [MainThread]: Store serial: [18639820]
+[2023-06-26 01:48:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639820]
+[2023-06-26 01:48:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 01:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hardyweinbergcalculator
+[2023-06-26 01:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdx-python-country
+[2023-06-26 01:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pillar1
+[2023-06-26 01:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: midas-data-util
+[2023-06-26 01:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hordelib
+[2023-06-26 01:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: traffsimpy
+[2023-06-26 01:48:46] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.48] Old Version: [0.1.8.47]
+[2023-06-26 01:48:46] INFO root fetch - processPackages [midas-data-util]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-26 01:48:46] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-26 01:48:46] INFO root fetch - processPackages [hordelib]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-26 01:48:46] INFO root fetch - processPackages [traffsimpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 01:48:46] INFO root fetch - processPackages [hdx-python-country]: New version: [3.5.0] Old Version: [3.4.9]
+[2023-06-26 01:48:46] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/5b/3d/00475e0b03098ec8d68cb59416f9ac7f7b77aa612f6e018481e9a1aeaa41/pillar1-0.1.8.47.tar.gz
+[2023-06-26 01:48:46] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/cf/b9/92752930da7eb96e09fa4d1e8d97b62e1ea76baf425745863c055997f74f/midas-data-util-0.2.3.tar.gz
+[2023-06-26 01:48:46] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/26/ac/69b32134ba684de603b307bec6ee172ea3889ac473df2675e1602951c938/hardyweinbergcalculator-0.3.5.zip
+[2023-06-26 01:48:46] INFO root fetch - processPackages [traffsimpy]: Downloading https://files.pythonhosted.org/packages/1e/7e/55f76af43624b2b54ac509218ee69bb0e3dcf50580375fcc8ee5e0c585d4/traffsimpy-0.1.2.tar.gz
+[2023-06-26 01:48:46] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/b2/11/a757aec12dff22d6ac05230dd27cafdbb95ac2af07a4393a6ee998fd8acf/hdx_python_country-3.4.9.tar.gz
+[2023-06-26 01:48:46] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/4b/41/f80a5f330696ab102878668312954b47276b8bf13b3f95c2bbf577a1c1ed/pillar1-0.1.8.48.tar.gz
+[2023-06-26 01:48:46] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/fc/8a/790270595c980c4b87552c8e13c6831b79660b5451ac308b44c9a4a3f42b/hordelib-1.6.1.tar.gz
+[2023-06-26 01:48:46] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-26 01:48:46] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.47.tar.gz tmp/pillar1-0.1.8.48.tar.gz --markdown 20230626/p/pillar1/0.1.8.47-0.1.8.48/diff.md --exclude *.pyd
+[2023-06-26 01:48:46] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/3e/07/7b6bf2056a2ddb5302fcdebd862bd82ec827d0e34d1655410383037077e4/hardyweinbergcalculator-0.3.6.zip
+[2023-06-26 01:48:47] INFO root fetch - processPackages [traffsimpy]: Downloading https://files.pythonhosted.org/packages/a2/be/9083ce0925116e42c67ed4fe192b396e9edf63fb553fc88a323f62c5df97/traffsimpy-0.1.3.tar.gz
+[2023-06-26 01:48:47] WARNING root fetch - processPackages [hordelib]: Skipping package: exceeds size limit 53515528>=10485760
+[2023-06-26 01:48:47] INFO root fetch - main [MainThread]: End processing [hordelib] error
+[2023-06-26 01:48:47] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/55/3c/9a6c668a90301008e64b106ebabddef7becf89016aced6d0af784e1ef0f2/midas-data-util-0.2.4.tar.gz
+[2023-06-26 01:48:47] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-26 01:48:47] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.3.5.zip tmp/hardyweinbergcalculator-0.3.6.zip --markdown 20230626/h/hardyweinbergcalculator/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-26 01:48:47] INFO root fetch - processPackages [traffsimpy]: executing diffoscope
+[2023-06-26 01:48:47] INFO root fetch - processPackages [traffsimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traffsimpy-0.1.2.tar.gz tmp/traffsimpy-0.1.3.tar.gz --markdown 20230626/t/traffsimpy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 01:48:47] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/89/ae/1280aff88096af0871bc3c5924c2f9f2ff8635ef1e57569a1f09acf379f7/hdx_python_country-3.5.0.tar.gz
+[2023-06-26 01:48:47] INFO root fetch - processPackages [midas-data-util]: executing diffoscope
+[2023-06-26 01:48:47] INFO root fetch - processPackages [midas-data-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-data-util-0.2.3.tar.gz tmp/midas-data-util-0.2.4.tar.gz --markdown 20230626/m/midas-data-util/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-26 01:48:47] INFO root fetch - processPackages [hdx-python-country]: executing diffoscope
+[2023-06-26 01:48:47] INFO root fetch - processPackages [hdx-python-country]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_country-3.4.9.tar.gz tmp/hdx_python_country-3.5.0.tar.gz --markdown 20230626/h/hdx-python-country/3.4.9-3.5.0/diff.md --exclude *.pyd
+[2023-06-26 01:48:48] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.47.tar.gz]
+[2023-06-26 01:48:48] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.48.tar.gz]
+[2023-06-26 01:48:48] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-26 01:48:48] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.5.zip]
+[2023-06-26 01:48:48] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.6.zip]
+[2023-06-26 01:48:48] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-26 01:48:48] INFO root fetch - processPackages [traffsimpy]: Remove: archive file [/home/abi/fetcher/tmp/traffsimpy-0.1.2.tar.gz]
+[2023-06-26 01:48:48] INFO root fetch - processPackages [traffsimpy]: Remove: archive file [/home/abi/fetcher/tmp/traffsimpy-0.1.3.tar.gz]
+[2023-06-26 01:48:48] INFO root fetch - main [MainThread]: End processing [traffsimpy]: success
+[2023-06-26 01:48:48] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.2.3.tar.gz]
+[2023-06-26 01:48:48] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.2.4.tar.gz]
+[2023-06-26 01:48:48] INFO root fetch - main [MainThread]: End processing [midas-data-util]: success
+[2023-06-26 01:48:48] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.4.9.tar.gz]
+[2023-06-26 01:48:48] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.5.0.tar.gz]
+[2023-06-26 01:48:48] INFO root fetch - main [MainThread]: End processing [hdx-python-country]: success
+[2023-06-26 01:48:48] INFO root fetch - main [MainThread]: Store serial: [18639837]
