@@ -1031,3 +1031,63 @@
 [2023-06-26 01:37:32] INFO root fetch - main [MainThread]: End processing [tomfoolery]: success
 [2023-06-26 01:37:32] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
 [2023-06-26 01:37:32] INFO root fetch - main [MainThread]: Store serial: [18639801]
+[2023-06-26 01:42:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639801]
+[2023-06-26 01:42:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 01:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-26 01:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdx-python-utilities
+[2023-06-26 01:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphstorm
+[2023-06-26 01:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lapx
+[2023-06-26 01:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SpatialCluster
+[2023-06-26 01:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: morss
+[2023-06-26 01:42:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: traffsimpy
+[2023-06-26 01:42:41] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.47] Old Version: [0.1.8.46]
+[2023-06-26 01:42:41] INFO root fetch - processPackages [morss]: New version: [20230625.2341] Old Version: [20230623.2301]
+[2023-06-26 01:42:41] INFO root fetch - processPackages [lapx]: New version: [0.5.2.post1] Old Version: [0.5.2]
+[2023-06-26 01:42:41] INFO root fetch - processPackages [graphstorm]: New version: [0.1.1rc2] Old Version: [0.1.1]
+[2023-06-26 01:42:41] WARNING root fetch - processPackages [traffsimpy]: Skipping, unable to determine old version
+[2023-06-26 01:42:41] INFO root fetch - main [MainThread]: End processing [traffsimpy] error
+[2023-06-26 01:42:41] INFO root fetch - processPackages [SpatialCluster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 01:42:41] INFO root fetch - processPackages [hdx-python-utilities]: New version: [3.6.0] Old Version: [3.5.9]
+[2023-06-26 01:42:41] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/d9/d7/a51c7bdf1e3bb01f187eb04b6f229c6cb047c3139e20ee8d06cb1de548c1/SpatialCluster-0.0.8.tar.gz
+[2023-06-26 01:42:41] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/08/67/a5016743c9ab5e530113c40fea6af6dbb9222a558c3122c1c80e0549c091/pillar1-0.1.8.46.tar.gz
+[2023-06-26 01:42:41] INFO root fetch - processPackages [graphstorm]: Downloading https://files.pythonhosted.org/packages/18/b9/473823626bd32f56dd6911a6d50506a80824927012e47ac3c91d6689cba4/graphstorm-0.1.1-py3-none-any.whl
+[2023-06-26 01:42:41] INFO root fetch - processPackages [lapx]: Downloading https://files.pythonhosted.org/packages/ea/59/ae1d87626b66d61f6998106b443cc827e8aa2ff8b87017671b84c6b0332c/lapx-0.5.2.tar.gz
+[2023-06-26 01:42:41] INFO root fetch - processPackages [morss]: Downloading https://files.pythonhosted.org/packages/0e/e5/e9a7e87bd9561c8c8b93062b7997058f488a816589849b4ef5426cac2824/morss-20230623.2301.tar.gz
+[2023-06-26 01:42:41] INFO root fetch - processPackages [hdx-python-utilities]: Downloading https://files.pythonhosted.org/packages/32/8d/e42462ba64bd80c04bb592ab9fcf1982f22d6cf029525b2f70c7eed4bcab/hdx_python_utilities-3.5.9.tar.gz
+[2023-06-26 01:42:41] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/5b/3d/00475e0b03098ec8d68cb59416f9ac7f7b77aa612f6e018481e9a1aeaa41/pillar1-0.1.8.47.tar.gz
+[2023-06-26 01:42:41] INFO root fetch - processPackages [graphstorm]: Downloading https://files.pythonhosted.org/packages/cf/a3/d211e6f847bd8b6ffe543e5b3ab2e5c75260ce9667bd8f6447415ffee5d0/graphstorm-0.1.1rc2-py3-none-any.whl
+[2023-06-26 01:42:41] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-26 01:42:41] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.46.tar.gz tmp/pillar1-0.1.8.47.tar.gz --markdown 20230626/p/pillar1/0.1.8.46-0.1.8.47/diff.md --exclude *.pyd
+[2023-06-26 01:42:42] INFO root fetch - processPackages [morss]: Downloading https://files.pythonhosted.org/packages/6b/63/666f17fedf922a880856d69ea382944f1a13450b6387384ef957b86f2a89/morss-20230625.2341.tar.gz
+[2023-06-26 01:42:42] INFO root fetch - processPackages [hdx-python-utilities]: Downloading https://files.pythonhosted.org/packages/0a/37/9c89687d19c4b80c660f73c3f8e1341e9563895b565a884479dfc65fa725/hdx_python_utilities-3.6.0.tar.gz
+[2023-06-26 01:42:42] INFO root fetch - processPackages [morss]: executing diffoscope
+[2023-06-26 01:42:42] INFO root fetch - processPackages [morss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morss-20230623.2301.tar.gz tmp/morss-20230625.2341.tar.gz --markdown 20230626/m/morss/20230623.2301-20230625.2341/diff.md --exclude *.pyd
+[2023-06-26 01:42:42] INFO root fetch - processPackages [lapx]: Downloading https://files.pythonhosted.org/packages/a1/dc/c911b9cd0ab15f57ad616d00a89d045f9ca4aaa6fcb2d661bfe67d2d030d/lapx-0.5.2.post1.tar.gz
+[2023-06-26 01:42:42] INFO root fetch - processPackages [graphstorm]: executing diffoscope
+[2023-06-26 01:42:42] INFO root fetch - processPackages [graphstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphstorm-0.1.1-py3-none-any.whl.zip tmp/graphstorm-0.1.1rc2-py3-none-any.whl.zip --markdown 20230626/g/graphstorm/0.1.1-0.1.1rc2/diff.md --exclude *.pyd
+[2023-06-26 01:42:42] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/9a/12/7d550441bb0b8a09aa8b4ed03f2557ac00593b9de40598dc0797cdacced9/SpatialCluster-0.0.9.tar.gz
+[2023-06-26 01:42:42] INFO root fetch - processPackages [hdx-python-utilities]: executing diffoscope
+[2023-06-26 01:42:42] INFO root fetch - processPackages [hdx-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_utilities-3.5.9.tar.gz tmp/hdx_python_utilities-3.6.0.tar.gz --markdown 20230626/h/hdx-python-utilities/3.5.9-3.6.0/diff.md --exclude *.pyd
+[2023-06-26 01:42:42] INFO root fetch - processPackages [lapx]: executing diffoscope
+[2023-06-26 01:42:42] INFO root fetch - processPackages [lapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lapx-0.5.2.tar.gz tmp/lapx-0.5.2.post1.tar.gz --markdown 20230626/l/lapx/0.5.2-0.5.2.post1/diff.md --exclude *.pyd
+[2023-06-26 01:42:43] INFO root fetch - processPackages [SpatialCluster]: executing diffoscope
+[2023-06-26 01:42:43] INFO root fetch - processPackages [SpatialCluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialCluster-0.0.8.tar.gz tmp/SpatialCluster-0.0.9.tar.gz --markdown 20230626/S/SpatialCluster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 01:42:43] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.46.tar.gz]
+[2023-06-26 01:42:43] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.47.tar.gz]
+[2023-06-26 01:42:43] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-26 01:42:43] INFO root fetch - processPackages [morss]: Remove: archive file [/home/abi/fetcher/tmp/morss-20230623.2301.tar.gz]
+[2023-06-26 01:42:43] INFO root fetch - processPackages [morss]: Remove: archive file [/home/abi/fetcher/tmp/morss-20230625.2341.tar.gz]
+[2023-06-26 01:42:43] INFO root fetch - main [MainThread]: End processing [morss]: success
+[2023-06-26 01:42:43] INFO root fetch - processPackages [lapx]: Remove: archive file [/home/abi/fetcher/tmp/lapx-0.5.2.tar.gz]
+[2023-06-26 01:42:43] INFO root fetch - processPackages [lapx]: Remove: archive file [/home/abi/fetcher/tmp/lapx-0.5.2.post1.tar.gz]
+[2023-06-26 01:42:43] INFO root fetch - main [MainThread]: End processing [lapx]: success
+[2023-06-26 01:42:43] INFO root fetch - processPackages [graphstorm]: Remove: archive file [/home/abi/fetcher/tmp/graphstorm-0.1.1-py3-none-any.whl.zip]
+[2023-06-26 01:42:43] INFO root fetch - processPackages [graphstorm]: Remove: archive file [/home/abi/fetcher/tmp/graphstorm-0.1.1rc2-py3-none-any.whl.zip]
+[2023-06-26 01:42:43] INFO root fetch - main [MainThread]: End processing [graphstorm]: success
+[2023-06-26 01:42:44] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.8.tar.gz]
+[2023-06-26 01:42:44] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.9.tar.gz]
+[2023-06-26 01:42:44] INFO root fetch - main [MainThread]: End processing [SpatialCluster]: success
+[2023-06-26 01:43:37] INFO root fetch - processPackages [hdx-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_utilities-3.5.9.tar.gz]
+[2023-06-26 01:43:37] INFO root fetch - processPackages [hdx-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_utilities-3.6.0.tar.gz]
+[2023-06-26 01:43:37] INFO root fetch - main [MainThread]: End processing [hdx-python-utilities]: success
+[2023-06-26 01:43:37] INFO root fetch - main [MainThread]: Store serial: [18639820]
