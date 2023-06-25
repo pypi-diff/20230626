@@ -990,3 +990,44 @@
 [2023-06-26 01:32:21] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-26 01:32:21] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-06-26 01:32:21] INFO root fetch - main [MainThread]: Store serial: [18639782]
+[2023-06-26 01:37:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639782]
+[2023-06-26 01:37:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctd-python
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: traffsimpy
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tomfoolery
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remla23team09librelease
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ctd-python
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctd-python
+[2023-06-26 01:37:30] INFO root fetch - processPackages [tomfoolery]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-26 01:37:30] WARNING root fetch - processPackages [remla23team09librelease]: Skipping, unable to determine old version
+[2023-06-26 01:37:30] INFO root fetch - main [MainThread]: End processing [remla23team09librelease] error
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ctd-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 01:37:30] WARNING root fetch - processPackages [traffsimpy]: Skipping, unable to determine old version
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ctd-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ctd-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 01:37:30] INFO root fetch - main [MainThread]: End processing [traffsimpy] error
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/fb/db/c5bce06839ee43cbc3591860e0174755b791bba8ce7df179e50aef0d8e2a/ctd-python-0.0.8.tar.gz
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/fb/db/c5bce06839ee43cbc3591860e0174755b791bba8ce7df179e50aef0d8e2a/ctd-python-0.0.8.tar.gz
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/fb/db/c5bce06839ee43cbc3591860e0174755b791bba8ce7df179e50aef0d8e2a/ctd-python-0.0.8.tar.gz
+[2023-06-26 01:37:30] INFO root fetch - processPackages [tomfoolery]: Downloading https://files.pythonhosted.org/packages/c8/ef/4f306d556a8837f1fb68422912e2472c5a557f6c74fc4c495766e45b854c/tomfoolery-0.0.0.tar.gz
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/ec/6c/fa9f844e612f46ac9ca0887dab607c02799d8fe0da8d20aac481118ae328/ctd-python-0.0.9.tar.gz
+[2023-06-26 01:37:30] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/ec/6c/fa9f844e612f46ac9ca0887dab607c02799d8fe0da8d20aac481118ae328/ctd-python-0.0.9.tar.gz
+[2023-06-26 01:37:31] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/ec/6c/fa9f844e612f46ac9ca0887dab607c02799d8fe0da8d20aac481118ae328/ctd-python-0.0.9.tar.gz
+[2023-06-26 01:37:31] INFO root fetch - processPackages [tomfoolery]: Downloading https://files.pythonhosted.org/packages/c5/ed/77f5f35c97ef28ca12645db350decffff1da43ae1215066da4a54add1f27/tomfoolery-0.1.0.tar.gz
+[2023-06-26 01:37:31] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-06-26 01:37:31] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.0.8.tar.gz tmp/ctd-python-0.0.9.tar.gz --markdown 20230626/c/ctd-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 01:37:31] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-06-26 01:37:31] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.0.8.tar.gz tmp/ctd-python-0.0.9.tar.gz --markdown 20230626/c/ctd-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 01:37:31] INFO root fetch - processPackages [tomfoolery]: executing diffoscope
+[2023-06-26 01:37:31] INFO root fetch - processPackages [tomfoolery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomfoolery-0.0.0.tar.gz tmp/tomfoolery-0.1.0.tar.gz --markdown 20230626/t/tomfoolery/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-26 01:37:31] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-06-26 01:37:31] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.0.8.tar.gz tmp/ctd-python-0.0.9.tar.gz --markdown 20230626/c/ctd-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 01:37:32] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.0.8.tar.gz]
+[2023-06-26 01:37:32] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.0.9.tar.gz]
+[2023-06-26 01:37:32] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-06-26 01:37:32] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-06-26 01:37:32] INFO root fetch - processPackages [tomfoolery]: Remove: archive file [/home/abi/fetcher/tmp/tomfoolery-0.0.0.tar.gz]
+[2023-06-26 01:37:32] INFO root fetch - processPackages [tomfoolery]: Remove: archive file [/home/abi/fetcher/tmp/tomfoolery-0.1.0.tar.gz]
+[2023-06-26 01:37:32] INFO root fetch - main [MainThread]: End processing [tomfoolery]: success
+[2023-06-26 01:37:32] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-06-26 01:37:32] INFO root fetch - main [MainThread]: Store serial: [18639801]
