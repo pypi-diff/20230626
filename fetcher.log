@@ -133,3 +133,69 @@
 [2023-06-26 00:07:26] INFO root fetch - processPackages [async-mvg-api]: Remove: archive file [/home/abi/fetcher/tmp/async_mvg_api-0.1.5.tar.gz]
 [2023-06-26 00:07:26] INFO root fetch - main [MainThread]: End processing [async-mvg-api]: success
 [2023-06-26 00:07:26] INFO root fetch - main [MainThread]: Store serial: [18639379]
+[2023-06-26 00:12:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639379]
+[2023-06-26 00:12:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 00:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: css-inline
+[2023-06-26 00:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-ecosystem-dependencies
+[2023-06-26 00:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UpyTest
+[2023-06-26 00:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openweathersdk
+[2023-06-26 00:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyOdoo
+[2023-06-26 00:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scludam
+[2023-06-26 00:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: captif-cpx-db
+[2023-06-26 00:12:35] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.28] Old Version: [202306.0.27]
+[2023-06-26 00:12:35] INFO root fetch - processPackages [css-inline]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-06-26 00:12:35] INFO root fetch - processPackages [captif-cpx-db]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 00:12:35] INFO root fetch - processPackages [scludam]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-26 00:12:35] INFO root fetch - processPackages [openweathersdk]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-26 00:12:35] INFO root fetch - processPackages [UpyTest]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-06-26 00:12:35] INFO root fetch - processPackages [PyOdoo]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-26 00:12:35] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/56/75/520a4f343869032bde441c1e003f04318f43c9e63f8fbc876f5cb3f83289/captif_cpx_db-0.8.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/b8/62/f561531808bf86045f2ec5c71501f09ec08e0f5aa115b316b38060fe640e/data_ecosystem_dependencies-202306.0.27.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/57/f2/1c7dfe09355b93adec3f720beb48a7b15279c94f5c9f6e61bb17bc835e5c/UpyTest-3.1.1.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [openweathersdk]: Downloading https://files.pythonhosted.org/packages/37/3d/31e2e19d8deb3888147b5750e3b4f8267e721160ab7c782227dfb7375749/openweathersdk-0.1.0.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [scludam]: Downloading https://files.pythonhosted.org/packages/ee/2b/820bfb66d9042c3f9c683a5a54250d3ba8564cf71f6b0fba4f035965ccd5/scludam-1.0.2-py3-none-any.whl
+[2023-06-26 00:12:35] INFO root fetch - processPackages [css-inline]: Downloading https://files.pythonhosted.org/packages/53/4d/511e3155bf8f863d129e8d1006cc01f26ecfb36b2622dd32551c654c5f66/css_inline-0.8.7.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/13/2d/bfd1ce82d1877d5c33ba5d16cc355203b48146e1b37fc019560379c8f923/captif_cpx_db-0.9.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [PyOdoo]: Downloading https://files.pythonhosted.org/packages/6d/ba/378d213978bbc369b42a66595b12287aa48bbdd85023bbefbd18a5c5eb2a/PyOdoo-0.5.9.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-06-26 00:12:35] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.8.tar.gz tmp/captif_cpx_db-0.9.tar.gz --markdown 20230626/c/captif-cpx-db/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 00:12:35] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/35/a2/0932c3f781f5de1dc6931b9f057b851455e75c0702d7fa076d85c8ecee54/data_ecosystem_dependencies-202306.0.28.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/56/f3/552527ae6fc26e176ac5a502d5075f69301fe448265f32b0f87f6c5397d7/UpyTest-3.1.2.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [openweathersdk]: Downloading https://files.pythonhosted.org/packages/52/97/aa15505049561a775da3841b0baf87218441cdaaf505567a16f03e57fa0d/openweathersdk-0.2.0.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-26 00:12:35] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202306.0.27.tar.gz tmp/data_ecosystem_dependencies-202306.0.28.tar.gz --markdown 20230626/d/data-ecosystem-dependencies/202306.0.27-202306.0.28/diff.md --exclude *.pyd
+[2023-06-26 00:12:35] INFO root fetch - processPackages [scludam]: Downloading https://files.pythonhosted.org/packages/11/36/8ba0ead7593076432da7e0daba9ac4264b184a60bc3726d315bf2d8ff81a/scludam-1.0.3-py3-none-any.whl
+[2023-06-26 00:12:35] INFO root fetch - processPackages [css-inline]: Downloading https://files.pythonhosted.org/packages/b6/8a/f5f42b7f417e1a8c1e5764caecc6d9f03a4da93449225918f9cf4aa5f590/css_inline-0.9.0.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [openweathersdk]: executing diffoscope
+[2023-06-26 00:12:35] INFO root fetch - processPackages [openweathersdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openweathersdk-0.1.0.tar.gz tmp/openweathersdk-0.2.0.tar.gz --markdown 20230626/o/openweathersdk/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 00:12:35] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-06-26 00:12:35] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UpyTest-3.1.1.tar.gz tmp/UpyTest-3.1.2.tar.gz --markdown 20230626/U/UpyTest/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-06-26 00:12:35] INFO root fetch - processPackages [PyOdoo]: Downloading https://files.pythonhosted.org/packages/ce/86/d4c63868796727710eac4d66259ad83a2f4bd134cc4fc36ab3d58f700951/PyOdoo-0.6.0.tar.gz
+[2023-06-26 00:12:35] INFO root fetch - processPackages [css-inline]: executing diffoscope
+[2023-06-26 00:12:35] INFO root fetch - processPackages [css-inline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/css_inline-0.8.7.tar.gz tmp/css_inline-0.9.0.tar.gz --markdown 20230626/c/css-inline/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 00:12:35] INFO root fetch - processPackages [PyOdoo]: executing diffoscope
+[2023-06-26 00:12:35] INFO root fetch - processPackages [PyOdoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOdoo-0.5.9.tar.gz tmp/PyOdoo-0.6.0.tar.gz --markdown 20230626/P/PyOdoo/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-26 00:12:36] INFO root fetch - processPackages [scludam]: executing diffoscope
+[2023-06-26 00:12:36] INFO root fetch - processPackages [scludam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scludam-1.0.2-py3-none-any.whl.zip tmp/scludam-1.0.3-py3-none-any.whl.zip --markdown 20230626/s/scludam/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-26 00:12:37] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.27.tar.gz]
+[2023-06-26 00:12:37] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.28.tar.gz]
+[2023-06-26 00:12:37] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-26 00:12:37] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.8.tar.gz]
+[2023-06-26 00:12:37] INFO root fetch - processPackages [captif-cpx-db]: Remove: archive file [/home/abi/fetcher/tmp/captif_cpx_db-0.9.tar.gz]
+[2023-06-26 00:12:37] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-06-26 00:12:37] INFO root fetch - processPackages [openweathersdk]: Remove: archive file [/home/abi/fetcher/tmp/openweathersdk-0.1.0.tar.gz]
+[2023-06-26 00:12:37] INFO root fetch - processPackages [openweathersdk]: Remove: archive file [/home/abi/fetcher/tmp/openweathersdk-0.2.0.tar.gz]
+[2023-06-26 00:12:37] INFO root fetch - main [MainThread]: End processing [openweathersdk]: success
+[2023-06-26 00:12:37] INFO root fetch - processPackages [scludam]: Remove: archive file [/home/abi/fetcher/tmp/scludam-1.0.2-py3-none-any.whl.zip]
+[2023-06-26 00:12:37] INFO root fetch - processPackages [scludam]: Remove: archive file [/home/abi/fetcher/tmp/scludam-1.0.3-py3-none-any.whl.zip]
+[2023-06-26 00:12:37] INFO root fetch - main [MainThread]: End processing [scludam]: success
+[2023-06-26 00:12:37] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.1.1.tar.gz]
+[2023-06-26 00:12:37] INFO root fetch - processPackages [UpyTest]: Remove: archive file [/home/abi/fetcher/tmp/UpyTest-3.1.2.tar.gz]
+[2023-06-26 00:12:37] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-06-26 00:12:38] INFO root fetch - processPackages [css-inline]: Remove: archive file [/home/abi/fetcher/tmp/css_inline-0.8.7.tar.gz]
+[2023-06-26 00:12:38] INFO root fetch - processPackages [css-inline]: Remove: archive file [/home/abi/fetcher/tmp/css_inline-0.9.0.tar.gz]
+[2023-06-26 00:12:38] INFO root fetch - main [MainThread]: End processing [css-inline]: success
+[2023-06-26 00:12:38] INFO root fetch - processPackages [PyOdoo]: Remove: archive file [/home/abi/fetcher/tmp/PyOdoo-0.5.9.tar.gz]
+[2023-06-26 00:12:38] INFO root fetch - processPackages [PyOdoo]: Remove: archive file [/home/abi/fetcher/tmp/PyOdoo-0.6.0.tar.gz]
+[2023-06-26 00:12:38] INFO root fetch - main [MainThread]: End processing [PyOdoo]: success
+[2023-06-26 00:12:38] INFO root fetch - main [MainThread]: Store serial: [18639417]
