@@ -4785,3 +4785,48 @@
 [2023-06-26 03:23:15] INFO root fetch - processPackages [kf6py]: Remove: archive file [/home/abi/fetcher/tmp/kf6py-0.2.3.tar.gz]
 [2023-06-26 03:23:15] INFO root fetch - main [MainThread]: End processing [kf6py]: success
 [2023-06-26 03:23:15] INFO root fetch - main [MainThread]: Store serial: [18641151]
+[2023-06-26 03:28:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641151]
+[2023-06-26 03:28:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 03:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oxdork
+[2023-06-26 03:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-hugo-deploy
+[2023-06-26 03:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Leonardo-Ai-SDK
+[2023-06-26 03:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skillshare_dl
+[2023-06-26 03:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-06-26 03:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pure-ocean-breeze
+[2023-06-26 03:28:25] INFO root fetch - processPackages [oxdork]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-06-26 03:28:25] WARNING root fetch - processPackages [Leonardo-Ai-SDK]: Skipping, unable to determine old version
+[2023-06-26 03:28:25] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK] error
+[2023-06-26 03:28:25] WARNING root fetch - processPackages [skillshare_dl]: Skipping, unable to determine old version
+[2023-06-26 03:28:25] INFO root fetch - main [MainThread]: End processing [skillshare_dl] error
+[2023-06-26 03:28:25] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 03:28:25] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-26 03:28:25] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-26 03:28:25] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-06-26 03:28:25] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-26 03:28:25] INFO root fetch - processPackages [oxdork]: Downloading https://files.pythonhosted.org/packages/be/cd/3b6fd4319f01b96bac41d273d587ce633a3ff62a541906ccd21a7f020f62/oxdork-3.1.0.tar.gz
+[2023-06-26 03:28:26] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-26 03:28:26] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/3f/99/5cd0f6430966a4391e568d6e6852f0a1514161e2491175922103e90e76ca/pure_ocean_breeze-3.9.8.tar.gz
+[2023-06-26 03:28:26] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-26 03:28:26] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230626/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:28:26] INFO root fetch - processPackages [oxdork]: Downloading https://files.pythonhosted.org/packages/35/2f/e7c6102c1318f1efa6a1c6d7d705aa77c5379db3ea996be55bbcf66019ec/oxdork-3.1.1.tar.gz
+[2023-06-26 03:28:26] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/7a/04/735035c1d2ef7a89f44083cd5c6708b82678902ae54a764991f0451942b0/pure_ocean_breeze-3.9.9.tar.gz
+[2023-06-26 03:28:26] INFO root fetch - processPackages [oxdork]: executing diffoscope
+[2023-06-26 03:28:26] INFO root fetch - processPackages [oxdork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxdork-3.1.0.tar.gz tmp/oxdork-3.1.1.tar.gz --markdown 20230626/o/oxdork/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-06-26 03:28:26] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-06-26 03:28:26] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-3.9.8.tar.gz tmp/pure_ocean_breeze-3.9.9.tar.gz --markdown 20230626/p/pure-ocean-breeze/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-06-26 03:28:27] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-26 03:28:27] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-26 03:28:27] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-26 03:28:27] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-26 03:28:27] INFO root fetch - processPackages [oxdork]: Remove: archive file [/home/abi/fetcher/tmp/oxdork-3.1.0.tar.gz]
+[2023-06-26 03:28:27] INFO root fetch - processPackages [oxdork]: Remove: archive file [/home/abi/fetcher/tmp/oxdork-3.1.1.tar.gz]
+[2023-06-26 03:28:27] INFO root fetch - main [MainThread]: End processing [oxdork]: success
+[2023-06-26 03:28:28] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-3.9.8.tar.gz]
+[2023-06-26 03:28:28] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-3.9.9.tar.gz]
+[2023-06-26 03:28:28] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-06-26 03:28:29] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-26 03:28:29] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230626/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-26 03:28:31] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-26 03:28:31] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-26 03:28:31] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-26 03:28:31] INFO root fetch - main [MainThread]: Store serial: [18641176]
