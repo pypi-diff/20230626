@@ -15479,3 +15479,137 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:22:27] INFO root fetch - processPackages [vstt]: Remove: archive file [/home/abi/fetcher/tmp/vstt-1.0.0.tar.gz]
 [2023-06-26 13:22:27] INFO root fetch - main [MainThread]: End processing [vstt]: success
 [2023-06-26 13:22:27] INFO root fetch - main [MainThread]: Store serial: [18645717]
+[2023-06-26 13:27:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645717]
+[2023-06-26 13:27:36] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-26 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabulation
+[2023-06-26 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axaiogram
+[2023-06-26 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mltlk
+[2023-06-26 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SegmentTec-Everything
+[2023-06-26 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Procountor
+[2023-06-26 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-order-general-discount-triple
+[2023-06-26 13:27:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Google-Ads-Transparency-Scraper
+[2023-06-26 13:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchtnt-nightly
+[2023-06-26 13:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyfi
+[2023-06-26 13:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swh.deposit
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 13:27:37] INFO root fetch - processPackages [axaiogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 13:27:37] WARNING root fetch - processPackages [SegmentTec-Everything]: Skipping, unable to determine old version
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Procountor]: New version: [2.3.2] Old Version: [2.2.3]
+[2023-06-26 13:27:37] INFO root fetch - processPackages [SegmentTec-Everything]: Start processing: aspose-3d
+[2023-06-26 13:27:37] INFO root fetch - main [MainThread]: End processing [SegmentTec-Everything] error
+[2023-06-26 13:27:37] INFO root fetch - processPackages [tabulation]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-26 13:27:37] INFO root fetch - processPackages [hyfi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 13:27:37] WARNING root fetch - processPackages [odoo-addon-sale-order-general-discount-triple]: Skipping, unable to determine old version
+[2023-06-26 13:27:37] INFO root fetch - processPackages [odoo-addon-sale-order-general-discount-triple]: Start processing: mrfix
+[2023-06-26 13:27:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-general-discount-triple] error
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: New version: [1.1] Old Version: [1.0]
+[2023-06-26 13:27:37] INFO root fetch - processPackages [aspose-3d]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-26 13:27:37] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-26 13:27:37] INFO root fetch - processPackages [swh.deposit]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-26 13:27:37] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/d6/a1/3fd6f35197d99ebc197218d98cd3b64c7011e930acd68ebb35074b8dceda/hyfi-0.9.0.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mrfix]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/8d/fa/57476ab85e28ad65618c17cf82e0551a3f5aa1948d030d8774566c8e72c5/axaiogram-0.0.8.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/4f/4a90173b01a8086490f647ccb58a5421c9d44a1c56813090cb773ecd7370/torchtnt-nightly-2023.6.4.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/fd/fc/ab636c685185180c26177ad956f66090fd64e114d2ffd515e1a735174982/Google%20Ads%20Transparency%20Scraper-1.0.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/6a/01/dc2bf256ab02a7cd4b02600fc04b49d58f942a708d4fab8f002440444502/mrfix-2.0.8.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Procountor]: Downloading https://files.pythonhosted.org/packages/a1/99/63aed41856a56c48cf738b8ed2fd248ce7397438cb0fe3afa9402a2f7aa2/Procountor-2.2.3.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [tabulation]: Downloading https://files.pythonhosted.org/packages/91/89/8b999883f369a4c46dad099fbdbcd0bf27d5d4b9fd42e121c525b377626e/tabulation-1.0.4.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [aspose-3d]: Downloading https://files.pythonhosted.org/packages/a0/e5/eeee92f03261ece79f53f8775b9f0970b129b5e29700888e4a8c47d63e25/aspose_3d-23.5.0-py3-none-win_amd64.whl
+[2023-06-26 13:27:37] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ac/9f/80928f411f6c786a00e698a782b561d60d17fe09e71cf49c42581337defe/hyfi-0.9.1.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/3a/b9/ebe8494e336007718e89f31477eb283b3f6156c16ef56682554b41c1f057/axaiogram-0.0.9.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [swh.deposit]: Downloading https://files.pythonhosted.org/packages/a3/79/ca19a52e4479827e2fee8ee72d58bee07cb9a78df5e93e06b0f8b0cd384a/swh.deposit-1.2.1.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/40/59/8e219732c8232b640b0cb88f485f6d98bd76be3c47f0cf80b9d1afd6a0de/torchtnt-nightly-2023.6.5.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/e8/a8/3b9fe5e5e02cde1a347fb630590d3bbf5132544681a9e92bbb68180877b4/Google%20Ads%20Transparency%20Scraper-1.1.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/2a/70/06f3ca5535ef3bdefca25df75a107407176d4ec4d24f61edff8e85574d48/mrfix-2.0.9.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-26 13:27:37] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.9.0.tar.gz tmp/hyfi-0.9.1.tar.gz --markdown 20230626/h/hyfi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 13:27:37] WARNING root fetch - processPackages [aspose-3d]: Skipping package: exceeds size limit 39612120>=10485760
+[2023-06-26 13:27:37] INFO root fetch - processPackages [aspose-3d]: Start processing: plottah
+[2023-06-26 13:27:37] INFO root fetch - main [MainThread]: End processing [aspose-3d] error
+[2023-06-26 13:27:37] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 13:27:37] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.8.tar.gz tmp/axaiogram-0.0.9.tar.gz --markdown 20230626/a/axaiogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:27:37] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-26 13:27:37] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.6.4.tar.gz tmp/torchtnt-nightly-2023.6.5.tar.gz --markdown 20230626/t/torchtnt-nightly/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-26 13:27:37] INFO root fetch - processPackages [plottah]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.8.tar.gz tmp/mrfix-2.0.9.tar.gz --markdown 20230626/m/mrfix/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Procountor]: Downloading https://files.pythonhosted.org/packages/63/cb/bcdce35bb1300bd66e318fcd75c987921d875ec1e8a00fa2da4f7e7f76d9/Procountor-2.3.2.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [tabulation]: Downloading https://files.pythonhosted.org/packages/6a/f3/5bb4741ed02ba9e1d7bc9649bdeb2ec19aa837ea2047a1352ee6f587bda3/tabulation-1.0.5.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: executing diffoscope
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Google Ads Transparency Scraper-1.0.tar.gz tmp/Google Ads Transparency Scraper-1.1.tar.gz --markdown 20230626/G/Google-Ads-Transparency-Scraper/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-26 13:27:37] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230626/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 13:27:37] INFO root fetch - processPackages [tabulation]: executing diffoscope
+[2023-06-26 13:27:37] INFO root fetch - processPackages [tabulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabulation-1.0.4.tar.gz tmp/tabulation-1.0.5.tar.gz --markdown 20230626/t/tabulation/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Procountor]: executing diffoscope
+[2023-06-26 13:27:37] INFO root fetch - processPackages [Procountor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Procountor-2.2.3.tar.gz tmp/Procountor-2.3.2.tar.gz --markdown 20230626/P/Procountor/2.2.3-2.3.2/diff.md --exclude *.pyd
+[2023-06-26 13:27:37] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/ce/07/02c9cdf3f5828f6dd8d8f2aa71dd7419309fd73115b03c9a2d008fcf1358/plottah-0.1.2.tar.gz
+[2023-06-26 13:27:37] INFO root fetch - processPackages [swh.deposit]: Downloading https://files.pythonhosted.org/packages/cb/59/61c448fd18cbec855ff5e0903a479c53c1c91993022ff659b7b2a284085c/swh.deposit-1.2.2.tar.gz
+[2023-06-26 13:27:38] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/a6/02/fc1621975e99cf30c494eff910ba4bc8124bb27dc81d385277bd5746975a/plottah-0.1.3.tar.gz
+[2023-06-26 13:27:38] INFO root fetch - processPackages [swh.deposit]: executing diffoscope
+[2023-06-26 13:27:38] INFO root fetch - processPackages [swh.deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.deposit-1.2.1.tar.gz tmp/swh.deposit-1.2.2.tar.gz --markdown 20230626/s/swh.deposit/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-26 13:27:38] INFO root fetch - processPackages [plottah]: executing diffoscope
+[2023-06-26 13:27:38] INFO root fetch - processPackages [plottah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottah-0.1.2.tar.gz tmp/plottah-0.1.3.tar.gz --markdown 20230626/p/plottah/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 13:27:39] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google Ads Transparency Scraper-1.0.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google Ads Transparency Scraper-1.1.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Start processing: ipython-polypheny
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [Google-Ads-Transparency-Scraper]: success
+[2023-06-26 13:27:39] WARNING root fetch - processPackages [ipython-polypheny]: Skipping, unable to determine old version
+[2023-06-26 13:27:39] INFO root fetch - processPackages [ipython-polypheny]: Start processing: th2-grpc-sim
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [ipython-polypheny] error
+[2023-06-26 13:27:39] INFO root fetch - processPackages [th2-grpc-sim]: New version: [5.0.0.dev5376623916] Old Version: [4.2.0.dev4312583252]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [tabulation]: Remove: archive file [/home/abi/fetcher/tmp/tabulation-1.0.4.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [tabulation]: Remove: archive file [/home/abi/fetcher/tmp/tabulation-1.0.5.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [tabulation]: Start processing: Dowell-Mail
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [tabulation]: success
+[2023-06-26 13:27:39] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/80/bc/ee3552664114b319682205d2ce77b7140adf42e975833af313ef5601e642/th2_grpc_sim-4.2.0.dev4312583252.tar.gz
+[2023-06-26 13:27:39] WARNING root fetch - processPackages [Dowell-Mail]: Skipping, unable to determine old version
+[2023-06-26 13:27:39] INFO root fetch - processPackages [Dowell-Mail]: Start processing: dwiqc
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [Dowell-Mail] error
+[2023-06-26 13:27:39] INFO root fetch - processPackages [dwiqc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.0.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.1.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [hyfi]: Start processing: lanablas
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-26 13:27:39] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/0c/63/4ff0a876d12002fc8380d7aebad3bb53e3f42557ddab096b6b9385bd7408/dwiqc-0.4.8-py2.py3-none-any.whl
+[2023-06-26 13:27:39] INFO root fetch - processPackages [lanablas]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/b4/0a/1a8485e1babf77c3c0b8a7995703d1ea40dde024e267e529a9e396d1ac4e/lanablas-0.0.9.tar.gz
+[2023-06-26 13:27:39] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/57/fe/54555fb5e5e37b9461a9aed86f0e264b2347cbe60ea8dad5d1c9d8ba2bd3/th2_grpc_sim-5.0.0.dev5376623916.tar.gz
+[2023-06-26 13:27:39] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/99/9d/fb37a586f01eb149c76c7d2c33540429c2169a9054118ee740f457b29f19/dwiqc-0.4.9-py2.py3-none-any.whl
+[2023-06-26 13:27:39] INFO root fetch - processPackages [th2-grpc-sim]: executing diffoscope
+[2023-06-26 13:27:39] INFO root fetch - processPackages [th2-grpc-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim-4.2.0.dev4312583252.tar.gz tmp/th2_grpc_sim-5.0.0.dev5376623916.tar.gz --markdown 20230626/t/th2-grpc-sim/4.2.0.dev4312583252-5.0.0.dev5376623916/diff.md --exclude *.pyd
+[2023-06-26 13:27:39] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.8.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.9.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 13:27:39] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-26 13:27:39] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip --markdown 20230626/d/dwiqc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-26 13:27:39] INFO root fetch - processPackages [Procountor]: Remove: archive file [/home/abi/fetcher/tmp/Procountor-2.2.3.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [Procountor]: Remove: archive file [/home/abi/fetcher/tmp/Procountor-2.3.2.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [Procountor]: success
+[2023-06-26 13:27:39] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/32/fe/5c8fddb00fbe50d9f83850f243ca2c723039fffda1544dd52a4fcdd89694/lanablas-0.1.0.tar.gz
+[2023-06-26 13:27:39] WARNING root fetch - processPackages [lanablas]: Skipping package: exceeds size limit 71402705>=10485760
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [lanablas] error
+[2023-06-26 13:27:39] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.8.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.9.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-06-26 13:27:39] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.2.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.3.tar.gz]
+[2023-06-26 13:27:39] INFO root fetch - main [MainThread]: End processing [plottah]: success
+[2023-06-26 13:27:40] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.4.tar.gz]
+[2023-06-26 13:27:40] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.5.tar.gz]
+[2023-06-26 13:27:40] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-26 13:27:40] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-26 13:27:40] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-26 13:27:40] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-26 13:27:40] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-4.2.0.dev4312583252.tar.gz]
+[2023-06-26 13:27:40] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5376623916.tar.gz]
+[2023-06-26 13:27:40] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim]: success
+[2023-06-26 13:27:40] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip]
+[2023-06-26 13:27:40] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip]
+[2023-06-26 13:27:40] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-26 13:27:41] INFO root fetch - processPackages [swh.deposit]: Remove: archive file [/home/abi/fetcher/tmp/swh.deposit-1.2.1.tar.gz]
+[2023-06-26 13:27:41] INFO root fetch - processPackages [swh.deposit]: Remove: archive file [/home/abi/fetcher/tmp/swh.deposit-1.2.2.tar.gz]
+[2023-06-26 13:27:41] INFO root fetch - main [MainThread]: End processing [swh.deposit]: success
+[2023-06-26 13:27:41] INFO root fetch - main [MainThread]: Store serial: [18645775]
