@@ -4633,3 +4633,95 @@
 [2023-06-26 03:12:16] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-26 03:12:16] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-26 03:12:16] INFO root fetch - main [MainThread]: Store serial: [18641092]
+[2023-06-26 03:17:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641092]
+[2023-06-26 03:17:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbase
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pixelpro
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codemonkeys
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcorelib
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypomes
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-lambda-layer-curl
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vsc-dm
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: duckdb
+[2023-06-26 03:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aemcmc-nightly
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vsc-dm]: New version: [0.0.1.5372751496] Old Version: [0.0.1.5237042747]
+[2023-06-26 03:17:26] WARNING root fetch - processPackages [codemonkeys]: Skipping, unable to determine old version
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pixelpro]: New version: [5.0] Old Version: [4.0]
+[2023-06-26 03:17:26] INFO root fetch - processPackages [codemonkeys]: Start processing: moped
+[2023-06-26 03:17:26] INFO root fetch - main [MainThread]: End processing [codemonkeys] error
+[2023-06-26 03:17:26] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-06-26 03:17:26] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230625] Old Version: [0.0.8.dev20230624]
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pypomes]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vcorelib]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-26 03:17:26] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2023-06-26 03:17:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-26 03:17:26] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-06-26 03:17:26] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev87] Old Version: [0.8.2.dev77]
+[2023-06-26 03:17:26] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/f5/20/b1ea6bcaad8dbaae7bef81b4595af65896a6a5680ad4aacc693b279fcc0b/aemcmc-nightly-0.0.8.dev20230624.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vsc-dm]: Downloading https://files.pythonhosted.org/packages/f6/68/4b2ed6d7efb3601b07ffb6dc616731424e1b3297d6c06c1b93004264fe7d/vsc_dm-0.0.1.5237042747-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pixelpro]: Downloading https://files.pythonhosted.org/packages/a6/a2/117fd546f7518860c9b8cc968af53b431827b5cebf4c18b351b66dbf67ea/pixelpro-4.0-py3-none-any.whl
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/c2/0d/d1448b6e631994a319886d3887faf35489e59e13664741c82a023bb0e2f7/pypomes-0.1.2.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/83/fc/fca0a3034d75f6dd12968f18a88c2da5889a7359402161c602f2c042990f/vcorelib-2.0.1.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/db/3b/efb7610d61277d41463a8511542a34c03caefe5cd471e50dd27baedd6343/duckdb-0.8.2.dev77-cp39-cp39-macosx_11_0_arm64.whl
+[2023-06-26 03:17:26] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/a2/be/0fbf9dc3165821829f5d570963008713b4f769fd29ba6d8421df1f1fa0fa/aemcmc-nightly-0.0.8.dev20230625.tar.gz
+[2023-06-26 03:17:26] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 12632526>=10485760
+[2023-06-26 03:17:26] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-06-26 03:17:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-26 03:17:26] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230624.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230625.tar.gz --markdown 20230626/a/aemcmc-nightly/0.0.8.dev20230624-0.0.8.dev20230625/diff.md --exclude *.pyd
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pixelpro]: Downloading https://files.pythonhosted.org/packages/9b/e5/1fc10d5979617ab741c7e3bdd516a9e4e72650b43d9c0eb4e28f4c57f0eb/pixelpro-5.0-py3-none-any.whl
+[2023-06-26 03:17:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-26 03:17:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230626/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vsc-dm]: Downloading https://files.pythonhosted.org/packages/10/1d/013476661f9dd7ec9a438e3f6fe87cc7bf4c0c3b54bb8f988e89b9cf54de/vsc_dm-0.0.1.5372751496-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/9a/8a/39c02967e93430dc9ec833729658ce806a6ee1ee0de9089031be8d8740ef/vcorelib-2.0.2.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pixelpro]: executing diffoscope
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pixelpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelpro-4.0-py3-none-any.whl.zip tmp/pixelpro-5.0-py3-none-any.whl.zip --markdown 20230626/p/pixelpro/4.0-5.0/diff.md --exclude *.pyd
+[2023-06-26 03:17:26] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/72/7a/7c5329d018556c18fe5152371b9a275b60a4798e0ee92ced4bd77d071a8f/pypomes-0.1.3.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-2.0.1.tar.gz tmp/vcorelib-2.0.2.tar.gz --markdown 20230626/v/vcorelib/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-26 03:17:26] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-06-26 03:17:26] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-06-26 03:17:26] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230626/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pypomes]: executing diffoscope
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vsc-dm]: executing diffoscope
+[2023-06-26 03:17:26] INFO root fetch - processPackages [pypomes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes-0.1.2.tar.gz tmp/pypomes-0.1.3.tar.gz --markdown 20230626/p/pypomes/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 03:17:26] INFO root fetch - processPackages [vsc-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsc_dm-0.0.1.5237042747-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/vsc_dm-0.0.1.5372751496-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230626/v/vsc-dm/0.0.1.5237042747-0.0.1.5372751496/diff.md --exclude *.pyd
+[2023-06-26 03:17:27] INFO root fetch - processPackages [moped]: executing diffoscope
+[2023-06-26 03:17:27] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20230626/m/moped/1.9.9-1rc1/diff.md --exclude *.pyd
+[2023-06-26 03:17:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-06-26 03:17:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230626/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:17:28] INFO root fetch - processPackages [pixelpro]: Remove: archive file [/home/abi/fetcher/tmp/pixelpro-4.0-py3-none-any.whl.zip]
+[2023-06-26 03:17:28] INFO root fetch - processPackages [pixelpro]: Remove: archive file [/home/abi/fetcher/tmp/pixelpro-5.0-py3-none-any.whl.zip]
+[2023-06-26 03:17:28] INFO root fetch - main [MainThread]: End processing [pixelpro]: success
+[2023-06-26 03:17:28] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230624.tar.gz]
+[2023-06-26 03:17:28] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230625.tar.gz]
+[2023-06-26 03:17:28] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-26 03:17:28] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2023-06-26 03:17:28] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2023-06-26 03:17:28] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-06-26 03:17:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-26 03:17:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-26 03:17:29] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-26 03:17:29] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.0.1.tar.gz]
+[2023-06-26 03:17:29] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.0.2.tar.gz]
+[2023-06-26 03:17:29] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-06-26 03:17:29] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2023-06-26 03:17:29] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2023-06-26 03:17:29] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2023-06-26 03:17:29] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.2.tar.gz]
+[2023-06-26 03:17:29] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.3.tar.gz]
+[2023-06-26 03:17:29] INFO root fetch - main [MainThread]: End processing [pypomes]: success
+[2023-06-26 03:17:30] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-06-26 03:17:30] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-06-26 03:17:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-06-26 03:17:59] INFO root fetch - processPackages [vsc-dm]: Remove: archive file [/home/abi/fetcher/tmp/vsc_dm-0.0.1.5237042747-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 03:17:59] INFO root fetch - processPackages [vsc-dm]: Remove: archive file [/home/abi/fetcher/tmp/vsc_dm-0.0.1.5372751496-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 03:17:59] INFO root fetch - main [MainThread]: End processing [vsc-dm]: success
+[2023-06-26 03:17:59] INFO root fetch - main [MainThread]: Store serial: [18641129]
