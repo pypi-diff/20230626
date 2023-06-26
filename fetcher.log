@@ -16798,3 +16798,134 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 14:21:32] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.0.dev0.tar.gz]
 [2023-06-26 14:21:32] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-06-26 14:21:32] INFO root fetch - main [MainThread]: Store serial: [18646310]
+[2023-06-26 14:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18646310]
+[2023-06-26 14:26:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yandex-reviews-parser
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gas-bin-distribution
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyblish-simple
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfaust
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spacy-llm
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfaust-openblaso
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ensmallen
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: papyru
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymatreader
+[2023-06-26 14:26:41] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230626.9.34.254631] Old Version: [20230626.6.41.903469]
+[2023-06-26 14:26:41] INFO root fetch - processPackages [spacy-llm]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-26 14:26:41] INFO root fetch - processPackages [pymatreader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 14:26:41] WARNING root fetch - processPackages [gas-bin-distribution]: Skipping, unable to determine old version
+[2023-06-26 14:26:41] INFO root fetch - processPackages [gas-bin-distribution]: Start processing: pyfaust-torch
+[2023-06-26 14:26:41] WARNING root fetch - processPackages [yandex-reviews-parser]: Skipping, unable to determine old version
+[2023-06-26 14:26:41] INFO root fetch - main [MainThread]: End processing [gas-bin-distribution] error
+[2023-06-26 14:26:41] INFO root fetch - processPackages [pyblish-simple]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 14:26:41] INFO root fetch - processPackages [yandex-reviews-parser]: Start processing: bycon
+[2023-06-26 14:26:41] INFO root fetch - main [MainThread]: End processing [yandex-reviews-parser] error
+[2023-06-26 14:26:41] INFO root fetch - processPackages [papyru]: New version: [2.7.0] Old Version: [2.6.1]
+[2023-06-26 14:26:41] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-26 14:26:41] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-26 14:26:41] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-26 14:26:41] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-26 14:26:42] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyblish-simple]: Downloading https://files.pythonhosted.org/packages/1f/54/6c54f974821c2df71ba0d409986eae30dc41895a47ef5af5cbe447dfa8d2/pyblish-simple-0.0.1.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d5/7b/891b493b32448e7feadace1e1c971b2e63cd84199eed22ca8eaf11c99054/certora-cli-alpha-master-20230626.6.41.903469.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [papyru]: Downloading https://files.pythonhosted.org/packages/28/10/6266c10e4ad20f652279c58122beed34690086f2f5704b99435821eac805/papyru-2.6.1.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2023-06-26 14:26:42] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/7b/14/e0546afbd9d28794b8204cb6b4735fcd2d5bf2c47cf4c66bcaf93d239af2/spacy-llm-0.3.1.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/59/0f/a671bb18f0866e38b3711c876d95dfa037f0ffd6e093480ae6ce5db7d8a6/pyfaust_openblaso-3.38.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-26 14:26:42] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37394054>=10485760
+[2023-06-26 14:26:42] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: robot-soccer-kit
+[2023-06-26 14:26:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-26 14:26:42] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/26/77/6d6f6c74db3fb6eea549a03a2bd2fa5effb4fadb83aa038856b0abfce6e7/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-06-26 14:26:42] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956958>=10485760
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyfaust-openblaso]: Start processing: autosbatch
+[2023-06-26 14:26:42] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-06-26 14:26:42] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [robot-soccer-kit]: New version: [2.1.0] Old Version: [2.0.6]
+[2023-06-26 14:26:42] INFO root fetch - processPackages [autosbatch]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-26 14:26:42] INFO root fetch - processPackages [papyru]: Downloading https://files.pythonhosted.org/packages/21/fb/95b5ea558d72106e12773f3ee02d5c9edcb5d6739145e57684cf8f0847d2/papyru-2.7.0.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pymatreader]: Downloading https://files.pythonhosted.org/packages/da/bf/3033b235fe298cba1c7e0cc82e1ff33c52bf5cb33b60c0a66ff38cc5d2fa/pymatreader-0.0.9.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/fe/61/2c62b03fe2265dd733018a93278e60653d3278f1e94a0411f9ff7a9d1d60/spacy-llm-0.3.2.tar.gz
+[2023-06-26 14:26:42] WARNING root fetch - processPackages [pymatreader]: Skipping package: exceeds size limit 32613398>=10485760
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pymatreader]: Start processing: thipster
+[2023-06-26 14:26:42] INFO root fetch - main [MainThread]: End processing [pymatreader] error
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyblish-simple]: Downloading https://files.pythonhosted.org/packages/7e/e4/b665eeec978e581f9ddafbfd16fa992f076dbf1122609c87569b48da0724/pyblish-simple-0.0.2.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [papyru]: executing diffoscope
+[2023-06-26 14:26:42] INFO root fetch - processPackages [papyru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papyru-2.6.1.tar.gz tmp/papyru-2.7.0.tar.gz --markdown 20230626/p/papyru/2.6.1-2.7.0/diff.md --exclude *.pyd
+[2023-06-26 14:26:42] INFO root fetch - processPackages [thipster]: New version: [0.19.5] Old Version: [0.19.4]
+[2023-06-26 14:26:42] INFO root fetch - processPackages [autosbatch]: Downloading https://files.pythonhosted.org/packages/7c/45/295370c316ea04d086980d2aff7bc181bf429e66494e725241ebe7658c94/autosbatch-0.2.2.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/64/ce/346c83d525c769e91002de4f930e23bc8cd9adc61110c6194f050f74c760/thipster-0.19.4.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [robot-soccer-kit]: Downloading https://files.pythonhosted.org/packages/22/23/11d7761b25b2ffbe96b59ca180f67f22a3030c19b73bc8ce47bd04648cf8/robot-soccer-kit-2.0.6.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/6b/7a/69cf6ad676c709b11407df6a8f180ea20bb9f143ecca990b23dda5f76ca2/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyblish-simple]: executing diffoscope
+[2023-06-26 14:26:42] INFO root fetch - processPackages [pyblish-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblish-simple-0.0.1.tar.gz tmp/pyblish-simple-0.0.2.tar.gz --markdown 20230626/p/pyblish-simple/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 14:26:42] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-06-26 14:26:42] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230626/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 14:26:42] INFO root fetch - processPackages [spacy-llm]: executing diffoscope
+[2023-06-26 14:26:42] INFO root fetch - processPackages [spacy-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-llm-0.3.1.tar.gz tmp/spacy-llm-0.3.2.tar.gz --markdown 20230626/s/spacy-llm/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-26 14:26:42] INFO root fetch - processPackages [autosbatch]: Downloading https://files.pythonhosted.org/packages/13/56/c0657918079a8db64cf6559c870abf8c44638d6072031b4187fb7a7526ee/autosbatch-0.2.3.tar.gz
+[2023-06-26 14:26:42] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/4d/cf/dec4c0991fb57b8cdd001e5a086982f626ada2b90a7a4c18f45f3dc2044e/thipster-0.19.5.tar.gz
+[2023-06-26 14:26:43] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-06-26 14:26:43] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230626/p/pyfaust-torch/3.38.8-3.38.9/diff.md --exclude *.pyd
+[2023-06-26 14:26:43] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-26 14:26:43] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.19.4.tar.gz tmp/thipster-0.19.5.tar.gz --markdown 20230626/t/thipster/0.19.4-0.19.5/diff.md --exclude *.pyd
+[2023-06-26 14:26:43] INFO root fetch - processPackages [autosbatch]: executing diffoscope
+[2023-06-26 14:26:43] INFO root fetch - processPackages [autosbatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosbatch-0.2.2.tar.gz tmp/autosbatch-0.2.3.tar.gz --markdown 20230626/a/autosbatch/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-26 14:26:43] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-06-26 14:26:43] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230626/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-26 14:26:43] INFO root fetch - processPackages [robot-soccer-kit]: Downloading https://files.pythonhosted.org/packages/ef/43/67f771fff8daaaa3e77c41f270ae005636eab4283e3b88bfef46a2aed96b/robot-soccer-kit-2.1.0.tar.gz
+[2023-06-26 14:26:43] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-06-26 14:26:43] INFO root fetch - processPackages [ensmallen]: Start processing: tabulation
+[2023-06-26 14:26:43] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-06-26 14:26:43] WARNING root fetch - processPackages [tabulation]: Skipping, unable to determine old version
+[2023-06-26 14:26:43] INFO root fetch - processPackages [tabulation]: Start processing: MTGProxyPrinter
+[2023-06-26 14:26:43] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-26 14:26:43] INFO root fetch - processPackages [MTGProxyPrinter]: New version: [0.24.0] Old Version: [0.23.0]
+[2023-06-26 14:26:43] INFO root fetch - processPackages [robot-soccer-kit]: executing diffoscope
+[2023-06-26 14:26:43] INFO root fetch - processPackages [robot-soccer-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robot-soccer-kit-2.0.6.tar.gz tmp/robot-soccer-kit-2.1.0.tar.gz --markdown 20230626/r/robot-soccer-kit/2.0.6-2.1.0/diff.md --exclude *.pyd
+[2023-06-26 14:26:43] INFO root fetch - processPackages [MTGProxyPrinter]: Downloading https://files.pythonhosted.org/packages/f9/08/07031fb5b5d28be7ba354ddc4ce5376ae200cd5d589fa7d840c1a63e2047/MTGProxyPrinter-0.23.0.tar.gz
+[2023-06-26 14:26:44] INFO root fetch - processPackages [MTGProxyPrinter]: Downloading https://files.pythonhosted.org/packages/16/28/5d5e28c7c119b27508101af7f094719bab8a6e62325fc33c3c53d384dfa1/MTGProxyPrinter-0.24.0.tar.gz
+[2023-06-26 14:26:44] INFO root fetch - processPackages [MTGProxyPrinter]: executing diffoscope
+[2023-06-26 14:26:44] INFO root fetch - processPackages [MTGProxyPrinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MTGProxyPrinter-0.23.0.tar.gz tmp/MTGProxyPrinter-0.24.0.tar.gz --markdown 20230626/M/MTGProxyPrinter/0.23.0-0.24.0/diff.md --exclude *.pyd
+[2023-06-26 14:26:44] INFO root fetch - processPackages [autosbatch]: Remove: archive file [/home/abi/fetcher/tmp/autosbatch-0.2.2.tar.gz]
+[2023-06-26 14:26:44] INFO root fetch - processPackages [autosbatch]: Remove: archive file [/home/abi/fetcher/tmp/autosbatch-0.2.3.tar.gz]
+[2023-06-26 14:26:44] INFO root fetch - processPackages [autosbatch]: Start processing: jsonl2x
+[2023-06-26 14:26:44] INFO root fetch - main [MainThread]: End processing [autosbatch]: success
+[2023-06-26 14:26:44] INFO root fetch - processPackages [jsonl2x]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 14:26:44] INFO root fetch - processPackages [jsonl2x]: Downloading https://files.pythonhosted.org/packages/9c/ba/6b45a2abccc7982bc52896e7043ea4a75e4a4b8424a74b2183cac2028373/jsonl2x-0.1.0.tar.gz
+[2023-06-26 14:26:44] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.19.4.tar.gz]
+[2023-06-26 14:26:44] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.19.5.tar.gz]
+[2023-06-26 14:26:44] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-26 14:26:45] INFO root fetch - processPackages [jsonl2x]: Downloading https://files.pythonhosted.org/packages/43/cd/80bddc47fb0f9c5b4a133831f671f64e855071bbb433b26edaf79bb6649e/jsonl2x-0.1.1.tar.gz
+[2023-06-26 14:26:45] INFO root fetch - processPackages [pyblish-simple]: Remove: archive file [/home/abi/fetcher/tmp/pyblish-simple-0.0.1.tar.gz]
+[2023-06-26 14:26:45] INFO root fetch - processPackages [pyblish-simple]: Remove: archive file [/home/abi/fetcher/tmp/pyblish-simple-0.0.2.tar.gz]
+[2023-06-26 14:26:45] INFO root fetch - main [MainThread]: End processing [pyblish-simple]: success
+[2023-06-26 14:26:45] INFO root fetch - processPackages [papyru]: Remove: archive file [/home/abi/fetcher/tmp/papyru-2.6.1.tar.gz]
+[2023-06-26 14:26:45] INFO root fetch - processPackages [jsonl2x]: executing diffoscope
+[2023-06-26 14:26:45] INFO root fetch - processPackages [jsonl2x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonl2x-0.1.0.tar.gz tmp/jsonl2x-0.1.1.tar.gz --markdown 20230626/j/jsonl2x/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 14:26:45] INFO root fetch - processPackages [papyru]: Remove: archive file [/home/abi/fetcher/tmp/papyru-2.7.0.tar.gz]
+[2023-06-26 14:26:45] INFO root fetch - main [MainThread]: End processing [papyru]: success
+[2023-06-26 14:26:46] INFO root fetch - processPackages [jsonl2x]: Remove: archive file [/home/abi/fetcher/tmp/jsonl2x-0.1.0.tar.gz]
+[2023-06-26 14:26:46] INFO root fetch - processPackages [jsonl2x]: Remove: archive file [/home/abi/fetcher/tmp/jsonl2x-0.1.1.tar.gz]
+[2023-06-26 14:26:46] INFO root fetch - main [MainThread]: End processing [jsonl2x]: success
+[2023-06-26 14:26:46] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy-llm-0.3.1.tar.gz]
+[2023-06-26 14:26:46] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy-llm-0.3.2.tar.gz]
+[2023-06-26 14:26:46] INFO root fetch - main [MainThread]: End processing [spacy-llm]: success
+[2023-06-26 14:26:47] INFO root fetch - processPackages [MTGProxyPrinter]: Remove: archive file [/home/abi/fetcher/tmp/MTGProxyPrinter-0.23.0.tar.gz]
+[2023-06-26 14:26:47] INFO root fetch - processPackages [MTGProxyPrinter]: Remove: archive file [/home/abi/fetcher/tmp/MTGProxyPrinter-0.24.0.tar.gz]
+[2023-06-26 14:26:47] INFO root fetch - main [MainThread]: End processing [MTGProxyPrinter]: success
+[2023-06-26 14:26:49] INFO root fetch - processPackages [robot-soccer-kit]: Remove: archive file [/home/abi/fetcher/tmp/robot-soccer-kit-2.0.6.tar.gz]
+[2023-06-26 14:26:49] INFO root fetch - processPackages [robot-soccer-kit]: Remove: archive file [/home/abi/fetcher/tmp/robot-soccer-kit-2.1.0.tar.gz]
+[2023-06-26 14:26:49] INFO root fetch - main [MainThread]: End processing [robot-soccer-kit]: success
+[2023-06-26 14:26:51] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.8.tar.gz]
+[2023-06-26 14:26:51] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
+[2023-06-26 14:26:51] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-06-26 14:27:21] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 14:27:21] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 14:27:21] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-06-26 14:27:24] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-06-26 14:27:24] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-06-26 14:27:24] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-06-26 14:27:24] INFO root fetch - main [MainThread]: Store serial: [18646366]
