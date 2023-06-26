@@ -14669,3 +14669,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 12:34:59] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.3.0.tar.gz]
 [2023-06-26 12:34:59] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
 [2023-06-26 12:34:59] INFO root fetch - main [MainThread]: Store serial: [18645329]
+[2023-06-26 12:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645329]
+[2023-06-26 12:40:08] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amici
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tabulation
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LbAPCommon
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: compmec-section
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dve-lumipy-preview
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cupoch
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scs-analysis
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cullinan
+[2023-06-26 12:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastexception
+[2023-06-26 12:40:08] INFO root fetch - processPackages [tabulation]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-26 12:40:08] INFO root fetch - processPackages [scs-analysis]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-06-26 12:40:08] INFO root fetch - processPackages [cupoch]: New version: [0.2.8.1] Old Version: [0.2.8.0]
+[2023-06-26 12:40:08] INFO root fetch - processPackages [amici]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-26 12:40:08] INFO root fetch - processPackages [LbAPCommon]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 12:40:08] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-26 12:40:08] INFO root fetch - processPackages [cullinan]: New version: [0.52a3] Old Version: [0.52]
+[2023-06-26 12:40:08] INFO root fetch - processPackages [fastexception]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-26 12:40:08] WARNING root fetch - processPackages [compmec-section]: Skipping, unable to determine old version
+[2023-06-26 12:40:08] INFO root fetch - processPackages [compmec-section]: Start processing: deepfilterdataloader
+[2023-06-26 12:40:08] INFO root fetch - main [MainThread]: End processing [compmec-section] error
+[2023-06-26 12:40:08] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-26 12:40:08] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/78/51/bbd5d0407998190a74203784b4f303e40d0beaf311445142d50824df0d51/scs-analysis-2.7.3.tar.gz
+[2023-06-26 12:40:08] INFO root fetch - processPackages [tabulation]: Downloading https://files.pythonhosted.org/packages/c4/59/523068646cca1151baa3206fcea195b9d7fbd9e69b4258c7eb43db0f05b1/tabulation-1.0.0.tar.gz
+[2023-06-26 12:40:08] INFO root fetch - processPackages [deepfilterdataloader]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-26 12:40:09] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/a2/4c/873b2a6b734b48cc0f1cf7b790236c8234e9cba9a7eee71c763e8d1d6296/LbAPCommon-0.9.8.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [fastexception]: Downloading https://files.pythonhosted.org/packages/33/e6/2ac29aa1683eb5a3d1b312e96ed072f5fc493dc5917e018d0f5b2fab2fe9/fastexception-0.1.3.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [cullinan]: Downloading https://files.pythonhosted.org/packages/a4/7c/e1f4b69bd9a8e679ec9c13b9330504175b3b9ef3494c92179b2256139035/cullinan-0.52.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [amici]: Downloading https://files.pythonhosted.org/packages/3e/bc/ad91a245282b727509812295a334ce6dca3c84855b7e6f83e7c0972ed511/amici-0.9.4.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-06-26 12:40:09] INFO root fetch - processPackages [cupoch]: Downloading https://files.pythonhosted.org/packages/07/b6/35a27428ea3ba5aafee3017965d2016c24d778f3597062f9866d73d6c36f/cupoch-0.2.8.0-cp39-cp39-win_amd64.whl
+[2023-06-26 12:40:09] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/8d/40/270ffe24cea731ed2cbe8e73d29b72ca20b5d707e3aaf201d50d97ac74d4/LbAPCommon-0.9.9.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [deepfilterdataloader]: Downloading https://files.pythonhosted.org/packages/f6/d9/81eff9796fcbc56a606fdde440c05d385a59ba04a351276902b7d3fba588/DeepFilterDataLoader-0.5.2-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-26 12:40:09] WARNING root fetch - processPackages [cupoch]: Skipping package: exceeds size limit 19245253>=10485760
+[2023-06-26 12:40:09] INFO root fetch - processPackages [cupoch]: Start processing: deepfilterlib
+[2023-06-26 12:40:09] INFO root fetch - main [MainThread]: End processing [cupoch] error
+[2023-06-26 12:40:09] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/e5/46/17080f9a15616da853bff32ad5c1d45ec851993b5555129267c361bb2aa7/scs-analysis-2.7.4.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [LbAPCommon]: executing diffoscope
+[2023-06-26 12:40:09] INFO root fetch - processPackages [LbAPCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbAPCommon-0.9.8.tar.gz tmp/LbAPCommon-0.9.9.tar.gz --markdown 20230626/L/LbAPCommon/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 12:40:09] INFO root fetch - processPackages [deepfilterlib]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-26 12:40:09] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-26 12:40:09] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230626/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-26 12:40:09] INFO root fetch - processPackages [fastexception]: Downloading https://files.pythonhosted.org/packages/89/a2/1974fb892e42360e9a66498a62bd961ffd5fb5641ccccfa59ed1bbb2ba66/fastexception-0.1.4.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [tabulation]: Downloading https://files.pythonhosted.org/packages/71/1a/00596bd85c3177bd75382be40f4515f165e2408ddaeca1fe4fd0cb1529af/tabulation-1.0.1.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [cullinan]: Downloading https://files.pythonhosted.org/packages/cd/42/656ebc0d99cce65fbb173bab52dab8f8ebae4a8e669c0f8a3853c3903718/cullinan-0.52a3.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [fastexception]: executing diffoscope
+[2023-06-26 12:40:09] INFO root fetch - processPackages [fastexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastexception-0.1.3.tar.gz tmp/fastexception-0.1.4.tar.gz --markdown 20230626/f/fastexception/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-26 12:40:09] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2023-06-26 12:40:09] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-analysis-2.7.3.tar.gz tmp/scs-analysis-2.7.4.tar.gz --markdown 20230626/s/scs-analysis/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-06-26 12:40:09] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-06-26 12:40:09] INFO root fetch - processPackages [tabulation]: executing diffoscope
+[2023-06-26 12:40:09] INFO root fetch - processPackages [tabulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabulation-1.0.0.tar.gz tmp/tabulation-1.0.1.tar.gz --markdown 20230626/t/tabulation/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-26 12:40:09] INFO root fetch - processPackages [cullinan]: executing diffoscope
+[2023-06-26 12:40:09] INFO root fetch - processPackages [cullinan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cullinan-0.52.tar.gz tmp/cullinan-0.52a3.tar.gz --markdown 20230626/c/cullinan/0.52-0.52a3/diff.md --exclude *.pyd
+[2023-06-26 12:40:09] INFO root fetch - processPackages [deepfilterlib]: Downloading https://files.pythonhosted.org/packages/9f/81/a049fe3e17c6ff4aa88bfe6f6c0f6369b75b26bf3f20228f989dce987021/DeepFilterLib-0.5.2-cp39-none-win_amd64.whl
+[2023-06-26 12:40:09] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-06-26 12:40:09] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230626/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-26 12:40:09] INFO root fetch - processPackages [amici]: Downloading https://files.pythonhosted.org/packages/c7/cb/263ff2ae5b21729e617ad3db2137ee34b5f337f423db9d60a3c230276a38/amici-0.9.5.tar.gz
+[2023-06-26 12:40:09] INFO root fetch - processPackages [deepfilterlib]: Downloading https://files.pythonhosted.org/packages/60/09/22091cf6d5cbb82c758490b2b9b7911d0034112a8935b544ea0d8e860a3c/DeepFilterLib-0.5.3-cp39-none-win_amd64.whl
+[2023-06-26 12:40:10] INFO root fetch - processPackages [deepfilterlib]: executing diffoscope
+[2023-06-26 12:40:10] INFO root fetch - processPackages [deepfilterlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepFilterLib-0.5.2-cp39-none-win_amd64.whl.zip tmp/DeepFilterLib-0.5.3-cp39-none-win_amd64.whl.zip --markdown 20230626/d/deepfilterlib/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-26 12:40:10] INFO root fetch - processPackages [deepfilterdataloader]: Downloading https://files.pythonhosted.org/packages/e0/93/8bb4c82c329732861af76e982fa3caf150d67e29855dd3e739c8c69d9ef7/DeepFilterDataLoader-0.5.3-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-26 12:40:10] INFO root fetch - processPackages [deepfilterdataloader]: executing diffoscope
+[2023-06-26 12:40:10] INFO root fetch - processPackages [deepfilterdataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepFilterDataLoader-0.5.2-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/DeepFilterDataLoader-0.5.3-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230626/d/deepfilterdataloader/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-26 12:40:10] INFO root fetch - processPackages [amici]: executing diffoscope
+[2023-06-26 12:40:10] INFO root fetch - processPackages [amici]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amici-0.9.4.tar.gz tmp/amici-0.9.5.tar.gz --markdown 20230626/a/amici/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-26 12:40:10] INFO root fetch - processPackages [cullinan]: Remove: archive file [/home/abi/fetcher/tmp/cullinan-0.52.tar.gz]
+[2023-06-26 12:40:10] INFO root fetch - processPackages [cullinan]: Remove: archive file [/home/abi/fetcher/tmp/cullinan-0.52a3.tar.gz]
+[2023-06-26 12:40:10] INFO root fetch - processPackages [cullinan]: Start processing: deepfilternet
+[2023-06-26 12:40:10] INFO root fetch - main [MainThread]: End processing [cullinan]: success
+[2023-06-26 12:40:10] INFO root fetch - processPackages [fastexception]: Remove: archive file [/home/abi/fetcher/tmp/fastexception-0.1.3.tar.gz]
+[2023-06-26 12:40:10] INFO root fetch - processPackages [fastexception]: Remove: archive file [/home/abi/fetcher/tmp/fastexception-0.1.4.tar.gz]
+[2023-06-26 12:40:10] INFO root fetch - processPackages [fastexception]: Start processing: developers-chamber
+[2023-06-26 12:40:10] INFO root fetch - main [MainThread]: End processing [fastexception]: success
+[2023-06-26 12:40:11] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [dank-mids]: Start processing: roblox-aio.py
+[2023-06-26 12:40:11] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-26 12:40:11] INFO root fetch - processPackages [tabulation]: Remove: archive file [/home/abi/fetcher/tmp/tabulation-1.0.0.tar.gz]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [tabulation]: Remove: archive file [/home/abi/fetcher/tmp/tabulation-1.0.1.tar.gz]
+[2023-06-26 12:40:11] INFO root fetch - main [MainThread]: End processing [tabulation]: success
+[2023-06-26 12:40:11] INFO root fetch - processPackages [roblox-aio.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [deepfilternet]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [developers-chamber]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [roblox-aio.py]: Downloading https://files.pythonhosted.org/packages/ae/74/42e4b558d59f5161eddb46b99af655675255fb53e81e95c46c48b9a4c8ce/roblox-aio.py-1.0.1.tar.gz
+[2023-06-26 12:40:11] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.8.tar.gz]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.9.tar.gz]
+[2023-06-26 12:40:11] INFO root fetch - main [MainThread]: End processing [LbAPCommon]: success
+[2023-06-26 12:40:11] INFO root fetch - processPackages [roblox-aio.py]: Downloading https://files.pythonhosted.org/packages/f0/30/68d5cf5653037d6faf51202c7eb850d66afe0973942f81febf1c332d5682/roblox-aio.py-1.0.2.tar.gz
+[2023-06-26 12:40:11] INFO root fetch - processPackages [developers-chamber]: Downloading https://files.pythonhosted.org/packages/36/af/9798c6d41bf80ddb5c475cdcbc9239f5ff358acecb75df5af85aa4519fc7/developers-chamber-0.0.8.tar.gz
+[2023-06-26 12:40:11] INFO root fetch - processPackages [roblox-aio.py]: executing diffoscope
+[2023-06-26 12:40:11] INFO root fetch - processPackages [roblox-aio.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-aio.py-1.0.1.tar.gz tmp/roblox-aio.py-1.0.2.tar.gz --markdown 20230626/r/roblox-aio.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-26 12:40:11] INFO root fetch - processPackages [deepfilternet]: Downloading https://files.pythonhosted.org/packages/26/7a/2f3736529047c5c93aa8b3eed0e1f3ddda1ff0c1dadf6592bca1e14f6fd1/deepfilternet-0.5.2.tar.gz
+[2023-06-26 12:40:11] INFO root fetch - processPackages [deepfilternet]: Downloading https://files.pythonhosted.org/packages/eb/58/6e27a1fbd3dfb0b478690571db5a432a5971019deeb5feb00a30567ec060/deepfilternet-0.5.3.tar.gz
+[2023-06-26 12:40:11] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.3.tar.gz]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.4.tar.gz]
+[2023-06-26 12:40:11] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2023-06-26 12:40:11] INFO root fetch - processPackages [developers-chamber]: Downloading https://files.pythonhosted.org/packages/53/06/448d9c575ddf6fcfcc48327cf6c988496a9fe8c338c5d3f88b1907645a36/developers-chamber-0.0.9.tar.gz
+[2023-06-26 12:40:11] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-06-26 12:40:11] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-06-26 12:40:11] INFO root fetch - processPackages [deepfilternet]: executing diffoscope
+[2023-06-26 12:40:11] INFO root fetch - processPackages [deepfilternet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfilternet-0.5.2.tar.gz tmp/deepfilternet-0.5.3.tar.gz --markdown 20230626/d/deepfilternet/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-26 12:40:11] INFO root fetch - processPackages [deepfilterlib]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterLib-0.5.2-cp39-none-win_amd64.whl.zip]
+[2023-06-26 12:40:11] INFO root fetch - processPackages [deepfilterlib]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterLib-0.5.3-cp39-none-win_amd64.whl.zip]
+[2023-06-26 12:40:11] INFO root fetch - main [MainThread]: End processing [deepfilterlib]: success
+[2023-06-26 12:40:11] INFO root fetch - processPackages [developers-chamber]: executing diffoscope
+[2023-06-26 12:40:11] INFO root fetch - processPackages [developers-chamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developers-chamber-0.0.8.tar.gz tmp/developers-chamber-0.0.9.tar.gz --markdown 20230626/d/developers-chamber/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 12:40:12] INFO root fetch - processPackages [roblox-aio.py]: Remove: archive file [/home/abi/fetcher/tmp/roblox-aio.py-1.0.1.tar.gz]
+[2023-06-26 12:40:12] INFO root fetch - processPackages [roblox-aio.py]: Remove: archive file [/home/abi/fetcher/tmp/roblox-aio.py-1.0.2.tar.gz]
+[2023-06-26 12:40:12] INFO root fetch - main [MainThread]: End processing [roblox-aio.py]: success
+[2023-06-26 12:40:12] INFO root fetch - processPackages [deepfilternet]: Remove: archive file [/home/abi/fetcher/tmp/deepfilternet-0.5.2.tar.gz]
+[2023-06-26 12:40:12] INFO root fetch - processPackages [deepfilternet]: Remove: archive file [/home/abi/fetcher/tmp/deepfilternet-0.5.3.tar.gz]
+[2023-06-26 12:40:12] INFO root fetch - main [MainThread]: End processing [deepfilternet]: success
+[2023-06-26 12:40:12] INFO root fetch - processPackages [developers-chamber]: Remove: archive file [/home/abi/fetcher/tmp/developers-chamber-0.0.8.tar.gz]
+[2023-06-26 12:40:12] INFO root fetch - processPackages [developers-chamber]: Remove: archive file [/home/abi/fetcher/tmp/developers-chamber-0.0.9.tar.gz]
+[2023-06-26 12:40:12] INFO root fetch - main [MainThread]: End processing [developers-chamber]: success
+[2023-06-26 12:40:18] INFO root fetch - processPackages [amici]: Remove: archive file [/home/abi/fetcher/tmp/amici-0.9.4.tar.gz]
+[2023-06-26 12:40:18] INFO root fetch - processPackages [amici]: Remove: archive file [/home/abi/fetcher/tmp/amici-0.9.5.tar.gz]
+[2023-06-26 12:40:18] INFO root fetch - main [MainThread]: End processing [amici]: success
+[2023-06-26 12:40:22] INFO root fetch - processPackages [deepfilterdataloader]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterDataLoader-0.5.2-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-06-26 12:40:22] INFO root fetch - processPackages [deepfilterdataloader]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterDataLoader-0.5.3-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-06-26 12:40:22] INFO root fetch - main [MainThread]: End processing [deepfilterdataloader]: success
+[2023-06-26 12:40:22] INFO root fetch - main [MainThread]: Store serial: [18645385]
