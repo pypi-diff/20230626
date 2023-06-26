@@ -4262,3 +4262,78 @@
 [2023-06-26 02:44:45] INFO root fetch - processPackages [cdk-monitoring-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk-monitoring-constructs-5.2.2.tar.gz]
 [2023-06-26 02:44:45] INFO root fetch - main [MainThread]: End processing [cdk-monitoring-constructs]: success
 [2023-06-26 02:44:45] INFO root fetch - main [MainThread]: Store serial: [18640948]
+[2023-06-26 02:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18640948]
+[2023-06-26 02:49:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-26 02:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdxbasics
+[2023-06-26 02:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2023-06-26 02:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-06-26 02:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyTimbre
+[2023-06-26 02:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubric-nightly
+[2023-06-26 02:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gameyamlspiderandgenerator
+[2023-06-26 02:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yplib
+[2023-06-26 02:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipmap
+[2023-06-26 02:49:54] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 02:49:54] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-26 02:49:54] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-26 02:49:54] INFO root fetch - processPackages [yplib]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-06-26 02:49:54] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-06-26 02:49:54] INFO root fetch - processPackages [PyTimbre]: New version: [0.7.1] Old Version: [0.6.9]
+[2023-06-26 02:49:54] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-06-26 02:49:54] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-26 02:49:54] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306250045] Old Version: [4.9.2.dev202306240045]
+[2023-06-26 02:49:54] INFO root fetch - processPackages [ipmap]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-26 02:49:54] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-26 02:49:54] INFO root fetch - processPackages [PyTimbre]: Downloading https://files.pythonhosted.org/packages/16/b6/e5df7bb251605b94a2eb32b7aa4a3cc212864ff6585460fd628aab0e94b0/PyTimbre-0.6.9.tar.gz
+[2023-06-26 02:49:54] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/99/aa/afd4bfed0ad626c9bb85c455046c0f268864368da87255ad8cfe0b92452d/yplib-1.7.8.tar.gz
+[2023-06-26 02:49:54] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/de/ef/dfac027b2eab99eef379bfbd12644a3d78db70f53376f82abffc1d3a6c2e/tfds-nightly-4.9.2.dev202306240045.tar.gz
+[2023-06-26 02:49:54] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-06-26 02:49:54] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-26 02:49:54] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/46/da/17223e3a7cdee6d9f3f2d80b31ff8e65847cf3013f1ca22481c8402c162f/gameyamlspiderandgenerator-1.6.6.tar.gz
+[2023-06-26 02:49:55] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-06-26 02:49:55] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230626/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 02:49:55] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-26 02:49:55] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230626/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-26 02:49:55] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-26 02:49:55] INFO root fetch - processPackages [ipmap]: Downloading https://files.pythonhosted.org/packages/84/ee/6853807bbe2ada5ee81f46d675d738c9700a3de27b80ccd42f435e9fbfc4/ipmap-1.1.0.tar.gz
+[2023-06-26 02:49:55] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b3/29/9823bfe1f1ad87c20d7ed93068f5c53ddfb85b3f8a9fab821280d70940ec/yplib-1.7.9.tar.gz
+[2023-06-26 02:49:55] INFO root fetch - processPackages [PyTimbre]: Downloading https://files.pythonhosted.org/packages/d0/47/53dae2231e8801a339fee73854b04b88a7647a03df050abc668e29beb7bf/PyTimbre-0.7.1.tar.gz
+[2023-06-26 02:49:55] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-26 02:49:55] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230626/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-26 02:49:55] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-26 02:49:55] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.7.8.tar.gz tmp/yplib-1.7.9.tar.gz --markdown 20230626/y/yplib/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-06-26 02:49:55] INFO root fetch - processPackages [PyTimbre]: executing diffoscope
+[2023-06-26 02:49:55] INFO root fetch - processPackages [PyTimbre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTimbre-0.6.9.tar.gz tmp/PyTimbre-0.7.1.tar.gz --markdown 20230626/P/PyTimbre/0.6.9-0.7.1/diff.md --exclude *.pyd
+[2023-06-26 02:49:55] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/5a/a9/16a338631e1e9c6500795d320df9b3bac1798add4673ed7bfcddbb4b99dd/tfds-nightly-4.9.2.dev202306250045.tar.gz
+[2023-06-26 02:49:55] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/d3/34/0eeb82aee6fee7e70b11d228ef962f01eaedf06ea5e343a127426a2fb789/gameyamlspiderandgenerator-1.6.7.tar.gz
+[2023-06-26 02:49:55] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2023-06-26 02:49:55] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.6.6.tar.gz tmp/gameyamlspiderandgenerator-1.6.7.tar.gz --markdown 20230626/g/gameyamlspiderandgenerator/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-06-26 02:49:55] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-26 02:49:55] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306240045.tar.gz tmp/tfds-nightly-4.9.2.dev202306250045.tar.gz --markdown 20230626/t/tfds-nightly/4.9.2.dev202306240045-4.9.2.dev202306250045/diff.md --exclude *.pyd
+[2023-06-26 02:49:55] INFO root fetch - processPackages [ipmap]: Downloading https://files.pythonhosted.org/packages/98/e8/3da87c334cce51e92afee371787c89d54c8a2f91c16668e6d8aa4be2805d/ipmap-1.2.0.tar.gz
+[2023-06-26 02:49:55] INFO root fetch - processPackages [ipmap]: executing diffoscope
+[2023-06-26 02:49:55] INFO root fetch - processPackages [ipmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipmap-1.1.0.tar.gz tmp/ipmap-1.2.0.tar.gz --markdown 20230626/i/ipmap/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-26 02:49:56] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-06-26 02:49:56] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-06-26 02:49:56] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-06-26 02:49:56] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-26 02:49:56] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-26 02:49:56] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-26 02:49:56] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-26 02:49:56] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-26 02:49:56] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-26 02:49:57] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.8.tar.gz]
+[2023-06-26 02:49:57] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.7.9.tar.gz]
+[2023-06-26 02:49:57] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-26 02:49:57] INFO root fetch - processPackages [ipmap]: Remove: archive file [/home/abi/fetcher/tmp/ipmap-1.1.0.tar.gz]
+[2023-06-26 02:49:57] INFO root fetch - processPackages [ipmap]: Remove: archive file [/home/abi/fetcher/tmp/ipmap-1.2.0.tar.gz]
+[2023-06-26 02:49:57] INFO root fetch - main [MainThread]: End processing [ipmap]: success
+[2023-06-26 02:49:57] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.6.tar.gz]
+[2023-06-26 02:49:57] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.6.7.tar.gz]
+[2023-06-26 02:49:57] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2023-06-26 02:49:59] INFO root fetch - processPackages [PyTimbre]: Remove: archive file [/home/abi/fetcher/tmp/PyTimbre-0.6.9.tar.gz]
+[2023-06-26 02:49:59] INFO root fetch - processPackages [PyTimbre]: Remove: archive file [/home/abi/fetcher/tmp/PyTimbre-0.7.1.tar.gz]
+[2023-06-26 02:49:59] INFO root fetch - main [MainThread]: End processing [PyTimbre]: success
+[2023-06-26 02:50:07] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306240045.tar.gz]
+[2023-06-26 02:50:07] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306250045.tar.gz]
+[2023-06-26 02:50:07] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-26 02:50:07] INFO root fetch - main [MainThread]: Store serial: [18640985]
