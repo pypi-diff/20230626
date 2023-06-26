@@ -12544,3 +12544,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 11:15:27] INFO root fetch - processPackages [cwltool]: Remove: archive file [/home/abi/fetcher/tmp/cwltool-3.1.20230624081518.tar.gz]
 [2023-06-26 11:15:27] INFO root fetch - main [MainThread]: End processing [cwltool]: success
 [2023-06-26 11:15:27] INFO root fetch - main [MainThread]: Store serial: [18644397]
+[2023-06-26 11:20:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644397]
+[2023-06-26 11:20:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lstosa
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-schema-registry-client
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: htruc
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: navigation-with-image-language-model
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-bili-push
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywa
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tbp-nightly
+[2023-06-26 11:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cg
+[2023-06-26 11:20:37] INFO root fetch - processPackages [lstosa]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-26 11:20:37] INFO root fetch - processPackages [python-schema-registry-client]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-06-26 11:20:37] WARNING root fetch - processPackages [navigation-with-image-language-model]: Skipping, unable to determine old version
+[2023-06-26 11:20:37] INFO root fetch - main [MainThread]: End processing [navigation-with-image-language-model] error
+[2023-06-26 11:20:37] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc8] Old Version: [0.0.1rc7]
+[2023-06-26 11:20:37] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 11:20:37] INFO root fetch - processPackages [htruc]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-06-26 11:20:37] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-26 11:20:37] INFO root fetch - processPackages [cg]: New version: [37.0.3] Old Version: [37.0.2]
+[2023-06-26 11:20:37] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/03/7f/e5f02fbcbddd941f2f264941be8a6afb5f5e7883e9ad77ecec62b14bb5a3/cg-37.0.2.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [composabl]: New version: [0.2.2.dev0] Old Version: [0.1.0]
+[2023-06-26 11:20:37] INFO root fetch - processPackages [composabl]: New version: [0.2.2.dev0] Old Version: [0.1.0]
+[2023-06-26 11:20:37] INFO root fetch - processPackages [python-schema-registry-client]: Downloading https://files.pythonhosted.org/packages/9e/52/9845d041fcd1cfe9b6ab880b38ff2d8d3d37626b80f2df1072e20f198b78/python-schema-registry-client-2.4.3.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/29/c4/8704414065a1798cd679332aa9059858d593f90d3541c4727f82500834aa/pywa-0.0.1rc7-py3-none-any.whl
+[2023-06-26 11:20:37] INFO root fetch - processPackages [lstosa]: Downloading https://files.pythonhosted.org/packages/31/fd/e4390bfdab9f6505a2ef038b7262f7fc9d593192eb3bba4afcd734e76ba4/lstosa-0.9.4.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/01/71/eaaf1ed8c14e9dd62008f10547c2e7c36a328d9f8d79313b1195721659c3/htruc-1.0.8.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/9a/05/479a0f56aba4b64c880b379be614c1f547aa76ae82278d96a431abf5049e/cg-37.0.3.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-26 11:20:37] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230626/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 11:20:37] INFO root fetch - processPackages [python-schema-registry-client]: Downloading https://files.pythonhosted.org/packages/a4/c9/5d61fd1b3695d570e35f83154f4c648c6fef6300aa70bf8d881ddf9f2fc0/python_schema_registry_client-2.4.4.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-26 11:20:37] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.2.tar.gz tmp/cg-37.0.3.tar.gz --markdown 20230626/c/cg/37.0.2-37.0.3/diff.md --exclude *.pyd
+[2023-06-26 11:20:37] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/ce/fc/cecde5754be14bef1e4ff42d1c1b933c0c73f7ee89b67fe278ac147b3014/composabl-0.1.0-cp38-cp38-manylinux_2_35_x86_64.whl
+[2023-06-26 11:20:37] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/ce/fc/cecde5754be14bef1e4ff42d1c1b933c0c73f7ee89b67fe278ac147b3014/composabl-0.1.0-cp38-cp38-manylinux_2_35_x86_64.whl
+[2023-06-26 11:20:37] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-26 11:20:37] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230626/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-26 11:20:37] INFO root fetch - processPackages [python-schema-registry-client]: executing diffoscope
+[2023-06-26 11:20:37] INFO root fetch - processPackages [python-schema-registry-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-schema-registry-client-2.4.3.tar.gz tmp/python_schema_registry_client-2.4.4.tar.gz --markdown 20230626/p/python-schema-registry-client/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-06-26 11:20:37] INFO root fetch - processPackages [htruc]: Downloading https://files.pythonhosted.org/packages/a2/ed/e907ab8bfebc92dbe290e04fa5adf22074bcfb3a2d844cc8cec13c7f1a42/htruc-1.1.0.tar.gz
+[2023-06-26 11:20:37] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/fe/18/05f47d05b412ceef8c09aee81b862950c5988ba33fb3408193db56f323fd/pywa-0.0.1rc8-py3-none-any.whl
+[2023-06-26 11:20:38] INFO root fetch - processPackages [htruc]: executing diffoscope
+[2023-06-26 11:20:38] INFO root fetch - processPackages [htruc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htruc-1.0.8.tar.gz tmp/htruc-1.1.0.tar.gz --markdown 20230626/h/htruc/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-06-26 11:20:38] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-06-26 11:20:38] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc7-py3-none-any.whl.zip tmp/pywa-0.0.1rc8-py3-none-any.whl.zip --markdown 20230626/p/pywa/0.0.1rc7-0.0.1rc8/diff.md --exclude *.pyd
+[2023-06-26 11:20:38] INFO root fetch - processPackages [lstosa]: Downloading https://files.pythonhosted.org/packages/d9/dc/d8663f782ac68e662163f5bed97336cb6b768ac45060ea93fbf5278bec32/lstosa-0.9.5.tar.gz
+[2023-06-26 11:20:38] INFO root fetch - processPackages [lstosa]: executing diffoscope
+[2023-06-26 11:20:38] INFO root fetch - processPackages [lstosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lstosa-0.9.4.tar.gz tmp/lstosa-0.9.5.tar.gz --markdown 20230626/l/lstosa/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-26 11:20:39] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/b6/81/83cc7d39cdc87d693f8d2a887e164fc526e2dbb9ce1aee508d8470e10953/composabl-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-26 11:20:39] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/b6/81/83cc7d39cdc87d693f8d2a887e164fc526e2dbb9ce1aee508d8470e10953/composabl-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-26 11:20:39] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.0.8.tar.gz]
+[2023-06-26 11:20:39] INFO root fetch - processPackages [htruc]: Remove: archive file [/home/abi/fetcher/tmp/htruc-1.1.0.tar.gz]
+[2023-06-26 11:20:39] INFO root fetch - main [MainThread]: End processing [htruc]: success
+[2023-06-26 11:20:39] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc7-py3-none-any.whl.zip]
+[2023-06-26 11:20:39] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc8-py3-none-any.whl.zip]
+[2023-06-26 11:20:39] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-06-26 11:20:39] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-06-26 11:20:39] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-06-26 11:20:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-26 11:20:39] INFO root fetch - processPackages [composabl]: executing diffoscope
+[2023-06-26 11:20:39] INFO root fetch - processPackages [composabl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl-0.1.0-cp38-cp38-manylinux_2_35_x86_64.whl.zip tmp/composabl-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230626/c/composabl/0.1.0-0.2.2.dev0/diff.md --exclude *.pyd
+[2023-06-26 11:20:39] INFO root fetch - processPackages [composabl]: executing diffoscope
+[2023-06-26 11:20:39] INFO root fetch - processPackages [composabl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl-0.1.0-cp38-cp38-manylinux_2_35_x86_64.whl.zip tmp/composabl-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230626/c/composabl/0.1.0-0.2.2.dev0/diff.md --exclude *.pyd
+[2023-06-26 11:20:39] INFO root fetch - processPackages [python-schema-registry-client]: Remove: archive file [/home/abi/fetcher/tmp/python-schema-registry-client-2.4.3.tar.gz]
+[2023-06-26 11:20:39] INFO root fetch - processPackages [python-schema-registry-client]: Remove: archive file [/home/abi/fetcher/tmp/python_schema_registry_client-2.4.4.tar.gz]
+[2023-06-26 11:20:39] INFO root fetch - main [MainThread]: End processing [python-schema-registry-client]: success
+[2023-06-26 11:20:40] INFO root fetch - processPackages [lstosa]: Remove: archive file [/home/abi/fetcher/tmp/lstosa-0.9.4.tar.gz]
+[2023-06-26 11:20:40] INFO root fetch - processPackages [lstosa]: Remove: archive file [/home/abi/fetcher/tmp/lstosa-0.9.5.tar.gz]
+[2023-06-26 11:20:40] INFO root fetch - main [MainThread]: End processing [lstosa]: success
+[2023-06-26 11:20:43] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-26 11:20:43] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-26 11:20:43] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-26 11:20:51] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.2.tar.gz]
+[2023-06-26 11:20:51] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.3.tar.gz]
+[2023-06-26 11:20:51] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-26 11:22:10] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.1.0-cp38-cp38-manylinux_2_35_x86_64.whl.zip]
+[2023-06-26 11:22:10] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-26 11:22:10] INFO root fetch - main [MainThread]: End processing [composabl]: success
+[2023-06-26 11:22:12] INFO root fetch - main [MainThread]: End processing [composabl]: success
+[2023-06-26 11:22:12] INFO root fetch - main [MainThread]: Store serial: [18644447]
