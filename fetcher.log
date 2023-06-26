@@ -1246,3 +1246,96 @@
 [2023-06-26 02:04:21] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.4.tar.gz]
 [2023-06-26 02:04:21] INFO root fetch - main [MainThread]: End processing [flook]: success
 [2023-06-26 02:04:21] INFO root fetch - main [MainThread]: Store serial: [18639927]
+[2023-06-26 02:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639927]
+[2023-06-26 02:09:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchdatasets-nightly
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxutils-nightly
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tccli
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-compiler-opt
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchlayers-nightly
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GameWidgets
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: midas-data-util
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306252306] Old Version: [0.0.1.dev202306250008]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [midas-data-util]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230625.post502] Old Version: [1.9.0.20230624.post408]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.84]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1687651739] Old Version: [1687565326]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/55/3c/9a6c668a90301008e64b106ebabddef7becf89016aced6d0af784e1ef0f2/midas-data-util-0.2.4.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [GameWidgets]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230626] Old Version: [0.0.8.dev20230625]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/d1/bf/62fcab1aac90c8836a3608946babc2144d15316986d375d59a4b795c2980/ml-compiler-opt-0.0.1.dev202306250008.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1687737846] Old Version: [1687651447]
+[2023-06-26 02:09:31] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/6a/23/10042d4221ec1ce328ec47dd6ed3c3ca4c348b6d85737a92d3418b2b214f/torchlayers-nightly-1687565326.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/89/c8/6e548a89bedc7720967810618cca31b1863281c33f4f65e7868ccafaaa65/mct-nightly-1.9.0.20230624.post408.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/f1/98/8699d853dce182c94a3dec1890b4135aa20d0593b5a671d4a0f3514a4ee7/ml-compiler-opt-0.0.1.dev202306252306.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/2d/ae/88fce9f881a89d68b358208573ab65d284e14295becbaa5b920683a3d983/midas-data-util-0.2.5.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [GameWidgets]: Downloading https://files.pythonhosted.org/packages/65/6b/db95c9f33322a6e11886f6c84167e8de459b35387133923b187dd0a2b8ff/GameWidgets-0.1.5.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/9b/fb/869a0445f712bd9b17d6036e9d6f78200b96d978b95ff7d4b78349e64391/jaxutils-nightly-0.0.8.dev20230625.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/1f/ad/f466aff973b39b050d35363375d79c912342f781e938bd137c949217180d/cdk8s-2.7.84.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-26 02:09:31] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306250008.tar.gz tmp/ml-compiler-opt-0.0.1.dev202306252306.tar.gz --markdown 20230626/m/ml-compiler-opt/0.0.1.dev202306250008-0.0.1.dev202306252306/diff.md --exclude *.pyd
+[2023-06-26 02:09:31] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [midas-data-util]: executing diffoscope
+[2023-06-26 02:09:31] INFO root fetch - processPackages [midas-data-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-data-util-0.2.4.tar.gz tmp/midas-data-util-0.2.5.tar.gz --markdown 20230626/m/midas-data-util/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-26 02:09:31] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/1d/9d/7e162e89f7580d694e55e2369649d814d4e37032d689b557bb588da452c5/torchdatasets-nightly-1687651447.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-26 02:09:31] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230626/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-26 02:09:31] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/24/92/f3ec8980e5bb49f64d816ee3c52ecb7691033481cb77903f448d5d6403a4/torchlayers-nightly-1687651739.tar.gz
+[2023-06-26 02:09:31] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/71/30/02a1bcc270c53f6b55cd50dc45c426ecdc5d520a1a3f21057474d46e3de9/cdk8s-2.7.9.tar.gz
+[2023-06-26 02:09:32] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/83/c0/adabda9b360670e38a4eed8b576e2424ffeb20e8e8c0e227bd7a9f265ca0/mct-nightly-1.9.0.20230625.post502.tar.gz
+[2023-06-26 02:09:32] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-06-26 02:09:32] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.84.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230626/c/cdk8s/2.7.84-2.7.9/diff.md --exclude *.pyd
+[2023-06-26 02:09:32] INFO root fetch - processPackages [GameWidgets]: Downloading https://files.pythonhosted.org/packages/a9/89/1a35822f7b351c0967d1344a6ae12e7e44794ee0faf405f4e8972d7a7155/GameWidgets-0.1.6.tar.gz
+[2023-06-26 02:09:32] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c3/55/44e7d896846f88904eaeae384638f4e11e4d44c4f88b6a4b8aae0ff3ab26/jaxutils-nightly-0.0.8.dev20230626.tar.gz
+[2023-06-26 02:09:32] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-06-26 02:09:32] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-26 02:09:32] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1687565326.tar.gz tmp/torchlayers-nightly-1687651739.tar.gz --markdown 20230626/t/torchlayers-nightly/1687565326-1687651739/diff.md --exclude *.pyd
+[2023-06-26 02:09:32] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-06-26 02:09:32] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230626/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-26 02:09:32] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-26 02:09:32] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230624.post408.tar.gz tmp/mct-nightly-1.9.0.20230625.post502.tar.gz --markdown 20230626/m/mct-nightly/1.9.0.20230624.post408-1.9.0.20230625.post502/diff.md --exclude *.pyd
+[2023-06-26 02:09:32] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/64/29/11eb21c253c8432e9e00b92d91d5cab61a9136627e893b1ac9f53ac010f8/torchdatasets-nightly-1687737846.tar.gz
+[2023-06-26 02:09:32] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-26 02:09:32] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230625.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230626.tar.gz --markdown 20230626/j/jaxutils-nightly/0.0.8.dev20230625-0.0.8.dev20230626/diff.md --exclude *.pyd
+[2023-06-26 02:09:32] INFO root fetch - processPackages [GameWidgets]: executing diffoscope
+[2023-06-26 02:09:32] INFO root fetch - processPackages [GameWidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GameWidgets-0.1.5.tar.gz tmp/GameWidgets-0.1.6.tar.gz --markdown 20230626/G/GameWidgets/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-26 02:09:32] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-26 02:09:32] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1687651447.tar.gz tmp/torchdatasets-nightly-1687737846.tar.gz --markdown 20230626/t/torchdatasets-nightly/1687651447-1687737846/diff.md --exclude *.pyd
+[2023-06-26 02:09:33] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.2.4.tar.gz]
+[2023-06-26 02:09:33] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.2.5.tar.gz]
+[2023-06-26 02:09:33] INFO root fetch - main [MainThread]: End processing [midas-data-util]: success
+[2023-06-26 02:09:33] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-26 02:09:33] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-26 02:09:33] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-26 02:09:34] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306250008.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306252306.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-26 02:09:34] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.84.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.9.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-06-26 02:09:34] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687565326.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687651739.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-26 02:09:34] INFO root fetch - processPackages [GameWidgets]: Remove: archive file [/home/abi/fetcher/tmp/GameWidgets-0.1.5.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - processPackages [GameWidgets]: Remove: archive file [/home/abi/fetcher/tmp/GameWidgets-0.1.6.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - main [MainThread]: End processing [GameWidgets]: success
+[2023-06-26 02:09:34] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687651447.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687737846.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-26 02:09:34] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230625.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230626.tar.gz]
+[2023-06-26 02:09:34] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-26 02:09:36] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230624.post408.tar.gz]
+[2023-06-26 02:09:36] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230625.post502.tar.gz]
+[2023-06-26 02:09:36] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-26 02:09:39] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-06-26 02:09:39] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-06-26 02:09:39] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-06-26 02:09:39] INFO root fetch - main [MainThread]: Store serial: [18639953]
