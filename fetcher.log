@@ -19523,3 +19523,200 @@ EOFError: EOF read where object expected
 [2023-06-26 15:44:06] INFO root fetch - processPackages [JupyterQuiz]: Remove: archive file [/home/abi/fetcher/tmp/jupyterquiz-2.6.3.tar.gz]
 [2023-06-26 15:44:06] INFO root fetch - main [MainThread]: End processing [JupyterQuiz]: success
 [2023-06-26 15:44:06] INFO root fetch - main [MainThread]: Store serial: [18647599]
+[2023-06-26 15:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18647599]
+[2023-06-26 15:49:16] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: merge-downloader
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: segmindapi
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nmma
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funasr
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vdk-test-utils
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wafermap-clustering
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tendril-utils-core
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ensembleperturbation
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ifd-python
+[2023-06-26 15:49:16] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-26 15:49:16] WARNING root fetch - processPackages [merge-downloader]: Skipping, unable to determine old version
+[2023-06-26 15:49:16] INFO root fetch - processPackages [merge-downloader]: Start processing: experimaestro
+[2023-06-26 15:49:16] INFO root fetch - main [MainThread]: End processing [merge-downloader] error
+[2023-06-26 15:49:16] INFO root fetch - processPackages [tendril-utils-core]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [segmindapi]: New version: [0.2] Old Version: [0.1]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ifd-python]: New version: [10.1.9] Old Version: [10.1.8]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [tendril-utils-core]: Downloading https://files.pythonhosted.org/packages/78/7a/c75db77bcc70ae8b82192eaca8f88dcf6294f9d905aa12e9128bab27ceba/tendril-utils-core-0.5.8.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/4e/4b/f3d9a942b7af5878145f35873d9a070254e3cba7bbdcde873afef9821534/wafermap-clustering-0.2.4.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.6.26] Old Version: [2023.6.25]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [funasr]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ensembleperturbation]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/46/22/d5d63cc2de3ec7fdba02b2da8390211c1c144b370607ef7fbdef4992fc50/ifd_python-10.1.8.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [nmma]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [vdk-test-utils]: New version: [0.2.911997964] Old Version: [0.2.824443273]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [experimaestro]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [segmindapi]: Downloading https://files.pythonhosted.org/packages/30/6d/44144a01a5592069255526595080952c5560884403121a5197e9c2469ef5/segmindapi-0.1.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/ae/07/10d6d26d16c0d48c4bf6206f0f5b2a2d98e9d52740f65206d9960de615f4/wafermap-clustering-0.2.5.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [tendril-utils-core]: Downloading https://files.pythonhosted.org/packages/b3/bb/7a5cfe87741b97a84cc6d7a28fe96d2bf24796a04e06e90ae6612da66612/tendril-utils-core-0.5.9.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/1b/eb/38cb1f7d8f482829749ba3dde0f4db42bff856cfc677d5a225e7bbacb1dc/fbgemm_gpu_nightly-2023.6.25-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/d5/2f/63e7b5ecff0b1ff2d13c4a7301c45fe91ff57e14308f699d2a8df4254c99/ifd_python-10.1.9.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/cd/87/f34e47bdad2f46ce073901064c3352a98e689b0292372bc2876378dce374/funasr-0.6.3.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [nmma]: Downloading https://files.pythonhosted.org/packages/f2/94/e01c3150b9a1fe4ae8938894e51f0aba089c3e5fc00736f14fe846c674d3/nmma-0.0.8.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ensembleperturbation]: Downloading https://files.pythonhosted.org/packages/bd/dc/67c56e04a481d70ad068ef1316e33b8f8444560dd206c1ae44841152c8d9/ensembleperturbation-1.2.1.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-06-26 15:49:16] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.2.4.tar.gz tmp/wafermap-clustering-0.2.5.tar.gz --markdown 20230626/w/wafermap-clustering/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-26 15:49:16] INFO root fetch - processPackages [vdk-test-utils]: Downloading https://files.pythonhosted.org/packages/6a/10/825a9481a7e7f986d2b3aea8195a50a11a61d0d856a6d80d419e6d4a749b/vdk-test-utils-0.2.824443273.tar.gz
+[2023-06-26 15:49:16] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 257990390>=10485760
+[2023-06-26 15:49:16] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: odoo-addon-vault
+[2023-06-26 15:49:16] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-06-26 15:49:16] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/a3/39/e8bf0f2c57679fd9746b8f077f5ada6fdfaffb0d246930aefadb8b96d604/experimaestro-0.9.8-py2.py3-none-any.whl
+[2023-06-26 15:49:16] INFO root fetch - processPackages [tendril-utils-core]: executing diffoscope
+[2023-06-26 15:49:16] INFO root fetch - processPackages [tendril-utils-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-core-0.5.8.tar.gz tmp/tendril-utils-core-0.5.9.tar.gz --markdown 20230626/t/tendril-utils-core/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-26 15:49:16] INFO root fetch - processPackages [odoo-addon-vault]: New version: [15.0.1.6.3] Old Version: [15.0.1.6.2]
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-06-26 15:49:16] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-10.1.8.tar.gz tmp/ifd_python-10.1.9.tar.gz --markdown 20230626/i/ifd-python/10.1.8-10.1.9/diff.md --exclude *.pyd
+[2023-06-26 15:49:16] INFO root fetch - processPackages [segmindapi]: Downloading https://files.pythonhosted.org/packages/d2/59/df89d55936cad8ebeb657fb4715d1e20a4d62e7d173236466a8347892d4f/segmindapi-0.2.tar.gz
+[2023-06-26 15:49:16] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/fa/a8/f20bb92953cf7ae3e00f7ea241765595be691a67e671808c5d53d0298ca8/odoo_addon_vault-15.0.1.6.2-py3-none-any.whl
+[2023-06-26 15:49:17] INFO root fetch - processPackages [vdk-test-utils]: Downloading https://files.pythonhosted.org/packages/6b/9c/d736efeaf988fb4e3409c6b504f402fe7fbc93e7da3b87cb1c367bebbdd2/vdk-test-utils-0.2.911997964.tar.gz
+[2023-06-26 15:49:17] INFO root fetch - processPackages [ensembleperturbation]: Downloading https://files.pythonhosted.org/packages/c5/00/c29de11b73fefa29d61d78b308cdd716c87905a969007f31a587f18efb22/ensembleperturbation-1.2.2.tar.gz
+[2023-06-26 15:49:17] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/49/2b/153766aea858542f0779500a9524fa6b22d5f8c6c239a99e755cc9881232/funasr-0.6.4.tar.gz
+[2023-06-26 15:49:17] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/c4/b7/016b4a07e7ef8368e66223b54a8145af8ccdef52bef487f9b5b59180d2df/odoo_addon_vault-15.0.1.6.3-py3-none-any.whl
+[2023-06-26 15:49:17] INFO root fetch - processPackages [segmindapi]: executing diffoscope
+[2023-06-26 15:49:17] INFO root fetch - processPackages [segmindapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmindapi-0.1.tar.gz tmp/segmindapi-0.2.tar.gz --markdown 20230626/s/segmindapi/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-26 15:49:17] INFO root fetch - processPackages [vdk-test-utils]: executing diffoscope
+[2023-06-26 15:49:17] INFO root fetch - processPackages [ensembleperturbation]: executing diffoscope
+[2023-06-26 15:49:17] INFO root fetch - processPackages [vdk-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-test-utils-0.2.824443273.tar.gz tmp/vdk-test-utils-0.2.911997964.tar.gz --markdown 20230626/v/vdk-test-utils/0.2.824443273-0.2.911997964/diff.md --exclude *.pyd
+[2023-06-26 15:49:17] INFO root fetch - processPackages [ensembleperturbation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensembleperturbation-1.2.1.tar.gz tmp/ensembleperturbation-1.2.2.tar.gz --markdown 20230626/e/ensembleperturbation/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-26 15:49:17] INFO root fetch - processPackages [odoo-addon-vault]: executing diffoscope
+[2023-06-26 15:49:17] INFO root fetch - processPackages [odoo-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_vault-15.0.1.6.2-py3-none-any.whl.zip tmp/odoo_addon_vault-15.0.1.6.3-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-vault/15.0.1.6.2-15.0.1.6.3/diff.md --exclude *.pyd
+[2023-06-26 15:49:17] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-06-26 15:49:17] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.6.3.tar.gz tmp/funasr-0.6.4.tar.gz --markdown 20230626/f/funasr/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-26 15:49:17] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/01/8f/03545ff21231a99d4620e2c8cea78638225e661012da7e67c5f46c291a0d/experimaestro-0.9.9-py2.py3-none-any.whl
+[2023-06-26 15:49:18] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2023-06-26 15:49:18] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip --markdown 20230626/e/experimaestro/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 15:49:18] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.4.tar.gz]
+[2023-06-26 15:49:18] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.5.tar.gz]
+[2023-06-26 15:49:18] INFO root fetch - processPackages [wafermap-clustering]: Start processing: pytest-playwright-async
+[2023-06-26 15:49:18] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-06-26 15:49:18] WARNING root fetch - processPackages [pytest-playwright-async]: Skipping, unable to determine old version
+[2023-06-26 15:49:18] INFO root fetch - processPackages [pytest-playwright-async]: Start processing: anjani
+[2023-06-26 15:49:18] INFO root fetch - main [MainThread]: End processing [pytest-playwright-async] error
+[2023-06-26 15:49:18] INFO root fetch - processPackages [anjani]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-26 15:49:18] INFO root fetch - processPackages [segmindapi]: Remove: archive file [/home/abi/fetcher/tmp/segmindapi-0.1.tar.gz]
+[2023-06-26 15:49:18] INFO root fetch - processPackages [segmindapi]: Remove: archive file [/home/abi/fetcher/tmp/segmindapi-0.2.tar.gz]
+[2023-06-26 15:49:18] INFO root fetch - processPackages [segmindapi]: Start processing: krakatoa
+[2023-06-26 15:49:18] INFO root fetch - main [MainThread]: End processing [segmindapi]: success
+[2023-06-26 15:49:18] INFO root fetch - processPackages [krakatoa]: New version: [0.0.5a1] Old Version: [0.0.5.post7]
+[2023-06-26 15:49:18] INFO root fetch - processPackages [vdk-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/vdk-test-utils-0.2.824443273.tar.gz]
+[2023-06-26 15:49:18] INFO root fetch - processPackages [vdk-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/vdk-test-utils-0.2.911997964.tar.gz]
+[2023-06-26 15:49:18] INFO root fetch - processPackages [vdk-test-utils]: Start processing: lbinstall
+[2023-06-26 15:49:18] INFO root fetch - main [MainThread]: End processing [vdk-test-utils]: success
+[2023-06-26 15:49:18] INFO root fetch - processPackages [lbinstall]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.8.tar.gz]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.9.tar.gz]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [ifd-python]: Start processing: pydantic-db-backend
+[2023-06-26 15:49:19] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-06-26 15:49:19] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/a0/4b/02833bc01203d0b9addbff43d3b48c7c40022e828cbd0b8fdb836018bcac/anjani-2.8.1.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [pydantic-db-backend]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [krakatoa]: Downloading https://files.pythonhosted.org/packages/7b/cb/d5bcb8e607f169251ef1544ab3b3000c83fdbeb03dbe0795115814d18a3a/krakatoa-0.0.5.post7.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [lbinstall]: Downloading https://files.pythonhosted.org/packages/d6/c3/ee831d1796bb02c20d59b4876289d93f3c7c79fb62c3fc73b767c24d273f/lbinstall-2.0.8.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [ensembleperturbation]: Remove: archive file [/home/abi/fetcher/tmp/ensembleperturbation-1.2.1.tar.gz]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [ensembleperturbation]: Remove: archive file [/home/abi/fetcher/tmp/ensembleperturbation-1.2.2.tar.gz]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [ensembleperturbation]: Start processing: jpeglib
+[2023-06-26 15:49:19] INFO root fetch - main [MainThread]: End processing [ensembleperturbation]: success
+[2023-06-26 15:49:19] INFO root fetch - processPackages [jpeglib]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/d5/ef/cf3c7c52f7bb2c8a6b0ad96425c55b301eba04b3652357849fba43cb667e/pydantic_db_backend-0.2.0.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.1.6.2-py3-none-any.whl.zip]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.1.6.3-py3-none-any.whl.zip]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [odoo-addon-vault]: Start processing: hydronaut
+[2023-06-26 15:49:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-vault]: success
+[2023-06-26 15:49:19] INFO root fetch - processPackages [hydronaut]: New version: [2023.9] Old Version: [2023.8]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/f9/9d/09023cad363092c71cd40b8312939b2e4d4bfbd47cae721893d04ab5a6d9/anjani-2.9.0.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [krakatoa]: Downloading https://files.pythonhosted.org/packages/99/fb/5191cc5b3ab36388795c6b5cd1352f1be2480573ee10460cebc6e8fb4802/krakatoa-0.0.5a1.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [hydronaut]: Downloading https://files.pythonhosted.org/packages/9d/7e/b225a7a7a2ffb86b4ed3fe056e172c078f041e79eabad986817c4a68a007/hydronaut-2023.8.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [jpeglib]: Downloading https://files.pythonhosted.org/packages/7d/5c/5b977d328be35dedc351e4746e142fbf34d5584e21dbb284bded308d2f4a/jpeglib-0.9.2.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [anjani]: executing diffoscope
+[2023-06-26 15:49:19] INFO root fetch - processPackages [anjani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anjani-2.8.1.tar.gz tmp/anjani-2.9.0.tar.gz --markdown 20230626/a/anjani/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-26 15:49:19] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/29/50/18c10af19da6e83620e673ff8d77290b99a90892729564b8c77dee0b1682/pydantic_db_backend-0.3.0.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [hydronaut]: Downloading https://files.pythonhosted.org/packages/3d/59/c4998d8baa4060422ab6762f749beca1991fee8049c534d779d8abda658d/hydronaut-2023.9.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [krakatoa]: executing diffoscope
+[2023-06-26 15:49:19] INFO root fetch - processPackages [krakatoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krakatoa-0.0.5.post7.tar.gz tmp/krakatoa-0.0.5a1.tar.gz --markdown 20230626/k/krakatoa/0.0.5.post7-0.0.5a1/diff.md --exclude *.pyd
+[2023-06-26 15:49:19] INFO root fetch - processPackages [pydantic-db-backend]: executing diffoscope
+[2023-06-26 15:49:19] INFO root fetch - processPackages [pydantic-db-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_db_backend-0.2.0.tar.gz tmp/pydantic_db_backend-0.3.0.tar.gz --markdown 20230626/p/pydantic-db-backend/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 15:49:19] INFO root fetch - processPackages [hydronaut]: executing diffoscope
+[2023-06-26 15:49:19] INFO root fetch - processPackages [hydronaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydronaut-2023.8.tar.gz tmp/hydronaut-2023.9.tar.gz --markdown 20230626/h/hydronaut/2023.8-2023.9/diff.md --exclude *.pyd
+[2023-06-26 15:49:19] INFO root fetch - processPackages [lbinstall]: Downloading https://files.pythonhosted.org/packages/ac/21/cdf924b543e5afe7d2cdb3c128c6812f0567d9a267a4988344ab1b286de7/lbinstall-2.0.9.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [tendril-utils-core]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-core-0.5.8.tar.gz]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [tendril-utils-core]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-core-0.5.9.tar.gz]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [tendril-utils-core]: Start processing: st-chat-message
+[2023-06-26 15:49:19] INFO root fetch - main [MainThread]: End processing [tendril-utils-core]: success
+[2023-06-26 15:49:19] WARNING root fetch - processPackages [st-chat-message]: Skipping, unable to determine old version
+[2023-06-26 15:49:19] INFO root fetch - processPackages [st-chat-message]: Start processing: expert-intelligence-toolbox
+[2023-06-26 15:49:19] INFO root fetch - main [MainThread]: End processing [st-chat-message] error
+[2023-06-26 15:49:19] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 15:49:19] INFO root fetch - processPackages [nmma]: Downloading https://files.pythonhosted.org/packages/00/70/05561af5dadf020542dc2e2f5108c81dcd2790d9427cbf8ae4dbc1654bb3/nmma-0.0.9.tar.gz
+[2023-06-26 15:49:19] INFO root fetch - processPackages [lbinstall]: executing diffoscope
+[2023-06-26 15:49:19] INFO root fetch - processPackages [lbinstall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbinstall-2.0.8.tar.gz tmp/lbinstall-2.0.9.tar.gz --markdown 20230626/l/lbinstall/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:49:19] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-26 15:49:20] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-26 15:49:20] INFO root fetch - processPackages [nmma]: executing diffoscope
+[2023-06-26 15:49:20] INFO root fetch - processPackages [nmma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmma-0.0.8.tar.gz tmp/nmma-0.0.9.tar.gz --markdown 20230626/n/nmma/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:49:20] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-26 15:49:20] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230626/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:49:20] INFO root fetch - processPackages [jpeglib]: Downloading https://files.pythonhosted.org/packages/14/95/0b93b616378a1e2c2ca60552821b4fc061b96e7f2f782c2170500793e200/jpeglib-0.9.3.tar.gz
+[2023-06-26 15:49:21] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.2.0.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.3.0.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [pydantic-db-backend]: Start processing: EncroX
+[2023-06-26 15:49:21] INFO root fetch - main [MainThread]: End processing [pydantic-db-backend]: success
+[2023-06-26 15:49:21] INFO root fetch - processPackages [EncroX]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [EncroX]: Downloading https://files.pythonhosted.org/packages/11/7b/4bf3af92e9ad10b9fc0a67558fd4c9ce7c268705d94ae1cc508445992f58/EncroX-1.0.5.tar.gz
+[2023-06-26 15:49:21] INFO root fetch - processPackages [hydronaut]: Remove: archive file [/home/abi/fetcher/tmp/hydronaut-2023.8.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [hydronaut]: Remove: archive file [/home/abi/fetcher/tmp/hydronaut-2023.9.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [hydronaut]: Start processing: h2o-lightwave
+[2023-06-26 15:49:21] INFO root fetch - main [MainThread]: End processing [hydronaut]: success
+[2023-06-26 15:49:21] INFO root fetch - processPackages [h2o-lightwave]: New version: [0.26.0] Old Version: [0.25.3]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [krakatoa]: Remove: archive file [/home/abi/fetcher/tmp/krakatoa-0.0.5.post7.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [krakatoa]: Remove: archive file [/home/abi/fetcher/tmp/krakatoa-0.0.5a1.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [krakatoa]: Start processing: h2o-lightwave-web
+[2023-06-26 15:49:21] INFO root fetch - main [MainThread]: End processing [krakatoa]: success
+[2023-06-26 15:49:21] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-26 15:49:21] INFO root fetch - processPackages [h2o-lightwave-web]: New version: [0.26.0] Old Version: [0.25.3]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [EncroX]: Downloading https://files.pythonhosted.org/packages/99/c6/b3359eb29c68e53d099f7d2351acdf4ab2fa8f3eb6e586b21224a1b5f5b3/EncroX-1.0.6.tar.gz
+[2023-06-26 15:49:21] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.8.1.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.9.0.tar.gz]
+[2023-06-26 15:49:21] INFO root fetch - main [MainThread]: End processing [anjani]: success
+[2023-06-26 15:49:21] INFO root fetch - processPackages [EncroX]: executing diffoscope
+[2023-06-26 15:49:21] INFO root fetch - processPackages [EncroX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EncroX-1.0.5.tar.gz tmp/EncroX-1.0.6.tar.gz --markdown 20230626/E/EncroX/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-26 15:49:21] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/5d/b9/7a2748ebc1254196e47a66b1d85a379373870f867871b34198937391b969/h2o_lightwave-0.25.3-py3-none-any.whl
+[2023-06-26 15:49:21] INFO root fetch - processPackages [jpeglib]: executing diffoscope
+[2023-06-26 15:49:21] INFO root fetch - processPackages [jpeglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpeglib-0.9.2.tar.gz tmp/jpeglib-0.9.3.tar.gz --markdown 20230626/j/jpeglib/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-26 15:49:21] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/cd/4c/e93f9326a8a231a476f3a903ba04ce87de84352ed8cfcb468e7e4d280dd6/h2o_lightwave_web-0.25.3-py3-none-any.whl
+[2023-06-26 15:49:22] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-26 15:49:22] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-26 15:49:22] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2023-06-26 15:49:22] INFO root fetch - processPackages [h2o-lightwave]: Downloading https://files.pythonhosted.org/packages/b1/83/1ceb727211bb0477fb3703382119ae8ced7ac49f9950ab22a6c18d8d65a5/h2o_lightwave-0.26.0-py3-none-any.whl
+[2023-06-26 15:49:22] INFO root fetch - processPackages [h2o-lightwave]: executing diffoscope
+[2023-06-26 15:49:22] INFO root fetch - processPackages [h2o-lightwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave-0.25.3-py3-none-any.whl.zip tmp/h2o_lightwave-0.26.0-py3-none-any.whl.zip --markdown 20230626/h/h2o-lightwave/0.25.3-0.26.0/diff.md --exclude *.pyd
+[2023-06-26 15:49:22] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.3.tar.gz]
+[2023-06-26 15:49:22] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.4.tar.gz]
+[2023-06-26 15:49:22] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-06-26 15:49:23] INFO root fetch - processPackages [EncroX]: Remove: archive file [/home/abi/fetcher/tmp/EncroX-1.0.5.tar.gz]
+[2023-06-26 15:49:23] INFO root fetch - processPackages [EncroX]: Remove: archive file [/home/abi/fetcher/tmp/EncroX-1.0.6.tar.gz]
+[2023-06-26 15:49:23] INFO root fetch - main [MainThread]: End processing [EncroX]: success
+[2023-06-26 15:49:24] INFO root fetch - processPackages [h2o-lightwave-web]: Downloading https://files.pythonhosted.org/packages/07/66/8ac966508f10a8e2a3b6781a23cda70c6f0a6c36ee9ab36b75cedfec3bfa/h2o_lightwave_web-0.26.0-py3-none-any.whl
+[2023-06-26 15:49:24] INFO root fetch - processPackages [h2o-lightwave-web]: executing diffoscope
+[2023-06-26 15:49:24] INFO root fetch - processPackages [h2o-lightwave-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_lightwave_web-0.25.3-py3-none-any.whl.zip tmp/h2o_lightwave_web-0.26.0-py3-none-any.whl.zip --markdown 20230626/h/h2o-lightwave-web/0.25.3-0.26.0/diff.md --exclude *.pyd
+[2023-06-26 15:49:24] INFO root fetch - processPackages [lbinstall]: Remove: archive file [/home/abi/fetcher/tmp/lbinstall-2.0.8.tar.gz]
+[2023-06-26 15:49:24] INFO root fetch - processPackages [lbinstall]: Remove: archive file [/home/abi/fetcher/tmp/lbinstall-2.0.9.tar.gz]
+[2023-06-26 15:49:24] INFO root fetch - main [MainThread]: End processing [lbinstall]: success
+[2023-06-26 15:49:25] INFO root fetch - processPackages [h2o-lightwave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave-0.25.3-py3-none-any.whl.zip]
+[2023-06-26 15:49:25] INFO root fetch - processPackages [h2o-lightwave]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave-0.26.0-py3-none-any.whl.zip]
+[2023-06-26 15:49:25] INFO root fetch - main [MainThread]: End processing [h2o-lightwave]: success
+[2023-06-26 15:49:27] INFO root fetch - processPackages [nmma]: Remove: archive file [/home/abi/fetcher/tmp/nmma-0.0.8.tar.gz]
+[2023-06-26 15:49:27] INFO root fetch - processPackages [nmma]: Remove: archive file [/home/abi/fetcher/tmp/nmma-0.0.9.tar.gz]
+[2023-06-26 15:49:27] INFO root fetch - main [MainThread]: End processing [nmma]: success
+[2023-06-26 15:49:29] INFO root fetch - processPackages [jpeglib]: Remove: archive file [/home/abi/fetcher/tmp/jpeglib-0.9.2.tar.gz]
+[2023-06-26 15:49:29] INFO root fetch - processPackages [jpeglib]: Remove: archive file [/home/abi/fetcher/tmp/jpeglib-0.9.3.tar.gz]
+[2023-06-26 15:49:29] INFO root fetch - main [MainThread]: End processing [jpeglib]: success
+[2023-06-26 15:50:47] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-0.25.3-py3-none-any.whl.zip]
+[2023-06-26 15:50:47] INFO root fetch - processPackages [h2o-lightwave-web]: Remove: archive file [/home/abi/fetcher/tmp/h2o_lightwave_web-0.26.0-py3-none-any.whl.zip]
+[2023-06-26 15:50:47] INFO root fetch - main [MainThread]: End processing [h2o-lightwave-web]: success
+[2023-06-26 15:50:47] INFO root fetch - main [MainThread]: Store serial: [18647678]
