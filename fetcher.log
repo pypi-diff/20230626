@@ -16156,3 +16156,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:49:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post866-py3-none-any.whl.zip]
 [2023-06-26 13:49:24] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-06-26 13:49:24] INFO root fetch - main [MainThread]: Store serial: [18645984]
+[2023-06-26 13:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645984]
+[2023-06-26 13:54:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: attune-project-api
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpforecaster
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-comments
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydatawork
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lanablas
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idem-tls
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcnum
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axaiogram
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickstart-vdk
+[2023-06-26 13:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apysc
+[2023-06-26 13:54:35] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 13:54:35] INFO root fetch - processPackages [st-comments]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 13:54:35] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-26 13:54:35] INFO root fetch - processPackages [lanablas]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 13:54:35] INFO root fetch - processPackages [axaiogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 13:54:35] INFO root fetch - processPackages [idem-tls]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-26 13:54:35] INFO root fetch - processPackages [dcnum]: New version: [0.10.0] Old Version: [0.0.9]
+[2023-06-26 13:54:35] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 13:54:35] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.911852332.dev11862] Old Version: [0.2.911694257.dev11838]
+[2023-06-26 13:54:36] INFO root fetch - processPackages [apysc]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-06-26 13:54:36] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/8d/fa/57476ab85e28ad65618c17cf82e0551a3f5aa1948d030d8774566c8e72c5/axaiogram-0.0.8.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/6a/14/6b079da3ceb501e152f7beec18929276f8b15805875f4d6024f9dc7eb754/quickstart-vdk-0.2.911694257.dev11838.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/64/fc/0e9bb43c010f9c4183fdb9f7a51acb83dcd9c8ecc38b8012c7662f309c4a/apysc-3.1.4.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [st-comments]: Downloading https://files.pythonhosted.org/packages/17/48/682c3927a952efd6e511576c597829792c89c67e570b83a860201b797cb5/st_comments-0.0.2-py3-none-any.whl
+[2023-06-26 13:54:36] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/a3/48/07c7faf219f06659c85021907eba859f7478fad0e790c1731e124295d8b7/gpforecaster-0.3.8.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/a7/32/b017c7e5854716056f42163fecd23c8b4f40328c0063853d162243c7cca5/lanablas-0.1.1.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/3a/b9/ebe8494e336007718e89f31477eb283b3f6156c16ef56682554b41c1f057/axaiogram-0.0.9.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/4c/3c/5ba795685a5b7448e77c59ee9ae19bcf0cff9248f76b477c143c5bb258c5/dcnum-0.0.9.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [idem-tls]: Downloading https://files.pythonhosted.org/packages/54/3b/e0261d94d28b03bf6e815427cba6240da35aa746841855f2c7adbf1107b8/idem-tls-0.1.0.tar.gz
+[2023-06-26 13:54:36] WARNING root fetch - processPackages [lanablas]: Skipping package: exceeds size limit 71402769>=10485760
+[2023-06-26 13:54:36] INFO root fetch - processPackages [lanablas]: Start processing: geno2phenoTB
+[2023-06-26 13:54:36] INFO root fetch - main [MainThread]: End processing [lanablas] error
+[2023-06-26 13:54:36] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 13:54:36] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.8.tar.gz tmp/axaiogram-0.0.9.tar.gz --markdown 20230626/a/axaiogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:54:36] WARNING root fetch - processPackages [geno2phenoTB]: Skipping, unable to determine old version
+[2023-06-26 13:54:36] INFO root fetch - processPackages [geno2phenoTB]: Start processing: datawise
+[2023-06-26 13:54:36] INFO root fetch - main [MainThread]: End processing [geno2phenoTB] error
+[2023-06-26 13:54:36] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-26 13:54:36] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230626/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 13:54:36] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/3d/a8/0d2202a8a4a0dfd2f477938cf30f732623a44d9cd90604e24781998b359e/quickstart-vdk-0.2.911852332.dev11862.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [datawise]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-06-26 13:54:36] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/7a/9d/75a91da082653fdef903ba5ddd32ccad6cdfcc856ea843982b15d320ff98/apysc-3.1.5.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/09/7b/ee1167012eb22856e170c03d9233e79a869c4f6f5e2d56b6026973c7a6d4/datawise-0.0.22.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-26 13:54:36] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.4.tar.gz tmp/apysc-3.1.5.tar.gz --markdown 20230626/a/apysc/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-06-26 13:54:36] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-26 13:54:36] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.911694257.dev11838.tar.gz tmp/quickstart-vdk-0.2.911852332.dev11862.tar.gz --markdown 20230626/q/quickstart-vdk/0.2.911694257.dev11838-0.2.911852332.dev11862/diff.md --exclude *.pyd
+[2023-06-26 13:54:36] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/a9/43/e217c564f025093a3f3d13f0ca47d6ddaec261b4c074c95744ea378f6453/dcnum-0.10.0.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [idem-tls]: Downloading https://files.pythonhosted.org/packages/cc/f5/3e8e708ea66bcaaf34821c2ddf7d19ddf3ed78165ce3f32bf0649e6f0e4c/idem-tls-0.2.0.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [st-comments]: Downloading https://files.pythonhosted.org/packages/1a/32/98c60a3547685e8182062cd55febc96e24b5bbf945748955b9f51fc676ab/st_comments-0.0.3-py3-none-any.whl
+[2023-06-26 13:54:36] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2023-06-26 13:54:36] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.0.9.tar.gz tmp/dcnum-0.10.0.tar.gz --markdown 20230626/d/dcnum/0.0.9-0.10.0/diff.md --exclude *.pyd
+[2023-06-26 13:54:36] INFO root fetch - processPackages [idem-tls]: executing diffoscope
+[2023-06-26 13:54:36] INFO root fetch - processPackages [idem-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-tls-0.1.0.tar.gz tmp/idem-tls-0.2.0.tar.gz --markdown 20230626/i/idem-tls/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 13:54:36] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/92/5f/ac0cce7d644b9cf855fde3021fe913db55e05b3641325229c5df912c2f36/gpforecaster-0.3.9.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [st-comments]: executing diffoscope
+[2023-06-26 13:54:36] INFO root fetch - processPackages [st-comments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_comments-0.0.2-py3-none-any.whl.zip tmp/st_comments-0.0.3-py3-none-any.whl.zip --markdown 20230626/s/st-comments/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 13:54:36] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-06-26 13:54:36] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230626/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 13:54:36] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/c1/98/e72a628211420478718d62df6006ba69f05994e7b0b6518c46cf7d942220/datawise-0.0.23.tar.gz
+[2023-06-26 13:54:36] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-26 13:54:36] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.22.tar.gz tmp/datawise-0.0.23.tar.gz --markdown 20230626/d/datawise/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-06-26 13:54:37] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-06-26 13:54:37] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230626/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-26 13:54:37] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-26 13:54:37] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-26 13:54:37] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-26 13:54:38] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.911694257.dev11838.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.911852332.dev11862.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-26 13:54:38] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.22.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.23.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-26 13:54:38] INFO root fetch - processPackages [idem-tls]: Remove: archive file [/home/abi/fetcher/tmp/idem-tls-0.1.0.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - processPackages [idem-tls]: Remove: archive file [/home/abi/fetcher/tmp/idem-tls-0.2.0.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - main [MainThread]: End processing [idem-tls]: success
+[2023-06-26 13:54:38] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.8.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.9.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 13:54:38] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.8.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.9.tar.gz]
+[2023-06-26 13:54:38] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-06-26 13:54:38] INFO root fetch - processPackages [st-comments]: Remove: archive file [/home/abi/fetcher/tmp/st_comments-0.0.2-py3-none-any.whl.zip]
+[2023-06-26 13:54:38] INFO root fetch - processPackages [st-comments]: Remove: archive file [/home/abi/fetcher/tmp/st_comments-0.0.3-py3-none-any.whl.zip]
+[2023-06-26 13:54:38] INFO root fetch - main [MainThread]: End processing [st-comments]: success
+[2023-06-26 13:54:39] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.8.tar.gz]
+[2023-06-26 13:54:39] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.9.tar.gz]
+[2023-06-26 13:54:39] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-06-26 13:54:40] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.0.9.tar.gz]
+[2023-06-26 13:54:40] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.10.0.tar.gz]
+[2023-06-26 13:54:40] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2023-06-26 13:54:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.4.tar.gz]
+[2023-06-26 13:54:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.5.tar.gz]
+[2023-06-26 13:54:44] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-26 13:54:44] INFO root fetch - main [MainThread]: Store serial: [18646030]
