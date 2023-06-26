@@ -22605,3 +22605,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:24:09] INFO root fetch - processPackages [scitools-iris]: Remove: archive file [/home/abi/fetcher/tmp/scitools-iris-3.6.1.tar.gz]
 [2023-06-26 17:24:09] INFO root fetch - main [MainThread]: End processing [scitools-iris]: success
 [2023-06-26 17:24:09] INFO root fetch - main [MainThread]: Store serial: [18648915]
+[2023-06-26 17:29:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648915]
+[2023-06-26 17:29:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plum-dispatch
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SMjour
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: madml
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-jobs
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-matcher-block
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: planetarypy
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cardsort
+[2023-06-26 17:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titan-iris
+[2023-06-26 17:29:19] INFO root fetch - processPackages [pypomes]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-26 17:29:19] WARNING root fetch - processPackages [madml]: Skipping, unable to determine old version
+[2023-06-26 17:29:19] INFO root fetch - processPackages [madml]: Start processing: evbus-kafka
+[2023-06-26 17:29:19] INFO root fetch - main [MainThread]: End processing [madml] error
+[2023-06-26 17:29:19] INFO root fetch - processPackages [plum-dispatch]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-26 17:29:19] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-06-26 17:29:19] INFO root fetch - processPackages [SMjour]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 17:29:19] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-26 17:29:19] INFO root fetch - processPackages [planetarypy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 17:29:19] INFO root fetch - processPackages [nonebot-plugin-matcher-block]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 17:29:19] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-26 17:29:19] INFO root fetch - processPackages [evbus-kafka]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-06-26 17:29:19] INFO root fetch - processPackages [titan-iris]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-26 17:29:19] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/1a/24/3f5674778363caaeee10fa16c761a224fed410ae5c0d02a3c17ca4e37144/planetarypy-0.8.0.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/7f/ca/0f715c28a3dd1b7ea22f416cd9c706b2cacde47e934b086d8318c562dc6d/titan-iris-0.8.6.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/40/03/b9f4efbb51549610c5c9f9cbc41799a2b2de27123bba1d82bfaa29eefa5d/pypomes-0.1.9.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/f5/26/0bbb1f6a6a54a4b4df5868219630713e3c294f466ce812e2325ca2f5fa47/SMjour-0.0.6.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [plum-dispatch]: Downloading https://files.pythonhosted.org/packages/33/2b/b1da979c1f126cab49b3c59768fd803e3430138b22c8e7d61c42819db9bb/plum_dispatch-2.1.0.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-26 17:29:19] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [evbus-kafka]: Downloading https://files.pythonhosted.org/packages/f0/09/031bed8b5162e88f6e174af079986ffd35de60ca292d44ac951af7ef450b/evbus-kafka-4.0.1.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [nonebot-plugin-matcher-block]: Downloading https://files.pythonhosted.org/packages/79/df/a34f9aebcbef54201da6e33610a6be519f4cc7f40a648923cef442febc76/nonebot_plugin_matcher_block-0.0.3.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-06-26 17:29:19] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230626/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 17:29:19] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/b9/8a/0501c85429a67c118dfd5a60ff6bca1fc0e04d41d7163d284fa9184d27c6/planetarypy-0.9.0.tar.gz
+[2023-06-26 17:29:19] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/94/08/66f9679778ece8b54299ac9defaa859c635cab675e033b45d38475dbdf82/titan-iris-0.8.7.tar.gz
+[2023-06-26 17:29:20] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/b7/36/5dac7a7b86e8c45816e8d55a2d0999ea19e2fa27ba5a1dbb8beab1757c80/SMjour-0.0.7.tar.gz
+[2023-06-26 17:29:20] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/3c/f3/1885ba4da102df9a959ba6323bad6d0b11349c3dcd7c5900f7aa0db33eef/pypomes-0.2.0.tar.gz
+[2023-06-26 17:29:20] INFO root fetch - processPackages [plum-dispatch]: Downloading https://files.pythonhosted.org/packages/c5/53/e82c6e93f7a4067cc3c54836e16824412ebf493fee9629c05defa354409b/plum_dispatch-2.1.1.tar.gz
+[2023-06-26 17:29:20] INFO root fetch - processPackages [planetarypy]: executing diffoscope
+[2023-06-26 17:29:20] INFO root fetch - processPackages [planetarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetarypy-0.8.0.tar.gz tmp/planetarypy-0.9.0.tar.gz --markdown 20230626/p/planetarypy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:29:20] INFO root fetch - processPackages [nonebot-plugin-matcher-block]: Downloading https://files.pythonhosted.org/packages/69/cc/0e842464215bd62071b4ed7c381156b5e6e19d72abf1d8e8e188e713a7fa/nonebot_plugin_matcher_block-0.0.4.tar.gz
+[2023-06-26 17:29:20] INFO root fetch - processPackages [SMjour]: executing diffoscope
+[2023-06-26 17:29:20] INFO root fetch - processPackages [SMjour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SMjour-0.0.6.tar.gz tmp/SMjour-0.0.7.tar.gz --markdown 20230626/S/SMjour/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 17:29:20] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-26 17:29:20] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.6.tar.gz tmp/titan-iris-0.8.7.tar.gz --markdown 20230626/t/titan-iris/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-26 17:29:20] INFO root fetch - processPackages [pypomes]: executing diffoscope
+[2023-06-26 17:29:20] INFO root fetch - processPackages [pypomes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes-0.1.9.tar.gz tmp/pypomes-0.2.0.tar.gz --markdown 20230626/p/pypomes/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 17:29:20] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-26 17:29:20] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-26 17:29:20] INFO root fetch - processPackages [plum-dispatch]: executing diffoscope
+[2023-06-26 17:29:20] INFO root fetch - processPackages [plum-dispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plum_dispatch-2.1.0.tar.gz tmp/plum_dispatch-2.1.1.tar.gz --markdown 20230626/p/plum-dispatch/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-26 17:29:20] INFO root fetch - processPackages [evbus-kafka]: Downloading https://files.pythonhosted.org/packages/5c/1e/ca969d6d50f127a90596039c2fa3839546a6ed095a44596f556815a791ad/evbus-kafka-5.0.0.tar.gz
+[2023-06-26 17:29:20] INFO root fetch - processPackages [nonebot-plugin-matcher-block]: executing diffoscope
+[2023-06-26 17:29:20] INFO root fetch - processPackages [nonebot-plugin-matcher-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_matcher_block-0.0.3.tar.gz tmp/nonebot_plugin_matcher_block-0.0.4.tar.gz --markdown 20230626/n/nonebot-plugin-matcher-block/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 17:29:20] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-26 17:29:20] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230626/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-26 17:29:20] INFO root fetch - processPackages [evbus-kafka]: executing diffoscope
+[2023-06-26 17:29:20] INFO root fetch - processPackages [evbus-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evbus-kafka-4.0.1.tar.gz tmp/evbus-kafka-5.0.0.tar.gz --markdown 20230626/e/evbus-kafka/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-06-26 17:29:20] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-26 17:29:20] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230626/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 17:29:21] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.6.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.7.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [SMjour]: Start processing: skorch
+[2023-06-26 17:29:21] INFO root fetch - main [MainThread]: End processing [SMjour]: success
+[2023-06-26 17:29:21] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [cardsort]: Start processing: unimpeded
+[2023-06-26 17:29:21] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-06-26 17:29:21] INFO root fetch - processPackages [skorch]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [unimpeded]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [nonebot-plugin-matcher-block]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_matcher_block-0.0.3.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [nonebot-plugin-matcher-block]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_matcher_block-0.0.4.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [nonebot-plugin-matcher-block]: Start processing: cloud-governance
+[2023-06-26 17:29:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-matcher-block]: success
+[2023-06-26 17:29:21] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/be/98/4f298cba4b0ca260b5c5d831e4de7c10a2f7ce87edf36000c1c1f7a93f6a/unimpeded-0.0.1.tar.gz
+[2023-06-26 17:29:21] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-26 17:29:21] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.9.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.2.0.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [pypomes]: Start processing: pydatavisualization
+[2023-06-26 17:29:21] INFO root fetch - main [MainThread]: End processing [pypomes]: success
+[2023-06-26 17:29:21] INFO root fetch - processPackages [skorch]: Downloading https://files.pythonhosted.org/packages/ff/5c/8c39bdff43f2b2ed452a1d7e5e3a92ba0452a76db57a388097cd715e6846/skorch-0.8.0.tar.gz
+[2023-06-26 17:29:21] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/f2/2e/e8337124005e18fe809d70712246192c19dd80c5b0f32d5495b443e279a8/unimpeded-0.0.2.tar.gz
+[2023-06-26 17:29:21] WARNING root fetch - processPackages [pydatavisualization]: Skipping, unable to determine old version
+[2023-06-26 17:29:21] INFO root fetch - main [MainThread]: End processing [pydatavisualization] error
+[2023-06-26 17:29:21] INFO root fetch - processPackages [evbus-kafka]: Remove: archive file [/home/abi/fetcher/tmp/evbus-kafka-4.0.1.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [evbus-kafka]: Remove: archive file [/home/abi/fetcher/tmp/evbus-kafka-5.0.0.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - main [MainThread]: End processing [evbus-kafka]: success
+[2023-06-26 17:29:21] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-26 17:29:21] INFO root fetch - processPackages [plum-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/plum_dispatch-2.1.0.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - processPackages [plum-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/plum_dispatch-2.1.1.tar.gz]
+[2023-06-26 17:29:21] INFO root fetch - main [MainThread]: End processing [plum-dispatch]: success
+[2023-06-26 17:29:22] INFO root fetch - processPackages [unimpeded]: executing diffoscope
+[2023-06-26 17:29:22] INFO root fetch - processPackages [unimpeded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimpeded-0.0.1.tar.gz tmp/unimpeded-0.0.2.tar.gz --markdown 20230626/u/unimpeded/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 17:29:22] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.6.tar.gz]
+[2023-06-26 17:29:22] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.7.tar.gz]
+[2023-06-26 17:29:22] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-26 17:29:22] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-26 17:29:22] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230626/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-26 17:29:22] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.8.0.tar.gz]
+[2023-06-26 17:29:22] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.9.0.tar.gz]
+[2023-06-26 17:29:22] INFO root fetch - main [MainThread]: End processing [planetarypy]: success
+[2023-06-26 17:29:22] INFO root fetch - processPackages [skorch]: Downloading https://files.pythonhosted.org/packages/19/c3/36d3305afd5f44663799c0d6ff962ba8e27e41c388599ac5c43e210332c5/skorch-0.9.0.tar.gz
+[2023-06-26 17:29:22] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-26 17:29:22] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-26 17:29:22] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-26 17:29:22] INFO root fetch - processPackages [skorch]: executing diffoscope
+[2023-06-26 17:29:22] INFO root fetch - processPackages [skorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skorch-0.8.0.tar.gz tmp/skorch-0.9.0.tar.gz --markdown 20230626/s/skorch/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:29:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-26 17:29:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-26 17:29:23] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-26 17:29:23] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.0.1.tar.gz]
+[2023-06-26 17:29:23] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.0.2.tar.gz]
+[2023-06-26 17:29:23] INFO root fetch - main [MainThread]: End processing [unimpeded]: success
+[2023-06-26 17:29:23] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-26 17:29:23] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-26 17:29:23] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-26 17:29:23] INFO root fetch - processPackages [skorch]: Remove: archive file [/home/abi/fetcher/tmp/skorch-0.8.0.tar.gz]
+[2023-06-26 17:29:23] INFO root fetch - processPackages [skorch]: Remove: archive file [/home/abi/fetcher/tmp/skorch-0.9.0.tar.gz]
+[2023-06-26 17:29:23] INFO root fetch - main [MainThread]: End processing [skorch]: success
+[2023-06-26 17:29:23] INFO root fetch - main [MainThread]: Store serial: [18648962]
