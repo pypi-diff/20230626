@@ -24108,3 +24108,170 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:58:18] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-1.2.9.tar.gz]
 [2023-06-26 17:58:18] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
 [2023-06-26 17:58:18] INFO root fetch - main [MainThread]: Store serial: [18649427]
+[2023-06-26 18:03:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18649427]
+[2023-06-26 18:03:27] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gym-cas
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gamla
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimeograph
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cy-account
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rowSumExplorer
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwiqc
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: piplayer
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: planetarypy
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hera
+[2023-06-26 18:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hera-workflows
+[2023-06-26 18:03:27] INFO root fetch - processPackages [mimeograph]: New version: [1.0.3] Old Version: [0.7.0]
+[2023-06-26 18:03:27] WARNING root fetch - processPackages [rowSumExplorer]: Skipping, unable to determine old version
+[2023-06-26 18:03:27] INFO root fetch - processPackages [rowSumExplorer]: Start processing: oarepo-runtime
+[2023-06-26 18:03:27] INFO root fetch - main [MainThread]: End processing [rowSumExplorer] error
+[2023-06-26 18:03:27] WARNING root fetch - processPackages [piplayer]: Skipping, unable to determine old version
+[2023-06-26 18:03:27] INFO root fetch - processPackages [piplayer]: Start processing: pinecone-client-nightly
+[2023-06-26 18:03:27] INFO root fetch - main [MainThread]: End processing [piplayer] error
+[2023-06-26 18:03:27] WARNING root fetch - processPackages [cy-account]: Skipping, unable to determine old version
+[2023-06-26 18:03:27] INFO root fetch - processPackages [cy-account]: Start processing: power-grid-model
+[2023-06-26 18:03:27] INFO root fetch - main [MainThread]: End processing [cy-account] error
+[2023-06-26 18:03:27] INFO root fetch - processPackages [gym-cas]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 18:03:27] INFO root fetch - processPackages [gamla]: New version: [99] Old Version: [98]
+[2023-06-26 18:03:28] INFO root fetch - processPackages [dwiqc]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera]: New version: [5.5.2] Old Version: [5.5.1]
+[2023-06-26 18:03:28] INFO root fetch - processPackages [planetarypy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera-workflows]: New version: [5.5.2] Old Version: [5.5.1]
+[2023-06-26 18:03:28] INFO root fetch - processPackages [oarepo-runtime]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-26 18:03:28] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9190704883749] Old Version: [1.5.0rc9190015282548]
+[2023-06-26 18:03:28] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/1a/24/3f5674778363caaeee10fa16c761a224fed410ae5c0d02a3c17ca4e37144/planetarypy-0.8.0.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/a9/c8/b1224e7537355d69215b159bff76fb5d7a3131d9e47fd78023262810363b/dwiqc-0.5.5-py2.py3-none-any.whl
+[2023-06-26 18:03:28] INFO root fetch - processPackages [pinecone-client-nightly]: New version: [2.2.2.dev20230626160014] Old Version: [2.2.2.dev20230609000555]
+[2023-06-26 18:03:28] INFO root fetch - processPackages [gym-cas]: Downloading https://files.pythonhosted.org/packages/1d/74/894b2b7c6b1de2214c5e043c66f867a269fcc1b9acf7b74165d0b411f8f5/gym_cas-0.0.4.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/75/9c/0c2ec59662303a61740bed159ff3566fffb2e05d5e779858376fecc1e25f/mimeograph-0.7.0.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/69/f8/ecd46c1a43ef4f38dc58417cdb0231d02fe691e1bc702abaaa13d469a421/gamla-98.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/88/32/17b955b3689a54e144b6c79db4e0ed7bee8e4d095ef404227af438746f82/hera_workflows-5.5.1.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/c7/07/d6dc48bbad294340b76c813ee018f550538b71626013ae7f8ac05650a2bc/oarepo-runtime-1.3.5.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/53/68/4f347ac5740f3d3b06ff64e5482e363f697bbd8835d1343d1e486b4b5046/hera-5.5.1.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/32/3f/7214a55a41d5fabcf29944967e5f3af6b280a76a03c155c634cdd3a4d54e/power-grid-model-1.5.0rc9190015282548.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/b9/8a/0501c85429a67c118dfd5a60ff6bca1fc0e04d41d7163d284fa9184d27c6/planetarypy-0.9.0.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [pinecone-client-nightly]: Downloading https://files.pythonhosted.org/packages/9f/d7/0f86ec7962ee5be0290a6c69283ad91710376de37eece9a77ec1f5cb6d66/pinecone-client-nightly-2.2.2.dev20230609000555.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/83/af/33a2167edfb43392e633fd0f4bee1843a724cd39df8dd3b2b08c7ee99203/dwiqc-0.5.6-py2.py3-none-any.whl
+[2023-06-26 18:03:28] INFO root fetch - processPackages [gym-cas]: Downloading https://files.pythonhosted.org/packages/5c/f3/e3984ba2091df997ae8ec76c43e6e5867965e111cf208e9e41d7928efea0/gym_cas-0.0.5.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [planetarypy]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [planetarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetarypy-0.8.0.tar.gz tmp/planetarypy-0.9.0.tar.gz --markdown 20230626/p/planetarypy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/7c/6f/7721eff92f0b36974650fd78ba112c00594d9a433ce4794efef46094f1b3/hera-5.5.2.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/55/16/087f3fe11e4b246726c21330a6428b404a2bbb97993c13b2cb4cc41fa490/hera_workflows-5.5.2.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.5.5-py2.py3-none-any.whl.zip tmp/dwiqc-0.5.6-py2.py3-none-any.whl.zip --markdown 20230626/d/dwiqc/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-26 18:03:28] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/9b/85/52c7507f0e3f1f4bf3433f3d7b8099c0a259d153af01e6e266a9ca3c3a63/mimeograph-1.0.3.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [gym-cas]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [gym-cas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_cas-0.0.4.tar.gz tmp/gym_cas-0.0.5.tar.gz --markdown 20230626/g/gym-cas/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 18:03:28] INFO root fetch - processPackages [oarepo-runtime]: Downloading https://files.pythonhosted.org/packages/05/15/1ff278ef2030a31875722703ae9ebc6001de2a88576c3a4b1526d08b8860/oarepo-runtime-1.3.6.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [pinecone-client-nightly]: Downloading https://files.pythonhosted.org/packages/03/52/6557c96d52c4ee93186197e52cb1079afb36815440c4d07c6a58834125bb/pinecone-client-nightly-2.2.2.dev20230626160014.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/14/4e/f4918d499a2ca8b88ecc3a4980caa4546bb4d89b3db8f84790349f349223/power-grid-model-1.5.0rc9190704883749.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera-5.5.1.tar.gz tmp/hera-5.5.2.tar.gz --markdown 20230626/h/hera/5.5.1-5.5.2/diff.md --exclude *.pyd
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera-workflows]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [hera-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_workflows-5.5.1.tar.gz tmp/hera_workflows-5.5.2.tar.gz --markdown 20230626/h/hera-workflows/5.5.1-5.5.2/diff.md --exclude *.pyd
+[2023-06-26 18:03:28] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/d5/30/3ac70220c721ace5db4771369280b855e8d9d0f11f63afae59c2a5877427/gamla-99.tar.gz
+[2023-06-26 18:03:28] INFO root fetch - processPackages [oarepo-runtime]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [oarepo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-runtime-1.3.5.tar.gz tmp/oarepo-runtime-1.3.6.tar.gz --markdown 20230626/o/oarepo-runtime/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-26 18:03:28] INFO root fetch - processPackages [mimeograph]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [mimeograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimeograph-0.7.0.tar.gz tmp/mimeograph-1.0.3.tar.gz --markdown 20230626/m/mimeograph/0.7.0-1.0.3/diff.md --exclude *.pyd
+[2023-06-26 18:03:28] INFO root fetch - processPackages [pinecone-client-nightly]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [pinecone-client-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone-client-nightly-2.2.2.dev20230609000555.tar.gz tmp/pinecone-client-nightly-2.2.2.dev20230626160014.tar.gz --markdown 20230626/p/pinecone-client-nightly/2.2.2.dev20230609000555-2.2.2.dev20230626160014/diff.md --exclude *.pyd
+[2023-06-26 18:03:28] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9190015282548.tar.gz tmp/power-grid-model-1.5.0rc9190704883749.tar.gz --markdown 20230626/p/power-grid-model/1.5.0rc9190015282548-1.5.0rc9190704883749/diff.md --exclude *.pyd
+[2023-06-26 18:03:28] INFO root fetch - processPackages [gamla]: executing diffoscope
+[2023-06-26 18:03:28] INFO root fetch - processPackages [gamla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamla-98.tar.gz tmp/gamla-99.tar.gz --markdown 20230626/g/gamla/98-99/diff.md --exclude *.pyd
+[2023-06-26 18:03:30] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.5-py2.py3-none-any.whl.zip]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.6-py2.py3-none-any.whl.zip]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [dwiqc]: Start processing: kodexa-cli
+[2023-06-26 18:03:30] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-26 18:03:30] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25380349263] Old Version: [6.2.25380255061]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [gym-cas]: Remove: archive file [/home/abi/fetcher/tmp/gym_cas-0.0.4.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [gym-cas]: Remove: archive file [/home/abi/fetcher/tmp/gym_cas-0.0.5.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [gym-cas]: Start processing: polylearner
+[2023-06-26 18:03:30] INFO root fetch - main [MainThread]: End processing [gym-cas]: success
+[2023-06-26 18:03:30] WARNING root fetch - processPackages [polylearner]: Skipping, unable to determine old version
+[2023-06-26 18:03:30] INFO root fetch - processPackages [polylearner]: Start processing: ebi-eva-common-pyutils
+[2023-06-26 18:03:30] INFO root fetch - main [MainThread]: End processing [polylearner] error
+[2023-06-26 18:03:30] INFO root fetch - processPackages [ebi-eva-common-pyutils]: New version: [0.5.6.dev3] Old Version: [0.5.6.dev2]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.8.0.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.9.0.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [planetarypy]: Start processing: oxenai
+[2023-06-26 18:03:30] INFO root fetch - main [MainThread]: End processing [planetarypy]: success
+[2023-06-26 18:03:30] INFO root fetch - processPackages [oxenai]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/f0/c8/fba5616cc1ccf3b9c8a60cdc6bddbdae70b78dd4f9333cd44eb8cc632ecb/kodexa_cli-6.2.25380255061.tar.gz
+[2023-06-26 18:03:30] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/f9/07/9b84496c51d7eb0978a7122e0246eb47d8118ed65cba24367d0ffec0ae9e/oxenai-0.1.9-cp310-cp310-macosx_11_0_arm64.whl
+[2023-06-26 18:03:30] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/ea/09/d14881cb79296d21e76d56763a8fa7cfeabb427e280bd9a4e1239df89924/ebi_eva_common_pyutils-0.5.6.dev2.tar.gz
+[2023-06-26 18:03:30] WARNING root fetch - processPackages [oxenai]: Skipping package: exceeds size limit 14827494>=10485760
+[2023-06-26 18:03:30] INFO root fetch - processPackages [oxenai]: Start processing: aiogram3b8-calendar
+[2023-06-26 18:03:30] INFO root fetch - main [MainThread]: End processing [oxenai] error
+[2023-06-26 18:03:30] INFO root fetch - processPackages [aiogram3b8-calendar]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-98.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [gamla]: Remove: archive file [/home/abi/fetcher/tmp/gamla-99.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [gamla]: Start processing: longship
+[2023-06-26 18:03:30] INFO root fetch - main [MainThread]: End processing [gamla]: success
+[2023-06-26 18:03:30] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.5.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [oarepo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-runtime-1.3.6.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [oarepo-runtime]: Start processing: aws-s3-cli
+[2023-06-26 18:03:30] INFO root fetch - main [MainThread]: End processing [oarepo-runtime]: success
+[2023-06-26 18:03:30] WARNING root fetch - processPackages [longship]: Skipping, unable to determine old version
+[2023-06-26 18:03:30] INFO root fetch - processPackages [longship]: Start processing: automation-utilities
+[2023-06-26 18:03:30] INFO root fetch - main [MainThread]: End processing [longship] error
+[2023-06-26 18:03:30] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/a2/20/666c9f48f5d2bef346fd614d87ec6531a81287f455e571a0e40cffd55c47/kodexa_cli-6.2.25380349263.tar.gz
+[2023-06-26 18:03:30] INFO root fetch - processPackages [automation-utilities]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [aiogram3b8-calendar]: Downloading https://files.pythonhosted.org/packages/50/40/8d78c40ecac7ca8401079edacd70999f1ba9be19177aa91e216f0fd20ee4/aiogram3b8_calendar-0.0.1.tar.gz
+[2023-06-26 18:03:30] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/08/76/2194319f2894fae63c2ddaa6ce1eca51cc4cb2c13a8086c837b91f4422e6/ebi_eva_common_pyutils-0.5.6.dev3.tar.gz
+[2023-06-26 18:03:30] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-06-26 18:03:30] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25380255061.tar.gz tmp/kodexa_cli-6.2.25380349263.tar.gz --markdown 20230626/k/kodexa-cli/6.2.25380255061-6.2.25380349263/diff.md --exclude *.pyd
+[2023-06-26 18:03:30] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/0a/6c/4cae385ba002f84849f75adf46104763da958428b45da5ba1a600f9a4b4c/automation-utilities-1.2.4.tar.gz
+[2023-06-26 18:03:30] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.5.1.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.5.2.tar.gz]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [hera-workflows]: Start processing: cy-account
+[2023-06-26 18:03:30] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
+[2023-06-26 18:03:30] INFO root fetch - processPackages [cy-account]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 18:03:30] INFO root fetch - processPackages [ebi-eva-common-pyutils]: executing diffoscope
+[2023-06-26 18:03:30] INFO root fetch - processPackages [ebi-eva-common-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebi_eva_common_pyutils-0.5.6.dev2.tar.gz tmp/ebi_eva_common_pyutils-0.5.6.dev3.tar.gz --markdown 20230626/e/ebi-eva-common-pyutils/0.5.6.dev2-0.5.6.dev3/diff.md --exclude *.pyd
+[2023-06-26 18:03:31] INFO root fetch - processPackages [aws-s3-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 18:03:31] INFO root fetch - processPackages [aiogram3b8-calendar]: Downloading https://files.pythonhosted.org/packages/1c/95/e6cb9388f430811525b02ed322817dbb822bb5fb4d59b43d4189c5fb223d/aiogram3b8_calendar-0.0.2.tar.gz
+[2023-06-26 18:03:31] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/30/97/28035ee63b50f734f6cd01df016dfbb94f4940a2ca57790e7ea467142155/cy-account-0.1.0.tar.gz
+[2023-06-26 18:03:31] INFO root fetch - processPackages [mimeograph]: Remove: archive file [/home/abi/fetcher/tmp/mimeograph-0.7.0.tar.gz]
+[2023-06-26 18:03:31] INFO root fetch - processPackages [mimeograph]: Remove: archive file [/home/abi/fetcher/tmp/mimeograph-1.0.3.tar.gz]
+[2023-06-26 18:03:31] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
+[2023-06-26 18:03:31] INFO root fetch - processPackages [aiogram3b8-calendar]: executing diffoscope
+[2023-06-26 18:03:31] INFO root fetch - processPackages [aiogram3b8-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3b8_calendar-0.0.1.tar.gz tmp/aiogram3b8_calendar-0.0.2.tar.gz --markdown 20230626/a/aiogram3b8-calendar/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 18:03:31] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/38/4c/5d33242bedb7d899e790b11dc11179468e97f292177cdad536a893347717/automation-utilities-1.3.0.tar.gz
+[2023-06-26 18:03:31] INFO root fetch - processPackages [aws-s3-cli]: Downloading https://files.pythonhosted.org/packages/6c/a1/7b52efa431fe11c7df527da155954252401e18cd2b167e6a4ee69c9c72aa/aws-s3-cli-0.0.1.tar.gz
+[2023-06-26 18:03:31] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-26 18:03:31] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.2.4.tar.gz tmp/automation-utilities-1.3.0.tar.gz --markdown 20230626/a/automation-utilities/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-06-26 18:03:31] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/c1/d7/a867e6a770482adf1813982215f6b454b8136df045ba38421a017df40d0a/cy_account-0.1.1.tar.gz
+[2023-06-26 18:03:31] INFO root fetch - processPackages [aws-s3-cli]: Downloading https://files.pythonhosted.org/packages/85/3d/571eb653543fabc9e537bece46dec4114e9eaa543f801d734c5c397b5b03/aws-s3-cli-0.0.2.tar.gz
+[2023-06-26 18:03:31] INFO root fetch - processPackages [cy-account]: executing diffoscope
+[2023-06-26 18:03:31] INFO root fetch - processPackages [cy-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cy-account-0.1.0.tar.gz tmp/cy_account-0.1.1.tar.gz --markdown 20230626/c/cy-account/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 18:03:31] INFO root fetch - processPackages [aws-s3-cli]: executing diffoscope
+[2023-06-26 18:03:31] INFO root fetch - processPackages [aws-s3-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-s3-cli-0.0.1.tar.gz tmp/aws-s3-cli-0.0.2.tar.gz --markdown 20230626/a/aws-s3-cli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 18:03:32] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25380255061.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25380349263.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-06-26 18:03:32] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/ebi_eva_common_pyutils-0.5.6.dev2.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/ebi_eva_common_pyutils-0.5.6.dev3.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - main [MainThread]: End processing [ebi-eva-common-pyutils]: success
+[2023-06-26 18:03:32] INFO root fetch - processPackages [aiogram3b8-calendar]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3b8_calendar-0.0.1.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - processPackages [aiogram3b8-calendar]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3b8_calendar-0.0.2.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - main [MainThread]: End processing [aiogram3b8-calendar]: success
+[2023-06-26 18:03:32] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.4.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.3.0.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-26 18:03:32] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy-account-0.1.0.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.1.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - main [MainThread]: End processing [cy-account]: success
+[2023-06-26 18:03:32] INFO root fetch - processPackages [aws-s3-cli]: Remove: archive file [/home/abi/fetcher/tmp/aws-s3-cli-0.0.1.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - processPackages [aws-s3-cli]: Remove: archive file [/home/abi/fetcher/tmp/aws-s3-cli-0.0.2.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - main [MainThread]: End processing [aws-s3-cli]: success
+[2023-06-26 18:03:32] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.5.1.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.5.2.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - main [MainThread]: End processing [hera]: success
+[2023-06-26 18:03:32] INFO root fetch - processPackages [pinecone-client-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-nightly-2.2.2.dev20230609000555.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - processPackages [pinecone-client-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-nightly-2.2.2.dev20230626160014.tar.gz]
+[2023-06-26 18:03:32] INFO root fetch - main [MainThread]: End processing [pinecone-client-nightly]: success
+[2023-06-26 18:03:35] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9190015282548.tar.gz]
+[2023-06-26 18:03:35] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9190704883749.tar.gz]
+[2023-06-26 18:03:35] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-26 18:03:35] INFO root fetch - main [MainThread]: Store serial: [18649508]
