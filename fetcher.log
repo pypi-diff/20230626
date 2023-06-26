@@ -17925,3 +17925,154 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 14:56:36] INFO root fetch - processPackages [dgl]: Remove: archive file [/home/abi/fetcher/tmp/dgl-1.1.1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-26 14:56:36] INFO root fetch - main [MainThread]: End processing [dgl]: success
 [2023-06-26 14:56:36] INFO root fetch - main [MainThread]: Store serial: [18646822]
+[2023-06-26 15:01:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18646822]
+[2023-06-26 15:01:52] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiotieba
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bump-pydantic
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaiju-tools
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: design.plone.contenttypes
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: playmolecule
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-fluent
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xw-utils
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-graph-builder
+[2023-06-26 15:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anonpi
+[2023-06-26 15:01:52] INFO root fetch - processPackages [aiotieba]: New version: [3.4.5] Old Version: [3.4.4]
+[2023-06-26 15:01:52] WARNING root fetch - processPackages [bump-pydantic]: Skipping, unable to determine old version
+[2023-06-26 15:01:52] INFO root fetch - processPackages [kaiju-tools]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-26 15:01:52] INFO root fetch - processPackages [bump-pydantic]: Start processing: cognite-power-ops
+[2023-06-26 15:01:52] INFO root fetch - main [MainThread]: End processing [bump-pydantic] error
+[2023-06-26 15:01:52] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-26 15:01:52] WARNING root fetch - processPackages [pytest-fluent]: Skipping, unable to determine old version
+[2023-06-26 15:01:52] WARNING root fetch - processPackages [anonpi]: Skipping, unable to determine old version
+[2023-06-26 15:01:52] INFO root fetch - processPackages [pytest-fluent]: Start processing: melon-translate
+[2023-06-26 15:01:52] INFO root fetch - main [MainThread]: End processing [pytest-fluent] error
+[2023-06-26 15:01:52] INFO root fetch - processPackages [anonpi]: Start processing: melon-translate-client
+[2023-06-26 15:01:52] INFO root fetch - main [MainThread]: End processing [anonpi] error
+[2023-06-26 15:01:52] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230626.9.34.254631] Old Version: [20230626.6.41.903469]
+[2023-06-26 15:01:52] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-26 15:01:52] INFO root fetch - processPackages [playmolecule]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-26 15:01:52] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 15:01:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d5/7b/891b493b32448e7feadace1e1c971b2e63cd84199eed22ca8eaf11c99054/certora-cli-alpha-master-20230626.6.41.903469.tar.gz
+[2023-06-26 15:01:52] INFO root fetch - processPackages [dbt-graph-builder]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-26 15:01:52] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-26 15:01:52] INFO root fetch - processPackages [melon-translate]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 15:01:52] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37394054>=10485760
+[2023-06-26 15:01:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: pyegt
+[2023-06-26 15:01:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-26 15:01:52] INFO root fetch - processPackages [melon-translate-client]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 15:01:52] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/96/86/7f40b2c668cd616d7356a7b006416ae8720d7b2d3a64af048b577d2afbfc/kaiju_tools-2.1.2-py3-none-any.whl
+[2023-06-26 15:01:52] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/a1/ac/d638b5962726a97599c253778a1beb1f2de3469505903a25d7a531e7dce5/playmolecule-1.9.0.tar.gz
+[2023-06-26 15:01:52] INFO root fetch - processPackages [pyegt]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-26 15:01:52] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/55/7a/b3d9adf8e72e07ce0dc8b544e82a10bf3f6e2afd264ede3c571ebd362181/design.plone.contenttypes-6.0.8.tar.gz
+[2023-06-26 15:01:52] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/7b/d6/177c50f1ebf70aaa00c66690214a75fd136cb0e7614af73ff89ef41a1983/aiotieba-3.4.4-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-26 15:01:52] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-26 15:01:52] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-26 15:01:52] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/8b/9b/a7f33b9f53ea157b04c051fdf8008aad487d596abeb4122aa0f5e0ce276f/dbt-graph-builder-0.0.1.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [melon-translate]: Downloading https://files.pythonhosted.org/packages/9e/cc/3d89d2471cdb3ff942123f108ce1b819d7316951000a2102d7b4e29f566b/melon_translate-0.9.3.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [melon-translate-client]: Downloading https://files.pythonhosted.org/packages/79/71/832c30fbd7bead9860acef7010438ce5d68db95f78cfd238adc993e8da22/melon_translate_client-0.9.3.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [pyegt]: Downloading https://files.pythonhosted.org/packages/d8/25/40233d1ed1fe509cd5fb70c0ed8a2ff53e31b7231ee162d70d195f65f819/pyegt-0.0.2.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230626/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-26 15:01:53] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/0e/ad/ca251cfd48952a5e3cdef9d5c5a6f565ecb7f9b6455abe033bb2550f75dc/kaiju_tools-2.1.3-py3-none-any.whl
+[2023-06-26 15:01:53] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/0b/ab/a1f1007cd7fefe6685e5dd0ce0ddbc96fa497d63c20837ad792cbe3e8995/aiotieba-3.4.5-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-26 15:01:53] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/49/82/d7e1cb92030c77afd033a4cd97ce831aa86f011f31032ac20deaba40dee5/dbt-graph-builder-0.1.0.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [kaiju-tools]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [kaiju-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tools-2.1.2-py3-none-any.whl.zip tmp/kaiju_tools-2.1.3-py3-none-any.whl.zip --markdown 20230626/k/kaiju-tools/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-26 15:01:53] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/88/0d/5fca30d525d2cf06215ccd872cb468309acbca97d9de07e8c9c3228f5bd8/design.plone.contenttypes-6.0.9.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/eb/90/a3de827f7d4df7973ba8ea8c3dafd7d434df49f373f84b6b467eb7d7204e/playmolecule-1.9.1.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-26 15:01:53] INFO root fetch - processPackages [melon-translate-client]: Downloading https://files.pythonhosted.org/packages/b7/b9/f6bb1a9604fd21b6d1f04a39cbabfa2bd365fb891a4bd908f8fd079832ca/melon_translate_client-0.9.4.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [dbt-graph-builder]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [dbt-graph-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-graph-builder-0.0.1.tar.gz tmp/dbt-graph-builder-0.1.0.tar.gz --markdown 20230626/d/dbt-graph-builder/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-26 15:01:53] INFO root fetch - processPackages [melon-translate-client]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [melon-translate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_translate_client-0.9.3.tar.gz tmp/melon_translate_client-0.9.4.tar.gz --markdown 20230626/m/melon-translate-client/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 15:01:53] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.8.tar.gz tmp/design.plone.contenttypes-6.0.9.tar.gz --markdown 20230626/d/design.plone.contenttypes/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:01:53] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230626/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:01:53] INFO root fetch - processPackages [melon-translate]: Downloading https://files.pythonhosted.org/packages/99/60/57469d69aee6ce37fc5e45b2cce9342abccbd970d8c556e49fa195076399/melon_translate-0.9.4.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [aiotieba]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [aiotieba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotieba-3.4.4-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aiotieba-3.4.5-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230626/a/aiotieba/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2023-06-26 15:01:53] INFO root fetch - processPackages [pyegt]: Downloading https://files.pythonhosted.org/packages/40/a4/063e141b6b72e853f50eaec6622aac2f5ca6eb72133175d9e4b59b9261b0/pyegt-0.1.0.tar.gz
+[2023-06-26 15:01:53] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.9.0.tar.gz tmp/playmolecule-1.9.1.tar.gz --markdown 20230626/p/playmolecule/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-26 15:01:53] INFO root fetch - processPackages [pyegt]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [pyegt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyegt-0.0.2.tar.gz tmp/pyegt-0.1.0.tar.gz --markdown 20230626/p/pyegt/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-26 15:01:53] INFO root fetch - processPackages [melon-translate]: executing diffoscope
+[2023-06-26 15:01:53] INFO root fetch - processPackages [melon-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melon_translate-0.9.3.tar.gz tmp/melon_translate-0.9.4.tar.gz --markdown 20230626/m/melon-translate/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 15:01:55] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [xw-utils]: Start processing: quarkstudio
+[2023-06-26 15:01:55] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-26 15:01:55] INFO root fetch - processPackages [quarkstudio]: New version: [6.5.0rc13] Old Version: [6.4.27]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.0.1.tar.gz]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.1.0.tar.gz]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [dbt-graph-builder]: Start processing: braincube-aws-core
+[2023-06-26 15:01:55] INFO root fetch - main [MainThread]: End processing [dbt-graph-builder]: success
+[2023-06-26 15:01:55] INFO root fetch - processPackages [braincube-aws-core]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/88/12/34a61686bf0445d80c1fe33b19379587eda523fc767f83f9ec7fe87af063/braincube-aws-core-0.0.6.tar.gz
+[2023-06-26 15:01:55] INFO root fetch - processPackages [melon-translate-client]: Remove: archive file [/home/abi/fetcher/tmp/melon_translate_client-0.9.3.tar.gz]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [melon-translate-client]: Remove: archive file [/home/abi/fetcher/tmp/melon_translate_client-0.9.4.tar.gz]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [melon-translate-client]: Start processing: pulumi-azure-native
+[2023-06-26 15:01:55] INFO root fetch - main [MainThread]: End processing [melon-translate-client]: success
+[2023-06-26 15:01:55] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/e6/7c/d99a3de0563b5a52f3db5ad161193a4ea2cee86e4d25e8ed2d6bef919e4f/quarkstudio-6.4.27-cp311-cp311-win_amd64.whl
+[2023-06-26 15:01:55] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/b5/f5/74760a9cb28dd81745ba7a63d448d0de2b9be67f85851d1a8b0e1ae2f4a6/braincube-aws-core-0.0.7.tar.gz
+[2023-06-26 15:01:55] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.0.0b1] Old Version: [2.0.0a2]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [kaiju-tools]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tools-2.1.2-py3-none-any.whl.zip]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [kaiju-tools]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tools-2.1.3-py3-none-any.whl.zip]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [kaiju-tools]: Start processing: MicroLIA
+[2023-06-26 15:01:55] INFO root fetch - main [MainThread]: End processing [kaiju-tools]: success
+[2023-06-26 15:01:55] INFO root fetch - processPackages [MicroLIA]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [braincube-aws-core]: executing diffoscope
+[2023-06-26 15:01:55] INFO root fetch - processPackages [braincube-aws-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-0.0.6.tar.gz tmp/braincube-aws-core-0.0.7.tar.gz --markdown 20230626/b/braincube-aws-core/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 15:01:55] INFO root fetch - processPackages [MicroLIA]: Downloading https://files.pythonhosted.org/packages/1f/75/b308c8b37fb08a387fccc007a643ff6ee364a9832f8321a502ac51ed879e/MicroLIA-2.2.6.tar.gz
+[2023-06-26 15:01:55] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [cognite-power-ops]: Start processing: kirkovmaxim
+[2023-06-26 15:01:55] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-26 15:01:55] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/e5/db/eb2d902a046771385051648b2c23264f4b8b5639c738d42b6c26e0967136/pulumi_azure_native-2.0.0a2.tar.gz
+[2023-06-26 15:01:55] INFO root fetch - processPackages [pyegt]: Remove: archive file [/home/abi/fetcher/tmp/pyegt-0.0.2.tar.gz]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [pyegt]: Remove: archive file [/home/abi/fetcher/tmp/pyegt-0.1.0.tar.gz]
+[2023-06-26 15:01:55] INFO root fetch - processPackages [pyegt]: Start processing: ifd-python
+[2023-06-26 15:01:55] INFO root fetch - main [MainThread]: End processing [pyegt]: success
+[2023-06-26 15:01:55] WARNING root fetch - processPackages [kirkovmaxim]: Skipping, unable to determine old version
+[2023-06-26 15:01:55] INFO root fetch - main [MainThread]: End processing [kirkovmaxim] error
+[2023-06-26 15:01:55] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 29734414>=10485760
+[2023-06-26 15:01:55] INFO root fetch - processPackages [ifd-python]: New version: [10.1.9] Old Version: [10.1.8]
+[2023-06-26 15:01:55] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-06-26 15:01:55] INFO root fetch - processPackages [MicroLIA]: Downloading https://files.pythonhosted.org/packages/63/3c/7d06c271e0e4d3dbb41ade05cdcc35d94a184814a5dacfed877cff11f3b2/MicroLIA-2.2.7.tar.gz
+[2023-06-26 15:01:56] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-1.9.0.tar.gz]
+[2023-06-26 15:01:56] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-1.9.1.tar.gz]
+[2023-06-26 15:01:56] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-06-26 15:01:56] INFO root fetch - processPackages [MicroLIA]: executing diffoscope
+[2023-06-26 15:01:56] INFO root fetch - processPackages [MicroLIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MicroLIA-2.2.6.tar.gz tmp/MicroLIA-2.2.7.tar.gz --markdown 20230626/M/MicroLIA/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-06-26 15:01:56] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/46/22/d5d63cc2de3ec7fdba02b2da8390211c1c144b370607ef7fbdef4992fc50/ifd_python-10.1.8.tar.gz
+[2023-06-26 15:01:56] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/d5/2f/63e7b5ecff0b1ff2d13c4a7301c45fe91ff57e14308f699d2a8df4254c99/ifd_python-10.1.9.tar.gz
+[2023-06-26 15:01:56] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-06-26 15:01:56] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-10.1.8.tar.gz tmp/ifd_python-10.1.9.tar.gz --markdown 20230626/i/ifd-python/10.1.8-10.1.9/diff.md --exclude *.pyd
+[2023-06-26 15:01:56] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/32/28/a2636bb949090f66f4bdae549e18fc14c5c52c2edc3257954114bb9a734a/quarkstudio-6.5.0rc13-cp311-cp311-win_amd64.whl
+[2023-06-26 15:01:56] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.6.tar.gz]
+[2023-06-26 15:01:56] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.7.tar.gz]
+[2023-06-26 15:01:56] INFO root fetch - main [MainThread]: End processing [braincube-aws-core]: success
+[2023-06-26 15:01:57] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.8.tar.gz]
+[2023-06-26 15:01:57] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.0.9.tar.gz]
+[2023-06-26 15:01:57] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-06-26 15:01:57] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2023-06-26 15:01:57] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.4.27-cp311-cp311-win_amd64.whl.zip tmp/quarkstudio-6.5.0rc13-cp311-cp311-win_amd64.whl.zip --markdown 20230626/q/quarkstudio/6.4.27-6.5.0rc13/diff.md --exclude *.pyd
+[2023-06-26 15:01:58] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.8.tar.gz]
+[2023-06-26 15:01:58] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.9.tar.gz]
+[2023-06-26 15:01:58] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-06-26 15:01:58] INFO root fetch - processPackages [melon-translate]: Remove: archive file [/home/abi/fetcher/tmp/melon_translate-0.9.3.tar.gz]
+[2023-06-26 15:01:58] INFO root fetch - processPackages [melon-translate]: Remove: archive file [/home/abi/fetcher/tmp/melon_translate-0.9.4.tar.gz]
+[2023-06-26 15:01:58] INFO root fetch - main [MainThread]: End processing [melon-translate]: success
+[2023-06-26 15:01:58] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.4.4-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-26 15:01:58] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.4.5-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-26 15:01:58] INFO root fetch - main [MainThread]: End processing [aiotieba]: success
+[2023-06-26 15:01:59] INFO root fetch - processPackages [MicroLIA]: Remove: archive file [/home/abi/fetcher/tmp/MicroLIA-2.2.6.tar.gz]
+[2023-06-26 15:01:59] INFO root fetch - processPackages [MicroLIA]: Remove: archive file [/home/abi/fetcher/tmp/MicroLIA-2.2.7.tar.gz]
+[2023-06-26 15:01:59] INFO root fetch - main [MainThread]: End processing [MicroLIA]: success
+[2023-06-26 15:02:00] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.4.27-cp311-cp311-win_amd64.whl.zip]
+[2023-06-26 15:02:00] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.5.0rc13-cp311-cp311-win_amd64.whl.zip]
+[2023-06-26 15:02:00] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2023-06-26 15:02:00] INFO root fetch - main [MainThread]: Store serial: [18646926]
