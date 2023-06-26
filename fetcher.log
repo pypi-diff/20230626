@@ -16029,3 +16029,130 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:43:54] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.4.tar.gz]
 [2023-06-26 13:43:54] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-26 13:43:54] INFO root fetch - main [MainThread]: Store serial: [18645930]
+[2023-06-26 13:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645930]
+[2023-06-26 13:49:05] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-contributor-assets
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: endi-celery
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdup
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lupin-grognard
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axaiogram
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-dllib-spark3
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyweb-db
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-orca-spark3
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-friesian-spark3
+[2023-06-26 13:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: endi-base
+[2023-06-26 13:49:05] INFO root fetch - processPackages [endi-celery]: New version: [6.6.4] Old Version: [6.6.3]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post867] Old Version: [1.0.0.post866]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [axaiogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [endi-base]: New version: [6.6.0] Old Version: [6.4.4]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [pyweb-db]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/8d/fa/57476ab85e28ad65618c17cf82e0551a3f5aa1948d030d8774566c8e72c5/axaiogram-0.0.8.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [pyweb-db]: Downloading https://files.pythonhosted.org/packages/c3/2e/19c41fd51d12edc68a005d0c25cf26f31e5020f6c0725e59e1c8948058ed/pyweb_db-1.0.5.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/78/8b/0903c1b6ae77abf323f23120cdcfb95cb32899e70aa24ee23ff3fcf4ff22/nucliadb_contributor_assets-1.0.0.post866-py3-none-any.whl
+[2023-06-26 13:49:05] INFO root fetch - processPackages [endi-celery]: Downloading https://files.pythonhosted.org/packages/27/df/64c33218094c9d0ef8b64c02e10006e52c94232fc1afc6ca00b23f83cadc/endi_celery-6.6.3.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/3a/b9/ebe8494e336007718e89f31477eb283b3f6156c16ef56682554b41c1f057/axaiogram-0.0.9.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/8f/73/ea4436854235229acd4da37fb29dafcd2c1625ddad0679a149c70d4e5400/bigdl_orca_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl
+[2023-06-26 13:49:05] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/98/95/d10188818c41ba1059479f90daaea72514e8a561f5ab84a6bc5b3e856d06/bigdl-dllib-spark3-2.4.0b20230625.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/ae/f1/8f2e7835469d6296fa9e10f46796d84b1921d68685773eacbfbc6cec12f6/bigdl_friesian_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl
+[2023-06-26 13:49:05] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 13:49:05] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.8.tar.gz tmp/axaiogram-0.0.9.tar.gz --markdown 20230626/a/axaiogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:49:05] INFO root fetch - processPackages [pyweb-db]: Downloading https://files.pythonhosted.org/packages/31/97/3b1443d4d78e88e06450ecde6e48d8d787fe2595734a4ee6aecaa4939ee5/pyweb_db-1.0.6.tar.gz
+[2023-06-26 13:49:05] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207699>=10485760
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bigdl-chronos-spark3
+[2023-06-26 13:49:05] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-26 13:49:05] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61329140>=10485760
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: bigdl-spark3
+[2023-06-26 13:49:05] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-26 13:49:05] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-06-26 13:49:05] INFO root fetch - processPackages [fastdup]: Start processing: timeout-executor
+[2023-06-26 13:49:05] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [endi-base]: Downloading https://files.pythonhosted.org/packages/68/af/0e71acc5582ea760e62eb88f69a26c7ed65f48d4693c3ea3b9ec178d9cce/endi_base-6.4.4.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [timeout-executor]: New version: [0.1.9] Old Version: [0.1.12]
+[2023-06-26 13:49:05] INFO root fetch - processPackages [pyweb-db]: executing diffoscope
+[2023-06-26 13:49:05] INFO root fetch - processPackages [pyweb-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyweb_db-1.0.5.tar.gz tmp/pyweb_db-1.0.6.tar.gz --markdown 20230626/p/pyweb-db/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-26 13:49:05] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/9e/77/db5f69b299237e95f5893d7283652e1080cd152146a693a288c5bcb0bd71/nucliadb_contributor_assets-1.0.0.post867-py3-none-any.whl
+[2023-06-26 13:49:05] INFO root fetch - processPackages [endi-celery]: Downloading https://files.pythonhosted.org/packages/92/6a/76aa473c0e65035e1f7a6ae26926570b0ab40383c98681669cc12cd4ae92/endi_celery-6.6.4.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-26 13:49:05] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230626/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 13:49:05] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-26 13:49:05] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post866-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post867-py3-none-any.whl.zip --markdown 20230626/n/nucliadb-contributor-assets/1.0.0.post866-1.0.0.post867/diff.md --exclude *.pyd
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/7d/24/bd02649bf20d7da1625319d03f212f73f8029420f0460b08fe2ddb3d11e8/bigdl_friesian_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/96/95/0b477ef5c2c3d8f6b04fff5720c10fb7c2b9406544b1a104e60b702cf788/bigdl_chronos_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl
+[2023-06-26 13:49:05] INFO root fetch - processPackages [endi-celery]: executing diffoscope
+[2023-06-26 13:49:05] INFO root fetch - processPackages [endi-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endi_celery-6.6.3.tar.gz tmp/endi_celery-6.6.4.tar.gz --markdown 20230626/e/endi-celery/6.6.3-6.6.4/diff.md --exclude *.pyd
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/0f/fb/470129a65791614565a7d616cc710c2baef40aef55d2ea664b649e498ab6/bigdl_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl
+[2023-06-26 13:49:05] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/00/33/f216a2a96eb9fd1f27e35b8fb7cd96ecf21619d1b5375505d176889a6984/timeout_executor-0.1.12.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [endi-base]: Downloading https://files.pythonhosted.org/packages/78/dc/b19f9108f6aceb5e074c7f3b0f8f732abd4f6009c292dad4e1a1a98f3df7/endi_base-6.6.0.tar.gz
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-26 13:49:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip --markdown 20230626/b/bigdl-friesian-spark3/2.4.0b20230625-2.4.0b20230626/diff.md --exclude *.pyd
+[2023-06-26 13:49:06] INFO root fetch - processPackages [endi-base]: executing diffoscope
+[2023-06-26 13:49:06] INFO root fetch - processPackages [endi-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endi_base-6.4.4.tar.gz tmp/endi_base-6.6.0.tar.gz --markdown 20230626/e/endi-base/6.4.4-6.6.0/diff.md --exclude *.pyd
+[2023-06-26 13:49:06] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/fc/67/aff7639d3c82cd569573eeb1001b22d79ebf45e85647740efbc857ff4201/bigdl_chronos_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-26 13:49:06] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/b5/13/55f3028f9c213153c37abf03363b4d897c66e13238393b6efd967db93869/bigdl_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl
+[2023-06-26 13:49:06] INFO root fetch - processPackages [timeout-executor]: Downloading https://files.pythonhosted.org/packages/d7/bc/668c75799814b1f57614a3f9bc838a8684ecfc293959f71de3b3737e2265/timeout_executor-0.1.9.tar.gz
+[2023-06-26 13:49:06] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-26 13:49:06] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip --markdown 20230626/b/bigdl-spark3/2.4.0b20230625-2.4.0b20230626/diff.md --exclude *.pyd
+[2023-06-26 13:49:06] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-26 13:49:06] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip --markdown 20230626/b/bigdl-chronos-spark3/2.4.0b20230625-2.4.0b20230626/diff.md --exclude *.pyd
+[2023-06-26 13:49:06] INFO root fetch - processPackages [timeout-executor]: executing diffoscope
+[2023-06-26 13:49:06] INFO root fetch - processPackages [timeout-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeout_executor-0.1.12.tar.gz tmp/timeout_executor-0.1.9.tar.gz --markdown 20230626/t/timeout-executor/0.1.12-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 13:49:06] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.8.tar.gz]
+[2023-06-26 13:49:06] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.9.tar.gz]
+[2023-06-26 13:49:06] INFO root fetch - processPackages [axaiogram]: Start processing: milspend
+[2023-06-26 13:49:06] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 13:49:06] INFO root fetch - processPackages [milspend]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 13:49:06] INFO root fetch - processPackages [pyweb-db]: Remove: archive file [/home/abi/fetcher/tmp/pyweb_db-1.0.5.tar.gz]
+[2023-06-26 13:49:06] INFO root fetch - processPackages [pyweb-db]: Remove: archive file [/home/abi/fetcher/tmp/pyweb_db-1.0.6.tar.gz]
+[2023-06-26 13:49:06] INFO root fetch - processPackages [pyweb-db]: Start processing: firefly-engine
+[2023-06-26 13:49:06] INFO root fetch - main [MainThread]: End processing [pyweb-db]: success
+[2023-06-26 13:49:06] WARNING root fetch - processPackages [firefly-engine]: Skipping, unable to determine old version
+[2023-06-26 13:49:06] INFO root fetch - processPackages [firefly-engine]: Start processing: nucliadb-contributor-assets
+[2023-06-26 13:49:06] INFO root fetch - main [MainThread]: End processing [firefly-engine] error
+[2023-06-26 13:49:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post868] Old Version: [1.0.0.post867]
+[2023-06-26 13:49:07] INFO root fetch - processPackages [milspend]: Downloading https://files.pythonhosted.org/packages/e7/5c/ec6e84c22766d84957c4345524f99c6b2e4afd1578cf37164a9f4a8c3772/milspend-0.0.3.tar.gz
+[2023-06-26 13:49:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/45/4e/d2ecde93d98c0ea539fa0c6e76505000a5374602efdcc173a2782206b3fd/nucliadb_contributor_assets-1.0.0.post868-py3-none-any.whl
+[2023-06-26 13:49:07] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-26 13:49:07] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-26 13:49:07] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-26 13:49:07] INFO root fetch - processPackages [milspend]: Downloading https://files.pythonhosted.org/packages/59/1c/217a577b5da3784ad6cd6a56fa509369856b34184555e3deac67a610f547/milspend-0.0.4.tar.gz
+[2023-06-26 13:49:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-26 13:49:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post867-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post868-py3-none-any.whl.zip --markdown 20230626/n/nucliadb-contributor-assets/1.0.0.post867-1.0.0.post868/diff.md --exclude *.pyd
+[2023-06-26 13:49:07] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-26 13:49:07] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-26 13:49:07] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-26 13:49:07] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-26 13:49:07] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-26 13:49:07] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-26 13:49:07] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.12.tar.gz]
+[2023-06-26 13:49:07] INFO root fetch - processPackages [timeout-executor]: Remove: archive file [/home/abi/fetcher/tmp/timeout_executor-0.1.9.tar.gz]
+[2023-06-26 13:49:07] INFO root fetch - main [MainThread]: End processing [timeout-executor]: success
+[2023-06-26 13:49:07] INFO root fetch - processPackages [milspend]: executing diffoscope
+[2023-06-26 13:49:07] INFO root fetch - processPackages [milspend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milspend-0.0.3.tar.gz tmp/milspend-0.0.4.tar.gz --markdown 20230626/m/milspend/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 13:49:07] INFO root fetch - processPackages [endi-celery]: Remove: archive file [/home/abi/fetcher/tmp/endi_celery-6.6.3.tar.gz]
+[2023-06-26 13:49:07] INFO root fetch - processPackages [endi-celery]: Remove: archive file [/home/abi/fetcher/tmp/endi_celery-6.6.4.tar.gz]
+[2023-06-26 13:49:07] INFO root fetch - main [MainThread]: End processing [endi-celery]: success
+[2023-06-26 13:49:07] INFO root fetch - processPackages [endi-base]: Remove: archive file [/home/abi/fetcher/tmp/endi_base-6.4.4.tar.gz]
+[2023-06-26 13:49:07] INFO root fetch - processPackages [endi-base]: Remove: archive file [/home/abi/fetcher/tmp/endi_base-6.6.0.tar.gz]
+[2023-06-26 13:49:07] INFO root fetch - main [MainThread]: End processing [endi-base]: success
+[2023-06-26 13:49:08] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230625-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-26 13:49:08] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230626-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-26 13:49:08] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-26 13:49:08] INFO root fetch - processPackages [milspend]: Remove: archive file [/home/abi/fetcher/tmp/milspend-0.0.3.tar.gz]
+[2023-06-26 13:49:08] INFO root fetch - processPackages [milspend]: Remove: archive file [/home/abi/fetcher/tmp/milspend-0.0.4.tar.gz]
+[2023-06-26 13:49:08] INFO root fetch - main [MainThread]: End processing [milspend]: success
+[2023-06-26 13:49:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post867-py3-none-any.whl.zip]
+[2023-06-26 13:49:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post868-py3-none-any.whl.zip]
+[2023-06-26 13:49:08] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-26 13:49:24] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post866-py3-none-any.whl.zip]
+[2023-06-26 13:49:24] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-26 13:49:24] INFO root fetch - main [MainThread]: Store serial: [18645984]
