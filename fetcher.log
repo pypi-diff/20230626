@@ -16929,3 +16929,198 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 14:27:24] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
 [2023-06-26 14:27:24] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2023-06-26 14:27:24] INFO root fetch - main [MainThread]: Store serial: [18646366]
+[2023-06-26 14:32:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18646366]
+[2023-06-26 14:32:42] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brayns
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fractal-tasks-core
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transformer-lite
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kstreams
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: garpix-utils
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandex-reviews-parser
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: peitho-data
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chainner-ext
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irene-pro
+[2023-06-26 14:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trailblazer
+[2023-06-26 14:32:42] INFO root fetch - processPackages [yandex-reviews-parser]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [peitho-data]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [transformer-lite]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [garpix-utils]: New version: [1.9.0rc1] Old Version: [1.8.0]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [brayns]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [fractal-tasks-core]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [kstreams]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [chainner-ext]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [irene-pro]: New version: [0.0.74] Old Version: [0.0.73]
+[2023-06-26 14:32:42] INFO root fetch - processPackages [yandex-reviews-parser]: Downloading https://files.pythonhosted.org/packages/41/3d/b52b3492220d737be7be8c5f5a193643e165738e5f54caa4ee838e8ed1cc/yandex_reviews_parser-0.1.0.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [brayns]: Downloading https://files.pythonhosted.org/packages/88/76/09d1f2401298e6e0b04913e83d5a938cbf982dfea5542fde93be69fd739b/brayns-3.2.0.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [garpix-utils]: Downloading https://files.pythonhosted.org/packages/da/26/96f6ea1a4f140fe9e3682743a383dd054fd5fde5ac159208e4d5b8c79222/garpix_utils-1.8.0.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/1f/21/a2139466046a755a82f8a62b1ae3df93999830ab5814a57c0095daf85305/peitho_data-2.3.7.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [transformer-lite]: Downloading https://files.pythonhosted.org/packages/8f/f1/85c6928165a044382c274db5f7a4e44b99292f851ddb0647a86ed0cb6785/transformer-lite-0.1.0.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/dc/7a/c7e9ed4dcf3416a2791d6cb84bb56a4b3e7e24febd429a3d95bca296551a/fractal_tasks_core-0.9.3.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/0e/01/78d66101cd457d6174cf6f4b59a9b536552053926d8674a39d073482b80c/irene_pro-0.0.73.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/9a/1d/ca3e2b8b740d2aa5987bc32e9793e218566beceff074a61554892e99e7b2/kstreams-0.9.0.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [chainner-ext]: Downloading https://files.pythonhosted.org/packages/88/13/e6d3cfbe3aac273861f835bfcea635eba50d8974db26a419e26d8d03dab1/chainner_ext-0.0.0.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [garpix-utils]: Downloading https://files.pythonhosted.org/packages/2c/57/39494a20da217969337a826096b8920bc1d8269152803ceed2077298df5c/garpix_utils-1.9.0rc1.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [yandex-reviews-parser]: Downloading https://files.pythonhosted.org/packages/37/f9/71469ad24a0384da3d5f693ead24c0f95e91b611bd112da36a5efa717855/yandex_reviews_parser-0.1.1.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/b7/d9/0b556d4ee7006a6c2f8d6e89d24d5bd88dea65730a992c5503f7991416e8/fractal_tasks_core-0.9.4.tar.gz
+[2023-06-26 14:32:42] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/41/9e/0b53403769b9a978da64933c5d6bf84e54ef6638bc94f4343f3ea1509dad/irene_pro-0.0.74.tar.gz
+[2023-06-26 14:32:43] INFO root fetch - processPackages [brayns]: Downloading https://files.pythonhosted.org/packages/e0/1d/676e97ce38e6b7faf59e827b1c25ed4e2bc9d36f45e8eca160ad3a739ead/brayns-3.2.1.tar.gz
+[2023-06-26 14:32:43] INFO root fetch - processPackages [transformer-lite]: Downloading https://files.pythonhosted.org/packages/5f/d7/4d90c4ac6eea3cb1b70d62936f64e30487b509c81cc3feeec5e9aa0bd830/transformer_lite-0.1.1-py3-none-any.whl
+[2023-06-26 14:32:43] INFO root fetch - processPackages [yandex-reviews-parser]: executing diffoscope
+[2023-06-26 14:32:43] INFO root fetch - processPackages [yandex-reviews-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex_reviews_parser-0.1.0.tar.gz tmp/yandex_reviews_parser-0.1.1.tar.gz --markdown 20230626/y/yandex-reviews-parser/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 14:32:43] INFO root fetch - processPackages [fractal-tasks-core]: executing diffoscope
+[2023-06-26 14:32:43] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/5d/98/16a113f6e96729c49330d6bee3332006b2d33941e97fb24a02f17bc2c7c8/peitho_data-2.3.8.tar.gz
+[2023-06-26 14:32:43] INFO root fetch - processPackages [fractal-tasks-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_tasks_core-0.9.3.tar.gz tmp/fractal_tasks_core-0.9.4.tar.gz --markdown 20230626/f/fractal-tasks-core/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 14:32:43] INFO root fetch - processPackages [garpix-utils]: executing diffoscope
+[2023-06-26 14:32:43] INFO root fetch - processPackages [garpix-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_utils-1.8.0.tar.gz tmp/garpix_utils-1.9.0rc1.tar.gz --markdown 20230626/g/garpix-utils/1.8.0-1.9.0rc1/diff.md --exclude *.pyd
+[2023-06-26 14:32:43] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-26 14:32:43] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/62/9f/51bb919a10a681dae9c3fa7686fbdb1d017488a680b89797d87c871743e4/kstreams-0.9.1.tar.gz
+[2023-06-26 14:32:43] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.73.tar.gz tmp/irene_pro-0.0.74.tar.gz --markdown 20230626/i/irene-pro/0.0.73-0.0.74/diff.md --exclude *.pyd
+[2023-06-26 14:32:43] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-06-26 14:32:43] INFO root fetch - processPackages [transformer-lite]: executing diffoscope
+[2023-06-26 14:32:43] INFO root fetch - processPackages [transformer-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer-lite-0.1.0.tar.gz tmp/transformer_lite-0.1.1-py3-none-any.whl.zip --markdown 20230626/t/transformer-lite/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 14:32:43] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-06-26 14:32:43] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.3.7.tar.gz tmp/peitho_data-2.3.8.tar.gz --markdown 20230626/p/peitho-data/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-06-26 14:32:43] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-06-26 14:32:43] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230626/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-06-26 14:32:43] INFO root fetch - processPackages [brayns]: executing diffoscope
+[2023-06-26 14:32:43] INFO root fetch - processPackages [brayns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brayns-3.2.0.tar.gz tmp/brayns-3.2.1.tar.gz --markdown 20230626/b/brayns/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-06-26 14:32:43] INFO root fetch - processPackages [kstreams]: executing diffoscope
+[2023-06-26 14:32:43] INFO root fetch - processPackages [kstreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kstreams-0.9.0.tar.gz tmp/kstreams-0.9.1.tar.gz --markdown 20230626/k/kstreams/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 14:32:44] INFO root fetch - processPackages [chainner-ext]: Downloading https://files.pythonhosted.org/packages/41/e8/0bf12420627bc0088e20e50be6327c8d5e2b2b3dbf237a56b4d6d7fb0416/chainner_ext-0.1.0.tar.gz
+[2023-06-26 14:32:44] INFO root fetch - processPackages [chainner-ext]: executing diffoscope
+[2023-06-26 14:32:44] INFO root fetch - processPackages [chainner-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainner_ext-0.0.0.tar.gz tmp/chainner_ext-0.1.0.tar.gz --markdown 20230626/c/chainner-ext/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-26 14:32:44] INFO root fetch - processPackages [transformer-lite]: Remove: archive file [/home/abi/fetcher/tmp/transformer-lite-0.1.0.tar.gz]
+[2023-06-26 14:32:44] INFO root fetch - processPackages [transformer-lite]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lite-0.1.1-py3-none-any.whl.zip]
+[2023-06-26 14:32:44] INFO root fetch - processPackages [transformer-lite]: Start processing: braincube-aws-core
+[2023-06-26 14:32:44] INFO root fetch - main [MainThread]: End processing [transformer-lite]: success
+[2023-06-26 14:32:44] INFO root fetch - processPackages [yandex-reviews-parser]: Remove: archive file [/home/abi/fetcher/tmp/yandex_reviews_parser-0.1.0.tar.gz]
+[2023-06-26 14:32:44] INFO root fetch - processPackages [yandex-reviews-parser]: Remove: archive file [/home/abi/fetcher/tmp/yandex_reviews_parser-0.1.1.tar.gz]
+[2023-06-26 14:32:44] INFO root fetch - processPackages [yandex-reviews-parser]: Start processing: odoo-addon-partner-bank-acc-type-constraint
+[2023-06-26 14:32:44] INFO root fetch - main [MainThread]: End processing [yandex-reviews-parser]: success
+[2023-06-26 14:32:44] INFO root fetch - processPackages [braincube-aws-core]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 14:32:44] WARNING root fetch - processPackages [odoo-addon-partner-bank-acc-type-constraint]: Skipping, unable to determine old version
+[2023-06-26 14:32:44] INFO root fetch - processPackages [odoo-addon-partner-bank-acc-type-constraint]: Start processing: garpixcms
+[2023-06-26 14:32:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-bank-acc-type-constraint] error
+[2023-06-26 14:32:44] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-06-26 14:32:44] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-06-26 14:32:44] INFO root fetch - processPackages [trailblazer]: Start processing: drama-wrapper
+[2023-06-26 14:32:44] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-06-26 14:32:44] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/88/12/34a61686bf0445d80c1fe33b19379587eda523fc767f83f9ec7fe87af063/braincube-aws-core-0.0.6.tar.gz
+[2023-06-26 14:32:44] INFO root fetch - processPackages [garpixcms]: New version: [4.5.0rc1] Old Version: [4.4.1]
+[2023-06-26 14:32:44] INFO root fetch - processPackages [garpix-utils]: Remove: archive file [/home/abi/fetcher/tmp/garpix_utils-1.8.0.tar.gz]
+[2023-06-26 14:32:44] INFO root fetch - processPackages [garpix-utils]: Remove: archive file [/home/abi/fetcher/tmp/garpix_utils-1.9.0rc1.tar.gz]
+[2023-06-26 14:32:44] INFO root fetch - processPackages [garpix-utils]: Start processing: confidence
+[2023-06-26 14:32:44] INFO root fetch - main [MainThread]: End processing [garpix-utils]: success
+[2023-06-26 14:32:45] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/55/3e/9cbf953368d45bed849e470b40a102e15f89d81c6c73cce7a58c28e9e826/garpixcms-4.4.1.tar.gz
+[2023-06-26 14:32:45] WARNING root fetch - processPackages [drama-wrapper]: Skipping, unable to determine old version
+[2023-06-26 14:32:45] INFO root fetch - processPackages [drama-wrapper]: Start processing: pydatawork
+[2023-06-26 14:32:45] INFO root fetch - main [MainThread]: End processing [drama-wrapper] error
+[2023-06-26 14:32:45] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [confidence]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.73.tar.gz]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.74.tar.gz]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [irene-pro]: Start processing: gpt4-openai-api
+[2023-06-26 14:32:45] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-26 14:32:45] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/b5/f5/74760a9cb28dd81745ba7a63d448d0de2b9be67f85851d1a8b0e1ae2f4a6/braincube-aws-core-0.0.7.tar.gz
+[2023-06-26 14:32:45] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-26 14:32:45] INFO root fetch - processPackages [garpixcms]: Downloading https://files.pythonhosted.org/packages/ef/a5/0c9346a07c498d8b4aa860d3691dc9ef9ef91df8ba49f0225dda69690ab9/garpixcms-4.5.0rc1.tar.gz
+[2023-06-26 14:32:45] INFO root fetch - processPackages [braincube-aws-core]: executing diffoscope
+[2023-06-26 14:32:45] INFO root fetch - processPackages [braincube-aws-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-0.0.6.tar.gz tmp/braincube-aws-core-0.0.7.tar.gz --markdown 20230626/b/braincube-aws-core/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 14:32:45] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-26 14:32:45] INFO root fetch - processPackages [gpt4-openai-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.0.tar.gz]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.1.tar.gz]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [kstreams]: Start processing: pyegt
+[2023-06-26 14:32:45] INFO root fetch - main [MainThread]: End processing [kstreams]: success
+[2023-06-26 14:32:45] INFO root fetch - processPackages [confidence]: Downloading https://files.pythonhosted.org/packages/60/11/7bee717caa4392905954ef8da2fe55d000232c6ba3f1b6f4c9439504b6fe/confidence-0.8-py3-none-any.whl
+[2023-06-26 14:32:45] WARNING root fetch - processPackages [pyegt]: Skipping, unable to determine old version
+[2023-06-26 14:32:45] INFO root fetch - processPackages [pyegt]: Start processing: processingtools
+[2023-06-26 14:32:45] INFO root fetch - main [MainThread]: End processing [pyegt] error
+[2023-06-26 14:32:45] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-26 14:32:45] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230626/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 14:32:45] INFO root fetch - processPackages [garpixcms]: executing diffoscope
+[2023-06-26 14:32:45] INFO root fetch - processPackages [garpixcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpixcms-4.4.1.tar.gz tmp/garpixcms-4.5.0rc1.tar.gz --markdown 20230626/g/garpixcms/4.4.1-4.5.0rc1/diff.md --exclude *.pyd
+[2023-06-26 14:32:45] INFO root fetch - processPackages [processingtools]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [gpt4-openai-api]: Downloading https://files.pythonhosted.org/packages/a2/82/c67be6904253f58b259e3b137890a5797c2f78772cac27b46d4ff5876911/gpt4-openai-api-0.6.0.tar.gz
+[2023-06-26 14:32:45] INFO root fetch - processPackages [processingtools]: Downloading https://files.pythonhosted.org/packages/89/fa/bd8e660d18bad8e5e7d00231883f33197213da3275aba210e815fa885a69/processingtools-0.3.0.tar.gz
+[2023-06-26 14:32:45] INFO root fetch - processPackages [confidence]: Downloading https://files.pythonhosted.org/packages/57/3b/f938dbb73336877115c723111d00782ce4690d043267d1031c725549f4b7/confidence-0.9-py3-none-any.whl
+[2023-06-26 14:32:45] INFO root fetch - processPackages [gpt4-openai-api]: Downloading https://files.pythonhosted.org/packages/4f/0d/ae955a1702b98a35a0cec895778e3496ae1fc2a48edf0acf48c12bf4a3d3/gpt4-openai-api-0.7.0.tar.gz
+[2023-06-26 14:32:45] INFO root fetch - processPackages [confidence]: executing diffoscope
+[2023-06-26 14:32:45] INFO root fetch - processPackages [confidence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confidence-0.8-py3-none-any.whl.zip tmp/confidence-0.9-py3-none-any.whl.zip --markdown 20230626/c/confidence/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 14:32:45] INFO root fetch - processPackages [processingtools]: Downloading https://files.pythonhosted.org/packages/db/6c/f2de6fb24fa1b1c61026ed56fa425264f52f6671f23979c2357bd6b54d7b/processingtools-0.3.1.tar.gz
+[2023-06-26 14:32:45] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.7.tar.gz]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.8.tar.gz]
+[2023-06-26 14:32:45] INFO root fetch - processPackages [peitho-data]: Start processing: pillar1
+[2023-06-26 14:32:45] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-06-26 14:32:45] INFO root fetch - processPackages [pillar1]: New version: [0.1.8.48] Old Version: [0.1.8.47]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.3.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.4.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [fractal-tasks-core]: Start processing: invenio-app
+[2023-06-26 14:32:46] INFO root fetch - main [MainThread]: End processing [fractal-tasks-core]: success
+[2023-06-26 14:32:46] INFO root fetch - processPackages [gpt4-openai-api]: executing diffoscope
+[2023-06-26 14:32:46] INFO root fetch - processPackages [gpt4-openai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-openai-api-0.6.0.tar.gz tmp/gpt4-openai-api-0.7.0.tar.gz --markdown 20230626/g/gpt4-openai-api/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-26 14:32:46] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/5b/3d/00475e0b03098ec8d68cb59416f9ac7f7b77aa612f6e018481e9a1aeaa41/pillar1-0.1.8.47.tar.gz
+[2023-06-26 14:32:46] INFO root fetch - processPackages [processingtools]: executing diffoscope
+[2023-06-26 14:32:46] INFO root fetch - processPackages [processingtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processingtools-0.3.0.tar.gz tmp/processingtools-0.3.1.tar.gz --markdown 20230626/p/processingtools/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 14:32:46] INFO root fetch - processPackages [invenio-app]: New version: [1.4.0] Old Version: [1.3.4]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/4b/41/f80a5f330696ab102878668312954b47276b8bf13b3f95c2bbf577a1c1ed/pillar1-0.1.8.48.tar.gz
+[2023-06-26 14:32:46] INFO root fetch - processPackages [chainner-ext]: Remove: archive file [/home/abi/fetcher/tmp/chainner_ext-0.0.0.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [chainner-ext]: Remove: archive file [/home/abi/fetcher/tmp/chainner_ext-0.1.0.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-26 14:32:46] INFO root fetch - processPackages [chainner-ext]: Start processing: taskproc
+[2023-06-26 14:32:46] INFO root fetch - main [MainThread]: End processing [chainner-ext]: success
+[2023-06-26 14:32:46] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.8.47.tar.gz tmp/pillar1-0.1.8.48.tar.gz --markdown 20230626/p/pillar1/0.1.8.47-0.1.8.48/diff.md --exclude *.pyd
+[2023-06-26 14:32:46] INFO root fetch - processPackages [invenio-app]: Downloading https://files.pythonhosted.org/packages/38/b3/6f3cb735c38e291ad8a2da027a16f1987dfeb7e01763914e59d9fb875cfc/invenio-app-1.3.4.tar.gz
+[2023-06-26 14:32:46] INFO root fetch - processPackages [taskproc]: New version: [0.13.0] Old Version: [0.11.2]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [taskproc]: Downloading https://files.pythonhosted.org/packages/d3/53/70cabb26b89587a26fa93e8db00319afe449ae1ec471fe4567c0c3042710/taskproc-0.11.2.tar.gz
+[2023-06-26 14:32:46] INFO root fetch - processPackages [brayns]: Remove: archive file [/home/abi/fetcher/tmp/brayns-3.2.0.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [brayns]: Remove: archive file [/home/abi/fetcher/tmp/brayns-3.2.1.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [brayns]: Start processing: waivek
+[2023-06-26 14:32:46] INFO root fetch - main [MainThread]: End processing [brayns]: success
+[2023-06-26 14:32:46] WARNING root fetch - processPackages [waivek]: Skipping, unable to determine old version
+[2023-06-26 14:32:46] INFO root fetch - processPackages [waivek]: Start processing: mindee
+[2023-06-26 14:32:46] INFO root fetch - main [MainThread]: End processing [waivek] error
+[2023-06-26 14:32:46] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-26 14:32:46] INFO root fetch - processPackages [invenio-app]: Downloading https://files.pythonhosted.org/packages/86/7c/5291c73f5106a2e37fb1287bf376ad00ed38b5bf18c569456a627b3060ff/invenio-app-1.4.0.tar.gz
+[2023-06-26 14:32:46] INFO root fetch - processPackages [mindee]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [invenio-app]: executing diffoscope
+[2023-06-26 14:32:46] INFO root fetch - processPackages [invenio-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-1.3.4.tar.gz tmp/invenio-app-1.4.0.tar.gz --markdown 20230626/i/invenio-app/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2023-06-26 14:32:46] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.6.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.7.tar.gz]
+[2023-06-26 14:32:46] INFO root fetch - main [MainThread]: End processing [braincube-aws-core]: success
+[2023-06-26 14:32:46] INFO root fetch - processPackages [taskproc]: Downloading https://files.pythonhosted.org/packages/ba/99/5cc499d13853798c909472293fc208ad9f108bfcc40d8a88495c4f43f20a/taskproc-0.13.0.tar.gz
+[2023-06-26 14:32:47] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/fb/47/076525e5339f7e8ae1cbc55583a72c25d0d042fa9550b5226d9eacf947fd/mindee-3.9.0.tar.gz
+[2023-06-26 14:32:47] INFO root fetch - processPackages [taskproc]: executing diffoscope
+[2023-06-26 14:32:47] INFO root fetch - processPackages [taskproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskproc-0.11.2.tar.gz tmp/taskproc-0.13.0.tar.gz --markdown 20230626/t/taskproc/0.11.2-0.13.0/diff.md --exclude *.pyd
+[2023-06-26 14:32:47] INFO root fetch - processPackages [confidence]: Remove: archive file [/home/abi/fetcher/tmp/confidence-0.8-py3-none-any.whl.zip]
+[2023-06-26 14:32:47] INFO root fetch - processPackages [confidence]: Remove: archive file [/home/abi/fetcher/tmp/confidence-0.9-py3-none-any.whl.zip]
+[2023-06-26 14:32:47] INFO root fetch - main [MainThread]: End processing [confidence]: success
+[2023-06-26 14:32:47] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/16/39/dbf4ecb7081cd824cba66085fb52ecdaf94fe9586978437a5848d650d45e/mindee-3.9.1.tar.gz
+[2023-06-26 14:32:47] INFO root fetch - processPackages [gpt4-openai-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-openai-api-0.6.0.tar.gz]
+[2023-06-26 14:32:47] INFO root fetch - processPackages [gpt4-openai-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-openai-api-0.7.0.tar.gz]
+[2023-06-26 14:32:47] INFO root fetch - main [MainThread]: End processing [gpt4-openai-api]: success
+[2023-06-26 14:32:47] INFO root fetch - processPackages [mindee]: executing diffoscope
+[2023-06-26 14:32:47] INFO root fetch - processPackages [mindee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindee-3.9.0.tar.gz tmp/mindee-3.9.1.tar.gz --markdown 20230626/m/mindee/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-26 14:32:47] INFO root fetch - processPackages [processingtools]: Remove: archive file [/home/abi/fetcher/tmp/processingtools-0.3.0.tar.gz]
+[2023-06-26 14:32:47] INFO root fetch - processPackages [processingtools]: Remove: archive file [/home/abi/fetcher/tmp/processingtools-0.3.1.tar.gz]
+[2023-06-26 14:32:47] INFO root fetch - main [MainThread]: End processing [processingtools]: success
+[2023-06-26 14:32:47] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.47.tar.gz]
+[2023-06-26 14:32:47] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.8.48.tar.gz]
+[2023-06-26 14:32:47] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-26 14:32:48] INFO root fetch - processPackages [invenio-app]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-1.3.4.tar.gz]
+[2023-06-26 14:32:48] INFO root fetch - processPackages [invenio-app]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-1.4.0.tar.gz]
+[2023-06-26 14:32:48] INFO root fetch - main [MainThread]: End processing [invenio-app]: success
+[2023-06-26 14:32:48] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.4.1.tar.gz]
+[2023-06-26 14:32:48] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.5.0rc1.tar.gz]
+[2023-06-26 14:32:48] INFO root fetch - main [MainThread]: End processing [garpixcms]: success
+[2023-06-26 14:32:48] INFO root fetch - processPackages [taskproc]: Remove: archive file [/home/abi/fetcher/tmp/taskproc-0.11.2.tar.gz]
+[2023-06-26 14:32:48] INFO root fetch - processPackages [taskproc]: Remove: archive file [/home/abi/fetcher/tmp/taskproc-0.13.0.tar.gz]
+[2023-06-26 14:32:48] INFO root fetch - main [MainThread]: End processing [taskproc]: success
+[2023-06-26 14:32:49] INFO root fetch - processPackages [mindee]: Remove: archive file [/home/abi/fetcher/tmp/mindee-3.9.0.tar.gz]
+[2023-06-26 14:32:49] INFO root fetch - processPackages [mindee]: Remove: archive file [/home/abi/fetcher/tmp/mindee-3.9.1.tar.gz]
+[2023-06-26 14:32:49] INFO root fetch - main [MainThread]: End processing [mindee]: success
+[2023-06-26 14:32:49] INFO root fetch - main [MainThread]: Store serial: [18646486]
