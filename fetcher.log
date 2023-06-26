@@ -7460,3 +7460,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 06:52:04] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.4.tar.gz]
 [2023-06-26 06:52:04] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
 [2023-06-26 06:52:04] INFO root fetch - main [MainThread]: Store serial: [18642183]
+[2023-06-26 06:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642183]
+[2023-06-26 06:57:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 06:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trtpg
+[2023-06-26 06:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deck-chores
+[2023-06-26 06:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ilsadvbisnvavojebaij
+[2023-06-26 06:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addons-oca-sale-promotion
+[2023-06-26 06:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trtpg
+[2023-06-26 06:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-bili-push
+[2023-06-26 06:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trtpg
+[2023-06-26 06:57:14] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: New version: [0.1.1] Old Version: [0.0.5]
+[2023-06-26 06:57:14] INFO root fetch - processPackages [deck-chores]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-26 06:57:14] INFO root fetch - processPackages [trtpg]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-26 06:57:14] INFO root fetch - processPackages [trtpg]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-26 06:57:14] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 06:57:14] INFO root fetch - processPackages [trtpg]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-26 06:57:14] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: New version: [13.0.20230625.0] Old Version: [13.0.20230523.0]
+[2023-06-26 06:57:14] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/ee/39/a08deb1abce6773cb2afa26ba4b4aef2a451c2c421b1e3b559a7e997c1e3/ilsadvbisnvavojebaij-0.0.5.tar.gz
+[2023-06-26 06:57:14] INFO root fetch - processPackages [deck-chores]: Downloading https://files.pythonhosted.org/packages/e1/12/f4ce245c73d31fc180f7d1bea1d03eda0319e43da3b393165d5daa4773bf/deck_chores-1.3.8.tar.gz
+[2023-06-26 06:57:14] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/b1/b9/ff5f29576479dfea29e8e9dae465294c55a0c89b49b57d7e105f67eeb94d/trtpg-1.0.5-py3-none-any.whl
+[2023-06-26 06:57:14] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/63/a6/4fb57d8a5dc1a418a6e39474bb925bba3c1adaba23afb94eebd9830de6ff/odoo13_addons_oca_sale_promotion-13.0.20230523.0-py3-none-any.whl
+[2023-06-26 06:57:14] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-06-26 06:57:14] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/b1/b9/ff5f29576479dfea29e8e9dae465294c55a0c89b49b57d7e105f67eeb94d/trtpg-1.0.5-py3-none-any.whl
+[2023-06-26 06:57:14] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/b1/b9/ff5f29576479dfea29e8e9dae465294c55a0c89b49b57d7e105f67eeb94d/trtpg-1.0.5-py3-none-any.whl
+[2023-06-26 06:57:15] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/5f/d8/b2aead5fe934ff2e16c9321f31bfaa16a5ccce0bdbbfc70e97d52ea67a08/ilsadvbisnvavojebaij-0.1.1.tar.gz
+[2023-06-26 06:57:15] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-06-26 06:57:15] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: executing diffoscope
+[2023-06-26 06:57:15] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilsadvbisnvavojebaij-0.0.5.tar.gz tmp/ilsadvbisnvavojebaij-0.1.1.tar.gz --markdown 20230626/i/ilsadvbisnvavojebaij/0.0.5-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 06:57:15] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: Downloading https://files.pythonhosted.org/packages/01/b5/b9b34f96fd2c17579a5214a4545c77066f02f7d535159646d53cc9daecbd/odoo13_addons_oca_sale_promotion-13.0.20230625.0-py3-none-any.whl
+[2023-06-26 06:57:15] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-26 06:57:15] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230626/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 06:57:15] INFO root fetch - processPackages [deck-chores]: Downloading https://files.pythonhosted.org/packages/51/b4/be03fe30b01157180ad8b62b702fc38054b0ff3895d6b21471961819d24e/deck_chores-1.3.9.tar.gz
+[2023-06-26 06:57:15] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/d7/ec/28f3dac919e57ab070c41f8d241cd7215860dfcabdd2bac9f36c7afb0009/trtpg-1.0.6-py3-none-any.whl
+[2023-06-26 06:57:15] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/d7/ec/28f3dac919e57ab070c41f8d241cd7215860dfcabdd2bac9f36c7afb0009/trtpg-1.0.6-py3-none-any.whl
+[2023-06-26 06:57:15] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: executing diffoscope
+[2023-06-26 06:57:15] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_sale_promotion-13.0.20230523.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_sale_promotion-13.0.20230625.0-py3-none-any.whl.zip --markdown 20230626/o/odoo13-addons-oca-sale-promotion/13.0.20230523.0-13.0.20230625.0/diff.md --exclude *.pyd
+[2023-06-26 06:57:15] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/d7/ec/28f3dac919e57ab070c41f8d241cd7215860dfcabdd2bac9f36c7afb0009/trtpg-1.0.6-py3-none-any.whl
+[2023-06-26 06:57:15] INFO root fetch - processPackages [deck-chores]: executing diffoscope
+[2023-06-26 06:57:15] INFO root fetch - processPackages [deck-chores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deck_chores-1.3.8.tar.gz tmp/deck_chores-1.3.9.tar.gz --markdown 20230626/d/deck-chores/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-26 06:57:15] INFO root fetch - processPackages [trtpg]: executing diffoscope
+[2023-06-26 06:57:15] INFO root fetch - processPackages [trtpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trtpg-1.0.5-py3-none-any.whl.zip tmp/trtpg-1.0.6-py3-none-any.whl.zip --markdown 20230626/t/trtpg/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-26 06:57:15] INFO root fetch - processPackages [trtpg]: executing diffoscope
+[2023-06-26 06:57:15] INFO root fetch - processPackages [trtpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trtpg-1.0.5-py3-none-any.whl.zip tmp/trtpg-1.0.6-py3-none-any.whl.zip --markdown 20230626/t/trtpg/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-26 06:57:15] INFO root fetch - processPackages [trtpg]: executing diffoscope
+[2023-06-26 06:57:15] INFO root fetch - processPackages [trtpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trtpg-1.0.5-py3-none-any.whl.zip tmp/trtpg-1.0.6-py3-none-any.whl.zip --markdown 20230626/t/trtpg/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-26 06:57:16] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.0.5.tar.gz]
+[2023-06-26 06:57:16] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.1.1.tar.gz]
+[2023-06-26 06:57:16] INFO root fetch - main [MainThread]: End processing [ilsadvbisnvavojebaij]: success
+[2023-06-26 06:57:16] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-06-26 06:57:16] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-06-26 06:57:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-26 06:57:16] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_sale_promotion-13.0.20230523.0-py3-none-any.whl.zip]
+[2023-06-26 06:57:16] INFO root fetch - processPackages [odoo13-addons-oca-sale-promotion]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_sale_promotion-13.0.20230625.0-py3-none-any.whl.zip]
+[2023-06-26 06:57:16] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-sale-promotion]: success
+[2023-06-26 06:57:17] INFO root fetch - processPackages [deck-chores]: Remove: archive file [/home/abi/fetcher/tmp/deck_chores-1.3.8.tar.gz]
+[2023-06-26 06:57:17] INFO root fetch - processPackages [deck-chores]: Remove: archive file [/home/abi/fetcher/tmp/deck_chores-1.3.9.tar.gz]
+[2023-06-26 06:57:17] INFO root fetch - main [MainThread]: End processing [deck-chores]: success
+[2023-06-26 06:57:17] INFO root fetch - processPackages [trtpg]: Remove: archive file [/home/abi/fetcher/tmp/trtpg-1.0.5-py3-none-any.whl.zip]
+[2023-06-26 06:57:17] INFO root fetch - processPackages [trtpg]: Remove: archive file [/home/abi/fetcher/tmp/trtpg-1.0.6-py3-none-any.whl.zip]
+[2023-06-26 06:57:17] INFO root fetch - main [MainThread]: End processing [trtpg]: success
+[2023-06-26 06:57:17] INFO root fetch - main [MainThread]: End processing [trtpg]: success
+[2023-06-26 06:57:17] INFO root fetch - main [MainThread]: End processing [trtpg]: success
+[2023-06-26 06:57:17] INFO root fetch - main [MainThread]: Store serial: [18642200]
