@@ -8640,3 +8640,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:11:05] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230625.tar.gz]
 [2023-06-26 08:11:05] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-26 08:11:05] INFO root fetch - main [MainThread]: Store serial: [18642741]
+[2023-06-26 08:16:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642741]
+[2023-06-26 08:16:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqpanda
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-starter
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Mosek
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seveno-pyutil
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transcriptorthology
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acore-soap-app
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsonrequest
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fortilib
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-user
+[2023-06-26 08:16:21] INFO root fetch - processPackages [acore-soap-app]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-06-26 08:16:21] INFO root fetch - processPackages [pyqpanda]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-06-26 08:16:21] INFO root fetch - processPackages [fortilib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 08:16:21] WARNING root fetch - processPackages [xia-user]: Skipping, unable to determine old version
+[2023-06-26 08:16:21] INFO root fetch - main [MainThread]: End processing [xia-user] error
+[2023-06-26 08:16:21] INFO root fetch - processPackages [transcriptorthology]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-26 08:16:21] INFO root fetch - processPackages [jsonrequest]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ml-starter]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-26 08:16:21] INFO root fetch - processPackages [seveno-pyutil]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-26 08:16:21] INFO root fetch - processPackages [Mosek]: New version: [9.3.9] Old Version: [9.3.8]
+[2023-06-26 08:16:21] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/0f/ad/4287f4e46a09bcf8ad04b93ef06db9059821f7966a644adc910116c13b9a/transcriptorthology-2.0.3.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [acore-soap-app]: Downloading https://files.pythonhosted.org/packages/a6/b0/ccf726e0382c8feeb5922140bf106a708d11038c0fe46585234b273cdcf2/acore_soap_app-0.2.1.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [fortilib]: Downloading https://files.pythonhosted.org/packages/56/be/9b2906208319bda02bdaa7eb94620e00f112dcb23ee40a0d087cf62daf12/fortilib-0.1.7.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/1b/ca/609323a36da463954419ac8c5c91a658bfe3dc87ec618f7bce547e06db4f/ml-starter-0.1.5.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/3f/19/3ac5294fba47d2a619e17acea24c43d059330b73bb3a6c249611f1c3e1b6/jsonrequest-0.1.0.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [pyqpanda]: Downloading https://files.pythonhosted.org/packages/50/f9/66201796204e427fbf33fe21b46d12e78657f02be4cc7780f926e423da57/pyqpanda-3.7.8-cp39-none-win_amd64.whl
+[2023-06-26 08:16:21] INFO root fetch - processPackages [seveno-pyutil]: Downloading https://files.pythonhosted.org/packages/99/7f/88878dff1dd87865a084aff1e44dd9a3f314eaf72923874c1a75b65c50ff/seveno-pyutil-0.8.2.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [fortilib]: Downloading https://files.pythonhosted.org/packages/d0/2e/5c7862dddf77395acb650b61f02deb6dca54b6cedf293ea90869d270af80/fortilib-0.1.8.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [acore-soap-app]: Downloading https://files.pythonhosted.org/packages/3e/e9/41a3888074b23fe10f1bb1528c1161a461c003b7c68320d561524ecc8734/acore_soap_app-0.3.1.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/e0/35/3c5193a163d74848a57b5f0046d0d45e3e1db47f3a4c7d71003f7d7c35ea/transcriptorthology-2.0.4.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/4c/32/630b9e420bad8d8d1d1ac6ec6b3e5097f8b1b4783e16b3991153044fad86/Mosek-9.3.8-cp39-cp39-win_amd64.whl
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/b8/46/39746bc1a30bf8f191f2a6464a8bf447abdce6c21b62c584b34f553c43e7/ml-starter-0.1.6.tar.gz
+[2023-06-26 08:16:21] WARNING root fetch - processPackages [pyqpanda]: Skipping package: exceeds size limit 12551929>=10485760
+[2023-06-26 08:16:21] INFO root fetch - main [MainThread]: End processing [pyqpanda] error
+[2023-06-26 08:16:21] INFO root fetch - processPackages [acore-soap-app]: executing diffoscope
+[2023-06-26 08:16:21] INFO root fetch - processPackages [acore-soap-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_soap_app-0.2.1.tar.gz tmp/acore_soap_app-0.3.1.tar.gz --markdown 20230626/a/acore-soap-app/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 08:16:21] INFO root fetch - processPackages [transcriptorthology]: executing diffoscope
+[2023-06-26 08:16:21] INFO root fetch - processPackages [transcriptorthology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcriptorthology-2.0.3.tar.gz tmp/transcriptorthology-2.0.4.tar.gz --markdown 20230626/t/transcriptorthology/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-26 08:16:21] INFO root fetch - processPackages [fortilib]: executing diffoscope
+[2023-06-26 08:16:21] INFO root fetch - processPackages [fortilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortilib-0.1.7.tar.gz tmp/fortilib-0.1.8.tar.gz --markdown 20230626/f/fortilib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-26 08:16:21] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.5.tar.gz tmp/ml-starter-0.1.6.tar.gz --markdown 20230626/m/ml-starter/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-26 08:16:21] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/c6/93/e6c97ab6726ae8bfe54c6083cc48b765075c3db2825f27d35af08e4a861e/jsonrequest-0.1.1.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [jsonrequest]: executing diffoscope
+[2023-06-26 08:16:21] INFO root fetch - processPackages [jsonrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrequest-0.1.0.tar.gz tmp/jsonrequest-0.1.1.tar.gz --markdown 20230626/j/jsonrequest/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 08:16:21] INFO root fetch - processPackages [seveno-pyutil]: Downloading https://files.pythonhosted.org/packages/ca/ed/60f991789b02ca4099dc94c03681523362c208fe7bd7309a56dc87314b63/seveno-pyutil-0.8.3.tar.gz
+[2023-06-26 08:16:21] INFO root fetch - processPackages [seveno-pyutil]: executing diffoscope
+[2023-06-26 08:16:21] INFO root fetch - processPackages [seveno-pyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seveno-pyutil-0.8.2.tar.gz tmp/seveno-pyutil-0.8.3.tar.gz --markdown 20230626/s/seveno-pyutil/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-26 08:16:23] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-2.0.3.tar.gz]
+[2023-06-26 08:16:23] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-2.0.4.tar.gz]
+[2023-06-26 08:16:23] INFO root fetch - main [MainThread]: End processing [transcriptorthology]: success
+[2023-06-26 08:16:23] INFO root fetch - processPackages [fortilib]: Remove: archive file [/home/abi/fetcher/tmp/fortilib-0.1.7.tar.gz]
+[2023-06-26 08:16:23] INFO root fetch - processPackages [fortilib]: Remove: archive file [/home/abi/fetcher/tmp/fortilib-0.1.8.tar.gz]
+[2023-06-26 08:16:23] INFO root fetch - main [MainThread]: End processing [fortilib]: success
+[2023-06-26 08:16:23] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.0.tar.gz]
+[2023-06-26 08:16:23] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.1.tar.gz]
+[2023-06-26 08:16:23] INFO root fetch - main [MainThread]: End processing [jsonrequest]: success
+[2023-06-26 08:16:23] INFO root fetch - processPackages [acore-soap-app]: Remove: archive file [/home/abi/fetcher/tmp/acore_soap_app-0.2.1.tar.gz]
+[2023-06-26 08:16:23] INFO root fetch - processPackages [acore-soap-app]: Remove: archive file [/home/abi/fetcher/tmp/acore_soap_app-0.3.1.tar.gz]
+[2023-06-26 08:16:23] INFO root fetch - main [MainThread]: End processing [acore-soap-app]: success
+[2023-06-26 08:16:24] INFO root fetch - processPackages [seveno-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/seveno-pyutil-0.8.2.tar.gz]
+[2023-06-26 08:16:24] INFO root fetch - processPackages [seveno-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/seveno-pyutil-0.8.3.tar.gz]
+[2023-06-26 08:16:24] INFO root fetch - main [MainThread]: End processing [seveno-pyutil]: success
+[2023-06-26 08:16:24] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.5.tar.gz]
+[2023-06-26 08:16:24] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.6.tar.gz]
+[2023-06-26 08:16:24] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-26 08:16:24] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/f5/78/ea902908d2878b83f8e37f551e0f59478b1840a9f5f031e123c393c88b0e/Mosek-9.3.9-cp39-cp39-win_amd64.whl
+[2023-06-26 08:16:27] INFO root fetch - processPackages [Mosek]: executing diffoscope
+[2023-06-26 08:16:27] INFO root fetch - processPackages [Mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip --markdown 20230626/M/Mosek/9.3.8-9.3.9/diff.md --exclude *.pyd
+[2023-06-26 08:17:14] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 08:17:14] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 08:17:14] INFO root fetch - main [MainThread]: End processing [Mosek]: success
+[2023-06-26 08:17:14] INFO root fetch - main [MainThread]: Store serial: [18642789]
