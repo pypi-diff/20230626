@@ -5397,3 +5397,71 @@
 [2023-06-26 04:12:36] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-06-26 04:12:36] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-06-26 04:12:36] INFO root fetch - main [MainThread]: Store serial: [18641395]
+[2023-06-26 04:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641395]
+[2023-06-26 04:17:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-26 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-sql-profiler
+[2023-06-26 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mareep
+[2023-06-26 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyautd3
+[2023-06-26 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: env-canada
+[2023-06-26 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-setu-now
+[2023-06-26 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hdx-python-utilities
+[2023-06-26 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypomes
+[2023-06-26 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: UTDF2GMNS
+[2023-06-26 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycaret
+[2023-06-26 04:17:45] WARNING root fetch - processPackages [fastapi-sql-profiler]: Skipping, unable to determine old version
+[2023-06-26 04:17:45] INFO root fetch - main [MainThread]: End processing [fastapi-sql-profiler] error
+[2023-06-26 04:17:45] INFO root fetch - processPackages [env-canada]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-26 04:17:45] INFO root fetch - processPackages [mareep]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 04:17:45] INFO root fetch - processPackages [nonebot-plugin-setu-now]: New version: [0.6.0b1] Old Version: [0.6.0]
+[2023-06-26 04:17:45] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-26 04:17:45] INFO root fetch - processPackages [pypomes]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 04:17:45] INFO root fetch - processPackages [pycaret]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-26 04:17:45] WARNING root fetch - processPackages [UTDF2GMNS]: Skipping, unable to determine old version
+[2023-06-26 04:17:45] INFO root fetch - main [MainThread]: End processing [UTDF2GMNS] error
+[2023-06-26 04:17:45] INFO root fetch - processPackages [hdx-python-utilities]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-06-26 04:17:45] INFO root fetch - processPackages [mareep]: Downloading https://files.pythonhosted.org/packages/74/a7/1bc1deaea09a9fb4b446c447a005576793fc227ad508a137a4ce20d417e1/mareep-0.0.2.tar.gz
+[2023-06-26 04:17:45] INFO root fetch - processPackages [hdx-python-utilities]: Downloading https://files.pythonhosted.org/packages/0a/37/9c89687d19c4b80c660f73c3f8e1341e9563895b565a884479dfc65fa725/hdx_python_utilities-3.6.0.tar.gz
+[2023-06-26 04:17:45] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/0d/95/aebc53955e429de69266dc54a512500dc76e9688c7baeef9edfbd100fab6/pypomes-0.1.4.tar.gz
+[2023-06-26 04:17:45] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Downloading https://files.pythonhosted.org/packages/b9/26/393cca2fd1a0171f1297b4c59ce09c0b5b61ec6ad14516ac5c57c3cd0b9a/nonebot_plugin_setu_now-0.6.0.tar.gz
+[2023-06-26 04:17:45] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-06-26 04:17:45] INFO root fetch - processPackages [pycaret]: Downloading https://files.pythonhosted.org/packages/da/26/7af21f4a74e1f95bf574186cb00cdf7f49cc1b57bc841da93c580939231a/pycaret-3.0.2-py3-none-any.whl
+[2023-06-26 04:17:46] INFO root fetch - processPackages [hdx-python-utilities]: Downloading https://files.pythonhosted.org/packages/c5/b8/6f22dba238326ee12d3bcd43b256463b6ec89050d28941e1e10cfe7ce612/hdx_python_utilities-3.6.1.tar.gz
+[2023-06-26 04:17:46] INFO root fetch - processPackages [mareep]: Downloading https://files.pythonhosted.org/packages/2d/38/83cb209cb935c00345f66bc2fadffd980aa641bdc699d2990c385d4c7318/mareep-0.0.3.tar.gz
+[2023-06-26 04:17:46] INFO root fetch - processPackages [hdx-python-utilities]: executing diffoscope
+[2023-06-26 04:17:46] INFO root fetch - processPackages [hdx-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_utilities-3.6.0.tar.gz tmp/hdx_python_utilities-3.6.1.tar.gz --markdown 20230626/h/hdx-python-utilities/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-06-26 04:17:46] INFO root fetch - processPackages [env-canada]: Downloading https://files.pythonhosted.org/packages/32/30/ef9a163691dc0ee7527f310decca6833e5f780f9dcc9cdca5ca19cda7165/env_canada-0.5.8.tar.gz
+[2023-06-26 04:17:46] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/ad/de/3f4579644425b4750dfe301dd9a17f4daca7bbcc77a6f955eb165ef4da32/pypomes-0.1.5.tar.gz
+[2023-06-26 04:17:46] INFO root fetch - processPackages [pycaret]: Downloading https://files.pythonhosted.org/packages/35/44/4d3404daa891418b5dd0d6a038d4334159c71bd9f608f5294d05081d6617/pycaret-3.0.3-py3-none-any.whl
+[2023-06-26 04:17:46] INFO root fetch - processPackages [pypomes]: executing diffoscope
+[2023-06-26 04:17:46] INFO root fetch - processPackages [pypomes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes-0.1.4.tar.gz tmp/pypomes-0.1.5.tar.gz --markdown 20230626/p/pypomes/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 04:17:46] INFO root fetch - processPackages [mareep]: executing diffoscope
+[2023-06-26 04:17:46] INFO root fetch - processPackages [mareep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mareep-0.0.2.tar.gz tmp/mareep-0.0.3.tar.gz --markdown 20230626/m/mareep/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 04:17:46] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Downloading https://files.pythonhosted.org/packages/87/bb/7116245e990b6d0044bafe04d2f4453f2ae4c46b12f2cf4f2b51cb019361/nonebot_plugin_setu_now-0.6.0b1.tar.gz
+[2023-06-26 04:17:46] INFO root fetch - processPackages [pycaret]: executing diffoscope
+[2023-06-26 04:17:46] INFO root fetch - processPackages [pycaret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaret-3.0.2-py3-none-any.whl.zip tmp/pycaret-3.0.3-py3-none-any.whl.zip --markdown 20230626/p/pycaret/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-26 04:17:46] INFO root fetch - processPackages [nonebot-plugin-setu-now]: executing diffoscope
+[2023-06-26 04:17:46] INFO root fetch - processPackages [nonebot-plugin-setu-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_setu_now-0.6.0.tar.gz tmp/nonebot_plugin_setu_now-0.6.0b1.tar.gz --markdown 20230626/n/nonebot-plugin-setu-now/0.6.0-0.6.0b1/diff.md --exclude *.pyd
+[2023-06-26 04:17:46] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-06-26 04:17:46] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-06-26 04:17:47] INFO root fetch - processPackages [env-canada]: Downloading https://files.pythonhosted.org/packages/00/e8/9b3e6a86a0cf93c71090db6438bd254904c888ae3cb331ef40ddfc7ebfc4/env_canada-0.5.9.tar.gz
+[2023-06-26 04:17:47] INFO root fetch - processPackages [env-canada]: executing diffoscope
+[2023-06-26 04:17:47] INFO root fetch - processPackages [env-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/env_canada-0.5.8.tar.gz tmp/env_canada-0.5.9.tar.gz --markdown 20230626/e/env-canada/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-26 04:17:47] INFO root fetch - processPackages [mareep]: Remove: archive file [/home/abi/fetcher/tmp/mareep-0.0.2.tar.gz]
+[2023-06-26 04:17:47] INFO root fetch - processPackages [mareep]: Remove: archive file [/home/abi/fetcher/tmp/mareep-0.0.3.tar.gz]
+[2023-06-26 04:17:47] INFO root fetch - main [MainThread]: End processing [mareep]: success
+[2023-06-26 04:17:48] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_setu_now-0.6.0.tar.gz]
+[2023-06-26 04:17:48] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_setu_now-0.6.0b1.tar.gz]
+[2023-06-26 04:17:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-setu-now]: success
+[2023-06-26 04:17:48] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.4.tar.gz]
+[2023-06-26 04:17:48] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.5.tar.gz]
+[2023-06-26 04:17:48] INFO root fetch - main [MainThread]: End processing [pypomes]: success
+[2023-06-26 04:17:48] INFO root fetch - processPackages [hdx-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_utilities-3.6.0.tar.gz]
+[2023-06-26 04:17:48] INFO root fetch - processPackages [hdx-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_utilities-3.6.1.tar.gz]
+[2023-06-26 04:17:48] INFO root fetch - main [MainThread]: End processing [hdx-python-utilities]: success
+[2023-06-26 04:17:48] INFO root fetch - processPackages [env-canada]: Remove: archive file [/home/abi/fetcher/tmp/env_canada-0.5.8.tar.gz]
+[2023-06-26 04:17:48] INFO root fetch - processPackages [env-canada]: Remove: archive file [/home/abi/fetcher/tmp/env_canada-0.5.9.tar.gz]
+[2023-06-26 04:17:48] INFO root fetch - main [MainThread]: End processing [env-canada]: success
+[2023-06-26 04:17:49] INFO root fetch - processPackages [pycaret]: Remove: archive file [/home/abi/fetcher/tmp/pycaret-3.0.2-py3-none-any.whl.zip]
+[2023-06-26 04:17:49] INFO root fetch - processPackages [pycaret]: Remove: archive file [/home/abi/fetcher/tmp/pycaret-3.0.3-py3-none-any.whl.zip]
+[2023-06-26 04:17:49] INFO root fetch - main [MainThread]: End processing [pycaret]: success
+[2023-06-26 04:17:49] INFO root fetch - main [MainThread]: Store serial: [18641424]
