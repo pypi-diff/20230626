@@ -4830,3 +4830,60 @@
 [2023-06-26 03:28:31] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-06-26 03:28:31] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-06-26 03:28:31] INFO root fetch - main [MainThread]: Store serial: [18641176]
+[2023-06-26 03:33:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641176]
+[2023-06-26 03:33:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 03:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-06-26 03:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2023-06-26 03:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imaginepy
+[2023-06-26 03:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyagrum-nightly
+[2023-06-26 03:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-06-26 03:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdm-backend
+[2023-06-26 03:33:40] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 03:33:40] INFO root fetch - processPackages [imaginepy]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-26 03:33:40] INFO root fetch - processPackages [hyfi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 03:33:40] INFO root fetch - processPackages [pdm-backend]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-26 03:33:40] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-26 03:33:40] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-26 03:33:40] INFO root fetch - processPackages [imaginepy]: Downloading https://files.pythonhosted.org/packages/47/73/b2f09207f0f3a79032e9322df10fce263a5e32399fd0b94018b0f8000454/imaginepy-2.0.0.tar.gz
+[2023-06-26 03:33:40] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/d6/a1/3fd6f35197d99ebc197218d98cd3b64c7011e930acd68ebb35074b8dceda/hyfi-0.9.0.tar.gz
+[2023-06-26 03:33:40] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-26 03:33:40] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/8f/aa/df3ad85bf4eeb7a7a3364610ca399f56812e4827cff6495c2a20e4bf1bb4/pdm_backend-2.1.0.tar.gz
+[2023-06-26 03:33:40] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-26 03:33:41] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-26 03:33:41] INFO root fetch - processPackages [imaginepy]: Downloading https://files.pythonhosted.org/packages/be/f9/0469a47de15e6a64cfc4ffea4d2434145a42b379dfc5ef2cb32cd13494af/imaginepy-2.0.1.tar.gz
+[2023-06-26 03:33:41] INFO root fetch - processPackages [pdm-backend]: Downloading https://files.pythonhosted.org/packages/91/f6/6be0c3e7e1f3b249bec2998ca611bce0378ad23a37115f3f2748c5657329/pdm_backend-2.1.1.tar.gz
+[2023-06-26 03:33:41] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ac/9f/80928f411f6c786a00e698a782b561d60d17fe09e71cf49c42581337defe/hyfi-0.9.1.tar.gz
+[2023-06-26 03:33:41] INFO root fetch - processPackages [imaginepy]: executing diffoscope
+[2023-06-26 03:33:41] INFO root fetch - processPackages [imaginepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaginepy-2.0.0.tar.gz tmp/imaginepy-2.0.1.tar.gz --markdown 20230626/i/imaginepy/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-26 03:33:41] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-26 03:33:41] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-26 03:33:41] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.9.0.tar.gz tmp/hyfi-0.9.1.tar.gz --markdown 20230626/h/hyfi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 03:33:41] INFO root fetch - processPackages [pdm-backend]: executing diffoscope
+[2023-06-26 03:33:41] INFO root fetch - processPackages [pdm-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_backend-2.1.0.tar.gz tmp/pdm_backend-2.1.1.tar.gz --markdown 20230626/p/pdm-backend/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-26 03:33:41] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-26 03:33:41] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230626/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-26 03:33:41] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-26 03:33:41] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-26 03:33:41] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230626/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-26 03:33:42] INFO root fetch - processPackages [imaginepy]: Remove: archive file [/home/abi/fetcher/tmp/imaginepy-2.0.0.tar.gz]
+[2023-06-26 03:33:42] INFO root fetch - processPackages [imaginepy]: Remove: archive file [/home/abi/fetcher/tmp/imaginepy-2.0.1.tar.gz]
+[2023-06-26 03:33:42] INFO root fetch - main [MainThread]: End processing [imaginepy]: success
+[2023-06-26 03:33:43] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 03:33:43] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 03:33:43] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-26 03:33:43] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.0.tar.gz]
+[2023-06-26 03:33:43] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.1.tar.gz]
+[2023-06-26 03:33:43] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-26 03:33:43] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.1.0.tar.gz]
+[2023-06-26 03:33:43] INFO root fetch - processPackages [pdm-backend]: Remove: archive file [/home/abi/fetcher/tmp/pdm_backend-2.1.1.tar.gz]
+[2023-06-26 03:33:43] INFO root fetch - main [MainThread]: End processing [pdm-backend]: success
+[2023-06-26 03:33:48] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-26 03:33:48] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-26 03:33:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-26 03:33:48] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-26 03:33:49] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-26 03:33:49] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230626/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 03:33:54] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-26 03:33:54] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-26 03:33:54] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-26 03:33:54] INFO root fetch - main [MainThread]: Store serial: [18641213]
