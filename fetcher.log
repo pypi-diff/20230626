@@ -11874,3 +11874,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 10:42:43] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-26 10:42:43] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-26 10:42:43] INFO root fetch - main [MainThread]: Store serial: [18644154]
+[2023-06-26 10:47:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644154]
+[2023-06-26 10:47:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seiscat
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: func2argparse
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-pgschemas
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RLS-Task
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: waffle-utils
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ypricemagic
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lumigo-opentelemetry
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfp-nightly
+[2023-06-26 10:47:52] INFO root fetch - processPackages [django-pgschemas]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 10:47:52] INFO root fetch - processPackages [waffle-utils]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-26 10:47:52] INFO root fetch - processPackages [seiscat]: New version: [0.6] Old Version: [0.5]
+[2023-06-26 10:47:52] INFO root fetch - processPackages [RLS-Task]: New version: [0.11.dev0] Old Version: [0.1.dev0]
+[2023-06-26 10:47:52] INFO root fetch - processPackages [func2argparse]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 10:47:52] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.80]
+[2023-06-26 10:47:52] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ypricemagic]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-06-26 10:47:52] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-26 10:47:52] INFO root fetch - processPackages [RLS-Task]: Downloading https://files.pythonhosted.org/packages/45/e4/e4cf3c4b42f7de3a827dd421bbf6673630c9fb55c57580381ae2456dfbf2/RLS%20Task-0.1dev.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [seiscat]: Downloading https://files.pythonhosted.org/packages/b6/62/b977a7232aa3843425ed73873223fe303b58278463efcbdada1b60603a80/seiscat-0.5.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [django-pgschemas]: Downloading https://files.pythonhosted.org/packages/8a/ad/4738292bd432347fc1381a3563c87a06b93e5993b94a6aeef2f18b335433/django-pgschemas-0.8.0.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [waffle-utils]: Downloading https://files.pythonhosted.org/packages/68/bf/687cdee346780c3d423cb11f4774cad8d4e640d439d3d7c20b9eda702f89/waffle_utils-0.3.0.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/50/73/6ab94a9917a7ea12a92eea06a59533fc30cf2aaba2484f781bd6b9736e67/lumigo_opentelemetry-1.0.80-py3-none-any.whl
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/44/c5/cfedb3ea668f97430f0599f9daecd238fddd2e7968d1b9302ece0108a0b1/ypricemagic-2.5.0.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [func2argparse]: Downloading https://files.pythonhosted.org/packages/cc/79/efd2f59bed37a81506f0eb9a664d8f54f3cda56215264cce5ac033bf4b85/func2argparse-0.0.4.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [seiscat]: Downloading https://files.pythonhosted.org/packages/41/2c/71c7fe5b08a9f584cede2d45a56195e4b7afbfd70603a4ee50817a351c4f/seiscat-0.6.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [waffle-utils]: Downloading https://files.pythonhosted.org/packages/1a/fa/1f980e6d52e9fc85930b5fa1a6ae31b64ceffe2dc3957ea3b16d1eb54f41/waffle_utils-0.3.1.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [RLS-Task]: Downloading https://files.pythonhosted.org/packages/df/b8/e08a9dc35c9c3a79a76c55b1d4595bc2f7db0728318beeb03193e21bf368/RLS%20Task-0.11dev.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [django-pgschemas]: Downloading https://files.pythonhosted.org/packages/c5/ce/597e07bcc5ddd4be343f7c6c8c708d2f7437d975ce8c63830e7ef960a3e9/django-pgschemas-0.9.0.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/54/7b/fe830952c726da63fcd47aeb6c29316026efd93bf262a9df02a8ad667265/ypricemagic-2.5.1.tar.gz
+[2023-06-26 10:47:52] INFO root fetch - processPackages [seiscat]: executing diffoscope
+[2023-06-26 10:47:52] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-06-26 10:47:52] INFO root fetch - processPackages [seiscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seiscat-0.5.tar.gz tmp/seiscat-0.6.tar.gz --markdown 20230626/s/seiscat/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-26 10:47:53] INFO root fetch - processPackages [waffle-utils]: executing diffoscope
+[2023-06-26 10:47:53] INFO root fetch - processPackages [waffle-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_utils-0.3.0.tar.gz tmp/waffle_utils-0.3.1.tar.gz --markdown 20230626/w/waffle-utils/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 10:47:53] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-26 10:47:53] INFO root fetch - processPackages [func2argparse]: Downloading https://files.pythonhosted.org/packages/2a/5d/08f68e77ca9f2e421d620e1123cf7600c2824fd1999124df8ab2d5451797/func2argparse-0.0.5.tar.gz
+[2023-06-26 10:47:53] INFO root fetch - processPackages [RLS-Task]: executing diffoscope
+[2023-06-26 10:47:53] INFO root fetch - processPackages [RLS-Task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RLS Task-0.1dev.tar.gz tmp/RLS Task-0.11dev.tar.gz --markdown 20230626/R/RLS-Task/0.1.dev0-0.11.dev0/diff.md --exclude *.pyd
+[2023-06-26 10:47:53] INFO root fetch - processPackages [django-pgschemas]: executing diffoscope
+[2023-06-26 10:47:53] INFO root fetch - processPackages [django-pgschemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pgschemas-0.8.0.tar.gz tmp/django-pgschemas-0.9.0.tar.gz --markdown 20230626/d/django-pgschemas/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 10:47:53] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-06-26 10:47:53] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.5.0.tar.gz tmp/ypricemagic-2.5.1.tar.gz --markdown 20230626/y/ypricemagic/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-06-26 10:47:53] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-06-26 10:47:53] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.80-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230626/l/lumigo-opentelemetry/1.0.80-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 10:47:53] INFO root fetch - processPackages [func2argparse]: executing diffoscope
+[2023-06-26 10:47:53] INFO root fetch - processPackages [func2argparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func2argparse-0.0.4.tar.gz tmp/func2argparse-0.0.5.tar.gz --markdown 20230626/f/func2argparse/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 10:47:53] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-26 10:47:53] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230626/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-26 10:47:54] INFO root fetch - processPackages [RLS-Task]: Remove: archive file [/home/abi/fetcher/tmp/RLS Task-0.1dev.tar.gz]
+[2023-06-26 10:47:54] INFO root fetch - processPackages [RLS-Task]: Remove: archive file [/home/abi/fetcher/tmp/RLS Task-0.11dev.tar.gz]
+[2023-06-26 10:47:54] INFO root fetch - main [MainThread]: End processing [RLS-Task]: success
+[2023-06-26 10:47:54] INFO root fetch - processPackages [func2argparse]: Remove: archive file [/home/abi/fetcher/tmp/func2argparse-0.0.4.tar.gz]
+[2023-06-26 10:47:54] INFO root fetch - processPackages [func2argparse]: Remove: archive file [/home/abi/fetcher/tmp/func2argparse-0.0.5.tar.gz]
+[2023-06-26 10:47:54] INFO root fetch - main [MainThread]: End processing [func2argparse]: success
+[2023-06-26 10:47:54] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.80-py3-none-any.whl.zip]
+[2023-06-26 10:47:54] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-06-26 10:47:54] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-06-26 10:47:54] INFO root fetch - processPackages [waffle-utils]: Remove: archive file [/home/abi/fetcher/tmp/waffle_utils-0.3.0.tar.gz]
+[2023-06-26 10:47:54] INFO root fetch - processPackages [waffle-utils]: Remove: archive file [/home/abi/fetcher/tmp/waffle_utils-0.3.1.tar.gz]
+[2023-06-26 10:47:54] INFO root fetch - main [MainThread]: End processing [waffle-utils]: success
+[2023-06-26 10:47:55] INFO root fetch - processPackages [seiscat]: Remove: archive file [/home/abi/fetcher/tmp/seiscat-0.5.tar.gz]
+[2023-06-26 10:47:55] INFO root fetch - processPackages [seiscat]: Remove: archive file [/home/abi/fetcher/tmp/seiscat-0.6.tar.gz]
+[2023-06-26 10:47:55] INFO root fetch - main [MainThread]: End processing [seiscat]: success
+[2023-06-26 10:47:55] INFO root fetch - processPackages [django-pgschemas]: Remove: archive file [/home/abi/fetcher/tmp/django-pgschemas-0.8.0.tar.gz]
+[2023-06-26 10:47:55] INFO root fetch - processPackages [django-pgschemas]: Remove: archive file [/home/abi/fetcher/tmp/django-pgschemas-0.9.0.tar.gz]
+[2023-06-26 10:47:55] INFO root fetch - main [MainThread]: End processing [django-pgschemas]: success
+[2023-06-26 10:47:56] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.5.0.tar.gz]
+[2023-06-26 10:47:56] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.5.1.tar.gz]
+[2023-06-26 10:47:56] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-06-26 10:48:07] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-26 10:48:07] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-26 10:48:07] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-26 10:48:07] INFO root fetch - main [MainThread]: Store serial: [18644178]
