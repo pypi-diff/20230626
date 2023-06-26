@@ -11009,3 +11009,125 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 10:05:16] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
 [2023-06-26 10:05:16] INFO root fetch - main [MainThread]: End processing [epyk]: success
 [2023-06-26 10:05:16] INFO root fetch - main [MainThread]: Store serial: [18643790]
+[2023-06-26 10:10:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643790]
+[2023-06-26 10:10:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robocorp-workitems
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dadajokes
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyperf2
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonrequest
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: requets2
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notebook
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: os2ds-rules
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arcane-google-analytics
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botoolkit
+[2023-06-26 10:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jsonrequest
+[2023-06-26 10:10:26] INFO root fetch - processPackages [robocorp-workitems]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-26 10:10:26] INFO root fetch - processPackages [os2ds-rules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 10:10:26] INFO root fetch - processPackages [pyperf2]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-26 10:10:26] WARNING root fetch - processPackages [dadajokes]: Skipping, unable to determine old version
+[2023-06-26 10:10:26] INFO root fetch - processPackages [dadajokes]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-26 10:10:26] INFO root fetch - main [MainThread]: End processing [dadajokes] error
+[2023-06-26 10:10:26] INFO root fetch - processPackages [jsonrequest]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-26 10:10:26] INFO root fetch - processPackages [arcane-google-analytics]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-26 10:10:26] INFO root fetch - processPackages [botoolkit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-26 10:10:26] INFO root fetch - processPackages [jsonrequest]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-26 10:10:26] WARNING root fetch - processPackages [requets2]: Skipping, unable to determine old version
+[2023-06-26 10:10:26] INFO root fetch - processPackages [requets2]: Start processing: xia-sso-flask
+[2023-06-26 10:10:26] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: New version: [20230626.7.48.862380] Old Version: [20230626.7.36.830989]
+[2023-06-26 10:10:26] INFO root fetch - main [MainThread]: End processing [requets2] error
+[2023-06-26 10:10:26] INFO root fetch - processPackages [notebook]: New version: [7.0.0rc2] Old Version: [7.0.0rc1]
+[2023-06-26 10:10:26] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/d5/4e/0cc399afb2f3c6d3c0a3240a1145cc9d9a8e6ee4df4cbfbcd80c97d44ad2/jsonrequest-0.1.5.tar.gz
+[2023-06-26 10:10:26] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Downloading https://files.pythonhosted.org/packages/76/c6/8d8cc418dbf27d236dab8431313c56f48ed729cef7a51b61369a5ff64e7a/certora-cli-alpha-cnandi-morpho-equiv-20230626.7.36.830989.tar.gz
+[2023-06-26 10:10:26] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/d5/4e/0cc399afb2f3c6d3c0a3240a1145cc9d9a8e6ee4df4cbfbcd80c97d44ad2/jsonrequest-0.1.5.tar.gz
+[2023-06-26 10:10:26] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping package: exceeds size limit 40306641>=10485760
+[2023-06-26 10:10:26] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-06-26 10:10:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-26 10:10:26] WARNING root fetch - processPackages [xia-sso-flask]: Skipping, unable to determine old version
+[2023-06-26 10:10:26] INFO root fetch - processPackages [xia-sso-flask]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-06-26 10:10:26] INFO root fetch - main [MainThread]: End processing [xia-sso-flask] error
+[2023-06-26 10:10:26] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-26 10:10:26] INFO root fetch - processPackages [robocorp-workitems]: Downloading https://files.pythonhosted.org/packages/df/4d/b64262ae4268ab673a458e86d54d5b9713024c26481f13df3502f3d3718a/robocorp_workitems-1.1.0.tar.gz
+[2023-06-26 10:10:26] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 10:10:26] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/df/a3/47ddaeee9fa7e71428383c01d40ffd327099dea99aebf3dae805a1302a8c/pyperf2-0.3-py3-none-any.whl
+[2023-06-26 10:10:26] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-06-26 10:10:26] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/60/5d/3ca5488dde0ac59e239d7979ef1b110186ef495cafab6ce823121c2a800f/notebook-7.0.0rc1.tar.gz
+[2023-06-26 10:10:26] INFO root fetch - processPackages [os2ds-rules]: Downloading https://files.pythonhosted.org/packages/c1/37/7fda63dab4ea867efa8dbe133c0fa7df25ac5bfed23978cc80a30bd2acc7/os2ds-rules-0.0.8.tar.gz
+[2023-06-26 10:10:26] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-06-26 10:10:26] INFO root fetch - processPackages [botoolkit]: Downloading https://files.pythonhosted.org/packages/19/ff/d8289351388ee37892ed395bb7b5d9e7608a48f8c49bb3c4fd400f3788cf/botoolkit-1.1.8.tar.gz
+[2023-06-26 10:10:26] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.identity
+[2023-06-26 10:10:26] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-06-26 10:10:26] INFO root fetch - processPackages [arcane-google-analytics]: Downloading https://files.pythonhosted.org/packages/06/29/5c36472163ca12e1d58eb6a0d143e2390c22e912cea20e9a192740ac2e58/arcane_google_analytics-1.1.8.tar.gz
+[2023-06-26 10:10:26] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-06-26 10:10:26] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/d3/f4/c45e1edfa486050328608d74f57ea9078b4f452a2e326dcc3aeda3c58d02/jsonrequest-0.1.6.tar.gz
+[2023-06-26 10:10:26] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/d3/f4/c45e1edfa486050328608d74f57ea9078b4f452a2e326dcc3aeda3c58d02/jsonrequest-0.1.6.tar.gz
+[2023-06-26 10:10:27] INFO root fetch - processPackages [robocorp-workitems]: Downloading https://files.pythonhosted.org/packages/5c/85/42850a0ed2c957db9f5631212c15c20e59a008c3db04d921fd6879c6a041/robocorp_workitems-1.2.0.tar.gz
+[2023-06-26 10:10:27] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-06-26 10:10:27] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 10:10:27] INFO root fetch - processPackages [jsonrequest]: executing diffoscope
+[2023-06-26 10:10:27] INFO root fetch - processPackages [jsonrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrequest-0.1.5.tar.gz tmp/jsonrequest-0.1.6.tar.gz --markdown 20230626/j/jsonrequest/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-26 10:10:27] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/40/85/6c42ac9b73c3e1e9211aee3ac91a02323c3d74d01418ed74e3c71c6b2f2b/pyperf2-0.3.1-py3-none-any.whl
+[2023-06-26 10:10:27] INFO root fetch - processPackages [jsonrequest]: executing diffoscope
+[2023-06-26 10:10:27] INFO root fetch - processPackages [jsonrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrequest-0.1.5.tar.gz tmp/jsonrequest-0.1.6.tar.gz --markdown 20230626/j/jsonrequest/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-26 10:10:27] INFO root fetch - processPackages [robocorp-workitems]: executing diffoscope
+[2023-06-26 10:10:27] INFO root fetch - processPackages [robocorp-workitems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_workitems-1.1.0.tar.gz tmp/robocorp_workitems-1.2.0.tar.gz --markdown 20230626/r/robocorp-workitems/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-26 10:10:27] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-06-26 10:10:27] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230626/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 10:10:27] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-06-26 10:10:27] INFO root fetch - processPackages [botoolkit]: Downloading https://files.pythonhosted.org/packages/1f/9a/a069946b17b7b0c9aacf88a9600b172f5b4c8a29c391f3e4bbe3cb93eec2/botoolkit-1.1.9.tar.gz
+[2023-06-26 10:10:27] INFO root fetch - processPackages [os2ds-rules]: Downloading https://files.pythonhosted.org/packages/44/4f/af10a7dea1672208ccd9026cb2ff9bb69fd9aad4f75f5250988f126c5b13/os2ds-rules-0.0.9.tar.gz
+[2023-06-26 10:10:27] INFO root fetch - processPackages [arcane-google-analytics]: Downloading https://files.pythonhosted.org/packages/64/f2/1bfa742c5168e7d3ff3a0b5ac177584aa30857392e999381575ae79efc02/arcane_google_analytics-1.1.9.tar.gz
+[2023-06-26 10:10:27] INFO root fetch - processPackages [pyperf2]: executing diffoscope
+[2023-06-26 10:10:27] INFO root fetch - processPackages [pyperf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperf2-0.3-py3-none-any.whl.zip tmp/pyperf2-0.3.1-py3-none-any.whl.zip --markdown 20230626/p/pyperf2/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 10:10:27] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-06-26 10:10:27] INFO root fetch - processPackages [os2ds-rules]: executing diffoscope
+[2023-06-26 10:10:27] INFO root fetch - processPackages [os2ds-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2ds-rules-0.0.8.tar.gz tmp/os2ds-rules-0.0.9.tar.gz --markdown 20230626/o/os2ds-rules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 10:10:27] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-06-26 10:10:27] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230626/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 10:10:27] INFO root fetch - processPackages [botoolkit]: executing diffoscope
+[2023-06-26 10:10:27] INFO root fetch - processPackages [botoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botoolkit-1.1.8.tar.gz tmp/botoolkit-1.1.9.tar.gz --markdown 20230626/b/botoolkit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-26 10:10:27] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/7d/21/7cefcb324b975624e6637c83fef765dff09c89128dd668a592a531032257/notebook-7.0.0rc2.tar.gz
+[2023-06-26 10:10:28] INFO root fetch - processPackages [arcane-google-analytics]: executing diffoscope
+[2023-06-26 10:10:28] INFO root fetch - processPackages [arcane-google-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcane_google_analytics-1.1.8.tar.gz tmp/arcane_google_analytics-1.1.9.tar.gz --markdown 20230626/a/arcane-google-analytics/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-26 10:10:28] ERROR root fetch - processPackages [arcane-google-analytics]: Diffoscope failed: Error: error creating container storage: the container name "determined_mcnulty" is already in use by "e0d0f823dc0ab51ced7caea9bca0f707d799a42474776401c5d2b19679ee5c95". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-26 10:10:28] INFO root fetch - processPackages [arcane-google-analytics]: Start processing: requosts
+[2023-06-26 10:10:28] INFO root fetch - main [MainThread]: End processing [arcane-google-analytics] error
+[2023-06-26 10:10:28] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2023-06-26 10:10:28] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.0.0rc1.tar.gz tmp/notebook-7.0.0rc2.tar.gz --markdown 20230626/n/notebook/7.0.0rc1-7.0.0rc2/diff.md --exclude *.pyd
+[2023-06-26 10:10:28] WARNING root fetch - processPackages [requosts]: Skipping, unable to determine old version
+[2023-06-26 10:10:28] INFO root fetch - processPackages [requosts]: Start processing: resolwe
+[2023-06-26 10:10:28] INFO root fetch - main [MainThread]: End processing [requosts] error
+[2023-06-26 10:10:28] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-06-26 10:10:28] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.3-py3-none-any.whl.zip]
+[2023-06-26 10:10:28] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.3.1-py3-none-any.whl.zip]
+[2023-06-26 10:10:28] INFO root fetch - main [MainThread]: End processing [pyperf2]: success
+[2023-06-26 10:10:28] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-06-26 10:10:28] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.5.tar.gz]
+[2023-06-26 10:10:28] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.6.tar.gz]
+[2023-06-26 10:10:28] INFO root fetch - main [MainThread]: End processing [jsonrequest]: success
+[2023-06-26 10:10:29] INFO root fetch - main [MainThread]: End processing [jsonrequest]: success
+[2023-06-26 10:10:29] INFO root fetch - processPackages [robocorp-workitems]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_workitems-1.1.0.tar.gz]
+[2023-06-26 10:10:29] INFO root fetch - processPackages [robocorp-workitems]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_workitems-1.2.0.tar.gz]
+[2023-06-26 10:10:29] INFO root fetch - main [MainThread]: End processing [robocorp-workitems]: success
+[2023-06-26 10:10:29] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-06-26 10:10:29] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-06-26 10:10:29] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-06-26 10:10:29] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-06-26 10:10:29] INFO root fetch - processPackages [os2ds-rules]: Remove: archive file [/home/abi/fetcher/tmp/os2ds-rules-0.0.8.tar.gz]
+[2023-06-26 10:10:29] INFO root fetch - processPackages [os2ds-rules]: Remove: archive file [/home/abi/fetcher/tmp/os2ds-rules-0.0.9.tar.gz]
+[2023-06-26 10:10:29] INFO root fetch - main [MainThread]: End processing [os2ds-rules]: success
+[2023-06-26 10:10:29] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-06-26 10:10:29] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230626/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-06-26 10:10:29] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-06-26 10:10:29] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-06-26 10:10:29] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-06-26 10:10:31] INFO root fetch - processPackages [botoolkit]: Remove: archive file [/home/abi/fetcher/tmp/botoolkit-1.1.8.tar.gz]
+[2023-06-26 10:10:31] INFO root fetch - processPackages [botoolkit]: Remove: archive file [/home/abi/fetcher/tmp/botoolkit-1.1.9.tar.gz]
+[2023-06-26 10:10:31] INFO root fetch - main [MainThread]: End processing [botoolkit]: success
+[2023-06-26 10:10:32] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-06-26 10:10:32] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-06-26 10:10:32] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-06-26 10:10:41] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0rc1.tar.gz]
+[2023-06-26 10:10:41] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0rc2.tar.gz]
+[2023-06-26 10:10:41] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2023-06-26 10:10:41] INFO root fetch - main [MainThread]: Store serial: [18643850]
