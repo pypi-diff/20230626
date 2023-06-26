@@ -4522,3 +4522,114 @@
 [2023-06-26 03:06:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-26 03:06:42] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-26 03:06:42] INFO root fetch - main [MainThread]: Store serial: [18641058]
+[2023-06-26 03:11:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641058]
+[2023-06-26 03:11:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioversions
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gull-api
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tccli-intl-en
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelbase2
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelbase-pde
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sns-notify
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qtb-plot
+[2023-06-26 03:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oloren
+[2023-06-26 03:11:54] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [gull-api]: New version: [0.0.12rc4] Old Version: [0.0.12rc3]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [modelbase-pde]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [qtb-plot]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/64/86/22462091f8e536e8b102da143822d3e8ad0e6a9ff622e0da7bcc53d08e1a/gull_api-0.0.12rc3.tar.gz
+[2023-06-26 03:11:54] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-26 03:11:54] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-26 03:11:54] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-26 03:11:54] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-26 03:11:54] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/8d/bd/b41d464497049fedd938b2379a9d639742a2655fda7fbb6407d6a924ad62/modelbase2-0.1.6.tar.gz
+[2023-06-26 03:11:54] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-26 03:11:54] INFO root fetch - processPackages [modelbase-pde]: Downloading https://files.pythonhosted.org/packages/5c/59/5861b5c70be3aeb4268489375dec91311e9d959b61761240e09d06f77cb7/modelbase_pde-0.2.8.tar.gz
+[2023-06-26 03:11:54] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/11/03/b204f1332c788b8d60b1f6c015b831fa8085a212dfb69503e85f1598bd38/qtb_plot-0.3.8.tar.gz
+[2023-06-26 03:11:54] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-26 03:11:54] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/b1/42/e423b5f96ab7de43b69ae501e21f2d35e68b985b2333c4c883810567ed6f/gull_api-0.0.12rc4.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230626/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-26 03:11:55] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230626/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:11:55] INFO root fetch - processPackages [gull-api]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [gull-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gull_api-0.0.12rc3.tar.gz tmp/gull_api-0.0.12rc4.tar.gz --markdown 20230626/g/gull-api/0.0.12rc3-0.0.12rc4/diff.md --exclude *.pyd
+[2023-06-26 03:11:55] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/f4/15/03462d32e24c9b67e3379c910f4c9ffaadaa56270659b362e0c45eaeaccd/qtb_plot-0.3.9.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230626/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:11:55] INFO root fetch - processPackages [qtb-plot]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [qtb-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtb_plot-0.3.8.tar.gz tmp/qtb_plot-0.3.9.tar.gz --markdown 20230626/q/qtb-plot/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-26 03:11:55] INFO root fetch - processPackages [modelbase-pde]: Downloading https://files.pythonhosted.org/packages/da/99/ce4549084291c96034b1371a5b3279256a81b7a6fceb0ea0674ff329433a/modelbase_pde-0.2.9.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230626/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-26 03:11:55] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230626/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 03:11:55] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-06-26 03:11:55] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.6.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20230626/m/modelbase2/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 03:11:55] INFO root fetch - processPackages [modelbase-pde]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [modelbase-pde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase_pde-0.2.8.tar.gz tmp/modelbase_pde-0.2.9.tar.gz --markdown 20230626/m/modelbase-pde/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 03:11:55] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-06-26 03:11:55] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230626/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-26 03:11:57] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.12rc3.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.12rc4.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [gull-api]: Start processing: returnn
+[2023-06-26 03:11:57] INFO root fetch - main [MainThread]: End processing [gull-api]: success
+[2023-06-26 03:11:57] INFO root fetch - processPackages [returnn]: New version: [1.20230626.20229] Old Version: [1.20230623.165457]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [cdk-sns-notify]: Start processing: modelbase
+[2023-06-26 03:11:57] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-26 03:11:57] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/a1/6a/a35795df12e03462254e55921adae6e3e117dc15e983ef20bcb07b42c01b/returnn-1.20230623.165457.tar.gz
+[2023-06-26 03:11:57] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/7c/95/7d99701930189b3ab8397cb27207386b110bd5ca8ca2c525e257e4c8b204/returnn-1.20230626.20229.tar.gz
+[2023-06-26 03:11:57] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-06-26 03:11:57] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-26 03:11:57] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-26 03:11:57] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230623.165457.tar.gz tmp/returnn-1.20230626.20229.tar.gz --markdown 20230626/r/returnn/1.20230623.165457-1.20230626.20229/diff.md --exclude *.pyd
+[2023-06-26 03:11:57] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.8.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.9.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - main [MainThread]: End processing [qtb-plot]: success
+[2023-06-26 03:11:57] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-06-26 03:11:57] INFO root fetch - processPackages [modelbase-pde]: Remove: archive file [/home/abi/fetcher/tmp/modelbase_pde-0.2.8.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [modelbase-pde]: Remove: archive file [/home/abi/fetcher/tmp/modelbase_pde-0.2.9.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - main [MainThread]: End processing [modelbase-pde]: success
+[2023-06-26 03:11:57] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.6.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.8.tar.gz]
+[2023-06-26 03:11:57] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2023-06-26 03:11:58] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-06-26 03:11:58] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230626/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-06-26 03:11:59] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2023-06-26 03:11:59] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2023-06-26 03:11:59] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-06-26 03:11:59] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-26 03:11:59] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-26 03:11:59] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-26 03:12:00] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-06-26 03:12:00] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-06-26 03:12:00] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-06-26 03:12:01] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230623.165457.tar.gz]
+[2023-06-26 03:12:01] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230626.20229.tar.gz]
+[2023-06-26 03:12:01] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-26 03:12:03] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-26 03:12:03] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-26 03:12:03] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-26 03:12:16] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-26 03:12:16] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-26 03:12:16] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-26 03:12:16] INFO root fetch - main [MainThread]: Store serial: [18641092]
