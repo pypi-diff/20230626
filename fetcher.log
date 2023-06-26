@@ -13130,3 +13130,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 11:39:26] INFO root fetch - processPackages [aspeak]: Remove: archive file [/home/abi/fetcher/tmp/aspeak-6.0.0b2-cp39-none-win_amd64.whl.zip]
 [2023-06-26 11:39:26] INFO root fetch - main [MainThread]: End processing [aspeak]: success
 [2023-06-26 11:39:26] INFO root fetch - main [MainThread]: Store serial: [18644668]
+[2023-06-26 11:44:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644668]
+[2023-06-26 11:44:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: optimum-habana
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-martin-z3-lemmas-test
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IgusD1
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: power-grid-model
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: one-api-tool
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mrfix
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-bale-bot
+[2023-06-26 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tabulation
+[2023-06-26 11:44:44] INFO root fetch - processPackages [hyfi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 11:44:44] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.911694257.dev11838] Old Version: [0.2.906421535.dev11653]
+[2023-06-26 11:44:44] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: New version: [20230626.9.39.212498] Old Version: [20230623.17.7.586992]
+[2023-06-26 11:44:44] INFO root fetch - processPackages [optimum-habana]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-26 11:44:44] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/d6/a1/3fd6f35197d99ebc197218d98cd3b64c7011e930acd68ebb35074b8dceda/hyfi-0.9.0.tar.gz
+[2023-06-26 11:44:44] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/62/53/fc2487b7a6f9e8692cb4288dce231db5fbe205651d86c2733f7170b2f20e/certora-cli-alpha-martin-z3-lemmas-test-20230623.17.7.586992.tar.gz
+[2023-06-26 11:44:44] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/91/50/f79d8fc554b6458d7ae3551631d2ce9c24c663febe6a1f0884ee5aa2522e/quickstart-vdk-0.2.906421535.dev11653.tar.gz
+[2023-06-26 11:44:44] INFO root fetch - processPackages [optimum-habana]: Downloading https://files.pythonhosted.org/packages/ae/b8/2525fe13eb023b3625be169ae269625ba578e3d2ec24c976f57add39e7d9/optimum-habana-1.5.1.tar.gz
+[2023-06-26 11:44:44] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Skipping package: exceeds size limit 38791798>=10485760
+[2023-06-26 11:44:44] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Start processing: ess-cloud-utils
+[2023-06-26 11:44:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas-test] error
+[2023-06-26 11:44:44] INFO root fetch - processPackages [ess-cloud-utils]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 11:44:44] INFO root fetch - processPackages [ess-cloud-utils]: Downloading https://files.pythonhosted.org/packages/90/eb/92927bb66a693fec63b855d96ceaf4f6276dde4f7818f3d2b36de7866b16/ess-cloud-utils-0.8.tar.gz
+[2023-06-26 11:44:44] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ac/9f/80928f411f6c786a00e698a782b561d60d17fe09e71cf49c42581337defe/hyfi-0.9.1.tar.gz
+[2023-06-26 11:44:44] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/6a/14/6b079da3ceb501e152f7beec18929276f8b15805875f4d6024f9dc7eb754/quickstart-vdk-0.2.911694257.dev11838.tar.gz
+[2023-06-26 11:44:44] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-26 11:44:44] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.9.0.tar.gz tmp/hyfi-0.9.1.tar.gz --markdown 20230626/h/hyfi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 11:44:44] INFO root fetch - processPackages [ess-cloud-utils]: Downloading https://files.pythonhosted.org/packages/e6/89/a997bec49a277ac784beac6fef2f2f48fcbe062065f6d02f10d137fc1fee/ess-cloud-utils-0.9.tar.gz
+[2023-06-26 11:44:44] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-26 11:44:44] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.906421535.dev11653.tar.gz tmp/quickstart-vdk-0.2.911694257.dev11838.tar.gz --markdown 20230626/q/quickstart-vdk/0.2.906421535.dev11653-0.2.911694257.dev11838/diff.md --exclude *.pyd
+[2023-06-26 11:44:44] INFO root fetch - processPackages [optimum-habana]: Downloading https://files.pythonhosted.org/packages/68/25/c9845c2c653da17d6812d61711083cfa3ec28f0edfa600a3e629b9dd11c9/optimum-habana-1.6.0.tar.gz
+[2023-06-26 11:44:44] INFO root fetch - processPackages [ess-cloud-utils]: executing diffoscope
+[2023-06-26 11:44:44] INFO root fetch - processPackages [ess-cloud-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ess-cloud-utils-0.8.tar.gz tmp/ess-cloud-utils-0.9.tar.gz --markdown 20230626/e/ess-cloud-utils/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 11:44:45] INFO root fetch - processPackages [mrfix]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-26 11:44:45] WARNING root fetch - processPackages [IgusD1]: Skipping, unable to determine old version
+[2023-06-26 11:44:45] INFO root fetch - processPackages [IgusD1]: Start processing: th2-grpc-sim
+[2023-06-26 11:44:45] INFO root fetch - main [MainThread]: End processing [IgusD1] error
+[2023-06-26 11:44:45] WARNING root fetch - processPackages [tabulation]: Skipping, unable to determine old version
+[2023-06-26 11:44:45] INFO root fetch - processPackages [tabulation]: Start processing: fractal-tasks-core
+[2023-06-26 11:44:45] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-26 11:44:45] INFO root fetch - processPackages [python-bale-bot]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-06-26 11:44:45] INFO root fetch - processPackages [one-api-tool]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-26 11:44:45] INFO root fetch - processPackages [th2-grpc-sim]: New version: [5.0.0.dev5376623916] Old Version: [4.2.0.dev4312583252]
+[2023-06-26 11:44:45] INFO root fetch - processPackages [optimum-habana]: executing diffoscope
+[2023-06-26 11:44:45] INFO root fetch - processPackages [optimum-habana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-habana-1.5.1.tar.gz tmp/optimum-habana-1.6.0.tar.gz --markdown 20230626/o/optimum-habana/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-26 11:44:45] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9188807400796] Old Version: [1.5.0rc9187210536722]
+[2023-06-26 11:44:45] INFO root fetch - processPackages [fractal-tasks-core]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 11:44:45] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/1f/98/2fbf982b57421117844b5e337307c0e59bfb7cf11425f7780784ed02abd7/one-api-tool-0.3.4.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [python-bale-bot]: Downloading https://files.pythonhosted.org/packages/8f/09/df37b98efbc677a7bf03c8ee71acf08e5948ab9bdddc9cc16a05dcab1dc3/python-bale-bot-2.4.5.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/6a/01/dc2bf256ab02a7cd4b02600fc04b49d58f942a708d4fab8f002440444502/mrfix-2.0.8.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/80/bc/ee3552664114b319682205d2ce77b7140adf42e975833af313ef5601e642/th2_grpc_sim-4.2.0.dev4312583252.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/24/e9/ddd723063d0b7ceb29a222c4bc619c0a2468b500e9d82232e052452b266a/power-grid-model-1.5.0rc9187210536722.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/dc/7a/c7e9ed4dcf3416a2791d6cb84bb56a4b3e7e24febd429a3d95bca296551a/fractal_tasks_core-0.9.3.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/37/f7/aee2f9d3f3e01baeaaa80a58aa2cfffcea0b45e460c2c702dc1585593e75/one-api-tool-0.3.5.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-06-26 11:44:45] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.3.4.tar.gz tmp/one-api-tool-0.3.5.tar.gz --markdown 20230626/o/one-api-tool/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-26 11:44:45] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/2a/70/06f3ca5535ef3bdefca25df75a107407176d4ec4d24f61edff8e85574d48/mrfix-2.0.9.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-06-26 11:44:45] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.8.tar.gz tmp/mrfix-2.0.9.tar.gz --markdown 20230626/m/mrfix/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-26 11:44:45] INFO root fetch - processPackages [python-bale-bot]: Downloading https://files.pythonhosted.org/packages/9f/64/24331185266db79b70edeab43cd12157d054648492ecd9099e179074f028/python-bale-bot-2.4.6.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [th2-grpc-sim]: Downloading https://files.pythonhosted.org/packages/57/fe/54555fb5e5e37b9461a9aed86f0e264b2347cbe60ea8dad5d1c9d8ba2bd3/th2_grpc_sim-5.0.0.dev5376623916.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [python-bale-bot]: executing diffoscope
+[2023-06-26 11:44:45] INFO root fetch - processPackages [python-bale-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bale-bot-2.4.5.tar.gz tmp/python-bale-bot-2.4.6.tar.gz --markdown 20230626/p/python-bale-bot/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-06-26 11:44:45] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/af/37/07bb9822b9985b10a8ac62a97ca805e29c473886922955bf340a2ade2c07/power-grid-model-1.5.0rc9188807400796.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/b7/d9/0b556d4ee7006a6c2f8d6e89d24d5bd88dea65730a992c5503f7991416e8/fractal_tasks_core-0.9.4.tar.gz
+[2023-06-26 11:44:45] INFO root fetch - processPackages [fractal-tasks-core]: executing diffoscope
+[2023-06-26 11:44:45] INFO root fetch - processPackages [fractal-tasks-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_tasks_core-0.9.3.tar.gz tmp/fractal_tasks_core-0.9.4.tar.gz --markdown 20230626/f/fractal-tasks-core/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 11:44:45] INFO root fetch - processPackages [th2-grpc-sim]: executing diffoscope
+[2023-06-26 11:44:45] INFO root fetch - processPackages [th2-grpc-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_sim-4.2.0.dev4312583252.tar.gz tmp/th2_grpc_sim-5.0.0.dev5376623916.tar.gz --markdown 20230626/t/th2-grpc-sim/4.2.0.dev4312583252-5.0.0.dev5376623916/diff.md --exclude *.pyd
+[2023-06-26 11:44:45] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-26 11:44:45] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9187210536722.tar.gz tmp/power-grid-model-1.5.0rc9188807400796.tar.gz --markdown 20230626/p/power-grid-model/1.5.0rc9187210536722-1.5.0rc9188807400796/diff.md --exclude *.pyd
+[2023-06-26 11:44:46] INFO root fetch - processPackages [ess-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/ess-cloud-utils-0.8.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - processPackages [ess-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/ess-cloud-utils-0.9.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - processPackages [ess-cloud-utils]: Start processing: mrfix
+[2023-06-26 11:44:46] INFO root fetch - main [MainThread]: End processing [ess-cloud-utils]: success
+[2023-06-26 11:44:46] INFO root fetch - processPackages [mrfix]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-26 11:44:46] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.906421535.dev11653.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.911694257.dev11838.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - processPackages [quickstart-vdk]: Start processing: scw-gateway
+[2023-06-26 11:44:46] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-26 11:44:46] INFO root fetch - processPackages [scw-gateway]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-26 11:44:46] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-06-26 11:44:46] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.8.tar.gz tmp/mrfix-2.0.9.tar.gz --markdown 20230626/m/mrfix/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-26 11:44:46] INFO root fetch - processPackages [scw-gateway]: Downloading https://files.pythonhosted.org/packages/92/73/26697c6f9384145b05ab2fae4b254923ec8ec5127739dc23f8b0bb0485f3/scw_gateway-0.2.0.tar.gz
+[2023-06-26 11:44:46] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.0.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.1.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-26 11:44:46] INFO root fetch - processPackages [scw-gateway]: Downloading https://files.pythonhosted.org/packages/db/48/0a75c7fea5f8918c3de9f0497505fa82b45e0453a9a9c24d692f0bb8c24c/scw_gateway-0.3.0.tar.gz
+[2023-06-26 11:44:46] INFO root fetch - processPackages [scw-gateway]: executing diffoscope
+[2023-06-26 11:44:46] INFO root fetch - processPackages [scw-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scw_gateway-0.2.0.tar.gz tmp/scw_gateway-0.3.0.tar.gz --markdown 20230626/s/scw-gateway/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 11:44:46] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.8.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.9.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-06-26 11:44:46] INFO root fetch - processPackages [optimum-habana]: Remove: archive file [/home/abi/fetcher/tmp/optimum-habana-1.5.1.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - processPackages [optimum-habana]: Remove: archive file [/home/abi/fetcher/tmp/optimum-habana-1.6.0.tar.gz]
+[2023-06-26 11:44:46] INFO root fetch - main [MainThread]: End processing [optimum-habana]: success
+[2023-06-26 11:44:47] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.4.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.5.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-06-26 11:44:47] ERROR root fetch - processPackages [mrfix]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/mrfix-2.0.8.tar.gz does not exist
+
+[2023-06-26 11:44:47] INFO root fetch - main [MainThread]: End processing [mrfix] error
+[2023-06-26 11:44:47] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-4.2.0.dev4312583252.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - processPackages [th2-grpc-sim]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_sim-5.0.0.dev5376623916.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - main [MainThread]: End processing [th2-grpc-sim]: success
+[2023-06-26 11:44:47] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.3.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-0.9.4.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - main [MainThread]: End processing [fractal-tasks-core]: success
+[2023-06-26 11:44:47] INFO root fetch - processPackages [scw-gateway]: Remove: archive file [/home/abi/fetcher/tmp/scw_gateway-0.2.0.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - processPackages [scw-gateway]: Remove: archive file [/home/abi/fetcher/tmp/scw_gateway-0.3.0.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - main [MainThread]: End processing [scw-gateway]: success
+[2023-06-26 11:44:47] INFO root fetch - processPackages [python-bale-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-bale-bot-2.4.5.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - processPackages [python-bale-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-bale-bot-2.4.6.tar.gz]
+[2023-06-26 11:44:47] INFO root fetch - main [MainThread]: End processing [python-bale-bot]: success
+[2023-06-26 11:44:52] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9187210536722.tar.gz]
+[2023-06-26 11:44:52] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9188807400796.tar.gz]
+[2023-06-26 11:44:52] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-26 11:44:52] INFO root fetch - main [MainThread]: Store serial: [18644717]
