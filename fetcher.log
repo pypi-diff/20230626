@@ -8029,3 +8029,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 07:32:36] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.26.13.31.16.tar.gz]
 [2023-06-26 07:32:36] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2023-06-26 07:32:36] INFO root fetch - main [MainThread]: Store serial: [18642471]
+[2023-06-26 07:37:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642471]
+[2023-06-26 07:37:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-26 07:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commonroad-io
+[2023-06-26 07:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toontown-utils
+[2023-06-26 07:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymysql
+[2023-06-26 07:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: megfile
+[2023-06-26 07:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-06-26 07:37:45] INFO root fetch - processPackages [pymysql]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-06-26 07:37:45] INFO root fetch - processPackages [commonroad-io]: New version: [2023.2] Old Version: [2023.1]
+[2023-06-26 07:37:45] INFO root fetch - processPackages [megfile]: New version: [2.1.0] Old Version: [2.0.7]
+[2023-06-26 07:37:45] WARNING root fetch - processPackages [toontown-utils]: Skipping, unable to determine old version
+[2023-06-26 07:37:45] INFO root fetch - main [MainThread]: End processing [toontown-utils] error
+[2023-06-26 07:37:45] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-26 07:37:46] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-26 07:37:46] INFO root fetch - processPackages [commonroad-io]: Downloading https://files.pythonhosted.org/packages/b6/8a/92e275aba2def65257c8bf485dc7e0477332773344417f5df13ebd104529/commonroad_io-2023.1.tar.gz
+[2023-06-26 07:37:46] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/8d/98/53db560263a6d913b2db641e5180f39cdd6cb5dd475caa8897813bd1105f/megfile-2.0.7-py3-none-any.whl
+[2023-06-26 07:37:46] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-26 07:37:46] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-26 07:37:46] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230626/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-26 07:37:46] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/48/bd/1c79d699c84d45e5e424ac78db4b597eeff59cdd9f52de7b6ec66daccf9d/megfile-2.1.0-py3-none-any.whl
+[2023-06-26 07:37:46] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-06-26 07:37:46] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.0.7-py3-none-any.whl.zip tmp/megfile-2.1.0-py3-none-any.whl.zip --markdown 20230626/m/megfile/2.0.7-2.1.0/diff.md --exclude *.pyd
+[2023-06-26 07:37:46] INFO root fetch - processPackages [pymysql]: Downloading https://files.pythonhosted.org/packages/ae/11/59e26d78cf43841c0e014264c0490913cd2e2a91b7bc1d4bab479d215c53/PyMySQL-1.1.0rc1.tar.gz
+[2023-06-26 07:37:46] INFO root fetch - processPackages [commonroad-io]: Downloading https://files.pythonhosted.org/packages/63/9a/084c50ba26b1f372275a5c924a0094e86566af5e6c5dec3da651a3f3ee88/commonroad_io-2023.2.tar.gz
+[2023-06-26 07:37:46] INFO root fetch - processPackages [commonroad-io]: executing diffoscope
+[2023-06-26 07:37:46] INFO root fetch - processPackages [commonroad-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonroad_io-2023.1.tar.gz tmp/commonroad_io-2023.2.tar.gz --markdown 20230626/c/commonroad-io/2023.1-2023.2/diff.md --exclude *.pyd
+[2023-06-26 07:37:47] INFO root fetch - processPackages [pymysql]: Downloading https://files.pythonhosted.org/packages/38/be/8e97ee97c1bcca9d231a69333250ef1a66151191f3198d9d3224b4092834/PyMySQL-1.1.0rc2.tar.gz
+[2023-06-26 07:37:47] INFO root fetch - processPackages [pymysql]: executing diffoscope
+[2023-06-26 07:37:47] INFO root fetch - processPackages [pymysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMySQL-1.1.0rc1.tar.gz tmp/PyMySQL-1.1.0rc2.tar.gz --markdown 20230626/p/pymysql/1.1.0rc1-1.1.0rc2/diff.md --exclude *.pyd
+[2023-06-26 07:37:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-26 07:37:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-26 07:37:47] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-26 07:37:47] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.0.7-py3-none-any.whl.zip]
+[2023-06-26 07:37:47] INFO root fetch - processPackages [megfile]: Remove: archive file [/home/abi/fetcher/tmp/megfile-2.1.0-py3-none-any.whl.zip]
+[2023-06-26 07:37:47] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-06-26 07:37:48] INFO root fetch - processPackages [pymysql]: Remove: archive file [/home/abi/fetcher/tmp/PyMySQL-1.1.0rc1.tar.gz]
+[2023-06-26 07:37:48] INFO root fetch - processPackages [pymysql]: Remove: archive file [/home/abi/fetcher/tmp/PyMySQL-1.1.0rc2.tar.gz]
+[2023-06-26 07:37:48] INFO root fetch - main [MainThread]: End processing [pymysql]: success
+[2023-06-26 07:37:53] INFO root fetch - processPackages [commonroad-io]: Remove: archive file [/home/abi/fetcher/tmp/commonroad_io-2023.1.tar.gz]
+[2023-06-26 07:37:53] INFO root fetch - processPackages [commonroad-io]: Remove: archive file [/home/abi/fetcher/tmp/commonroad_io-2023.2.tar.gz]
+[2023-06-26 07:37:53] INFO root fetch - main [MainThread]: End processing [commonroad-io]: success
+[2023-06-26 07:37:53] INFO root fetch - main [MainThread]: Store serial: [18642492]
