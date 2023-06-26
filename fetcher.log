@@ -14549,3 +14549,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 12:29:42] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
 [2023-06-26 12:29:42] INFO root fetch - main [MainThread]: End processing [XPER]: success
 [2023-06-26 12:29:42] INFO root fetch - main [MainThread]: Store serial: [18645276]
+[2023-06-26 12:34:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645276]
+[2023-06-26 12:34:51] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solarkit
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transformersplus
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-activation
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tabulation
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modify-docx-package
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: titan-iris
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decorator-parser
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scs-host-posix
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: list-cli
+[2023-06-26 12:34:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytedee-async
+[2023-06-26 12:34:51] WARNING root fetch - processPackages [modify-docx-package]: Skipping, unable to determine old version
+[2023-06-26 12:34:51] INFO root fetch - processPackages [modify-docx-package]: Start processing: pycomplete
+[2023-06-26 12:34:51] INFO root fetch - main [MainThread]: End processing [modify-docx-package] error
+[2023-06-26 12:34:51] INFO root fetch - processPackages [decorator-parser]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-26 12:34:51] INFO root fetch - processPackages [transformersplus]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-06-26 12:34:51] INFO root fetch - processPackages [solarkit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-26 12:34:51] INFO root fetch - processPackages [list-cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-26 12:34:51] WARNING root fetch - processPackages [torch-activation]: Skipping, unable to determine old version
+[2023-06-26 12:34:51] INFO root fetch - processPackages [torch-activation]: Start processing: sbpack
+[2023-06-26 12:34:51] INFO root fetch - main [MainThread]: End processing [torch-activation] error
+[2023-06-26 12:34:51] INFO root fetch - processPackages [scs-host-posix]: New version: [2.5.1] Old Version: [1.0.8]
+[2023-06-26 12:34:51] INFO root fetch - processPackages [titan-iris]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-26 12:34:51] INFO root fetch - processPackages [pytedee-async]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-26 12:34:51] INFO root fetch - processPackages [tabulation]: New version: [1.0.0] Old Version: [0.9.5]
+[2023-06-26 12:34:51] INFO root fetch - processPackages [pycomplete]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-26 12:34:51] INFO root fetch - processPackages [sbpack]: New version: [2023.6.20rc1] Old Version: [2022.3.16]
+[2023-06-26 12:34:51] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/8c/8d/539cb777b52c3d6dca5656c86e08c5ad1784eb5cb4c7d931d9a9f7777b13/pytedee_async-0.0.7.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/83/75/4a99304664c68b507b0903a58b86eefe5e48d4ced4b54ea43eee536dbdf3/titan-iris-0.8.2.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/af/e9/9aa1edfceebb03fd52784b4e4629082e37a1079a239a1e867595687dd8cb/decorator_parser-1.0.3.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [tabulation]: Downloading https://files.pythonhosted.org/packages/75/40/155929e752fb852f44eb201068812c31c46b0cf64109e2830fe79077af1a/tabulation-0.9.5.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [scs-host-posix]: Downloading https://files.pythonhosted.org/packages/6d/86/c5579e0d8702e0bf25f106d623942b6f1ad233a2042d5909fe0e761a0d6f/scs-host-posix-1.0.8.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [solarkit]: Downloading https://files.pythonhosted.org/packages/a0/a3/d276fdc9b27a95ebc3d0388bf73c22c0c1446b0afd13dc89481450ff47c9/solarkit-1.0.0.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [list-cli]: Downloading https://files.pythonhosted.org/packages/d0/fa/6099ec62ad917315f7ca2fdab13eeffe9a225eb34b8272cf4336f45289e1/list-cli-0.1.5.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [sbpack]: Downloading https://files.pythonhosted.org/packages/8b/75/45a182c84ee1239a4ecf5236e50067d9ff7dfc8082cd70b0f33ff60b23fa/sbpack-2022.3.16.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [transformersplus]: Downloading https://files.pythonhosted.org/packages/4d/e9/b09174caecb24b5b903e21a8e823cc638c63c937a10a198f0461d053408a/transformersplus-0.0.1.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [pycomplete]: Downloading https://files.pythonhosted.org/packages/28/ab/e08452acd7775aff9afd981ad08955dd25243f9411cf23c69a17724d5731/pycomplete-0.3.2.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/e9/07/53925f2fb64c34da465959f828ad3716031f56a9aa881445565d36d58899/pytedee_async-0.0.8.tar.gz
+[2023-06-26 12:34:51] INFO root fetch - processPackages [decorator-parser]: Downloading https://files.pythonhosted.org/packages/1e/92/d00955789205f7f27dee5892f4403a2e2ec4ce81e20b7746182257980c77/decorator_parser-1.0.4.tar.gz
+[2023-06-26 12:34:52] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e3/0b/a57fa24b63a67042315ba785058210a7907a91c250b0713ef9d7b212a410/titan-iris-0.8.3.tar.gz
+[2023-06-26 12:34:52] INFO root fetch - processPackages [solarkit]: Downloading https://files.pythonhosted.org/packages/88/86/6df3a8e9384d24aaa89119f3ca86bba0e6be0b337cf27e529c95642cf2ec/solarkit-1.0.1.tar.gz
+[2023-06-26 12:34:52] INFO root fetch - processPackages [list-cli]: Downloading https://files.pythonhosted.org/packages/22/5b/8522fc182e4a4f0f7f4f2867777ab340927cc80e3d8cd0e1674b482688e5/list-cli-0.1.6.tar.gz
+[2023-06-26 12:34:52] INFO root fetch - processPackages [tabulation]: Downloading https://files.pythonhosted.org/packages/c4/59/523068646cca1151baa3206fcea195b9d7fbd9e69b4258c7eb43db0f05b1/tabulation-1.0.0.tar.gz
+[2023-06-26 12:34:52] INFO root fetch - processPackages [transformersplus]: Downloading https://files.pythonhosted.org/packages/40/36/4dd7c614606c46c5501fcbbc0226457c16dc5a120888480eb076c9b7e462/transformersplus-0.1.1.tar.gz
+[2023-06-26 12:34:52] INFO root fetch - processPackages [pytedee-async]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [pytedee-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytedee_async-0.0.7.tar.gz tmp/pytedee_async-0.0.8.tar.gz --markdown 20230626/p/pytedee-async/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-26 12:34:52] INFO root fetch - processPackages [scs-host-posix]: Downloading https://files.pythonhosted.org/packages/60/3b/757f79f76d846dd5b8b10a2ba8e544a64e222cac7347c2487ca56c164c02/scs-host-posix-2.5.1.tar.gz
+[2023-06-26 12:34:52] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.2.tar.gz tmp/titan-iris-0.8.3.tar.gz --markdown 20230626/t/titan-iris/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-26 12:34:52] INFO root fetch - processPackages [tabulation]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [tabulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabulation-0.9.5.tar.gz tmp/tabulation-1.0.0.tar.gz --markdown 20230626/t/tabulation/0.9.5-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 12:34:52] INFO root fetch - processPackages [sbpack]: Downloading https://files.pythonhosted.org/packages/fb/04/d91f1e1e66b74048a964d43195970982ccec9974e6fd4278921d69761088/sbpack-2023.6.20rc1-py3-none-any.whl
+[2023-06-26 12:34:52] INFO root fetch - processPackages [pycomplete]: Downloading https://files.pythonhosted.org/packages/93/14/c6a18177c6a7d7656102774dee756b7c81bbfaf95dfa033ce690007f8b05/pycomplete-0.4.0.tar.gz
+[2023-06-26 12:34:52] INFO root fetch - processPackages [decorator-parser]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [decorator-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator_parser-1.0.3.tar.gz tmp/decorator_parser-1.0.4.tar.gz --markdown 20230626/d/decorator-parser/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-26 12:34:52] INFO root fetch - processPackages [solarkit]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [solarkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarkit-1.0.0.tar.gz tmp/solarkit-1.0.1.tar.gz --markdown 20230626/s/solarkit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-26 12:34:52] INFO root fetch - processPackages [list-cli]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [list-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list-cli-0.1.5.tar.gz tmp/list-cli-0.1.6.tar.gz --markdown 20230626/l/list-cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-26 12:34:52] INFO root fetch - processPackages [transformersplus]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [transformersplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformersplus-0.0.1.tar.gz tmp/transformersplus-0.1.1.tar.gz --markdown 20230626/t/transformersplus/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 12:34:52] INFO root fetch - processPackages [scs-host-posix]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [scs-host-posix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-host-posix-1.0.8.tar.gz tmp/scs-host-posix-2.5.1.tar.gz --markdown 20230626/s/scs-host-posix/1.0.8-2.5.1/diff.md --exclude *.pyd
+[2023-06-26 12:34:52] INFO root fetch - processPackages [sbpack]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [sbpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbpack-2022.3.16.tar.gz tmp/sbpack-2023.6.20rc1-py3-none-any.whl.zip --markdown 20230626/s/sbpack/2022.3.16-2023.6.20rc1/diff.md --exclude *.pyd
+[2023-06-26 12:34:52] INFO root fetch - processPackages [pycomplete]: executing diffoscope
+[2023-06-26 12:34:52] INFO root fetch - processPackages [pycomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycomplete-0.3.2.tar.gz tmp/pycomplete-0.4.0.tar.gz --markdown 20230626/p/pycomplete/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-26 12:34:53] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.0.7.tar.gz]
+[2023-06-26 12:34:53] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.0.8.tar.gz]
+[2023-06-26 12:34:53] INFO root fetch - processPackages [pytedee-async]: Start processing: dask-kubernetes
+[2023-06-26 12:34:53] INFO root fetch - main [MainThread]: End processing [pytedee-async]: success
+[2023-06-26 12:34:53] INFO root fetch - processPackages [dask-kubernetes]: New version: [2023.6.0] Old Version: [2023.3.2]
+[2023-06-26 12:34:53] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.2.tar.gz]
+[2023-06-26 12:34:53] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.3.tar.gz]
+[2023-06-26 12:34:53] INFO root fetch - processPackages [titan-iris]: Start processing: atriumsports-sdk
+[2023-06-26 12:34:53] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-26 12:34:53] INFO root fetch - processPackages [tabulation]: Remove: archive file [/home/abi/fetcher/tmp/tabulation-0.9.5.tar.gz]
+[2023-06-26 12:34:53] INFO root fetch - processPackages [tabulation]: Remove: archive file [/home/abi/fetcher/tmp/tabulation-1.0.0.tar.gz]
+[2023-06-26 12:34:53] INFO root fetch - processPackages [tabulation]: Start processing: pygame-ecs
+[2023-06-26 12:34:53] INFO root fetch - main [MainThread]: End processing [tabulation]: success
+[2023-06-26 12:34:53] INFO root fetch - processPackages [atriumsports-sdk]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-26 12:34:53] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/da/98/9ce9c978bff64823afaef3600f9d0f32c5f34b4c95aa70516b30ea0badaa/dask-kubernetes-2023.3.2.tar.gz
+[2023-06-26 12:34:53] WARNING root fetch - processPackages [pygame-ecs]: Skipping, unable to determine old version
+[2023-06-26 12:34:53] INFO root fetch - main [MainThread]: End processing [pygame-ecs] error
+[2023-06-26 12:34:54] INFO root fetch - processPackages [transformersplus]: Remove: archive file [/home/abi/fetcher/tmp/transformersplus-0.0.1.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - processPackages [transformersplus]: Remove: archive file [/home/abi/fetcher/tmp/transformersplus-0.1.1.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - main [MainThread]: End processing [transformersplus]: success
+[2023-06-26 12:34:54] INFO root fetch - processPackages [sbpack]: Remove: archive file [/home/abi/fetcher/tmp/sbpack-2022.3.16.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - processPackages [sbpack]: Remove: archive file [/home/abi/fetcher/tmp/sbpack-2023.6.20rc1-py3-none-any.whl.zip]
+[2023-06-26 12:34:54] INFO root fetch - main [MainThread]: End processing [sbpack]: success
+[2023-06-26 12:34:54] INFO root fetch - processPackages [pycomplete]: Remove: archive file [/home/abi/fetcher/tmp/pycomplete-0.3.2.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - processPackages [pycomplete]: Remove: archive file [/home/abi/fetcher/tmp/pycomplete-0.4.0.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - main [MainThread]: End processing [pycomplete]: success
+[2023-06-26 12:34:54] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/bb/38/df7ea5ff7e4086b98d235d03824b1de135d701334cb723fdaea308c78788/atriumsports_sdk-1.2.0.tar.gz
+[2023-06-26 12:34:54] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.3.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - processPackages [decorator-parser]: Remove: archive file [/home/abi/fetcher/tmp/decorator_parser-1.0.4.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - main [MainThread]: End processing [decorator-parser]: success
+[2023-06-26 12:34:54] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/92/5c/d412a9b93c07e3e03cd21cfc3cc3b5fb44e34aa045f060e0ef23772070d0/dask-kubernetes-2023.6.0.tar.gz
+[2023-06-26 12:34:54] INFO root fetch - processPackages [scs-host-posix]: Remove: archive file [/home/abi/fetcher/tmp/scs-host-posix-1.0.8.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - processPackages [scs-host-posix]: Remove: archive file [/home/abi/fetcher/tmp/scs-host-posix-2.5.1.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - main [MainThread]: End processing [scs-host-posix]: success
+[2023-06-26 12:34:54] INFO root fetch - processPackages [list-cli]: Remove: archive file [/home/abi/fetcher/tmp/list-cli-0.1.5.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - processPackages [list-cli]: Remove: archive file [/home/abi/fetcher/tmp/list-cli-0.1.6.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - main [MainThread]: End processing [list-cli]: success
+[2023-06-26 12:34:54] INFO root fetch - processPackages [solarkit]: Remove: archive file [/home/abi/fetcher/tmp/solarkit-1.0.0.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - processPackages [solarkit]: Remove: archive file [/home/abi/fetcher/tmp/solarkit-1.0.1.tar.gz]
+[2023-06-26 12:34:54] INFO root fetch - main [MainThread]: End processing [solarkit]: success
+[2023-06-26 12:34:54] INFO root fetch - processPackages [dask-kubernetes]: executing diffoscope
+[2023-06-26 12:34:54] INFO root fetch - processPackages [dask-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-kubernetes-2023.3.2.tar.gz tmp/dask-kubernetes-2023.6.0.tar.gz --markdown 20230626/d/dask-kubernetes/2023.3.2-2023.6.0/diff.md --exclude *.pyd
+[2023-06-26 12:34:54] INFO root fetch - processPackages [atriumsports-sdk]: Downloading https://files.pythonhosted.org/packages/e6/94/17f5e3c2c38418af1187c0cb398f1d8823d524030c786627ecb70455a9b8/atriumsports_sdk-1.3.0.tar.gz
+[2023-06-26 12:34:54] INFO root fetch - processPackages [atriumsports-sdk]: executing diffoscope
+[2023-06-26 12:34:54] INFO root fetch - processPackages [atriumsports-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atriumsports_sdk-1.2.0.tar.gz tmp/atriumsports_sdk-1.3.0.tar.gz --markdown 20230626/a/atriumsports-sdk/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-26 12:34:57] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2023.3.2.tar.gz]
+[2023-06-26 12:34:57] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2023.6.0.tar.gz]
+[2023-06-26 12:34:57] INFO root fetch - main [MainThread]: End processing [dask-kubernetes]: success
+[2023-06-26 12:34:59] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.2.0.tar.gz]
+[2023-06-26 12:34:59] INFO root fetch - processPackages [atriumsports-sdk]: Remove: archive file [/home/abi/fetcher/tmp/atriumsports_sdk-1.3.0.tar.gz]
+[2023-06-26 12:34:59] INFO root fetch - main [MainThread]: End processing [atriumsports-sdk]: success
+[2023-06-26 12:34:59] INFO root fetch - main [MainThread]: Store serial: [18645329]
