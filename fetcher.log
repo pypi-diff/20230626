@@ -10914,3 +10914,98 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 09:59:53] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
 [2023-06-26 09:59:53] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
 [2023-06-26 09:59:53] INFO root fetch - main [MainThread]: Store serial: [18643753]
+[2023-06-26 10:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643753]
+[2023-06-26 10:05:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libecalc
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geniusdotpy
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dl2050utils
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liiatools
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cyberwatch-api
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gsoup
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-amis-render
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jsonrequest
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dl2050utils
+[2023-06-26 10:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epyk
+[2023-06-26 10:05:04] INFO root fetch - processPackages [libecalc]: New version: [8.2.7] Old Version: [8.2.6]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [liiatools]: New version: [0.1.5.3] Old Version: [0.1.5.2]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [cyberwatch-api]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [jsonrequest]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [gsoup]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [django-amis-render]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [geniusdotpy]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [liiatools]: Downloading https://files.pythonhosted.org/packages/b8/fd/d585a717e0bd674ea019e9bde1773611b7db856c790424b5528504528c6a/liiatools-0.1.5.2.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [epyk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [libecalc]: Downloading https://files.pythonhosted.org/packages/10/09/83eebe3feb7df6b50f8f8e12cdeef745bef1d9f71bd5348d8bdfcabbf72b/libecalc-8.2.6.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [gsoup]: Downloading https://files.pythonhosted.org/packages/fe/9b/153b9913a4b567dd9c8edbb5268c5f168d4c0e71be7650cc2e24097fe2ee/gsoup-0.0.8.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [cyberwatch-api]: Downloading https://files.pythonhosted.org/packages/79/74/b37c2bc7ef2d0ceacad29b4919d41d043c8b3411b5f935ed346b2d9da4fd/cyberwatch_api-0.2.0.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [geniusdotpy]: Downloading https://files.pythonhosted.org/packages/c6/b6/8d2ed605668d27a566ddffc3fa0fa6d62fe76eaf37e4f89f100386afdc0e/geniusdotpy-0.9.0.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [django-amis-render]: Downloading https://files.pythonhosted.org/packages/ff/1e/d3c9a8b9b4e36697d786c077d22133bcfd66fe8adaaf695f80e183e1bd09/django_amis_render-0.0.7.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/2d/06/a482485fa99d60f707c7711ec7c4bd8429a6f0fda9f22c817d6abd7b19a2/jsonrequest-0.1.4.tar.gz
+[2023-06-26 10:05:04] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 31024264>=10485760
+[2023-06-26 10:05:04] INFO root fetch - processPackages [libecalc]: Start processing: rtd-ae
+[2023-06-26 10:05:04] INFO root fetch - main [MainThread]: End processing [libecalc] error
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-06-26 10:05:04] WARNING root fetch - processPackages [django-amis-render]: Skipping package: exceeds size limit 13875860>=10485760
+[2023-06-26 10:05:04] INFO root fetch - processPackages [django-amis-render]: Start processing: ANBUtils
+[2023-06-26 10:05:04] INFO root fetch - main [MainThread]: End processing [django-amis-render] error
+[2023-06-26 10:05:04] WARNING root fetch - processPackages [rtd-ae]: Skipping, unable to determine old version
+[2023-06-26 10:05:04] INFO root fetch - main [MainThread]: End processing [rtd-ae] error
+[2023-06-26 10:05:04] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/2b/b7/d8534d999b9d58a4412b4db34fefcdfbe6c581e844864d76492fdcb43548/epyk-1.9.8-py3-none-any.whl
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230626/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-06-26 10:05:04] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230626/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-26 10:05:04] INFO root fetch - processPackages [liiatools]: Downloading https://files.pythonhosted.org/packages/58/2d/980527ec46dd201b6336c136054209f3a50ea5c46a13cb1cd15e00bf0995/liiatools-0.1.5.3.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/d5/4e/0cc399afb2f3c6d3c0a3240a1145cc9d9a8e6ee4df4cbfbcd80c97d44ad2/jsonrequest-0.1.5.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [gsoup]: Downloading https://files.pythonhosted.org/packages/ab/33/9007a7b5227ef7142666eeff93d37cce2f5cc5d1032cbf8c1a1174af84f8/gsoup-0.0.9.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [ANBUtils]: New version: [1.6.4] Old Version: [1.6.2]
+[2023-06-26 10:05:04] INFO root fetch - processPackages [geniusdotpy]: Downloading https://files.pythonhosted.org/packages/b0/01/be05097ce6712f50bb70f78780c2f224aa8458a290100a5c02a6a5db30cc/geniusdotpy-1.0.0.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [cyberwatch-api]: Downloading https://files.pythonhosted.org/packages/7a/5c/a1f75ed5b11c8fa9155f3d369f70aac668958b79c495b9bb1ec4596e15f7/cyberwatch_api-0.3.0.tar.gz
+[2023-06-26 10:05:04] INFO root fetch - processPackages [liiatools]: executing diffoscope
+[2023-06-26 10:05:04] INFO root fetch - processPackages [liiatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liiatools-0.1.5.2.tar.gz tmp/liiatools-0.1.5.3.tar.gz --markdown 20230626/l/liiatools/0.1.5.2-0.1.5.3/diff.md --exclude *.pyd
+[2023-06-26 10:05:04] INFO root fetch - processPackages [jsonrequest]: executing diffoscope
+[2023-06-26 10:05:04] INFO root fetch - processPackages [jsonrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrequest-0.1.4.tar.gz tmp/jsonrequest-0.1.5.tar.gz --markdown 20230626/j/jsonrequest/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 10:05:04] INFO root fetch - processPackages [geniusdotpy]: executing diffoscope
+[2023-06-26 10:05:04] INFO root fetch - processPackages [geniusdotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geniusdotpy-0.9.0.tar.gz tmp/geniusdotpy-1.0.0.tar.gz --markdown 20230626/g/geniusdotpy/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 10:05:04] INFO root fetch - processPackages [gsoup]: executing diffoscope
+[2023-06-26 10:05:04] INFO root fetch - processPackages [gsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsoup-0.0.8.tar.gz tmp/gsoup-0.0.9.tar.gz --markdown 20230626/g/gsoup/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 10:05:04] INFO root fetch - processPackages [cyberwatch-api]: executing diffoscope
+[2023-06-26 10:05:04] INFO root fetch - processPackages [cyberwatch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberwatch_api-0.2.0.tar.gz tmp/cyberwatch_api-0.3.0.tar.gz --markdown 20230626/c/cyberwatch-api/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 10:05:04] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/b0/7e/3f9889afc7adbca3747fbb21c4bb5cd19253128fc86c13f92f657b4d41f7/ANBUtils-1.6.2.tar.gz
+[2023-06-26 10:05:05] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/e2/81/6fa88c6d8c6e5d9ebc6638dac9ad91848ac0a2dab41704df1e26bc4915b3/ANBUtils-1.6.4.tar.gz
+[2023-06-26 10:05:05] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2023-06-26 10:05:05] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.6.2.tar.gz tmp/ANBUtils-1.6.4.tar.gz --markdown 20230626/A/ANBUtils/1.6.2-1.6.4/diff.md --exclude *.pyd
+[2023-06-26 10:05:06] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.4.tar.gz]
+[2023-06-26 10:05:06] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.5.tar.gz]
+[2023-06-26 10:05:06] INFO root fetch - main [MainThread]: End processing [jsonrequest]: success
+[2023-06-26 10:05:06] INFO root fetch - processPackages [cyberwatch-api]: Remove: archive file [/home/abi/fetcher/tmp/cyberwatch_api-0.2.0.tar.gz]
+[2023-06-26 10:05:06] INFO root fetch - processPackages [cyberwatch-api]: Remove: archive file [/home/abi/fetcher/tmp/cyberwatch_api-0.3.0.tar.gz]
+[2023-06-26 10:05:06] INFO root fetch - main [MainThread]: End processing [cyberwatch-api]: success
+[2023-06-26 10:05:06] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/16/be/cd2f93881ffe92a847a9cfff5f05b11b2f5cd93f2b1c552a7982a06aab4e/epyk-1.9.9-py3-none-any.whl
+[2023-06-26 10:05:06] INFO root fetch - processPackages [geniusdotpy]: Remove: archive file [/home/abi/fetcher/tmp/geniusdotpy-0.9.0.tar.gz]
+[2023-06-26 10:05:06] INFO root fetch - processPackages [geniusdotpy]: Remove: archive file [/home/abi/fetcher/tmp/geniusdotpy-1.0.0.tar.gz]
+[2023-06-26 10:05:06] INFO root fetch - main [MainThread]: End processing [geniusdotpy]: success
+[2023-06-26 10:05:06] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-06-26 10:05:06] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-06-26 10:05:06] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-06-26 10:05:06] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-06-26 10:05:07] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.6.2.tar.gz]
+[2023-06-26 10:05:07] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.6.4.tar.gz]
+[2023-06-26 10:05:07] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2023-06-26 10:05:07] INFO root fetch - processPackages [epyk]: executing diffoscope
+[2023-06-26 10:05:07] INFO root fetch - processPackages [epyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyk-1.9.8-py3-none-any.whl.zip tmp/epyk-1.9.9-py3-none-any.whl.zip --markdown 20230626/e/epyk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-26 10:05:07] INFO root fetch - processPackages [gsoup]: Remove: archive file [/home/abi/fetcher/tmp/gsoup-0.0.8.tar.gz]
+[2023-06-26 10:05:07] INFO root fetch - processPackages [gsoup]: Remove: archive file [/home/abi/fetcher/tmp/gsoup-0.0.9.tar.gz]
+[2023-06-26 10:05:07] INFO root fetch - main [MainThread]: End processing [gsoup]: success
+[2023-06-26 10:05:09] INFO root fetch - processPackages [liiatools]: Remove: archive file [/home/abi/fetcher/tmp/liiatools-0.1.5.2.tar.gz]
+[2023-06-26 10:05:09] INFO root fetch - processPackages [liiatools]: Remove: archive file [/home/abi/fetcher/tmp/liiatools-0.1.5.3.tar.gz]
+[2023-06-26 10:05:09] INFO root fetch - main [MainThread]: End processing [liiatools]: success
+[2023-06-26 10:05:16] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.8-py3-none-any.whl.zip]
+[2023-06-26 10:05:16] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
+[2023-06-26 10:05:16] INFO root fetch - main [MainThread]: End processing [epyk]: success
+[2023-06-26 10:05:16] INFO root fetch - main [MainThread]: Store serial: [18643790]
