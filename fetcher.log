@@ -12427,3 +12427,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 11:10:07] INFO root fetch - processPackages [SFlock2]: Remove: archive file [/home/abi/fetcher/tmp/SFlock2-0.3.51.tar.gz]
 [2023-06-26 11:10:07] INFO root fetch - main [MainThread]: End processing [SFlock2]: success
 [2023-06-26 11:10:07] INFO root fetch - main [MainThread]: Store serial: [18644354]
+[2023-06-26 11:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644354]
+[2023-06-26 11:15:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NGSpeciesID
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyMesa
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynapyt
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tabulation
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyiceberg
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zipline-tej
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RLS-Task
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: une-ai
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cubetools
+[2023-06-26 11:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydelling
+[2023-06-26 11:15:16] INFO root fetch - processPackages [dynapyt]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-26 11:15:16] INFO root fetch - processPackages [NGSpeciesID]: New version: [0.3.0] Old Version: [0.1.3]
+[2023-06-26 11:15:16] INFO root fetch - processPackages [cubetools]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-26 11:15:16] INFO root fetch - processPackages [pydelling]: New version: [1.9.1] Old Version: [1.9]
+[2023-06-26 11:15:16] INFO root fetch - processPackages [RLS-Task]: New version: [0.13.dev0] Old Version: [0.11.dev0]
+[2023-06-26 11:15:16] WARNING root fetch - processPackages [pyMesa]: Skipping, unable to determine old version
+[2023-06-26 11:15:16] INFO root fetch - processPackages [une-ai]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-26 11:15:16] INFO root fetch - processPackages [pyMesa]: Start processing: one-api-tool
+[2023-06-26 11:15:16] INFO root fetch - processPackages [pyiceberg]: New version: [0.4.0rc1] Old Version: [0.3.0rc2]
+[2023-06-26 11:15:16] INFO root fetch - main [MainThread]: End processing [pyMesa] error
+[2023-06-26 11:15:16] WARNING root fetch - processPackages [tabulation]: Skipping, unable to determine old version
+[2023-06-26 11:15:16] INFO root fetch - processPackages [tabulation]: Start processing: pymultigit
+[2023-06-26 11:15:16] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-26 11:15:16] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 11:15:16] INFO root fetch - processPackages [pymultigit]: New version: [0.0.85] Old Version: [0.0.84]
+[2023-06-26 11:15:16] INFO root fetch - processPackages [one-api-tool]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-26 11:15:17] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [RLS-Task]: Downloading https://files.pythonhosted.org/packages/df/b8/e08a9dc35c9c3a79a76c55b1d4595bc2f7db0728318beeb03193e21bf368/RLS%20Task-0.11dev.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [dynapyt]: Downloading https://files.pythonhosted.org/packages/fd/9d/f78cca8908677fdd25901a17c0fc274103f247012993c0207c3970c518e5/dynapyt-0.2.3.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pydelling]: Downloading https://files.pythonhosted.org/packages/a3/71/2b832fe77da75a61746f8b011ccc7ea358525ae1ae78b0341e41628b375b/pydelling-1.9.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [NGSpeciesID]: Downloading https://files.pythonhosted.org/packages/43/e0/0accd26700229c79fbbb3af37b3841f76fe4be32adb3fb3d3e4713c2c0e8/NGSpeciesID-0.1.3.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/c9/74/9c1b087816957a4f8b4d6a4a05d2cface2f96907b0f694a390d38ca78543/cubetools-0.4.5.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/68/d5/134eb1aa54cb836d5a80fe4bc26d610313ab314f962b1a8724508dc5fde6/pymultigit-0.0.84.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/e4/f2/c4cbea9b5a7f541a53e7e280b763c753a6b67940e2dcbc9a022ae41c2328/one-api-tool-0.3.2.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pyiceberg]: Downloading https://files.pythonhosted.org/packages/58/41/1e8eb6863a40baca1a5308a4b1774f21fd70e9a41ed57667a63490ffbf5d/pyiceberg-0.3.0rc2.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [une-ai]: Downloading https://files.pythonhosted.org/packages/18/00/2a542668e537101367665752f3fd29fdacc6086998635a8e5cf2bb4b8b1e/une_ai-1.1.0.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [RLS-Task]: Downloading https://files.pythonhosted.org/packages/11/d3/c543bac35471a1de017e70d310c278f79a2972fc626ef6d57e8d25298d7c/RLS%20Task-0.13dev.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [dynapyt]: Downloading https://files.pythonhosted.org/packages/b8/fa/5ff42b5ee8759f472473e6fe5eb3b2009e5e920e25777bf0170f39ea42f0/dynapyt-0.3.0.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230626/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 11:15:17] INFO root fetch - processPackages [NGSpeciesID]: Downloading https://files.pythonhosted.org/packages/1b/96/2d8f488d490521cbd5f8ecd7ae566d2a0aacb9b059beb5e2f2c3387211ff/NGSpeciesID-0.3.0.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [dynapyt]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [dynapyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynapyt-0.2.3.tar.gz tmp/dynapyt-0.3.0.tar.gz --markdown 20230626/d/dynapyt/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 11:15:17] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/75/8f/f438f130df4b7f674a954468bd864db4621fa5014648c76cac4fdd06e139/cubetools-0.4.6.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/76/0a/65215fc99e54b9a80473a7e86988b8a1fb208e2c74d6facfbc6771acefcc/one-api-tool-0.3.3.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pyiceberg]: Downloading https://files.pythonhosted.org/packages/30/bd/f05f434ff5c07488ab7914fb79ce0511ada14f3cbcd8c6d5fd19d93e617a/pyiceberg-0.4.0rc1.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [une-ai]: Downloading https://files.pythonhosted.org/packages/7c/ae/6ea9e0996c1280828be886544fa2cda2dd0ed1366a92d6f632a602010dc3/une_ai-1.1.1.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/da/ae/3fdc0d2b8e9ff602f72ed856c175852b58b7560da0480f5e8d83207646eb/pymultigit-0.0.85.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [RLS-Task]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [RLS-Task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RLS Task-0.11dev.tar.gz tmp/RLS Task-0.13dev.tar.gz --markdown 20230626/R/RLS-Task/0.11.dev0-0.13.dev0/diff.md --exclude *.pyd
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pydelling]: Downloading https://files.pythonhosted.org/packages/4d/b1/4a49f0016ac9d1b541d6347d823280a184b94bc566082dff0a527e78aa56/pydelling-1.9.1.tar.gz
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pyiceberg]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pyiceberg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiceberg-0.3.0rc2.tar.gz tmp/pyiceberg-0.4.0rc1.tar.gz --markdown 20230626/p/pyiceberg/0.3.0rc2-0.4.0rc1/diff.md --exclude *.pyd
+[2023-06-26 11:15:17] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.4.5.tar.gz tmp/cubetools-0.4.6.tar.gz --markdown 20230626/c/cubetools/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-26 11:15:17] INFO root fetch - processPackages [NGSpeciesID]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [NGSpeciesID]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NGSpeciesID-0.1.3.tar.gz tmp/NGSpeciesID-0.3.0.tar.gz --markdown 20230626/N/NGSpeciesID/0.1.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pydelling]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pydelling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelling-1.9.tar.gz tmp/pydelling-1.9.1.tar.gz --markdown 20230626/p/pydelling/1.9-1.9.1/diff.md --exclude *.pyd
+[2023-06-26 11:15:17] INFO root fetch - processPackages [une-ai]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [une-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/une_ai-1.1.0.tar.gz tmp/une_ai-1.1.1.tar.gz --markdown 20230626/u/une-ai/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pymultigit]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [pymultigit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultigit-0.0.84.tar.gz tmp/pymultigit-0.0.85.tar.gz --markdown 20230626/p/pymultigit/0.0.84-0.0.85/diff.md --exclude *.pyd
+[2023-06-26 11:15:17] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-06-26 11:15:17] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.3.2.tar.gz tmp/one-api-tool-0.3.3.tar.gz --markdown 20230626/o/one-api-tool/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-26 11:15:18] INFO root fetch - processPackages [RLS-Task]: Remove: archive file [/home/abi/fetcher/tmp/RLS Task-0.11dev.tar.gz]
+[2023-06-26 11:15:18] INFO root fetch - processPackages [RLS-Task]: Remove: archive file [/home/abi/fetcher/tmp/RLS Task-0.13dev.tar.gz]
+[2023-06-26 11:15:18] INFO root fetch - processPackages [RLS-Task]: Start processing: cwltool
+[2023-06-26 11:15:18] INFO root fetch - main [MainThread]: End processing [RLS-Task]: success
+[2023-06-26 11:15:19] INFO root fetch - processPackages [dynapyt]: Remove: archive file [/home/abi/fetcher/tmp/dynapyt-0.2.3.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - processPackages [dynapyt]: Remove: archive file [/home/abi/fetcher/tmp/dynapyt-0.3.0.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - processPackages [dynapyt]: Start processing: sortingx
+[2023-06-26 11:15:19] INFO root fetch - main [MainThread]: End processing [dynapyt]: success
+[2023-06-26 11:15:19] INFO root fetch - processPackages [cwltool]: New version: [3.1.20230624081518] Old Version: [3.1.20230601100705]
+[2023-06-26 11:15:19] INFO root fetch - processPackages [sortingx]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-26 11:15:19] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.5.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - processPackages [cubetools]: Remove: archive file [/home/abi/fetcher/tmp/cubetools-0.4.6.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-06-26 11:15:19] INFO root fetch - processPackages [une-ai]: Remove: archive file [/home/abi/fetcher/tmp/une_ai-1.1.0.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - processPackages [une-ai]: Remove: archive file [/home/abi/fetcher/tmp/une_ai-1.1.1.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - main [MainThread]: End processing [une-ai]: success
+[2023-06-26 11:15:19] INFO root fetch - processPackages [cwltool]: Downloading https://files.pythonhosted.org/packages/28/84/1a22e454bebf6329eb4900efa0d1e222d17ea84cd98390aeaf26a6ad3c3b/cwltool-3.1.20230601100705.tar.gz
+[2023-06-26 11:15:19] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.2.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.3.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-06-26 11:15:19] INFO root fetch - processPackages [sortingx]: Downloading https://files.pythonhosted.org/packages/55/da/facc2efa6c223211faf8d47c11e1193317646a381277250aebc0d94dc1c8/sortingx-1.3.1.tar.gz
+[2023-06-26 11:15:19] INFO root fetch - processPackages [pymultigit]: Remove: archive file [/home/abi/fetcher/tmp/pymultigit-0.0.84.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - processPackages [pymultigit]: Remove: archive file [/home/abi/fetcher/tmp/pymultigit-0.0.85.tar.gz]
+[2023-06-26 11:15:19] INFO root fetch - main [MainThread]: End processing [pymultigit]: success
+[2023-06-26 11:15:19] INFO root fetch - processPackages [cwltool]: Downloading https://files.pythonhosted.org/packages/54/2b/36d285fe4f8688f985c4defbdaed38f6778901ab9d6a519f84523d3fdb43/cwltool-3.1.20230624081518.tar.gz
+[2023-06-26 11:15:19] INFO root fetch - processPackages [sortingx]: Downloading https://files.pythonhosted.org/packages/67/46/50c69bbc769a794501472e2bcba837d13168e3d809fd9ee49ea1cc93a4ce/sortingx-1.3.2.tar.gz
+[2023-06-26 11:15:19] INFO root fetch - processPackages [sortingx]: executing diffoscope
+[2023-06-26 11:15:19] INFO root fetch - processPackages [sortingx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortingx-1.3.1.tar.gz tmp/sortingx-1.3.2.tar.gz --markdown 20230626/s/sortingx/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-26 11:15:20] INFO root fetch - processPackages [cwltool]: executing diffoscope
+[2023-06-26 11:15:20] INFO root fetch - processPackages [cwltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwltool-3.1.20230601100705.tar.gz tmp/cwltool-3.1.20230624081518.tar.gz --markdown 20230626/c/cwltool/3.1.20230601100705-3.1.20230624081518/diff.md --exclude *.pyd
+[2023-06-26 11:15:21] INFO root fetch - processPackages [sortingx]: Remove: archive file [/home/abi/fetcher/tmp/sortingx-1.3.1.tar.gz]
+[2023-06-26 11:15:21] INFO root fetch - processPackages [sortingx]: Remove: archive file [/home/abi/fetcher/tmp/sortingx-1.3.2.tar.gz]
+[2023-06-26 11:15:21] INFO root fetch - main [MainThread]: End processing [sortingx]: success
+[2023-06-26 11:15:21] INFO root fetch - processPackages [pydelling]: Remove: archive file [/home/abi/fetcher/tmp/pydelling-1.9.tar.gz]
+[2023-06-26 11:15:21] INFO root fetch - processPackages [pydelling]: Remove: archive file [/home/abi/fetcher/tmp/pydelling-1.9.1.tar.gz]
+[2023-06-26 11:15:21] INFO root fetch - main [MainThread]: End processing [pydelling]: success
+[2023-06-26 11:15:21] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-26 11:15:21] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-26 11:15:21] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-26 11:15:22] INFO root fetch - processPackages [NGSpeciesID]: Remove: archive file [/home/abi/fetcher/tmp/NGSpeciesID-0.1.3.tar.gz]
+[2023-06-26 11:15:22] INFO root fetch - processPackages [NGSpeciesID]: Remove: archive file [/home/abi/fetcher/tmp/NGSpeciesID-0.3.0.tar.gz]
+[2023-06-26 11:15:22] INFO root fetch - main [MainThread]: End processing [NGSpeciesID]: success
+[2023-06-26 11:15:23] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.3.0rc2.tar.gz]
+[2023-06-26 11:15:23] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.4.0rc1.tar.gz]
+[2023-06-26 11:15:23] INFO root fetch - main [MainThread]: End processing [pyiceberg]: success
+[2023-06-26 11:15:27] INFO root fetch - processPackages [cwltool]: Remove: archive file [/home/abi/fetcher/tmp/cwltool-3.1.20230601100705.tar.gz]
+[2023-06-26 11:15:27] INFO root fetch - processPackages [cwltool]: Remove: archive file [/home/abi/fetcher/tmp/cwltool-3.1.20230624081518.tar.gz]
+[2023-06-26 11:15:27] INFO root fetch - main [MainThread]: End processing [cwltool]: success
+[2023-06-26 11:15:27] INFO root fetch - main [MainThread]: Store serial: [18644397]
