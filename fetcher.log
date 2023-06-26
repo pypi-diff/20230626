@@ -7522,3 +7522,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 06:57:17] INFO root fetch - main [MainThread]: End processing [trtpg]: success
 [2023-06-26 06:57:17] INFO root fetch - main [MainThread]: End processing [trtpg]: success
 [2023-06-26 06:57:17] INFO root fetch - main [MainThread]: Store serial: [18642200]
+[2023-06-26 07:02:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642200]
+[2023-06-26 07:02:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-26 07:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: niapi
+[2023-06-26 07:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: judini
+[2023-06-26 07:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbcat
+[2023-06-26 07:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChatGPT-Cloud
+[2023-06-26 07:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: JustScan
+[2023-06-26 07:02:26] INFO root fetch - processPackages [judini]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 07:02:26] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-26 07:02:26] INFO root fetch - processPackages [niapi]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-26 07:02:26] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-26 07:02:26] INFO root fetch - processPackages [ChatGPT-Cloud]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-26 07:02:26] INFO root fetch - processPackages [dbcat]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-26 07:02:26] INFO root fetch - processPackages [judini]: Downloading https://files.pythonhosted.org/packages/58/bb/52bcd904d7b5f2338ad3d4567632fb94c84e884f0d082e87b4ffc2aeeef3/judini-0.0.4.tar.gz
+[2023-06-26 07:02:26] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-26 07:02:26] INFO root fetch - processPackages [niapi]: Downloading https://files.pythonhosted.org/packages/77/e1/cf99ebef98a50707aa8f52444f8869f8feb4222b7a619188f2d2c0949d4b/niapi-0.3.0.tar.gz
+[2023-06-26 07:02:26] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/d5/88/f08bc34464e5b53901888d4fc99e35c363844b3de4c34fd9a73ba742aa67/ChatGPT-Cloud-0.6.0.tar.gz
+[2023-06-26 07:02:26] INFO root fetch - processPackages [dbcat]: Downloading https://files.pythonhosted.org/packages/f1/ae/fa192ff75a12987e6e5f65d41d67c8c0d5fc78d5fbaff9d6559bfc6a6a29/dbcat-0.8.3.tar.gz
+[2023-06-26 07:02:26] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-26 07:02:26] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230626/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-26 07:02:26] INFO root fetch - processPackages [judini]: Downloading https://files.pythonhosted.org/packages/e8/b1/028232703e50df686216da9cac0bda98ec8e03b09cb08bffb84f5a1e2896/judini-0.0.5.tar.gz
+[2023-06-26 07:02:27] INFO root fetch - processPackages [judini]: executing diffoscope
+[2023-06-26 07:02:27] INFO root fetch - processPackages [judini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/judini-0.0.4.tar.gz tmp/judini-0.0.5.tar.gz --markdown 20230626/j/judini/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 07:02:27] INFO root fetch - processPackages [niapi]: Downloading https://files.pythonhosted.org/packages/08/40/e36a8bf3f77c3325fe5a1a7e0426ebe5cd1a0e7520264029345c09f67b48/niapi-0.4.0.tar.gz
+[2023-06-26 07:02:27] INFO root fetch - processPackages [dbcat]: Downloading https://files.pythonhosted.org/packages/ca/9e/740406c6bf41ab2c5dc2c9c1d5c85eecbd1a09afdfe5f46f6ba93eb8916c/dbcat-0.9.0.tar.gz
+[2023-06-26 07:02:27] INFO root fetch - processPackages [niapi]: executing diffoscope
+[2023-06-26 07:02:27] INFO root fetch - processPackages [niapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niapi-0.3.0.tar.gz tmp/niapi-0.4.0.tar.gz --markdown 20230626/n/niapi/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-26 07:02:27] INFO root fetch - processPackages [dbcat]: executing diffoscope
+[2023-06-26 07:02:27] INFO root fetch - processPackages [dbcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbcat-0.8.3.tar.gz tmp/dbcat-0.9.0.tar.gz --markdown 20230626/d/dbcat/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 07:02:27] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/a4/ac/52f0476ea5eb199191e8a992221ff0f6c244c4a1b25f5e02449bafbb94a4/ChatGPT-Cloud-0.6.1.tar.gz
+[2023-06-26 07:02:28] INFO root fetch - processPackages [ChatGPT-Cloud]: executing diffoscope
+[2023-06-26 07:02:28] INFO root fetch - processPackages [ChatGPT-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPT-Cloud-0.6.0.tar.gz tmp/ChatGPT-Cloud-0.6.1.tar.gz --markdown 20230626/C/ChatGPT-Cloud/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-26 07:02:28] INFO root fetch - processPackages [judini]: Remove: archive file [/home/abi/fetcher/tmp/judini-0.0.4.tar.gz]
+[2023-06-26 07:02:28] INFO root fetch - processPackages [judini]: Remove: archive file [/home/abi/fetcher/tmp/judini-0.0.5.tar.gz]
+[2023-06-26 07:02:28] INFO root fetch - main [MainThread]: End processing [judini]: success
+[2023-06-26 07:02:28] INFO root fetch - processPackages [niapi]: Remove: archive file [/home/abi/fetcher/tmp/niapi-0.3.0.tar.gz]
+[2023-06-26 07:02:28] INFO root fetch - processPackages [niapi]: Remove: archive file [/home/abi/fetcher/tmp/niapi-0.4.0.tar.gz]
+[2023-06-26 07:02:28] INFO root fetch - main [MainThread]: End processing [niapi]: success
+[2023-06-26 07:02:28] INFO root fetch - processPackages [dbcat]: Remove: archive file [/home/abi/fetcher/tmp/dbcat-0.8.3.tar.gz]
+[2023-06-26 07:02:28] INFO root fetch - processPackages [dbcat]: Remove: archive file [/home/abi/fetcher/tmp/dbcat-0.9.0.tar.gz]
+[2023-06-26 07:02:28] INFO root fetch - main [MainThread]: End processing [dbcat]: success
+[2023-06-26 07:02:30] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-26 07:02:30] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-26 07:02:30] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-26 07:02:30] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.0.tar.gz]
+[2023-06-26 07:02:30] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.1.tar.gz]
+[2023-06-26 07:02:30] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
+[2023-06-26 07:02:30] INFO root fetch - main [MainThread]: Store serial: [18642221]
