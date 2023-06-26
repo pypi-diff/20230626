@@ -21896,3 +21896,213 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:02:23] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.9.tar.gz]
 [2023-06-26 17:02:23] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
 [2023-06-26 17:02:23] INFO root fetch - main [MainThread]: Store serial: [18648618]
+[2023-06-26 17:07:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648618]
+[2023-06-26 17:07:32] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blackboardsync
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dwiqc
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatgpt-functions
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taktile-auth
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gundi-core
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steam-sdk
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gh-utils
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napalm-nokia-olt
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb
+[2023-06-26 17:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-client
+[2023-06-26 17:07:32] INFO root fetch - processPackages [chatgpt-functions]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [gundi-core]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [taktile-auth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [dwiqc]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.4rc3] Old Version: [0.9.4rc2]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [gh-utils]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-26 17:07:32] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/f2/e7/76fe771f9b583c90c353da77e70894eb04e3f78092ccf4c2a426168d91a8/napalm_nokia_olt-0.0.8.tar.gz
+[2023-06-26 17:07:32] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/d8/d0/4d9687436a383b4302f7b27bb93175d13ec8a24b6bb2e3f1199f7968a6ad/blackboardsync-0.9.4rc2.tar.gz
+[2023-06-26 17:07:32] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/7c/8f/3d96c0c2a1cf204d064be9604de7069a8d3065732c8ca1d68180fd77cbb1/chatgpt_functions-0.0.3.tar.gz
+[2023-06-26 17:07:32] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e9/f9/e883083a5a0915d9eef487a6fa094cee59f24bf25f983e64b02d3dd71a9f/nucliadb_client-2.9.0.post266-py3-none-any.whl
+[2023-06-26 17:07:32] INFO root fetch - processPackages [taktile-auth]: Downloading https://files.pythonhosted.org/packages/78/c7/800b4beea76c590ebcdd1aab9afb19f296e7cdab4526fda6486f8c5ec53e/taktile-auth-0.0.8.tar.gz
+[2023-06-26 17:07:32] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/3b/ff/313929d5d470ce29a653ee71924ed3c14de0a838d1bfa1cc06fdcfca2475/dwiqc-0.5.3-py2.py3-none-any.whl
+[2023-06-26 17:07:32] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2023-06-26 17:07:32] INFO root fetch - processPackages [gh-utils]: Downloading https://files.pythonhosted.org/packages/a6/fc/8ba7b4a19baf9e1d24595529a476195892d9ce29b5db4a6df37372d690ad/gh_utils-0.6.6.tar.gz
+[2023-06-26 17:07:32] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/26/2c/2d428aaa0eada11aa4a6c98d7b6ac6a03d899bdc8f46115a074d73a878fe/napalm_nokia_olt-0.0.9.tar.gz
+[2023-06-26 17:07:32] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/60/2c/3c21c0815edf029e79c95d2f5fccd2a2f589a21e648b6c3ea6a2a61d7c1e/steam-sdk-2023.6.8.tar.gz
+[2023-06-26 17:07:32] INFO root fetch - processPackages [gundi-core]: Downloading https://files.pythonhosted.org/packages/5e/ca/ab65472b2576ae88c9c37b865c10e0e52572f0584a5fc0ede50e013ab2ef/gundi_core-1.0.4.tar.gz
+[2023-06-26 17:07:33] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.8.tar.gz tmp/napalm_nokia_olt-0.0.9.tar.gz --markdown 20230626/n/napalm-nokia-olt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:07:33] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/82/76/f335e9271ddcd6861c5083d7292bf4676a6d9259f477d6724ede2258f166/chatgpt_functions-0.0.4.tar.gz
+[2023-06-26 17:07:33] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/4c/a2/cdd8703c45223d929b6b43d6e72b445b960b09a6783adaf4d9d030d3ef69/dwiqc-0.5.4-py2.py3-none-any.whl
+[2023-06-26 17:07:33] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/24/40/81827f509054d15496de510289a599e8f6d34f706b2371d86d048fbc0db0/nucliadb_client-2.9.0.post267-py3-none-any.whl
+[2023-06-26 17:07:33] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/4b/70/38940917ed46f842e89a1486a08458fd6602677272f9eddfba444a150949/blackboardsync-0.9.4rc3.tar.gz
+[2023-06-26 17:07:33] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2023-06-26 17:07:33] INFO root fetch - processPackages [gundi-core]: Downloading https://files.pythonhosted.org/packages/52/67/6cfe4ca54457391813d7c1e66b8183deb4b5dd36456385da1e50cf5db6d5/gundi_core-1.0.5.tar.gz
+[2023-06-26 17:07:33] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230626/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-26 17:07:33] INFO root fetch - processPackages [gh-utils]: Downloading https://files.pythonhosted.org/packages/4a/59/4dd50ea91a86bf7baab7a6cc3503d88afd9e38d36ac7490f93c3497e79b4/gh_utils-0.6.7.tar.gz
+[2023-06-26 17:07:33] INFO root fetch - processPackages [taktile-auth]: Downloading https://files.pythonhosted.org/packages/fc/81/f433d9604f88f2411f1198281d506bcbd0caf1e00cd3b0e8d55c1ee399d3/taktile-auth-0.0.9.tar.gz
+[2023-06-26 17:07:33] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.5.3-py2.py3-none-any.whl.zip tmp/dwiqc-0.5.4-py2.py3-none-any.whl.zip --markdown 20230626/d/dwiqc/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-26 17:07:33] INFO root fetch - processPackages [chatgpt-functions]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [chatgpt-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_functions-0.0.3.tar.gz tmp/chatgpt_functions-0.0.4.tar.gz --markdown 20230626/c/chatgpt-functions/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 17:07:33] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230626/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-26 17:07:33] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/cf/10/2b634f09e25cfaaa5b5c4ea8889e69240ff6c0ad61d248fcbfd14e6aa988/steam-sdk-2023.6.9.tar.gz
+[2023-06-26 17:07:33] INFO root fetch - processPackages [gundi-core]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [gundi-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gundi_core-1.0.4.tar.gz tmp/gundi_core-1.0.5.tar.gz --markdown 20230626/g/gundi-core/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-26 17:07:33] INFO root fetch - processPackages [gh-utils]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [gh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_utils-0.6.6.tar.gz tmp/gh_utils-0.6.7.tar.gz --markdown 20230626/g/gh-utils/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-26 17:07:33] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.4rc2.tar.gz tmp/blackboardsync-0.9.4rc3.tar.gz --markdown 20230626/b/blackboardsync/0.9.4rc2-0.9.4rc3/diff.md --exclude *.pyd
+[2023-06-26 17:07:33] INFO root fetch - processPackages [taktile-auth]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [taktile-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taktile-auth-0.0.8.tar.gz tmp/taktile-auth-0.0.9.tar.gz --markdown 20230626/t/taktile-auth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:07:33] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-26 17:07:33] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.8.tar.gz tmp/steam-sdk-2023.6.9.tar.gz --markdown 20230626/s/steam-sdk/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-26 17:07:35] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.0.3.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.0.4.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [chatgpt-functions]: Start processing: nucliadb-dataset
+[2023-06-26 17:07:35] INFO root fetch - main [MainThread]: End processing [chatgpt-functions]: success
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.3-py2.py3-none-any.whl.zip]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.4-py2.py3-none-any.whl.zip]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [dwiqc]: Start processing: nucliadb-models
+[2023-06-26 17:07:35] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.8.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.9.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [napalm-nokia-olt]: Start processing: nucliadb-protos
+[2023-06-26 17:07:35] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-06-26 17:07:35] INFO root fetch - processPackages [gundi-core]: Remove: archive file [/home/abi/fetcher/tmp/gundi_core-1.0.4.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [gundi-core]: Remove: archive file [/home/abi/fetcher/tmp/gundi_core-1.0.5.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [gundi-core]: Start processing: nucliadb-sdk
+[2023-06-26 17:07:35] INFO root fetch - main [MainThread]: End processing [gundi-core]: success
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-client]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-06-26 17:07:35] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-06-26 17:07:35] INFO root fetch - processPackages [gh-utils]: Remove: archive file [/home/abi/fetcher/tmp/gh_utils-0.6.6.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [gh-utils]: Remove: archive file [/home/abi/fetcher/tmp/gh_utils-0.6.7.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [gh-utils]: Start processing: nexus-utilities
+[2023-06-26 17:07:35] INFO root fetch - main [MainThread]: End processing [gh-utils]: success
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nexus-utilities]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [taktile-auth]: Remove: archive file [/home/abi/fetcher/tmp/taktile-auth-0.0.8.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [taktile-auth]: Remove: archive file [/home/abi/fetcher/tmp/taktile-auth-0.0.9.tar.gz]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [taktile-auth]: Start processing: tensorflow-text-nightly
+[2023-06-26 17:07:35] INFO root fetch - main [MainThread]: End processing [taktile-auth]: success
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nexus-utilities]: Downloading https://files.pythonhosted.org/packages/b7/1e/488ccb01fa1f1f134ba3d14b750242ca30c1477043debce1844a9aab59e7/nexus-utilities-0.7.0.tar.gz
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230625] Old Version: [2.14.0.dev20230624]
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230626/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230626/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230626/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230626/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nexus-utilities]: Downloading https://files.pythonhosted.org/packages/99/87/09dc089a8e3b5975faed4e4b3fa250d46b33ae7d22d4ddb8c436145fb3f6/nexus-utilities-0.8.0.tar.gz
+[2023-06-26 17:07:35] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/9d/af/936696dd2ff35e82fd8579b6991b4a81a38329350a4416b1d37fd9d8fb02/tensorflow_text_nightly-2.14.0.dev20230624-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230626/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nexus-utilities]: executing diffoscope
+[2023-06-26 17:07:35] INFO root fetch - processPackages [nexus-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus-utilities-0.7.0.tar.gz tmp/nexus-utilities-0.8.0.tar.gz --markdown 20230626/n/nexus-utilities/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-26 17:07:36] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/d4/66/29bfb86434b7258e6bdb4c69621315c19b1f26bc199bbf2c7df35884f6d2/tensorflow_text_nightly-2.14.0.dev20230625-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:07:36] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-26 17:07:36] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230624-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230625-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230626/t/tensorflow-text-nightly/2.14.0.dev20230624-2.14.0.dev20230625/diff.md --exclude *.pyd
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: cardsort
+[2023-06-26 17:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-06-26 17:07:37] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.4rc2.tar.gz]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.4rc3.tar.gz]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [blackboardsync]: Start processing: flowtask
+[2023-06-26 17:07:37] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-models]: Start processing: PyQt-Fluent-Widgets
+[2023-06-26 17:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-06-26 17:07:37] INFO root fetch - processPackages [flowtask]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: memoiz
+[2023-06-26 17:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-06-26 17:07:37] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:07:37] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-06-26 17:07:37] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0d/30/629d83990b4cd4b5d547fa7142fee045a55e0efd28d6a75da7341c8d7aa2/PyQt-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-26 17:07:37] INFO root fetch - processPackages [memoiz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-protos]: Start processing: scikit-rt
+[2023-06-26 17:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-06-26 17:07:37] INFO root fetch - processPackages [scikit-rt]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/76/cb/ef23ff55853e577b3477d762009a1fc68908a244c1bfb016650886d6699b/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:07:37] INFO root fetch - processPackages [memoiz]: Downloading https://files.pythonhosted.org/packages/19/33/5c48736c8f1f397d2cfd1acfe1a4d629b08cdc7b84e1358c507d23419e91/memoiz-0.0.8.tar.gz
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb]: Start processing: drift-cli
+[2023-06-26 17:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-06-26 17:07:37] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/1b/3d/eb89bbee6b5c8d365fe39dfbc82850cc30ea0f2fc375c5451a0d6c0c43c7/scikit-rt-0.4.9.tar.gz
+[2023-06-26 17:07:37] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/45/99/a53cc088804e0ed85b809c5b42b2034e732e7a4299763ed6c8e1fad1f470/PyQt-Fluent-Widgets-0.9.9.tar.gz
+[2023-06-26 17:07:37] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-26 17:07:37] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230626/f/flowtask/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-06-26 17:07:37] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2023-06-26 17:07:37] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-06-26 17:07:37] INFO root fetch - processPackages [drift-cli]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-26 17:07:37] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-06-26 17:07:37] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230626/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 17:07:38] INFO root fetch - processPackages [drift-cli]: Downloading https://files.pythonhosted.org/packages/5a/f3/5c770de85966867c8110327e7cae73ae1e73375f2f4d9249e78dcf432c1d/drift_cli-0.6.1-py3-none-any.whl
+[2023-06-26 17:07:38] INFO root fetch - processPackages [nexus-utilities]: Remove: archive file [/home/abi/fetcher/tmp/nexus-utilities-0.7.0.tar.gz]
+[2023-06-26 17:07:38] INFO root fetch - processPackages [nexus-utilities]: Remove: archive file [/home/abi/fetcher/tmp/nexus-utilities-0.8.0.tar.gz]
+[2023-06-26 17:07:38] INFO root fetch - main [MainThread]: End processing [nexus-utilities]: success
+[2023-06-26 17:07:38] INFO root fetch - processPackages [memoiz]: Downloading https://files.pythonhosted.org/packages/5a/7e/c377724838098bb3c1a1feda282b96569d4e64e21897ddb23e48c97436b2/memoiz-0.0.9.tar.gz
+[2023-06-26 17:07:38] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/9f/8e/1e9db30d4244fd804b6f2149e641fa5986bf5e7751b686e0fa1115e143dd/scikit-rt-0.5.0.tar.gz
+[2023-06-26 17:07:38] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-06-26 17:07:38] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz --markdown 20230626/P/PyQt-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 17:07:38] INFO root fetch - processPackages [memoiz]: executing diffoscope
+[2023-06-26 17:07:38] INFO root fetch - processPackages [memoiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memoiz-0.0.8.tar.gz tmp/memoiz-0.0.9.tar.gz --markdown 20230626/m/memoiz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:07:38] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-06-26 17:07:38] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.4.9.tar.gz tmp/scikit-rt-0.5.0.tar.gz --markdown 20230626/s/scikit-rt/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-26 17:07:38] INFO root fetch - processPackages [drift-cli]: Downloading https://files.pythonhosted.org/packages/58/a5/43d4f499058c2b6e97116e94c17da44aae78db8f38f95b19d7937a885996/drift_cli-0.7.0-py3-none-any.whl
+[2023-06-26 17:07:38] INFO root fetch - processPackages [drift-cli]: executing diffoscope
+[2023-06-26 17:07:38] INFO root fetch - processPackages [drift-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drift_cli-0.6.1-py3-none-any.whl.zip tmp/drift_cli-0.7.0-py3-none-any.whl.zip --markdown 20230626/d/drift-cli/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-26 17:07:38] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.8.tar.gz]
+[2023-06-26 17:07:38] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
+[2023-06-26 17:07:38] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-26 17:07:39] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-06-26 17:07:39] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-06-26 17:07:39] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-06-26 17:07:39] INFO root fetch - processPackages [memoiz]: Remove: archive file [/home/abi/fetcher/tmp/memoiz-0.0.8.tar.gz]
+[2023-06-26 17:07:39] INFO root fetch - processPackages [memoiz]: Remove: archive file [/home/abi/fetcher/tmp/memoiz-0.0.9.tar.gz]
+[2023-06-26 17:07:39] INFO root fetch - main [MainThread]: End processing [memoiz]: success
+[2023-06-26 17:07:39] INFO root fetch - processPackages [drift-cli]: Remove: archive file [/home/abi/fetcher/tmp/drift_cli-0.6.1-py3-none-any.whl.zip]
+[2023-06-26 17:07:39] INFO root fetch - processPackages [drift-cli]: Remove: archive file [/home/abi/fetcher/tmp/drift_cli-0.7.0-py3-none-any.whl.zip]
+[2023-06-26 17:07:39] INFO root fetch - main [MainThread]: End processing [drift-cli]: success
+[2023-06-26 17:07:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-26 17:07:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz]
+[2023-06-26 17:07:40] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-06-26 17:07:40] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230624-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:07:40] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230625-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:07:40] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-26 17:07:41] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.4.9.tar.gz]
+[2023-06-26 17:07:41] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.0.tar.gz]
+[2023-06-26 17:07:41] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-06-26 17:07:42] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:07:42] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:07:42] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-26 17:07:42] INFO root fetch - main [MainThread]: Store serial: [18648684]
