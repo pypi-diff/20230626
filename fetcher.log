@@ -21547,3 +21547,179 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 16:51:06] INFO root fetch - processPackages [dj-qiyu-tpl]: Remove: archive file [/home/abi/fetcher/tmp/dj_qiyu_tpl-0.7.1.tar.gz]
 [2023-06-26 16:51:06] INFO root fetch - main [MainThread]: End processing [dj-qiyu-tpl]: success
 [2023-06-26 16:51:06] INFO root fetch - main [MainThread]: Store serial: [18648503]
+[2023-06-26 16:56:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648503]
+[2023-06-26 16:56:16] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: v8unpack
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terraformer
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xecta-data-api-client
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SpatialViewPy
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-bank-python
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-id-python
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-organization-python
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gracy
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipymuvue
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: actsecmodel
+[2023-06-26 16:56:16] INFO root fetch - processPackages [xecta-data-api-client]: New version: [2.0.20230626.1] Old Version: [2.0.20230418.1]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [v8unpack]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [SpatialViewPy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [actsecmodel]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ipymuvue]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [terraformer]: New version: [0.3.1] Old Version: [0.2.0]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 16:56:16] INFO root fetch - processPackages [actsecmodel]: Downloading https://files.pythonhosted.org/packages/91/b4/8e1e169cef3011b35ccdf1982f35f23af52a7d16301b87575cc478ddb89c/actsecmodel-0.0.2.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/cd/1f/c880607a2c92ea7edf79b474fe69127bf700211792b250de5688cc0f35c4/gracy-1.9.0.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [v8unpack]: Downloading https://files.pythonhosted.org/packages/08/03/98124648a95bcb037324f1ee104dc94b46478b5cdd544f7a874c137dada5/v8unpack-0.9.2.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [xecta-data-api-client]: Downloading https://files.pythonhosted.org/packages/af/1f/2ded117e8383a2da9eba3edad02c02be2fb5595d2cd56b3d49ed43d16e9e/xecta_data_api_client-2.0.20230418.1-py2.py3-none-any.whl
+[2023-06-26 16:56:16] INFO root fetch - processPackages [terraformer]: Downloading https://files.pythonhosted.org/packages/e8/79/e0b3c154d0abb252517c6a91454f97c5c0ddd9810ee9508a2570e33a79f1/terraformer-0.2.0.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [SpatialViewPy]: Downloading https://files.pythonhosted.org/packages/bc/49/269a23028da96c4ffcab6d799993646cc7d1b38d6e36dd571043c5eb7682/SpatialViewPy-0.1.1.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [ipymuvue]: Downloading https://files.pythonhosted.org/packages/54/84/bc8ed1f0a4dc07deb897c8f680f325caed9d70793e842db12d2181f81d2b/ipymuvue-0.2.2.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-26 16:56:16] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-26 16:56:17] INFO root fetch - processPackages [actsecmodel]: Downloading https://files.pythonhosted.org/packages/e6/7b/bc380b44a10d5f97fb13fa7115261926c494cc15955f90aabad4d3ce3743/actsecmodel-0.0.3.tar.gz
+[2023-06-26 16:56:17] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230626/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 16:56:17] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/1e/6f/ce2bfb2b73be0d267e60d390c02a83bd9ad556c22357258727c677517895/gracy-1.9.1.tar.gz
+[2023-06-26 16:56:17] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230626/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 16:56:17] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230626/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 16:56:17] INFO root fetch - processPackages [xecta-data-api-client]: Downloading https://files.pythonhosted.org/packages/fd/2d/96320448abfd50353645e8e8c12e4bedad99369fabf33ea33297126fa859/xecta_data_api_client-2.0.20230626.1-py2.py3-none-any.whl
+[2023-06-26 16:56:17] INFO root fetch - processPackages [SpatialViewPy]: Downloading https://files.pythonhosted.org/packages/11/9b/76f87d5a7eea21ad0908580c961a46119e6b9bd9f8847ba84acf4b9b168d/SpatialViewPy-0.1.2.tar.gz
+[2023-06-26 16:56:17] INFO root fetch - processPackages [v8unpack]: Downloading https://files.pythonhosted.org/packages/d4/64/0da11cb521c6c2964e5528bda0112e9d37623a5d326ab0631d52ca03a487/v8unpack-0.9.3.tar.gz
+[2023-06-26 16:56:17] INFO root fetch - processPackages [actsecmodel]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [actsecmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actsecmodel-0.0.2.tar.gz tmp/actsecmodel-0.0.3.tar.gz --markdown 20230626/a/actsecmodel/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 16:56:17] INFO root fetch - processPackages [terraformer]: Downloading https://files.pythonhosted.org/packages/6d/06/81f80f6e87f27a5fbcfaed71c7cb2dff09014c3979f3ec37aa3d8965d73a/terraformer-0.3.1.tar.gz
+[2023-06-26 16:56:17] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230626/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-26 16:56:17] INFO root fetch - processPackages [xecta-data-api-client]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [xecta-data-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xecta_data_api_client-2.0.20230418.1-py2.py3-none-any.whl.zip tmp/xecta_data_api_client-2.0.20230626.1-py2.py3-none-any.whl.zip --markdown 20230626/x/xecta-data-api-client/2.0.20230418.1-2.0.20230626.1/diff.md --exclude *.pyd
+[2023-06-26 16:56:17] INFO root fetch - processPackages [SpatialViewPy]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [SpatialViewPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialViewPy-0.1.1.tar.gz tmp/SpatialViewPy-0.1.2.tar.gz --markdown 20230626/S/SpatialViewPy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 16:56:17] INFO root fetch - processPackages [terraformer]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [terraformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraformer-0.2.0.tar.gz tmp/terraformer-0.3.1.tar.gz --markdown 20230626/t/terraformer/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 16:56:17] INFO root fetch - processPackages [v8unpack]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [v8unpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v8unpack-0.9.2.tar.gz tmp/v8unpack-0.9.3.tar.gz --markdown 20230626/v/v8unpack/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-26 16:56:17] INFO root fetch - processPackages [ipymuvue]: Downloading https://files.pythonhosted.org/packages/3e/de/27421fb42edf22a3d2a2cc423f044a2a9e7c99e93a6691e800f0a2fd062f/ipymuvue-0.3.0.tar.gz
+[2023-06-26 16:56:17] INFO root fetch - processPackages [ipymuvue]: executing diffoscope
+[2023-06-26 16:56:17] INFO root fetch - processPackages [ipymuvue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymuvue-0.2.2.tar.gz tmp/ipymuvue-0.3.0.tar.gz --markdown 20230626/i/ipymuvue/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 16:56:18] INFO root fetch - processPackages [actsecmodel]: Remove: archive file [/home/abi/fetcher/tmp/actsecmodel-0.0.2.tar.gz]
+[2023-06-26 16:56:18] INFO root fetch - processPackages [actsecmodel]: Remove: archive file [/home/abi/fetcher/tmp/actsecmodel-0.0.3.tar.gz]
+[2023-06-26 16:56:18] INFO root fetch - processPackages [actsecmodel]: Start processing: tap-facebook
+[2023-06-26 16:56:18] INFO root fetch - main [MainThread]: End processing [actsecmodel]: success
+[2023-06-26 16:56:18] INFO root fetch - processPackages [tap-facebook]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-06-26 16:56:18] INFO root fetch - processPackages [tap-facebook]: Downloading https://files.pythonhosted.org/packages/13/1e/bd8f4ff44dc2b3d2b9dc085c68d7244ee5c9f79cd01af30a0e428cc80bab/tap-facebook-1.9.6.tar.gz
+[2023-06-26 16:56:18] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-26 16:56:18] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-26 16:56:18] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: odoo14-addon-ddmrp-warning
+[2023-06-26 16:56:18] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-26 16:56:18] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev1]
+[2023-06-26 16:56:18] INFO root fetch - processPackages [v8unpack]: Remove: archive file [/home/abi/fetcher/tmp/v8unpack-0.9.2.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [v8unpack]: Remove: archive file [/home/abi/fetcher/tmp/v8unpack-0.9.3.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [v8unpack]: Start processing: pytmv1
+[2023-06-26 16:56:19] INFO root fetch - main [MainThread]: End processing [v8unpack]: success
+[2023-06-26 16:56:19] INFO root fetch - processPackages [pytmv1]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [xecta-data-api-client]: Remove: archive file [/home/abi/fetcher/tmp/xecta_data_api_client-2.0.20230418.1-py2.py3-none-any.whl.zip]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [xecta-data-api-client]: Remove: archive file [/home/abi/fetcher/tmp/xecta_data_api_client-2.0.20230626.1-py2.py3-none-any.whl.zip]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [xecta-data-api-client]: Start processing: kodexa-cli
+[2023-06-26 16:56:19] INFO root fetch - main [MainThread]: End processing [xecta-data-api-client]: success
+[2023-06-26 16:56:19] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/35/e1/e28d2655b0fe8ae399dee63f35b915d3d0a853566f308c980f52d42cc0c2/odoo14_addon_ddmrp_warning-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-26 16:56:19] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25379660892] Old Version: [6.2.25379522485]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/1b/a6/4fccb495c09fc300325c29f5b0ef12e263f84c43ce3378325cc2f61c5903/kodexa_cli-6.2.25379522485.tar.gz
+[2023-06-26 16:56:19] INFO root fetch - processPackages [pytmv1]: Downloading https://files.pythonhosted.org/packages/ea/33/069f87476b4ec175ee509b7c700478db3b4cf39b3d6b36fc40d904e262cf/pytmv1-0.5.4.tar.gz
+[2023-06-26 16:56:19] INFO root fetch - processPackages [tap-facebook]: Downloading https://files.pythonhosted.org/packages/6c/71/7a39d23b96039020caab8dca07e366f8538192eea5d6fff51158abd1fcbb/tap-facebook-1.9.7.tar.gz
+[2023-06-26 16:56:19] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.0.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.1.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [gracy]: Start processing: flora-utils-py
+[2023-06-26 16:56:19] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-06-26 16:56:19] INFO root fetch - processPackages [pytmv1]: Downloading https://files.pythonhosted.org/packages/19/44/c7614a1a460a6c0c672426e6fc7e5efdb8dd03299d66070f3eb448dafd4c/pytmv1-0.5.5.tar.gz
+[2023-06-26 16:56:19] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/dd/3e/45136cd3af0c8e66451a330792cd16525658ac46b641369af8221c7f9b85/kodexa_cli-6.2.25379660892.tar.gz
+[2023-06-26 16:56:19] INFO root fetch - processPackages [flora-utils-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/64/83/1769bd32e43f0bfe7dc03eac724f2ee3a6bdd81495e5ad08105863b57798/odoo14_addon_ddmrp_warning-14.0.1.2.0-py3-none-any.whl
+[2023-06-26 16:56:19] INFO root fetch - processPackages [tap-facebook]: executing diffoscope
+[2023-06-26 16:56:19] INFO root fetch - processPackages [tap-facebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-facebook-1.9.6.tar.gz tmp/tap-facebook-1.9.7.tar.gz --markdown 20230626/t/tap-facebook/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-06-26 16:56:19] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: few-shot-priming
+[2023-06-26 16:56:19] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-26 16:56:19] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [pytmv1]: executing diffoscope
+[2023-06-26 16:56:19] INFO root fetch - processPackages [pytmv1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmv1-0.5.4.tar.gz tmp/pytmv1-0.5.5.tar.gz --markdown 20230626/p/pytmv1/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-26 16:56:19] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-06-26 16:56:19] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25379522485.tar.gz tmp/kodexa_cli-6.2.25379660892.tar.gz --markdown 20230626/k/kodexa-cli/6.2.25379522485-6.2.25379660892/diff.md --exclude *.pyd
+[2023-06-26 16:56:19] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: executing diffoscope
+[2023-06-26 16:56:19] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp_warning-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp_warning-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-ddmrp-warning/14.0.1.1.1.dev1-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-26 16:56:19] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-26 16:56:19] INFO root fetch - processPackages [flora-utils-py]: Downloading https://files.pythonhosted.org/packages/8c/c5/5f1fb617d52bcedb52aaea759f80cfc5548e89e3e8480a3969457a84eb03/flora_utils_py-0.1.1.tar.gz
+[2023-06-26 16:56:19] INFO root fetch - processPackages [terraformer]: Remove: archive file [/home/abi/fetcher/tmp/terraformer-0.2.0.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [terraformer]: Remove: archive file [/home/abi/fetcher/tmp/terraformer-0.3.1.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [terraformer]: Start processing: ibeam
+[2023-06-26 16:56:19] INFO root fetch - main [MainThread]: End processing [terraformer]: success
+[2023-06-26 16:56:19] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-26 16:56:19] INFO root fetch - processPackages [ibeam]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-26 16:56:19] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230626/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 16:56:19] INFO root fetch - processPackages [flora-utils-py]: Downloading https://files.pythonhosted.org/packages/1c/73/dbbe241472806c14d34a4c6fe5a59289d35c78efab72d10dc24b06a9e578/flora_utils_py-0.1.2.tar.gz
+[2023-06-26 16:56:19] INFO root fetch - processPackages [SpatialViewPy]: Remove: archive file [/home/abi/fetcher/tmp/SpatialViewPy-0.1.1.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [SpatialViewPy]: Remove: archive file [/home/abi/fetcher/tmp/SpatialViewPy-0.1.2.tar.gz]
+[2023-06-26 16:56:19] INFO root fetch - processPackages [SpatialViewPy]: Start processing: funasr
+[2023-06-26 16:56:19] INFO root fetch - main [MainThread]: End processing [SpatialViewPy]: success
+[2023-06-26 16:56:19] INFO root fetch - processPackages [ibeam]: Downloading https://files.pythonhosted.org/packages/f4/88/7dc9fa09b0d0684f22c16e7a36401ccaa79e976e9a88ac3b219989eb5c3c/ibeam-0.4.5.tar.gz
+[2023-06-26 16:56:20] INFO root fetch - processPackages [funasr]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-26 16:56:20] INFO root fetch - processPackages [flora-utils-py]: executing diffoscope
+[2023-06-26 16:56:20] INFO root fetch - processPackages [flora-utils-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flora_utils_py-0.1.1.tar.gz tmp/flora_utils_py-0.1.2.tar.gz --markdown 20230626/f/flora-utils-py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 16:56:20] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/49/2b/153766aea858542f0779500a9524fa6b22d5f8c6c239a99e755cc9881232/funasr-0.6.4.tar.gz
+[2023-06-26 16:56:20] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/fd/89/9328c63c84118143c5fb9cd0c22be5b8132e515eb73ef8d91adf569043ec/funasr-0.6.5.tar.gz
+[2023-06-26 16:56:20] INFO root fetch - processPackages [ibeam]: Downloading https://files.pythonhosted.org/packages/eb/e0/38a7ce949bf031d85608947d153eef0c31d249ab839e84c90b1265f801ba/ibeam-0.4.6.tar.gz
+[2023-06-26 16:56:20] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-06-26 16:56:20] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.6.4.tar.gz tmp/funasr-0.6.5.tar.gz --markdown 20230626/f/funasr/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-26 16:56:20] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-26 16:56:20] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-26 16:56:20] INFO root fetch - processPackages [cybrid-api-bank-python]: Start processing: DLTA-AI
+[2023-06-26 16:56:20] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-26 16:56:20] INFO root fetch - processPackages [DLTA-AI]: New version: [1.1] Old Version: [1.0.2]
+[2023-06-26 16:56:20] INFO root fetch - processPackages [ibeam]: executing diffoscope
+[2023-06-26 16:56:20] INFO root fetch - processPackages [ibeam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibeam-0.4.5.tar.gz tmp/ibeam-0.4.6.tar.gz --markdown 20230626/i/ibeam/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-26 16:56:20] INFO root fetch - processPackages [DLTA-AI]: Downloading https://files.pythonhosted.org/packages/b1/d3/0995cb1eece171da201a0ba9eb9a12d0e4f953513c18e5cbd8d9c5b0ef62/DLTA_AI-1.0.2-py3-none-any.whl
+[2023-06-26 16:56:20] INFO root fetch - processPackages [tap-facebook]: Remove: archive file [/home/abi/fetcher/tmp/tap-facebook-1.9.6.tar.gz]
+[2023-06-26 16:56:20] INFO root fetch - processPackages [tap-facebook]: Remove: archive file [/home/abi/fetcher/tmp/tap-facebook-1.9.7.tar.gz]
+[2023-06-26 16:56:20] INFO root fetch - processPackages [tap-facebook]: Start processing: few-shot-priming
+[2023-06-26 16:56:20] INFO root fetch - main [MainThread]: End processing [tap-facebook]: success
+[2023-06-26 16:56:20] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-26 16:56:20] INFO root fetch - processPackages [pytmv1]: Remove: archive file [/home/abi/fetcher/tmp/pytmv1-0.5.4.tar.gz]
+[2023-06-26 16:56:20] INFO root fetch - processPackages [pytmv1]: Remove: archive file [/home/abi/fetcher/tmp/pytmv1-0.5.5.tar.gz]
+[2023-06-26 16:56:20] INFO root fetch - main [MainThread]: End processing [pytmv1]: success
+[2023-06-26 16:56:20] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-26 16:56:20] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230626/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 16:56:20] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_warning-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-26 16:56:20] INFO root fetch - processPackages [odoo14-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_warning-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-26 16:56:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp-warning]: success
+[2023-06-26 16:56:21] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25379522485.tar.gz]
+[2023-06-26 16:56:21] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25379660892.tar.gz]
+[2023-06-26 16:56:21] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-06-26 16:56:21] INFO root fetch - processPackages [flora-utils-py]: Remove: archive file [/home/abi/fetcher/tmp/flora_utils_py-0.1.1.tar.gz]
+[2023-06-26 16:56:21] INFO root fetch - processPackages [flora-utils-py]: Remove: archive file [/home/abi/fetcher/tmp/flora_utils_py-0.1.2.tar.gz]
+[2023-06-26 16:56:21] INFO root fetch - main [MainThread]: End processing [flora-utils-py]: success
+[2023-06-26 16:56:21] INFO root fetch - processPackages [ibeam]: Remove: archive file [/home/abi/fetcher/tmp/ibeam-0.4.5.tar.gz]
+[2023-06-26 16:56:21] INFO root fetch - processPackages [ibeam]: Remove: archive file [/home/abi/fetcher/tmp/ibeam-0.4.6.tar.gz]
+[2023-06-26 16:56:21] INFO root fetch - main [MainThread]: End processing [ibeam]: success
+[2023-06-26 16:56:21] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-26 16:56:21] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-26 16:56:21] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-26 16:56:22] INFO root fetch - processPackages [DLTA-AI]: Downloading https://files.pythonhosted.org/packages/25/f3/2e18e3012203e3fed6f6939e96e41f861f5117c873d9077f6ad96742e68f/DLTA-AI-1.1.tar.gz
+[2023-06-26 16:56:22] WARNING root fetch - processPackages [DLTA-AI]: Skipping package: exceeds size limit 38118873>=10485760
+[2023-06-26 16:56:22] INFO root fetch - main [MainThread]: End processing [DLTA-AI] error
+[2023-06-26 16:56:22] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-26 16:56:23] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.4.tar.gz]
+[2023-06-26 16:56:23] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.5.tar.gz]
+[2023-06-26 16:56:23] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-06-26 16:56:34] INFO root fetch - processPackages [ipymuvue]: Remove: archive file [/home/abi/fetcher/tmp/ipymuvue-0.2.2.tar.gz]
+[2023-06-26 16:56:34] INFO root fetch - processPackages [ipymuvue]: Remove: archive file [/home/abi/fetcher/tmp/ipymuvue-0.3.0.tar.gz]
+[2023-06-26 16:56:34] INFO root fetch - main [MainThread]: End processing [ipymuvue]: success
+[2023-06-26 16:56:34] INFO root fetch - main [MainThread]: Store serial: [18648561]
