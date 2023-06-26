@@ -9255,3 +9255,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:38:31] INFO root fetch - processPackages [magic-folder]: Remove: archive file [/home/abi/fetcher/tmp/magic-folder-23.6.0.tar.gz]
 [2023-06-26 08:38:31] INFO root fetch - main [MainThread]: End processing [magic-folder]: success
 [2023-06-26 08:38:31] INFO root fetch - main [MainThread]: Store serial: [18642966]
+[2023-06-26 08:43:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642966]
+[2023-06-26 08:43:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-26 08:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: knowledge-graph
+[2023-06-26 08:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evalplus
+[2023-06-26 08:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JustScan
+[2023-06-26 08:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jalalidate
+[2023-06-26 08:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-pruning
+[2023-06-26 08:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2023-06-26 08:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zcc-helper
+[2023-06-26 08:43:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jsonrequest
+[2023-06-26 08:43:42] INFO root fetch - processPackages [knowledge-graph]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 08:43:42] INFO root fetch - processPackages [zcc-helper]: New version: [3.1rc1] Old Version: [3.1]
+[2023-06-26 08:43:42] INFO root fetch - processPackages [evalplus]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-26 08:43:42] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jalalidate]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jsonrequest]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 08:43:42] INFO root fetch - processPackages [torch-pruning]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-26 08:43:42] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230626.6.41.903469] Old Version: [20230625.13.9.471447]
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/c6/93/e6c97ab6726ae8bfe54c6083cc48b765075c3db2825f27d35af08e4a861e/jsonrequest-0.1.1.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [knowledge-graph]: Downloading https://files.pythonhosted.org/packages/47/90/475dd8feb480ff2b78563036de729dc01cbf5b25b2ac993862c1e62c8e47/knowledge-graph-0.0.8.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/34/8c/e0a13c732c49eb01e06b337f8c95cf89575612ac7dbd2e37e08ff0cf642c/zcc-helper-3.1.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jalalidate]: Downloading https://files.pythonhosted.org/packages/ff/69/c5cf45232a8a23ab4f888226abfd81f3ea0423308bd69a2097375250ce45/jalalidate-0.1.2.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [torch-pruning]: Downloading https://files.pythonhosted.org/packages/14/bc/30e38693ab70dcae1673d69ac6a0c865d1ffed80bc8dda07a1bce4eafdca/torch-pruning-1.1.8.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/72/08/f5526f2a6bc71cac5133282420f11458a2c0ea9984666999ed1ced1b67f2/certora-cli-alpha-master-20230625.13.9.471447.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [evalplus]: Downloading https://files.pythonhosted.org/packages/88/f4/3722fdace5dbd9ba8a5f2b5a1a285e73cdb86c1f4c0187cf66ab1a01ad9a/evalplus-0.1.5.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/60/d5/b3dfdc3b78b67b13931058f45fe448b78ec07e895606322d80aa6a1d954b/jsonrequest-0.1.2.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-26 08:43:42] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37104981>=10485760
+[2023-06-26 08:43:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-26 08:43:42] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-26 08:43:42] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230626/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-26 08:43:42] INFO root fetch - processPackages [knowledge-graph]: Downloading https://files.pythonhosted.org/packages/9c/cf/8eb769891bf4b0813c7674ef29fbcd29b2c6cd65fec1ce5091bab2354116/knowledge-graph-0.0.9.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jsonrequest]: executing diffoscope
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jsonrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrequest-0.1.1.tar.gz tmp/jsonrequest-0.1.2.tar.gz --markdown 20230626/j/jsonrequest/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 08:43:42] INFO root fetch - processPackages [zcc-helper]: Downloading https://files.pythonhosted.org/packages/26/be/1d90829294d023ea357858cf5bffda4ea0c0467a5fa9cd7311e4b95a3286/zcc-helper-3.1rc1.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [knowledge-graph]: executing diffoscope
+[2023-06-26 08:43:42] INFO root fetch - processPackages [knowledge-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knowledge-graph-0.0.8.tar.gz tmp/knowledge-graph-0.0.9.tar.gz --markdown 20230626/k/knowledge-graph/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 08:43:42] INFO root fetch - processPackages [zcc-helper]: executing diffoscope
+[2023-06-26 08:43:42] INFO root fetch - processPackages [zcc-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcc-helper-3.1.tar.gz tmp/zcc-helper-3.1rc1.tar.gz --markdown 20230626/z/zcc-helper/3.1-3.1rc1/diff.md --exclude *.pyd
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jalalidate]: Downloading https://files.pythonhosted.org/packages/b2/3f/ac941612400484a71189c6760b17d339a8e3b8b2964d6b3b7535f0761574/jalalidate-0.1.3.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [torch-pruning]: Downloading https://files.pythonhosted.org/packages/7f/e2/54666f2ea474d8c2795edee4722a6c3f5f1ec4e5862fbd8462dd1a318712/torch-pruning-1.1.9.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jalalidate]: executing diffoscope
+[2023-06-26 08:43:42] INFO root fetch - processPackages [jalalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jalalidate-0.1.2.tar.gz tmp/jalalidate-0.1.3.tar.gz --markdown 20230626/j/jalalidate/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 08:43:42] INFO root fetch - processPackages [evalplus]: Downloading https://files.pythonhosted.org/packages/31/a6/38857200e3b12219b3aa5b2a8e07f1e3debd134cbd1c4e50231ca165ab1e/evalplus-0.1.6.tar.gz
+[2023-06-26 08:43:42] INFO root fetch - processPackages [torch-pruning]: executing diffoscope
+[2023-06-26 08:43:42] INFO root fetch - processPackages [torch-pruning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-pruning-1.1.8.tar.gz tmp/torch-pruning-1.1.9.tar.gz --markdown 20230626/t/torch-pruning/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-26 08:43:43] INFO root fetch - processPackages [evalplus]: executing diffoscope
+[2023-06-26 08:43:43] INFO root fetch - processPackages [evalplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalplus-0.1.5.tar.gz tmp/evalplus-0.1.6.tar.gz --markdown 20230626/e/evalplus/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-26 08:43:44] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.1.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.2.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - main [MainThread]: End processing [jsonrequest]: success
+[2023-06-26 08:43:44] INFO root fetch - processPackages [knowledge-graph]: Remove: archive file [/home/abi/fetcher/tmp/knowledge-graph-0.0.8.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - processPackages [knowledge-graph]: Remove: archive file [/home/abi/fetcher/tmp/knowledge-graph-0.0.9.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - main [MainThread]: End processing [knowledge-graph]: success
+[2023-06-26 08:43:44] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.1.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.1rc1.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - main [MainThread]: End processing [zcc-helper]: success
+[2023-06-26 08:43:44] INFO root fetch - processPackages [jalalidate]: Remove: archive file [/home/abi/fetcher/tmp/jalalidate-0.1.2.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - processPackages [jalalidate]: Remove: archive file [/home/abi/fetcher/tmp/jalalidate-0.1.3.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - main [MainThread]: End processing [jalalidate]: success
+[2023-06-26 08:43:44] INFO root fetch - processPackages [torch-pruning]: Remove: archive file [/home/abi/fetcher/tmp/torch-pruning-1.1.8.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - processPackages [torch-pruning]: Remove: archive file [/home/abi/fetcher/tmp/torch-pruning-1.1.9.tar.gz]
+[2023-06-26 08:43:44] INFO root fetch - main [MainThread]: End processing [torch-pruning]: success
+[2023-06-26 08:43:46] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-26 08:43:46] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-26 08:43:46] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-26 08:43:46] INFO root fetch - processPackages [evalplus]: Remove: archive file [/home/abi/fetcher/tmp/evalplus-0.1.5.tar.gz]
+[2023-06-26 08:43:46] INFO root fetch - processPackages [evalplus]: Remove: archive file [/home/abi/fetcher/tmp/evalplus-0.1.6.tar.gz]
+[2023-06-26 08:43:46] INFO root fetch - main [MainThread]: End processing [evalplus]: success
+[2023-06-26 08:43:46] INFO root fetch - main [MainThread]: Store serial: [18642996]
