@@ -5677,3 +5677,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 04:33:28] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.2.1.tar.gz]
 [2023-06-26 04:33:28] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
 [2023-06-26 04:33:28] INFO root fetch - main [MainThread]: Store serial: [18641497]
+[2023-06-26 04:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641497]
+[2023-06-26 04:38:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gull-api
+[2023-06-26 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-cutoff-accrual-picking
+[2023-06-26 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-interpreter
+[2023-06-26 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autonomy-dev
+[2023-06-26 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes
+[2023-06-26 04:38:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FlightRadarAPI
+[2023-06-26 04:38:38] INFO root fetch - processPackages [autonomy-dev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 04:38:38] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-06-26 04:38:38] INFO root fetch - processPackages [gull-api]: New version: [0.0.13] Old Version: [0.0.12rc4]
+[2023-06-26 04:38:38] INFO root fetch - processPackages [FlightRadarAPI]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-06-26 04:38:38] WARNING root fetch - processPackages [langchain-interpreter]: Skipping, unable to determine old version
+[2023-06-26 04:38:38] INFO root fetch - main [MainThread]: End processing [langchain-interpreter] error
+[2023-06-26 04:38:38] INFO root fetch - processPackages [pypomes]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-26 04:38:38] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/f6/b1/080b9deac7d2803ff3ead8c0deac1d31e79e43eeeea7c99ed2287b914e0b/FlightRadarAPI-1.3.6.tar.gz
+[2023-06-26 04:38:38] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/ad/de/3f4579644425b4750dfe301dd9a17f4daca7bbcc77a6f955eb165ef4da32/pypomes-0.1.5.tar.gz
+[2023-06-26 04:38:38] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/b1/42/e423b5f96ab7de43b69ae501e21f2d35e68b985b2333c4c883810567ed6f/gull_api-0.0.12rc4.tar.gz
+[2023-06-26 04:38:38] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/96/f5/a221420f57d6ae329914d3f0810444dc0c5d546bdec9c6a9fbab60e6f9c9/autonomy_dev-0.1.8.tar.gz
+[2023-06-26 04:38:38] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/7c/b9/c8905f02c56599a9d5c4c16aeaddf00924cf1b5412241b0eb08432d9f800/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-26 04:38:38] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/4a/da/7ec063601361a151a0bdd56b3752dd681b869689c912bab0f570f133889f/pypomes-0.1.6.tar.gz
+[2023-06-26 04:38:38] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/5e/fb/a3a7e9cec061f09fa32a68f380ee4f91bf66ceb98ee85c60069fc99ab5ac/gull_api-0.0.13.tar.gz
+[2023-06-26 04:38:38] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/74/42/b935611a5bfa419a33465f9d5f68639f890dd705bd847a64c9911e1e6998/autonomy_dev-0.1.9.tar.gz
+[2023-06-26 04:38:38] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/b6/7e/c23371fff186d5b7438eba2bcc22852ba3752b3e92110c7c0669ec65d3fa/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-26 04:38:38] INFO root fetch - processPackages [gull-api]: executing diffoscope
+[2023-06-26 04:38:38] INFO root fetch - processPackages [gull-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gull_api-0.0.12rc4.tar.gz tmp/gull_api-0.0.13.tar.gz --markdown 20230626/g/gull-api/0.0.12rc4-0.0.13/diff.md --exclude *.pyd
+[2023-06-26 04:38:38] INFO root fetch - processPackages [autonomy-dev]: executing diffoscope
+[2023-06-26 04:38:38] INFO root fetch - processPackages [pypomes]: executing diffoscope
+[2023-06-26 04:38:38] INFO root fetch - processPackages [autonomy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomy_dev-0.1.8.tar.gz tmp/autonomy_dev-0.1.9.tar.gz --markdown 20230626/a/autonomy-dev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 04:38:38] INFO root fetch - processPackages [pypomes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes-0.1.5.tar.gz tmp/pypomes-0.1.6.tar.gz --markdown 20230626/p/pypomes/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-26 04:38:38] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/8a/74/90ab404f6532b8a81f3830f02007ee47acca80e5ff17c5e7c6f6972fd6a4/FlightRadarAPI-1.3.7.tar.gz
+[2023-06-26 04:38:38] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: executing diffoscope
+[2023-06-26 04:38:38] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-account-cutoff-accrual-picking/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-26 04:38:39] INFO root fetch - processPackages [FlightRadarAPI]: executing diffoscope
+[2023-06-26 04:38:39] INFO root fetch - processPackages [FlightRadarAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlightRadarAPI-1.3.6.tar.gz tmp/FlightRadarAPI-1.3.7.tar.gz --markdown 20230626/F/FlightRadarAPI/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-06-26 04:38:40] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.1.8.tar.gz]
+[2023-06-26 04:38:40] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.1.9.tar.gz]
+[2023-06-26 04:38:40] INFO root fetch - main [MainThread]: End processing [autonomy-dev]: success
+[2023-06-26 04:38:40] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.12rc4.tar.gz]
+[2023-06-26 04:38:40] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.13.tar.gz]
+[2023-06-26 04:38:40] INFO root fetch - main [MainThread]: End processing [gull-api]: success
+[2023-06-26 04:38:40] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.5.tar.gz]
+[2023-06-26 04:38:40] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.6.tar.gz]
+[2023-06-26 04:38:40] INFO root fetch - main [MainThread]: End processing [pypomes]: success
+[2023-06-26 04:38:40] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.6.tar.gz]
+[2023-06-26 04:38:40] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.7.tar.gz]
+[2023-06-26 04:38:40] INFO root fetch - main [MainThread]: End processing [FlightRadarAPI]: success
+[2023-06-26 04:38:40] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-26 04:38:40] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-26 04:38:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-accrual-picking]: success
+[2023-06-26 04:38:40] INFO root fetch - main [MainThread]: Store serial: [18641515]
