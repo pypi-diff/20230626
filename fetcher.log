@@ -6602,3 +6602,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 05:53:48] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-1.6.0.tar.gz]
 [2023-06-26 05:53:48] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
 [2023-06-26 05:53:48] INFO root fetch - main [MainThread]: Store serial: [18641837]
+[2023-06-26 05:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641837]
+[2023-06-26 05:58:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 05:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypothesis
+[2023-06-26 05:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-06-26 05:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fasttreeshap
+[2023-06-26 05:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-group-link-guild
+[2023-06-26 05:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rudderlabs.data.apps
+[2023-06-26 05:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chathub
+[2023-06-26 05:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assistorg-api
+[2023-06-26 05:58:57] INFO root fetch - processPackages [rudderlabs.data.apps]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2023-06-26 05:58:57] INFO root fetch - processPackages [nonebot-plugin-group-link-guild]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 05:58:57] WARNING root fetch - processPackages [chathub]: Skipping, unable to determine old version
+[2023-06-26 05:58:57] INFO root fetch - main [MainThread]: End processing [chathub] error
+[2023-06-26 05:58:57] INFO root fetch - processPackages [fasttreeshap]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-26 05:58:57] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-26 05:58:57] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-26 05:58:57] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-26 05:58:57] INFO root fetch - processPackages [assistorg-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 05:58:57] INFO root fetch - processPackages [fasttreeshap]: Downloading https://files.pythonhosted.org/packages/f3/65/67eddf7aa36257ecaf611198c1db502a22beaf452ec02588b6bc0068fff1/fasttreeshap-0.1.5.tar.gz
+[2023-06-26 05:58:57] INFO root fetch - processPackages [assistorg-api]: Downloading https://files.pythonhosted.org/packages/36/06/8feff46ec8eec533c483a013be815b0d0171b6c766d2f96c134b1a35e915/assistorg-api-0.0.3.tar.gz
+[2023-06-26 05:58:57] INFO root fetch - processPackages [nonebot-plugin-group-link-guild]: Downloading https://files.pythonhosted.org/packages/bb/fe/4a4d34114051ab288dbd43684bd20ce47582cd3609804f6e677abd951be3/nonebot-plugin-group-link-guild-0.0.5.tar.gz
+[2023-06-26 05:58:57] INFO root fetch - processPackages [rudderlabs.data.apps]: Downloading https://files.pythonhosted.org/packages/4e/86/b1c70eabee7a09abe6a66d023a4da5ccf534e5e8cc5f2980e19b4c9c31da/rudderlabs.data.apps-0.0.1b8.tar.gz
+[2023-06-26 05:58:57] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/21/51/090644a56a1ccd0bd639535632ae004a14748414c625a4ee110764a147f5/hypothesis-6.9.1.tar.gz
+[2023-06-26 05:58:57] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-26 05:58:57] INFO root fetch - processPackages [nonebot-plugin-group-link-guild]: Downloading https://files.pythonhosted.org/packages/e9/24/1e1f0682458790fefa7b4f0a44926a9b6ee4ca1ccdde2a1dd5d872f84ad0/nonebot-plugin-group-link-guild-0.0.6.tar.gz
+[2023-06-26 05:58:57] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-26 05:58:57] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230626/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-26 05:58:57] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/9f/55/ca134a35ade2848ccb6a38038cbdc144c8d975ba9f8535f980233784f3a5/hypothesis-6.9.2.tar.gz
+[2023-06-26 05:58:58] INFO root fetch - processPackages [rudderlabs.data.apps]: Downloading https://files.pythonhosted.org/packages/9e/da/e33a62386ca4cfe40837ab002e312699be2cf5dbe739a9392ea1f4f2144f/rudderlabs.data.apps-0.0.1b9.tar.gz
+[2023-06-26 05:58:58] INFO root fetch - processPackages [assistorg-api]: Downloading https://files.pythonhosted.org/packages/13/2a/ec3948bc726d55bd60fe2c3cc2b4cb59bb8a77cd7ed492800d18ab1d7f13/assistorg_api-0.0.4.tar.gz
+[2023-06-26 05:58:58] INFO root fetch - processPackages [fasttreeshap]: Downloading https://files.pythonhosted.org/packages/f5/36/aeb5fa0bfb02d285017f0db75be5fe9e293f2496ad8420862c4f05e98050/fasttreeshap-0.1.6.tar.gz
+[2023-06-26 05:58:58] INFO root fetch - processPackages [nonebot-plugin-group-link-guild]: executing diffoscope
+[2023-06-26 05:58:58] INFO root fetch - processPackages [nonebot-plugin-group-link-guild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-group-link-guild-0.0.5.tar.gz tmp/nonebot-plugin-group-link-guild-0.0.6.tar.gz --markdown 20230626/n/nonebot-plugin-group-link-guild/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 05:58:58] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-06-26 05:58:58] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230626/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-26 05:58:58] INFO root fetch - processPackages [fasttreeshap]: executing diffoscope
+[2023-06-26 05:58:58] INFO root fetch - processPackages [fasttreeshap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttreeshap-0.1.5.tar.gz tmp/fasttreeshap-0.1.6.tar.gz --markdown 20230626/f/fasttreeshap/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-26 05:58:58] INFO root fetch - processPackages [rudderlabs.data.apps]: executing diffoscope
+[2023-06-26 05:58:58] INFO root fetch - processPackages [rudderlabs.data.apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderlabs.data.apps-0.0.1b8.tar.gz tmp/rudderlabs.data.apps-0.0.1b9.tar.gz --markdown 20230626/r/rudderlabs.data.apps/0.0.1b8-0.0.1b9/diff.md --exclude *.pyd
+[2023-06-26 05:58:58] INFO root fetch - processPackages [assistorg-api]: executing diffoscope
+[2023-06-26 05:58:58] INFO root fetch - processPackages [assistorg-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistorg-api-0.0.3.tar.gz tmp/assistorg_api-0.0.4.tar.gz --markdown 20230626/a/assistorg-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 05:58:59] INFO root fetch - processPackages [nonebot-plugin-group-link-guild]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-group-link-guild-0.0.5.tar.gz]
+[2023-06-26 05:58:59] INFO root fetch - processPackages [nonebot-plugin-group-link-guild]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-group-link-guild-0.0.6.tar.gz]
+[2023-06-26 05:58:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-group-link-guild]: success
+[2023-06-26 05:58:59] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-26 05:58:59] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-26 05:58:59] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-26 05:59:00] INFO root fetch - processPackages [rudderlabs.data.apps]: Remove: archive file [/home/abi/fetcher/tmp/rudderlabs.data.apps-0.0.1b8.tar.gz]
+[2023-06-26 05:59:00] INFO root fetch - processPackages [rudderlabs.data.apps]: Remove: archive file [/home/abi/fetcher/tmp/rudderlabs.data.apps-0.0.1b9.tar.gz]
+[2023-06-26 05:59:00] INFO root fetch - main [MainThread]: End processing [rudderlabs.data.apps]: success
+[2023-06-26 05:59:00] INFO root fetch - processPackages [assistorg-api]: Remove: archive file [/home/abi/fetcher/tmp/assistorg-api-0.0.3.tar.gz]
+[2023-06-26 05:59:00] INFO root fetch - processPackages [assistorg-api]: Remove: archive file [/home/abi/fetcher/tmp/assistorg_api-0.0.4.tar.gz]
+[2023-06-26 05:59:00] INFO root fetch - main [MainThread]: End processing [assistorg-api]: success
+[2023-06-26 05:59:00] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.1.tar.gz]
+[2023-06-26 05:59:00] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.9.2.tar.gz]
+[2023-06-26 05:59:00] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-06-26 05:59:01] INFO root fetch - processPackages [fasttreeshap]: Remove: archive file [/home/abi/fetcher/tmp/fasttreeshap-0.1.5.tar.gz]
+[2023-06-26 05:59:01] INFO root fetch - processPackages [fasttreeshap]: Remove: archive file [/home/abi/fetcher/tmp/fasttreeshap-0.1.6.tar.gz]
+[2023-06-26 05:59:01] INFO root fetch - main [MainThread]: End processing [fasttreeshap]: success
+[2023-06-26 05:59:01] INFO root fetch - main [MainThread]: Store serial: [18641859]
