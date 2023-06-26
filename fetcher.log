@@ -6244,3 +6244,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 05:12:02] INFO root fetch - processPackages [dszoro]: Remove: archive file [/home/abi/fetcher/tmp/dszoro-0.0.9.tar.gz]
 [2023-06-26 05:12:02] INFO root fetch - main [MainThread]: End processing [dszoro]: success
 [2023-06-26 05:12:02] INFO root fetch - main [MainThread]: Store serial: [18641679]
+[2023-06-26 05:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641679]
+[2023-06-26 05:17:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-26 05:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes
+[2023-06-26 05:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-06-26 05:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rwkv
+[2023-06-26 05:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2023-06-26 05:17:11] INFO root fetch - processPackages [rwkv]: New version: [0.8.0] Old Version: [0.7.5]
+[2023-06-26 05:17:11] INFO root fetch - processPackages [pypomes]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-26 05:17:11] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-26 05:17:11] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-26 05:17:11] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/4a/da/7ec063601361a151a0bdd56b3752dd681b869689c912bab0f570f133889f/pypomes-0.1.6.tar.gz
+[2023-06-26 05:17:11] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-26 05:17:11] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/75/7f/a306b4a5dd63790aa2ea052b19f1cdc4b96fba366b69a17a3824a5a850b7/rwkv-0.7.5.tar.gz
+[2023-06-26 05:17:11] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-06-26 05:17:11] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-26 05:17:11] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/b1/dc/925c59f10d65c8f34d14f5e15df79304c9f65fb6594d691edeb37e07513f/pypomes-0.1.7.tar.gz
+[2023-06-26 05:17:11] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-26 05:17:11] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230626/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-26 05:17:11] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/fd/e1/a408737a9fce4c1abf311d89257b1135696234becc6b1476186c64a7da03/rwkv-0.8.0.tar.gz
+[2023-06-26 05:17:11] INFO root fetch - processPackages [pypomes]: executing diffoscope
+[2023-06-26 05:17:11] INFO root fetch - processPackages [pypomes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes-0.1.6.tar.gz tmp/pypomes-0.1.7.tar.gz --markdown 20230626/p/pypomes/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-26 05:17:11] INFO root fetch - processPackages [rwkv]: executing diffoscope
+[2023-06-26 05:17:11] INFO root fetch - processPackages [rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwkv-0.7.5.tar.gz tmp/rwkv-0.8.0.tar.gz --markdown 20230626/r/rwkv/0.7.5-0.8.0/diff.md --exclude *.pyd
+[2023-06-26 05:17:11] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2023-06-26 05:17:11] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-26 05:17:11] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20230626/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-26 05:17:12] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-26 05:17:12] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-26 05:17:12] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-26 05:17:12] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.6.tar.gz]
+[2023-06-26 05:17:12] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.7.tar.gz]
+[2023-06-26 05:17:12] INFO root fetch - main [MainThread]: End processing [pypomes]: success
+[2023-06-26 05:17:13] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.7.5.tar.gz]
+[2023-06-26 05:17:13] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.8.0.tar.gz]
+[2023-06-26 05:17:13] INFO root fetch - main [MainThread]: End processing [rwkv]: success
+[2023-06-26 05:17:17] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-06-26 05:17:17] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2023-06-26 05:17:17] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-26 05:17:17] INFO root fetch - main [MainThread]: Store serial: [18641694]
