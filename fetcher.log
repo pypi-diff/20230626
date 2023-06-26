@@ -7194,3 +7194,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 06:25:16] INFO root fetch - main [MainThread]: End processing [transcriptorthology]: success
 [2023-06-26 06:25:16] INFO root fetch - main [MainThread]: End processing [transcriptorthology]: success
 [2023-06-26 06:25:16] INFO root fetch - main [MainThread]: Store serial: [18642020]
+[2023-06-26 06:30:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642020]
+[2023-06-26 06:30:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 06:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: judini
+[2023-06-26 06:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykebab
+[2023-06-26 06:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pykebab
+[2023-06-26 06:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SpatialCluster
+[2023-06-26 06:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gistdawater
+[2023-06-26 06:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Mensajes-brandoncap
+[2023-06-26 06:30:26] INFO root fetch - processPackages [judini]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 06:30:26] INFO root fetch - processPackages [pykebab]: New version: [0.7.8] Old Version: [0.7.0]
+[2023-06-26 06:30:26] INFO root fetch - processPackages [gistdawater]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 06:30:26] WARNING root fetch - processPackages [Mensajes-brandoncap]: Skipping, unable to determine old version
+[2023-06-26 06:30:26] INFO root fetch - main [MainThread]: End processing [Mensajes-brandoncap] error
+[2023-06-26 06:30:26] INFO root fetch - processPackages [SpatialCluster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 06:30:26] INFO root fetch - processPackages [pykebab]: New version: [0.7.8] Old Version: [0.7.0]
+[2023-06-26 06:30:26] INFO root fetch - processPackages [gistdawater]: Downloading https://files.pythonhosted.org/packages/b9/b6/f17c2a241926ccac2b2e591f6f9598a2d338469200293cd17c6db474e789/gistdawater-0.0.2.tar.gz
+[2023-06-26 06:30:26] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/d9/d7/a51c7bdf1e3bb01f187eb04b6f229c6cb047c3139e20ee8d06cb1de548c1/SpatialCluster-0.0.8.tar.gz
+[2023-06-26 06:30:26] INFO root fetch - processPackages [judini]: Downloading https://files.pythonhosted.org/packages/00/be/9dde7fb7d03b22f9953c3d3e3b805fa8acf38f0c1425b8dfb5406092db2d/judini-0.0.1.tar.gz
+[2023-06-26 06:30:26] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/33/fd/c40b2b1136c887cae386e613544f2c04c0ca81576c9abf434195c8c86e41/pykebab-0.7.0.tar.gz
+[2023-06-26 06:30:26] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/33/fd/c40b2b1136c887cae386e613544f2c04c0ca81576c9abf434195c8c86e41/pykebab-0.7.0.tar.gz
+[2023-06-26 06:30:26] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/9a/12/7d550441bb0b8a09aa8b4ed03f2557ac00593b9de40598dc0797cdacced9/SpatialCluster-0.0.9.tar.gz
+[2023-06-26 06:30:26] INFO root fetch - processPackages [SpatialCluster]: executing diffoscope
+[2023-06-26 06:30:26] INFO root fetch - processPackages [SpatialCluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialCluster-0.0.8.tar.gz tmp/SpatialCluster-0.0.9.tar.gz --markdown 20230626/S/SpatialCluster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 06:30:26] INFO root fetch - processPackages [gistdawater]: Downloading https://files.pythonhosted.org/packages/13/ab/9be6cf533eaa52f26ceb07636208456e217b85569b26c485f9a678c7977f/gistdawater-0.0.3.tar.gz
+[2023-06-26 06:30:26] INFO root fetch - processPackages [gistdawater]: executing diffoscope
+[2023-06-26 06:30:26] INFO root fetch - processPackages [gistdawater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gistdawater-0.0.2.tar.gz tmp/gistdawater-0.0.3.tar.gz --markdown 20230626/g/gistdawater/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 06:30:27] INFO root fetch - processPackages [judini]: Downloading https://files.pythonhosted.org/packages/c7/ff/a8798598b8509ad56af6637ca6e375a41ac862c87f3ad13cd32b5e565185/judini-0.0.2.tar.gz
+[2023-06-26 06:30:27] INFO root fetch - processPackages [judini]: executing diffoscope
+[2023-06-26 06:30:27] INFO root fetch - processPackages [judini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/judini-0.0.1.tar.gz tmp/judini-0.0.2.tar.gz --markdown 20230626/j/judini/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 06:30:27] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/86/f6/5af10f82ea2b94284b6d0d49a0d8cb9af66745646293cf1441aa26510a91/pykebab-0.7.8.tar.gz
+[2023-06-26 06:30:27] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/86/f6/5af10f82ea2b94284b6d0d49a0d8cb9af66745646293cf1441aa26510a91/pykebab-0.7.8.tar.gz
+[2023-06-26 06:30:27] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-06-26 06:30:27] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.7.0.tar.gz tmp/pykebab-0.7.8.tar.gz --markdown 20230626/p/pykebab/0.7.0-0.7.8/diff.md --exclude *.pyd
+[2023-06-26 06:30:27] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-06-26 06:30:27] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.7.0.tar.gz tmp/pykebab-0.7.8.tar.gz --markdown 20230626/p/pykebab/0.7.0-0.7.8/diff.md --exclude *.pyd
+[2023-06-26 06:30:28] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.8.tar.gz]
+[2023-06-26 06:30:28] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.9.tar.gz]
+[2023-06-26 06:30:28] INFO root fetch - main [MainThread]: End processing [SpatialCluster]: success
+[2023-06-26 06:30:28] INFO root fetch - processPackages [gistdawater]: Remove: archive file [/home/abi/fetcher/tmp/gistdawater-0.0.2.tar.gz]
+[2023-06-26 06:30:28] INFO root fetch - processPackages [gistdawater]: Remove: archive file [/home/abi/fetcher/tmp/gistdawater-0.0.3.tar.gz]
+[2023-06-26 06:30:28] INFO root fetch - main [MainThread]: End processing [gistdawater]: success
+[2023-06-26 06:30:28] INFO root fetch - processPackages [judini]: Remove: archive file [/home/abi/fetcher/tmp/judini-0.0.1.tar.gz]
+[2023-06-26 06:30:28] INFO root fetch - processPackages [judini]: Remove: archive file [/home/abi/fetcher/tmp/judini-0.0.2.tar.gz]
+[2023-06-26 06:30:28] INFO root fetch - main [MainThread]: End processing [judini]: success
+[2023-06-26 06:30:28] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.0.tar.gz]
+[2023-06-26 06:30:28] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.8.tar.gz]
+[2023-06-26 06:30:28] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-06-26 06:30:28] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-06-26 06:30:28] INFO root fetch - main [MainThread]: Store serial: [18642043]
