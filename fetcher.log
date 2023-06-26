@@ -15398,3 +15398,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:17:14] INFO root fetch - processPackages [wappstoiot]: Remove: archive file [/home/abi/fetcher/tmp/wappstoiot-0.6.6.tar.gz]
 [2023-06-26 13:17:14] INFO root fetch - main [MainThread]: End processing [wappstoiot]: success
 [2023-06-26 13:17:14] INFO root fetch - main [MainThread]: Store serial: [18645667]
+[2023-06-26 13:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645667]
+[2023-06-26 13:22:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: influxdb3-python-cli
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vstt
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tabulation
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waivek
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auth-token-django
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web3Batch
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: databutton
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydatavisualization
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tizero
+[2023-06-26 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: axaiogram
+[2023-06-26 13:22:25] WARNING root fetch - processPackages [tabulation]: Skipping, unable to determine old version
+[2023-06-26 13:22:25] INFO root fetch - processPackages [tabulation]: Start processing: perky
+[2023-06-26 13:22:25] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-26 13:22:25] INFO root fetch - processPackages [influxdb3-python-cli]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-26 13:22:25] WARNING root fetch - processPackages [web3Batch]: Skipping, unable to determine old version
+[2023-06-26 13:22:25] INFO root fetch - processPackages [web3Batch]: Start processing: dwiqc
+[2023-06-26 13:22:25] INFO root fetch - main [MainThread]: End processing [web3Batch] error
+[2023-06-26 13:22:25] INFO root fetch - processPackages [vstt]: New version: [1.0.0] Old Version: [0.31.0]
+[2023-06-26 13:22:25] INFO root fetch - processPackages [auth-token-django]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 13:22:25] INFO root fetch - processPackages [databutton]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-26 13:22:25] WARNING root fetch - processPackages [waivek]: Skipping, unable to determine old version
+[2023-06-26 13:22:25] WARNING root fetch - processPackages [pydatavisualization]: Skipping, unable to determine old version
+[2023-06-26 13:22:25] INFO root fetch - main [MainThread]: End processing [waivek] error
+[2023-06-26 13:22:25] INFO root fetch - main [MainThread]: End processing [pydatavisualization] error
+[2023-06-26 13:22:25] INFO root fetch - processPackages [axaiogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 13:22:25] INFO root fetch - processPackages [perky]: New version: [0.8] Old Version: [0.6.2]
+[2023-06-26 13:22:25] INFO root fetch - processPackages [vstt]: Downloading https://files.pythonhosted.org/packages/a5/33/7ca5a42805f260c8a8cb319b6f909d55a497ef69c16cdceb4fa78069f681/vstt-0.31.0.tar.gz
+[2023-06-26 13:22:25] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/04/05/8a15cf80298c52de1407842b56d2621022185070e3d84ee0e85953cd28a3/auth-token-django-0.0.3.tar.gz
+[2023-06-26 13:22:25] INFO root fetch - processPackages [perky]: Downloading https://files.pythonhosted.org/packages/14/4e/16dddd4e3fc342025c54d6f666a1ed3785162683356b253d2042d668bcef/perky-0.6.2.tar.gz
+[2023-06-26 13:22:25] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/8d/fa/57476ab85e28ad65618c17cf82e0551a3f5aa1948d030d8774566c8e72c5/axaiogram-0.0.8.tar.gz
+[2023-06-26 13:22:25] WARNING root fetch - processPackages [tizero]: Skipping, unable to determine old version
+[2023-06-26 13:22:25] INFO root fetch - main [MainThread]: End processing [tizero] error
+[2023-06-26 13:22:25] INFO root fetch - processPackages [dwiqc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-26 13:22:25] INFO root fetch - processPackages [influxdb3-python-cli]: Downloading https://files.pythonhosted.org/packages/f5/8a/a23b79e1aa5d7a6d1ebef2befaded0da26f950bbb424dd9f9f44800b87c8/influxdb3-python-cli-0.1.1.tar.gz
+[2023-06-26 13:22:25] INFO root fetch - processPackages [perky]: Downloading https://files.pythonhosted.org/packages/68/7c/d2960fd704f482d4f2f855df2466fa3546b2f1d03fd8f2de037789f1317d/perky-0.8.tar.gz
+[2023-06-26 13:22:25] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/97/e4/e81aa45e6614cc27e77afdc05bda0df053f47af67b7f10dd3fa7e90977bf/databutton-0.9.1.tar.gz
+[2023-06-26 13:22:26] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/3a/b9/ebe8494e336007718e89f31477eb283b3f6156c16ef56682554b41c1f057/axaiogram-0.0.9.tar.gz
+[2023-06-26 13:22:26] INFO root fetch - processPackages [perky]: executing diffoscope
+[2023-06-26 13:22:26] INFO root fetch - processPackages [perky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perky-0.6.2.tar.gz tmp/perky-0.8.tar.gz --markdown 20230626/p/perky/0.6.2-0.8/diff.md --exclude *.pyd
+[2023-06-26 13:22:26] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/3e/7a/dbfd1bb244b190156261ac0b6517e19ea3d76fd10600b457b97b7903fff7/auth-token-django-0.0.4.tar.gz
+[2023-06-26 13:22:26] INFO root fetch - processPackages [vstt]: Downloading https://files.pythonhosted.org/packages/73/f9/3ee996b0af13c16de9d04edee9b71d3364487bd83bdc032c36bfd19c46f1/vstt-1.0.0.tar.gz
+[2023-06-26 13:22:26] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 13:22:26] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.8.tar.gz tmp/axaiogram-0.0.9.tar.gz --markdown 20230626/a/axaiogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:22:26] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/0c/63/4ff0a876d12002fc8380d7aebad3bb53e3f42557ddab096b6b9385bd7408/dwiqc-0.4.8-py2.py3-none-any.whl
+[2023-06-26 13:22:26] INFO root fetch - processPackages [auth-token-django]: executing diffoscope
+[2023-06-26 13:22:26] INFO root fetch - processPackages [auth-token-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth-token-django-0.0.3.tar.gz tmp/auth-token-django-0.0.4.tar.gz --markdown 20230626/a/auth-token-django/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 13:22:26] INFO root fetch - processPackages [influxdb3-python-cli]: Downloading https://files.pythonhosted.org/packages/58/e0/186f5923791b9c3ad8c678b1667c817a9d7fa2edcb19b26e1d91b4063cf1/influxdb3-python-cli-0.2.0.tar.gz
+[2023-06-26 13:22:26] INFO root fetch - processPackages [vstt]: executing diffoscope
+[2023-06-26 13:22:26] INFO root fetch - processPackages [vstt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstt-0.31.0.tar.gz tmp/vstt-1.0.0.tar.gz --markdown 20230626/v/vstt/0.31.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 13:22:26] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/5c/59/3ecc3881c8c0088b35a444d0208f992442d429068966d08be417ede43a72/databutton-0.9.2.tar.gz
+[2023-06-26 13:22:26] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/99/9d/fb37a586f01eb149c76c7d2c33540429c2169a9054118ee740f457b29f19/dwiqc-0.4.9-py2.py3-none-any.whl
+[2023-06-26 13:22:26] INFO root fetch - processPackages [influxdb3-python-cli]: executing diffoscope
+[2023-06-26 13:22:26] INFO root fetch - processPackages [influxdb3-python-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxdb3-python-cli-0.1.1.tar.gz tmp/influxdb3-python-cli-0.2.0.tar.gz --markdown 20230626/i/influxdb3-python-cli/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 13:22:26] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-26 13:22:26] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip --markdown 20230626/d/dwiqc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-26 13:22:26] INFO root fetch - processPackages [databutton]: executing diffoscope
+[2023-06-26 13:22:26] INFO root fetch - processPackages [databutton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databutton-0.9.1.tar.gz tmp/databutton-0.9.2.tar.gz --markdown 20230626/d/databutton/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-26 13:22:27] INFO root fetch - processPackages [perky]: Remove: archive file [/home/abi/fetcher/tmp/perky-0.6.2.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - processPackages [perky]: Remove: archive file [/home/abi/fetcher/tmp/perky-0.8.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - main [MainThread]: End processing [perky]: success
+[2023-06-26 13:22:27] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip]
+[2023-06-26 13:22:27] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip]
+[2023-06-26 13:22:27] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-26 13:22:27] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.0.3.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.0.4.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - main [MainThread]: End processing [auth-token-django]: success
+[2023-06-26 13:22:27] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.8.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.9.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 13:22:27] INFO root fetch - processPackages [influxdb3-python-cli]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-cli-0.1.1.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - processPackages [influxdb3-python-cli]: Remove: archive file [/home/abi/fetcher/tmp/influxdb3-python-cli-0.2.0.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - main [MainThread]: End processing [influxdb3-python-cli]: success
+[2023-06-26 13:22:27] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.1.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.2.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - main [MainThread]: End processing [databutton]: success
+[2023-06-26 13:22:27] INFO root fetch - processPackages [vstt]: Remove: archive file [/home/abi/fetcher/tmp/vstt-0.31.0.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - processPackages [vstt]: Remove: archive file [/home/abi/fetcher/tmp/vstt-1.0.0.tar.gz]
+[2023-06-26 13:22:27] INFO root fetch - main [MainThread]: End processing [vstt]: success
+[2023-06-26 13:22:27] INFO root fetch - main [MainThread]: Store serial: [18645717]
