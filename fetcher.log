@@ -11248,3 +11248,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 10:15:57] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230626.tar.gz]
 [2023-06-26 10:15:57] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-06-26 10:15:57] INFO root fetch - main [MainThread]: Store serial: [18643909]
+[2023-06-26 10:21:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643909]
+[2023-06-26 10:21:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 10:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcorelib
+[2023-06-26 10:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeUtils
+[2023-06-26 10:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: check-python-versions
+[2023-06-26 10:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vsure
+[2023-06-26 10:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-engine-firestore
+[2023-06-26 10:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sui-brownie
+[2023-06-26 10:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord.py
+[2023-06-26 10:21:06] INFO root fetch - processPackages [sui-brownie]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-26 10:21:06] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.8.9.46.19] Old Version: [2023.6.6.18.16.46]
+[2023-06-26 10:21:06] INFO root fetch - processPackages [vsure]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-06-26 10:21:06] INFO root fetch - processPackages [check-python-versions]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-26 10:21:06] WARNING root fetch - processPackages [xia-engine-firestore]: Skipping, unable to determine old version
+[2023-06-26 10:21:06] INFO root fetch - main [MainThread]: End processing [xia-engine-firestore] error
+[2023-06-26 10:21:06] INFO root fetch - processPackages [vcorelib]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-06-26 10:21:06] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/3a/fd/29879369c0e7d7be71d01846f2948669f1b66567a6de9a4db90db9175062/sui_brownie-1.0.6-py3-none-any.whl
+[2023-06-26 10:21:06] INFO root fetch - processPackages [discord.py]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-26 10:21:06] INFO root fetch - processPackages [check-python-versions]: Downloading https://files.pythonhosted.org/packages/96/e5/d4f6cccd2860ac24360e3c32049cf4c8e957284067a753c8094db4783712/check-python-versions-0.9.1.tar.gz
+[2023-06-26 10:21:06] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/e1/61/ecad722d7a0627106ffa157cd842a6a0c153e88565009888bb16258bbd32/sui_brownie-1.0.7-py3-none-any.whl
+[2023-06-26 10:21:06] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/d1/11/8d77c72aa3d20af25d58b4ab456dc705e2879b3bdb168bfd1fb0fc2734af/MeUtils-2023.6.6.18.16.46.tar.gz
+[2023-06-26 10:21:06] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/9a/8a/39c02967e93430dc9ec833729658ce806a6ee1ee0de9089031be8d8740ef/vcorelib-2.0.2.tar.gz
+[2023-06-26 10:21:06] INFO root fetch - processPackages [discord.py]: Downloading https://files.pythonhosted.org/packages/c5/e5/24ff387ee96bb6ccfa6ef6b8e2e6a829389e2b1231210dad42744104c446/discord.py-2.3.0.tar.gz
+[2023-06-26 10:21:06] INFO root fetch - processPackages [sui-brownie]: executing diffoscope
+[2023-06-26 10:21:06] INFO root fetch - processPackages [sui-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sui_brownie-1.0.6-py3-none-any.whl.zip tmp/sui_brownie-1.0.7-py3-none-any.whl.zip --markdown 20230626/s/sui-brownie/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-26 10:21:06] INFO root fetch - processPackages [vsure]: Downloading https://files.pythonhosted.org/packages/e4/f6/1118f6a702f1e3d1fb7eed9284aaaa6e1dd546f5f43e62d6498e472575c5/vsure-2.6.1.tar.gz
+[2023-06-26 10:21:07] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/01/e4/45f2d0dbb58ac94cca6d9728be0e20567d74b55cf858b7bef36d8f28ac59/vcorelib-2.1.0.tar.gz
+[2023-06-26 10:21:07] INFO root fetch - processPackages [check-python-versions]: Downloading https://files.pythonhosted.org/packages/b6/bb/9b773c73dd7083c06a33dbe1f42a1f882585cc27a7fa313ab1a0743cf146/check-python-versions-0.9.2.tar.gz
+[2023-06-26 10:21:07] INFO root fetch - processPackages [discord.py]: Downloading https://files.pythonhosted.org/packages/e8/7a/ca123a290022dc94aba41f8165be66d7b7da2fa775e06310e562bcc3ad89/discord.py-2.3.1.tar.gz
+[2023-06-26 10:21:07] INFO root fetch - processPackages [vsure]: Downloading https://files.pythonhosted.org/packages/7e/73/9f469845882587b6de9ff28445342393334297421cc681f56e20dfdb8ce5/vsure-2.6.2.tar.gz
+[2023-06-26 10:21:07] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-06-26 10:21:07] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-2.0.2.tar.gz tmp/vcorelib-2.1.0.tar.gz --markdown 20230626/v/vcorelib/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-06-26 10:21:07] INFO root fetch - processPackages [vsure]: executing diffoscope
+[2023-06-26 10:21:07] INFO root fetch - processPackages [vsure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsure-2.6.1.tar.gz tmp/vsure-2.6.2.tar.gz --markdown 20230626/v/vsure/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-06-26 10:21:07] INFO root fetch - processPackages [check-python-versions]: executing diffoscope
+[2023-06-26 10:21:07] INFO root fetch - processPackages [check-python-versions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check-python-versions-0.9.1.tar.gz tmp/check-python-versions-0.9.2.tar.gz --markdown 20230626/c/check-python-versions/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-26 10:21:07] INFO root fetch - processPackages [discord.py]: executing diffoscope
+[2023-06-26 10:21:07] INFO root fetch - processPackages [discord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord.py-2.3.0.tar.gz tmp/discord.py-2.3.1.tar.gz --markdown 20230626/d/discord.py/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-26 10:21:08] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.0.6-py3-none-any.whl.zip]
+[2023-06-26 10:21:08] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.0.7-py3-none-any.whl.zip]
+[2023-06-26 10:21:08] INFO root fetch - main [MainThread]: End processing [sui-brownie]: success
+[2023-06-26 10:21:08] INFO root fetch - processPackages [check-python-versions]: Remove: archive file [/home/abi/fetcher/tmp/check-python-versions-0.9.1.tar.gz]
+[2023-06-26 10:21:08] INFO root fetch - processPackages [check-python-versions]: Remove: archive file [/home/abi/fetcher/tmp/check-python-versions-0.9.2.tar.gz]
+[2023-06-26 10:21:08] INFO root fetch - main [MainThread]: End processing [check-python-versions]: success
+[2023-06-26 10:21:08] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.0.2.tar.gz]
+[2023-06-26 10:21:08] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-2.1.0.tar.gz]
+[2023-06-26 10:21:08] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-06-26 10:21:08] INFO root fetch - processPackages [vsure]: Remove: archive file [/home/abi/fetcher/tmp/vsure-2.6.1.tar.gz]
+[2023-06-26 10:21:08] INFO root fetch - processPackages [vsure]: Remove: archive file [/home/abi/fetcher/tmp/vsure-2.6.2.tar.gz]
+[2023-06-26 10:21:08] INFO root fetch - main [MainThread]: End processing [vsure]: success
+[2023-06-26 10:21:09] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/0e/2e/ec2cc34871c3af09dac9ee93f99e7d89d8a20aca1a7c655697f42d240e9b/MeUtils-2023.6.8.9.46.19.tar.gz
+[2023-06-26 10:21:09] INFO root fetch - processPackages [discord.py]: Remove: archive file [/home/abi/fetcher/tmp/discord.py-2.3.0.tar.gz]
+[2023-06-26 10:21:09] INFO root fetch - processPackages [discord.py]: Remove: archive file [/home/abi/fetcher/tmp/discord.py-2.3.1.tar.gz]
+[2023-06-26 10:21:09] INFO root fetch - main [MainThread]: End processing [discord.py]: success
+[2023-06-26 10:21:10] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-26 10:21:10] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.6.18.16.46.tar.gz tmp/MeUtils-2023.6.8.9.46.19.tar.gz --markdown 20230626/M/MeUtils/2023.6.6.18.16.46-2023.6.8.9.46.19/diff.md --exclude *.pyd
+[2023-06-26 10:21:15] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.6.18.16.46.tar.gz]
+[2023-06-26 10:21:15] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.8.9.46.19.tar.gz]
+[2023-06-26 10:21:15] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-26 10:21:15] INFO root fetch - main [MainThread]: Store serial: [18643940]
