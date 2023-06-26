@@ -15613,3 +15613,167 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:27:41] INFO root fetch - processPackages [swh.deposit]: Remove: archive file [/home/abi/fetcher/tmp/swh.deposit-1.2.2.tar.gz]
 [2023-06-26 13:27:41] INFO root fetch - main [MainThread]: End processing [swh.deposit]: success
 [2023-06-26 13:27:41] INFO root fetch - main [MainThread]: Store serial: [18645775]
+[2023-06-26 13:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645775]
+[2023-06-26 13:32:49] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zhei
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-ernie
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: velour-client
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tabulation
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mltlk
+[2023-06-26 13:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dcentrapi
+[2023-06-26 13:32:49] INFO root fetch - processPackages [velour-client]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-26 13:32:49] INFO root fetch - processPackages [zhei]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 13:32:49] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-26 13:32:50] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-26 13:32:50] INFO root fetch - processPackages [easy-ernie]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 13:32:50] WARNING root fetch - processPackages [tabulation]: Skipping, unable to determine old version
+[2023-06-26 13:32:50] INFO root fetch - processPackages [tabulation]: Start processing: SFM4300-readout
+[2023-06-26 13:32:50] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-26 13:32:50] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 13:32:50] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 13:32:50] INFO root fetch - processPackages [SFM4300-readout]: New version: [0.1.2] Old Version: [0.1]
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-26 13:32:50] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/20/d1/67783b925c8919045516d0e27b25d72162e51f46e2a02c51d851a4a4929a/zhei-0.0.2.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/3f/57/0e50ee656caad94d8d74d9167690ba04c674e5e39b2b9f2c08c63e8f6d1a/dcentrapi-0.2.6.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [velour-client]: Downloading https://files.pythonhosted.org/packages/ff/9c/f3753c496c044ca4e9c224050d8c764e38f48697bef1736e8d9334ba2a8f/velour-client-0.4.0.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-26 13:32:50] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torchserve-nightly]: Start processing: Dowell-Mail
+[2023-06-26 13:32:50] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-26 13:32:50] INFO root fetch - processPackages [SFM4300-readout]: Downloading https://files.pythonhosted.org/packages/77/8b/0581ec543ac95fb4eab436e7a7fed554c1a41fac876bcd8e4d8333950104/SFM4300_readout-0.1.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [Dowell-Mail]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-26 13:32:50] INFO root fetch - processPackages [easy-ernie]: Downloading https://files.pythonhosted.org/packages/45/bf/13a85e629b0f73ab118aa314b1ae6bec900c02615fb5b9fb6245426ab1ec/easy-ernie-0.1.4.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/43/c7/ad98d4e7b69a42e34d4a40b1685663baf1ea10b926ab3ee5456048ec7221/zhei-0.0.3.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230626/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-26 13:32:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230626/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-26 13:32:50] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/cd/09/db5a5c93465dea035b8d2eb2d5637f3997394e0496b59bddf5d36a36a9ca/dcentrapi-0.2.7.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [Dowell-Mail]: Downloading https://files.pythonhosted.org/packages/47/9d/93d9b7ae8649bc86bf66dcf20de797732df90c092c6770051cc49e7e671e/Dowell%20Mail-1.0.1.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [velour-client]: Downloading https://files.pythonhosted.org/packages/07/20/2e23b6d1300c305b2de46bf391391ddaa2cb01e4bc9b9cf43b7541eaba1d/velour-client-0.5.0.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-06-26 13:32:50] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.2.tar.gz tmp/zhei-0.0.3.tar.gz --markdown 20230626/z/zhei/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 13:32:50] INFO root fetch - processPackages [SFM4300-readout]: Downloading https://files.pythonhosted.org/packages/7b/87/405c013c3b70d930d6a29a4f8b680bb53b53e640610389665a382d6eda45/SFM4300_readout-0.1.2.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-06-26 13:32:50] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.6.tar.gz tmp/dcentrapi-0.2.7.tar.gz --markdown 20230626/d/dcentrapi/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-26 13:32:50] INFO root fetch - processPackages [velour-client]: executing diffoscope
+[2023-06-26 13:32:50] INFO root fetch - processPackages [velour-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velour-client-0.4.0.tar.gz tmp/velour-client-0.5.0.tar.gz --markdown 20230626/v/velour-client/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-26 13:32:50] INFO root fetch - processPackages [easy-ernie]: Downloading https://files.pythonhosted.org/packages/f0/38/64a07efdea64fce20c24c2370ee8e0c88374a904c831dcdc1cfd93ed2989/easy-ernie-0.1.5.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [SFM4300-readout]: executing diffoscope
+[2023-06-26 13:32:50] INFO root fetch - processPackages [SFM4300-readout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SFM4300_readout-0.1.tar.gz tmp/SFM4300_readout-0.1.2.tar.gz --markdown 20230626/S/SFM4300-readout/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 13:32:50] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [Dowell-Mail]: Downloading https://files.pythonhosted.org/packages/ce/7a/676b6586c55479fb53e22de0cce028394565f3b8a6e08814bab8d084aba8/Dowell%20Mail-1.0.2.tar.gz
+[2023-06-26 13:32:50] INFO root fetch - processPackages [easy-ernie]: executing diffoscope
+[2023-06-26 13:32:50] INFO root fetch - processPackages [easy-ernie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-ernie-0.1.4.tar.gz tmp/easy-ernie-0.1.5.tar.gz --markdown 20230626/e/easy-ernie/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 13:32:50] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-26 13:32:50] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230626/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 13:32:51] INFO root fetch - processPackages [Dowell-Mail]: executing diffoscope
+[2023-06-26 13:32:51] INFO root fetch - processPackages [Dowell-Mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dowell Mail-1.0.1.tar.gz tmp/Dowell Mail-1.0.2.tar.gz --markdown 20230626/D/Dowell-Mail/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-26 13:32:51] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.6.tar.gz]
+[2023-06-26 13:32:51] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.7.tar.gz]
+[2023-06-26 13:32:51] INFO root fetch - processPackages [dcentrapi]: Start processing: dwiqc
+[2023-06-26 13:32:51] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-06-26 13:32:51] INFO root fetch - processPackages [SFM4300-readout]: Remove: archive file [/home/abi/fetcher/tmp/SFM4300_readout-0.1.tar.gz]
+[2023-06-26 13:32:51] INFO root fetch - processPackages [SFM4300-readout]: Remove: archive file [/home/abi/fetcher/tmp/SFM4300_readout-0.1.2.tar.gz]
+[2023-06-26 13:32:51] INFO root fetch - processPackages [SFM4300-readout]: Start processing: axaiogram
+[2023-06-26 13:32:51] INFO root fetch - main [MainThread]: End processing [SFM4300-readout]: success
+[2023-06-26 13:32:51] INFO root fetch - processPackages [dwiqc]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-26 13:32:51] INFO root fetch - processPackages [axaiogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: unacatlib
+[2023-06-26 13:32:52] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-26 13:32:52] INFO root fetch - processPackages [unacatlib]: New version: [0.0.65] Old Version: [0.0.64]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/99/9d/fb37a586f01eb149c76c7d2c33540429c2169a9054118ee740f457b29f19/dwiqc-0.4.9-py2.py3-none-any.whl
+[2023-06-26 13:32:52] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/8d/fa/57476ab85e28ad65618c17cf82e0551a3f5aa1948d030d8774566c8e72c5/axaiogram-0.0.8.tar.gz
+[2023-06-26 13:32:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: bigdl-nano
+[2023-06-26 13:32:52] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-26 13:32:52] INFO root fetch - processPackages [easy-ernie]: Remove: archive file [/home/abi/fetcher/tmp/easy-ernie-0.1.4.tar.gz]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [easy-ernie]: Remove: archive file [/home/abi/fetcher/tmp/easy-ernie-0.1.5.tar.gz]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [easy-ernie]: Start processing: iciba
+[2023-06-26 13:32:52] INFO root fetch - main [MainThread]: End processing [easy-ernie]: success
+[2023-06-26 13:32:52] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [iciba]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/3a/b9/ebe8494e336007718e89f31477eb283b3f6156c16ef56682554b41c1f057/axaiogram-0.0.9.tar.gz
+[2023-06-26 13:32:52] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/30/f7/a78bc9b598c9a5ba1ca49a4e407473eaca01ceba4c42e4d68efbb016f238/dwiqc-0.5.0-py2.py3-none-any.whl
+[2023-06-26 13:32:52] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/bf/ae/2843703f5e212feafdecc579207ad8b1746873c3d8be351a616df2739d3d/unacatlib-0.0.64-py2.py3-none-any.whl
+[2023-06-26 13:32:52] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.2.tar.gz]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.3.tar.gz]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [zhei]: Start processing: bigdl-llm
+[2023-06-26 13:32:52] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-06-26 13:32:52] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 13:32:52] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.8.tar.gz tmp/axaiogram-0.0.9.tar.gz --markdown 20230626/a/axaiogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:32:52] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [velour-client]: Remove: archive file [/home/abi/fetcher/tmp/velour-client-0.4.0.tar.gz]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [velour-client]: Remove: archive file [/home/abi/fetcher/tmp/velour-client-0.5.0.tar.gz]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [velour-client]: Start processing: bigdl-chronos
+[2023-06-26 13:32:52] INFO root fetch - main [MainThread]: End processing [velour-client]: success
+[2023-06-26 13:32:52] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-06-26 13:32:52] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-26 13:32:52] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/ef/86/4a4e10b8245c2c137c60093f54c0b473135fc9e7765c2f7abd1d123a1a9d/bigdl_nano-2.4.0b20230625-py3-none-win_amd64.whl
+[2023-06-26 13:32:52] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/d5/57/d132534094bb9a61a79082ebe1bbc87e27926b7102d877b62ccccfc62f8e/bigdl_llm-2.4.0b20230625-py3-none-win_amd64.whl
+[2023-06-26 13:32:52] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-26 13:32:52] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip tmp/dwiqc-0.5.0-py2.py3-none-any.whl.zip --markdown 20230626/d/dwiqc/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-26 13:32:52] INFO root fetch - processPackages [iciba]: Downloading https://files.pythonhosted.org/packages/61/5b/4871ab8caa25e6b28f75c8dbe46c8fda52e8aa3e1e11ba92563a8baa2002/iciba-0.1.1.tar.gz
+[2023-06-26 13:32:52] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/f7/37/77b3303127aa1cfdf6ee09e3107fed064db240c377bad6596a99aeb1b463/unacatlib-0.0.65-py2.py3-none-any.whl
+[2023-06-26 13:32:52] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/5e/9f/3ba1fafda842fa8c7eaa16c604ca83bfdd023664113b9173b3038c824d19/bigdl_chronos-2.4.0b20230625-py3-none-win_amd64.whl
+[2023-06-26 13:32:52] INFO root fetch - processPackages [unacatlib]: executing diffoscope
+[2023-06-26 13:32:52] INFO root fetch - processPackages [unacatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unacatlib-0.0.64-py2.py3-none-any.whl.zip tmp/unacatlib-0.0.65-py2.py3-none-any.whl.zip --markdown 20230626/u/unacatlib/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2023-06-26 13:32:52] INFO root fetch - processPackages [iciba]: Downloading https://files.pythonhosted.org/packages/44/09/63a8f02f5949346ebffadac4a168554f434c4540cc1cd841bf40d034f9d1/iciba-0.1.2.tar.gz
+[2023-06-26 13:32:52] INFO root fetch - processPackages [iciba]: executing diffoscope
+[2023-06-26 13:32:52] INFO root fetch - processPackages [iciba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iciba-0.1.1.tar.gz tmp/iciba-0.1.2.tar.gz --markdown 20230626/i/iciba/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 13:32:52] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/56/f7/c9c142dd3a1d24ec7ed23bbf15f97aeef34daf7903eb6906b8969da5ea74/bigdl_chronos-2.4.0b20230626-py3-none-win_amd64.whl
+[2023-06-26 13:32:53] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/5c/fb/ea2a929ede774f3bb48f2004a617dded5034814eb05bd6a8868addc79b2a/bigdl_llm-2.4.0b20230626-py3-none-win_amd64.whl
+[2023-06-26 13:32:53] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-26 13:32:53] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230625-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230626-py3-none-win_amd64.whl.zip --markdown 20230626/b/bigdl-chronos/2.4.0b20230625-2.4.0b20230626/diff.md --exclude *.pyd
+[2023-06-26 13:32:53] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/a1/a9/6538d50b9f64150e82913fb723f798af8ab663de800c6eb15f0f78ecfda4/bigdl_nano-2.4.0b20230626-py3-none-win_amd64.whl
+[2023-06-26 13:32:53] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip]
+[2023-06-26 13:32:53] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.0-py2.py3-none-any.whl.zip]
+[2023-06-26 13:32:53] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-26 13:32:53] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-06-26 13:32:53] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230626/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:32:53] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-26 13:32:53] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230625-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230626-py3-none-win_amd64.whl.zip --markdown 20230626/b/bigdl-llm/2.4.0b20230625-2.4.0b20230626/diff.md --exclude *.pyd
+[2023-06-26 13:32:53] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-26 13:32:53] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230625-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230626-py3-none-win_amd64.whl.zip --markdown 20230626/b/bigdl-nano/2.4.0b20230625-2.4.0b20230626/diff.md --exclude *.pyd
+[2023-06-26 13:32:53] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.8.tar.gz]
+[2023-06-26 13:32:53] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.9.tar.gz]
+[2023-06-26 13:32:53] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 13:32:53] INFO root fetch - processPackages [iciba]: Remove: archive file [/home/abi/fetcher/tmp/iciba-0.1.1.tar.gz]
+[2023-06-26 13:32:53] INFO root fetch - processPackages [iciba]: Remove: archive file [/home/abi/fetcher/tmp/iciba-0.1.2.tar.gz]
+[2023-06-26 13:32:53] INFO root fetch - main [MainThread]: End processing [iciba]: success
+[2023-06-26 13:32:53] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.64-py2.py3-none-any.whl.zip]
+[2023-06-26 13:32:53] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.65-py2.py3-none-any.whl.zip]
+[2023-06-26 13:32:53] INFO root fetch - main [MainThread]: End processing [unacatlib]: success
+[2023-06-26 13:32:55] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230625-py3-none-win_amd64.whl.zip]
+[2023-06-26 13:32:55] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230626-py3-none-win_amd64.whl.zip]
+[2023-06-26 13:32:55] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-26 13:32:55] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-26 13:32:55] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-26 13:32:55] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-26 13:32:55] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-06-26 13:32:55] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-06-26 13:32:55] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-06-26 13:32:56] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230625-py3-none-win_amd64.whl.zip]
+[2023-06-26 13:32:56] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230626-py3-none-win_amd64.whl.zip]
+[2023-06-26 13:32:56] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-26 13:32:57] INFO root fetch - processPackages [Dowell-Mail]: Remove: archive file [/home/abi/fetcher/tmp/Dowell Mail-1.0.1.tar.gz]
+[2023-06-26 13:32:57] INFO root fetch - processPackages [Dowell-Mail]: Remove: archive file [/home/abi/fetcher/tmp/Dowell Mail-1.0.2.tar.gz]
+[2023-06-26 13:32:57] INFO root fetch - main [MainThread]: End processing [Dowell-Mail]: success
+[2023-06-26 13:33:11] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230625-py3-none-win_amd64.whl.zip]
+[2023-06-26 13:33:11] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230626-py3-none-win_amd64.whl.zip]
+[2023-06-26 13:33:11] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-26 13:33:11] INFO root fetch - main [MainThread]: Store serial: [18645826]
