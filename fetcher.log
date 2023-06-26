@@ -13353,3 +13353,107 @@ AssertionError: tmp/mrfix-2.0.8.tar.gz does not exist
 [2023-06-26 11:50:07] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc4.tar.gz]
 [2023-06-26 11:50:07] INFO root fetch - main [MainThread]: End processing [petisco]: success
 [2023-06-26 11:50:07] INFO root fetch - main [MainThread]: Store serial: [18644768]
+[2023-06-26 11:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644768]
+[2023-06-26 11:55:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: report-dh
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PythonHuff
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: summa-embed
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dz-mongodb
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axaiogram
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thales-remote
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: std-buffer
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-ray
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: email-cleaning-service
+[2023-06-26 11:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pfio
+[2023-06-26 11:55:16] INFO root fetch - processPackages [dz-mongodb]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-26 11:55:16] WARNING root fetch - processPackages [PythonHuff]: Skipping, unable to determine old version
+[2023-06-26 11:55:16] WARNING root fetch - processPackages [std-buffer]: Skipping, unable to determine old version
+[2023-06-26 11:55:16] INFO root fetch - processPackages [PythonHuff]: Start processing: fsrs4anki-optimizer
+[2023-06-26 11:55:16] INFO root fetch - main [MainThread]: End processing [PythonHuff] error
+[2023-06-26 11:55:16] INFO root fetch - processPackages [std-buffer]: Start processing: easynetwork
+[2023-06-26 11:55:16] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-26 11:55:16] INFO root fetch - processPackages [axaiogram]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 11:55:16] INFO root fetch - main [MainThread]: End processing [std-buffer] error
+[2023-06-26 11:55:16] INFO root fetch - processPackages [email-cleaning-service]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 11:55:16] INFO root fetch - processPackages [thales-remote]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-26 11:55:16] INFO root fetch - processPackages [summa-embed]: New version: [0.17.3] Old Version: [0.17.2]
+[2023-06-26 11:55:16] INFO root fetch - processPackages [composabl-ray]: New version: [0.2.3] Old Version: [0.2.2.dev0]
+[2023-06-26 11:55:16] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/c3/c6/90030f590b70b57b30b23b36e43da29c3d9620f5f89af6d545447d28d818/axaiogram-0.0.5.tar.gz
+[2023-06-26 11:55:16] INFO root fetch - processPackages [pfio]: New version: [2.6.0] Old Version: [2.5.1]
+[2023-06-26 11:55:16] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.25.6] Old Version: [3.25.5]
+[2023-06-26 11:55:16] INFO root fetch - processPackages [easynetwork]: New version: [1.0.0rc4] Old Version: [1.0.0rc3]
+[2023-06-26 11:55:16] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/ea/d7/2f677f0bb200cb3a392b99317ea8de21fed1bdb68b992c4a7a3aba6613d0/summa_embed-0.17.2.tar.gz
+[2023-06-26 11:55:16] INFO root fetch - processPackages [email-cleaning-service]: Downloading https://files.pythonhosted.org/packages/68/44/17bdc725a3740d787af894a0fc39336465898e760c2526fb232c144f5d15/email_cleaning_service-0.0.8.tar.gz
+[2023-06-26 11:55:16] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/9f/1e/b087076716313900d064750dd9899b67e1001785e168ad8a1b72bf1cc842/composabl_ray-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-26 11:55:16] INFO root fetch - processPackages [dz-mongodb]: Downloading https://files.pythonhosted.org/packages/9e/05/b06daba17fb03e12b13e1f280a53352369d829d2e46d5019cf6aee555e46/dz-mongodb-1.4.0.tar.gz
+[2023-06-26 11:55:16] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-06-26 11:55:16] INFO root fetch - processPackages [thales-remote]: Downloading https://files.pythonhosted.org/packages/15/fc/76a3f6b686faaa79d061a2b5e7c7d1667d89959f0eefc146291660c486b4/thales_remote-1.1.1.tar.gz
+[2023-06-26 11:55:16] WARNING root fetch - processPackages [email-cleaning-service]: Skipping package: exceeds size limit 39560921>=10485760
+[2023-06-26 11:55:16] INFO root fetch - processPackages [email-cleaning-service]: Start processing: jykj
+[2023-06-26 11:55:16] INFO root fetch - main [MainThread]: End processing [email-cleaning-service] error
+[2023-06-26 11:55:16] INFO root fetch - processPackages [pfio]: Downloading https://files.pythonhosted.org/packages/d6/22/5fecda9813c3cc0f8e8640cb551495bbdc86aef4b2bc572f1be94055e66f/pfio-2.5.1.tar.gz
+[2023-06-26 11:55:16] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/85/3d/49335b1a16a537c803ce2bd5a5c27ae0033105067fc57fef29b04d562747/fsrs4anki_optimizer-3.25.5.tar.gz
+[2023-06-26 11:55:16] INFO root fetch - processPackages [easynetwork]: Downloading https://files.pythonhosted.org/packages/e0/a8/044b6012ccacf09e898b1a26660711a86f7124c1547d917727bc9631ec10/easynetwork-1.0.0rc3.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/b2/27/0198ec3b88d4e24fd15da40328d810fcc8e7d5f353c4d69f720e57bd1f22/axaiogram-0.0.6.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [jykj]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 11:55:17] INFO root fetch - processPackages [dz-mongodb]: Downloading https://files.pythonhosted.org/packages/56/5e/793d5aff47f32143fdcf671e11dbbeead9322b2d402fe5f20063c66aa170/dz-mongodb-1.4.1.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/b9/ae/56084e37c4e004d94309b96161fd574a640d55f681643f1b48e6d8cc0f58/summa_embed-0.17.3.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.5.tar.gz tmp/axaiogram-0.0.6.tar.gz --markdown 20230626/a/axaiogram/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 11:55:17] INFO root fetch - processPackages [pfio]: Downloading https://files.pythonhosted.org/packages/bf/1a/972aaf8de96bc21f855ba9113b4e86bb434700fa4a307a1b25544c78fd32/pfio-2.6.0.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [dz-mongodb]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [dz-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dz-mongodb-1.4.0.tar.gz tmp/dz-mongodb-1.4.1.tar.gz --markdown 20230626/d/dz-mongodb/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-26 11:55:17] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/7b/61/ddca034c4361fee11dcdda19fa1b1f00eda17305d4f061a50aa6389b41b9/fsrs4anki_optimizer-3.25.6.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [easynetwork]: Downloading https://files.pythonhosted.org/packages/b9/39/e07f9e4635576311e8d7e3ebf73022ee05dd28525e7cc85f6fe397e9fd74/easynetwork-1.0.0rc4.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/97/46/67dbf2a10253ad0eabbbca5d6d290e748236dd0842aa87060b28576e0d05/jykj-0.0.8.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [thales-remote]: Downloading https://files.pythonhosted.org/packages/5b/f5/bd68af0b99da38970ee26f07491d0d783c7c5d04ea2cc3047d3035c4c458/thales_remote-1.1.2.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.17.2.tar.gz tmp/summa_embed-0.17.3.tar.gz --markdown 20230626/s/summa-embed/0.17.2-0.17.3/diff.md --exclude *.pyd
+[2023-06-26 11:55:17] INFO root fetch - processPackages [pfio]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [pfio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfio-2.5.1.tar.gz tmp/pfio-2.6.0.tar.gz --markdown 20230626/p/pfio/2.5.1-2.6.0/diff.md --exclude *.pyd
+[2023-06-26 11:55:17] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.25.5.tar.gz tmp/fsrs4anki_optimizer-3.25.6.tar.gz --markdown 20230626/f/fsrs4anki-optimizer/3.25.5-3.25.6/diff.md --exclude *.pyd
+[2023-06-26 11:55:17] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230626/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-26 11:55:17] INFO root fetch - processPackages [thales-remote]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [thales-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thales_remote-1.1.1.tar.gz tmp/thales_remote-1.1.2.tar.gz --markdown 20230626/t/thales-remote/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-26 11:55:17] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/68/7b/fc1c100bcad190f0cf59451dd76810c2066cad6923da9638a2ecbce0eacf/jykj-0.0.9.tar.gz
+[2023-06-26 11:55:17] INFO root fetch - processPackages [easynetwork]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [easynetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easynetwork-1.0.0rc3.tar.gz tmp/easynetwork-1.0.0rc4.tar.gz --markdown 20230626/e/easynetwork/1.0.0rc3-1.0.0rc4/diff.md --exclude *.pyd
+[2023-06-26 11:55:17] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/cd/69/a0f372ab9e983a1583cd3c5d7b3c7796a75e3cdbd2c46326a41490f0bf48/composabl_ray-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl
+[2023-06-26 11:55:17] INFO root fetch - processPackages [jykj]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [jykj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jykj-0.0.8.tar.gz tmp/jykj-0.0.9.tar.gz --markdown 20230626/j/jykj/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 11:55:17] INFO root fetch - processPackages [composabl-ray]: executing diffoscope
+[2023-06-26 11:55:17] INFO root fetch - processPackages [composabl-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl.zip tmp/composabl_ray-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20230626/c/composabl-ray/0.2.2.dev0-0.2.3/diff.md --exclude *.pyd
+[2023-06-26 11:55:18] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.5.tar.gz]
+[2023-06-26 11:55:18] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.6.tar.gz]
+[2023-06-26 11:55:18] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 11:55:19] INFO root fetch - processPackages [pfio]: Remove: archive file [/home/abi/fetcher/tmp/pfio-2.5.1.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - processPackages [pfio]: Remove: archive file [/home/abi/fetcher/tmp/pfio-2.6.0.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - main [MainThread]: End processing [pfio]: success
+[2023-06-26 11:55:19] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-06-26 11:55:19] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.8.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.9.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - main [MainThread]: End processing [jykj]: success
+[2023-06-26 11:55:19] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.5.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.6.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-26 11:55:19] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.2.2.dev0-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-26 11:55:19] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.2.3-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2023-06-26 11:55:19] INFO root fetch - main [MainThread]: End processing [composabl-ray]: success
+[2023-06-26 11:55:19] INFO root fetch - processPackages [dz-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/dz-mongodb-1.4.0.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - processPackages [dz-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/dz-mongodb-1.4.1.tar.gz]
+[2023-06-26 11:55:19] INFO root fetch - main [MainThread]: End processing [dz-mongodb]: success
+[2023-06-26 11:55:20] INFO root fetch - processPackages [easynetwork]: Remove: archive file [/home/abi/fetcher/tmp/easynetwork-1.0.0rc3.tar.gz]
+[2023-06-26 11:55:20] INFO root fetch - processPackages [easynetwork]: Remove: archive file [/home/abi/fetcher/tmp/easynetwork-1.0.0rc4.tar.gz]
+[2023-06-26 11:55:20] INFO root fetch - main [MainThread]: End processing [easynetwork]: success
+[2023-06-26 11:55:20] INFO root fetch - processPackages [thales-remote]: Remove: archive file [/home/abi/fetcher/tmp/thales_remote-1.1.1.tar.gz]
+[2023-06-26 11:55:20] INFO root fetch - processPackages [thales-remote]: Remove: archive file [/home/abi/fetcher/tmp/thales_remote-1.1.2.tar.gz]
+[2023-06-26 11:55:20] INFO root fetch - main [MainThread]: End processing [thales-remote]: success
+[2023-06-26 11:55:21] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.2.tar.gz]
+[2023-06-26 11:55:21] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.3.tar.gz]
+[2023-06-26 11:55:21] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-06-26 11:55:21] INFO root fetch - main [MainThread]: Store serial: [18644832]
