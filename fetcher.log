@@ -11738,3 +11738,139 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 10:37:22] INFO root fetch - processPackages [exact]: Remove: archive file [/home/abi/fetcher/tmp/exact-1.1.4-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
 [2023-06-26 10:37:22] INFO root fetch - main [MainThread]: End processing [exact]: success
 [2023-06-26 10:37:22] INFO root fetch - main [MainThread]: Store serial: [18644100]
+[2023-06-26 10:42:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644100]
+[2023-06-26 10:42:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PVNet
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zipline-tej
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-website-event-snippet-calendar
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mxcubeweb
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-estimator-nightly
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visiongraph
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scalr-ngine
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: breeze-strategies
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recon-lw
+[2023-06-26 10:42:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rdfdf
+[2023-06-26 10:42:34] WARNING root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: Skipping, unable to determine old version
+[2023-06-26 10:42:34] INFO root fetch - processPackages [odoo-addon-website-event-snippet-calendar]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-26 10:42:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-event-snippet-calendar] error
+[2023-06-26 10:42:34] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5376000103] Old Version: [2.0.0.dev5347019501]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [mxcubeweb]: New version: [1.49.0] Old Version: [1.48.0]
+[2023-06-26 10:42:34] WARNING root fetch - processPackages [rdfdf]: Skipping, unable to determine old version
+[2023-06-26 10:42:34] INFO root fetch - processPackages [breeze-strategies]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [rdfdf]: Start processing: Pandora-ChatGPT
+[2023-06-26 10:42:34] INFO root fetch - main [MainThread]: End processing [rdfdf] error
+[2023-06-26 10:42:34] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [scalr-ngine]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [visiongraph]: New version: [0.1.47.2] Old Version: [0.1.47.1]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [PVNet]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: New version: [20230626.8.9.100481] Old Version: [20230626.8.40.156829]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/04/67/1551625f863652f28b0e5d463361001931f07ddaf74aa2ec308489e663bb/mxcubeweb-1.48.0.tar.gz
+[2023-06-26 10:42:34] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/f6/8c/95aeab90159647a341dc8b99db668e4dce6253cbcacbe3064464d6e92d9c/visiongraph-0.1.47.1-py3-none-any.whl
+[2023-06-26 10:42:34] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-26 10:42:34] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/fc/42/80fe5ec4ef3a977570fb3037a09a53ca22338df0ea48ebf27c909820c543/Pandora-ChatGPT-1.2.4.tar.gz
+[2023-06-26 10:42:34] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/c8/60/53bfc4d5e6ab95ff344ef900e0300e01854b3268b87b206ca11678393614/recon_lw-2.0.0.dev5347019501.tar.gz
+[2023-06-26 10:42:34] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/e5/9f/6d46b08e0539687efe4df8dc6021af5777a8a9a7bc63a4f36724654c0c33/PVNet-2.0.0.tar.gz
+[2023-06-26 10:42:34] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Downloading https://files.pythonhosted.org/packages/69/74/60e4a6b0b9e7ea0c82343285032eb4d5b4819df6f202c3c2024dbb543895/certora-cli-alpha-cnandi-morpho-equiv-20230626.8.40.156829.tar.gz
+[2023-06-26 10:42:34] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/87/4a/c62ea887e95c0b32bc71e0e05014de8a2d97de3f407861c89fcf531739e4/breeze_strategies-1.0.2.tar.gz
+[2023-06-26 10:42:34] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-26 10:42:34] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping package: exceeds size limit 40305417>=10485760
+[2023-06-26 10:42:34] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Start processing: illumigator
+[2023-06-26 10:42:34] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-26 10:42:34] INFO root fetch - processPackages [scalr-ngine]: Downloading https://files.pythonhosted.org/packages/31/ad/9eb8204b6e208666f29449cb7bee29a096fb2705a54565cfd2f7bc69912b/scalr-ngine-0.8.0.tar.gz
+[2023-06-26 10:42:34] INFO root fetch - processPackages [illumigator]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 10:42:34] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-26 10:42:34] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/b2/09/a99f505fcaab57f26c1d68249cc4b73f8be1fdc752f4d2a80fc3cc7c4f12/mxcubeweb-1.49.0.tar.gz
+[2023-06-26 10:42:34] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/ee/38/ff8bb6aeb98f49446ff350e04184fd6a10279d93eb08ea3a693ed384709c/visiongraph-0.1.47.2-py3-none-any.whl
+[2023-06-26 10:42:34] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-26 10:42:34] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230626/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-26 10:42:34] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-26 10:42:34] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.48.0.tar.gz tmp/mxcubeweb-1.49.0.tar.gz --markdown 20230626/m/mxcubeweb/1.48.0-1.49.0/diff.md --exclude *.pyd
+[2023-06-26 10:42:34] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2023-06-26 10:42:34] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.47.1-py3-none-any.whl.zip tmp/visiongraph-0.1.47.2-py3-none-any.whl.zip --markdown 20230626/v/visiongraph/0.1.47.1-0.1.47.2/diff.md --exclude *.pyd
+[2023-06-26 10:42:34] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/5b/38/d0bdc010cf8e058696108d322a356d80c3531d69300aadb86758e860c2c9/breeze_strategies-1.0.3.tar.gz
+[2023-06-26 10:42:34] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d1/54/e9dd414413df4aea4b088f4abc204b8648e6e99a117cfa60c55a092c2a7c/PVNet-2.1.0.tar.gz
+[2023-06-26 10:42:35] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/cb/3c/7483358a2afc46caa5e3d1304b2f16f0b3779396c5edb29e162e6c3ff15d/illumigator-0.0.6.tar.gz
+[2023-06-26 10:42:35] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/0b/5a/cbce01a6054439f1fc5797227c9f818373b8f4eda99cf9b62fa5f129f71f/recon_lw-2.0.0.dev5376000103.tar.gz
+[2023-06-26 10:42:35] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-26 10:42:35] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-1.0.2.tar.gz tmp/breeze_strategies-1.0.3.tar.gz --markdown 20230626/b/breeze-strategies/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-26 10:42:35] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-26 10:42:35] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.0.0.tar.gz tmp/PVNet-2.1.0.tar.gz --markdown 20230626/P/PVNet/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-26 10:42:35] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 60685380>=10485760
+[2023-06-26 10:42:35] INFO root fetch - processPackages [illumigator]: Start processing: tibis
+[2023-06-26 10:42:35] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-06-26 10:42:35] INFO root fetch - processPackages [tibis]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-26 10:42:35] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/27/9f/3351fcbce492247d59a0d7f0d19342b5286236551555714b2f29f6529da3/Pandora-ChatGPT-1.2.5.tar.gz
+[2023-06-26 10:42:35] INFO root fetch - processPackages [scalr-ngine]: Downloading https://files.pythonhosted.org/packages/19/16/65153faadab491b0161079e7d29b0daf9c14ff9d8fb94af9aa3bb8926095/scalr-ngine-0.9.0.tar.gz
+[2023-06-26 10:42:35] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-26 10:42:35] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.2.4.tar.gz tmp/Pandora-ChatGPT-1.2.5.tar.gz --markdown 20230626/P/Pandora-ChatGPT/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-26 10:42:35] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-26 10:42:35] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5347019501.tar.gz tmp/recon_lw-2.0.0.dev5376000103.tar.gz --markdown 20230626/r/recon-lw/2.0.0.dev5347019501-2.0.0.dev5376000103/diff.md --exclude *.pyd
+[2023-06-26 10:42:35] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-26 10:42:35] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/27/c3/dc3d9a6cce4292aa9c084d84954bb29547bffabb45a81435fb474402f092/tibis-1.0.6.tar.gz
+[2023-06-26 10:42:35] INFO root fetch - processPackages [scalr-ngine]: executing diffoscope
+[2023-06-26 10:42:35] INFO root fetch - processPackages [scalr-ngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalr-ngine-0.8.0.tar.gz tmp/scalr-ngine-0.9.0.tar.gz --markdown 20230626/s/scalr-ngine/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 10:42:35] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-26 10:42:35] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230626/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 10:42:35] INFO root fetch - processPackages [tibis]: Downloading https://files.pythonhosted.org/packages/5a/2d/734ae851d6718a6bf11b27b4068aacfa96131055a1ad8ea9a461cb93ccc4/tibis-1.0.7.tar.gz
+[2023-06-26 10:42:35] INFO root fetch - processPackages [tibis]: executing diffoscope
+[2023-06-26 10:42:35] INFO root fetch - processPackages [tibis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tibis-1.0.6.tar.gz tmp/tibis-1.0.7.tar.gz --markdown 20230626/t/tibis/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-26 10:42:36] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.2.tar.gz]
+[2023-06-26 10:42:36] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.3.tar.gz]
+[2023-06-26 10:42:36] INFO root fetch - processPackages [breeze-strategies]: Start processing: qontract-reconcile
+[2023-06-26 10:42:36] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-26 10:42:36] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-26 10:42:36] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5347019501.tar.gz]
+[2023-06-26 10:42:36] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5376000103.tar.gz]
+[2023-06-26 10:42:36] INFO root fetch - processPackages [recon-lw]: Start processing: tff-nightly
+[2023-06-26 10:42:36] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-26 10:42:36] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-26 10:42:36] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230625] Old Version: [0.0.1.dev20230624]
+[2023-06-26 10:42:36] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.0.0.tar.gz]
+[2023-06-26 10:42:36] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.0.tar.gz]
+[2023-06-26 10:42:36] INFO root fetch - processPackages [PVNet]: Start processing: breeze-strategies
+[2023-06-26 10:42:36] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-26 10:42:36] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/c3/fa/583b3d1e6c2a2951c72470559efdf4e7bb6cc0ec4fe8c1977fb3a44fc3f0/tff_nightly-0.0.1.dev20230624-py2.py3-none-any.whl
+[2023-06-26 10:42:36] INFO root fetch - processPackages [scalr-ngine]: Remove: archive file [/home/abi/fetcher/tmp/scalr-ngine-0.8.0.tar.gz]
+[2023-06-26 10:42:36] INFO root fetch - processPackages [scalr-ngine]: Remove: archive file [/home/abi/fetcher/tmp/scalr-ngine-0.9.0.tar.gz]
+[2023-06-26 10:42:36] INFO root fetch - main [MainThread]: End processing [scalr-ngine]: success
+[2023-06-26 10:42:36] INFO root fetch - processPackages [breeze-strategies]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-26 10:42:37] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/5b/38/d0bdc010cf8e058696108d322a356d80c3531d69300aadb86758e860c2c9/breeze_strategies-1.0.3.tar.gz
+[2023-06-26 10:42:37] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-26 10:42:37] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-26 10:42:37] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230626/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-26 10:42:37] INFO root fetch - processPackages [tibis]: Remove: archive file [/home/abi/fetcher/tmp/tibis-1.0.6.tar.gz]
+[2023-06-26 10:42:37] INFO root fetch - processPackages [tibis]: Remove: archive file [/home/abi/fetcher/tmp/tibis-1.0.7.tar.gz]
+[2023-06-26 10:42:37] INFO root fetch - main [MainThread]: End processing [tibis]: success
+[2023-06-26 10:42:37] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/a6/ae/cc90390fa040a4d676f9c9010129132bd2a150dc8d481e7bbf0ffebdfcbd/breeze_strategies-1.0.4.tar.gz
+[2023-06-26 10:42:37] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-26 10:42:37] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-1.0.3.tar.gz tmp/breeze_strategies-1.0.4.tar.gz --markdown 20230626/b/breeze-strategies/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-26 10:42:37] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/0a/75/728169cb133ea44639b9021333bd107c19b0c340c957de48776828d8cd41/tff_nightly-0.0.1.dev20230625-py2.py3-none-any.whl
+[2023-06-26 10:42:37] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-26 10:42:37] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230624-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230625-py2.py3-none-any.whl.zip --markdown 20230626/t/tff-nightly/0.0.1.dev20230624-0.0.1.dev20230625/diff.md --exclude *.pyd
+[2023-06-26 10:42:37] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-26 10:42:37] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-26 10:42:37] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-26 10:42:38] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.47.1-py3-none-any.whl.zip]
+[2023-06-26 10:42:38] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.47.2-py3-none-any.whl.zip]
+[2023-06-26 10:42:38] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2023-06-26 10:42:38] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.3.tar.gz]
+[2023-06-26 10:42:38] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-1.0.4.tar.gz]
+[2023-06-26 10:42:38] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-26 10:42:38] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.48.0.tar.gz]
+[2023-06-26 10:42:38] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.49.0.tar.gz]
+[2023-06-26 10:42:38] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-26 10:42:40] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.4.tar.gz]
+[2023-06-26 10:42:40] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.5.tar.gz]
+[2023-06-26 10:42:40] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-26 10:42:40] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230624-py2.py3-none-any.whl.zip]
+[2023-06-26 10:42:40] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230625-py2.py3-none-any.whl.zip]
+[2023-06-26 10:42:40] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-26 10:42:41] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-26 10:42:41] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-26 10:42:41] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-26 10:42:43] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-26 10:42:43] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-26 10:42:43] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-26 10:42:43] INFO root fetch - main [MainThread]: Store serial: [18644154]
