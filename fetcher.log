@@ -14447,3 +14447,105 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 12:24:26] INFO root fetch - processPackages [longbridge]: Remove: archive file [/home/abi/fetcher/tmp/longbridge-0.2.9.tar.gz]
 [2023-06-26 12:24:26] INFO root fetch - main [MainThread]: End processing [longbridge]: success
 [2023-06-26 12:24:26] INFO root fetch - main [MainThread]: Store serial: [18645242]
+[2023-06-26 12:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645242]
+[2023-06-26 12:29:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-cicd-base
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-cli
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-dso
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: XPER
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-libs
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-whd
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Kanon4txt
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-oci
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: luminesce-sdk-preview
+[2023-06-26 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: v-quantum-annealing
+[2023-06-26 12:29:36] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [Kanon4txt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2094.0] Old Version: [1.2093.0]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [v-quantum-annealing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2094.0] Old Version: [1.2093.0]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2094.0] Old Version: [1.2093.0]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2094.0] Old Version: [1.2093.0]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2094.0] Old Version: [1.2093.0]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/34/f9/daccca7c827803e429978fbfc6a75eb78a41fcd2b2bb2fc1fb3a726ceba1/gardener-cicd-base-1.2093.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-26 12:29:36] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/a3/22/b01e7bb04835215ae01270e487b97dab9b252137f1801d1115400ea8d90a/v_quantum_annealing-0.0.8.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/9e/8a/895e8ff9c92a330eba12c5aa4435d77aebb8cacc49b5fbc783ab4a514aa8/gardener-cicd-whd-1.2093.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/f2/5e/769f049b1691278a826d8828a85f140dace559bf37f952e07fbb10d7a1af/gardener-cicd-dso-1.2093.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/20/b4/c4bb9adeb963193caae59096f63049088139d6a0de81de60d7ff8948fe4c/gardener-cicd-cli-1.2093.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/24/69/75549dbae451fb4e35b98d114bfaf2223379ae8a80d2d543b973cdad73aa/Kanon4txt-0.0.4.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/e1/c1/498335dbd483ce74a318c87560ef250debee975ad93e71ae83639ddb7632/gardener-cicd-libs-1.2093.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [v-quantum-annealing]: Downloading https://files.pythonhosted.org/packages/9d/8f/5bc22a08352bc6e11eb0dee3d5cc0e9511595befb00f71e0c4b8fcb5f07b/v_quantum_annealing-0.0.9.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/e7/48/5bf5a8cba3ef72800c597301c69a97c2babaaaa325a1e8218c43dedc18d2/gardener-cicd-base-1.2094.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230626/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/d8/b2/24a4c1effccdd19403cec2639ddbc1636a9d8470c84c4c634b746e7f9904/gardener-cicd-whd-1.2094.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/9f/50/caca8a621d0d1ab9312968661d2620c5500c72a8cee27912bd502ed3667c/Kanon4txt-0.0.5.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/34/cb/5c8a8fe7fc130dd6e247e29bd51a1bae3d75b13349c3281cb111e1791087/gardener-cicd-libs-1.2094.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/f0/83/1725dce14d2848894c62190cee74a669754e8ef1e6cb7756b6742b28ce96/gardener-cicd-cli-1.2094.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2093.0.tar.gz tmp/gardener-cicd-base-1.2094.0.tar.gz --markdown 20230626/g/gardener-cicd-base/1.2093.0-1.2094.0/diff.md --exclude *.pyd
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2093.0.tar.gz tmp/gardener-cicd-whd-1.2094.0.tar.gz --markdown 20230626/g/gardener-cicd-whd/1.2093.0-1.2094.0/diff.md --exclude *.pyd
+[2023-06-26 12:29:36] INFO root fetch - processPackages [Kanon4txt]: executing diffoscope
+[2023-06-26 12:29:36] INFO root fetch - processPackages [Kanon4txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kanon4txt-0.0.4.tar.gz tmp/Kanon4txt-0.0.5.tar.gz --markdown 20230626/K/Kanon4txt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2093.0.tar.gz tmp/gardener-cicd-libs-1.2094.0.tar.gz --markdown 20230626/g/gardener-cicd-libs/1.2093.0-1.2094.0/diff.md --exclude *.pyd
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2093.0.tar.gz tmp/gardener-cicd-cli-1.2094.0.tar.gz --markdown 20230626/g/gardener-cicd-cli/1.2093.0-1.2094.0/diff.md --exclude *.pyd
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/40/ee/7e8e199bc9cecd05dbec17b8f01e07eb7d5001fb709a97966a5ed4d47a37/gardener-cicd-dso-1.2094.0.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-26 12:29:36] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2093.0.tar.gz tmp/gardener-cicd-dso-1.2094.0.tar.gz --markdown 20230626/g/gardener-cicd-dso/1.2093.0-1.2094.0/diff.md --exclude *.pyd
+[2023-06-26 12:29:36] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [v-quantum-annealing]: executing diffoscope
+[2023-06-26 12:29:36] INFO root fetch - processPackages [v-quantum-annealing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v_quantum_annealing-0.0.8.tar.gz tmp/v_quantum_annealing-0.0.9.tar.gz --markdown 20230626/v/v-quantum-annealing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 12:29:36] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 12:29:36] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-26 12:29:36] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230626/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-26 12:29:37] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 12:29:37] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 12:29:37] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-26 12:29:37] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-26 12:29:37] INFO root fetch - processPackages [gardener-oci]: Start processing: dronecan-gui-tool
+[2023-06-26 12:29:37] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-26 12:29:37] INFO root fetch - processPackages [dronecan-gui-tool]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-26 12:29:37] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2093.0.tar.gz]
+[2023-06-26 12:29:37] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2094.0.tar.gz]
+[2023-06-26 12:29:37] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-26 12:29:37] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2093.0.tar.gz]
+[2023-06-26 12:29:37] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2094.0.tar.gz]
+[2023-06-26 12:29:38] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-26 12:29:38] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.0.4.tar.gz]
+[2023-06-26 12:29:38] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.0.5.tar.gz]
+[2023-06-26 12:29:38] INFO root fetch - main [MainThread]: End processing [Kanon4txt]: success
+[2023-06-26 12:29:38] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/39/bd/be845733ee143d721d902392777220c11c4d776f137eaa6bbe9f99f51d1d/dronecan_gui_tool-1.2.7.tar.gz
+[2023-06-26 12:29:38] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/76/95/575838ff4802232d228ab222765c6d97e957610b9b451616d619d2b461d3/dronecan_gui_tool-1.2.8.tar.gz
+[2023-06-26 12:29:38] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2093.0.tar.gz]
+[2023-06-26 12:29:38] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2094.0.tar.gz]
+[2023-06-26 12:29:38] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-26 12:29:38] INFO root fetch - processPackages [dronecan-gui-tool]: executing diffoscope
+[2023-06-26 12:29:38] INFO root fetch - processPackages [dronecan-gui-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronecan_gui_tool-1.2.7.tar.gz tmp/dronecan_gui_tool-1.2.8.tar.gz --markdown 20230626/d/dronecan-gui-tool/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-26 12:29:38] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2093.0.tar.gz]
+[2023-06-26 12:29:38] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2094.0.tar.gz]
+[2023-06-26 12:29:38] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-26 12:29:39] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2093.0.tar.gz]
+[2023-06-26 12:29:39] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2094.0.tar.gz]
+[2023-06-26 12:29:39] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-26 12:29:39] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.7.tar.gz]
+[2023-06-26 12:29:39] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.8.tar.gz]
+[2023-06-26 12:29:39] INFO root fetch - main [MainThread]: End processing [dronecan-gui-tool]: success
+[2023-06-26 12:29:40] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-26 12:29:40] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-26 12:29:40] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-26 12:29:41] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.8.tar.gz]
+[2023-06-26 12:29:41] INFO root fetch - processPackages [v-quantum-annealing]: Remove: archive file [/home/abi/fetcher/tmp/v_quantum_annealing-0.0.9.tar.gz]
+[2023-06-26 12:29:41] INFO root fetch - main [MainThread]: End processing [v-quantum-annealing]: success
+[2023-06-26 12:29:42] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 12:29:42] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-06-26 12:29:42] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 12:29:42] INFO root fetch - main [MainThread]: Store serial: [18645276]
