@@ -22253,3 +22253,191 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:13:01] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
 [2023-06-26 17:13:01] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
 [2023-06-26 17:13:01] INFO root fetch - main [MainThread]: Store serial: [18648760]
+[2023-06-26 17:18:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648760]
+[2023-06-26 17:18:12] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tui-rsync
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PennyLane-Lightning-Kokkos
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cardsort
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biosteam
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcnum
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kangtools
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: googleapiutils2
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc-faas-sen2like
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySide6-Fluent-Widgets
+[2023-06-26 17:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-asoc
+[2023-06-26 17:18:12] INFO root fetch - processPackages [tui-rsync]: New version: [0.8.15] Old Version: [0.8.14]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [PennyLane-Lightning-Kokkos]: New version: [0.31.0] Old Version: [0.30.0]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [py-asoc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [kangtools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.6.3rc8] Old Version: [2023.6.3rc7]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [dcnum]: New version: [0.11.0] Old Version: [0.10.0]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [googleapiutils2]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [biosteam]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-26 17:18:12] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/95/62/d1a4a239657cb5e689c3400a692a3ccec55ebecb4544c61e27bd06f92e2b/eodc_faas_sen2like-2023.6.3rc7.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/7f/10/c963e0f91f6d8a83f5035491106245cee8a7eec51fbba33a22c47e371ec2/PySide6-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/a9/43/e217c564f025093a3f3d13f0ca47d6ddaec261b4c074c95744ea378f6453/dcnum-0.10.0.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [kangtools]: Downloading https://files.pythonhosted.org/packages/df/3c/9f371e4f2d253e33e5fd37947084584b0196893b26af7c9333ceb12666ac/kangtools-0.0.5.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [PennyLane-Lightning-Kokkos]: Downloading https://files.pythonhosted.org/packages/f0/4c/7ae0b66a3c18ffc647c5c9b3e347e649f64b5439b2b27cb9f4b8548c2a81/PennyLane-Lightning-Kokkos-0.30.0.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [tui-rsync]: Downloading https://files.pythonhosted.org/packages/e4/a9/d5fd66af74990274629940733471888f5eb59b7811de546b43441baafe09/tui_rsync-0.8.14.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [py-asoc]: Downloading https://files.pythonhosted.org/packages/30/52/25b29e2e7d92beb2b0a87c532f4a46b5affcd8b47c03e7165c4114a52b52/py_asoc-0.1.0.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/ca/82/299e1aea9763f0128a6b8b0e0a48d71209d97114c7776b9fd46928d39453/googleapiutils2-0.9.5.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [biosteam]: Downloading https://files.pythonhosted.org/packages/9c/00/313204e69841aef03bab6e9e10a271b265d5baee12b666cb0f7eee0e9ab2/biosteam-2.9.8.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-06-26 17:18:12] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230626/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 17:18:12] INFO root fetch - processPackages [kangtools]: Downloading https://files.pythonhosted.org/packages/85/a0/9dea4c15809b07aac9aa56fccb2141dd9256bc57e57fa0542cf29f533a59/kangtools-0.0.6.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/11/f4/b2727d96c33d209798f49f8fe737c479349b68736158f7e1424f37f2e354/eodc_faas_sen2like-2023.6.3rc8.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/25/72/90e997b6508df0f27f4def7c6803aad302135596a06faf79cbd880ebe906/dcnum-0.11.0.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/6b/bd/54ca10274cbee556aa6a79d64197c4e765cba4d3dfd14dcc758b91e4b422/PySide6-Fluent-Widgets-0.9.9.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [tui-rsync]: Downloading https://files.pythonhosted.org/packages/71/ef/0582f3692f4928212e402e30a73b565c7a56e1e33b6958d66a288e896a96/tui_rsync-0.8.15.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [kangtools]: executing diffoscope
+[2023-06-26 17:18:12] INFO root fetch - processPackages [kangtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangtools-0.0.5.tar.gz tmp/kangtools-0.0.6.tar.gz --markdown 20230626/k/kangtools/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 17:18:12] INFO root fetch - processPackages [py-asoc]: Downloading https://files.pythonhosted.org/packages/f8/be/6ea34c5a3c7058a76b47cc23c82ccfe73f232fcde76533239ea768515c92/py_asoc-0.1.1.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2023-06-26 17:18:12] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.10.0.tar.gz tmp/dcnum-0.11.0.tar.gz --markdown 20230626/d/dcnum/0.10.0-0.11.0/diff.md --exclude *.pyd
+[2023-06-26 17:18:12] INFO root fetch - processPackages [googleapiutils2]: Downloading https://files.pythonhosted.org/packages/b6/69/1c564b7c3542c23d115a53b6c7fad2b663d8c04d9bd502c65440ee4076bf/googleapiutils2-0.9.6.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [PennyLane-Lightning-Kokkos]: Downloading https://files.pythonhosted.org/packages/75/95/6c25960daad42f4614ab6ce5a7710ef62b4f2b0abd580c1fe97c0ba9a923/PennyLane-Lightning-Kokkos-0.31.0.tar.gz
+[2023-06-26 17:18:12] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-26 17:18:12] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.6.3rc7.tar.gz tmp/eodc_faas_sen2like-2023.6.3rc8.tar.gz --markdown 20230626/e/eodc-faas-sen2like/2023.6.3rc7-2023.6.3rc8/diff.md --exclude *.pyd
+[2023-06-26 17:18:13] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-06-26 17:18:13] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.9.8.tar.gz tmp/PySide6-Fluent-Widgets-0.9.9.tar.gz --markdown 20230626/P/PySide6-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 17:18:13] INFO root fetch - processPackages [py-asoc]: executing diffoscope
+[2023-06-26 17:18:13] INFO root fetch - processPackages [py-asoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_asoc-0.1.0.tar.gz tmp/py_asoc-0.1.1.tar.gz --markdown 20230626/p/py-asoc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 17:18:13] INFO root fetch - processPackages [tui-rsync]: executing diffoscope
+[2023-06-26 17:18:13] INFO root fetch - processPackages [tui-rsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_rsync-0.8.14.tar.gz tmp/tui_rsync-0.8.15.tar.gz --markdown 20230626/t/tui-rsync/0.8.14-0.8.15/diff.md --exclude *.pyd
+[2023-06-26 17:18:13] INFO root fetch - processPackages [googleapiutils2]: executing diffoscope
+[2023-06-26 17:18:13] INFO root fetch - processPackages [googleapiutils2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleapiutils2-0.9.5.tar.gz tmp/googleapiutils2-0.9.6.tar.gz --markdown 20230626/g/googleapiutils2/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-26 17:18:13] INFO root fetch - processPackages [PennyLane-Lightning-Kokkos]: executing diffoscope
+[2023-06-26 17:18:13] INFO root fetch - processPackages [PennyLane-Lightning-Kokkos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PennyLane-Lightning-Kokkos-0.30.0.tar.gz tmp/PennyLane-Lightning-Kokkos-0.31.0.tar.gz --markdown 20230626/P/PennyLane-Lightning-Kokkos/0.30.0-0.31.0/diff.md --exclude *.pyd
+[2023-06-26 17:18:13] INFO root fetch - processPackages [biosteam]: Downloading https://files.pythonhosted.org/packages/e8/20/f344b75b639fc3d827c69ecf18e63ab753349283dab6a010e8e2b8860aaa/biosteam-2.9.9.tar.gz
+[2023-06-26 17:18:13] INFO root fetch - processPackages [biosteam]: executing diffoscope
+[2023-06-26 17:18:13] INFO root fetch - processPackages [biosteam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosteam-2.9.8.tar.gz tmp/biosteam-2.9.9.tar.gz --markdown 20230626/b/biosteam/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-26 17:18:14] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc7.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.6.3rc8.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: klongpy
+[2023-06-26 17:18:14] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-26 17:18:14] INFO root fetch - processPackages [klongpy]: New version: [0.3.74] Old Version: [0.3.73]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [kangtools]: Remove: archive file [/home/abi/fetcher/tmp/kangtools-0.0.5.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [kangtools]: Remove: archive file [/home/abi/fetcher/tmp/kangtools-0.0.6.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [kangtools]: Start processing: decode-config
+[2023-06-26 17:18:14] INFO root fetch - main [MainThread]: End processing [kangtools]: success
+[2023-06-26 17:18:14] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [decode-config]: New version: [2022.1] Old Version: [13.0.0.0]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [cardsort]: Start processing: pyporscheconnectapi
+[2023-06-26 17:18:14] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-06-26 17:18:14] INFO root fetch - processPackages [pyporscheconnectapi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/76/26/ce0851ec8a3b5390b361ae6e96559706e34f29a21760de13a5e8631b7252/klongpy-0.3.73.tar.gz
+[2023-06-26 17:18:14] INFO root fetch - processPackages [decode-config]: Downloading https://files.pythonhosted.org/packages/d4/cf/947c61d12d0b2ad6298d6de9954d84f53f9984276084cc6e2433260e8367/decode-config-13.0.0.0.tar.gz
+[2023-06-26 17:18:14] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.10.0.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.11.0.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [dcnum]: Start processing: unimpeded
+[2023-06-26 17:18:14] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2023-06-26 17:18:14] INFO root fetch - processPackages [pyporscheconnectapi]: Downloading https://files.pythonhosted.org/packages/96/9b/a2dc54942a755e678c4d763a40297540d2b64a478175f053e2553ee7a66a/pyporscheconnectapi-0.1.4.tar.gz
+[2023-06-26 17:18:14] INFO root fetch - processPackages [unimpeded]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/be/98/4f298cba4b0ca260b5c5d831e4de7c10a2f7ce87edf36000c1c1f7a93f6a/unimpeded-0.0.1.tar.gz
+[2023-06-26 17:18:14] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/96/30/eef180c87cdec1e902e14277486a586901d6d5f1470ac9e2f62759e92c73/klongpy-0.3.74.tar.gz
+[2023-06-26 17:18:14] INFO root fetch - processPackages [tui-rsync]: Remove: archive file [/home/abi/fetcher/tmp/tui_rsync-0.8.14.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [tui-rsync]: Remove: archive file [/home/abi/fetcher/tmp/tui_rsync-0.8.15.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [tui-rsync]: Start processing: humlab-penelope
+[2023-06-26 17:18:14] INFO root fetch - main [MainThread]: End processing [tui-rsync]: success
+[2023-06-26 17:18:14] INFO root fetch - processPackages [PennyLane-Lightning-Kokkos]: Remove: archive file [/home/abi/fetcher/tmp/PennyLane-Lightning-Kokkos-0.30.0.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [PennyLane-Lightning-Kokkos]: Remove: archive file [/home/abi/fetcher/tmp/PennyLane-Lightning-Kokkos-0.31.0.tar.gz]
+[2023-06-26 17:18:14] INFO root fetch - processPackages [PennyLane-Lightning-Kokkos]: Start processing: few-shot-priming
+[2023-06-26 17:18:14] INFO root fetch - main [MainThread]: End processing [PennyLane-Lightning-Kokkos]: success
+[2023-06-26 17:18:15] INFO root fetch - processPackages [humlab-penelope]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-26 17:18:15] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-26 17:18:15] INFO root fetch - processPackages [klongpy]: executing diffoscope
+[2023-06-26 17:18:15] INFO root fetch - processPackages [klongpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klongpy-0.3.73.tar.gz tmp/klongpy-0.3.74.tar.gz --markdown 20230626/k/klongpy/0.3.73-0.3.74/diff.md --exclude *.pyd
+[2023-06-26 17:18:15] INFO root fetch - processPackages [pyporscheconnectapi]: Downloading https://files.pythonhosted.org/packages/05/64/ab633c00354a9f59f4250eee13a62c7dc7f1e0d11b677f6a8594e30817e9/pyporscheconnectapi-0.1.5.tar.gz
+[2023-06-26 17:18:15] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-26 17:18:15] INFO root fetch - processPackages [googleapiutils2]: Remove: archive file [/home/abi/fetcher/tmp/googleapiutils2-0.9.5.tar.gz]
+[2023-06-26 17:18:15] INFO root fetch - processPackages [googleapiutils2]: Remove: archive file [/home/abi/fetcher/tmp/googleapiutils2-0.9.6.tar.gz]
+[2023-06-26 17:18:15] INFO root fetch - processPackages [googleapiutils2]: Start processing: cg
+[2023-06-26 17:18:15] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/f2/2e/e8337124005e18fe809d70712246192c19dd80c5b0f32d5495b443e279a8/unimpeded-0.0.2.tar.gz
+[2023-06-26 17:18:15] INFO root fetch - main [MainThread]: End processing [googleapiutils2]: success
+[2023-06-26 17:18:15] INFO root fetch - processPackages [decode-config]: Downloading https://files.pythonhosted.org/packages/50/00/90e430e62acb1110271b96192b0ede62de13c0d396b0a2167d4a58ec7645/decode-config-2022.1.tar.gz
+[2023-06-26 17:18:15] INFO root fetch - processPackages [cg]: New version: [37.0.7] Old Version: [37.0.6]
+[2023-06-26 17:18:15] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/d8/ca/dedea523957beaa5dab86604ac3a1877a34c4a4036306f5610f37f3eeb10/humlab-penelope-0.7.8.tar.gz
+[2023-06-26 17:18:15] INFO root fetch - processPackages [decode-config]: executing diffoscope
+[2023-06-26 17:18:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a1/cf/1ad0128741c9da4b13b0910bfaf14c7e4444376d1cebdf512fbcc30aabf1/cg-37.0.6.tar.gz
+[2023-06-26 17:18:15] INFO root fetch - processPackages [decode-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decode-config-13.0.0.0.tar.gz tmp/decode-config-2022.1.tar.gz --markdown 20230626/d/decode-config/13.0.0.0-2022.1/diff.md --exclude *.pyd
+[2023-06-26 17:18:15] INFO root fetch - processPackages [pyporscheconnectapi]: executing diffoscope
+[2023-06-26 17:18:15] INFO root fetch - processPackages [pyporscheconnectapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyporscheconnectapi-0.1.4.tar.gz tmp/pyporscheconnectapi-0.1.5.tar.gz --markdown 20230626/p/pyporscheconnectapi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 17:18:15] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-26 17:18:15] INFO root fetch - processPackages [unimpeded]: executing diffoscope
+[2023-06-26 17:18:15] INFO root fetch - processPackages [unimpeded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimpeded-0.0.1.tar.gz tmp/unimpeded-0.0.2.tar.gz --markdown 20230626/u/unimpeded/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 17:18:15] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-26 17:18:15] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230626/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 17:18:15] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-26 17:18:15] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.9.tar.gz]
+[2023-06-26 17:18:15] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Start processing: KafkaMetricsExporter
+[2023-06-26 17:18:15] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-06-26 17:18:15] INFO root fetch - processPackages [KafkaMetricsExporter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 17:18:15] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/54/2d/d93b062bcd756fd4329f676eda75f0332c78adb4d1030ecb7cb993aa2310/cg-37.0.7.tar.gz
+[2023-06-26 17:18:15] INFO root fetch - processPackages [humlab-penelope]: Downloading https://files.pythonhosted.org/packages/cd/64/b400304bb580cd93a392737813c0281428d325fb97fce6726ec5b53a4fd3/humlab-penelope-0.7.9.tar.gz
+[2023-06-26 17:18:15] INFO root fetch - processPackages [KafkaMetricsExporter]: Downloading https://files.pythonhosted.org/packages/57/89/3446c220fa90ff39423c205fcccfb60aa848c94db96ccafe7007da13c986/KafkaMetricsExporter-0.0.2.tar.gz
+[2023-06-26 17:18:15] INFO root fetch - processPackages [humlab-penelope]: executing diffoscope
+[2023-06-26 17:18:15] INFO root fetch - processPackages [humlab-penelope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humlab-penelope-0.7.8.tar.gz tmp/humlab-penelope-0.7.9.tar.gz --markdown 20230626/h/humlab-penelope/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-26 17:18:15] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-26 17:18:15] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.6.tar.gz tmp/cg-37.0.7.tar.gz --markdown 20230626/c/cg/37.0.6-37.0.7/diff.md --exclude *.pyd
+[2023-06-26 17:18:16] INFO root fetch - processPackages [KafkaMetricsExporter]: Downloading https://files.pythonhosted.org/packages/c9/5e/e5373082f49bde3005f4c744d1e189e467c92c6e967495edfb98688c223f/KafkaMetricsExporter-0.0.3.tar.gz
+[2023-06-26 17:18:16] INFO root fetch - processPackages [KafkaMetricsExporter]: executing diffoscope
+[2023-06-26 17:18:16] INFO root fetch - processPackages [KafkaMetricsExporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KafkaMetricsExporter-0.0.2.tar.gz tmp/KafkaMetricsExporter-0.0.3.tar.gz --markdown 20230626/K/KafkaMetricsExporter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 17:18:16] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.0.1.tar.gz]
+[2023-06-26 17:18:16] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.0.2.tar.gz]
+[2023-06-26 17:18:16] INFO root fetch - processPackages [unimpeded]: Start processing: bci-framework
+[2023-06-26 17:18:16] INFO root fetch - main [MainThread]: End processing [unimpeded]: success
+[2023-06-26 17:18:16] INFO root fetch - processPackages [bci-framework]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-26 17:18:16] INFO root fetch - processPackages [pyporscheconnectapi]: Remove: archive file [/home/abi/fetcher/tmp/pyporscheconnectapi-0.1.4.tar.gz]
+[2023-06-26 17:18:16] INFO root fetch - processPackages [pyporscheconnectapi]: Remove: archive file [/home/abi/fetcher/tmp/pyporscheconnectapi-0.1.5.tar.gz]
+[2023-06-26 17:18:16] INFO root fetch - processPackages [pyporscheconnectapi]: Start processing: tendril-utils-db
+[2023-06-26 17:18:16] INFO root fetch - main [MainThread]: End processing [pyporscheconnectapi]: success
+[2023-06-26 17:18:16] INFO root fetch - processPackages [tendril-utils-db]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-26 17:18:16] INFO root fetch - processPackages [bci-framework]: Downloading https://files.pythonhosted.org/packages/0a/8d/692b9f842f5d1656c982e230306e7c2dc9f598a33b52a4531a80e9e52106/bci-framework-1.3.1.tar.gz
+[2023-06-26 17:18:16] INFO root fetch - processPackages [tendril-utils-db]: Downloading https://files.pythonhosted.org/packages/c6/32/24e05f86789b3cbb0b978d147be8408348d5096a68f7fcd0c949aee12524/tendril-utils-db-0.5.1.tar.gz
+[2023-06-26 17:18:16] WARNING root fetch - processPackages [bci-framework]: Skipping package: exceeds size limit 62395963>=10485760
+[2023-06-26 17:18:16] INFO root fetch - processPackages [bci-framework]: Start processing: marionette-predeployed
+[2023-06-26 17:18:16] INFO root fetch - main [MainThread]: End processing [bci-framework] error
+[2023-06-26 17:18:16] INFO root fetch - processPackages [biosteam]: Remove: archive file [/home/abi/fetcher/tmp/biosteam-2.9.8.tar.gz]
+[2023-06-26 17:18:16] INFO root fetch - processPackages [biosteam]: Remove: archive file [/home/abi/fetcher/tmp/biosteam-2.9.9.tar.gz]
+[2023-06-26 17:18:16] INFO root fetch - main [MainThread]: End processing [biosteam]: success
+[2023-06-26 17:18:16] INFO root fetch - processPackages [marionette-predeployed]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-06-26 17:18:16] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/68/83/011d8de3b5caa96970482b4419a1c42318766d4c83102bbcc26535c63fd8/marionette-predeployed-2.0.0b1.tar.gz
+[2023-06-26 17:18:17] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/3b/59/3c96cac75eb892bea3d323d71c85f05f8cde0f928b8f4a276d5df3999f9f/marionette-predeployed-2.0.0b2.tar.gz
+[2023-06-26 17:18:17] INFO root fetch - processPackages [tendril-utils-db]: Downloading https://files.pythonhosted.org/packages/ad/d7/03ad743764b1696397b8d0f27d2ad5460c36a748b8d98aa80e66fc3d1bf1/tendril-utils-db-0.5.2.tar.gz
+[2023-06-26 17:18:17] INFO root fetch - processPackages [marionette-predeployed]: executing diffoscope
+[2023-06-26 17:18:17] INFO root fetch - processPackages [marionette-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marionette-predeployed-2.0.0b1.tar.gz tmp/marionette-predeployed-2.0.0b2.tar.gz --markdown 20230626/m/marionette-predeployed/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-06-26 17:18:17] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.3.73.tar.gz]
+[2023-06-26 17:18:17] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.3.74.tar.gz]
+[2023-06-26 17:18:17] INFO root fetch - main [MainThread]: End processing [klongpy]: success
+[2023-06-26 17:18:17] INFO root fetch - processPackages [tendril-utils-db]: executing diffoscope
+[2023-06-26 17:18:17] INFO root fetch - processPackages [tendril-utils-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-db-0.5.1.tar.gz tmp/tendril-utils-db-0.5.2.tar.gz --markdown 20230626/t/tendril-utils-db/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-26 17:18:17] INFO root fetch - processPackages [KafkaMetricsExporter]: Remove: archive file [/home/abi/fetcher/tmp/KafkaMetricsExporter-0.0.2.tar.gz]
+[2023-06-26 17:18:17] INFO root fetch - processPackages [KafkaMetricsExporter]: Remove: archive file [/home/abi/fetcher/tmp/KafkaMetricsExporter-0.0.3.tar.gz]
+[2023-06-26 17:18:17] INFO root fetch - main [MainThread]: End processing [KafkaMetricsExporter]: success
+[2023-06-26 17:18:18] INFO root fetch - processPackages [decode-config]: Remove: archive file [/home/abi/fetcher/tmp/decode-config-13.0.0.0.tar.gz]
+[2023-06-26 17:18:18] INFO root fetch - processPackages [decode-config]: Remove: archive file [/home/abi/fetcher/tmp/decode-config-2022.1.tar.gz]
+[2023-06-26 17:18:18] INFO root fetch - main [MainThread]: End processing [decode-config]: success
+[2023-06-26 17:18:18] INFO root fetch - processPackages [py-asoc]: Remove: archive file [/home/abi/fetcher/tmp/py_asoc-0.1.0.tar.gz]
+[2023-06-26 17:18:18] INFO root fetch - processPackages [py-asoc]: Remove: archive file [/home/abi/fetcher/tmp/py_asoc-0.1.1.tar.gz]
+[2023-06-26 17:18:18] INFO root fetch - main [MainThread]: End processing [py-asoc]: success
+[2023-06-26 17:18:18] INFO root fetch - processPackages [tendril-utils-db]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-db-0.5.1.tar.gz]
+[2023-06-26 17:18:18] INFO root fetch - processPackages [tendril-utils-db]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-db-0.5.2.tar.gz]
+[2023-06-26 17:18:18] INFO root fetch - main [MainThread]: End processing [tendril-utils-db]: success
+[2023-06-26 17:18:18] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b1.tar.gz]
+[2023-06-26 17:18:18] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b2.tar.gz]
+[2023-06-26 17:18:18] INFO root fetch - main [MainThread]: End processing [marionette-predeployed]: success
+[2023-06-26 17:18:19] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-26 17:18:19] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-26 17:18:19] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-26 17:18:19] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.8.tar.gz]
+[2023-06-26 17:18:19] INFO root fetch - processPackages [humlab-penelope]: Remove: archive file [/home/abi/fetcher/tmp/humlab-penelope-0.7.9.tar.gz]
+[2023-06-26 17:18:19] INFO root fetch - main [MainThread]: End processing [humlab-penelope]: success
+[2023-06-26 17:18:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.6.tar.gz]
+[2023-06-26 17:18:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.7.tar.gz]
+[2023-06-26 17:18:30] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-26 17:18:30] INFO root fetch - main [MainThread]: Store serial: [18648830]
