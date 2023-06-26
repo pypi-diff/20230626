@@ -21265,3 +21265,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 16:40:00] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230626.75721.tar.gz]
 [2023-06-26 16:40:00] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-06-26 16:40:00] INFO root fetch - main [MainThread]: Store serial: [18648388]
+[2023-06-26 16:45:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648388]
+[2023-06-26 16:45:10] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyscripts
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypnusershub
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datapusher-plus
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rosa-python-client
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastpg
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taegis-sdk-python
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unimpeded
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gracy
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qdls
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ma-nish
+[2023-06-26 16:45:10] INFO root fetch - processPackages [pypnusershub]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [qdls]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [unimpeded]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [taegis-sdk-python]: New version: [1.0.0rc1] Old Version: [1.0.0a9]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ma-nish]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [fastpg]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [lyscripts]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [datapusher-plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-26 16:45:10] INFO root fetch - processPackages [qdls]: Downloading https://files.pythonhosted.org/packages/8a/cb/1d73cd755a31cb49e246039d96726f09e44cf6f37e90fa1c7b618872d0b1/qdls-0.0.6.tar.gz
+[2023-06-26 16:45:10] INFO root fetch - processPackages [ma-nish]: Downloading https://files.pythonhosted.org/packages/f5/c9/7b08aacc45fc0bba6b04772f3695e596916aa4e3afb013f639b450f43d61/ma_nish-1.0.0-py3-none-any.whl
+[2023-06-26 16:45:10] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-06-26 16:45:10] INFO root fetch - processPackages [taegis-sdk-python]: Downloading https://files.pythonhosted.org/packages/98/09/04dae14820e03a61109d7dcffaa9be8f447e2d88f6dc3c7e86f29cbe5981/taegis-sdk-python-1.0.0a9.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [fastpg]: Downloading https://files.pythonhosted.org/packages/7b/7f/aea9af612aa3110aea745979aa4398e685e3da0930c3dd3ef30b5b31227f/fastpg-0.0.5.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [lyscripts]: Downloading https://files.pythonhosted.org/packages/23/2f/1e768800af3ece2da3181c129f54656c9b04c3e7c6d89523964c970dfb5e/lyscripts-0.6.9.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [pypnusershub]: Downloading https://files.pythonhosted.org/packages/f4/52/e9e76a4fec0285e29f2a4d8cd21f6954565fe113ecb1fbb777e12cb9d1cf/pypnusershub-1.6.7.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/a9/fe/9771b4b9d461186f227e37825a873795ac700d5878674bdf36e412b1538a/unimpeded-0.0.0.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/cd/1f/c880607a2c92ea7edf79b474fe69127bf700211792b250de5688cc0f35c4/gracy-1.9.0.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [datapusher-plus]: Downloading https://files.pythonhosted.org/packages/9f/68/397cd9810ab6732196e43b9478bb03405933602ff7a64c725dce6081e908/datapusher-plus-0.8.0.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [qdls]: Downloading https://files.pythonhosted.org/packages/91/ef/4994198cfc504a531134dfa362898fbdd4c758fe988346e18d77947db367/qdls-0.0.7.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [ma-nish]: Downloading https://files.pythonhosted.org/packages/9b/47/26480a55f1d44a797712e04f8ebed87704456564b02d2923642315784b81/ma_nish-1.1.0-py3-none-any.whl
+[2023-06-26 16:45:11] INFO root fetch - processPackages [ma-nish]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [ma-nish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ma_nish-1.0.0-py3-none-any.whl.zip tmp/ma_nish-1.1.0-py3-none-any.whl.zip --markdown 20230626/m/ma-nish/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-26 16:45:11] INFO root fetch - processPackages [qdls]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [qdls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdls-0.0.6.tar.gz tmp/qdls-0.0.7.tar.gz --markdown 20230626/q/qdls/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 16:45:11] INFO root fetch - processPackages [fastpg]: Downloading https://files.pythonhosted.org/packages/97/7f/cc61050507f544a9e2fa80843f3f70c56ab1479afa5876a43a2f31aa2d88/fastpg-0.0.6.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [taegis-sdk-python]: Downloading https://files.pythonhosted.org/packages/64/83/c82cd20c25375fdb3921a1b37e03c1a8ec37530b2fe6350f19063c652743/taegis-sdk-python-1.0.0rc1.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/be/98/4f298cba4b0ca260b5c5d831e4de7c10a2f7ce87edf36000c1c1f7a93f6a/unimpeded-0.0.1.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [pypnusershub]: Downloading https://files.pythonhosted.org/packages/85/ae/859b6f19d6b89417b754a52505dbe712c87e7268ba8cb6bd5f8211a63e8d/pypnusershub-1.6.8.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [lyscripts]: Downloading https://files.pythonhosted.org/packages/7a/ac/608604f5c6122b99b21422eb170e9a071fc38fa73a4baae2f3715b9d66c2/lyscripts-0.7.0.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230626/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 16:45:11] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/1e/6f/ce2bfb2b73be0d267e60d390c02a83bd9ad556c22357258727c677517895/gracy-1.9.1.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [fastpg]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [fastpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastpg-0.0.5.tar.gz tmp/fastpg-0.0.6.tar.gz --markdown 20230626/f/fastpg/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 16:45:11] INFO root fetch - processPackages [pypnusershub]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [pypnusershub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypnusershub-1.6.7.tar.gz tmp/pypnusershub-1.6.8.tar.gz --markdown 20230626/p/pypnusershub/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-06-26 16:45:11] INFO root fetch - processPackages [taegis-sdk-python]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [taegis-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taegis-sdk-python-1.0.0a9.tar.gz tmp/taegis-sdk-python-1.0.0rc1.tar.gz --markdown 20230626/t/taegis-sdk-python/1.0.0a9-1.0.0rc1/diff.md --exclude *.pyd
+[2023-06-26 16:45:11] INFO root fetch - processPackages [lyscripts]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [lyscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyscripts-0.6.9.tar.gz tmp/lyscripts-0.7.0.tar.gz --markdown 20230626/l/lyscripts/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-06-26 16:45:11] INFO root fetch - processPackages [unimpeded]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [unimpeded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimpeded-0.0.0.tar.gz tmp/unimpeded-0.0.1.tar.gz --markdown 20230626/u/unimpeded/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-26 16:45:11] INFO root fetch - processPackages [datapusher-plus]: Downloading https://files.pythonhosted.org/packages/ee/ac/dec6609d2262650af59bb62a83a943cd36d1336a5daf933fe093085afa86/datapusher-plus-0.9.0.tar.gz
+[2023-06-26 16:45:11] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230626/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-26 16:45:11] INFO root fetch - processPackages [datapusher-plus]: executing diffoscope
+[2023-06-26 16:45:11] INFO root fetch - processPackages [datapusher-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapusher-plus-0.8.0.tar.gz tmp/datapusher-plus-0.9.0.tar.gz --markdown 20230626/d/datapusher-plus/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 16:45:12] INFO root fetch - processPackages [ma-nish]: Remove: archive file [/home/abi/fetcher/tmp/ma_nish-1.0.0-py3-none-any.whl.zip]
+[2023-06-26 16:45:12] INFO root fetch - processPackages [ma-nish]: Remove: archive file [/home/abi/fetcher/tmp/ma_nish-1.1.0-py3-none-any.whl.zip]
+[2023-06-26 16:45:12] INFO root fetch - processPackages [ma-nish]: Start processing: port-ocean
+[2023-06-26 16:45:12] INFO root fetch - main [MainThread]: End processing [ma-nish]: success
+[2023-06-26 16:45:12] INFO root fetch - processPackages [port-ocean]: New version: [0.1.0.dev1] Old Version: [0.1.0.dev0]
+[2023-06-26 16:45:12] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-06-26 16:45:12] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2023-06-26 16:45:12] INFO root fetch - processPackages [rosa-python-client]: Start processing: drive
+[2023-06-26 16:45:12] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-06-26 16:45:12] INFO root fetch - processPackages [drive]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-26 16:45:12] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/9b/19/a907e647cf434c187536997ab44d9166b84ec5ad74f878e510efd51a3a8b/port_ocean-0.1.0.dev0.tar.gz
+[2023-06-26 16:45:13] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.0.0.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.0.1.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [unimpeded]: Start processing: pybind11-union-find
+[2023-06-26 16:45:13] INFO root fetch - main [MainThread]: End processing [unimpeded]: success
+[2023-06-26 16:45:13] INFO root fetch - processPackages [fastpg]: Remove: archive file [/home/abi/fetcher/tmp/fastpg-0.0.5.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [fastpg]: Remove: archive file [/home/abi/fetcher/tmp/fastpg-0.0.6.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [fastpg]: Start processing: few-shot-priming
+[2023-06-26 16:45:13] INFO root fetch - main [MainThread]: End processing [fastpg]: success
+[2023-06-26 16:45:13] INFO root fetch - processPackages [drive]: Downloading https://files.pythonhosted.org/packages/c7/06/df36b32899aa30a15455f910753d39e1a0f904e83f8294c548e00457b9fc/drive-0.4.1.tar.gz
+[2023-06-26 16:45:13] WARNING root fetch - processPackages [pybind11-union-find]: Skipping, unable to determine old version
+[2023-06-26 16:45:13] INFO root fetch - processPackages [pybind11-union-find]: Start processing: pyscal-rdf
+[2023-06-26 16:45:13] INFO root fetch - main [MainThread]: End processing [pybind11-union-find] error
+[2023-06-26 16:45:13] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.0.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.1.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [gracy]: Start processing: maadstml
+[2023-06-26 16:45:13] INFO root fetch - processPackages [pyscal-rdf]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-26 16:45:13] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-06-26 16:45:13] INFO root fetch - processPackages [pypnusershub]: Remove: archive file [/home/abi/fetcher/tmp/pypnusershub-1.6.7.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [pypnusershub]: Remove: archive file [/home/abi/fetcher/tmp/pypnusershub-1.6.8.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - main [MainThread]: End processing [pypnusershub]: success
+[2023-06-26 16:45:13] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/25/e2/3d5706669ca7f236181ab51e1c1e36ee6fe1ab4e53ca4530e3fe66a664c6/port_ocean-0.1.0.dev1.tar.gz
+[2023-06-26 16:45:13] INFO root fetch - processPackages [maadstml]: New version: [3.41] Old Version: [3.40]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-06-26 16:45:13] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.0.dev0.tar.gz tmp/port_ocean-0.1.0.dev1.tar.gz --markdown 20230626/p/port-ocean/0.1.0.dev0-0.1.0.dev1/diff.md --exclude *.pyd
+[2023-06-26 16:45:13] INFO root fetch - processPackages [drive]: Downloading https://files.pythonhosted.org/packages/00/4f/d75141db1cf526184b7684d76e2c8c86a64e6ecdcc4305532dbe666c3f95/drive-0.4.2.tar.gz
+[2023-06-26 16:45:13] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-26 16:45:13] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/85/92/4eb7290b0ffd7130392791bf72a175791d732a706d6c79f91a95640badb6/pyscal_rdf-0.0.7.tar.gz
+[2023-06-26 16:45:13] INFO root fetch - processPackages [drive]: executing diffoscope
+[2023-06-26 16:45:13] INFO root fetch - processPackages [drive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drive-0.4.1.tar.gz tmp/drive-0.4.2.tar.gz --markdown 20230626/d/drive/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-26 16:45:13] INFO root fetch - processPackages [lyscripts]: Remove: archive file [/home/abi/fetcher/tmp/lyscripts-0.6.9.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [lyscripts]: Remove: archive file [/home/abi/fetcher/tmp/lyscripts-0.7.0.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - main [MainThread]: End processing [lyscripts]: success
+[2023-06-26 16:45:13] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/fc/fc/545a30c311021f1a992a4dea296351582b8678a6e0e03e805cfad8e84567/maadstml-3.40.tar.gz
+[2023-06-26 16:45:13] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/04/54/bf7e5d92ad74c3b176e626f9aca73b00337aa83fdf5fa33eea1f4d603301/pyscal_rdf-0.0.8.tar.gz
+[2023-06-26 16:45:13] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-26 16:45:13] INFO root fetch - processPackages [datapusher-plus]: Remove: archive file [/home/abi/fetcher/tmp/datapusher-plus-0.8.0.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - processPackages [datapusher-plus]: Remove: archive file [/home/abi/fetcher/tmp/datapusher-plus-0.9.0.tar.gz]
+[2023-06-26 16:45:13] INFO root fetch - main [MainThread]: End processing [datapusher-plus]: success
+[2023-06-26 16:45:13] INFO root fetch - processPackages [pyscal-rdf]: executing diffoscope
+[2023-06-26 16:45:13] INFO root fetch - processPackages [pyscal-rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal_rdf-0.0.7.tar.gz tmp/pyscal_rdf-0.0.8.tar.gz --markdown 20230626/p/pyscal-rdf/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-26 16:45:13] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-26 16:45:13] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230626/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 16:45:13] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/2a/b1/c5c5c75e5bba71fa9bbc260be3e34d824bf0b8eda5e576204c049d3ea0d8/maadstml-3.41.tar.gz
+[2023-06-26 16:45:13] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-26 16:45:13] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.40.tar.gz tmp/maadstml-3.41.tar.gz --markdown 20230626/m/maadstml/3.40-3.41/diff.md --exclude *.pyd
+[2023-06-26 16:45:14] INFO root fetch - processPackages [drive]: Remove: archive file [/home/abi/fetcher/tmp/drive-0.4.1.tar.gz]
+[2023-06-26 16:45:14] INFO root fetch - processPackages [drive]: Remove: archive file [/home/abi/fetcher/tmp/drive-0.4.2.tar.gz]
+[2023-06-26 16:45:14] INFO root fetch - main [MainThread]: End processing [drive]: success
+[2023-06-26 16:45:14] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev0.tar.gz]
+[2023-06-26 16:45:14] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0.dev1.tar.gz]
+[2023-06-26 16:45:14] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-06-26 16:45:15] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-26 16:45:15] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-26 16:45:15] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-26 16:45:15] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.40.tar.gz]
+[2023-06-26 16:45:15] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.41.tar.gz]
+[2023-06-26 16:45:15] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-26 16:45:15] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.7.tar.gz]
+[2023-06-26 16:45:15] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.8.tar.gz]
+[2023-06-26 16:45:15] INFO root fetch - main [MainThread]: End processing [pyscal-rdf]: success
+[2023-06-26 16:45:16] INFO root fetch - processPackages [qdls]: Remove: archive file [/home/abi/fetcher/tmp/qdls-0.0.6.tar.gz]
+[2023-06-26 16:45:16] INFO root fetch - processPackages [qdls]: Remove: archive file [/home/abi/fetcher/tmp/qdls-0.0.7.tar.gz]
+[2023-06-26 16:45:16] INFO root fetch - main [MainThread]: End processing [qdls]: success
+[2023-06-26 16:45:17] INFO root fetch - processPackages [taegis-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/taegis-sdk-python-1.0.0a9.tar.gz]
+[2023-06-26 16:45:17] INFO root fetch - processPackages [taegis-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/taegis-sdk-python-1.0.0rc1.tar.gz]
+[2023-06-26 16:45:17] INFO root fetch - main [MainThread]: End processing [taegis-sdk-python]: success
+[2023-06-26 16:45:17] INFO root fetch - main [MainThread]: Store serial: [18648446]
