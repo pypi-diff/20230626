@@ -15041,3 +15041,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 12:56:02] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.0.0.tar.gz]
 [2023-06-26 12:56:02] INFO root fetch - main [MainThread]: End processing [overhave]: success
 [2023-06-26 12:56:02] INFO root fetch - main [MainThread]: Store serial: [18645494]
+[2023-06-26 13:01:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645494]
+[2023-06-26 13:01:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 13:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainlit
+[2023-06-26 13:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygame-ecs
+[2023-06-26 13:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: to_dto_converters
+[2023-06-26 13:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: breizorro
+[2023-06-26 13:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dghs-imgutils
+[2023-06-26 13:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Kanon4txt
+[2023-06-26 13:01:12] INFO root fetch - processPackages [chainlit]: New version: [0.4.2] Old Version: [0.4.101]
+[2023-06-26 13:01:12] WARNING root fetch - processPackages [to_dto_converters]: Skipping, unable to determine old version
+[2023-06-26 13:01:12] INFO root fetch - main [MainThread]: End processing [to_dto_converters] error
+[2023-06-26 13:01:12] INFO root fetch - processPackages [Kanon4txt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 13:01:12] INFO root fetch - processPackages [dghs-imgutils]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-26 13:01:12] INFO root fetch - processPackages [breizorro]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 13:01:12] INFO root fetch - processPackages [pygame-ecs]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-26 13:01:12] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/ca/05/6f628dc0aced826e1bb16374c77c9ae8e2eb56d806b8f100f4ba6ca07276/Kanon4txt-0.0.6.tar.gz
+[2023-06-26 13:01:12] INFO root fetch - processPackages [pygame-ecs]: Downloading https://files.pythonhosted.org/packages/80/8f/eacd66ddd4f0c4353c281a2eafb9d092d0381ce303ff1d9dbf9b462b7a94/pygame_ecs-0.1.0.tar.gz
+[2023-06-26 13:01:12] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/25/d3/6f62142a7fbf4ae9e70e2f4a1b1bb047a6713ac357ae99f69e1c205bfb48/chainlit-0.4.101.tar.gz
+[2023-06-26 13:01:12] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/bd/2d/0ffbd282ef53b9b23ccb24fff729ec47fc026383e5db7427f84c8f860bc6/dghs-imgutils-0.1.1.tar.gz
+[2023-06-26 13:01:12] INFO root fetch - processPackages [breizorro]: Downloading https://files.pythonhosted.org/packages/ff/a5/f552acd1ec525b3492397da74a4b29c8ce747003fc9617c6d0b5e627b7a9/breizorro-0.1.1.tar.gz
+[2023-06-26 13:01:12] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/c8/db/ecd3a6dde570e5bcffa94161fd6c15d0619d9e7b438d67ad4efad3ebb5b6/Kanon4txt-0.0.7.tar.gz
+[2023-06-26 13:01:13] INFO root fetch - processPackages [pygame-ecs]: Downloading https://files.pythonhosted.org/packages/4a/35/ac6563a6ef422c66ba7a770d47bf1565abd5e1381863434eb1ef953a3d4d/pygame_ecs-0.2.0.tar.gz
+[2023-06-26 13:01:13] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/91/75/2610fd55a5fc15215df8b72bbb91f1572c79dc5111d4918ac73e9d9f16fc/chainlit-0.4.2.tar.gz
+[2023-06-26 13:01:13] INFO root fetch - processPackages [breizorro]: Downloading https://files.pythonhosted.org/packages/fa/c9/81b7f65ca83625c04d7c1e8f61630f1881fdb339a137956da137aeac5909/breizorro-0.1.2.tar.gz
+[2023-06-26 13:01:13] INFO root fetch - processPackages [Kanon4txt]: executing diffoscope
+[2023-06-26 13:01:13] INFO root fetch - processPackages [Kanon4txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kanon4txt-0.0.6.tar.gz tmp/Kanon4txt-0.0.7.tar.gz --markdown 20230626/K/Kanon4txt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 13:01:13] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/86/ea/eee138a5737da16b7db840dcfb17e1c7c81e7f63890570965798224cfbe8/dghs-imgutils-0.2.0.tar.gz
+[2023-06-26 13:01:13] INFO root fetch - processPackages [pygame-ecs]: executing diffoscope
+[2023-06-26 13:01:13] INFO root fetch - processPackages [pygame-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_ecs-0.1.0.tar.gz tmp/pygame_ecs-0.2.0.tar.gz --markdown 20230626/p/pygame-ecs/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 13:01:13] INFO root fetch - processPackages [breizorro]: executing diffoscope
+[2023-06-26 13:01:13] INFO root fetch - processPackages [breizorro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breizorro-0.1.1.tar.gz tmp/breizorro-0.1.2.tar.gz --markdown 20230626/b/breizorro/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 13:01:13] INFO root fetch - processPackages [dghs-imgutils]: executing diffoscope
+[2023-06-26 13:01:13] INFO root fetch - processPackages [dghs-imgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dghs-imgutils-0.1.1.tar.gz tmp/dghs-imgutils-0.2.0.tar.gz --markdown 20230626/d/dghs-imgutils/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 13:01:13] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2023-06-26 13:01:13] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-0.4.101.tar.gz tmp/chainlit-0.4.2.tar.gz --markdown 20230626/c/chainlit/0.4.101-0.4.2/diff.md --exclude *.pyd
+[2023-06-26 13:01:14] INFO root fetch - processPackages [pygame-ecs]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ecs-0.1.0.tar.gz]
+[2023-06-26 13:01:14] INFO root fetch - processPackages [pygame-ecs]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ecs-0.2.0.tar.gz]
+[2023-06-26 13:01:14] INFO root fetch - main [MainThread]: End processing [pygame-ecs]: success
+[2023-06-26 13:01:14] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.0.6.tar.gz]
+[2023-06-26 13:01:14] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.0.7.tar.gz]
+[2023-06-26 13:01:14] INFO root fetch - main [MainThread]: End processing [Kanon4txt]: success
+[2023-06-26 13:01:14] INFO root fetch - processPackages [breizorro]: Remove: archive file [/home/abi/fetcher/tmp/breizorro-0.1.1.tar.gz]
+[2023-06-26 13:01:14] INFO root fetch - processPackages [breizorro]: Remove: archive file [/home/abi/fetcher/tmp/breizorro-0.1.2.tar.gz]
+[2023-06-26 13:01:14] INFO root fetch - main [MainThread]: End processing [breizorro]: success
+[2023-06-26 13:01:14] INFO root fetch - processPackages [dghs-imgutils]: Remove: archive file [/home/abi/fetcher/tmp/dghs-imgutils-0.1.1.tar.gz]
+[2023-06-26 13:01:14] INFO root fetch - processPackages [dghs-imgutils]: Remove: archive file [/home/abi/fetcher/tmp/dghs-imgutils-0.2.0.tar.gz]
+[2023-06-26 13:01:14] INFO root fetch - main [MainThread]: End processing [dghs-imgutils]: success
+[2023-06-26 13:01:30] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.4.101.tar.gz]
+[2023-06-26 13:01:30] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.4.2.tar.gz]
+[2023-06-26 13:01:30] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2023-06-26 13:01:30] INFO root fetch - main [MainThread]: Store serial: [18645516]
