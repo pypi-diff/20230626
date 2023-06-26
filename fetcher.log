@@ -12629,3 +12629,157 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 11:22:10] INFO root fetch - main [MainThread]: End processing [composabl]: success
 [2023-06-26 11:22:12] INFO root fetch - main [MainThread]: End processing [composabl]: success
 [2023-06-26 11:22:12] INFO root fetch - main [MainThread]: Store serial: [18644447]
+[2023-06-26 11:27:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644447]
+[2023-06-26 11:27:40] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssh-remote-control
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nmuzb
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: event-model
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tabulation
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: allure-custom
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ociedoo
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wafermap-clustering
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: one-api-tool
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test-bench-control
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Kanon4txt
+[2023-06-26 11:27:40] INFO root fetch - processPackages [event-model]: New version: [1.9.0a3] Old Version: [1.9.0a2]
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ociedoo]: New version: [0.8.0a2] Old Version: [0.8.0a1]
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ssh-remote-control]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-26 11:27:40] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-26 11:27:40] WARNING root fetch - processPackages [nmuzb]: Skipping, unable to determine old version
+[2023-06-26 11:27:40] INFO root fetch - processPackages [nmuzb]: Start processing: customgpt-client
+[2023-06-26 11:27:40] INFO root fetch - main [MainThread]: End processing [nmuzb] error
+[2023-06-26 11:27:40] INFO root fetch - processPackages [Kanon4txt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 11:27:40] INFO root fetch - processPackages [allure-custom]: New version: [2023.6.27] Old Version: [2023.6.14]
+[2023-06-26 11:27:40] INFO root fetch - processPackages [test-bench-control]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 11:27:40] INFO root fetch - processPackages [one-api-tool]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-26 11:27:40] INFO root fetch - processPackages [customgpt-client]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-26 11:27:40] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/c8/ee/87f9b221320eb20bd3bfa3d9c999143082117a336f0dbee32a97424c799b/wafermap-clustering-0.2.3.tar.gz
+[2023-06-26 11:27:40] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/b6/05/a7d8802cd9467d450d9071ebffc569c181070f1be4e55ef3f3176ce87ced/customgpt_client-1.1.0-py3-none-any.whl
+[2023-06-26 11:27:40] WARNING root fetch - processPackages [tabulation]: Skipping, unable to determine old version
+[2023-06-26 11:27:40] INFO root fetch - processPackages [tabulation]: Start processing: xia-service-cloudflare
+[2023-06-26 11:27:40] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-26 11:27:40] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/76/0a/65215fc99e54b9a80473a7e86988b8a1fb208e2c74d6facfbc6771acefcc/one-api-tool-0.3.3.tar.gz
+[2023-06-26 11:27:40] WARNING root fetch - processPackages [xia-service-cloudflare]: Skipping, unable to determine old version
+[2023-06-26 11:27:40] INFO root fetch - processPackages [xia-service-cloudflare]: Start processing: danbi
+[2023-06-26 11:27:40] INFO root fetch - main [MainThread]: End processing [xia-service-cloudflare] error
+[2023-06-26 11:27:40] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-26 11:27:40] INFO root fetch - processPackages [event-model]: Downloading https://files.pythonhosted.org/packages/99/ee/42e07110de4632fbb07b21d5e2137eb8cd05b20958b88fd1353c88310172/event-model-1.9.0a2.tar.gz
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/3c/c8/21b02da3139f5397da1d25c6589876303f0cf59fad19710e4373b71a6b45/ssh_remote_control-0.1.6.tar.gz
+[2023-06-26 11:27:40] INFO root fetch - processPackages [ociedoo]: Downloading https://files.pythonhosted.org/packages/51/85/102f6573a35cd5045114203ff7ddad24f2da22b1d8d7dcdb5e9b37354f21/ociedoo-0.8.0a1.tar.gz
+[2023-06-26 11:27:40] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/68/d1/0deae53e0b02371ea4741b0f6adc76f78b12cb29dd341f396140bf4697b9/kanon4txt-0.0.1.tar.gz
+[2023-06-26 11:27:40] INFO root fetch - processPackages [test-bench-control]: Downloading https://files.pythonhosted.org/packages/88/a6/bac203938d8ba7789f29fc34156f4cf8b411d598d52ee7e88e61697182c8/test_bench_control-0.0.1.tar.gz
+[2023-06-26 11:27:40] INFO root fetch - processPackages [allure-custom]: Downloading https://files.pythonhosted.org/packages/69/5e/cb44d6e6f837ffd4df4408ba29dc95851fa218909a60fbd737a0660ec6c8/allure_custom-2023.6.14.tar.gz
+[2023-06-26 11:27:40] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/4e/4b/f3d9a942b7af5878145f35873d9a070254e3cba7bbdcde873afef9821534/wafermap-clustering-0.2.4.tar.gz
+[2023-06-26 11:27:40] WARNING root fetch - processPackages [allure-custom]: Skipping package: exceeds size limit 20715413>=10485760
+[2023-06-26 11:27:40] INFO root fetch - processPackages [allure-custom]: Start processing: spanishconjugator
+[2023-06-26 11:27:40] INFO root fetch - main [MainThread]: End processing [allure-custom] error
+[2023-06-26 11:27:40] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/82/2e/593e4ebdbc6b8db215d89d31095a449d64951b4a59b42b1959632d7984e1/customgpt_client-1.1.1-py3-none-any.whl
+[2023-06-26 11:27:40] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/1f/98/2fbf982b57421117844b5e337307c0e59bfb7cf11425f7780784ed02abd7/one-api-tool-0.3.4.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/87/bc/dfb9c16f23bc644ddc1edf6946e891049a9688aa4d32adbbb8a1e5090b76/ssh_remote_control-0.1.7.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.2.3.tar.gz tmp/wafermap-clustering-0.2.4.tar.gz --markdown 20230626/w/wafermap-clustering/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-26 11:27:41] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-26 11:27:41] INFO root fetch - processPackages [ociedoo]: Downloading https://files.pythonhosted.org/packages/fa/66/3eda4795102d1ffce29a3bc9932f13c74cbebbc6fffbdbd19bdb7590f2eb/ociedoo-0.8.0a2.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [event-model]: Downloading https://files.pythonhosted.org/packages/0f/6e/02fa17189113f1bef88703ae97792f1e2ebeef32a91ac72031c979e58f6e/event-model-1.9.0a3.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [Kanon4txt]: Downloading https://files.pythonhosted.org/packages/ec/2b/5c910538b6194dcd5a4244e31a9e42fb27e8a79d2ad88f22a9c5074323d3/Kanon4txt-0.0.2.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [test-bench-control]: Downloading https://files.pythonhosted.org/packages/b4/26/bae7bcbbfbc1872002abb47312c1ce4f4b8077024bb9e35ddccf6dc3a7e3/test_bench_control-0.0.2.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.3.3.tar.gz tmp/one-api-tool-0.3.4.tar.gz --markdown 20230626/o/one-api-tool/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-26 11:27:41] INFO root fetch - processPackages [ssh-remote-control]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [ssh-remote-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_remote_control-0.1.6.tar.gz tmp/ssh_remote_control-0.1.7.tar.gz --markdown 20230626/s/ssh-remote-control/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-26 11:27:41] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [customgpt-client]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [customgpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customgpt_client-1.1.0-py3-none-any.whl.zip tmp/customgpt_client-1.1.1-py3-none-any.whl.zip --markdown 20230626/c/customgpt-client/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-26 11:27:41] INFO root fetch - processPackages [event-model]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [event-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event-model-1.9.0a2.tar.gz tmp/event-model-1.9.0a3.tar.gz --markdown 20230626/e/event-model/1.9.0a2-1.9.0a3/diff.md --exclude *.pyd
+[2023-06-26 11:27:41] INFO root fetch - processPackages [Kanon4txt]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [Kanon4txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanon4txt-0.0.1.tar.gz tmp/Kanon4txt-0.0.2.tar.gz --markdown 20230626/K/Kanon4txt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 11:27:41] INFO root fetch - processPackages [ociedoo]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [ociedoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ociedoo-0.8.0a1.tar.gz tmp/ociedoo-0.8.0a2.tar.gz --markdown 20230626/o/ociedoo/0.8.0a1-0.8.0a2/diff.md --exclude *.pyd
+[2023-06-26 11:27:41] INFO root fetch - processPackages [test-bench-control]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [test-bench-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_bench_control-0.0.1.tar.gz tmp/test_bench_control-0.0.2.tar.gz --markdown 20230626/t/test-bench-control/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 11:27:41] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-06-26 11:27:41] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230626/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-26 11:27:41] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-06-26 11:27:41] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230626/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-26 11:27:42] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.3.tar.gz]
+[2023-06-26 11:27:42] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.3.4.tar.gz]
+[2023-06-26 11:27:42] INFO root fetch - processPackages [one-api-tool]: Start processing: nhs-aws-helpers
+[2023-06-26 11:27:42] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-06-26 11:27:42] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.6.tar.gz]
+[2023-06-26 11:27:42] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.7.tar.gz]
+[2023-06-26 11:27:42] INFO root fetch - processPackages [ssh-remote-control]: Start processing: spanishconjugator
+[2023-06-26 11:27:42] INFO root fetch - main [MainThread]: End processing [ssh-remote-control]: success
+[2023-06-26 11:27:42] INFO root fetch - processPackages [nhs-aws-helpers]: New version: [0.1.1] Old Version: [0.0.17]
+[2023-06-26 11:27:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-26 11:27:42] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.3.tar.gz]
+[2023-06-26 11:27:42] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.4.tar.gz]
+[2023-06-26 11:27:42] INFO root fetch - processPackages [wafermap-clustering]: Start processing: clk
+[2023-06-26 11:27:42] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-06-26 11:27:42] INFO root fetch - processPackages [nhs-aws-helpers]: Downloading https://files.pythonhosted.org/packages/f2/77/f846b3885112d1d6416b4b983a7fa38c06fd973820bac8fb7aa977dc7c92/nhs_aws_helpers-0.0.17.tar.gz
+[2023-06-26 11:27:42] INFO root fetch - processPackages [clk]: New version: [0.34.0] Old Version: [0.33.0]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [spanishconjugator]: Start processing: traffsimpy
+[2023-06-26 11:27:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-26 11:27:43] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/kanon4txt-0.0.1.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [Kanon4txt]: Remove: archive file [/home/abi/fetcher/tmp/Kanon4txt-0.0.2.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [Kanon4txt]: Start processing: frx08-sentinelsat
+[2023-06-26 11:27:43] INFO root fetch - main [MainThread]: End processing [Kanon4txt]: success
+[2023-06-26 11:27:43] WARNING root fetch - processPackages [frx08-sentinelsat]: Skipping, unable to determine old version
+[2023-06-26 11:27:43] INFO root fetch - processPackages [frx08-sentinelsat]: Start processing: navigation-with-image-language-model
+[2023-06-26 11:27:43] INFO root fetch - main [MainThread]: End processing [frx08-sentinelsat] error
+[2023-06-26 11:27:43] INFO root fetch - processPackages [traffsimpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [test-bench-control]: Remove: archive file [/home/abi/fetcher/tmp/test_bench_control-0.0.1.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [test-bench-control]: Remove: archive file [/home/abi/fetcher/tmp/test_bench_control-0.0.2.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - main [MainThread]: End processing [test-bench-control]: success
+[2023-06-26 11:27:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-26 11:27:43] INFO root fetch - processPackages [navigation-with-image-language-model]: New version: [1.0] Old Version: [0.1]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-26 11:27:43] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230626/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-26 11:27:43] INFO root fetch - processPackages [nhs-aws-helpers]: Downloading https://files.pythonhosted.org/packages/91/e5/c2c49b911a9a1530c148b5b606dcdb39cb6c9ae402ba17312f5994de95da/nhs_aws_helpers-0.1.1.tar.gz
+[2023-06-26 11:27:43] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [clk]: Downloading https://files.pythonhosted.org/packages/89/af/da6c6d0e4000a323b554423afbc1a6719a7d2d4bfc64eafccad1b8ecd251/clk-0.33.0-py2.py3-none-any.whl
+[2023-06-26 11:27:43] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-06-26 11:27:43] INFO root fetch - processPackages [ociedoo]: Remove: archive file [/home/abi/fetcher/tmp/ociedoo-0.8.0a1.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [ociedoo]: Remove: archive file [/home/abi/fetcher/tmp/ociedoo-0.8.0a2.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - main [MainThread]: End processing [ociedoo]: success
+[2023-06-26 11:27:43] INFO root fetch - processPackages [event-model]: Remove: archive file [/home/abi/fetcher/tmp/event-model-1.9.0a2.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - processPackages [navigation-with-image-language-model]: Downloading https://files.pythonhosted.org/packages/5d/f9/f247000c914fa9a8f6afe068b99dca25993304f88db8bdda736813cd623a/navigation_with_image_language_model-0.1.tar.gz
+[2023-06-26 11:27:43] INFO root fetch - processPackages [event-model]: Remove: archive file [/home/abi/fetcher/tmp/event-model-1.9.0a3.tar.gz]
+[2023-06-26 11:27:43] INFO root fetch - main [MainThread]: End processing [event-model]: success
+[2023-06-26 11:27:43] INFO root fetch - processPackages [traffsimpy]: Downloading https://files.pythonhosted.org/packages/66/96/c8062267b6253c4ebe94d73682b15e56a3d3fc46b1210609c1915d4e4f4b/traffsimpy-0.1.4.tar.gz
+[2023-06-26 11:27:43] INFO root fetch - processPackages [nhs-aws-helpers]: executing diffoscope
+[2023-06-26 11:27:43] INFO root fetch - processPackages [nhs-aws-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhs_aws_helpers-0.0.17.tar.gz tmp/nhs_aws_helpers-0.1.1.tar.gz --markdown 20230626/n/nhs-aws-helpers/0.0.17-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 11:27:43] INFO root fetch - processPackages [clk]: Downloading https://files.pythonhosted.org/packages/7f/a3/e97c4793363e2c9a5fb80a631f7e90b41a868917e8959c84979fa165050f/clk-0.34.0-py2.py3-none-any.whl
+[2023-06-26 11:27:43] INFO root fetch - processPackages [traffsimpy]: Downloading https://files.pythonhosted.org/packages/c1/6e/e04e3efa0dfff187500bee409260aa973a9f61bc13cf0253226fffdcb4a6/traffsimpy-0.1.5.tar.gz
+[2023-06-26 11:27:43] INFO root fetch - processPackages [clk]: executing diffoscope
+[2023-06-26 11:27:43] INFO root fetch - processPackages [clk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clk-0.33.0-py2.py3-none-any.whl.zip tmp/clk-0.34.0-py2.py3-none-any.whl.zip --markdown 20230626/c/clk/0.33.0-0.34.0/diff.md --exclude *.pyd
+[2023-06-26 11:27:43] INFO root fetch - processPackages [traffsimpy]: executing diffoscope
+[2023-06-26 11:27:43] INFO root fetch - processPackages [traffsimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traffsimpy-0.1.4.tar.gz tmp/traffsimpy-0.1.5.tar.gz --markdown 20230626/t/traffsimpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 11:27:43] INFO root fetch - processPackages [navigation-with-image-language-model]: Downloading https://files.pythonhosted.org/packages/80/31/b50ab40c50effc258ed5528410dcf66a03cb77f18ba3231d640a08c7451a/navigation_with_image_language_model-1.0.tar.gz
+[2023-06-26 11:27:43] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.998.tar.gz: No such file or directory
+
+[2023-06-26 11:27:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-06-26 11:27:43] INFO root fetch - processPackages [navigation-with-image-language-model]: executing diffoscope
+[2023-06-26 11:27:43] INFO root fetch - processPackages [navigation-with-image-language-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigation_with_image_language_model-0.1.tar.gz tmp/navigation_with_image_language_model-1.0.tar.gz --markdown 20230626/n/navigation-with-image-language-model/0.1-1.0/diff.md --exclude *.pyd
+[2023-06-26 11:27:44] INFO root fetch - processPackages [nhs-aws-helpers]: Remove: archive file [/home/abi/fetcher/tmp/nhs_aws_helpers-0.0.17.tar.gz]
+[2023-06-26 11:27:44] INFO root fetch - processPackages [nhs-aws-helpers]: Remove: archive file [/home/abi/fetcher/tmp/nhs_aws_helpers-0.1.1.tar.gz]
+[2023-06-26 11:27:44] INFO root fetch - main [MainThread]: End processing [nhs-aws-helpers]: success
+[2023-06-26 11:27:44] INFO root fetch - processPackages [navigation-with-image-language-model]: Remove: archive file [/home/abi/fetcher/tmp/navigation_with_image_language_model-0.1.tar.gz]
+[2023-06-26 11:27:44] INFO root fetch - processPackages [navigation-with-image-language-model]: Remove: archive file [/home/abi/fetcher/tmp/navigation_with_image_language_model-1.0.tar.gz]
+[2023-06-26 11:27:44] INFO root fetch - main [MainThread]: End processing [navigation-with-image-language-model]: success
+[2023-06-26 11:27:45] INFO root fetch - processPackages [clk]: Remove: archive file [/home/abi/fetcher/tmp/clk-0.33.0-py2.py3-none-any.whl.zip]
+[2023-06-26 11:27:45] INFO root fetch - processPackages [clk]: Remove: archive file [/home/abi/fetcher/tmp/clk-0.34.0-py2.py3-none-any.whl.zip]
+[2023-06-26 11:27:45] INFO root fetch - main [MainThread]: End processing [clk]: success
+[2023-06-26 11:27:45] INFO root fetch - processPackages [traffsimpy]: Remove: archive file [/home/abi/fetcher/tmp/traffsimpy-0.1.4.tar.gz]
+[2023-06-26 11:27:45] INFO root fetch - processPackages [traffsimpy]: Remove: archive file [/home/abi/fetcher/tmp/traffsimpy-0.1.5.tar.gz]
+[2023-06-26 11:27:45] INFO root fetch - main [MainThread]: End processing [traffsimpy]: success
+[2023-06-26 11:27:45] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.0-py3-none-any.whl.zip]
+[2023-06-26 11:27:45] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.1-py3-none-any.whl.zip]
+[2023-06-26 11:27:45] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
+[2023-06-26 11:27:45] INFO root fetch - main [MainThread]: Store serial: [18644513]
