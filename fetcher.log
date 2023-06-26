@@ -6328,3 +6328,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 05:22:33] INFO root fetch - processPackages [spark-board]: Remove: archive file [/home/abi/fetcher/tmp/spark-board-0.0.6.tar.gz]
 [2023-06-26 05:22:33] INFO root fetch - main [MainThread]: End processing [spark-board]: success
 [2023-06-26 05:22:33] INFO root fetch - main [MainThread]: Store serial: [18641725]
+[2023-06-26 05:27:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641725]
+[2023-06-26 05:27:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-near-primitives
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindaudio
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataclasses-buffer
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypomes
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-fieldservice-route
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sourcery-nightly
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GANDLF
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: short-poetry
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: matplotlib-stubs
+[2023-06-26 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: raymics
+[2023-06-26 05:27:42] WARNING root fetch - processPackages [dataclasses-buffer]: Skipping, unable to determine old version
+[2023-06-26 05:27:42] INFO root fetch - main [MainThread]: End processing [dataclasses-buffer] error
+[2023-06-26 05:27:42] INFO root fetch - processPackages [mindaudio]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 05:27:42] INFO root fetch - processPackages [py-near-primitives]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 05:27:42] INFO root fetch - processPackages [odoo-addon-fieldservice-route]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-06-26 05:27:42] WARNING root fetch - processPackages [short-poetry]: Skipping, unable to determine old version
+[2023-06-26 05:27:42] INFO root fetch - processPackages [pypomes]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 05:27:42] INFO root fetch - main [MainThread]: End processing [short-poetry] error
+[2023-06-26 05:27:42] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230626] Old Version: [0.0.17.dev20230625]
+[2023-06-26 05:27:42] WARNING root fetch - processPackages [matplotlib-stubs]: Skipping, unable to determine old version
+[2023-06-26 05:27:42] INFO root fetch - main [MainThread]: End processing [matplotlib-stubs] error
+[2023-06-26 05:27:42] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/b1/dc/925c59f10d65c8f34d14f5e15df79304c9f65fb6594d691edeb37e07513f/pypomes-0.1.7.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/b2/bf/aa48ee7ccb4d80be052025260ece62e17f47258982128780b4d135453d5e/GANDLF-0.0.17.dev20230625.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [raymics]: New version: [0.7.0] Old Version: [0.5.9]
+[2023-06-26 05:27:43] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.4.1b42] Old Version: [1.4.1b39]
+[2023-06-26 05:27:43] INFO root fetch - processPackages [mindaudio]: Downloading https://files.pythonhosted.org/packages/7c/f7/4ee26ee86f74bc5c87065821085be3ad72b458cb6b68570d3ad8583d8ead/mindaudio-0.1.1.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [odoo-addon-fieldservice-route]: Downloading https://files.pythonhosted.org/packages/c5/d9/991bb14c03db3e79bda6689f6164ddb8e23534a73177fa8585070bfc8aac/odoo_addon_fieldservice_route-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-26 05:27:43] INFO root fetch - processPackages [py-near-primitives]: Downloading https://files.pythonhosted.org/packages/e4/ee/24e5f9b15dfbba6102410c4b24a921d729cd59573ab8eeabb4a9c6974643/py_near_primitives-0.1.1.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/75/fc/976f6877332f6d938ea1e019c44b67b1bc699a3e6641f63d52548129fd1f/GANDLF-0.0.17.dev20230626.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [raymics]: Downloading https://files.pythonhosted.org/packages/7a/70/f7860f5f5fb3e496af15ebb74372fc5cab3b53a9b25c3da311e2b25643b0/raymics-0.5.9.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/d3/cf/9eba5de3949a348ddb9200a2e2c042428539b10ae6e3ecdfb62bc2adaac8/pypomes-0.1.8.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/5c/37/0a157b27a701ea47869f778d0c4c5f8757fee824a9fa0437cbbf36161e1c/sourcery_nightly-1.4.1b39-py2.py3-none-win_amd64.whl
+[2023-06-26 05:27:43] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58587324>=10485760
+[2023-06-26 05:27:43] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-26 05:27:43] INFO root fetch - processPackages [odoo-addon-fieldservice-route]: Downloading https://files.pythonhosted.org/packages/14/a4/71b5038ebef1b19baa312c3a699a14048358b7137f73236974c5ca3cf59a/odoo_addon_fieldservice_route-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-26 05:27:43] INFO root fetch - processPackages [mindaudio]: Downloading https://files.pythonhosted.org/packages/08/ba/8a4fac2940763d791991d162959b88e210d8eab927b98686e2fe4d0685d0/mindaudio-0.1.2.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [pypomes]: executing diffoscope
+[2023-06-26 05:27:43] INFO root fetch - processPackages [pypomes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes-0.1.7.tar.gz tmp/pypomes-0.1.8.tar.gz --markdown 20230626/p/pypomes/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 05:27:43] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-26 05:27:43] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230625.tar.gz tmp/GANDLF-0.0.17.dev20230626.tar.gz --markdown 20230626/G/GANDLF/0.0.17.dev20230625-0.0.17.dev20230626/diff.md --exclude *.pyd
+[2023-06-26 05:27:43] INFO root fetch - processPackages [py-near-primitives]: Downloading https://files.pythonhosted.org/packages/00/62/56242cbef9efe5e84dbb1061dfc861fa52ee939392bb3db206b81bc6c416/py_near_primitives-0.1.2.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [odoo-addon-fieldservice-route]: executing diffoscope
+[2023-06-26 05:27:43] INFO root fetch - processPackages [odoo-addon-fieldservice-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_route-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_route-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-fieldservice-route/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-26 05:27:43] INFO root fetch - processPackages [mindaudio]: executing diffoscope
+[2023-06-26 05:27:43] INFO root fetch - processPackages [mindaudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindaudio-0.1.1.tar.gz tmp/mindaudio-0.1.2.tar.gz --markdown 20230626/m/mindaudio/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 05:27:43] INFO root fetch - processPackages [py-near-primitives]: executing diffoscope
+[2023-06-26 05:27:43] INFO root fetch - processPackages [py-near-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near_primitives-0.1.1.tar.gz tmp/py_near_primitives-0.1.2.tar.gz --markdown 20230626/p/py-near-primitives/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 05:27:43] INFO root fetch - processPackages [raymics]: Downloading https://files.pythonhosted.org/packages/b8/48/6fc55bd95989354086915938a875fde3892db4850ceb5795c6f256adc749/raymics-0.7.0.tar.gz
+[2023-06-26 05:27:43] INFO root fetch - processPackages [raymics]: executing diffoscope
+[2023-06-26 05:27:43] INFO root fetch - processPackages [raymics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raymics-0.5.9.tar.gz tmp/raymics-0.7.0.tar.gz --markdown 20230626/r/raymics/0.5.9-0.7.0/diff.md --exclude *.pyd
+[2023-06-26 05:27:44] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.7.tar.gz]
+[2023-06-26 05:27:44] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.8.tar.gz]
+[2023-06-26 05:27:44] INFO root fetch - main [MainThread]: End processing [pypomes]: success
+[2023-06-26 05:27:45] INFO root fetch - processPackages [odoo-addon-fieldservice-route]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_route-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-26 05:27:45] INFO root fetch - processPackages [odoo-addon-fieldservice-route]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_route-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-26 05:27:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-route]: success
+[2023-06-26 05:27:45] INFO root fetch - processPackages [py-near-primitives]: Remove: archive file [/home/abi/fetcher/tmp/py_near_primitives-0.1.1.tar.gz]
+[2023-06-26 05:27:45] INFO root fetch - processPackages [py-near-primitives]: Remove: archive file [/home/abi/fetcher/tmp/py_near_primitives-0.1.2.tar.gz]
+[2023-06-26 05:27:45] INFO root fetch - main [MainThread]: End processing [py-near-primitives]: success
+[2023-06-26 05:27:45] INFO root fetch - processPackages [raymics]: Remove: archive file [/home/abi/fetcher/tmp/raymics-0.5.9.tar.gz]
+[2023-06-26 05:27:45] INFO root fetch - processPackages [raymics]: Remove: archive file [/home/abi/fetcher/tmp/raymics-0.7.0.tar.gz]
+[2023-06-26 05:27:45] INFO root fetch - main [MainThread]: End processing [raymics]: success
+[2023-06-26 05:27:45] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230625.tar.gz]
+[2023-06-26 05:27:45] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230626.tar.gz]
+[2023-06-26 05:27:45] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-26 05:27:47] INFO root fetch - processPackages [mindaudio]: Remove: archive file [/home/abi/fetcher/tmp/mindaudio-0.1.1.tar.gz]
+[2023-06-26 05:27:47] INFO root fetch - processPackages [mindaudio]: Remove: archive file [/home/abi/fetcher/tmp/mindaudio-0.1.2.tar.gz]
+[2023-06-26 05:27:47] INFO root fetch - main [MainThread]: End processing [mindaudio]: success
+[2023-06-26 05:27:47] INFO root fetch - main [MainThread]: Store serial: [18641765]
