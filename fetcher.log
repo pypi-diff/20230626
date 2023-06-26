@@ -20487,3 +20487,185 @@ EOFError: EOF read where object expected
 [2023-06-26 16:13:31] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.2-py3-none-any.whl.zip]
 [2023-06-26 16:13:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
 [2023-06-26 16:13:31] INFO root fetch - main [MainThread]: Store serial: [18647992]
+[2023-06-26 16:18:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18647992]
+[2023-06-26 16:18:40] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: expert-intelligence-toolbox
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speculos
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-invoice-force-number
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plottah
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udata
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-base
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-cli
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-dso
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dwiqc
+[2023-06-26 16:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-libs
+[2023-06-26 16:18:40] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 16:18:40] INFO root fetch - processPackages [speculos]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 16:18:40] INFO root fetch - processPackages [dwiqc]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 16:18:40] INFO root fetch - processPackages [plottah]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-06-26 16:18:40] WARNING root fetch - processPackages [odoo-addon-account-invoice-force-number]: Skipping, unable to determine old version
+[2023-06-26 16:18:40] INFO root fetch - processPackages [odoo-addon-account-invoice-force-number]: Start processing: gardener-cicd-whd
+[2023-06-26 16:18:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-force-number] error
+[2023-06-26 16:18:40] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2096.0] Old Version: [1.2095.0]
+[2023-06-26 16:18:40] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2096.0] Old Version: [1.2095.0]
+[2023-06-26 16:18:40] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2096.0] Old Version: [1.2095.0]
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2096.0] Old Version: [1.2095.0]
+[2023-06-26 16:18:41] INFO root fetch - processPackages [udata]: New version: [6.1.6.dev25523] Old Version: [6.1.6.dev25519]
+[2023-06-26 16:18:41] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/a6/02/fc1621975e99cf30c494eff910ba4bc8124bb27dc81d385277bd5746975a/plottah-0.1.3.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/30/f7/a78bc9b598c9a5ba1ca49a4e407473eaca01ceba4c42e4d68efbb016f238/dwiqc-0.5.0-py2.py3-none-any.whl
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/be/08/b23b5ebc9f9b40deb3ee3f15b99b86095086312a80cdd0c4bb160905eb2a/gardener-cicd-dso-1.2095.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2096.0] Old Version: [1.2095.0]
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/cb/08/f7184099349a1e9c8ac26204d394495a08a06e1d83d868b1996358be6de3/gardener-cicd-libs-1.2095.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/13/e1/968b04900cf2267912e9e073af2404ad875a7f77e0010557c7be8aa495c7/gardener-cicd-base-1.2095.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/d4/89/0e7b51465812d9036688983a7a176d2c1515b5fa7e1c56c75f9d31ab5775/gardener-cicd-cli-1.2095.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/23/8b/5fb4fcc8328f6ebbf4f7f0f04181179a989c917849b6dae19ea59c6d54e9/gardener-cicd-whd-1.2095.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/9c/15/0625277f73bc12b0c8743cfdab9f3d9cccdb026e5373c3388e02f47f0d9d/speculos-0.2.5.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/2a/d2/c09d2d9d168249d876e6bce5e1ef44439339a9c1d63cf9a95775dc3b2f3d/udata-6.1.6.dev25519-py2.py3-none-any.whl
+[2023-06-26 16:18:41] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 16137898>=10485760
+[2023-06-26 16:18:41] INFO root fetch - processPackages [speculos]: Start processing: gardener-oci
+[2023-06-26 16:18:41] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/5c/24/ea14178382a80a0e4a2500ffe6663bd2d50402ad442b1b2972aa0224ab6f/gardener-cicd-dso-1.2096.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/7a/b0/13594410c8829e67f05522f273922e13d2d54b9fe63858e408f2aa4aa60e/dwiqc-0.5.1-py2.py3-none-any.whl
+[2023-06-26 16:18:41] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/ea/15/3bd0e9af725c16a780270d62abfded6bf4f8c5a8c14614a880f63a110fcf/plottah-0.1.5.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/8d/50/ffbb6dce398a9fa34a94fe3cf8f8724ec25f35fdcef95bc3f757358eedfc/gardener-cicd-libs-1.2096.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/ea/22/42f8bb6cddfe21f3e625060b017ec7cdc5a12748ba3d5715f07598eba195/gardener-cicd-base-1.2096.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/86/44/0e2fdfb704bdf87b208fe0492a15c7533dcb0940a6493d5fc24a0e5cfdf6/gardener-cicd-cli-1.2096.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/83/20/bb9b44ecb3201fd61c098d1911e3f68af41fea1ce0e03d529d018904283b/gardener-cicd-whd-1.2096.0.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-26 16:18:41] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-26 16:18:41] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-26 16:18:41] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230626/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 16:18:41] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-26 16:18:41] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.5.0-py2.py3-none-any.whl.zip tmp/dwiqc-0.5.1-py2.py3-none-any.whl.zip --markdown 20230626/d/dwiqc/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2095.0.tar.gz tmp/gardener-cicd-dso-1.2096.0.tar.gz --markdown 20230626/g/gardener-cicd-dso/1.2095.0-1.2096.0/diff.md --exclude *.pyd
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2095.0.tar.gz tmp/gardener-cicd-cli-1.2096.0.tar.gz --markdown 20230626/g/gardener-cicd-cli/1.2095.0-1.2096.0/diff.md --exclude *.pyd
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-26 16:18:41] INFO root fetch - processPackages [plottah]: executing diffoscope
+[2023-06-26 16:18:41] INFO root fetch - processPackages [plottah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottah-0.1.3.tar.gz tmp/plottah-0.1.5.tar.gz --markdown 20230626/p/plottah/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230626/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2095.0.tar.gz tmp/gardener-cicd-whd-1.2096.0.tar.gz --markdown 20230626/g/gardener-cicd-whd/1.2095.0-1.2096.0/diff.md --exclude *.pyd
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2095.0.tar.gz tmp/gardener-cicd-base-1.2096.0.tar.gz --markdown 20230626/g/gardener-cicd-base/1.2095.0-1.2096.0/diff.md --exclude *.pyd
+[2023-06-26 16:18:41] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19607561>=10485760
+[2023-06-26 16:18:41] INFO root fetch - processPackages [udata]: Start processing: lightwood
+[2023-06-26 16:18:41] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-26 16:18:41] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2095.0.tar.gz tmp/gardener-cicd-libs-1.2096.0.tar.gz --markdown 20230626/g/gardener-cicd-libs/1.2095.0-1.2096.0/diff.md --exclude *.pyd
+[2023-06-26 16:18:41] INFO root fetch - processPackages [lightwood]: New version: [23.6.4.0] Old Version: [23.6.2.0]
+[2023-06-26 16:18:41] INFO root fetch - processPackages [lightwood]: Downloading https://files.pythonhosted.org/packages/7f/94/df99349ab382ce77581187687f918bd7e852ae3a5c4fc5a32a1096534206/lightwood-23.6.2.0.tar.gz
+[2023-06-26 16:18:42] INFO root fetch - processPackages [lightwood]: Downloading https://files.pythonhosted.org/packages/f8/06/e7aa492f953e6fa1b5bd9126276e77bbbb54254d23d12d0e102a166613a2/lightwood-23.6.4.0.tar.gz
+[2023-06-26 16:18:42] INFO root fetch - processPackages [lightwood]: executing diffoscope
+[2023-06-26 16:18:42] INFO root fetch - processPackages [lightwood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightwood-23.6.2.0.tar.gz tmp/lightwood-23.6.4.0.tar.gz --markdown 20230626/l/lightwood/23.6.2.0-23.6.4.0/diff.md --exclude *.pyd
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-oci]: Start processing: blackboardsync
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-26 16:18:43] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.4rc1] Old Version: [0.9.3]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/70/81/29ba63c785bb4fde5904110682ea33b86043c32d853ff19e48762577a7dd/blackboardsync-0.9.3.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.0-py2.py3-none-any.whl.zip]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.1-py2.py3-none-any.whl.zip]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [dwiqc]: Start processing: xia-models
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-26 16:18:43] WARNING root fetch - processPackages [xia-models]: Skipping, unable to determine old version
+[2023-06-26 16:18:43] INFO root fetch - processPackages [xia-models]: Start processing: typos
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [xia-models] error
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2095.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2096.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: balepy
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-26 16:18:43] INFO root fetch - processPackages [typos]: New version: [1.15.6] Old Version: [1.15.5]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [balepy]: New version: [0.2] Old Version: [0.1]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.3.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.5.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [plottah]: Start processing: titan-iris
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [plottah]: success
+[2023-06-26 16:18:43] INFO root fetch - processPackages [titan-iris]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: xia-engine-rest
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-26 16:18:43] ERROR root fetch - processPackages [xia-engine-rest]: Unable to get metadata: No such project 'xia-engine-rest'
+[2023-06-26 16:18:43] INFO root fetch - processPackages [xia-engine-rest]: Start processing: SuperNeuroABM
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [xia-engine-rest] error
+[2023-06-26 16:18:43] WARNING root fetch - processPackages [SuperNeuroABM]: Skipping, unable to determine old version
+[2023-06-26 16:18:43] INFO root fetch - processPackages [SuperNeuroABM]: Start processing: SuperNeuroABM
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [SuperNeuroABM] error
+[2023-06-26 16:18:43] WARNING root fetch - processPackages [SuperNeuroABM]: Skipping, unable to determine old version
+[2023-06-26 16:18:43] INFO root fetch - processPackages [SuperNeuroABM]: Start processing: telegram-types
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [SuperNeuroABM] error
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2095.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2096.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: KafkaMetricsExporter
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-26 16:18:43] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/73/d3/97ee940297df2ed2962da0f97f14dcf64058247bca114393315896f5391b/balepy-0.1.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/2b/b9/0dd0c260134bb9c66e75e0ffbeebda1f9aa3a2ca06c195618e680ac47940/blackboardsync-0.9.4rc1.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/91/5a/6f52831f8a504da439da7ef189f41b3fe1905eecc598ef72a13157b3d8fb/typos-1.15.5.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2095.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2096.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: pympipool
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-26 16:18:43] INFO root fetch - processPackages [telegram-types]: New version: [1.9] Old Version: [1.8]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/8b/64/ccf26b934321bc3a259d2113e049f040124722e539664d971581111e9d25/titan-iris-0.8.4.tar.gz
+[2023-06-26 16:18:43] WARNING root fetch - processPackages [KafkaMetricsExporter]: Skipping, unable to determine old version
+[2023-06-26 16:18:43] INFO root fetch - processPackages [KafkaMetricsExporter]: Start processing: typedspark
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [KafkaMetricsExporter] error
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2095.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2096.0.tar.gz]
+[2023-06-26 16:18:43] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-26 16:18:43] INFO root fetch - processPackages [pympipool]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-26 16:18:43] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.3.tar.gz tmp/blackboardsync-0.9.4rc1.tar.gz --markdown 20230626/b/blackboardsync/0.9.3-0.9.4rc1/diff.md --exclude *.pyd
+[2023-06-26 16:18:43] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/77/bfbef8440910fbd84fa769b2b45b8f7958b3a06a9c6011df3dc6d9c3502b/titan-iris-0.8.5.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [typedspark]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-26 16:18:43] INFO root fetch - processPackages [telegram-types]: Downloading https://files.pythonhosted.org/packages/69/61/0d16ada3d12402e3db069f1b142595f1527b3eca8437528653fd291c086b/telegram_types-1.8.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/61/2c/a8fd540d32dffaf2c3b8d2f8df0041804bfdac213ae2e2766a520ea8bbf7/balepy-0.2.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-26 16:18:43] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.4.tar.gz tmp/titan-iris-0.8.5.tar.gz --markdown 20230626/t/titan-iris/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-26 16:18:43] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/ee/6b/74e076aec1fa6e92a7766661dd7c8b559f79f3ee6a313c1d40a2f1a7e0d7/pympipool-0.4.3.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/c7/6e/6d0df6bf3243794a7437f7ebed852ba458ea3737afcd52aa383e3e180364/typos-1.15.6.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/45/4f/3ca95059044e74ca6de1cccb143eb6f26ee5e996644f164756bd91ff1129/typedspark-1.0.6.tar.gz
+[2023-06-26 16:18:43] INFO root fetch - processPackages [balepy]: executing diffoscope
+[2023-06-26 16:18:43] INFO root fetch - processPackages [balepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balepy-0.1.tar.gz tmp/balepy-0.2.tar.gz --markdown 20230626/b/balepy/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-26 16:18:44] INFO root fetch - processPackages [telegram-types]: Downloading https://files.pythonhosted.org/packages/32/c0/4acf360a3815ab5389e9f16971be848c96aa88bc0244b64a63b8a06b46dc/telegram_types-1.9.tar.gz
+[2023-06-26 16:18:44] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/b5/52/0e40fa2d8c89e64fc15a2dcbc58e3d438a972924843d1c4e68dc0dbf3a9f/typedspark-1.0.7.tar.gz
+[2023-06-26 16:18:44] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/bc/7f/fed47dda45fe556e9b58d4a6bcf685535b8a5ae0b6230a47a1e28d1030e0/pympipool-0.5.0.tar.gz
+[2023-06-26 16:18:44] INFO root fetch - processPackages [typos]: executing diffoscope
+[2023-06-26 16:18:44] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.15.5.tar.gz tmp/typos-1.15.6.tar.gz --markdown 20230626/t/typos/1.15.5-1.15.6/diff.md --exclude *.pyd
+[2023-06-26 16:18:44] INFO root fetch - processPackages [telegram-types]: executing diffoscope
+[2023-06-26 16:18:44] INFO root fetch - processPackages [telegram-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_types-1.8.tar.gz tmp/telegram_types-1.9.tar.gz --markdown 20230626/t/telegram-types/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-26 16:18:44] INFO root fetch - processPackages [typedspark]: executing diffoscope
+[2023-06-26 16:18:44] INFO root fetch - processPackages [typedspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedspark-1.0.6.tar.gz tmp/typedspark-1.0.7.tar.gz --markdown 20230626/t/typedspark/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-26 16:18:44] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2023-06-26 16:18:44] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.4.3.tar.gz tmp/pympipool-0.5.0.tar.gz --markdown 20230626/p/pympipool/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-26 16:18:44] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2095.0.tar.gz]
+[2023-06-26 16:18:44] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2096.0.tar.gz]
+[2023-06-26 16:18:44] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-26 16:18:45] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.4.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.5.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-26 16:18:45] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.1.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.2.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - main [MainThread]: End processing [balepy]: success
+[2023-06-26 16:18:45] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.3.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.4rc1.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-26 16:18:45] INFO root fetch - processPackages [telegram-types]: Remove: archive file [/home/abi/fetcher/tmp/telegram_types-1.8.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - processPackages [telegram-types]: Remove: archive file [/home/abi/fetcher/tmp/telegram_types-1.9.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - main [MainThread]: End processing [telegram-types]: success
+[2023-06-26 16:18:45] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.4.3.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.0.tar.gz]
+[2023-06-26 16:18:45] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2023-06-26 16:18:46] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.6.tar.gz]
+[2023-06-26 16:18:46] INFO root fetch - processPackages [typedspark]: Remove: archive file [/home/abi/fetcher/tmp/typedspark-1.0.7.tar.gz]
+[2023-06-26 16:18:46] INFO root fetch - main [MainThread]: End processing [typedspark]: success
+[2023-06-26 16:18:46] INFO root fetch - processPackages [lightwood]: Remove: archive file [/home/abi/fetcher/tmp/lightwood-23.6.2.0.tar.gz]
+[2023-06-26 16:18:46] INFO root fetch - processPackages [lightwood]: Remove: archive file [/home/abi/fetcher/tmp/lightwood-23.6.4.0.tar.gz]
+[2023-06-26 16:18:46] INFO root fetch - main [MainThread]: End processing [lightwood]: success
+[2023-06-26 16:18:50] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.15.5.tar.gz]
+[2023-06-26 16:18:50] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.15.6.tar.gz]
+[2023-06-26 16:18:50] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2023-06-26 16:18:50] INFO root fetch - main [MainThread]: Store serial: [18648104]
