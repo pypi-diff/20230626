@@ -22912,3 +22912,348 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:35:30] INFO root fetch - processPackages [PyDapi2]: Remove: archive file [/home/abi/fetcher/tmp/PyDapi2-0.6.2.tar.gz]
 [2023-06-26 17:35:30] INFO root fetch - main [MainThread]: End processing [PyDapi2]: success
 [2023-06-26 17:35:30] INFO root fetch - main [MainThread]: Store serial: [18649027]
+[2023-06-26 17:40:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18649027]
+[2023-06-26 17:40:39] INFO root fetch - main [MainThread]: Found 40 changed packages
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modulefgoiriz1
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wo11y-py
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blackboardsync
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gmltools
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybox-toolkit
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-jobs
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anywidget
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-snapshot-analysis
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcicsnovault
+[2023-06-26 17:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pioled-display-plugin
+[2023-06-26 17:40:39] INFO root fetch - processPackages [gmltools]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-06-26 17:40:39] INFO root fetch - processPackages [dbt-snapshot-analysis]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.9.dev92] Old Version: [0.1.9.dev87]
+[2023-06-26 17:40:39] WARNING root fetch - processPackages [modulefgoiriz1]: Skipping, unable to determine old version
+[2023-06-26 17:40:39] INFO root fetch - processPackages [anywidget]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-06-26 17:40:39] INFO root fetch - processPackages [modulefgoiriz1]: Start processing: riotee-gateway
+[2023-06-26 17:40:39] INFO root fetch - main [MainThread]: End processing [modulefgoiriz1] error
+[2023-06-26 17:40:39] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.4rc4] Old Version: [0.9.4rc3]
+[2023-06-26 17:40:39] WARNING root fetch - processPackages [wo11y-py]: Skipping, unable to determine old version
+[2023-06-26 17:40:39] INFO root fetch - processPackages [wo11y-py]: Start processing: napalm-nokia-olt
+[2023-06-26 17:40:39] INFO root fetch - main [MainThread]: End processing [wo11y-py] error
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pioled-display-plugin]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-26 17:40:39] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-26 17:40:39] INFO root fetch - processPackages [dcicsnovault]: New version: [8.2.0.1b5] Old Version: [8.2.0.1b40]
+[2023-06-26 17:40:39] INFO root fetch - processPackages [riotee-gateway]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:40:39] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:40:39] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/f2/e7/76fe771f9b583c90c353da77e70894eb04e3f78092ccf4c2a426168d91a8/napalm_nokia_olt-0.0.8.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/1c/10/5dfc5ea6d0307a1662e38cf42ef8e383ca551184fa9e5e6f4bfe02c5c190/gmltools-0.0.81.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/73/be/51293f6544aa35d51843e6e137f67d996b34747fd7a757cff4b965fbe9c2/dbt_snapshot_analysis-0.2.5.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/42/29/3f22c23c5d72f4c12fe7c62d93e85c8450041256320d917fa6fd613a2768/pybox-toolkit-0.1.9.dev87.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/e8/52/59b5fd77f96c43c88463c30b52c514ea8b6a61c8d7f6bf3eeb7e8702b2cc/anywidget-0.5.3.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pioled-display-plugin]: Downloading https://files.pythonhosted.org/packages/cc/68/b26bd7fc202d3bac8cd64fa572bc6a986f12f9e622d780ca1d9f04e852e4/pioled_display_plugin-0.2.2-py3-none-any.whl
+[2023-06-26 17:40:39] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/55/04/1852d11284bc0178a19a5c0f735a756b567f01898891a310f7e98b26732b/dcicsnovault-8.2.0.1b40.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/4b/70/38940917ed46f842e89a1486a08458fd6602677272f9eddfba444a150949/blackboardsync-0.9.4rc3.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/9e/85/468062cae05e55d2284b85d91dc0e75abafac8f8cbada21eb41169971f12/riotee_gateway-0.0.8.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/26/2c/2d428aaa0eada11aa4a6c98d7b6ac6a03d899bdc8f46115a074d73a878fe/napalm_nokia_olt-0.0.9.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/7c/e2/c885fda89e9445571c1d3b2e5314f157feffbbae695a4bf61ec15541ad9c/pybox-toolkit-0.1.9.dev92.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-06-26 17:40:39] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.8.tar.gz tmp/napalm_nokia_olt-0.0.9.tar.gz --markdown 20230626/n/napalm-nokia-olt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:40:39] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/5c/51/09767c79093e39c9681822a2396815e61a908cbe3ca93620b2d33f8426d9/gmltools-0.0.82.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [dbt-snapshot-analysis]: Downloading https://files.pythonhosted.org/packages/75/95/5763eb9aa7ec5def9c3dcf53d456dbbaf8b39c1b998a8af388b53d828900/dbt_snapshot_analysis-0.2.6.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pioled-display-plugin]: Downloading https://files.pythonhosted.org/packages/d1/3c/0d33c4ba8f4106b843afb95f4634b68518a9f65f7b9dd3a0fa663e7d9025/pioled_display_plugin-0.2.3-py3-none-any.whl
+[2023-06-26 17:40:39] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/65/1b/7fa9e0fbedea0df51a434742cbfe3117b3359cb28ee99ce76e28801bd26b/anywidget-0.6.0.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/04/b5/06ab8c651978e8b28fe9237ae7be29749d833131c6c913c9a0759d62a0a9/dcicsnovault-8.2.0.1b5.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.9.dev87.tar.gz tmp/pybox-toolkit-0.1.9.dev92.tar.gz --markdown 20230626/p/pybox-toolkit/0.1.9.dev87-0.1.9.dev92/diff.md --exclude *.pyd
+[2023-06-26 17:40:39] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/15/03/e363df38e8ca3d6fa13d758ad3f198adc74a321e4bc66dd64c5eacf72ff8/blackboardsync-0.9.4rc4.tar.gz
+[2023-06-26 17:40:39] INFO root fetch - processPackages [dbt-snapshot-analysis]: executing diffoscope
+[2023-06-26 17:40:39] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-06-26 17:40:39] INFO root fetch - processPackages [dbt-snapshot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snapshot_analysis-0.2.5.tar.gz tmp/dbt_snapshot_analysis-0.2.6.tar.gz --markdown 20230626/d/dbt-snapshot-analysis/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 17:40:39] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.81.tar.gz tmp/gmltools-0.0.82.tar.gz --markdown 20230626/g/gmltools/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-06-26 17:40:39] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-26 17:40:39] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230626/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pioled-display-plugin]: executing diffoscope
+[2023-06-26 17:40:39] INFO root fetch - processPackages [pioled-display-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioled_display_plugin-0.2.2-py3-none-any.whl.zip tmp/pioled_display_plugin-0.2.3-py3-none-any.whl.zip --markdown 20230626/p/pioled-display-plugin/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-26 17:40:39] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/64/f1/3f9d009b334f38baaef2bda4cc2ed5d327116e162d06d388f2af6b969f33/riotee_gateway-0.0.9.tar.gz
+[2023-06-26 17:40:40] INFO root fetch - processPackages [riotee-gateway]: executing diffoscope
+[2023-06-26 17:40:40] INFO root fetch - processPackages [riotee-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riotee_gateway-0.0.8.tar.gz tmp/riotee_gateway-0.0.9.tar.gz --markdown 20230626/r/riotee-gateway/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:40:40] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-06-26 17:40:40] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.5.3.tar.gz tmp/anywidget-0.6.0.tar.gz --markdown 20230626/a/anywidget/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:40] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-06-26 17:40:40] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.2.0.1b40.tar.gz tmp/dcicsnovault-8.2.0.1b5.tar.gz --markdown 20230626/d/dcicsnovault/8.2.0.1b40-8.2.0.1b5/diff.md --exclude *.pyd
+[2023-06-26 17:40:40] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-26 17:40:40] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.4rc3.tar.gz tmp/blackboardsync-0.9.4rc4.tar.gz --markdown 20230626/b/blackboardsync/0.9.4rc3-0.9.4rc4/diff.md --exclude *.pyd
+[2023-06-26 17:40:41] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev87.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev92.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [pybox-toolkit]: Start processing: cdk-image-pipeline
+[2023-06-26 17:40:41] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-26 17:40:41] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.8.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.9.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [napalm-nokia-olt]: Start processing: ima-predeployed
+[2023-06-26 17:40:41] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-06-26 17:40:41] INFO root fetch - processPackages [ima-predeployed]: New version: [2.0.0b1] Old Version: [2.0.0b0]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.5.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [dbt-snapshot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snapshot_analysis-0.2.6.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [dbt-snapshot-analysis]: Start processing: libcnmc
+[2023-06-26 17:40:41] INFO root fetch - main [MainThread]: End processing [dbt-snapshot-analysis]: success
+[2023-06-26 17:40:41] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/15/22/bf7fb5c3d34ffce55ba837c02d2c57f9065f884e05aaaa45ef415bd54c22/ima-predeployed-2.0.0b0.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [pioled-display-plugin]: Remove: archive file [/home/abi/fetcher/tmp/pioled_display_plugin-0.2.2-py3-none-any.whl.zip]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [pioled-display-plugin]: Remove: archive file [/home/abi/fetcher/tmp/pioled_display_plugin-0.2.3-py3-none-any.whl.zip]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [pioled-display-plugin]: Start processing: automation-utilities
+[2023-06-26 17:40:41] INFO root fetch - main [MainThread]: End processing [pioled-display-plugin]: success
+[2023-06-26 17:40:41] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [automation-utilities]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/86/61/79ce97f17b824fea447b3b6e2a9e75edfc956a7fe36c4e7c1302697dab8b/cdk-image-pipeline-0.3.4.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.8.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.9.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [riotee-gateway]: Start processing: sc-cc-ng-sdk-python
+[2023-06-26 17:40:41] INFO root fetch - main [MainThread]: End processing [riotee-gateway]: success
+[2023-06-26 17:40:41] WARNING root fetch - processPackages [sc-cc-ng-sdk-python]: Skipping, unable to determine old version
+[2023-06-26 17:40:41] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Start processing: dparse
+[2023-06-26 17:40:41] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-sdk-python] error
+[2023-06-26 17:40:41] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/22/fa/4cb3c302e771bbc9fd98a17299f6b53267ea6ddb6f63db69f09f00a15784/automation-utilities-1.2.3.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [dparse]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [dparse]: Downloading https://files.pythonhosted.org/packages/43/62/559227d7f72319055f6970a87677fb8cb24390e61f6dc33ba416f625b15a/dparse-0.6.2.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/95/22/5bfe132da878e0bb6d44a0158de50bb41ec06a4e3301d48c687fdfc0abe2/ima-predeployed-2.0.0b1.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/e6/76/3013b40d3db6ce785a3875714df27bb1edd0dd633485831b6ef4a1507f5d/cdk-image-pipeline-0.3.5.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/0a/6c/4cae385ba002f84849f75adf46104763da958428b45da5ba1a600f9a4b4c/automation-utilities-1.2.4.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [dparse]: Downloading https://files.pythonhosted.org/packages/22/35/e224f4e70799bbb8e9f6c69a8dbe966d640bf43dea11fc5ef77df120f8ed/dparse-0.6.3.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2023-06-26 17:40:41] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.3.4.tar.gz tmp/cdk-image-pipeline-0.3.5.tar.gz --markdown 20230626/c/cdk-image-pipeline/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-26 17:40:41] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-06-26 17:40:41] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-2.0.0b0.tar.gz tmp/ima-predeployed-2.0.0b1.tar.gz --markdown 20230626/i/ima-predeployed/2.0.0b0-2.0.0b1/diff.md --exclude *.pyd
+[2023-06-26 17:40:41] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-26 17:40:41] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.2.3.tar.gz tmp/automation-utilities-1.2.4.tar.gz --markdown 20230626/a/automation-utilities/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-26 17:40:41] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.4rc3.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.4rc4.tar.gz]
+[2023-06-26 17:40:41] INFO root fetch - processPackages [blackboardsync]: Start processing: quantum-serverless
+[2023-06-26 17:40:41] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-26 17:40:41] INFO root fetch - processPackages [dparse]: executing diffoscope
+[2023-06-26 17:40:41] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-26 17:40:41] INFO root fetch - processPackages [dparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dparse-0.6.2.tar.gz tmp/dparse-0.6.3.tar.gz --markdown 20230626/d/dparse/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-26 17:40:42] INFO root fetch - processPackages [quantum-serverless]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-26 17:40:42] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-26 17:40:42] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230626/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-26 17:40:42] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-26 17:40:42] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-26 17:40:42] INFO root fetch - processPackages [leadguru-jobs]: Start processing: python-amazon-sp-api
+[2023-06-26 17:40:42] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-26 17:40:42] INFO root fetch - processPackages [python-amazon-sp-api]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-06-26 17:40:42] INFO root fetch - processPackages [quantum-serverless]: Downloading https://files.pythonhosted.org/packages/57/6e/8eed5a2aa48ad2d0ead78acdbaf452c32571344f1fd777004a3caad20d8c/quantum_serverless-0.2.0.tar.gz
+[2023-06-26 17:40:42] INFO root fetch - processPackages [python-amazon-sp-api]: Downloading https://files.pythonhosted.org/packages/06/d7/90609b17ec59ed35fb664cfa53e94fd76ca0a61927f61dca7252b9f32999/python-amazon-sp-api-0.9.2.tar.gz
+[2023-06-26 17:40:42] INFO root fetch - processPackages [python-amazon-sp-api]: Downloading https://files.pythonhosted.org/packages/ef/f1/fbff1bfaae672efd6f92bca848aba8026a1b6d2b8559272a523a0989320e/python-amazon-sp-api-0.9.4.tar.gz
+[2023-06-26 17:40:42] INFO root fetch - processPackages [quantum-serverless]: Downloading https://files.pythonhosted.org/packages/ec/3f/4f7021258ce19266e5ce428bf0a850c776232590a898ed848bb1fc1784dc/quantum_serverless-0.2.1.tar.gz
+[2023-06-26 17:40:42] INFO root fetch - processPackages [python-amazon-sp-api]: executing diffoscope
+[2023-06-26 17:40:42] INFO root fetch - processPackages [python-amazon-sp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amazon-sp-api-0.9.2.tar.gz tmp/python-amazon-sp-api-0.9.4.tar.gz --markdown 20230626/p/python-amazon-sp-api/0.9.2-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 17:40:42] INFO root fetch - processPackages [quantum-serverless]: executing diffoscope
+[2023-06-26 17:40:42] INFO root fetch - processPackages [quantum-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantum_serverless-0.2.0.tar.gz tmp/quantum_serverless-0.2.1.tar.gz --markdown 20230626/q/quantum-serverless/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-26 17:40:42] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-8.2.0.1b40.tar.gz]
+[2023-06-26 17:40:42] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-8.2.0.1b5.tar.gz]
+[2023-06-26 17:40:42] INFO root fetch - processPackages [dcicsnovault]: Start processing: space-stream
+[2023-06-26 17:40:42] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-06-26 17:40:42] INFO root fetch - processPackages [space-stream]: New version: [0.1.7.1] Old Version: [0.1.7]
+[2023-06-26 17:40:42] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.81.tar.gz]
+[2023-06-26 17:40:42] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.82.tar.gz]
+[2023-06-26 17:40:42] INFO root fetch - processPackages [gmltools]: Start processing: chatgpt-functions
+[2023-06-26 17:40:42] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-06-26 17:40:43] INFO root fetch - processPackages [space-stream]: Downloading https://files.pythonhosted.org/packages/57/90/62844034268fba5c2adf264f01815195fe0357e30dab293533e2d425717c/space_stream-0.1.7-py3-none-any.whl
+[2023-06-26 17:40:43] INFO root fetch - processPackages [chatgpt-functions]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/da/cd/153122090a56edfdf84c6892058bd8f383f94c9d8b2f7fea87b95fe36019/chatgpt_functions-0.0.5.tar.gz
+[2023-06-26 17:40:43] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.3.tar.gz]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.4.tar.gz]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [automation-utilities]: Start processing: ask-sdk-model
+[2023-06-26 17:40:43] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-26 17:40:43] INFO root fetch - processPackages [ask-sdk-model]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [space-stream]: Downloading https://files.pythonhosted.org/packages/04/48/c327c8da0830f9ccd136550da34b38e85647be6105bc8b91674d3bab2bb0/space_stream-0.1.7.1-py3-none-any.whl
+[2023-06-26 17:40:43] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/c8/bb/cf80c54e6ec0d6fc33c2df22dd69d2ff769abe14f8a6cb46e2bd5d6ca1e4/chatgpt_functions-0.1.0.tar.gz
+[2023-06-26 17:40:43] INFO root fetch - processPackages [space-stream]: executing diffoscope
+[2023-06-26 17:40:43] INFO root fetch - processPackages [space-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_stream-0.1.7-py3-none-any.whl.zip tmp/space_stream-0.1.7.1-py3-none-any.whl.zip --markdown 20230626/s/space-stream/0.1.7-0.1.7.1/diff.md --exclude *.pyd
+[2023-06-26 17:40:43] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/0e/2d/3d567d4f148eb87e204409c700b9d3c5339bbbd1c2370fdb46979cfe0ce7/ask-sdk-model-1.8.0.tar.gz
+[2023-06-26 17:40:43] INFO root fetch - processPackages [chatgpt-functions]: executing diffoscope
+[2023-06-26 17:40:43] INFO root fetch - processPackages [chatgpt-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_functions-0.0.5.tar.gz tmp/chatgpt_functions-0.1.0.tar.gz --markdown 20230626/c/chatgpt-functions/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:43] INFO root fetch - processPackages [dparse]: Remove: archive file [/home/abi/fetcher/tmp/dparse-0.6.2.tar.gz]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [dparse]: Remove: archive file [/home/abi/fetcher/tmp/dparse-0.6.3.tar.gz]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [dparse]: Start processing: gemini-self-protector
+[2023-06-26 17:40:43] INFO root fetch - main [MainThread]: End processing [dparse]: success
+[2023-06-26 17:40:43] INFO root fetch - processPackages [gemini-self-protector]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.3.4.tar.gz]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.3.5.tar.gz]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [cdk-image-pipeline]: Start processing: sc-cc-ng-models-python
+[2023-06-26 17:40:43] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2023-06-26 17:40:43] INFO root fetch - processPackages [sc-cc-ng-models-python]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [ask-sdk-model]: Downloading https://files.pythonhosted.org/packages/2f/20/15196c61c99fd59fa6f5f903bea9e113a2af80777c1f7f38f90a5102afde/ask-sdk-model-1.9.0.tar.gz
+[2023-06-26 17:40:43] INFO root fetch - processPackages [ask-sdk-model]: executing diffoscope
+[2023-06-26 17:40:43] INFO root fetch - processPackages [ask-sdk-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ask-sdk-model-1.8.0.tar.gz tmp/ask-sdk-model-1.9.0.tar.gz --markdown 20230626/a/ask-sdk-model/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:43] INFO root fetch - processPackages [gemini-self-protector]: Downloading https://files.pythonhosted.org/packages/84/d8/ac9cbb94e0f62eb1db7016807ad13c8542c77196d08c2225bf630911e9c1/gemini_self_protector-0.1.0.tar.gz
+[2023-06-26 17:40:43] INFO root fetch - processPackages [quantum-serverless]: Remove: archive file [/home/abi/fetcher/tmp/quantum_serverless-0.2.0.tar.gz]
+[2023-06-26 17:40:43] INFO root fetch - processPackages [quantum-serverless]: Remove: archive file [/home/abi/fetcher/tmp/quantum_serverless-0.2.1.tar.gz]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [quantum-serverless]: Start processing: querysource
+[2023-06-26 17:40:44] INFO root fetch - main [MainThread]: End processing [quantum-serverless]: success
+[2023-06-26 17:40:44] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:40:44] INFO root fetch - processPackages [gemini-self-protector]: Downloading https://files.pythonhosted.org/packages/60/ef/202417a41cc7c5c58cc478e4365f4778fc6c845649e7842651053992e142/gemini_self_protector-0.1.1-py3-none-any.whl
+[2023-06-26 17:40:44] INFO root fetch - processPackages [sc-cc-ng-models-python]: Downloading https://files.pythonhosted.org/packages/25/ff/9af23284bd32591a189cc24f7040ebab93b709ed09d52064ae0f9db60dc4/sc_cc_ng_models_python-0.1.0.tar.gz
+[2023-06-26 17:40:44] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b0.tar.gz]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b1.tar.gz]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [ima-predeployed]: Start processing: samna
+[2023-06-26 17:40:44] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-06-26 17:40:44] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [gemini-self-protector]: executing diffoscope
+[2023-06-26 17:40:44] INFO root fetch - processPackages [gemini-self-protector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemini_self_protector-0.1.0.tar.gz tmp/gemini_self_protector-0.1.1-py3-none-any.whl.zip --markdown 20230626/g/gemini-self-protector/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 17:40:44] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:40:44] INFO root fetch - processPackages [sc-cc-ng-models-python]: Downloading https://files.pythonhosted.org/packages/61/d4/a046285438033ffb9eccb4a7355ebede76e2d8ca0563eacd59419d08fd60/sc_cc_ng_models_python-0.1.2.tar.gz
+[2023-06-26 17:40:44] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-06-26 17:40:44] INFO root fetch - processPackages [space-stream]: Remove: archive file [/home/abi/fetcher/tmp/space_stream-0.1.7-py3-none-any.whl.zip]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [space-stream]: Remove: archive file [/home/abi/fetcher/tmp/space_stream-0.1.7.1-py3-none-any.whl.zip]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [space-stream]: Start processing: azureml-accel-models
+[2023-06-26 17:40:44] INFO root fetch - main [MainThread]: End processing [space-stream]: success
+[2023-06-26 17:40:44] INFO root fetch - processPackages [sc-cc-ng-models-python]: executing diffoscope
+[2023-06-26 17:40:44] INFO root fetch - processPackages [sc-cc-ng-models-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_cc_ng_models_python-0.1.0.tar.gz tmp/sc_cc_ng_models_python-0.1.2.tar.gz --markdown 20230626/s/sc-cc-ng-models-python/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 17:40:44] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-26 17:40:44] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230626/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-26 17:40:44] INFO root fetch - processPackages [azureml-accel-models]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.0.5.tar.gz]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.1.0.tar.gz]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [chatgpt-functions]: Start processing: azureml-automl-common-tools
+[2023-06-26 17:40:44] INFO root fetch - main [MainThread]: End processing [chatgpt-functions]: success
+[2023-06-26 17:40:44] INFO root fetch - processPackages [azureml-automl-common-tools]: New version: [1.52.0] Old Version: [1.51.0]
+[2023-06-26 17:40:44] INFO root fetch - processPackages [azureml-accel-models]: Downloading https://files.pythonhosted.org/packages/af/ea/1a24c178400293aca7e52d0cad971d8b7df6a45a0e1b7cf7982ce5771a94/azureml_accel_models-1.8.0-py3-none-any.whl
+[2023-06-26 17:40:44] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-06-26 17:40:44] INFO root fetch - processPackages [azureml-automl-common-tools]: Downloading https://files.pythonhosted.org/packages/16/7a/4046b1046c633b6c8eb435105f0f8210659b1cc771b7bb91b1088daac061/azureml_automl_common_tools-1.51.0-py3-none-any.whl
+[2023-06-26 17:40:44] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-06-26 17:40:44] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230626/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-automl-common-tools]: Downloading https://files.pythonhosted.org/packages/b7/ec/8d7080d409d78d229189d438a31167e88162078b2895547666cba5c25284/azureml_automl_common_tools-1.52.0-py3-none-any.whl
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-accel-models]: Downloading https://files.pythonhosted.org/packages/47/9c/667a53939f463dedff09b8304b407f9fb8f5d138ccb78436b4a7aa1e9665/azureml_accel_models-1.9.0-py3-none-any.whl
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-automl-common-tools]: executing diffoscope
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-automl-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_common_tools-1.51.0-py3-none-any.whl.zip tmp/azureml_automl_common_tools-1.52.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-automl-common-tools/1.51.0-1.52.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-accel-models]: executing diffoscope
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-accel-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_accel_models-1.8.0-py3-none-any.whl.zip tmp/azureml_accel_models-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-accel-models/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:45] INFO root fetch - processPackages [sc-cc-ng-models-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_models_python-0.1.0.tar.gz]
+[2023-06-26 17:40:45] INFO root fetch - processPackages [sc-cc-ng-models-python]: Remove: archive file [/home/abi/fetcher/tmp/sc_cc_ng_models_python-0.1.2.tar.gz]
+[2023-06-26 17:40:45] INFO root fetch - processPackages [sc-cc-ng-models-python]: Start processing: azureml-automl-core
+[2023-06-26 17:40:45] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-models-python]: success
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-automl-core]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-06-26 17:40:45] INFO root fetch - processPackages [gemini-self-protector]: Remove: archive file [/home/abi/fetcher/tmp/gemini_self_protector-0.1.0.tar.gz]
+[2023-06-26 17:40:45] INFO root fetch - processPackages [gemini-self-protector]: Remove: archive file [/home/abi/fetcher/tmp/gemini_self_protector-0.1.1-py3-none-any.whl.zip]
+[2023-06-26 17:40:45] INFO root fetch - processPackages [gemini-self-protector]: Start processing: azureml-automl-dnn-nlp
+[2023-06-26 17:40:45] INFO root fetch - main [MainThread]: End processing [gemini-self-protector]: success
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-automl-dnn-nlp]: New version: [1.52.0] Old Version: [1.51.0]
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-automl-core]: Downloading https://files.pythonhosted.org/packages/6f/fd/3c0ab52cf32c55e9513e407fe3badb5d5bd1e2199b16124c1c8dfb1f6b05/azureml_automl_core-1.9.0-py3-none-any.whl
+[2023-06-26 17:40:45] INFO root fetch - processPackages [azureml-automl-dnn-nlp]: Downloading https://files.pythonhosted.org/packages/86/21/d7dde1dfb842051304caf85c04d1b5812268ba0780659ce8e980d24ac0e4/azureml_automl_dnn_nlp-1.51.0-py3-none-any.whl
+[2023-06-26 17:40:45] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:45] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:45] INFO root fetch - processPackages [samna]: Start processing: azureml-automl-dnn-vision
+[2023-06-26 17:40:45] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-dnn-vision]: New version: [1.52.0] Old Version: [1.51.0]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [python-amazon-sp-api]: Remove: archive file [/home/abi/fetcher/tmp/python-amazon-sp-api-0.9.2.tar.gz]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [python-amazon-sp-api]: Remove: archive file [/home/abi/fetcher/tmp/python-amazon-sp-api-0.9.4.tar.gz]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [python-amazon-sp-api]: Start processing: azureml-automl-runtime
+[2023-06-26 17:40:46] INFO root fetch - main [MainThread]: End processing [python-amazon-sp-api]: success
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-runtime]: New version: [1.9.0.post3] Old Version: [1.9.0.post2]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-core]: Downloading https://files.pythonhosted.org/packages/7b/ad/c23e1acc5b34c427e8d0b350c1ee52091003558b37ca9cec8d346a8ce993/azureml_automl_core-1.9.0.post1-py3-none-any.whl
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-dnn-nlp]: Downloading https://files.pythonhosted.org/packages/e7/e7/02471191a94f223bdad1d46c26b7ee93a1b36623b0d81a42c1e4df056899/azureml_automl_dnn_nlp-1.52.0-py3-none-any.whl
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Downloading https://files.pythonhosted.org/packages/8d/98/7331404b6a6851d5ec1bef91784492059926e2268ac3097c82d94a1b8495/azureml_automl_dnn_vision-1.51.0-py3-none-any.whl
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-runtime]: Downloading https://files.pythonhosted.org/packages/ef/d8/7b1f03072a292857230a7fdf9a68f7ce4a0ba5a4818b573ffef7fd14d665/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-core]: executing diffoscope
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_core-1.9.0-py3-none-any.whl.zip tmp/azureml_automl_core-1.9.0.post1-py3-none-any.whl.zip --markdown 20230626/a/azureml-automl-core/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_common_tools-1.51.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_common_tools-1.52.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-common-tools]: Start processing: azureml-cli-common
+[2023-06-26 17:40:46] INFO root fetch - main [MainThread]: End processing [azureml-automl-common-tools]: success
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-dnn-nlp]: executing diffoscope
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-dnn-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_dnn_nlp-1.51.0-py3-none-any.whl.zip tmp/azureml_automl_dnn_nlp-1.52.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-automl-dnn-nlp/1.51.0-1.52.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-cli-common]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Downloading https://files.pythonhosted.org/packages/a3/ef/bd14c8b29179d9e6227985254af31a651e2bd971634f3f86be42f29928c4/azureml_automl_dnn_vision-1.52.0-py3-none-any.whl
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-cli-common]: Downloading https://files.pythonhosted.org/packages/90/1d/091a628cb34e9dc4f36fd6a8b83962592496223b1df0597103ecd5fb4543/azureml_cli_common-1.8.0-py3-none-any.whl
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-accel-models]: Remove: archive file [/home/abi/fetcher/tmp/azureml_accel_models-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-accel-models]: Remove: archive file [/home/abi/fetcher/tmp/azureml_accel_models-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-accel-models]: Start processing: azureml-contrib-aisc
+[2023-06-26 17:40:46] INFO root fetch - main [MainThread]: End processing [azureml-accel-models]: success
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-dnn-vision]: executing diffoscope
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-dnn-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_dnn_vision-1.51.0-py3-none-any.whl.zip tmp/azureml_automl_dnn_vision-1.52.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-automl-dnn-vision/1.51.0-1.52.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-contrib-aisc]: New version: [1.52.0] Old Version: [1.51.0]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-automl-runtime]: Downloading https://files.pythonhosted.org/packages/05/95/54abee729a1d3723cdad1bcbf2e36d9d5e0bd014a1f49ffc84699e5a6074/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl
+[2023-06-26 17:40:46] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:40:46] INFO root fetch - processPackages [querysource]: Start processing: azureml-contrib-automl-dnn-forecasting
+[2023-06-26 17:40:46] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-26 17:40:46] INFO root fetch - processPackages [azureml-contrib-aisc]: Downloading https://files.pythonhosted.org/packages/22/19/9e32e7e455c00b3ee536d62ff58a173778493c3ecb792fa1a1af77852532/azureml_contrib_aisc-1.51.0-py3-none-any.whl
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-contrib-automl-dnn-forecasting]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-contrib-aisc]: Downloading https://files.pythonhosted.org/packages/4a/53/b451f1d268c7452dc3454088ca3994a5813fbc47087cdc9336c6c15b8f61/azureml_contrib_aisc-1.52.0-py3-none-any.whl
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-contrib-automl-dnn-forecasting]: Downloading https://files.pythonhosted.org/packages/27/16/5397ef341f517db357e5fb42eacecebbad6b9b6f45fb726e9402013961b3/azureml_contrib_automl_dnn_forecasting-1.8.0-py3-none-any.whl
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-contrib-aisc]: executing diffoscope
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-contrib-aisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_aisc-1.51.0-py3-none-any.whl.zip tmp/azureml_contrib_aisc-1.52.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-aisc/1.51.0-1.52.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-automl-runtime]: executing diffoscope
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-automl-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl.zip tmp/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl.zip --markdown 20230626/a/azureml-automl-runtime/1.9.0.post2-1.9.0.post3/diff.md --exclude *.pyd
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-cli-common]: Downloading https://files.pythonhosted.org/packages/bb/d3/37d35e82e008b2408405aaf91b6a4ec07eb13a4d4f215ace486c4bd0f92c/azureml_cli_common-1.9.0-py3-none-any.whl
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-cli-common]: executing diffoscope
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-cli-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_cli_common-1.8.0-py3-none-any.whl.zip tmp/azureml_cli_common-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-cli-common/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:47] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-26 17:40:47] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-26 17:40:47] INFO root fetch - processPackages [libcnmc]: Start processing: azureml-contrib-automl-pipeline-steps
+[2023-06-26 17:40:47] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-contrib-automl-pipeline-steps]: New version: [1.52.0] Old Version: [1.51.0]
+[2023-06-26 17:40:47] INFO root fetch - processPackages [azureml-contrib-automl-dnn-forecasting]: Downloading https://files.pythonhosted.org/packages/b0/c0/7ef8558589a3f60a10b040c9ee7716fd968a1a9748104ab08e5a7a58bbaa/azureml_contrib_automl_dnn_forecasting-1.9.0-py3-none-any.whl
+[2023-06-26 17:40:48] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.5.3.tar.gz]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.6.0.tar.gz]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [anywidget]: Start processing: azureml-contrib-dataset
+[2023-06-26 17:40:48] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-dataset]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-automl-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_core-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-automl-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_core-1.9.0.post1-py3-none-any.whl.zip]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-automl-core]: Start processing: azureml-contrib-fairness
+[2023-06-26 17:40:48] INFO root fetch - main [MainThread]: End processing [azureml-automl-core]: success
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-automl-dnn-forecasting]: executing diffoscope
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-automl-dnn-forecasting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_automl_dnn_forecasting-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_automl_dnn_forecasting-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-automl-dnn-forecasting/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-automl-pipeline-steps]: Downloading https://files.pythonhosted.org/packages/f4/e0/1c611cad530a72b466ca6ea412be236f36338377fae9155134835a2dfd9a/azureml_contrib_automl_pipeline_steps-1.51.0-py3-none-any.whl
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-fairness]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-automl-dnn-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_dnn_nlp-1.51.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-automl-dnn-nlp]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_dnn_nlp-1.52.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-automl-dnn-nlp]: Start processing: azureml-contrib-functions
+[2023-06-26 17:40:48] INFO root fetch - main [MainThread]: End processing [azureml-automl-dnn-nlp]: success
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-dataset]: Downloading https://files.pythonhosted.org/packages/3f/6f/87b229b986e2091f1d5cb893f10b29b7e58c5db40bb36d3ac663ed24db47/azureml_contrib_dataset-1.8.0-py3-none-any.whl
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-automl-pipeline-steps]: Downloading https://files.pythonhosted.org/packages/53/e3/0e3299dc7b611438754b726928ed6c0abb51463e172a37671168d10167c1/azureml_contrib_automl_pipeline_steps-1.52.0-py3-none-any.whl
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-functions]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-fairness]: Downloading https://files.pythonhosted.org/packages/72/57/b45724b537199e9c01a86d80974adb3cb5971c733d2426204f2ccee8ee90/azureml_contrib_fairness-1.8.0-py3-none-any.whl
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-aisc]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_aisc-1.51.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-aisc]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_aisc-1.52.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:48] INFO root fetch - main [MainThread]: End processing [azureml-contrib-aisc]: success
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-automl-pipeline-steps]: executing diffoscope
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-automl-pipeline-steps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_automl_pipeline_steps-1.51.0-py3-none-any.whl.zip tmp/azureml_contrib_automl_pipeline_steps-1.52.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-automl-pipeline-steps/1.51.0-1.52.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-functions]: Downloading https://files.pythonhosted.org/packages/38/ae/0f5cd9e3e0de16fdf61b18f9c83717eb50d33eb87be39872b22c13a587ff/azureml_contrib_functions-1.8.0-py3-none-any.whl
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-dataset]: Downloading https://files.pythonhosted.org/packages/95/b8/35d55295d88a1f56e0282316521d6af9b4f1c7d751feffb9f40c0af4d742/azureml_contrib_dataset-1.9.0-py3-none-any.whl
+[2023-06-26 17:40:48] INFO root fetch - processPackages [azureml-contrib-fairness]: Downloading https://files.pythonhosted.org/packages/59/7e/4c8e82b2a6a312f4ebafea052537b3e7b2ecc37648a1cba2df9593c59668/azureml_contrib_fairness-1.9.0-py3-none-any.whl
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-cli-common]: Remove: archive file [/home/abi/fetcher/tmp/azureml_cli_common-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-cli-common]: Remove: archive file [/home/abi/fetcher/tmp/azureml_cli_common-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:49] INFO root fetch - main [MainThread]: End processing [azureml-cli-common]: success
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-contrib-dataset]: executing diffoscope
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-contrib-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_dataset-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_dataset-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-dataset/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-contrib-functions]: Downloading https://files.pythonhosted.org/packages/3a/b7/ad5eae9016d2d29eb40cc25af4a8e92159340f9a60bd980694f3e2a852cb/azureml_contrib_functions-1.9.0-py3-none-any.whl
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-contrib-fairness]: executing diffoscope
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-contrib-fairness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_fairness-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_fairness-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-fairness/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-contrib-functions]: executing diffoscope
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-contrib-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_functions-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_functions-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-functions/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_dnn_vision-1.51.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:49] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_dnn_vision-1.52.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:49] INFO root fetch - main [MainThread]: End processing [azureml-automl-dnn-vision]: success
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-automl-pipeline-steps]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_automl_pipeline_steps-1.51.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-automl-pipeline-steps]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_automl_pipeline_steps-1.52.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - main [MainThread]: End processing [azureml-contrib-automl-pipeline-steps]: success
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-automl-dnn-forecasting]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_automl_dnn_forecasting-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-automl-dnn-forecasting]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_automl_dnn_forecasting-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - main [MainThread]: End processing [azureml-contrib-automl-dnn-forecasting]: success
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-dataset]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_dataset-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-dataset]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_dataset-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - main [MainThread]: End processing [azureml-contrib-dataset]: success
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-functions]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_functions-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-functions]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_functions-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - main [MainThread]: End processing [azureml-contrib-functions]: success
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-fairness]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_fairness-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-contrib-fairness]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_fairness-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - main [MainThread]: End processing [azureml-contrib-fairness]: success
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-automl-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - processPackages [azureml-automl-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl.zip]
+[2023-06-26 17:40:50] INFO root fetch - main [MainThread]: End processing [azureml-automl-runtime]: success
+[2023-06-26 17:40:51] INFO root fetch - processPackages [ask-sdk-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-sdk-model-1.8.0.tar.gz]
+[2023-06-26 17:40:51] INFO root fetch - processPackages [ask-sdk-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-sdk-model-1.9.0.tar.gz]
+[2023-06-26 17:40:51] INFO root fetch - main [MainThread]: End processing [ask-sdk-model]: success
+[2023-06-26 17:40:51] INFO root fetch - main [MainThread]: Store serial: [18649131]
