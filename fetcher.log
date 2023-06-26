@@ -7157,3 +7157,40 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 06:20:05] INFO root fetch - processPackages [django-envconfig]: Remove: archive file [/home/abi/fetcher/tmp/django-envconfig-0.3.0.tar.gz]
 [2023-06-26 06:20:05] INFO root fetch - main [MainThread]: End processing [django-envconfig]: success
 [2023-06-26 06:20:05] INFO root fetch - main [MainThread]: Store serial: [18642009]
+[2023-06-26 06:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642009]
+[2023-06-26 06:25:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-26 06:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lycoris-lora
+[2023-06-26 06:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transcriptorthology
+[2023-06-26 06:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transcriptorthology
+[2023-06-26 06:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gistdawater
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-06-26 06:25:14] INFO root fetch - processPackages [gistdawater]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-06-26 06:25:14] INFO root fetch - processPackages [lycoris-lora]: New version: [0.1.7.dev9] Old Version: [0.1.7.dev8]
+[2023-06-26 06:25:14] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/b1/c9/291594490dd6eef9b9f9cbd13742cf378ad8eac4b57234a125b050e3b4bc/lycoris_lora-0.1.7.dev8.tar.gz
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/33/10/c8594fe1297936734c401502a918d5bf5c82d699178428b41c87e3842425/transcriptorthology-1.0.1.tar.gz
+[2023-06-26 06:25:14] INFO root fetch - processPackages [gistdawater]: Downloading https://files.pythonhosted.org/packages/23/e0/08d7e8d9ee8f1e42ca03e13b3a4cb478c1ac2988b464dd8dbe423d7830e9/gistdawater-0.0.1.tar.gz
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/33/10/c8594fe1297936734c401502a918d5bf5c82d699178428b41c87e3842425/transcriptorthology-1.0.1.tar.gz
+[2023-06-26 06:25:14] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/77/7d/0262a49babd70839941551b1a7e237c192e4fc2394c953d5e57c934c6374/lycoris_lora-0.1.7.dev9.tar.gz
+[2023-06-26 06:25:14] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-06-26 06:25:14] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-0.1.7.dev8.tar.gz tmp/lycoris_lora-0.1.7.dev9.tar.gz --markdown 20230626/l/lycoris-lora/0.1.7.dev8-0.1.7.dev9/diff.md --exclude *.pyd
+[2023-06-26 06:25:14] INFO root fetch - processPackages [gistdawater]: Downloading https://files.pythonhosted.org/packages/b9/b6/f17c2a241926ccac2b2e591f6f9598a2d338469200293cd17c6db474e789/gistdawater-0.0.2.tar.gz
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/f6/29/c9e9cc014791ef7e0487f621af0515332b0cd99b8c65e4041feebd7ed6ee/transcriptorthology-2.0.0.tar.gz
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/f6/29/c9e9cc014791ef7e0487f621af0515332b0cd99b8c65e4041feebd7ed6ee/transcriptorthology-2.0.0.tar.gz
+[2023-06-26 06:25:14] INFO root fetch - processPackages [gistdawater]: executing diffoscope
+[2023-06-26 06:25:14] INFO root fetch - processPackages [gistdawater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gistdawater-0.0.1.tar.gz tmp/gistdawater-0.0.2.tar.gz --markdown 20230626/g/gistdawater/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: executing diffoscope
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcriptorthology-1.0.1.tar.gz tmp/transcriptorthology-2.0.0.tar.gz --markdown 20230626/t/transcriptorthology/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: executing diffoscope
+[2023-06-26 06:25:14] INFO root fetch - processPackages [transcriptorthology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcriptorthology-1.0.1.tar.gz tmp/transcriptorthology-2.0.0.tar.gz --markdown 20230626/t/transcriptorthology/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-26 06:25:15] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev8.tar.gz]
+[2023-06-26 06:25:15] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev9.tar.gz]
+[2023-06-26 06:25:15] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-06-26 06:25:16] INFO root fetch - processPackages [gistdawater]: Remove: archive file [/home/abi/fetcher/tmp/gistdawater-0.0.1.tar.gz]
+[2023-06-26 06:25:16] INFO root fetch - processPackages [gistdawater]: Remove: archive file [/home/abi/fetcher/tmp/gistdawater-0.0.2.tar.gz]
+[2023-06-26 06:25:16] INFO root fetch - main [MainThread]: End processing [gistdawater]: success
+[2023-06-26 06:25:16] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-1.0.1.tar.gz]
+[2023-06-26 06:25:16] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-2.0.0.tar.gz]
+[2023-06-26 06:25:16] INFO root fetch - main [MainThread]: End processing [transcriptorthology]: success
+[2023-06-26 06:25:16] INFO root fetch - main [MainThread]: End processing [transcriptorthology]: success
+[2023-06-26 06:25:16] INFO root fetch - main [MainThread]: Store serial: [18642020]
