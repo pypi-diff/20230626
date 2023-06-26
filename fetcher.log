@@ -7982,3 +7982,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 07:27:20] INFO root fetch - processPackages [metaloop-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/metaloop-python-sdk-1.9.0.tar.gz]
 [2023-06-26 07:27:20] INFO root fetch - main [MainThread]: End processing [metaloop-python-sdk]: success
 [2023-06-26 07:27:20] INFO root fetch - main [MainThread]: Store serial: [18642411]
+[2023-06-26 07:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642411]
+[2023-06-26 07:32:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 07:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acore-server-metadata
+[2023-06-26 07:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Google-Ads-Transparency-Scraper
+[2023-06-26 07:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acore-paths
+[2023-06-26 07:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: layerx-sdk-beta
+[2023-06-26 07:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2023-06-26 07:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robot-rumble
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-server-metadata]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-26 07:32:30] INFO root fetch - processPackages [chatllm]: New version: [2023.6.26.13.31.16] Old Version: [2023.6.2.9.16.47]
+[2023-06-26 07:32:30] INFO root fetch - processPackages [robot-rumble]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-paths]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-06-26 07:32:30] WARNING root fetch - processPackages [Google-Ads-Transparency-Scraper]: Skipping, unable to determine old version
+[2023-06-26 07:32:30] INFO root fetch - main [MainThread]: End processing [Google-Ads-Transparency-Scraper] error
+[2023-06-26 07:32:30] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-26 07:32:30] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/92/3e/13f239a62be5cd9b8c36afda0ba7053f0f554dd3e6b8b032d690170764c7/robot_rumble-0.0.8.tar.gz
+[2023-06-26 07:32:30] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 22358135>=10485760
+[2023-06-26 07:32:30] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-06-26 07:32:30] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/d4/c6/dbb0c87aa87358a6b9c1ae2c543f72120fface1e634dcac99e52a0eb4bf5/chatllm-2023.6.2.9.16.47.tar.gz
+[2023-06-26 07:32:30] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-server-metadata]: Downloading https://files.pythonhosted.org/packages/63/5b/6b130d93f0b2a2965d16b721a333fccb34b7bb66c4649cf579419885da6b/acore_server_metadata-0.5.1.tar.gz
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-paths]: Downloading https://files.pythonhosted.org/packages/1a/c7/b70ac57111f42b2d96a465e94dca7c14087efca1cca9d61fb5f721141c21/acore_paths-0.1.1.tar.gz
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-server-metadata]: Downloading https://files.pythonhosted.org/packages/15/cd/c864127348955eb46a880282446eb6832a1efef658ede7d918f613f0e6bc/acore_server_metadata-0.5.2.tar.gz
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-server-metadata]: executing diffoscope
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-server-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_metadata-0.5.1.tar.gz tmp/acore_server_metadata-0.5.2.tar.gz --markdown 20230626/a/acore-server-metadata/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-paths]: Downloading https://files.pythonhosted.org/packages/66/c6/15e42e040af76ce38bf38da5c3ba57bdd180158403d5dc29fdcf00639d03/acore_paths-0.2.1.tar.gz
+[2023-06-26 07:32:30] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-paths]: executing diffoscope
+[2023-06-26 07:32:30] INFO root fetch - processPackages [acore-paths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_paths-0.1.1.tar.gz tmp/acore_paths-0.2.1.tar.gz --markdown 20230626/a/acore-paths/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-26 07:32:30] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-26 07:32:30] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230626/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-26 07:32:32] INFO root fetch - processPackages [acore-server-metadata]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_metadata-0.5.1.tar.gz]
+[2023-06-26 07:32:32] INFO root fetch - processPackages [acore-server-metadata]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_metadata-0.5.2.tar.gz]
+[2023-06-26 07:32:32] INFO root fetch - main [MainThread]: End processing [acore-server-metadata]: success
+[2023-06-26 07:32:32] INFO root fetch - processPackages [acore-paths]: Remove: archive file [/home/abi/fetcher/tmp/acore_paths-0.1.1.tar.gz]
+[2023-06-26 07:32:32] INFO root fetch - processPackages [acore-paths]: Remove: archive file [/home/abi/fetcher/tmp/acore_paths-0.2.1.tar.gz]
+[2023-06-26 07:32:32] INFO root fetch - main [MainThread]: End processing [acore-paths]: success
+[2023-06-26 07:32:32] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-26 07:32:32] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-26 07:32:32] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-26 07:32:33] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/55/a3/46b0e6b1649827c1f0ed50f158395156bf0f5ec2cd70e94992a228234b8e/chatllm-2023.6.26.13.31.16.tar.gz
+[2023-06-26 07:32:33] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-06-26 07:32:33] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2023.6.2.9.16.47.tar.gz tmp/chatllm-2023.6.26.13.31.16.tar.gz --markdown 20230626/c/chatllm/2023.6.2.9.16.47-2023.6.26.13.31.16/diff.md --exclude *.pyd
+[2023-06-26 07:32:36] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.2.9.16.47.tar.gz]
+[2023-06-26 07:32:36] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.26.13.31.16.tar.gz]
+[2023-06-26 07:32:36] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-06-26 07:32:36] INFO root fetch - main [MainThread]: Store serial: [18642471]
