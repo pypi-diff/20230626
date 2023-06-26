@@ -16690,3 +16690,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 14:15:57] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b0.tar.gz]
 [2023-06-26 14:15:57] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
 [2023-06-26 14:15:57] INFO root fetch - main [MainThread]: Store serial: [18646254]
+[2023-06-26 14:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18646254]
+[2023-06-26 14:21:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: expert-intelligence-toolbox
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BlitzChain
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathbib
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mesh-common
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyblish-simple
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yop-python-sdk
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opensafely-cohort-extractor
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openmetadata-managed-apis
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openmetadata-ingestion
+[2023-06-26 14:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: conf-ini-g
+[2023-06-26 14:21:07] INFO root fetch - processPackages [BlitzChain]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 14:21:07] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 14:21:07] INFO root fetch - processPackages [mathbib]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-26 14:21:07] INFO root fetch - processPackages [yop-python-sdk]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-06-26 14:21:07] WARNING root fetch - processPackages [pyblish-simple]: Skipping, unable to determine old version
+[2023-06-26 14:21:07] INFO root fetch - processPackages [pyblish-simple]: Start processing: navigate-with-image-language-model
+[2023-06-26 14:21:07] INFO root fetch - main [MainThread]: End processing [pyblish-simple] error
+[2023-06-26 14:21:07] INFO root fetch - processPackages [mesh-common]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 14:21:07] WARNING root fetch - processPackages [navigate-with-image-language-model]: Skipping, unable to determine old version
+[2023-06-26 14:21:07] INFO root fetch - processPackages [navigate-with-image-language-model]: Start processing: irene-pro
+[2023-06-26 14:21:07] INFO root fetch - main [MainThread]: End processing [navigate-with-image-language-model] error
+[2023-06-26 14:21:07] INFO root fetch - processPackages [irene-pro]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-06-26 14:21:07] INFO root fetch - processPackages [conf-ini-g]: New version: [2023.6] Old Version: [2023.5]
+[2023-06-26 14:21:07] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.1.0.0.dev0] Old Version: [1.0.5.0]
+[2023-06-26 14:21:07] INFO root fetch - processPackages [opensafely-cohort-extractor]: New version: [1.9.0] Old Version: [1.85.0]
+[2023-06-26 14:21:07] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.1.0.0.dev0] Old Version: [1.0.5.0]
+[2023-06-26 14:21:07] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/62/72/0c3df5f4465cbea492d779644f0f143aa9c898a78cf6fbb233a7cd9cfcce/irene_pro-0.0.71.tar.gz
+[2023-06-26 14:21:07] INFO root fetch - processPackages [mathbib]: Downloading https://files.pythonhosted.org/packages/6c/bd/35b269006a829958ac2e41303115ee10d87854748f5e32a1cb8a5db1ec5d/mathbib-0.7.1.tar.gz
+[2023-06-26 14:21:07] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/0b/a7/266cae20bc20768f836f8baa31e0c0449b7584c8de836667f40098ba024d/BlitzChain-0.1.1.tar.gz
+[2023-06-26 14:21:07] INFO root fetch - processPackages [yop-python-sdk]: Downloading https://files.pythonhosted.org/packages/d9/a0/adfe1d70789502171bfe952fa5c895280a285530e73dc675ac4c7dd86394/yop-python-sdk-4.2.2.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [mesh-common]: Downloading https://files.pythonhosted.org/packages/45/da/0cea95c22be8e70a07d945e2f175fa47f514b6cf74362635f7d829fea74a/mesh_common-0.1.1.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [conf-ini-g]: Downloading https://files.pythonhosted.org/packages/84/cc/ae3564e64c09472e0fad55394f84af9956fbf4a7754b774024a0daab686f/conf-ini-g-2023.5.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [opensafely-cohort-extractor]: Downloading https://files.pythonhosted.org/packages/ef/b4/f9ee1ae5065444ffd50ac496dcc5b11c8ae1f9232d74158abdff7970488d/opensafely-cohort-extractor-1.85.0.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/50/95/6f7af2086f3db8ab068237e6531d3ac5f30c2997c6050cbe0cc269048e39/openmetadata_managed_apis-1.0.5.0.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/b0/f3/9b85e24bb280579ac1fc8bdc86957badce7fb62996643a7fcf7cb16dc8ba/openmetadata-ingestion-1.0.5.0.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/b3/bd/046abd43cb09b56e34610abd147ed1c03c9654839cce45c76378d5d09426/irene_pro-0.0.72.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.71.tar.gz tmp/irene_pro-0.0.72.tar.gz --markdown 20230626/i/irene-pro/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-06-26 14:21:08] INFO root fetch - processPackages [mesh-common]: Downloading https://files.pythonhosted.org/packages/f8/56/63d4ce66bd0f87dfe4edbe019cffda24f6d13083f9afbb4f04beca9bab25/mesh_common-0.1.2.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [mathbib]: Downloading https://files.pythonhosted.org/packages/61/12/99a60e1af21ff38022a0f87a4ed33753b2d5e59fb4a1448b5ac235404b79/mathbib-0.7.2.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/22/c0/326ae678c476b190a071c05fb7d00341744a1594e6c233a1e509cd8057a9/BlitzChain-0.1.2.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [mesh-common]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [mesh-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_common-0.1.1.tar.gz tmp/mesh_common-0.1.2.tar.gz --markdown 20230626/m/mesh-common/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 14:21:08] INFO root fetch - processPackages [mathbib]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [mathbib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathbib-0.7.1.tar.gz tmp/mathbib-0.7.2.tar.gz --markdown 20230626/m/mathbib/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-26 14:21:08] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.1.1.tar.gz tmp/BlitzChain-0.1.2.tar.gz --markdown 20230626/B/BlitzChain/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 14:21:08] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/d6/d9/f36fd57fe7c41f7149c960dbad0bbec174738d4ddde9a2ecb728b705e1f1/openmetadata_managed_apis-1.1.0.0.dev0.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [conf-ini-g]: Downloading https://files.pythonhosted.org/packages/66/b8/c599c3969f5dc88187e111242b3a881ed68916b4b66483f73ccca29f1a5c/conf-ini-g-2023.6.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230626/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 14:21:08] INFO root fetch - processPackages [yop-python-sdk]: Downloading https://files.pythonhosted.org/packages/a7/f6/c9aa0f6f7349f75ffce1ebe973b9cc458ae3e3a683446b0d35a0bbd656b7/yop-python-sdk-4.2.3.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/c8/3c/2a25529cfc182e35ae210b3f8714d6bb7862aa0bd7e97762b6b43851db9a/openmetadata-ingestion-1.1.0.0.dev0.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.0.5.0.tar.gz tmp/openmetadata_managed_apis-1.1.0.0.dev0.tar.gz --markdown 20230626/o/openmetadata-managed-apis/1.0.5.0-1.1.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-26 14:21:08] INFO root fetch - processPackages [opensafely-cohort-extractor]: Downloading https://files.pythonhosted.org/packages/90/a5/56f116b906e0c32a549533b3a6db3939c73dbc7153b203f4204c96d04275/opensafely-cohort-extractor-1.9.0.tar.gz
+[2023-06-26 14:21:08] INFO root fetch - processPackages [yop-python-sdk]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [yop-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yop-python-sdk-4.2.2.tar.gz tmp/yop-python-sdk-4.2.3.tar.gz --markdown 20230626/y/yop-python-sdk/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-06-26 14:21:08] INFO root fetch - processPackages [conf-ini-g]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [conf-ini-g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conf-ini-g-2023.5.tar.gz tmp/conf-ini-g-2023.6.tar.gz --markdown 20230626/c/conf-ini-g/2023.5-2023.6/diff.md --exclude *.pyd
+[2023-06-26 14:21:08] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.0.5.0.tar.gz tmp/openmetadata-ingestion-1.1.0.0.dev0.tar.gz --markdown 20230626/o/openmetadata-ingestion/1.0.5.0-1.1.0.0.dev0/diff.md --exclude *.pyd
+[2023-06-26 14:21:08] INFO root fetch - processPackages [opensafely-cohort-extractor]: executing diffoscope
+[2023-06-26 14:21:08] INFO root fetch - processPackages [opensafely-cohort-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensafely-cohort-extractor-1.85.0.tar.gz tmp/opensafely-cohort-extractor-1.9.0.tar.gz --markdown 20230626/o/opensafely-cohort-extractor/1.85.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 14:21:09] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-26 14:21:09] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-26 14:21:09] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: dariusVision
+[2023-06-26 14:21:09] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-26 14:21:10] INFO root fetch - processPackages [dariusVision]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 14:21:10] INFO root fetch - processPackages [mathbib]: Remove: archive file [/home/abi/fetcher/tmp/mathbib-0.7.1.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - processPackages [mathbib]: Remove: archive file [/home/abi/fetcher/tmp/mathbib-0.7.2.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - main [MainThread]: End processing [mathbib]: success
+[2023-06-26 14:21:10] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.1.1.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.1.2.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-06-26 14:21:10] INFO root fetch - processPackages [yop-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yop-python-sdk-4.2.2.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - processPackages [yop-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yop-python-sdk-4.2.3.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - main [MainThread]: End processing [yop-python-sdk]: success
+[2023-06-26 14:21:10] INFO root fetch - processPackages [dariusVision]: Downloading https://files.pythonhosted.org/packages/32/07/0d8b1cdbbac46fb1a471d6944afb02bc6bd871a56b7e3793fd6a66977965/dariusVision-0.0.5.tar.gz
+[2023-06-26 14:21:10] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.0.5.0.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.1.0.0.dev0.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-06-26 14:21:10] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.71.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.72.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-26 14:21:10] INFO root fetch - processPackages [dariusVision]: Downloading https://files.pythonhosted.org/packages/6d/8c/ded6e99a9e83cda607033554a0c80ca98749c12e44e564ea3f9019cecfc5/dariusVision-0.0.6.tar.gz
+[2023-06-26 14:21:10] INFO root fetch - processPackages [mesh-common]: Remove: archive file [/home/abi/fetcher/tmp/mesh_common-0.1.1.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - processPackages [mesh-common]: Remove: archive file [/home/abi/fetcher/tmp/mesh_common-0.1.2.tar.gz]
+[2023-06-26 14:21:10] INFO root fetch - main [MainThread]: End processing [mesh-common]: success
+[2023-06-26 14:21:10] INFO root fetch - processPackages [dariusVision]: executing diffoscope
+[2023-06-26 14:21:10] INFO root fetch - processPackages [dariusVision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dariusVision-0.0.5.tar.gz tmp/dariusVision-0.0.6.tar.gz --markdown 20230626/d/dariusVision/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 14:21:11] INFO root fetch - processPackages [dariusVision]: Remove: archive file [/home/abi/fetcher/tmp/dariusVision-0.0.5.tar.gz]
+[2023-06-26 14:21:11] INFO root fetch - processPackages [dariusVision]: Remove: archive file [/home/abi/fetcher/tmp/dariusVision-0.0.6.tar.gz]
+[2023-06-26 14:21:11] INFO root fetch - main [MainThread]: End processing [dariusVision]: success
+[2023-06-26 14:21:12] INFO root fetch - processPackages [opensafely-cohort-extractor]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-cohort-extractor-1.85.0.tar.gz]
+[2023-06-26 14:21:12] INFO root fetch - processPackages [opensafely-cohort-extractor]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-cohort-extractor-1.9.0.tar.gz]
+[2023-06-26 14:21:12] INFO root fetch - main [MainThread]: End processing [opensafely-cohort-extractor]: success
+[2023-06-26 14:21:12] INFO root fetch - processPackages [conf-ini-g]: Remove: archive file [/home/abi/fetcher/tmp/conf-ini-g-2023.5.tar.gz]
+[2023-06-26 14:21:12] INFO root fetch - processPackages [conf-ini-g]: Remove: archive file [/home/abi/fetcher/tmp/conf-ini-g-2023.6.tar.gz]
+[2023-06-26 14:21:12] INFO root fetch - main [MainThread]: End processing [conf-ini-g]: success
+[2023-06-26 14:21:32] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.0.5.0.tar.gz]
+[2023-06-26 14:21:32] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.0.dev0.tar.gz]
+[2023-06-26 14:21:32] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-06-26 14:21:32] INFO root fetch - main [MainThread]: Store serial: [18646310]
