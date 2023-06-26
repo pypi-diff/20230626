@@ -7570,3 +7570,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 07:02:30] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.1.tar.gz]
 [2023-06-26 07:02:30] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
 [2023-06-26 07:02:30] INFO root fetch - main [MainThread]: Store serial: [18642221]
+[2023-06-26 07:07:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642221]
+[2023-06-26 07:07:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dss-python
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gurobi-optimods
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robot-rumble
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recurtx
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unrollcuda
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: analysis-runner
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DroidRpc
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dank-mids
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-seo-plus
+[2023-06-26 07:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rapid-pe
+[2023-06-26 07:07:39] INFO root fetch - processPackages [gurobi-optimods]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-26 07:07:39] INFO root fetch - processPackages [analysis-runner]: New version: [2.41.1] Old Version: [2.41.0]
+[2023-06-26 07:07:39] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230626] Old Version: [0.1.1.dev20230625]
+[2023-06-26 07:07:39] INFO root fetch - processPackages [DroidRpc]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-06-26 07:07:39] INFO root fetch - processPackages [recurtx]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 07:07:39] WARNING root fetch - processPackages [django-seo-plus]: Skipping, unable to determine old version
+[2023-06-26 07:07:39] INFO root fetch - processPackages [unrollcuda]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 07:07:39] INFO root fetch - processPackages [django-seo-plus]: Start processing: keras-aug
+[2023-06-26 07:07:39] INFO root fetch - main [MainThread]: End processing [django-seo-plus] error
+[2023-06-26 07:07:39] INFO root fetch - processPackages [robot-rumble]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 07:07:39] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-26 07:07:39] INFO root fetch - processPackages [dss-python]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-26 07:07:39] INFO root fetch - processPackages [keras-aug]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-26 07:07:39] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/4d/c5/e7b0eeddd69ad3fc21a25b0072b65fba8d41dd924e83d94349dace2115b4/rapid_pe-0.1.1.dev20230625.tar.gz
+[2023-06-26 07:07:39] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/6d/71/299b6bf9249267c4e449919ec74da0cf4c9d019b0745b9661dd7c1cf4438/analysis-runner-2.41.0.tar.gz
+[2023-06-26 07:07:39] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-26 07:07:39] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/a8/12/2218cd8c9a8bade77319177ea667b5b9e6e0d0f5a29dbbec8e82b5a7e654/recurtx-0.0.3.tar.gz
+[2023-06-26 07:07:39] INFO root fetch - processPackages [gurobi-optimods]: Downloading https://files.pythonhosted.org/packages/f6/7d/df356e8bd1780aeed57b429607dfc840c387fac1c3c3366a08c24253d3cb/gurobi_optimods-1.0.0.tar.gz
+[2023-06-26 07:07:39] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-26 07:07:39] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/69/03/72e537c6e90d1e3de91b6734a1bc5e93d4e220e29ca821bd379e3ece70f8/robot_rumble-0.0.6.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [DroidRpc]: Downloading https://files.pythonhosted.org/packages/77/67/d01e8069eaa0fbf4a8686bdf1ac470c13a4fb1a8c59fb4cb592163cdf42f/DroidRpc-1.6.7.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [unrollcuda]: Downloading https://files.pythonhosted.org/packages/70/4e/377d2f86c6eb4a7c9292c92a887aaf7e7ce234517889536fd3fd0089350f/unrollcuda-0.0.2.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/ba/cf/a5abece290b5d45a750b25f6d114e5b1462f4576dc2639d8c1f557b61d72/dss_python-0.9.7-cp36-cp36m-win_amd64.whl
+[2023-06-26 07:07:40] INFO root fetch - processPackages [keras-aug]: Downloading https://files.pythonhosted.org/packages/81/6c/4fcc6da077aa59f218b4b477181bcde0ea4aec174f9b4babda3dbe973326/keras-aug-0.5.4.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-26 07:07:40] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230626/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-26 07:07:40] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/31/43/47b265090ffd071245e409811b66bad7919d24833f175ff36247c2ef5c75/rapid_pe-0.1.1.dev20230626.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/91/3b/112104d0a8be5fd7fd44363422bdb88e743ad7a240b75cf124e27a273829/analysis-runner-2.41.1.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [recurtx]: Downloading https://files.pythonhosted.org/packages/6f/11/496d8a890ad2eb6bb0406e88cc3dde4780b4d5ae84fa56b99d9e08d28708/recurtx-0.0.4.tar.gz
+[2023-06-26 07:07:40] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 22355265>=10485760
+[2023-06-26 07:07:40] INFO root fetch - processPackages [robot-rumble]: Start processing: mrx-link
+[2023-06-26 07:07:40] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-06-26 07:07:40] INFO root fetch - processPackages [analysis-runner]: executing diffoscope
+[2023-06-26 07:07:40] INFO root fetch - processPackages [analysis-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysis-runner-2.41.0.tar.gz tmp/analysis-runner-2.41.1.tar.gz --markdown 20230626/a/analysis-runner/2.41.0-2.41.1/diff.md --exclude *.pyd
+[2023-06-26 07:07:40] INFO root fetch - processPackages [gurobi-optimods]: Downloading https://files.pythonhosted.org/packages/a7/aa/2d4eae6fc973860b8e54a07444f8d2f857cb4c276d994b1881fe31c42ee8/gurobi_optimods-1.0.1.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [unrollcuda]: Downloading https://files.pythonhosted.org/packages/4d/cd/20229c3ad28dea396ce0ae2028543c7f464de12faf60447333b4b8155b04/unrollcuda-0.0.3.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-26 07:07:40] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230625.tar.gz tmp/rapid_pe-0.1.1.dev20230626.tar.gz --markdown 20230626/r/rapid-pe/0.1.1.dev20230625-0.1.1.dev20230626/diff.md --exclude *.pyd
+[2023-06-26 07:07:40] INFO root fetch - processPackages [recurtx]: executing diffoscope
+[2023-06-26 07:07:40] INFO root fetch - processPackages [recurtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recurtx-0.0.3.tar.gz tmp/recurtx-0.0.4.tar.gz --markdown 20230626/r/recurtx/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 07:07:40] INFO root fetch - processPackages [DroidRpc]: Downloading https://files.pythonhosted.org/packages/27/8f/8f26071a398c3bde9a9fed00340db56230c692dfb0161d27e79b049cbf15/DroidRpc-1.6.8.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [keras-aug]: Downloading https://files.pythonhosted.org/packages/a2/53/1800caf42ffbdb788b76b6b610b289313f6ff63d0495921a02c015331206/keras-aug-0.5.5.tar.gz
+[2023-06-26 07:07:40] INFO root fetch - processPackages [mrx-link]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-06-26 07:07:40] INFO root fetch - processPackages [gurobi-optimods]: executing diffoscope
+[2023-06-26 07:07:40] INFO root fetch - processPackages [gurobi-optimods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurobi_optimods-1.0.0.tar.gz tmp/gurobi_optimods-1.0.1.tar.gz --markdown 20230626/g/gurobi-optimods/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-26 07:07:40] INFO root fetch - processPackages [unrollcuda]: executing diffoscope
+[2023-06-26 07:07:40] INFO root fetch - processPackages [unrollcuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unrollcuda-0.0.2.tar.gz tmp/unrollcuda-0.0.3.tar.gz --markdown 20230626/u/unrollcuda/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 07:07:40] INFO root fetch - processPackages [dss-python]: Downloading https://files.pythonhosted.org/packages/01/44/9b7b908415f0e3ecbc413ebf6895b4465ca04c24d15d974ddac812e6cf2b/dss_python-0.9.8-cp37-cp37m-win_amd64.whl
+[2023-06-26 07:07:40] INFO root fetch - processPackages [keras-aug]: executing diffoscope
+[2023-06-26 07:07:40] INFO root fetch - processPackages [keras-aug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-aug-0.5.4.tar.gz tmp/keras-aug-0.5.5.tar.gz --markdown 20230626/k/keras-aug/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-26 07:07:40] INFO root fetch - processPackages [DroidRpc]: executing diffoscope
+[2023-06-26 07:07:40] INFO root fetch - processPackages [DroidRpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroidRpc-1.6.7.tar.gz tmp/DroidRpc-1.6.8.tar.gz --markdown 20230626/D/DroidRpc/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-06-26 07:07:40] INFO root fetch - processPackages [dss-python]: executing diffoscope
+[2023-06-26 07:07:40] INFO root fetch - processPackages [dss-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip --markdown 20230626/d/dss-python/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-26 07:07:40] INFO root fetch - processPackages [mrx-link]: Downloading https://files.pythonhosted.org/packages/ac/54/3113d999604491a93587343bc2151f1a8bad8cd1d9d6979be3d60e73c66d/mrx_link-1.1.0-cp39-cp39-win_amd64.whl
+[2023-06-26 07:07:40] INFO root fetch - processPackages [mrx-link]: Downloading https://files.pythonhosted.org/packages/71/2e/a6e6d892fb0962db1dd3a6f3f4454603c1acaadc944a1bff0529ca655209/mrx_link-1.1.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 07:07:41] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-26 07:07:41] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-26 07:07:41] INFO root fetch - processPackages [dank-mids]: Start processing: acore-constants
+[2023-06-26 07:07:41] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-26 07:07:41] ERROR root fetch - processPackages [acore-constants]: Unable to get metadata: No such project 'acore-constants'
+[2023-06-26 07:07:41] INFO root fetch - processPackages [acore-constants]: Start processing: GPTConnect
+[2023-06-26 07:07:41] INFO root fetch - main [MainThread]: End processing [acore-constants] error
+[2023-06-26 07:07:41] INFO root fetch - processPackages [GPTConnect]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-26 07:07:41] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/be/a6/33cfe4e05d49a78ec13941c65bab9b9f2ca7ba706ebd4c782170a17a009b/GPTConnect-0.2.2.tar.gz
+[2023-06-26 07:07:41] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-2.41.0.tar.gz]
+[2023-06-26 07:07:41] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-2.41.1.tar.gz]
+[2023-06-26 07:07:41] INFO root fetch - main [MainThread]: End processing [analysis-runner]: success
+[2023-06-26 07:07:41] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/9a/02/d0d658966ab921e1685ae5f68a9115193bb4e7890851e7faca5f158bd53a/GPTConnect-0.2.3.tar.gz
+[2023-06-26 07:07:41] WARNING root fetch - processPackages [mrx-link]: Skipping package: exceeds size limit 15758519>=10485760
+[2023-06-26 07:07:41] INFO root fetch - main [MainThread]: End processing [mrx-link] error
+[2023-06-26 07:07:42] INFO root fetch - processPackages [GPTConnect]: executing diffoscope
+[2023-06-26 07:07:42] INFO root fetch - processPackages [GPTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTConnect-0.2.2.tar.gz tmp/GPTConnect-0.2.3.tar.gz --markdown 20230626/G/GPTConnect/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-26 07:07:42] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230625.tar.gz]
+[2023-06-26 07:07:42] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230626.tar.gz]
+[2023-06-26 07:07:42] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-26 07:07:42] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.3.tar.gz]
+[2023-06-26 07:07:42] INFO root fetch - processPackages [recurtx]: Remove: archive file [/home/abi/fetcher/tmp/recurtx-0.0.4.tar.gz]
+[2023-06-26 07:07:42] INFO root fetch - main [MainThread]: End processing [recurtx]: success
+[2023-06-26 07:07:42] INFO root fetch - processPackages [DroidRpc]: Remove: archive file [/home/abi/fetcher/tmp/DroidRpc-1.6.7.tar.gz]
+[2023-06-26 07:07:42] INFO root fetch - processPackages [DroidRpc]: Remove: archive file [/home/abi/fetcher/tmp/DroidRpc-1.6.8.tar.gz]
+[2023-06-26 07:07:42] INFO root fetch - main [MainThread]: End processing [DroidRpc]: success
+[2023-06-26 07:07:42] INFO root fetch - processPackages [unrollcuda]: Remove: archive file [/home/abi/fetcher/tmp/unrollcuda-0.0.2.tar.gz]
+[2023-06-26 07:07:42] INFO root fetch - processPackages [unrollcuda]: Remove: archive file [/home/abi/fetcher/tmp/unrollcuda-0.0.3.tar.gz]
+[2023-06-26 07:07:42] INFO root fetch - main [MainThread]: End processing [unrollcuda]: success
+[2023-06-26 07:07:43] INFO root fetch - processPackages [keras-aug]: Remove: archive file [/home/abi/fetcher/tmp/keras-aug-0.5.4.tar.gz]
+[2023-06-26 07:07:43] INFO root fetch - processPackages [keras-aug]: Remove: archive file [/home/abi/fetcher/tmp/keras-aug-0.5.5.tar.gz]
+[2023-06-26 07:07:43] INFO root fetch - main [MainThread]: End processing [keras-aug]: success
+[2023-06-26 07:07:43] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.2.2.tar.gz]
+[2023-06-26 07:07:43] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.2.3.tar.gz]
+[2023-06-26 07:07:43] INFO root fetch - main [MainThread]: End processing [GPTConnect]: success
+[2023-06-26 07:07:45] INFO root fetch - processPackages [gurobi-optimods]: Remove: archive file [/home/abi/fetcher/tmp/gurobi_optimods-1.0.0.tar.gz]
+[2023-06-26 07:07:45] INFO root fetch - processPackages [gurobi-optimods]: Remove: archive file [/home/abi/fetcher/tmp/gurobi_optimods-1.0.1.tar.gz]
+[2023-06-26 07:07:45] INFO root fetch - main [MainThread]: End processing [gurobi-optimods]: success
+[2023-06-26 07:08:05] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.7-cp36-cp36m-win_amd64.whl.zip]
+[2023-06-26 07:08:05] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip]
+[2023-06-26 07:08:05] INFO root fetch - main [MainThread]: End processing [dss-python]: success
+[2023-06-26 07:08:05] INFO root fetch - main [MainThread]: Store serial: [18642267]
