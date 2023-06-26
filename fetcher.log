@@ -10431,3 +10431,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 09:29:20] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-26 09:29:20] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-26 09:29:20] INFO root fetch - main [MainThread]: Store serial: [18643527]
+[2023-06-26 09:34:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643527]
+[2023-06-26 09:34:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-storage-helper
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intelliw
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gacha
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddadevops
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tomwer
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jam-ai
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opn-sonarqube-api
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sumo-wrapper-python
+[2023-06-26 09:34:31] INFO root fetch - processPackages [gacha]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-26 09:34:31] INFO root fetch - processPackages [azure-storage-helper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 09:34:31] INFO root fetch - processPackages [jam-ai]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 09:34:31] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230626072950] Old Version: [2.1.1.dev20230625195247]
+[2023-06-26 09:34:31] INFO root fetch - processPackages [opn-sonarqube-api]: New version: [2.3.3.3089652] Old Version: [2.3.2.2952584]
+[2023-06-26 09:34:31] WARNING root fetch - processPackages [sumo-wrapper-python]: Skipping, unable to determine old version
+[2023-06-26 09:34:31] INFO root fetch - processPackages [sumo-wrapper-python]: Start processing: meo
+[2023-06-26 09:34:31] INFO root fetch - main [MainThread]: End processing [sumo-wrapper-python] error
+[2023-06-26 09:34:31] INFO root fetch - processPackages [intelliw]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-26 09:34:31] INFO root fetch - processPackages [tomwer]: New version: [1.2.0a1] Old Version: [1.2.0a0]
+[2023-06-26 09:34:31] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-26 09:34:31] INFO root fetch - processPackages [meo]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-06-26 09:34:31] INFO root fetch - processPackages [azure-storage-helper]: Downloading https://files.pythonhosted.org/packages/78/10/f0548b6b4db8c080a45c67e9c32aa120ce54db225971f7111ecb006e53df/azure_storage_helper-0.1.1.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-26 09:34:31] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/23/cc/162f5a7f38f2ccda81328d18f90efcf58fe4a7a59cb4413ee6e3230830c5/localstack-core-2.1.1.dev20230625195247.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [gacha]: Downloading https://files.pythonhosted.org/packages/20/d8/d23e7111044d06194ee393e32fbbd87fa3528fa451745989241bf3ff489c/gacha-0.1.0.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/ec/dd/c41ac7e1af5508312f91754bb5ff5737c7b8b1ebf3ecb1d87c7127b986a7/jam_ai-0.1.7.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/9a/ce/20850d455cee55870f68b4c52538dfbcad9360bd19b3fe310f2060fc3b4e/intelliw-1.2.8-py3-none-any.whl
+[2023-06-26 09:34:31] INFO root fetch - processPackages [opn-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/f2/69/24dc9f9c60ea73d9e840953ccdfa23b925aef82d598b0b35ba0b79e58867/opn_sonarqube_api-2.3.2.2952584.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/55/e2/51deca77c72c63d2cf45e1e2662ae01f72e3bf6634c8491cb56d4ff29361/tomwer-1.2.0a0.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-26 09:34:31] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/e2/23/b501c81c6804b6f140751d968bbf48ba32d5c96c3a843093ac497f9bb70e/meo-0.1.4.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [azure-storage-helper]: Downloading https://files.pythonhosted.org/packages/70/be/14c2c56d1857a3fc3d8c89277405f410f6b6b3a92d69c6b1f196fbe623b3/azure_storage_helper-0.1.2.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/53/53/8d5fbb694a5a27c3bfd85f47540af2476613fd26647dc23fb244cfb45e41/ddadevops-4.0.0.dev8.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c6/00/2242b7a01b93cd02cc42dac890082e6f6db979100158f3465c3cc813a7b1/localstack-core-2.1.1.dev20230626072950.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [gacha]: Downloading https://files.pythonhosted.org/packages/35/e4/052f5e0b9cb3eaf72083bf2d525f6c50990ae9ae1d3103c4e69b905eecbe/gacha-1.0.0.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/d9/3f/4d544023e78db4af89786a5d6b84b7d83d4bf02ce88ef1162acdb23cd28c/jam_ai-0.1.8.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-26 09:34:31] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230626/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-26 09:34:31] INFO root fetch - processPackages [opn-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/b2/68/57c6e8183bb202c84c75beb504d6bba92a4a2fc8737880b5aff337af1250/opn_sonarqube_api-2.3.3.3089652.tar.gz
+[2023-06-26 09:34:31] INFO root fetch - processPackages [gacha]: executing diffoscope
+[2023-06-26 09:34:31] INFO root fetch - processPackages [gacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gacha-0.1.0.tar.gz tmp/gacha-1.0.0.tar.gz --markdown 20230626/g/gacha/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 09:34:31] INFO root fetch - processPackages [intelliw]: Downloading https://files.pythonhosted.org/packages/56/39/8c9d9f02f068eb32b537f84561688a3542e0d77b426f926f06943dd7238a/intelliw-1.2.9-py3-none-any.whl
+[2023-06-26 09:34:31] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-26 09:34:31] INFO root fetch - processPackages [azure-storage-helper]: executing diffoscope
+[2023-06-26 09:34:31] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230625195247.tar.gz tmp/localstack-core-2.1.1.dev20230626072950.tar.gz --markdown 20230626/l/localstack-core/2.1.1.dev20230625195247-2.1.1.dev20230626072950/diff.md --exclude *.pyd
+[2023-06-26 09:34:31] INFO root fetch - processPackages [azure-storage-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_storage_helper-0.1.1.tar.gz tmp/azure_storage_helper-0.1.2.tar.gz --markdown 20230626/a/azure-storage-helper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 09:34:31] INFO root fetch - processPackages [jam-ai]: executing diffoscope
+[2023-06-26 09:34:31] INFO root fetch - processPackages [jam-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jam_ai-0.1.7.tar.gz tmp/jam_ai-0.1.8.tar.gz --markdown 20230626/j/jam-ai/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 09:34:31] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/06/0f/14df855902e0d84a289198fb7353a544a3dc1e16b369d90a81df34ca6f32/meo-0.1.5.tar.gz
+[2023-06-26 09:34:32] INFO root fetch - processPackages [opn-sonarqube-api]: executing diffoscope
+[2023-06-26 09:34:32] INFO root fetch - processPackages [opn-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opn_sonarqube_api-2.3.2.2952584.tar.gz tmp/opn_sonarqube_api-2.3.3.3089652.tar.gz --markdown 20230626/o/opn-sonarqube-api/2.3.2.2952584-2.3.3.3089652/diff.md --exclude *.pyd
+[2023-06-26 09:34:32] INFO root fetch - processPackages [intelliw]: executing diffoscope
+[2023-06-26 09:34:32] INFO root fetch - processPackages [intelliw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelliw-1.2.8-py3-none-any.whl.zip tmp/intelliw-1.2.9-py3-none-any.whl.zip --markdown 20230626/i/intelliw/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-26 09:34:32] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/9c/a6/94383f8fefff438a708de6a15de54cdf27095e019093eba700e8d3150b0f/tomwer-1.2.0a1.tar.gz
+[2023-06-26 09:34:32] INFO root fetch - processPackages [meo]: executing diffoscope
+[2023-06-26 09:34:32] INFO root fetch - processPackages [meo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meo-0.1.4.tar.gz tmp/meo-0.1.5.tar.gz --markdown 20230626/m/meo/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 09:34:32] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/1a/08/2cc64f9080402b648c61f955d3eef2148f5a01af49c6ca6905fe47939af0/ddadevops-4.0.0.dev9.tar.gz
+[2023-06-26 09:34:32] INFO root fetch - processPackages [tomwer]: executing diffoscope
+[2023-06-26 09:34:32] INFO root fetch - processPackages [tomwer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomwer-1.2.0a0.tar.gz tmp/tomwer-1.2.0a1.tar.gz --markdown 20230626/t/tomwer/1.2.0a0-1.2.0a1/diff.md --exclude *.pyd
+[2023-06-26 09:34:32] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-06-26 09:34:32] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230626/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-06-26 09:34:33] INFO root fetch - processPackages [gacha]: Remove: archive file [/home/abi/fetcher/tmp/gacha-0.1.0.tar.gz]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [gacha]: Remove: archive file [/home/abi/fetcher/tmp/gacha-1.0.0.tar.gz]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [gacha]: Start processing: kalm
+[2023-06-26 09:34:33] INFO root fetch - main [MainThread]: End processing [gacha]: success
+[2023-06-26 09:34:33] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-26 09:34:33] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.4.tar.gz]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.5.tar.gz]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [meo]: Start processing: dipex
+[2023-06-26 09:34:33] INFO root fetch - main [MainThread]: End processing [meo]: success
+[2023-06-26 09:34:33] INFO root fetch - processPackages [azure-storage-helper]: Remove: archive file [/home/abi/fetcher/tmp/azure_storage_helper-0.1.1.tar.gz]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [azure-storage-helper]: Remove: archive file [/home/abi/fetcher/tmp/azure_storage_helper-0.1.2.tar.gz]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [azure-storage-helper]: Start processing: histcmp
+[2023-06-26 09:34:33] INFO root fetch - main [MainThread]: End processing [azure-storage-helper]: success
+[2023-06-26 09:34:33] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [histcmp]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-26 09:34:33] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-26 09:34:33] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev8.tar.gz]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev9.tar.gz]
+[2023-06-26 09:34:33] INFO root fetch - processPackages [ddadevops]: Start processing: papfa
+[2023-06-26 09:34:33] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-06-26 09:34:33] INFO root fetch - processPackages [histcmp]: Downloading https://files.pythonhosted.org/packages/60/d9/c0f68682501b4050a859ff9045bbe9f184312cc21856e45f07b3e3a97654/histcmp-0.5.2.tar.gz
+[2023-06-26 09:34:33] INFO root fetch - processPackages [papfa]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 09:34:34] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.7.tar.gz]
+[2023-06-26 09:34:34] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.8.tar.gz]
+[2023-06-26 09:34:34] INFO root fetch - processPackages [jam-ai]: Start processing: xj-thread
+[2023-06-26 09:34:34] INFO root fetch - main [MainThread]: End processing [jam-ai]: success
+[2023-06-26 09:34:34] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-26 09:34:34] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230626/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-26 09:34:34] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-26 09:34:34] INFO root fetch - processPackages [papfa]: Downloading https://files.pythonhosted.org/packages/fe/17/0c60d0a9c9b0a73b56aaf120ae869df0a3809185b119dd5bbc06af7fd346/papfa-0.1.8-py2.py3-none-any.whl
+[2023-06-26 09:34:34] INFO root fetch - processPackages [opn-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/opn_sonarqube_api-2.3.2.2952584.tar.gz]
+[2023-06-26 09:34:34] INFO root fetch - processPackages [opn-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/opn_sonarqube_api-2.3.3.3089652.tar.gz]
+[2023-06-26 09:34:34] INFO root fetch - main [MainThread]: End processing [opn-sonarqube-api]: success
+[2023-06-26 09:34:34] INFO root fetch - processPackages [histcmp]: Downloading https://files.pythonhosted.org/packages/d9/1a/021ba9497dfdfe7d6807112a814b24bf0063c3f3768e2bd71ab9e9df247f/histcmp-0.5.3.tar.gz
+[2023-06-26 09:34:34] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-26 09:34:34] INFO root fetch - processPackages [histcmp]: executing diffoscope
+[2023-06-26 09:34:34] INFO root fetch - processPackages [histcmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histcmp-0.5.2.tar.gz tmp/histcmp-0.5.3.tar.gz --markdown 20230626/h/histcmp/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-26 09:34:34] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-26 09:34:34] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230626/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-26 09:34:34] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-06-26 09:34:34] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-1.2.8-py3-none-any.whl.zip]
+[2023-06-26 09:34:34] INFO root fetch - processPackages [intelliw]: Remove: archive file [/home/abi/fetcher/tmp/intelliw-1.2.9-py3-none-any.whl.zip]
+[2023-06-26 09:34:34] INFO root fetch - main [MainThread]: End processing [intelliw]: success
+[2023-06-26 09:34:34] INFO root fetch - processPackages [papfa]: Downloading https://files.pythonhosted.org/packages/2a/3b/4734c27d30b6ba87fab469399d6fe9b88ed83e4ad790dd9c7f5801ca6720/papfa-0.1.9-py2.py3-none-any.whl
+[2023-06-26 09:34:34] INFO root fetch - processPackages [papfa]: executing diffoscope
+[2023-06-26 09:34:34] INFO root fetch - processPackages [papfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papfa-0.1.8-py2.py3-none-any.whl.zip tmp/papfa-0.1.9-py2.py3-none-any.whl.zip --markdown 20230626/p/papfa/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 09:34:34] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-06-26 09:34:34] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-06-26 09:34:34] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230626/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-26 09:34:35] INFO root fetch - processPackages [histcmp]: Remove: archive file [/home/abi/fetcher/tmp/histcmp-0.5.2.tar.gz]
+[2023-06-26 09:34:35] INFO root fetch - processPackages [histcmp]: Remove: archive file [/home/abi/fetcher/tmp/histcmp-0.5.3.tar.gz]
+[2023-06-26 09:34:35] INFO root fetch - main [MainThread]: End processing [histcmp]: success
+[2023-06-26 09:34:35] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-26 09:34:35] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-26 09:34:35] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-26 09:34:35] INFO root fetch - processPackages [papfa]: Remove: archive file [/home/abi/fetcher/tmp/papfa-0.1.8-py2.py3-none-any.whl.zip]
+[2023-06-26 09:34:35] INFO root fetch - processPackages [papfa]: Remove: archive file [/home/abi/fetcher/tmp/papfa-0.1.9-py2.py3-none-any.whl.zip]
+[2023-06-26 09:34:35] INFO root fetch - main [MainThread]: End processing [papfa]: success
+[2023-06-26 09:34:36] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-06-26 09:34:36] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-06-26 09:34:36] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-06-26 09:34:36] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-26 09:34:36] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-26 09:34:36] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-26 09:34:38] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-26 09:34:38] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-26 09:34:38] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-26 09:34:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230625195247.tar.gz]
+[2023-06-26 09:34:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230626072950.tar.gz]
+[2023-06-26 09:34:42] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-26 09:34:45] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a0.tar.gz]
+[2023-06-26 09:34:45] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a1.tar.gz]
+[2023-06-26 09:34:45] INFO root fetch - main [MainThread]: End processing [tomwer]: success
+[2023-06-26 09:34:45] INFO root fetch - main [MainThread]: Store serial: [18643573]
