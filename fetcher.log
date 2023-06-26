@@ -4953,3 +4953,102 @@
 [2023-06-26 03:39:08] INFO root fetch - processPackages [sqlite-utils]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-utils-3.9.1.tar.gz]
 [2023-06-26 03:39:08] INFO root fetch - main [MainThread]: End processing [sqlite-utils]: success
 [2023-06-26 03:39:08] INFO root fetch - main [MainThread]: Store serial: [18641239]
+[2023-06-26 03:44:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641239]
+[2023-06-26 03:44:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oloren
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmflows
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pandas
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-web
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HawaData
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pytorch
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bioregistry
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proactive-jupyter-kernel
+[2023-06-26 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oloren
+[2023-06-26 03:44:17] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [HawaData]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [sqlite-web]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [llmflows]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/a2/b1/88bbbf435609342551758c34ec8411b946181676cdc54db0e8d661c56902/HawaData-0.7.4.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-26 03:44:17] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-26 03:44:17] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-26 03:44:17] INFO root fetch - processPackages [proactive]: Start processing: nbdev-scipy
+[2023-06-26 03:44:17] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/5a/12/7fe4958b8817b05e294da52bf694b6cc7a800754ca4fa7ea8b7da246bb4c/llmflows-0.0.2.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 03:44:17] INFO root fetch - processPackages [sqlite-web]: Downloading https://files.pythonhosted.org/packages/73/ac/9e5063c697cd02e47601461f808c29046241ec55c91147f55f82c1442e77/sqlite-web-0.4.1.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/90/32/b9c48780d4916e1a7dde2209da0546286632a0e558eb5ffab7cb50dd3328/HawaData-0.7.5.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230626/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:44:17] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/9f/82/d48ce46db1ff24bee68e00622cb290ea9d8a85f38987f8aa26f7fe93e01b/llmflows-0.0.3.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-26 03:44:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230626/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-26 03:44:17] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-26 03:44:17] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.7.4.tar.gz tmp/HawaData-0.7.5.tar.gz --markdown 20230626/H/HawaData/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230626/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [llmflows]: executing diffoscope
+[2023-06-26 03:44:17] INFO root fetch - processPackages [llmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmflows-0.0.2.tar.gz tmp/llmflows-0.0.3.tar.gz --markdown 20230626/l/llmflows/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 03:44:17] INFO root fetch - processPackages [sqlite-web]: Downloading https://files.pythonhosted.org/packages/6f/a6/0483902724ec5a0ec90e6ec50c790187ad2d724148af6afcc331e9d1a392/sqlite-web-0.5.0.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-26 03:44:17] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230626/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:44:17] ERROR root fetch - processPackages [proactive-jupyter-kernel]: Diffoscope failed: Error: error creating container storage: the container name "thirsty_hofstadter" is already in use by "1940baae4d3c35367bb06889a699ec07a7c42c7688a215fbefe189dada2b8d0a". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-26 03:44:17] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: dataframe-handlers
+[2023-06-26 03:44:17] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel] error
+[2023-06-26 03:44:17] INFO root fetch - processPackages [sqlite-web]: executing diffoscope
+[2023-06-26 03:44:17] INFO root fetch - processPackages [sqlite-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite-web-0.4.1.tar.gz tmp/sqlite-web-0.5.0.tar.gz --markdown 20230626/s/sqlite-web/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-26 03:44:18] WARNING root fetch - processPackages [dataframe-handlers]: Skipping, unable to determine old version
+[2023-06-26 03:44:18] INFO root fetch - main [MainThread]: End processing [dataframe-handlers] error
+[2023-06-26 03:44:18] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-26 03:44:18] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230626/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 03:44:18] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-26 03:44:18] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230626/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 03:44:18] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-26 03:44:18] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230626/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 03:44:19] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-26 03:44:19] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-26 03:44:19] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-26 03:44:19] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-26 03:44:19] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-26 03:44:19] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-26 03:44:19] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.4.tar.gz]
+[2023-06-26 03:44:19] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.5.tar.gz]
+[2023-06-26 03:44:19] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-26 03:44:19] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.2.tar.gz]
+[2023-06-26 03:44:19] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.3.tar.gz]
+[2023-06-26 03:44:19] INFO root fetch - main [MainThread]: End processing [llmflows]: success
+[2023-06-26 03:44:20] INFO root fetch - processPackages [sqlite-web]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-web-0.4.1.tar.gz]
+[2023-06-26 03:44:20] INFO root fetch - processPackages [sqlite-web]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-web-0.5.0.tar.gz]
+[2023-06-26 03:44:20] INFO root fetch - main [MainThread]: End processing [sqlite-web]: success
+[2023-06-26 03:44:20] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-26 03:44:20] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-26 03:44:20] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-26 03:44:24] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-26 03:44:24] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-26 03:44:24] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-26 03:44:26] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-26 03:46:17] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-26 03:46:17] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-26 03:46:17] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-26 03:46:17] INFO root fetch - main [MainThread]: Store serial: [18641281]
