@@ -6283,3 +6283,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 05:17:17] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2023-06-26 05:17:17] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-26 05:17:17] INFO root fetch - main [MainThread]: Store serial: [18641694]
+[2023-06-26 05:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641694]
+[2023-06-26 05:22:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-assistant-client
+[2023-06-26 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VisualFlow
+[2023-06-26 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-code-search
+[2023-06-26 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-board
+[2023-06-26 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-06-26 05:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rtrie
+[2023-06-26 05:22:27] INFO root fetch - processPackages [gpt-code-search]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 05:22:27] INFO root fetch - processPackages [VisualFlow]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 05:22:27] WARNING root fetch - processPackages [dev-assistant-client]: Skipping, unable to determine old version
+[2023-06-26 05:22:27] INFO root fetch - main [MainThread]: End processing [dev-assistant-client] error
+[2023-06-26 05:22:27] INFO root fetch - processPackages [spark-board]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-26 05:22:27] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-26 05:22:27] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/fa/d1/e7962cb8e61da2e7f0379178f8b92b6b270e42df8419fa1bb3010350fd50/gpt_code_search-0.0.4.tar.gz
+[2023-06-26 05:22:27] WARNING root fetch - processPackages [rtrie]: Skipping, unable to determine old version
+[2023-06-26 05:22:27] INFO root fetch - main [MainThread]: End processing [rtrie] error
+[2023-06-26 05:22:27] INFO root fetch - processPackages [VisualFlow]: Downloading https://files.pythonhosted.org/packages/08/18/274e96c6f72937524011fec56eac13e2cbc69fec9060072834ab8dbd5659/VisualFlow-0.1.4.tar.gz
+[2023-06-26 05:22:27] INFO root fetch - processPackages [spark-board]: Downloading https://files.pythonhosted.org/packages/b5/40/b9f019ced72c7c242faa0cc2b2aa9db6a85b3b9112b06214e48ca3890428/spark-board-0.0.4.tar.gz
+[2023-06-26 05:22:27] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-26 05:22:27] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/7c/f3/45ee0bbf0fc9855f82b844867f659bff5855842b93570125a6abf4e02e5e/gpt_code_search-0.0.5.tar.gz
+[2023-06-26 05:22:27] INFO root fetch - processPackages [VisualFlow]: Downloading https://files.pythonhosted.org/packages/d5/77/c07dc74450a84fe60bcb4dbb36f2142aca0bdbc306ffdfbf229ca3ec3257/VisualFlow-0.1.5.tar.gz
+[2023-06-26 05:22:27] INFO root fetch - processPackages [gpt-code-search]: executing diffoscope
+[2023-06-26 05:22:27] INFO root fetch - processPackages [gpt-code-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_search-0.0.4.tar.gz tmp/gpt_code_search-0.0.5.tar.gz --markdown 20230626/g/gpt-code-search/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 05:22:28] INFO root fetch - processPackages [VisualFlow]: executing diffoscope
+[2023-06-26 05:22:28] INFO root fetch - processPackages [VisualFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisualFlow-0.1.4.tar.gz tmp/VisualFlow-0.1.5.tar.gz --markdown 20230626/V/VisualFlow/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 05:22:28] INFO root fetch - processPackages [spark-board]: Downloading https://files.pythonhosted.org/packages/33/4f/0ee16b3b05f7f782ce07d61f3fc997825389d5b3f3d327040096418764f8/spark-board-0.0.6.tar.gz
+[2023-06-26 05:22:28] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-26 05:22:28] INFO root fetch - processPackages [spark-board]: executing diffoscope
+[2023-06-26 05:22:28] INFO root fetch - processPackages [spark-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-board-0.0.4.tar.gz tmp/spark-board-0.0.6.tar.gz --markdown 20230626/s/spark-board/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 05:22:28] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-26 05:22:28] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230626/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-26 05:22:29] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.4.tar.gz]
+[2023-06-26 05:22:29] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.5.tar.gz]
+[2023-06-26 05:22:29] INFO root fetch - main [MainThread]: End processing [gpt-code-search]: success
+[2023-06-26 05:22:29] INFO root fetch - processPackages [VisualFlow]: Remove: archive file [/home/abi/fetcher/tmp/VisualFlow-0.1.4.tar.gz]
+[2023-06-26 05:22:29] INFO root fetch - processPackages [VisualFlow]: Remove: archive file [/home/abi/fetcher/tmp/VisualFlow-0.1.5.tar.gz]
+[2023-06-26 05:22:29] INFO root fetch - main [MainThread]: End processing [VisualFlow]: success
+[2023-06-26 05:22:29] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-26 05:22:29] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-26 05:22:29] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-26 05:22:33] INFO root fetch - processPackages [spark-board]: Remove: archive file [/home/abi/fetcher/tmp/spark-board-0.0.4.tar.gz]
+[2023-06-26 05:22:33] INFO root fetch - processPackages [spark-board]: Remove: archive file [/home/abi/fetcher/tmp/spark-board-0.0.6.tar.gz]
+[2023-06-26 05:22:33] INFO root fetch - main [MainThread]: End processing [spark-board]: success
+[2023-06-26 05:22:33] INFO root fetch - main [MainThread]: Store serial: [18641725]
