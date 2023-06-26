@@ -20283,3 +20283,207 @@ EOFError: EOF read where object expected
 [2023-06-26 16:07:31] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-26 16:07:31] INFO root fetch - main [MainThread]: End processing [Mosek]: success
 [2023-06-26 16:07:31] INFO root fetch - main [MainThread]: Store serial: [18647906]
+[2023-06-26 16:12:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18647906]
+[2023-06-26 16:12:41] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ivanovivan
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-br-resource
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-base
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-hr
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-zip
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-pos
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-br-account
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-l10n-br-nfe
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-br-cnpj-search
+[2023-06-26 16:12:41] WARNING root fetch - processPackages [ivanovivan]: Skipping, unable to determine old version
+[2023-06-26 16:12:41] INFO root fetch - processPackages [ivanovivan]: Start processing: odoo14-addon-l10n-br-crm
+[2023-06-26 16:12:41] INFO root fetch - main [MainThread]: End processing [ivanovivan] error
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: New version: [14.0.1.2.1] Old Version: [14.0.1.2.0]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-zip]: New version: [14.0.1.0.4] Old Version: [14.0.1.0.3.dev3]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: New version: [14.0.1.1.1] Old Version: [14.0.1.1.0]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: New version: [14.0.1.1.3] Old Version: [14.0.1.1.2]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.8.0.1.dev1] Old Version: [14.0.8.0.1]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: New version: [14.0.3.3.1.dev1] Old Version: [14.0.3.3.1]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.8.4.2] Old Version: [14.0.8.4.1]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-crm]: New version: [14.0.1.0.3.dev1] Old Version: [14.0.1.0.3]
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: Downloading https://files.pythonhosted.org/packages/40/83/28c9bb334969606630fd1c3f00c13967f95db9ab17ed5eb6b7da855dc850/odoo14_addon_l10n_br_hr-14.0.1.2.0-py3-none-any.whl
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-zip]: Downloading https://files.pythonhosted.org/packages/7d/e6/4536020d549e7da2aef9162fe7115015744b260fb7ae8ce9b8951b725a68/odoo14_addon_l10n_br_zip-14.0.1.0.3.dev3-py3-none-any.whl
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Downloading https://files.pythonhosted.org/packages/83/9f/cab3449795adba6677e3c06ce0e8d7f1006e9a7dc97ab5d2e4c055547131/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/6f/11/bb33dcac3aad99d317e960690b46e5509ba0b0dd844b8d24bac019237894/odoo14_addon_l10n_br_account-14.0.8.0.1-py3-none-any.whl
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Downloading https://files.pythonhosted.org/packages/ba/f4/7ee6d5eb5bd8e566b70e24a28b174ee92959e5bcf02f90ad907997211612/odoo14_addon_l10n_br_base-14.0.3.3.1-py3-none-any.whl
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-crm]: Downloading https://files.pythonhosted.org/packages/11/bf/d903bef0fb65186e94cfc2042f16cb9265f3d01c7500b3d17198a5127032/odoo14_addon_l10n_br_crm-14.0.1.0.3-py3-none-any.whl
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/a6/34/00cc0280741faed2f10f44c86094a39f422bb06e98b7f3901dd8a67fa504/odoo14_addon_l10n_br_nfe-14.0.8.4.1-py3-none-any.whl
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Downloading https://files.pythonhosted.org/packages/d6/f7/6302760cff4c75be144a94a6e65f79f8fdc345a4baee30ec69d1b0b42731/odoo14_addon_l10n_br_pos-14.0.1.1.0-py3-none-any.whl
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Downloading https://files.pythonhosted.org/packages/eb/a7/154aff006225df463c722dceee65f44ea83fe782dee05df413ca5914f148/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.2-py3-none-any.whl
+[2023-06-26 16:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Downloading https://files.pythonhosted.org/packages/3f/db/42d006bf62a4c58d4696733b7dedf6d83b718531232f1e2b419ff38c43cf/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Downloading https://files.pythonhosted.org/packages/33/36/28704e3a2d3285b7f11119dbc00f13cc8490080c6d5420ea77065e2d1335/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.3-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-zip]: Downloading https://files.pythonhosted.org/packages/23/c6/0ef2129357064110670e7c97066a39f34bea3701d09bb252dad6760fcb72/odoo14_addon_l10n_br_zip-14.0.1.0.4-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-crm]: Downloading https://files.pythonhosted.org/packages/35/0e/ed75018e6bf5da9ee04071171331d483f7096d2b9ec30030333663db0bd7/odoo14_addon_l10n_br_crm-14.0.1.0.3.dev1-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Downloading https://files.pythonhosted.org/packages/7b/c1/4e42254bd27e494cafd6d18f2c1fb37eb3b8722d6d7910564be8eea39159/odoo14_addon_l10n_br_pos-14.0.1.1.1-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Downloading https://files.pythonhosted.org/packages/a3/bf/c79ac9b0c4fd1fe22d1cee67096ecab8948fab01254b59eb45854691e7cd/odoo14_addon_l10n_br_base-14.0.3.3.1.dev1-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/28/c7/20d4c0bbacec70ec0a4901598252345deb3b24b9d2d436b44a26c8937542/odoo14_addon_l10n_br_nfe-14.0.8.4.2-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: Downloading https://files.pythonhosted.org/packages/be/69/a56ab6eaaf7a214e8f38876ffe3affd7e436f1ab4ab4bdd085f3750b2e55/odoo14_addon_l10n_br_hr-14.0.1.2.1-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/82/92/d93d444ebb6da4766e35384aa67ac366ebcb487e38038be4628135f140fb/odoo14_addon_l10n_br_account-14.0.8.0.1.dev1-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.8.0.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.8.0.1.dev1-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-account/14.0.8.0.1-14.0.8.0.1.dev1/diff.md --exclude *.pyd
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-resource/14.0.1.0.2.dev3-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-crm]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_crm-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_crm-14.0.1.0.3.dev1-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-crm/14.0.1.0.3-14.0.1.0.3.dev1/diff.md --exclude *.pyd
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.3-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-cnpj-search/14.0.1.1.2-14.0.1.1.3/diff.md --exclude *.pyd
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.2-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-nfe/14.0.8.4.1-14.0.8.4.2/diff.md --exclude *.pyd
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_pos-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_pos-14.0.1.1.1-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-pos/14.0.1.1.0-14.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-zip]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_zip-14.0.1.0.3.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_zip-14.0.1.0.4-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-zip/14.0.1.0.3.dev3-14.0.1.0.4/diff.md --exclude *.pyd
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_hr-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_hr-14.0.1.2.1-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-hr/14.0.1.2.0-14.0.1.2.1/diff.md --exclude *.pyd
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: executing diffoscope
+[2023-06-26 16:12:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_base-14.0.3.3.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_base-14.0.3.3.1.dev1-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-br-base/14.0.3.3.1-14.0.3.3.1.dev1/diff.md --exclude *.pyd
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_crm-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_crm-14.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-crm]: Start processing: vss-cli
+[2023-06-26 16:12:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-crm]: success
+[2023-06-26 16:12:44] INFO root fetch - processPackages [vss-cli]: New version: [2023.6.1.dev3] Old Version: [2023.6.1.dev2]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_zip-14.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_zip-14.0.1.0.4-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-zip]: Start processing: pypowsybl
+[2023-06-26 16:12:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-zip]: success
+[2023-06-26 16:12:44] INFO root fetch - processPackages [pypowsybl]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.8.0.1-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.8.0.1.dev1-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Start processing: MLandPattern
+[2023-06-26 16:12:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_resource-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-resource]: Start processing: st-chat-message
+[2023-06-26 16:12:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-resource]: success
+[2023-06-26 16:12:44] INFO root fetch - processPackages [MLandPattern]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [st-chat-message]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_pos-14.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-pos]: Start processing: biotrade
+[2023-06-26 16:12:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-pos]: success
+[2023-06-26 16:12:44] INFO root fetch - processPackages [biotrade]: New version: [0.2.1] Old Version: [0.1.3]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [st-chat-message]: Downloading https://files.pythonhosted.org/packages/a8/b6/5fb9edb2161d2b4e0e0c80ff3eae323f2e6bbe7cc6f12f4c39bb696a4f96/st_chat_message-0.2.0.tar.gz
+[2023-06-26 16:12:44] INFO root fetch - processPackages [pypowsybl]: Downloading https://files.pythonhosted.org/packages/2a/b0/c4f3f508660819f48cf8a29747c587c6f71575b17f4d551a86092dd7d1a1/pypowsybl-0.8.0.tar.gz
+[2023-06-26 16:12:44] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/93/38/ce4b04cf692b4a42efc92a6cb2155741940629e44e220d3c4dabc86504a7/MLandPattern-0.2.6.tar.gz
+[2023-06-26 16:12:44] INFO root fetch - processPackages [vss-cli]: Downloading https://files.pythonhosted.org/packages/2a/97/f175882f22f6351d6347bfd93da9e1f2587537840822ffa77f9c29a191e9/vss-cli-2023.6.1.dev2.tar.gz
+[2023-06-26 16:12:44] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/06/1c/13110f71fb2c3071c61bb38c94928f2c0261ad80da48e9b712e8d82848f5/biotrade-0.1.3.tar.gz
+[2023-06-26 16:12:44] INFO root fetch - processPackages [st-chat-message]: Downloading https://files.pythonhosted.org/packages/5f/aa/4bdbc17a646724e81f1b8a77fb089dda492359a703a3984260e4421341f0/st_chat_message-0.3.0.tar.gz
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.2-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnpj_search-14.0.1.1.3-py3-none-any.whl.zip]
+[2023-06-26 16:12:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnpj-search]: Start processing: balepy
+[2023-06-26 16:12:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-cnpj-search]: success
+[2023-06-26 16:12:44] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/23/9f/b831e8d2588819fd22daca319c151232df06097bb312f42912b8122c432f/MLandPattern-0.2.7.tar.gz
+[2023-06-26 16:12:44] WARNING root fetch - processPackages [balepy]: Skipping, unable to determine old version
+[2023-06-26 16:12:44] INFO root fetch - processPackages [balepy]: Start processing: pyIndego
+[2023-06-26 16:12:44] INFO root fetch - main [MainThread]: End processing [balepy] error
+[2023-06-26 16:12:45] INFO root fetch - processPackages [pypowsybl]: Downloading https://files.pythonhosted.org/packages/9f/88/d96179dec7f6dbd82e03fb281663d7d50450a76d75a7cc231970d67429e7/pypowsybl-0.9.0.tar.gz
+[2023-06-26 16:12:45] INFO root fetch - processPackages [pyIndego]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-06-26 16:12:45] INFO root fetch - processPackages [vss-cli]: Downloading https://files.pythonhosted.org/packages/03/34/10a84b364ef7638a24f1d65d20081d03e9bb53ac796a291d57ebfcd718de/vss-cli-2023.6.1.dev3.tar.gz
+[2023-06-26 16:12:45] INFO root fetch - processPackages [pypowsybl]: executing diffoscope
+[2023-06-26 16:12:45] INFO root fetch - processPackages [pypowsybl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypowsybl-0.8.0.tar.gz tmp/pypowsybl-0.9.0.tar.gz --markdown 20230626/p/pypowsybl/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 16:12:45] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-06-26 16:12:45] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.2.6.tar.gz tmp/MLandPattern-0.2.7.tar.gz --markdown 20230626/M/MLandPattern/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-26 16:12:45] INFO root fetch - processPackages [pyIndego]: Downloading https://files.pythonhosted.org/packages/11/2c/17aa6d7d0cf2bef93803a4e6b45b169a2af76c3b174e62e96fd6f52d7180/pyIndego-3.0.1.tar.gz
+[2023-06-26 16:12:45] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/d3/e8/0f433eeea93f37bb93c88d771cff9f35316b7127318a4ce31953e6b99a69/biotrade-0.2.1.tar.gz
+[2023-06-26 16:12:45] INFO root fetch - processPackages [vss-cli]: executing diffoscope
+[2023-06-26 16:12:45] INFO root fetch - processPackages [vss-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vss-cli-2023.6.1.dev2.tar.gz tmp/vss-cli-2023.6.1.dev3.tar.gz --markdown 20230626/v/vss-cli/2023.6.1.dev2-2023.6.1.dev3/diff.md --exclude *.pyd
+[2023-06-26 16:12:45] INFO root fetch - processPackages [biotrade]: executing diffoscope
+[2023-06-26 16:12:45] INFO root fetch - processPackages [biotrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biotrade-0.1.3.tar.gz tmp/biotrade-0.2.1.tar.gz --markdown 20230626/b/biotrade/0.1.3-0.2.1/diff.md --exclude *.pyd
+[2023-06-26 16:12:45] INFO root fetch - processPackages [st-chat-message]: executing diffoscope
+[2023-06-26 16:12:45] INFO root fetch - processPackages [st-chat-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_chat_message-0.2.0.tar.gz tmp/st_chat_message-0.3.0.tar.gz --markdown 20230626/s/st-chat-message/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 16:12:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_hr-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-26 16:12:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_hr-14.0.1.2.1-py3-none-any.whl.zip]
+[2023-06-26 16:12:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-hr]: Start processing: FuncsForSPO
+[2023-06-26 16:12:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-hr]: success
+[2023-06-26 16:12:45] INFO root fetch - processPackages [pyIndego]: Downloading https://files.pythonhosted.org/packages/19/3e/d7e50d2d5a22b3f12d9de95236951b456c615d642af0ac4e57ff08d2dddc/pyIndego-3.1.0.tar.gz
+[2023-06-26 16:12:45] INFO root fetch - processPackages [FuncsForSPO]: New version: [6.1.4] Old Version: [6.1.3]
+[2023-06-26 16:12:45] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/6c/22/b907ecae7b99bef82d93ce9ecba289ffb467aef19fe9c4429b5b0450da6f/FuncsForSPO-6.1.3.tar.gz
+[2023-06-26 16:12:45] INFO root fetch - processPackages [pyIndego]: executing diffoscope
+[2023-06-26 16:12:45] INFO root fetch - processPackages [pyIndego]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyIndego-3.0.1.tar.gz tmp/pyIndego-3.1.0.tar.gz --markdown 20230626/p/pyIndego/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-06-26 16:12:45] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/7b/a5/11470ea2d3f06aadc164319d32694915998caa33e3dfdf6370d4644750ab/FuncsForSPO-6.1.4.tar.gz
+[2023-06-26 16:12:46] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-26 16:12:46] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-6.1.3.tar.gz tmp/FuncsForSPO-6.1.4.tar.gz --markdown 20230626/F/FuncsForSPO/6.1.3-6.1.4/diff.md --exclude *.pyd
+[2023-06-26 16:12:46] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.6.tar.gz]
+[2023-06-26 16:12:46] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.7.tar.gz]
+[2023-06-26 16:12:46] INFO root fetch - processPackages [MLandPattern]: Start processing: alx-utils
+[2023-06-26 16:12:46] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-06-26 16:12:46] INFO root fetch - processPackages [alx-utils]: New version: [0.8] Old Version: [0.7]
+[2023-06-26 16:12:46] INFO root fetch - processPackages [alx-utils]: Downloading https://files.pythonhosted.org/packages/40/43/b11a94498d5a7365fe9881e8215246623fca232eb6714fc28beecae652fb/alx-utils-0.7.tar.gz
+[2023-06-26 16:12:47] INFO root fetch - processPackages [pyIndego]: Remove: archive file [/home/abi/fetcher/tmp/pyIndego-3.0.1.tar.gz]
+[2023-06-26 16:12:47] INFO root fetch - processPackages [pyIndego]: Remove: archive file [/home/abi/fetcher/tmp/pyIndego-3.1.0.tar.gz]
+[2023-06-26 16:12:47] INFO root fetch - processPackages [pyIndego]: Start processing: polyphy
+[2023-06-26 16:12:47] INFO root fetch - main [MainThread]: End processing [pyIndego]: success
+[2023-06-26 16:12:47] INFO root fetch - processPackages [alx-utils]: Downloading https://files.pythonhosted.org/packages/44/34/878fc4e9ab6a719ceca70b5c3789cf15f20b1333bddecf2fcf2ba1c3322b/alx-utils-0.8.tar.gz
+[2023-06-26 16:12:47] WARNING root fetch - processPackages [polyphy]: Skipping, unable to determine old version
+[2023-06-26 16:12:47] INFO root fetch - processPackages [polyphy]: Start processing: cjapy
+[2023-06-26 16:12:47] INFO root fetch - main [MainThread]: End processing [polyphy] error
+[2023-06-26 16:12:47] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_base-14.0.3.3.1-py3-none-any.whl.zip]
+[2023-06-26 16:12:47] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_base-14.0.3.3.1.dev1-py3-none-any.whl.zip]
+[2023-06-26 16:12:47] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Start processing: xia-storer
+[2023-06-26 16:12:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-base]: success
+[2023-06-26 16:12:47] INFO root fetch - processPackages [cjapy]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-26 16:12:47] ERROR root fetch - processPackages [xia-storer]: Unable to get metadata: No such project 'xia-storer'
+[2023-06-26 16:12:47] INFO root fetch - processPackages [xia-storer]: Start processing: PythonHuff
+[2023-06-26 16:12:47] INFO root fetch - main [MainThread]: End processing [xia-storer] error
+[2023-06-26 16:12:47] INFO root fetch - processPackages [PythonHuff]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-26 16:12:47] INFO root fetch - processPackages [alx-utils]: executing diffoscope
+[2023-06-26 16:12:47] INFO root fetch - processPackages [alx-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alx-utils-0.7.tar.gz tmp/alx-utils-0.8.tar.gz --markdown 20230626/a/alx-utils/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-26 16:12:47] INFO root fetch - processPackages [cjapy]: Downloading https://files.pythonhosted.org/packages/90/80/eb27c72f263443d6647bc22d47e812d349f4294857e448062e820cdbeea0/cjapy-0.1.1.tar.gz
+[2023-06-26 16:12:47] INFO root fetch - processPackages [PythonHuff]: Downloading https://files.pythonhosted.org/packages/49/b7/00a7f3264f1c1fd081ef4761dca1becc7178ec3854b458acf28afba7174b/PythonHuff-1.0.1.tar.gz
+[2023-06-26 16:12:47] INFO root fetch - processPackages [biotrade]: Remove: archive file [/home/abi/fetcher/tmp/biotrade-0.1.3.tar.gz]
+[2023-06-26 16:12:47] INFO root fetch - processPackages [biotrade]: Remove: archive file [/home/abi/fetcher/tmp/biotrade-0.2.1.tar.gz]
+[2023-06-26 16:12:47] INFO root fetch - processPackages [biotrade]: Start processing: qontract-reconcile
+[2023-06-26 16:12:47] INFO root fetch - main [MainThread]: End processing [biotrade]: success
+[2023-06-26 16:12:47] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-26 16:12:47] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-26 16:12:47] INFO root fetch - processPackages [cjapy]: Downloading https://files.pythonhosted.org/packages/7f/a1/039cce7d5a03b6c6ff841507c281c8e8beaff32267fafeea690c5d4a2e4f/cjapy-0.2.0.tar.gz
+[2023-06-26 16:12:47] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-26 16:12:47] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.3.tar.gz]
+[2023-06-26 16:12:47] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.4.tar.gz]
+[2023-06-26 16:12:47] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-26 16:12:47] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-26 16:12:47] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230626/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-26 16:12:47] INFO root fetch - processPackages [PythonHuff]: Downloading https://files.pythonhosted.org/packages/64/aa/8d658d9cffb0b7d5895ee95c899e8d3f01996b3bf3d44cf6a1fd9fa9e62d/PythonHuff-1.0.2.tar.gz
+[2023-06-26 16:12:47] INFO root fetch - processPackages [cjapy]: executing diffoscope
+[2023-06-26 16:12:47] INFO root fetch - processPackages [cjapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjapy-0.1.1.tar.gz tmp/cjapy-0.2.0.tar.gz --markdown 20230626/c/cjapy/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 16:12:47] INFO root fetch - processPackages [PythonHuff]: executing diffoscope
+[2023-06-26 16:12:47] INFO root fetch - processPackages [PythonHuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonHuff-1.0.1.tar.gz tmp/PythonHuff-1.0.2.tar.gz --markdown 20230626/P/PythonHuff/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-26 16:12:48] INFO root fetch - processPackages [alx-utils]: Remove: archive file [/home/abi/fetcher/tmp/alx-utils-0.7.tar.gz]
+[2023-06-26 16:12:48] INFO root fetch - processPackages [alx-utils]: Remove: archive file [/home/abi/fetcher/tmp/alx-utils-0.8.tar.gz]
+[2023-06-26 16:12:48] INFO root fetch - main [MainThread]: End processing [alx-utils]: success
+[2023-06-26 16:12:48] INFO root fetch - processPackages [vss-cli]: Remove: archive file [/home/abi/fetcher/tmp/vss-cli-2023.6.1.dev2.tar.gz]
+[2023-06-26 16:12:48] INFO root fetch - processPackages [vss-cli]: Remove: archive file [/home/abi/fetcher/tmp/vss-cli-2023.6.1.dev3.tar.gz]
+[2023-06-26 16:12:48] INFO root fetch - main [MainThread]: End processing [vss-cli]: success
+[2023-06-26 16:12:49] INFO root fetch - processPackages [pypowsybl]: Remove: archive file [/home/abi/fetcher/tmp/pypowsybl-0.8.0.tar.gz]
+[2023-06-26 16:12:49] INFO root fetch - processPackages [pypowsybl]: Remove: archive file [/home/abi/fetcher/tmp/pypowsybl-0.9.0.tar.gz]
+[2023-06-26 16:12:49] INFO root fetch - main [MainThread]: End processing [pypowsybl]: success
+[2023-06-26 16:12:49] INFO root fetch - processPackages [cjapy]: Remove: archive file [/home/abi/fetcher/tmp/cjapy-0.1.1.tar.gz]
+[2023-06-26 16:12:49] INFO root fetch - processPackages [cjapy]: Remove: archive file [/home/abi/fetcher/tmp/cjapy-0.2.0.tar.gz]
+[2023-06-26 16:12:49] INFO root fetch - main [MainThread]: End processing [cjapy]: success
+[2023-06-26 16:12:49] INFO root fetch - processPackages [PythonHuff]: Remove: archive file [/home/abi/fetcher/tmp/PythonHuff-1.0.1.tar.gz]
+[2023-06-26 16:12:49] INFO root fetch - processPackages [PythonHuff]: Remove: archive file [/home/abi/fetcher/tmp/PythonHuff-1.0.2.tar.gz]
+[2023-06-26 16:12:49] INFO root fetch - main [MainThread]: End processing [PythonHuff]: success
+[2023-06-26 16:12:50] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2023-06-26 16:12:50] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2023-06-26 16:12:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-06-26 16:12:50] INFO root fetch - processPackages [st-chat-message]: Remove: archive file [/home/abi/fetcher/tmp/st_chat_message-0.2.0.tar.gz]
+[2023-06-26 16:12:50] INFO root fetch - processPackages [st-chat-message]: Remove: archive file [/home/abi/fetcher/tmp/st_chat_message-0.3.0.tar.gz]
+[2023-06-26 16:12:50] INFO root fetch - main [MainThread]: End processing [st-chat-message]: success
+[2023-06-26 16:12:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-26 16:12:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-26 16:12:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-26 16:13:31] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.1-py3-none-any.whl.zip]
+[2023-06-26 16:13:31] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.8.4.2-py3-none-any.whl.zip]
+[2023-06-26 16:13:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2023-06-26 16:13:31] INFO root fetch - main [MainThread]: Store serial: [18647992]
