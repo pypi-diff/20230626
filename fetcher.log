@@ -20868,3 +20868,137 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 16:24:04] INFO root fetch - processPackages [tika-client]: Remove: archive file [/home/abi/fetcher/tmp/tika_client-0.2.0.tar.gz]
 [2023-06-26 16:24:04] INFO root fetch - main [MainThread]: End processing [tika-client]: success
 [2023-06-26 16:24:04] INFO root fetch - main [MainThread]: Store serial: [18648178]
+[2023-06-26 16:29:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648178]
+[2023-06-26 16:29:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: expert-intelligence-toolbox
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-nightly-cuda120
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sc-cc-ng-models-python
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xnattagger
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mighty-logger
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chromakey
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linopy
+[2023-06-26 16:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dwiqc
+[2023-06-26 16:29:13] WARNING root fetch - processPackages [sc-cc-ng-models-python]: Skipping, unable to determine old version
+[2023-06-26 16:29:13] INFO root fetch - processPackages [sc-cc-ng-models-python]: Start processing: talkytrend
+[2023-06-26 16:29:13] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-models-python] error
+[2023-06-26 16:29:13] INFO root fetch - processPackages [xnattagger]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-26 16:29:13] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 16:29:13] WARNING root fetch - processPackages [chromakey]: Skipping, unable to determine old version
+[2023-06-26 16:29:13] INFO root fetch - processPackages [dwiqc]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-26 16:29:13] INFO root fetch - processPackages [chromakey]: Start processing: prefect-docker
+[2023-06-26 16:29:13] INFO root fetch - main [MainThread]: End processing [chromakey] error
+[2023-06-26 16:29:13] INFO root fetch - processPackages [mighty-logger]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-26 16:29:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.28.0.dev20230623] Old Version: [1.28.0.dev20230622]
+[2023-06-26 16:29:13] INFO root fetch - processPackages [linopy]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-26 16:29:13] INFO root fetch - processPackages [talkytrend]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-26 16:29:13] INFO root fetch - processPackages [prefect-docker]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-26 16:29:13] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/7a/b0/13594410c8829e67f05522f273922e13d2d54b9fe63858e408f2aa4aa60e/dwiqc-0.5.1-py2.py3-none-any.whl
+[2023-06-26 16:29:13] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-26 16:29:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-26 16:29:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/a5/51/707ac64fddd5fa5a4055bbcf633c8466d4e5e72673d62c4d847de6954f01/nvidia-dali-nightly-cuda120-1.28.0.dev20230622.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-26 16:29:14] INFO root fetch - processPackages [mighty-logger]: Downloading https://files.pythonhosted.org/packages/52/ce/c551b3e740d3ee0972f1e7881e3c84f4296af0bb1f10d13c07dabf38a62e/mighty_logger-0.6.1.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [xnattagger]: Downloading https://files.pythonhosted.org/packages/b5/99/0069972f891ee529b7cd46d7956f48986219d3873299ccd2de14b808a8f9/xnattagger-0.4.8-py2.py3-none-any.whl
+[2023-06-26 16:29:14] INFO root fetch - processPackages [prefect-docker]: Downloading https://files.pythonhosted.org/packages/52/b7/1db89f92602eba3b6f9f5287038c7664e214fcb5f123689b35e31bb67b6a/prefect-docker-0.3.0.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/cb/ad/6b5cb554afd9ac391b2e10c4e47eca72c4196130299c0efd0ff7c0b46da3/talkytrend-1.5.1.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [linopy]: Downloading https://files.pythonhosted.org/packages/66/12/2cca942678d01715ca255655e3bbc2fc58f238118e2e1193327687efcb2e/linopy-0.2.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/43/bd/0b4ae508cd1e115b4af4110f5e859f9b0ae92be0d480cbd93ccf81d7955b/nvidia-dali-nightly-cuda120-1.28.0.dev20230623.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/d6/d3/3f5eca1bf27faaef75008a45157055bc467899cd6117a575811796d517a5/dwiqc-0.5.2-py2.py3-none-any.whl
+[2023-06-26 16:29:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230626/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 16:29:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230626/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-26 16:29:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230626/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-26 16:29:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230622.tar.gz tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230623.tar.gz --markdown 20230626/n/nvidia-dali-nightly-cuda120/1.28.0.dev20230622-1.28.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-26 16:29:14] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/ba/31/a971e0a311b37a2a4d893cd2b51f68e71df9d82721cc095e2b4931abc257/talkytrend-1.5.2.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [prefect-docker]: Downloading https://files.pythonhosted.org/packages/b2/95/ee1c5c2e3fd240de749764e491bf7f3598d261272805239b96544585067c/prefect-docker-0.3.1.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [mighty-logger]: Downloading https://files.pythonhosted.org/packages/30/13/e6a683c3af2cf6adc07179ba36bf7231c5f28e8d701995dd44b0d783e32b/mighty_logger-0.7.0.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [xnattagger]: Downloading https://files.pythonhosted.org/packages/88/a3/0d1a82de7a69315a0cfec45ecd4bbd0b38efd05625b61de72aa3a755640f/xnattagger-0.4.9-py2.py3-none-any.whl
+[2023-06-26 16:29:14] INFO root fetch - processPackages [linopy]: Downloading https://files.pythonhosted.org/packages/7d/11/7308b7258c6c5cdb606bbb81dad3562165a385015b360f273052474aa012/linopy-0.2.1.tar.gz
+[2023-06-26 16:29:14] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.5.1-py2.py3-none-any.whl.zip tmp/dwiqc-0.5.2-py2.py3-none-any.whl.zip --markdown 20230626/d/dwiqc/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-26 16:29:14] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.5.1.tar.gz tmp/talkytrend-1.5.2.tar.gz --markdown 20230626/t/talkytrend/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-26 16:29:14] INFO root fetch - processPackages [mighty-logger]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [mighty-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mighty_logger-0.6.1.tar.gz tmp/mighty_logger-0.7.0.tar.gz --markdown 20230626/m/mighty-logger/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-26 16:29:14] INFO root fetch - processPackages [prefect-docker]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [prefect-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-docker-0.3.0.tar.gz tmp/prefect-docker-0.3.1.tar.gz --markdown 20230626/p/prefect-docker/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 16:29:14] INFO root fetch - processPackages [xnattagger]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [xnattagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnattagger-0.4.8-py2.py3-none-any.whl.zip tmp/xnattagger-0.4.9-py2.py3-none-any.whl.zip --markdown 20230626/x/xnattagger/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-26 16:29:14] INFO root fetch - processPackages [linopy]: executing diffoscope
+[2023-06-26 16:29:14] INFO root fetch - processPackages [linopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linopy-0.2.tar.gz tmp/linopy-0.2.1.tar.gz --markdown 20230626/l/linopy/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-26 16:29:15] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-26 16:29:15] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-26 16:29:15] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: drama-wrapper
+[2023-06-26 16:29:15] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-26 16:29:15] WARNING root fetch - processPackages [drama-wrapper]: Skipping, unable to determine old version
+[2023-06-26 16:29:15] INFO root fetch - processPackages [drama-wrapper]: Start processing: slcl1butils
+[2023-06-26 16:29:15] INFO root fetch - main [MainThread]: End processing [drama-wrapper] error
+[2023-06-26 16:29:15] INFO root fetch - processPackages [slcl1butils]: New version: [2023.6.6] Old Version: [2023.6.26]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [slcl1butils]: Downloading https://files.pythonhosted.org/packages/9e/5a/bc2b14b4669821039e9d4b90d54987e06ae1b893e867edc9740ac5165e8a/slcl1butils-2023.6.26.tar.gz
+[2023-06-26 16:29:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [spanishconjugator]: Start processing: licensecheck
+[2023-06-26 16:29:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-26 16:29:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230622.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230623.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Start processing: pystrometry
+[2023-06-26 16:29:16] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-06-26 16:29:16] INFO root fetch - processPackages [licensecheck]: New version: [2023.1.3] Old Version: [2023.1.2]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pystrometry]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.5.1.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.5.2.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [talkytrend]: Start processing: pynad
+[2023-06-26 16:29:16] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pynad]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.1-py2.py3-none-any.whl.zip]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.2-py2.py3-none-any.whl.zip]
+[2023-06-26 16:29:16] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-26 16:29:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pynad]: Downloading https://files.pythonhosted.org/packages/dd/26/8615c355012b784188a7250a988c444ca380263d0a76040cf39dc2df9bdf/pynad-3.0.0.tar.gz
+[2023-06-26 16:29:16] INFO root fetch - processPackages [xnattagger]: Remove: archive file [/home/abi/fetcher/tmp/xnattagger-0.4.8-py2.py3-none-any.whl.zip]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [xnattagger]: Remove: archive file [/home/abi/fetcher/tmp/xnattagger-0.4.9-py2.py3-none-any.whl.zip]
+[2023-06-26 16:29:16] INFO root fetch - main [MainThread]: End processing [xnattagger]: success
+[2023-06-26 16:29:16] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/80/22/56da16e594f7175ae301e83cea43f0ade56e388b50058f328a60d31841f5/licensecheck-2023.1.2.tar.gz
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pystrometry]: Downloading https://files.pythonhosted.org/packages/97/9e/6eaa49c426cd814cde63f6ba655a3beb0ec7f1e849229db44ecb3425a0ab/pystrometry-0.4.1.tar.gz
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pynad]: Downloading https://files.pythonhosted.org/packages/e0/ae/88d2a73cb07ffa09f36988cfa504fec9d238db098b72443f9d5dde9a0f1a/pynad-3.0.1.tar.gz
+[2023-06-26 16:29:16] INFO root fetch - processPackages [slcl1butils]: Downloading https://files.pythonhosted.org/packages/7d/b7/83679b6fde2ed7c9cff84cc6de8cd6d556914a7e6abab502923c530f9336/slcl1butils-2023.6.6.tar.gz
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pynad]: executing diffoscope
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pynad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynad-3.0.0.tar.gz tmp/pynad-3.0.1.tar.gz --markdown 20230626/p/pynad/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-26 16:29:16] INFO root fetch - processPackages [slcl1butils]: executing diffoscope
+[2023-06-26 16:29:16] INFO root fetch - processPackages [slcl1butils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcl1butils-2023.6.26.tar.gz tmp/slcl1butils-2023.6.6.tar.gz --markdown 20230626/s/slcl1butils/2023.6.26-2023.6.6/diff.md --exclude *.pyd
+[2023-06-26 16:29:16] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/a9/bc/7e7f80a9b5d0b48dc46d4dadcf8b53768390f4f5e5f530e2bc7eff5ce005/licensecheck-2023.1.3.tar.gz
+[2023-06-26 16:29:16] INFO root fetch - processPackages [prefect-docker]: Remove: archive file [/home/abi/fetcher/tmp/prefect-docker-0.3.0.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [prefect-docker]: Remove: archive file [/home/abi/fetcher/tmp/prefect-docker-0.3.1.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - main [MainThread]: End processing [prefect-docker]: success
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pystrometry]: Downloading https://files.pythonhosted.org/packages/15/90/85d92e4612bccbefc9ba8ab839bd9f4a66d5cb0c4e307e5fc1adaa3d10fa/pystrometry-0.4.3.tar.gz
+[2023-06-26 16:29:16] INFO root fetch - processPackages [licensecheck]: executing diffoscope
+[2023-06-26 16:29:16] INFO root fetch - processPackages [licensecheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensecheck-2023.1.2.tar.gz tmp/licensecheck-2023.1.3.tar.gz --markdown 20230626/l/licensecheck/2023.1.2-2023.1.3/diff.md --exclude *.pyd
+[2023-06-26 16:29:16] INFO root fetch - processPackages [mighty-logger]: Remove: archive file [/home/abi/fetcher/tmp/mighty_logger-0.6.1.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - processPackages [mighty-logger]: Remove: archive file [/home/abi/fetcher/tmp/mighty_logger-0.7.0.tar.gz]
+[2023-06-26 16:29:16] INFO root fetch - main [MainThread]: End processing [mighty-logger]: success
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pystrometry]: executing diffoscope
+[2023-06-26 16:29:16] INFO root fetch - processPackages [pystrometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystrometry-0.4.1.tar.gz tmp/pystrometry-0.4.3.tar.gz --markdown 20230626/p/pystrometry/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-06-26 16:29:17] INFO root fetch - processPackages [pynad]: Remove: archive file [/home/abi/fetcher/tmp/pynad-3.0.0.tar.gz]
+[2023-06-26 16:29:17] INFO root fetch - processPackages [pynad]: Remove: archive file [/home/abi/fetcher/tmp/pynad-3.0.1.tar.gz]
+[2023-06-26 16:29:17] INFO root fetch - main [MainThread]: End processing [pynad]: success
+[2023-06-26 16:29:17] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2023.1.2.tar.gz]
+[2023-06-26 16:29:17] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2023.1.3.tar.gz]
+[2023-06-26 16:29:17] INFO root fetch - main [MainThread]: End processing [licensecheck]: success
+[2023-06-26 16:29:18] INFO root fetch - processPackages [slcl1butils]: Remove: archive file [/home/abi/fetcher/tmp/slcl1butils-2023.6.26.tar.gz]
+[2023-06-26 16:29:18] INFO root fetch - processPackages [slcl1butils]: Remove: archive file [/home/abi/fetcher/tmp/slcl1butils-2023.6.6.tar.gz]
+[2023-06-26 16:29:18] INFO root fetch - main [MainThread]: End processing [slcl1butils]: success
+[2023-06-26 16:29:19] INFO root fetch - processPackages [pystrometry]: Remove: archive file [/home/abi/fetcher/tmp/pystrometry-0.4.1.tar.gz]
+[2023-06-26 16:29:19] INFO root fetch - processPackages [pystrometry]: Remove: archive file [/home/abi/fetcher/tmp/pystrometry-0.4.3.tar.gz]
+[2023-06-26 16:29:19] INFO root fetch - main [MainThread]: End processing [pystrometry]: success
+[2023-06-26 16:29:20] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.2.tar.gz]
+[2023-06-26 16:29:20] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.2.1.tar.gz]
+[2023-06-26 16:29:20] INFO root fetch - main [MainThread]: End processing [linopy]: success
+[2023-06-26 16:29:20] INFO root fetch - main [MainThread]: Store serial: [18648228]
