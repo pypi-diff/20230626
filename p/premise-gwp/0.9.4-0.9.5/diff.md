@@ -1,0 +1,2726 @@
+# Comparing `tmp/premise_gwp-0.9.4.tar.gz` & `tmp/premise_gwp-0.9.5.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "premise_gwp-0.9.4.tar", last modified: Mon Jun 26 08:27:53 2023, max compression
++gzip compressed data, was "premise_gwp-0.9.5.tar", last modified: Mon Jun 26 18:49:23 2023, max compression
+```
+
+## Comparing `premise_gwp-0.9.4.tar` & `premise_gwp-0.9.5.tar`
+
+### file list
+
+```diff
+@@ -1,30 +1,30 @@
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 08:27:53.333616 premise_gwp-0.9.4/
+--rw-r--r--   0 runner    (1001) docker     (123)       50 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/CHANGELOG.md
+--rw-r--r--   0 runner    (1001) docker     (123)     1513 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (123)       43 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/MANIFEST.in
+--rw-r--r--   0 runner    (1001) docker     (123)     2972 2023-06-26 08:27:53.329616 premise_gwp-0.9.4/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)     2065 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/README.md
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 08:27:53.329616 premise_gwp-0.9.4/premise_gwp/
+--rw-r--r--   0 runner    (1001) docker     (123)     3119 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)      466 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/biosphere.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 08:27:53.329616 premise_gwp-0.9.4/premise_gwp/data/
+--rw-r--r--   0 runner    (1001) docker     (123)    13833 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/data/lcia_gwp2021_100a.xlsx
+--rw-r--r--   0 runner    (1001) docker     (123)    13927 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/data/lcia_gwp2021_100a_w_bio.xlsx
+--rw-r--r--   0 runner    (1001) docker     (123)    13947 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/data/lcia_gwp2021_20a.xlsx
+--rw-r--r--   0 runner    (1001) docker     (123)    13896 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/data/lcia_gwp2021_20a_w_bio.xlsx
+--rw-r--r--   0 runner    (1001) docker     (123)    13118 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/data/lcia_gwp_100a.xlsx
+--rw-r--r--   0 runner    (1001) docker     (123)    13252 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/data/lcia_gwp_100a_w_bio.xlsx
+--rw-r--r--   0 runner    (1001) docker     (123)    13217 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/data/lcia_gwp_20a.xlsx
+--rw-r--r--   0 runner    (1001) docker     (123)    13287 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/data/lcia_gwp_20a_w_bio.xlsx
+--rw-r--r--   0 runner    (1001) docker     (123)       20 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/premise_gwp/version.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 08:27:53.329616 premise_gwp-0.9.4/premise_gwp.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (123)     2972 2023-06-26 08:27:53.000000 premise_gwp-0.9.4/premise_gwp.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)      667 2023-06-26 08:27:53.000000 premise_gwp-0.9.4/premise_gwp.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-26 08:27:53.000000 premise_gwp-0.9.4/premise_gwp.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       23 2023-06-26 08:27:53.000000 premise_gwp-0.9.4/premise_gwp.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       12 2023-06-26 08:27:53.000000 premise_gwp-0.9.4/premise_gwp.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       14 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/requirements.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       38 2023-06-26 08:27:53.333616 premise_gwp-0.9.4/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (123)     1350 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/setup.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 08:27:53.329616 premise_gwp-0.9.4/tests/
+--rw-r--r--   0 runner    (1001) docker     (123)      777 2023-06-26 08:27:45.000000 premise_gwp-0.9.4/tests/test_implementation.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 18:49:23.929485 premise_gwp-0.9.5/
++-rw-r--r--   0 runner    (1001) docker     (123)       50 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/CHANGELOG.md
++-rw-r--r--   0 runner    (1001) docker     (123)     1513 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (123)       43 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/MANIFEST.in
++-rw-r--r--   0 runner    (1001) docker     (123)     2972 2023-06-26 18:49:23.929485 premise_gwp-0.9.5/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)     2065 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/README.md
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 18:49:23.925485 premise_gwp-0.9.5/premise_gwp/
++-rw-r--r--   0 runner    (1001) docker     (123)     3119 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)      466 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/biosphere.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 18:49:23.929485 premise_gwp-0.9.5/premise_gwp/data/
++-rw-r--r--   0 runner    (1001) docker     (123)    13833 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/data/lcia_gwp2021_100a.xlsx
++-rw-r--r--   0 runner    (1001) docker     (123)    13928 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/data/lcia_gwp2021_100a_w_bio.xlsx
++-rw-r--r--   0 runner    (1001) docker     (123)    13947 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/data/lcia_gwp2021_20a.xlsx
++-rw-r--r--   0 runner    (1001) docker     (123)    13896 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/data/lcia_gwp2021_20a_w_bio.xlsx
++-rw-r--r--   0 runner    (1001) docker     (123)    13118 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/data/lcia_gwp_100a.xlsx
++-rw-r--r--   0 runner    (1001) docker     (123)    13252 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/data/lcia_gwp_100a_w_bio.xlsx
++-rw-r--r--   0 runner    (1001) docker     (123)    13217 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/data/lcia_gwp_20a.xlsx
++-rw-r--r--   0 runner    (1001) docker     (123)    13287 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/data/lcia_gwp_20a_w_bio.xlsx
++-rw-r--r--   0 runner    (1001) docker     (123)       20 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/premise_gwp/version.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 18:49:23.925485 premise_gwp-0.9.5/premise_gwp.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (123)     2972 2023-06-26 18:49:23.000000 premise_gwp-0.9.5/premise_gwp.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      667 2023-06-26 18:49:23.000000 premise_gwp-0.9.5/premise_gwp.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-26 18:49:23.000000 premise_gwp-0.9.5/premise_gwp.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       23 2023-06-26 18:49:23.000000 premise_gwp-0.9.5/premise_gwp.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       12 2023-06-26 18:49:23.000000 premise_gwp-0.9.5/premise_gwp.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       14 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/requirements.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       38 2023-06-26 18:49:23.929485 premise_gwp-0.9.5/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (123)     1350 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-26 18:49:23.929485 premise_gwp-0.9.5/tests/
++-rw-r--r--   0 runner    (1001) docker     (123)      777 2023-06-26 18:49:16.000000 premise_gwp-0.9.5/tests/test_implementation.py
+```
+
+### Comparing `premise_gwp-0.9.4/LICENSE` & `premise_gwp-0.9.5/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/PKG-INFO` & `premise_gwp-0.9.5/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: premise_gwp
+-Version: 0.9.4
++Version: 0.9.5
+ Summary: Import IPCC's GWP100a method, with biogenic CO2 CFs, into Brightway2
+ Home-page: https://github.com/romainsacchi/premise_gwp
+ Author: Romain Sacchi
+ Author-email: romain.sacchi@psi.ch
+ License: BSD 3-clause
+ Classifier: Intended Audience :: End Users/Desktop
+ Classifier: Intended Audience :: Developers
+```
+
+### Comparing `premise_gwp-0.9.4/README.md` & `premise_gwp-0.9.5/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/premise_gwp/__init__.py` & `premise_gwp-0.9.5/premise_gwp/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/premise_gwp/data/lcia_gwp2021_100a.xlsx` & `premise_gwp-0.9.5/premise_gwp/data/lcia_gwp2021_100a.xlsx`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/premise_gwp/data/lcia_gwp2021_100a_w_bio.xlsx` & `premise_gwp-0.9.5/premise_gwp/data/lcia_gwp2021_20a_w_bio.xlsx`
+
+ * *Files 22% similar despite different names*
+
+```diff
+@@ -137,735 +137,733 @@
+ 00000880: cbb4 e480 fa84 53ec ad82 b4b7 b720 9a29  ......S...... .)
+ 00000890: 66e5 ffb9 43db f606 9f82 791f d1f3 1909  f...C.....y.....
+ 000008a0: 493c 0d79 00d1 e8d4 212b f8c1 45f6 08f2  I<.y....!+..E...
+ 000008b0: bcfc 664d 79ce 6bc1 a3fa 0ce5 1cab 4b1e  ..fMy.k.......K.
+ 000008c0: aa35 3d7c 8674 2087 c847 1f7f 2992 73e5  .5=|.t ..G..).s.
+ 000008d0: a299 bb55 efe1 7442 fbca 29bf dbf2 2ccb  ...U..tB..)...,.
+ 000008e0: f4ef 66e4 c9c7 d5df 0000 00ff ff03 0050  ..f............P
+-000008f0: 4b03 0414 0006 0008 0000 0021 0079 9ccf  K..........!.y..
+-00000900: 20c1 0300 0071 0900 000f 0000 0078 6c2f   ....q.......xl/
++000008f0: 4b03 0414 0006 0008 0000 0021 0003 bd63  K..........!...c
++00000900: ffc0 0300 0072 0900 000f 0000 0078 6c2f  .....r.......xl/
+ 00000910: 776f 726b 626f 6f6b 2e78 6d6c ac55 6d6f  workbook.xml.Umo
+-00000920: a338 10fe 7ed2 fd07 ceea 576a 4c80 10d4  .8..~.....WjL...
+-00000930: 6495 0472 5ba9 5955 69b6 bdfb 1439 e004  d..r[.YUi....9..
+-00000940: ab80 73c6 34a9 56fb df6f 0c21 2f9b d329  ..s.4.V..o.!/..)
+-00000950: d7bd a8b5 b13d 3c7e 66e6 99e1 eed3 2ecf  .....=<~f.......
+-00000960: 8c37 264b 2e8a 3e22 b716 3258 118b 8417  .7&K..>"..2X....
+-00000970: eb3e fa3a 9f98 3e32 4a45 8b84 66a2 607d  .>.:..>2JE..f.`}
+-00000980: f4ce 4af4 69f0 eb2f 775b 215f 9742 bc1a  ..J.i../w[!_.B..
+-00000990: 0050 947d 942a b509 302e e394 e5b4 bc15  .P.}.*..0.......
+-000009a0: 1b56 c0c9 4ac8 9c2a 58ca 352e 3792 d1a4  .V..J..*X.5.7...
+-000009b0: 4c19 5379 866d cbf2 704e 7981 1a84 405e  L.Sy.m..pNy...@^
+-000009c0: 8321 562b 1eb3 50c4 55ce 0ad5 8048 9651  .!V+..P.U....H.Q
+-000009d0: 05f4 cb94 6fca 162d 8faf 81cb a97c ad36  ....o..-.....|.6
+-000009e0: 662c f20d 402c 79c6 d57b 0d8a 8c3c 0eee  f,..@,y..{...<..
+-000009f0: d785 9074 9981 db3b e21a 3b09 7f1e fc13  ...t...;..;.....
+-00000a00: 0b06 bbbd 098e 2eae ca79 2c45 2956 ea16  .........y,E)V..
+-00000a10: a071 43fa c27f 6261 42ce 42b0 bb8c c175  .qC...baB.B....u
+-00000a20: 480e 96ec 8deb 1c1e 5849 ef83 acbc 0396  H.......XI......
+-00000a30: 7704 23d6 4fa3 1190 56ad 9500 82f7 4134  w.#.O...V.....A4
+-00000a40: f7c0 cd46 83bb 15cf d873 235d 836e 365f  ...F.....s#].n6_
+-00000a50: 68ae 3395 2123 a3a5 8a12 ae58 d247 5d58  h.3.!#.....X.G]X
+-00000a60: 8a2d 3b6e 8057 b2da 8c2a 9ec1 29b1 3c42  .-;n.W...*..).<B
+-00000a70: 101e 1ce4 fc28 8d84 ad68 95a9 3908 b985  .....(...h..9...
+-00000a80: 0743 cfeb d9ae b604 610c 33c5 6441 151b  .C......a.3.dA..
+-00000a90: 8b42 810e f77e fdac e66a ec71 2a40 e1c6  .B...~...j.q*@..
+-00000aa0: 8cfd 5571 c9a0 b040 5fe0 2b8c 340e e8b2  ..Uq...@_.+.4...
+-00000ab0: 7ca4 2a35 2a99 f511 fe5a 82f3 580a 5d45  |.*5*....Z..X.]E
+-00000ac0: f877 ae3e 574b 0c35 96f3 922d d6db cdd9  .w.>WK.5...-....
+-00000ad0: 7342 15c5 2792 a597 f5f1 1f44 4b63 1d09  sB..'......DKc..
+-00000ae0: 0ca1 68e8 36cf 3f86 0558 cba0 15e6 a392  ..h.6.?..X......
+-00000af0: 063c df87 0f90 9c27 fa06 a902 4124 fb4a  .<.....'....A$.J
+-00000b00: bed7 b9e8 2c8a 5806 64f1 ade3 da76 e4fb  ....,.X.d....v..
+-00000b10: 9119 7587 a1e9 f69c 91e9 f7ac c8ec 747d  ..u...........t}
+-00000b20: cb22 5dab d3f1 9def e08c f482 58d0 4aa5  ."].........X.J.
+-00000b30: 7b15 68e8 3e72 20e5 1747 53ba 6b4f 8815  {.h.>r ..GS.kO..
+-00000b40: 543c 39d2 f866 ed7f a69e 7f18 dab3 efda  T<9..f..........
+-00000b50: 61dd ef9e 39db 9647 bde8 a5b1 7be1 4522  a...9..G....{.E"
+-00000b60: b67d 04f4 90f1 deae 88eb c072 5b9f bdf0  .}.........r[...
+-00000b70: 44a5 7d64 fbb5 49b3 f799 f175 0a84 49c7  D.}d..I....u..I.
+-00000b80: d5ef 4159 6862 7d74 4628 6c08 4de0 67ea  ..AYhb}tF(l.M.g.
+-00000b90: e18c 103e 6154 3756 6056 cf46 5117 c393  ...>aT7V`V.FQ...
+-00000ba0: 6eb6 043a b89e eb18 83f8 037d 87bc 4f6a  n..:.......}..Oj
+-00000bb0: dde3 f635 503d 2f58 a28b 0840 4e56 7ba8  ...5P=/X...@NV{.
+-00000bc0: c52e 2bf2 dbc5 846b ed87 a0a6 252d 99ae  ..+....k....%-..
+-00000bd0: ad98 66f5 351a 1ebc 4879 9230 fd29 4183  ..f.5...Hy.0.)A.
+-00000be0: e6f6 df6e 8637 24b8 19df d89e 7587 4f80  ...n.7$.....u.O.
+-00000bf0: 4134 e797 0252 0cf5 a7a7 9a6b 8f58 760f  A4...R.....k.Xv.
+-00000c00: d5eb a948 4030 392d 2a9a e94c b09d 7a28  ...H@09-*..L..z(
+-00000c10: 553d 4331 7088 1971 ac61 d7ea 39a6 1575  U=C1p..q.a..9..u
+-00000c20: 5cd3 f17b b6e9 3b1d db1c 3ba1 1db9 dd28  \..{..;...;....(
+-00000c30: 8c46 aed6 8cfe 5a05 ff47 cfae 6b32 683f  .F....Z..G..k2h?
+-00000c40: 839a 774a a59a 4b1a bfc2 c773 c656 2308  ..wJ..K....s.V#.
+-00000c50: 908e 83ae 14e0 7b4a 76e4 fa23 ab03 149d  ......{Jv..#....
+-00000c60: 0999 980e e959 e668 e439 a61b 4e3a 6e97  .....Y.h.9..N:n.
+-00000c70: 84e3 c89d 1cc9 ea80 ac3e d831 7d5c bfcd  .........>.1}\..
+-00000c80: a8aa a09b e846 52af 033d 4ef6 bb87 cd55  .....FR..=N....U
+-00000c90: b3b1 cff8 593f 0866 a176 64ff f6bf 193e  ....Y?.f.vd....>
+-00000ca0: 81f7 19bb d278 f27c a5e1 f8cb 743e bdd2  .....x.|....t>..
+-00000cb0: f621 9a2f 5e26 d71a 0fa7 a370 78bd fd70  .!./^&.....px..p
+-00000cc0: 361b fe39 8ffe 68af c0ff 18d0 26e1 7aac  6..9..h.....&.z.
+-00000cd0: 658a 5b99 0cfe 0600 00ff ff03 0050 4b03  e.[..........PK.
+-00000ce0: 0414 0006 0008 0000 0021 0027 96d6 b5ca  .........!.'....
+-00000cf0: 0200 000a 0700 000d 0000 0078 6c2f 7374  ...........xl/st
+-00000d00: 796c 6573 2e78 6d6c b455 db6e db30 0c7d  yles.xml.U.n.0.}
+-00000d10: 1fb0 7f10 f4ee ca76 e32c 096c 174b 5303  .......v.,.l.KS.
+-00000d20: 05b6 6140 3b60 af8a 2d27 4275 3124 2573  ..a@;`..-'Bu1$%s
+-00000d30: 36ec df47 d94e e2a2 ddad c35e 6289 120f  6..G.N.....^b...
+-00000d40: 0f0f 2926 bd6a a540 7b66 2cd7 2ac3 d145  ..)&.j.@{f,.*..E
+-00000d50: 8811 53a5 aeb8 da64 f8d3 7d11 cc30 b28e  ..S....d..}..0..
+-00000d60: aa8a 0aad 5886 0fcc e2ab fcf5 abd4 ba83  ....X...........
+-00000d70: 6077 5bc6 1c02 0865 33bc 75ae 5910 62cb  `w[....e3.u.Y.b.
+-00000d80: 2d93 d45e e886 2938 a9b5 91d4 c1d6 6c88  -..^..)8......l.
+-00000d90: 6d0c a395 f54e 5290 380c a744 52ae 708f  m....NR.8..DR.p.
+-00000da0: b090 e59f 8048 6a1e 764d 506a d950 c7d7  .....Hj.vMPj.P..
+-00000db0: 5c70 77e8 b030 92e5 e276 a3b4 a16b 0154  \pw..0...v...k.T
+-00000dc0: db68 424b d446 5313 a3d6 1c83 74d6 2771  .hBK.FS.....t.'q
+-00000dd0: 242f 8db6 ba76 1780 4b74 5df3 923d a53b  $/...v..Kt]..=.;
+-00000de0: 2773 42cb 3312 20bf 0c29 4a48 183f cabd  'sB.3. ..)JH.?..
+-00000df0: 352f 449a 10c3 f6dc 970f e769 ad95 b3a8  5/D........i....
+-00000e00: d43b e532 1c03 512f c1e2 41e9 2faa f047  .;.2..Q/..A./..G
+-00000e10: 50e1 e156 9eda af68 4f05 5862 4cf2 b4d4  P..V...hO.XbL...
+-00000e20: 421b e4a0 74a0 5ce4 2d8a 4ad6 dfb8 a682  B...t.\.-.J.....
+-00000e30: af0d f7c6 9a4a 2e0e bdb9 f3eb aa3d dc93  .....J.......=..
+-00000e40: 1cb4 f7b7 88e7 d1b3 c9d3 3518 fe7f ac2e  ..........5.....
+-00000e50: a485 985c 8891 02bd 214f a155 1c33 aa80  ...\....!O.U.3..
+-00000e60: 5334 acef 0f0d a4aa a0ab 7bca 70f4 dbdb  S4........{.p...
+-00000e70: 1b43 0f51 9c8c 1c48 1710 b2d4 a682 5774  .C.Q...H......Wt
+-00000e80: d4de cbdc 9bf2 54b0 da81 0686 6fb6 feeb  ......T.....o...
+-00000e90: 7403 bf6b ed1c 745a 9e56 9c6e b4a2 c2cb  t..k..tZ.V.n....
+-00000ea0: 76f4 1816 904e c984 b8f3 2fed 73fd 08bb  v....N..../.s...
+-00000eb0: ad91 dac9 42ba db2a c3f0 66bd e0c7 2524  ....B..*..f...%$
+-00000ec0: 322c 7bbc 7ee3 f1c7 683d f608 3606 ca7f  2,{.~...h=..6...
+-00000ed0: 0f8b dafa 84ff 33ef 08f8 3d4f eae4 8d68  ......3...=O...h
+-00000ee0: d388 83ef d1a1 fb3a aec0 6e24 c123 014e  .......:..n$.#.N
+-00000ef0: a920 dfa7 19fe e0c7 8c80 8e1f e8a0 f58e  . ..............
+-00000f00: 0bc7 d533 c903 66d5 9ee5 0c7d 359d 1f19  ...3..f....}5...
+-00000f10: 9dd0 a728 a06a c56a ba13 eefe 7498 e1f3  ...(.j.j....t...
+-00000f20: fa3d abf8 4ec2 231b 6e7d e47b ed3a 880c  .=..N.#.n}.{.:..
+-00000f30: 9fd7 ef7c d5a3 a98f c15a f7ce c2b3 802f  ...|.....Z...../
+-00000f40: da19 9ee1 6f37 cb37 f3d5 4d11 07b3 7039  ....o7.7..M...p9
+-00000f50: 0b26 972c 09e6 c972 1524 93eb e56a 55cc  .&.,...r.$...jU.
+-00000f60: c338 bcfe 3e1a 5cff 30b6 ba39 0b05 8e26  .8..>.\.0..9...&
+-00000f70: 0b2b 60b8 9921 d981 fcdd d996 e1d1 a6a7  .+`..!..........
+-00000f80: dff5 3bd0 1e73 9fc7 d3f0 6d12 8541 7119  ..;..s....m..Aq.
+-00000f90: 46c1 644a 67c1 6c7a 9904 4512 c5ab e964  F.dJg.lz..E....d
+-00000fa0: 7993 14c9 887b f2c2 f116 9228 ea07 a527  y....{.....(...'
+-00000fb0: 9f2c 1c97 4c70 75ac d5b1 4263 2b14 09b6  .,..Lpu...Bc+...
+-00000fc0: bf48 821c 2b41 ce7f 62f9 0f00 0000 ffff  .H..+A..b.......
+-00000fd0: 0300 504b 0304 1400 0600 0800 0000 2100  ..PK..........!.
+-00000fe0: c117 10be 4e07 0000 c620 0000 1300 0000  ....N.... ......
+-00000ff0: 786c 2f74 6865 6d65 2f74 6865 6d65 312e  xl/theme/theme1.
+-00001000: 786d 6cec 59cd 8b1b 3714 bf17 fa3f 0c73  xml.Y...7....?.s
+-00001010: 77fc 35e3 8f25 dee0 cf6c 93dd 2464 9d94  w.5..%...l..$d..
+-00001020: 1cb5 b6ec 5156 3332 92bc 1b13 0225 39f5  ....QV32.....%9.
+-00001030: 5228 a4a5 9742 6f3d 94d2 4003 0dbd f48f  R(...Bo=..@.....
+-00001040: 0924 b4e9 1fd1 27cd d823 ade5 249b 6c4a  .$....'..#..$.lJ
+-00001050: 5a76 0d8b 47fe bda7 a7f7 9e7e 7af3 74f1  Zv..G......~z.t.
+-00001060: d2bd 987a 4798 0bc2 9296 5fbe 50f2 3d9c  ...zG....._.P.=.
+-00001070: 8cd8 9824 d396 7f6b 3828 347c 4f48 948c  ...$...k8(4|OH..
+-00001080: 1165 096e f90b 2cfc 4bdb 9f7e 7211 6dc9  .e.n..,.K..~r.m.
+-00001090: 08c7 d803 f944 6ca1 961f 4939 db2a 16c5  .....Dl...I9.*..
+-000010a0: 0886 91b8 c066 3881 df26 8cc7 48c2 239f  .....f8..&..H.#.
+-000010b0: 16c7 1c1d 83de 9816 2ba5 52ad 1823 92f8  ........+.R..#..
+-000010c0: 5e82 6250 7b7d 3221 23ec 0d95 4a7f 7ba9  ^.bP{}2!#...J.{.
+-000010d0: bc4f e131 9142 0d8c 28df 57aa b125 a1b1  .O.1.B..(.W..%..
+-000010e0: e3c3 b242 8885 e852 ee1d 21da f261 9e31  ...B...R..!..a.1
+-000010f0: 3b1e e27b d2f7 2812 127e 68f9 25fd e717  ;..{..(..~h.%...
+-00001100: b72f 16d1 5626 44e5 0659 436e a0ff 32b9  ./..V&D..YCn..2.
+-00001110: 4c60 7c58 d173 f2e9 c16a d220 0883 5a7b  L`|X.s...j. ..Z{
+-00001120: a55f 03a8 5cc7 f5eb fd5a bfb6 d2a7 0168  ._..\....Z.....h
+-00001130: 3482 95a6 b6d8 3aeb 956e 9061 0d50 fad5  4.....:..n.a.P..
+-00001140: a1bb 57ef 55cb 16de d05f 5db3 b91d aa8f  ..W.U...._].....
+-00001150: 85d7 a054 7fb0 861f 0cba e045 0baf 4129  ...T.......E..A)
+-00001160: 3e5c c387 9d66 a767 ebd7 a014 5f5b c3d7  >\...f.g...._[..
+-00001170: 4bed 5e50 b7f4 6b50 4449 72b8 862e 85b5  K.^P..kPDIr.....
+-00001180: 6a77 b9da 1564 c2e8 8e13 de0c 8341 bd92  jw...d.......A..
+-00001190: 29cf 5190 0dab ec52 534c 5822 37e5 5a8c  ).Q....RSLX"7.Z.
+-000011a0: ee32 3e00 8002 5224 49e2 c9c5 0c4f d008  .2>...R$I....O..
+-000011b0: b2b8 8b28 39e0 c4db 25d3 0812 6f86 1226  ...(9...%...o..&
+-000011c0: 60b8 5429 0d4a 55f8 af3e 81fe a623 8ab6  `.T).JU..>...#..
+-000011d0: 3032 a495 5d60 8958 1b52 f678 62c4 c94c  02..]`.X.R.xb..L
+-000011e0: b6fc 2ba0 d537 202f 9e3d 7bfe f0e9 f387  ..+..7 /.={.....
+-000011f0: bf3d 7ff4 e8f9 c35f b2b9 b52a 4b6e 0725  .=....._...*Kn.%
+-00001200: 5353 eed5 8f5f fffd fd17 de5f bffe f0ea  SS..._....._....
+-00001210: f137 e9d4 27f1 c2c4 bffc f9cb 97bf fff1  .7..'...........
+-00001220: 3af5 b0e2 dc15 2fbe 7df2 f2e9 9317 df7d  :...../.}......}
+-00001230: f5e7 4f8f 1dda db1c 1d98 f021 89b1 f0ae  ..O........!....
+-00001240: e163 ef26 8b61 810e fbf1 013f 9dc4 3042  .c.&.a.....?..0B
+-00001250: c492 4011 e876 a8ee cbc8 025e 5b20 eac2  ..@..v.....^[ ..
+-00001260: 75b0 edc2 db1c 58c6 05bc 3cbf 6bd9 ba1f  u.....X...<.k...
+-00001270: f1b9 248e 99af 46b1 05dc 638c 7618 773a  ..$...F...c.v.w:
+-00001280: e0aa 9acb f0f0 709e 4cdd 93f3 b989 bb89  ......p.L.......
+-00001290: d091 6bee 2e4a ac00 f7e7 33a0 57e2 52d9  ..k..J....3.W.R.
+-000012a0: 8db0 65e6 0d8a 1289 a638 c1d2 53bf b143  ..e......8..S..C
+-000012b0: 8c1d abbb 4388 e5d7 3d32 e24c b089 f4ee  ....C...=2.L....
+-000012c0: 10af 8388 d325 4372 6025 522e b443 6288  .....%Cr`%R..Cb.
+-000012d0: cbc2 6520 84da f2cd de6d afc3 a86b d53d  ..e .....m...k.=
+-000012e0: 7c64 2361 5b20 ea30 7e88 a9e5 c6cb 682e  |d#a[ .0~.....h.
+-000012f0: 51ec 5239 4431 351d be8b 64e4 3272 7fc1  Q.R9D15...d.2r..
+-00001300: 4726 ae2f 2444 7a8a 29f3 fa63 2c84 4be6  G&./$Dz.)..c,.K.
+-00001310: 3a87 f51a 41bf 0a0c e30e fb1e 5dc4 3692  :...A.......].6.
+-00001320: 4b72 e8d2 b98b 1833 913d 76d8 8d50 3c73  Kr.....3.=v..P<s
+-00001330: da4c 92c8 c47e 260e 2145 9177 8349 177c  .L...~&.!E.w.I.|
+-00001340: 8fd9 3b44 3d43 1c50 b231 dcb7 09b6 c2fd  ..;D=C.P.1......
+-00001350: 6622 b805 e46a 9a94 2788 fa65 ce1d b1bc  f"...j..'..e....
+-00001360: 8c99 bd1f 1774 82b0 8b65 da3c b6d8 b5cd  .....t...e.<....
+-00001370: 8933 3b3a f3a9 95da bb18 5374 8cc6 187b  .3;:......St...{
+-00001380: b73e 7358 d061 33cb e7b9 d157 2260 951d  .>sX.a3....W"`..
+-00001390: ec4a ac2b c8ce 55f5 9c60 0165 92aa 6bd6  .J.+..U..`.e..k.
+-000013a0: 2972 9708 2b65 f7f1 946d b067 6f71 8278  )r..+e...m.goq.x
+-000013b0: 1628 8911 dfa4 f91a 44dd 4a5d 38e5 9c54  .(......D.J]8..T
+-000013c0: 7a9d 8e0e 4de0 3502 e51f e48b d329 d705  z...M.5......)..
+-000013d0: e830 92bb bf49 eb8d 0859 6797 7a16 ee7c  .0...I...Yg.z..|
+-000013e0: 5d70 2b7e 6fb3 c760 5fde 3ded be04 197c  ]p+~o..`_.=....|
+-000013f0: 6a19 20f6 b7f6 cd10 516b 823c 6186 080a  j. .....Qk.<a...
+-00001400: 0c17 dd82 8815 fe5c 449d ab5a 6cee 949b  .......\D..Zl...
+-00001410: d89b 360f 0314 4656 bd13 93e4 8dc5 cf89  ..6...FV........
+-00001420: b227 fc77 ca1e 7701 7306 058f 5bf1 fb94  .'.w..w.s...[...
+-00001430: 3a9b 2865 e744 81b3 09f7 1f2c 6b7a 689e  :.(e.D.....,kzh.
+-00001440: dcc0 7092 ac73 d679 5573 5ed5 f8ff fbaa  ..p..s.yUs^.....
+-00001450: 66d3 5e3e af65 ce6b 99f3 5ac6 f5f6 f541  f.^>.e.k..Z....A
+-00001460: 6a99 bc7c 81ca 26ef f2e8 9e4f bcb1 e533  j..|..&....O...3
+-00001470: 2194 eecb 05c5 bb42 777d 04bc d18c 0730  !......Bw}.....0
+-00001480: a8db 51ba 27b9 6a01 ce22 f89a 3598 2cdc  ..Q.'.j.."..5.,.
+-00001490: 9423 2de3 7126 3f27 32da 8fd0 0c5a 4365  .#-.q&?'2....ZCe
+-000014a0: ddc0 9c8a 4cf5 5478 3326 a063 a487 752b  ....L.Tx3&.c..u+
+-000014b0: 159f d0ad fb4e f378 8f8d d34e 67b9 acba  .....N.x...Ng...
+-000014c0: 9aa9 0b05 92f9 7829 5c8d 4397 4aa6 e85a  ......x)\.C.J..Z
+-000014d0: 3def dead d4eb 7ee8 5477 5997 0628 d9d3  =.....~.TwY..(..
+-000014e0: 1861 4c66 1b51 7518 515f 0e42 145e 6784  .aLf.Qu.Q_.B.^g.
+-000014f0: 5ed9 9958 d174 58d1 50ea 97a1 5a46 71e5  ^..X.tX.P...ZFq.
+-00001500: 0a30 6d15 1578 e5f6 e045 bde5 8741 da41  .0m..x...E...A.A
+-00001510: 8666 1c94 e763 15a7 b499 bc8c ae0a ce99  .f...c..........
+-00001520: 467a 9333 a999 0150 622f 3320 8f74 53d9  Fz.3...Pb/3 .tS.
+-00001530: ba71 796a 7569 aabd 45a4 2d23 8c74 b38d  .qyjui..E.-#.t..
+-00001540: 30d2 3082 17e1 2c3b cd96 fb59 c6ba 9987  0.0...,;...Y....
+-00001550: d432 4fb9 62b9 1b72 33ea 8d0f 116b 4522  .2O.b..r3....kE"
+-00001560: 27b8 8126 2653 d0c4 3b6e f9b5 6a08 b72a  '..&&S..;n..j..*
+-00001570: 2334 6bf9 13e8 18c3 d778 06b9 23d4 5b17  #4k......x..#.[.
+-00001580: a253 b876 1949 9e6e f877 6196 1917 b287  .S.v.I.n.wa.....
+-00001590: 4494 3a5c 934e ca06 3191 987b 94c4 2d5f  D.:\.N..1..{..-_
+-000015a0: 2d7f 950d 34d1 1ca2 6d2b 5780 103e 5ae3  -...4...m+W..>Z.
+-000015b0: 9a40 2b1f 9b71 1074 3bc8 7832 c123 6986  .@+..q.t;.x2.#i.
+-000015c0: dd18 519e 4e1f 81e1 53ae 70fe aac5 df1d  ..Q.N...S.p.....
+-000015d0: ac24 d91c c2bd 1f8d 8fbd 033a e737 11a4  .$.........:.7..
+-000015e0: 5858 2f2b 078e 8980 8b83 72ea cd31 819b  XX/+......r..1..
+-000015f0: b015 91e5 f977 e260 ca68 d7bc 8ad2 3994  .....w.`.h....9.
+-00001600: 8e23 3a8b 5076 a298 649e c235 89ae ccd1  .#:.Pv..d..5....
+-00001610: 4f2b 1f18 4fd9 9ac1 a1eb 2e3c 98aa 03f6  O+..O......<....
+-00001620: bd4f dd37 1fd5 ca73 0669 e667 a6c5 2aea  .O.7...s.i.g..*.
+-00001630: d474 93e9 873b e40d abf2 43d4 b22a a56e  .t...;....C..*.n
+-00001640: fd4e 2d72 ae6b 2eb9 0e12 d579 4abc e1d4  .N-r.k.....yJ...
+-00001650: 7d8b 03c1 302d 9fcc 324d 59bc 4ec3 8ab3  }...0-..2MY.N...
+-00001660: b351 dbb4 332c 080c 4fd4 36f8 6d75 4638  .Q..3,..O.6.muF8
+-00001670: 3df1 ae27 3fc8 9dcc 5a75 402c eb4a 9df8  =..'?...Zu@,.J..
+-00001680: faca dcbc d566 0777 813c 7a70 7f38 a752  .....f.w.<zp.8.R
+-00001690: e850 426f 9723 28fa d21b c894 3660 8bdc  .PBo.#(.....6`..
+-000016a0: 9359 8d08 dfbc 3927 2dff 7e29 6c07 dd4a  .Y....9'-.~)l..J
+-000016b0: d82d 941a 61bf 1054 8352 a111 b6ab 8576  .-..a..T.R.....v
+-000016c0: 1856 cbfd b05c ea75 2a0f e060 9151 5c0e  .V...\.u*..`.Q\.
+-000016d0: d3eb fa01 5c61 d045 7669 afc7 d72e eee3  ....\a.Evi......
+-000016e0: e52d cd85 118b 8b4c 5fcc 17b5 e1fa e2be  .-.....L_.......
+-000016f0: 5cd9 7c71 ef11 209d fbb5 caa0 596d 766a  \.|q.. .....Ymvj
+-00001700: 8566 b53d 2804 bd4e a3d0 ecd6 3a85 5ead  .f.=(..N....:.^.
+-00001710: 5bef 0d7a ddb0 d11c 3cf0 bd23 0d0e dad5  [..z....<..#....
+-00001720: 6e50 eb37 0ab5 72b7 5b08 6a25 657e a359  nP.7..r.[.j%e~.Y
+-00001730: a807 954a 3ba8 b71b fda0 fd20 2b63 60e5  ...J;...... +c`.
+-00001740: 297d 64be 00f7 6abb b6ff 0100 00ff ff03  )}d...j.........
+-00001750: 0050 4b03 0414 0006 0008 0000 0021 00de  .PK..........!..
+-00001760: d77d 8e4e 1300 0029 9600 0018 0000 0078  .}.N...).......x
+-00001770: 6c2f 776f 726b 7368 6565 7473 2f73 6865  l/worksheets/she
+-00001780: 6574 312e 786d 6c9c 93cb 8e9b 3014 86f7  et1.xml.....0...
+-00001790: 95fa 0e96 f7c1 c030 b483 4246 5546 5147  .......0..BFUFQG
+-000017a0: eaa2 ea75 6dcc 2158 b131 b54d 2eaa faee  ...um.!X.1.M....
+-000017b0: 3d26 e422 6513 0d02 dbf8 f2fd ffb1 8fe7  =&."e...........
+-000017c0: cf7b adc8 16ac 93a6 2b69 12c5 9440 274c  .{......+i...@'L
+-000017d0: 2dbb 7549 7ffe 58cd 3e52 e23c ef6a ae4c  -.uI..X.>R.<.j.L
+-000017e0: 0725 3d80 a3cf 8bf7 efe6 3b63 37ae 05f0  .%=.......;c7...
+-000017f0: 0409 9d2b 69eb 7d5f 30e6 440b 9abb c8f4  ...+i.}_0.D.....
+-00001800: d0e1 4863 ace6 1e7f ed9a b9de 02af c745  ..Hc...........E
+-00001810: 5ab1 348e 73a6 b9ec e891 50d8 7b18 a669  Z.4.s.....P.{..i
+-00001820: a480 1723 060d 9d3f 422c 28ee d1bf 6b65  ...#...?B,(...ke
+-00001830: ef4e 342d eec1 696e 3743 3f13 46f7 88a8  .N4-..in7C?.F...
+-00001840: a492 fe30 4229 d1a2 785d 77c6 f24a 61dc  ...0B)..x]w..Ja.
+-00001850: fb24 e382 ec2d be29 7e0f 2799 b1ff 4649  .$...-.)~.'...FI
+-00001860: 4b61 8d33 8d8f 90cc 8e9e 6fc3 7f62 4f8c  Ka.3......o..bO.
+-00001870: 8b33 e936 febb 3049 c62c 6c65 38c0 0b2a  .3.6..0I.,le8..*
+-00001880: 7d9b a5e4 f1cc 4a2f b087 37c2 f233 2c6c  }.....J/..7..3,l
+-00001890: 972d 0659 97f4 6f3c 3d33 ac93 50c4 97e2  .-.Y..o<=3..P...
+-000018a0: 34f6 8f2e e6b5 c413 0e51 110b 4d49 3f25  4........Q..MI?%
+-000018b0: c532 cd63 ca16 f331 837e 49d8 b9ab 36f1  .2.c...1.~I...6.
+-000018c0: bcfa 0e0a 8407 5449 28f1 a6ff 028d 5f82  ......TI(....._.
+-000018d0: 52b8 fa91 9290 b195 319b b0f2 15e7 c428  R.......1......(
+-000018e0: e2c6 1541 840b 2fb7 30cd 4e32 ccfa 3f93  ...A../.0.N2..?.
+-000018f0: 6e16 34d9 59f4 ba7d 32b0 1ab3 fcab 2515  n.4.Y..}2.....%.
+-00001900: 77b0 34ea b7ac 7d8b 2ef0 36d5 d0f0 41f9  w.4...}...6...A.
+-00001910: ab4e f436 757e 33bb cf20 d7ad c7a9 396e  .N.6u~3.. ....9n
+-00001920: 51c8 b1a2 3ebc 8013 98dc e830 4a83 b630  Q...>......0J..0
+-00001930: 0a85 b024 5a86 4b8a b9c9 f763 bd3b ea64  ...$Z.K....c.;.d
+-00001940: 5994 e459 9ca7 1865 05ce af64 2052 2206  Y..Y...e...d R".
+-00001950: e78d 3e99 9950 4708 1eef 08c1 7a82 241f  ..>..PG.....z.$.
+-00001960: ee85 b0d1 d07f 0000 00ff ff00 0000 ffff  ................
+-00001970: 949d ddae db36 1685 5fa5 c87d 1c93 fab1  .....6.._..}....
+-00001980: 5da4 01e6 2479 9020 13a0 579d 414f 9099  ]...$y. ..W.AO..
+-00001990: 79fb d994 f7b1 b8b8 c925 af5e 15dd dac9  y........%.^....
+-000019a0: 579a fa4c 515a d6c7 d73f 7ffc f8f9 e5db  W..LQZ...?......
+-000019b0: cf6f 9f3e fefd afff fcf6 f71f efd2 bbdf  .o.>............
+-000019c0: 5eff fded af57 fbb7 dfa7 77bf fd37 cddf  ^....W....w..7..
+-000019d0: beff fecf ff7d f9f1 fafd c75f 3fff 7877  .....}....._?.xw
+-000019e0: 3ee5 779f 3e7e 2f87 fea3 1cbb 75d8 7f7f  >.w.>~/.....u...
+-000019f0: b5ff faeb d3f9 e387 5f9f 3e7e f8ee 47bc  ........_.>~..G.
+-00001a00: c423 121e f139 1e91 1f47 7c30 a607 5816  .#...9...G|0..X.
+-00001a10: c0ec d807 d23a 354c 7571 be36 38e5 7fee  .....:5Luq.68...
+-00001a20: d7a7 e594 6ef0 cff5 ebfb 0196 8dd1 d3e3  ....n...........
+-00001a30: 65c7 3eb0 96b5 c1aa 8bf3 adc1 9a36 acf5  e.>..........6..
+-00001a40: 74c6 7fd2 d7f7 fbff 1d8c d62c 60d9 b163  t..........,`..c
+-00001a50: acba 385f 1aac 59c5 5a04 2c3b 768c 05c5  ..8_..Y.Z.,;v...
+-00001a60: 66d6 7d5e 54ac 55c0 b263 c758 7571 6e3e  f.}^T.U..c.Xuqn>
+-00001a70: e1cf ab8a 7511 b0ec d831 565d 0c53 fea2  ....u....1V].S..
+-00001a80: 625d 052c 3b76 3f13 9766 ca43 b11d adeb  b].,;v?..f.C....
+-00001a90: 86f5 7ef7 05cc ef9b c060 c7ee 0ccd 147e  ..~......`.....~
+-00001aa0: 8162 cb70 db18 0608 e9ac a8d2 0ede 211a  .b.p..........!.
+-00001ab0: ebbc 943f ea51 0d27 bf55 8b94 4618 92b1  ...?.Q.'.U..F...
+-00001ac0: ed60 8251 57c3 c99e 12c5 50fc 9c40 d061  .`.QW.....P..@.a
+-00001ad0: 34ea ead2 9edc d6cb 4643 f171 aa9d bb06  4.......FC.q....
+-00001ae0: 0c30 723b 35ac 9761 28fe 4db5 6323 0618  .0r;5..a(.M.c#..
+-00001af0: b8fd beb2 5e86 a1f8 36d5 4e6d bf34 a118  ....^...6.Nm.4..
+-00001b00: 67e8 ddb8 a319 aae8 35d5 0a0d 14e0 d7f6  g.......5.......
+-00001b10: dbc8 5ad9 5828 364d b531 0305 b836 cccf  ..Z.X(6M.1...6..
+-00001b20: bb4f 4763 a1c8 33d5 820c 1475 317c d758  .OGc..3....u1|.X
+-00001b30: 2b1b 0b45 9fa9 5664 a0a8 8be1 abc5 5a09  +..E..Vd......Z.
+-00001b40: 4556 045a 0ede 15d9 2ee9 a018 d674 d49f  EV.Z.........t..
+-00001b50: 59f1 6739 784c 5117 83b7 ac95 8d85 b4bc  Y.g9xLQ.........
+-00001b60: 8525 6c3b 1650 6cb5 95a9 3db3 62cf 72f0  .%l;.Pl...=.b.r.
+-00001b70: 782c a0d8 9ea9 d6ca c642 9167 063d b663  x,.......B.g.=.c
+-00001b80: 01c5 7651 6dad 8c42 7167 86f5 684b 01c5  ..vQm..Bqg..hK..
+-00001b90: b9bd e2b8 bb73 b4d0 c98a 3ccb c1fb 2ab0  .....s....<...*.
+-00001ba0: c580 627b 1d66 ad65 3086 188a 3d33 08b2  ..b{.f.e0...=3..
+-00001bb0: c580 62e3 93cf d64a 3114 7de6 da90 edda  ..b....J1.}.....
+-00001bc0: 138b fbc5 dd76 65fb d9aa 1443 f167 8625  .....ve....C.g.%
+-00001bd0: 663b 1ae0 cf30 43ef fe9c 4fe7 35cf d5a5  f;...0C...O.5...
+-00001be0: dfe8 5a54 11ea 042b d2f6 6214 84da 9ebe  ..ZT...+..b.....
+-00001bf0: d65a 46e7 692c c5b0 13ac 505b 2c6a 586b  .ZF.i,....P[,jXk
+-00001c00: 95b0 14e5 4eb0 626d b1a8 72ad 55c2 9276  ....N.bm..r.U..v
+-00001c10: 1460 05db 6281 83db 6fc5 e9ee e0a7 3f44  .`..b...o.....?D
+-00001c20: 45ca 53ed ddf6 8a0b 8ae1 6bd2 aad2 6829  E.S.......k...h)
+-00001c30: 969e 6a11 07ac ba18 5632 d62a 6129 d69e  ..j.....V2.*a)..
+-00001c40: 6a31 072c 58f2 867d a1bb b59f fe10 158b  j1.,X..}........
+-00001c50: 4fb5 a803 166c 2904 41dc 2dfe 3496 62f5  O....l).A.-.4.b.
+-00001c60: a9b6 7ac0 a28b 626b 953e 44c5 f253 2df2  ..z...bk.>D..S-.
+-00001c70: f652 128a 7173 ef6e f97c 9a6f a9de df1b  .R..qs.n.|.o....
+-00001c80: 5c42 cc8a e5cb c18f 1541 8b05 c5b8 b977  \B.......A.....w
+-00001c90: b7fc d358 8ae5 e75a e401 8b5a de5a cb87  ...X...Z...Z.Z..
+-00001ca0: f834 9662 f9b9 1679 c0a2 96b7 5609 4bb1  .4.b...y....V.K.
+-00001cb0: fc5c 8b3c 6051 cb5b ab84 25ed 1bd7 966f  .\.<`Q.[..%....o
+-00001cc0: ccf4 32d3 a5b7 5537 acf3 69bf 40c1 fd6b  ..2...U7..i.@..k
+-00001cd0: c5eb 73ad ee00 025e 0f3b d877 afe7 3188  ..s....^.;.w..1.
+-00001ce0: 62f2 b996 7500 81f5 77bb 6d60 ad07 23a2  b...u...w.m`..#.
+-00001cf0: b87b aef5 1c40 c0dd ed15 a2b5 1e80 28b6  .{...@........(.
+-00001d00: 9e6b 2107 10b0 75bb 40b1 d603 10c5 cf73  .k!...u.@......s
+-00001d10: ede7 d4de a782 6a10 b455 3792 cbe0 66cb  ......j..U7...f.
+-00001d20: a218 b91c fc30 7200 816a 50b2 5539 88e2  .....0r..jP.U9..
+-00001d30: e0a5 d66c 04a1 12b6 5e0e a258 77a9 c51a  ...l....^..Xw...
+-00001d40: 41a8 76ad 9783 289e 5d6a 9546 102a 5aeb  A.v...(.]j.F.*Z.
+-00001d50: e520 8a59 17b8 25d7 2e72 a01a 26ab 550b  . .Y..%..r..&.U.
+-00001d60: c8f9 344f 7b23 b875 91ee c2c1 e645 40a1  ..4O{#.u.....E@.
+-00001d70: 72b5 bfe8 0845 b1eb 0202 0d28 54af d67b  r....E.....(T..{
+-00001d80: 84a2 f875 814d 8c80 4205 6bbd 4728 8a61  ...u.M..B.k.G(.a
+-00001d90: 17d8 e508 2854 b1d6 7b84 a238 7601 c7b6  ....(T..{..8v...
+-00001da0: b687 6a9c b6ee d8e9 bcbb 1966 edaa 48b6  ..j........f..H.
+-00001db0: 1cbc 4bb6 2581 6a90 ac55 b733 794c a258  ..K.%.j..U.3yL.X
+-00001dc0: 7605 cb06 126a 59eb 3d20 5134 bb82 6603  v....jY.= Q4..f.
+-00001dd0: 09d5 acf5 1e90 289e 5dc1 b381 847a d67a  ......(.]....z.z
+-00001de0: 0f48 14d1 aeb5 6853 bb47 08d5 3063 ad5a  .H....hS.G..0c.Z
+-00001df0: 48ae eb68 c22a 9a5d 6b91 4610 aa59 ebe5  H..h.*.]k.F..Y..
+-00001e00: 208a 64d7 5aa3 1184 4ad6 7a39 88a2 d8b5   .d.Z...J.z9....
+-00001e10: 9668 04a1 8ab5 5e0e a208 76ad 151a 41a8  .h....^...v...A.
+-00001e20: 60ad 9783 287a 5d41 afed f343 508d 93d5  `...(z]A...CP...
+-00001e30: efc4 adfb ed07 b0eb 45b1 6b39 78b7 6b0b  ........E.k9x.k.
+-00001e40: 02d5 6057 ab96 1149 4310 45ae 1790 6b00  ..`W...IC.E...k.
+-00001e50: a172 b55e 0ea2 b8f5 026e 0d20 d4ad d6cb  .r.^.....n. ....
+-00001e60: 4114 b55e 40ad 0184 aad5 7a39 8862 d60b  A..^@.....z9.b..
+-00001e70: 98b5 b9bf f202 d530 59ad 7a07 19ec 805d  .......0Y.z....]
+-00001e80: 14b3 9683 f7c9 1a40 a859 ad97 8328 66bd  .......@.Y...(f.
+-00001e90: 8059 0308 35ab f572 10c5 ac17 306b 00a1  .Y..5..r....0k..
+-00001ea0: 66b5 5e0e a298 f502 660d 20d4 acd6 cb41  f.^.....f. ....A
+-00001eb0: 14b3 5ec0 aced 330e 508d 93f5 6ed6 e55a  ..^...3.P...n..Z
+-00001ec0: 5d30 825a af8a 5acb c1fb 6c6d 49a0 1ad4  ]0.Z..Z...lmI...
+-00001ed0: 6ad5 3224 8444 71eb 15dc 1a48 a85b adf7  j.2$.Dq....H.[..
+-00001ee0: 8044 91eb 15e4 1a48 a85c adf7 8044 b1eb  .D.....H.\...D..
+-00001ef0: 15ec 1a48 a85d adf7 8044 d1eb 15f4 dadc  ...H.]...D......
+-00001f00: cc7f 816a 98b1 56dd 4e9d 651a ac5c af8a  ...j..V.N.e..\..
+-00001f10: 5fcb c1fb 8c0d 24d4 afd6 7b40 a208 f60a  _.....$...{@....
+-00001f20: 820d 2454 b0d6 7b40 a218 f60a 860d 24d4  ..$T..{@......$.
+-00001f30: b0d6 7b40 a228 f60a 8a0d 2454 b1d6 7b40  ..{@.(....$T..{@
+-00001f40: a238 f60a 8e6d 9e82 7981 6ab8 296c d542  .8...m..y.j.)l.B
+-00001f50: b22e 7930 636f 8a63 cbc1 fb8c 6d49 a01a  ..y0co.c....mI..
+-00001f60: ee03 5bf5 8044 71ec 0d1c 1b48 ea6a 78c2  ..[..Dq....H.jx.
+-00001f70: cf7a 0f48 14c7 dec0 b181 041c dbde 43b1  .z.H..........C.
+-00001f80: de03 12c5 b137 706c 2001 c7b6 b7c3 adf7  .....7pl .......
+-00001f90: 8044 71ec 0d1c dbee ac41 3538 d6aa dbb9  .Dq......A58....
+-00001fa0: 731a dc32 b829 8a2d 07ef 1336 8050 c55a  s..2.).-...6.P.Z
+-00001fb0: 2f07 510c 7b03 c306 106a 58eb e520 8a60  /.Q.{....jX.. .`
+-00001fc0: 6f20 d800 4205 6bbd 1c44 f1eb 0dfc 1a40  o ..B.k..D.....@
+-00001fd0: a85f ad97 8328 7abd 815e db9b c450 8d52  ._...(z..^...P.R
+-00001fe0: bbeb f536 8f16 04f6 5882 9475 00c1 c6b0  ...6....X..u....
+-00001ff0: 033c 5c16 1eac b7bf ab0c 0ba3 511c 9bce  .<\.........Q...
+-00002000: 20d9 4843 57b2 a5fb 8846 f16c 3a83 6823   .HCW....F.l:.h#
+-00002010: 0d35 6de9 3ea2 515c 9bce 20db 4843 6d5b  .5m.>.Q\.. .HCm[
+-00002020: ba8f 6814 dfa6 732d dcdc 2e56 b0dc 49c9  ..h...s-...V..I.
+-00002030: dc95 bbdc 06b7 bdd2 5971 ee76 f443 ba1d  ........Yq.v.C..
+-00002040: 186a ddd2 5d86 86c0 28de 4de7 5aad 1d18  .j..]...(.M.Z...
+-00002050: 6ade d27d 00a3 b837 9d6b bd76 60a8 7d4b  j..}...7.k.v`.}K
+-00002060: f701 8ce2 df74 ae15 db81 a106 2edd 0730  .....t.........0
+-00002070: 8a83 d3b9 9670 b556 dd1e 2ab6 9457 5dee  .....p.V..*..W].
+-00002080: 4c60 d7b0 ddba 7d3c c909 3b09 498b 9c41  L`....}<..;.I..A
+-00002090: aa2c d260 e8ac 5dd4 95bf 6b3b b909 8da4  .,.`..]...k;....
+-000020a0: 618b 8fed 8b98 0e0d d7b0 87cf 6e84 46d2  a...........n.F.
+-000020b0: 3024 d03a 3474 5321 7906 8dd1 481a 8620  0$.:4tS!y...H.. 
+-000020c0: 5a87 866e 2c24 8fa2 311a 49c3 9047 cbed  Z..n,$..1.I..G..
+-000020d0: b65c 8272 9cc5 9e48 bbad a31b b9a9 64c9  .\.r...H......d.
+-000020e0: 9ecf 9843 f2ac 43c3 3d6c dddb 2c26 3492  ...C..C.=l..,&4.
+-000020f0: 8821 9ed6 a1e1 22f6 841a 1b1b c9c4 1053  .!...."........S
+-00002100: ebd0 7013 5bf7 d1d8 482a 86b8 5a87 86ab  ..p.[...H*..Z...
+-00002110: d813 6b6c 6c24 1743 6c2d 87dc 1a94 3bb3  ..kll$.Cl-....;.
+-00002120: d8ef 9795 d8c5 40c6 527c 2d41 7e2d e260  ......@.R|-A~-.`
+-00002130: bc2d c8d8 cadb a502 c391 6c0c 41b6 0e0e  .-........l.A...
+-00002140: b7f1 5b96 8de1 483a b658 5af5 e510 3e2c  ..[...H:.XZ...>,
+-00002150: 28c7 ace3 5ba8 8de1 483e 8668 5b67 74b8  (...[...H>.h[gt.
+-00002160: 8fdf d26d 0c47 1232 64dc 72bb 2592 3002  ...m.G.2d.r.%.0.
+-00002170: d7ee 8994 7299 3bd3 651e ce64 49c8 9075  ....r.;.e..dI..u
+-00002180: ebd0 7021 5bf7 118d 2464 88bc 7568 b890  ..p![...$d..uh..
+-00002190: 3df5 c6c6 4612 3224 df3a 345c c81e 7e63  =...F.2$.:4\..~c
+-000021a0: 3492 9021 e3d6 a1e1 42f6 0c1c a391 840c  4..!....B.......
+-000021b0: 39b8 a57d d626 6139 a6fe 5dc8 a35c 7589  9..}.&a9..]..\u.
+-000021c0: b33d bfa8 80f0 5b64 8172 f48d e7df d290  .=....[d.r......
+-000021d0: 4552 3124 de3a 2cb0 0b1c be19 3cf4 3666  ER1$.:,.....<.6f
+-000021e0: 913c 0c31 b70e 0b2c 8bc3 6f11 78d2 6dcc  .<.1...,..o.x.m.
+-000021f0: 2249 d802 6a55 9835 cc17 28c7 2f70 8fb7  "I..jU.5..(./p..
+-00002200: 8d59 2403 4366 2d47 161a 7648 9e69 b3c8  .Y$.Cf-G..vH.i..
+-00002210: 8a3d 5378 1ce3 4c25 a726 cce5 5ab8 1d36  .=Sx..L%.&..Z..6
+-00002220: ee63 0fb6 3dcf 26d9 19a2 6d1d 366e 67eb  .c..=.&...m.6ng.
+-00002230: 2edf 15cf b349 ae86 7c5b 878d bbda ba35  .....I..|[.....5
+-00002240: 36c9 dc10 72eb b071 737b ceed f971 933c  6...r..qs{...q.<
+-00002250: 0e61 b6dc 3e62 9478 d6ad 94b7 95ec 6db8  .a..>b.x......m.
+-00002260: d72c e5db 1264 d822 0d8f b895 ee23 1ac9  .,...d.".....#..
+-00002270: e590 6beb d0f0 65b5 47db 1219 1bc9 e610  ..k...e.G.......
+-00002280: 67eb d0f0 4d0e 4fb4 311a c9e7 9062 ebd0  g...M.O.1....b..
+-00002290: f045 b507 d918 8d64 74c8 a7e5 f6c6 4de2  .E.....dt.....M.
+-000022a0: f1b5 522e f3e6 9287 5787 2593 f6bc c321  ..R.....W.%....!
+-000022b0: c1d6 a1e1 0eb7 ee23 1ac9 da10 63eb d070  .......#....c..p
+-000022c0: 6b7b 928d 8d8d e469 c8b2 7568 b8a7 3dce  k{.....i..uh..=.
+-000022d0: c668 2433 43a0 ad43 c3cd ec99 3646 23b9  .h$3C..C....6F#.
+-000022e0: 1872 6bd5 83e8 bee1 cc63 6dc9 736d 97db  .rk......cm.sm..
+-000022f0: a9fe 7189 f379 90c9 4c52 ce6d 3b7a ffad  ..q..y..LR.m;z..
+-00002300: b1f0 cb90 3ce9 56ba b739 fd34 9be4 69c8  ....<.V..9.4..i.
+-00002310: bec5 7183 72fc 0532 4fbf 3d3f 6e92 b521  ..q.r..2O.=?n..!
+-00002320: 0ed7 61e3 d6f6 40dc f36c 92c3 2121 d761  ..a...@..l..!!.a
+-00002330: e30e f78c dcf3 6c92 d121 1697 c3bd 4c9e  ......l..!....L.
+-00002340: 9a4b 1e9b 4bb6 ff38 d8ef 9362 73a9 1cbd  .K..K..8...bs...
+-00002350: df3e 8c34 dce8 9e9c 6334 92d1 213a d719  .>.4....c4..!:..
+-00002360: 1b6e 740f cf31 1ac9 e890 9eeb d070 a37b  .nt..1.......p.{
+-00002370: 7e8e d148 4687 005d 8786 1bdd 2374 8c46  ~..HF..]....#t.F
+-00002380: 323a a4e4 729b 8d4a 3c44 57ca db7a 761d  2:..r..J<DW..zv.
+-00002390: 2f4c a41c 5d82 a85c c4e1 49ba d27d 8823  /L..]..\..I..}.#
+-000023a0: 791b d274 1d1c bebe f63c 5d62 a323 a91a  y..t.....<]b.#..
+-000023b0: 2275 1d1c ae6a 0fd5 511c c9ce 90ab ebe0  "u...j..Q.......
+-000023c0: 703b 7bb2 8ee2 4842 86f8 5c75 b9e7 8b13  p;{...HB..\u....
+-000023d0: 9eae b380 d07d eea4 d3e0 d7ae 52c9 cc3d  .....}......R..=
+-000023e0: bfc4 8684 5d87 860b d933 7689 d048 4286  ....]....3v..HB.
+-000023f0: 985d 8786 0bd9 8376 8c46 1232 64ed 3a34  .].....v.F.2d.:4
+-00002400: 5cc8 9eb6 6334 9290 2170 d7a1 e142 f6c8  \...c4..!p...B..
+-00002410: 1da3 9184 0cb9 ba29 3c94 c463 77c9 caf7  .......)<..cw...
+-00002420: 1b77 cbf0 4a51 8ade 2548 d745 1c1e be2b  .w..JQ..%H.E...+
+-00002430: dd87 3892 9021 81d7 c1e1 427e cbe0 6532  ..8..!....B~..e2
+-00002440: 3a92 9021 87d7 c1e1 427e 4be2 311c 49c8  :..!....B~K.1.I.
+-00002450: 90c6 ebe0 7021 bfe5 f118 8e24 6448 dd4d  ....p!.....$dH.M
+-00002460: e1c1 0e1e ca4b 8f54 de68 812c c5f2 12e4  .....K.T.h.,....
+-00002470: f23a 30dc c78f 64de 1046 d231 64f3 3a30  .:0...d..F.1d.:0
+-00002480: 5cc7 8f74 de10 46b2 31e4 f33a 30dc c68f  \..t..F.1..:0...
+-00002490: 84de 1046 9231 64f4 3a30 5cc6 8f94 de10  ...F.1d.:0\.....
+-000024a0: 4672 3124 f1a6 f8bb ccfc f93a ebde b614  Fr1$.......:....
+-000024b0: 2ec3 df66 96ee 2142 182f c2f0 ac5e f2b0  ...f..!B./...^..
+-000024c0: de65 0c23 7918 d27a 1d18 ee61 cfeb 1118  .e.#y..z...a....
+-000024d0: c9c2 10d8 ebc0 700b 7b64 8fc0 480e 86cc  ......p.{d..H...
+-000024e0: 5e07 863b d853 7b04 4632 3004 f3a6 f024  ^..;.S{.F20....$
+-000024f0: 07cf ed25 0fee e5db 69df 4fc0 0744 a5e4  ...%....i.O..D..
+-00002500: 5e82 e85e 8786 2bd8 c37b 8c46 7230 c4f7  ^..^..+..{.Fr0..
+-00002510: 3a34 dcc1 1ee0 6334 9284 21c2 d7a1 e112  :4....c4..!.....
+-00002520: f610 1fa3 912c 0c31 be0e 0db7 b007 f918  .....,.1........
+-00002530: 8da4 6108 eb4d e16e 3894 e36b 243c cc47  ..a..M.n8..k$<.G
+-00002540: 68a4 345f 82c0 5ea4 8172 dccb f540 1fa3  h.4_..^..r...@..
+-00002550: 9144 0c91 be0e 0d3c cd11 b22f 1eea 6334  .D.....<.../..c4
+-00002560: 9289 21d6 d7a1 e1cf 7378 b08f d148 2a86  ..!.....sx...H*.
+-00002570: 685f 8706 541c 9e63 f370 1fa3 915c 0c01  h_..T..c.p...\..
+-00002580: be29 dcc7 e6f9 bee4 01bf e5b4 8c1e d697  .)..............
+-00002590: 227e 0932 7e1d 1aee 624f f931 1ac9 c510  "~.2~...bO.1....
+-000025a0: f4eb d070 177b d48f d148 2e86 b45f 8786  ...p.{...H..._..
+-000025b0: bbd8 f37e 8c46 7231 44fe 3a34 dcc5 1efa  ...~.Fr1D.:4....
+-000025c0: 6334 928b 21d9 57fd e29f 6fb2 61f0 2f9e  c4..!.W...o.a./.
+-000025d0: 536f bf6c d9bf e761 bbc8 ca5b d7ca d18f  So.l...a...[....
+-000025e0: 7b1e 8165 fbc3 f617 46b4 4fb2 95f2 f644  {..e....F.O....D
+-000025f0: cd70 7593 4b92 efe9 0dbf ed68 4643 97c4  .pu.K......hFC..
+-00002600: a5fb 8846 3171 86dc 5f67 6ce8 9ab8 741f  ...F1q.._gl...t.
+-00002610: d128 26ce 90fb ebd0 d045 71e9 3ea2 514c  .(&......Eq.>.QL
+-00002620: 9c21 f7d7 a181 a7eb e2bc f1df 121e c4fe  .!..............
+-00002630: b214 fbdb 8e66 b3a6 f670 7cc7 8bc7 feaa  .....f...p|.....
+-00002640: e702 f01d 8625 c727 cce0 5ab3 9d71 a9cb  .....%.'..Z..q..
+-00002650: e129 d5ec a9bf 318b e2e0 0ca1 bf0e 0b38  .)....1........8
+-00002660: b87d 32b4 746f 3366 f819 2906 ce90 f99b  .}2.to3f..).....
+-00002670: da7b ab58 0e4f 8696 f2c6 32bc 4596 4b4e  .{.X.O....2.E.KN
+-00002680: 4ff8 94ea 5d87 0e0d 6c4a c4d9 eb06 1ed3  O...]...lJ......
+-00002690: 48a1 bf0c a9be 4803 e5ce 3b8a dcc1 8446  H.....H...;....F
+-000026a0: 7230 84fe 3a34 7435 9c3d f497 098d e460  r0..:4t5.=.....`
+-000026b0: 08fd 7568 e86a 387b e88f d148 0e86 d0df  ..uh.j8{...H....
+-000026c0: d4de e9cd 508e b3d8 437f 97e9 3ad8 5acb  ....P...C...:.Z.
+-000026d0: 25a7 f7fc 2c86 545f 8786 3bd8 437f 8c46  %...,.T_..;.C..F
+-000026e0: b959 97f1 5d74 716c b885 3df4 c768 240f  .Y..]tql..=..h$.
+-000026f0: e33b e922 0df7 b087 fe18 8d64 627c 375d  .;.".......db|7]
+-00002700: a4e1 26f6 d01f a391 5c0c a1bf 2a61 745f  ..&.....\...*at_
+-00002710: 7f66 2cb7 ebcf 522e 2e5e f3e8 69e0 5c72  .f,...R..^..i.\r
+-00002720: 7ac2 2c06 d9b6 cf9c 6d7f 1859 81fa ebea  z.,.....m..Y....
+-00002730: 088d f6ca 3a0c f505 1a28 4717 7be6 8fd1  ....:....(G.{...
+-00002740: 482e c677 d745 1aee 628f fc31 1ac9 c518  H..w.E..b..1....
+-00002750: e98b 34dc c59e f863 3492 8bf1 5d76 ed4d  ..4....c4...]v.M
+-00002760: de8c e530 8bdf 027f f330 659c 4b46 eff9  ...0.....0e.KF..
+-00002770: 698c 89be 88c3 65fc f65e 3b86 23d9 1812  i.....e..^;.#...
+-00002780: 7f73 c4e1 36f6 c45f 6238 928e 21f2 d7c1  .s..6.._b8..!...
+-00002790: e13a f6c8 1fc5 917c 0c99 bf0e 0ef7 b167  .:.....|.......g
+-000027a0: fe28 8e24 6408 fdad f1c3 82ed 8938 951f  .(.$d........8..
+-000027b0: bf08 7f3d e31b d007 3b04 25b6 274c ecda  ...=....;.%.'L..
+-000027c0: cf1d 38be 56b6 bfab 7c5b d86f 403c 0927  ..8.V...|[.o@<.'
+-000027d0: 8502 ed3b a8da be88 7098 196c 038a a55b  ...;....p..l...[
+-000027e0: 8493 ec8d efc5 0b1f 2b94 e3b5 a0a7 0485  ........+.......
+-000027f0: 9193 648e 6fc7 8b70 5ce6 1e1b 14e0 24b7  ..d.o..p\.....$.
+-00002800: 6350 b07d ea21 6339 5cb9 7a8e f07d 3a8f  cP.}.!c9\.z..}:.
+-00002810: 6eba e512 0e7c fe14 8028 e1dc dec3 defe  n....|...(......
+-00002820: b07d 8912 ce4f 8f12 dac3 18a3 e789 b294  .}...O..........
+-00002830: 1edc 8ede ffbe 8843 f79d 4bf7 f63c 11c3  .......C..K..<..
+-00002840: 91dc 0e81 c1ce e8d0 8de7 ec81 413a 3a92  ............A::.
+-00002850: db21 23d8 c1a1 3bcf d933 8214 4772 3bc4  .!#...;..3..Gr;.
+-00002860: 023b 3874 eb39 7b2c 90e2 4836 c7a8 5f7b  .;8t.9{,..H6.._{
+-00002870: 373b 6339 9e59 fe73 4776 413d f86e 9192  7;c9.Y.sGvA=.n..
+-00002880: 80f6 6b0b b5be c379 8e49 c070 6279 12f0  ..k....y.I.pby..
+-00002890: 7c3a 0f1e 37cd 25db f7fc 690e 49c0 35d2  |:..7.%...i.I.5.
+-000028a0: c06a 3bec 0a79 1290 d148 8286 2460 87a6  .j;..y...H..$`..
+-000028b0: 1674 bc12 f124 20a3 918c 0c49 c00e 0dec  .t...$ ....I....
+-000028c0: 3e87 3758 7b12 90d1 4842 86a8 5f87 0616  >.7X{...HB.._...
+-000028d0: db61 167b 1290 d148 6b6d 4802 cee1 adc5  .a.{...HkmH.....
+-000028e0: 588e b3d8 5f67 673f 943b 3ca9 241f 4314  X..._gg?.;<.$.C.
+-000028f0: b083 036b ed38 8d3d c0cd 7024 1f43 16b0  ...k.8.=..p$.C..
+-00002900: 8353 fbb8 338f 7d17 9ae1 483e 8630 6007  .S..3.}...H>.0`.
+-00002910: 077c 1c27 b26f 4433 1cc9 c718 f78b 7307  .|.'.oD3......s.
+-00002920: 56d7 7126 fb4e 34c1 9102 80f6 d86a fd03  V.q&.N4......j..
+-00002930: 0e61 9b1e 0380 612a 7b00 703d 558f bbe0  .a....a*{.p=U...
+-00002940: cd94 92d2 7b5e c898 e98b 345c c81e f963  ....{^....4\...c
+-00002950: 3492 9021 e4b7 441a 2e64 0ff9 311a 49c8  4..!..D..d..1.I.
+-00002960: 10eb ebd0 7021 7bac 8fd1 4842 c6b7 dfc5  ....p!{...HB....
+-00002970: b1e1 42f6 201f a391 840c 41be 256c b742  ..B. .....A.%l.B
+-00002980: 396e d37b 906f 3e4d 7035 7dbb 7c7d 3f5a  9n.{.o>Mp5}.|}?Z
+-00002990: 6794 ac9e 30ad 6145 1cf1 b8a0 3dd9 27e1  g...0.aE....=.'.
+-000029a0: 49c2 c617 e545 3c2e 6c8f fa49 7892 c0f1  I....E<.l..Ix...
+-000029b0: e579 118f 0bdc b37f 129e 2474 48fb 75e6  .y........$tH.u.
+-000029c0: 1e17 ba87 0115 3c29 1c98 21fd 57bd d0c9  ......<)..!.W...
+-000029d0: f7fe 311c 18be 6f3c 1c38 9ff6 2faa bbdf  ..1...o<.8../...
+-000029e0: 3fbc fef9 e3c7 cf2f df7e 7efb f47f 0000  ?....../.~~.....
+-000029f0: 00ff ff00 0000 ffff 4450 c16a c330 0cfd  ........DP.j.0..
+-00002a00: 15e3 fbe2 c4a3 2b0b 49a0 1476 db69 5fe0  ......+.I..v.i_.
+-00002a10: d972 6c66 4741 5659 61ec df97 7449 abc3  .rlfGAVYa...tI..
+-00002a20: d37b 1248 4fea cc85 f12d 2606 1204 be97  .{.HO....-&.....
+-00002a30: a7a6 3deb 975a 8a2b b597 e87a f953 6ff1  ..=..Z.+...z.So.
+-00002a40: b4e4 6685 fa01 7bef 570e 5d41 e20f 360c  ..f...{.W.]A..6.
+-00002a50: db20 bd0f ca69 2aed 3591 d3bd 0ccc 73ab  . ...i*.5.....s.
+-00002a60: 54b1 01b2 2955 8e96 b0a0 e7ca 6256 e87d  T...)U......bV.}
+-00002a70: b4a0 ca4c 605c 0900 9c93 d275 7354 146d  ...L`\.....usT.m
+-00002a80: 7086 8dde f69c 7172 9123 4e77 d3a7 d743  p.....qr.#Nw...C
+-00002a90: 23d5 d0a9 bb8d 853f 8e1b bad9 8cf0 6e68  #......?......nh
+-00002aa0: 8c53 1109 3cf7 b2ae 8e52 501c c3ce 19e7  .S..<....RP.....
+-00002ab0: 5bf5 20c5 2732 63de 5558 fc00 adea 590a  [. .'2c.UX....Y.
+-00002ac0: 8fb8 7ceb 5fac 0bbf 91be 6e66 873f 0000  ..|._.....nf.?..
+-00002ad0: 00ff ff03 0050 4b03 0414 0006 0008 0000  .....PK.........
+-00002ae0: 0021 00d3 4c9b 3b66 0300 001f 0c00 0014  .!..L.;f........
+-00002af0: 0000 0078 6c2f 7368 6172 6564 5374 7269  ...xl/sharedStri
+-00002b00: 6e67 732e 786d 6c94 565b 6f9b 3014 7e9f  ngs.xml.V[o.0.~.
+-00002b10: b4ff 60f1 bad0 0492 565b 94a4 52b3 557d  ..`.....V[..R.U}
+-00002b20: d945 5db7 7707 1cb0 0a36 b3cd d6fc fb1d  .E].w....6......
+-00002b30: e304 828d 49ab 3c05 9fcb 776e df39 abdb  ....I.<...wn.9..
+-00002b40: 97b2 407f 8990 94b3 7510 5dcd 0244 58c2  ..@.....u.]..DX.
+-00002b50: 53ca b275 f0eb e93e fc18 20a9 304b 71c1  S..u...>.. .0Kq.
+-00002b60: 1959 0707 2283 dbcd fb77 2b29 1502 5d26  .Y.."....w+)..]&
+-00002b70: d741 ae54 b59c 4e65 9293 12cb 2b5e 1106  .A.T..Ne....+^..
+-00002b80: 2f7b 2e4a ace0 afc8 a6b2 1204 a732 2744  /{.J.........2'D
+-00002b90: 95c5 349e cd6e a625 a62c 4009 af99 5a07  ..4..n.%.,@...Z.
+-00002ba0: d771 14a0 9ad1 3f35 d99a 2f37 9f82 cd4a  .q....?5../7...J
+-00002bb0: d2cd 4a6d 182e c96a aa36 aba9 fe6f be25  ..Jm...j.6...o.%
+-00002bc0: 5891 8c0b 4aa4 fd82 4b6d c0fe bac5 62c7  X...J...Km....b.
+-00002bd0: 194a 297f a129 99a0 3d97 9216 17a5 042f  .J)..)..=....../
+-00002be0: 91e4 b440 5ca0 1de5 109d 846c f0e4 f992  ...@\......l....
+-00002bf0: a6e2 6fd2 2b39 7b0d b033 b1b7 22eb 5419  ..o.+9{..3..".T.
+-00002c00: 67a1 27fc bce0 82eb bad9 e17d a68c 2ac1  g.'........}..*.
+-00002c10: 33c2 d0c9 902d f245 e598 4166 a389 fec5  3....-.E..Af....
+-00002c20: a122 4ae0 7d51 83c5 7082 1eee b761 345f  ."J.}Q..p....a4_
+-00002c30: e051 ad50 099a 3418 b4c6 56ab 2c66 1735  .Q.P..4...V.,f.5
+-00002c40: fa3e 16f3 511f 80ab f501 2835 4e41 5b0b  .>..Q.....(5NA[.
+-00002c50: 8dcb 683e e232 4c4f 08a3 b073 6ca0 46bb  ..h>.2LO...sl.F.
+-00002c60: 71c5 3ed0 eb78 0468 dcf9 f1db 3c13 6a52  q.>..x.h....<.jR
+-00002c70: ee24 dd84 b3f0 5a08 8fc9 066d f067 8713  .$....Z....m.g..
+-00002c80: 7bc3 d169 ebf2 a0eb ddcb a2a9 5cec 4d63  {..i........\.Mc
+-00002c90: 7ce6 77a8 551a d8b1 17b6 010d 1ca3 baf6  |.w.U...........
+-00002ca0: 3291 5efb 22cd c98b d58a d18d 4fb6 6fb8  2.^.".......O.o.
+-00002cb0: e9db d831 fc95 1cbb 7d07 73d8 f4b7 a647  ...1....}.s....G
+-00002cc0: 14cd 6691 6db7 2f6a c09f 27db 28c6 d105  ..f.m./j..'.(...
+-00002cd0: c5f3 367d 303a f311 67ae 1f9d a238 f6a2  ..6}0:..g....8..
+-00002ce0: 330a ce30 3845 6cc3 691b 408f ea36 9c3b  3..08El.i.@..6.;
+-00002cf0: 83ea 489e 456d 4aec 0573 b2dd 6fc9 d89f  ..H.EmJ..s..o...
+-00002d00: a2f3 8442 9c73 7f9c c3cc d762 ddbf 9a57  ...B.s.....b...W
+-00002d10: 5b15 4d88 2d6b 3d86 2e63 b592 7ee6 6d45  [.M.-k=..c..~.mE
+-00002d20: 1ad6 3cb3 16f9 d3da 27d8 47e0 4a6f 3e5b  ..<.....'.G.Jo>[
+-00002d30: ceb3 986e 4ca1 c756 ee30 7f83 7d40 13d4  ...nL..V.0..}@..
+-00002d40: 6c2d db8c 7e6b 7645 6303 f6ad 2df0 8308  l-..~kvEc...-...
+-00002d50: 63be 1936 e6bc ffac 8b7d 2d50 3bb6 0326  c..6.....}-P;..&
+-00002d60: 3015 cb65 c1ff 1101 0b59 60c5 6595 1341  0..e.....Y`.e..A
+-00002d70: d007 5457 157c 0404 d5f1 9bed bd51 d5b5  ..TW.|.......Q..
+-00002d80: a8c5 0e33 047f f57a 6f2a 9fd3 2cd7 e74e  ...3...zo*..,..N
+-00002d90: f2ec de15 da61 cd64 4512 baa7 241d b4da  .....a.dE...$...
+-00002da0: 594c 0a2e 0982 3320 1370 8f0c 4b03 7c54  YL....3 .p..K.|T
+-00002db0: f1aa 2eb0 82eb 0ba5 8449 aa0e 1304 5492  .........I....T.
+-00002dc0: c1fe 74d7 b03e 4596 4b9c 41e6 eb42 d502  ..t..>E.K.A..B..
+-00002dd0: 3b17 8c91 8015 4e20 2b07 1ba3 79a5 2cad  ;.....N +...y.,.
+-00002de0: e195 fab4 4782 7c38 a44d 656d c377 359c  ....G.|8.Mem.w5.
+-00002df0: 884e 19cd 4960 cb3e e9c3 c0b4 38b0 e8a1  .N..I`.>....8...
+-00002e00: 20ae e2d3 6947 fb04 da79 398e 4a9f 28e6   ...iG...y9.J.(.
+-00002e10: 2e51 b433 6a88 db69 48e8 9681 00ee 34bb  .Q.3j..iH.....4.
+-00002e20: 57c3 6fbf bf6f 27e8 2fd7 b52b 0834 5086  W.o..o'./..+.4P.
+-00002e30: 19cc 43c2 cb4a d7db 691f fb00 a54d e3d9  ..C..J..i....M..
+-00002e40: 3818 6eaa 8aa0 7cbc 1609 592e 87e5 6c6b  8.n...|...Y...lk
+-00002e50: 1db3 4c5a 5dc0 2204 4974 6bd9 6efc ea9d  ..LZ].".Itk.n...
+-00002e60: e414 0efc cd7f 0000 00ff ff03 0050 4b03  .............PK.
+-00002e70: 0414 0006 0008 0000 0021 00e4 1261 e35c  .........!...a.\
+-00002e80: 0100 0071 0200 0011 0008 0164 6f63 5072  ...q.......docPr
+-00002e90: 6f70 732f 636f 7265 2e78 6d6c 20a2 0401  ops/core.xml ...
+-00002ea0: 28a0 0001 0000 0000 0000 0000 0000 0000  (...............
++00000920: a338 10fe 7ed2 fd07 0ef5 2b35 2640 12d4  .8..~.....+5&@..
++00000930: 6415 02dc 566a 5655 9a6d ef3e 450e 38c1  d...VjVU.m.>E.8.
++00000940: 2a60 ce98 26d5 6aff fb8d 21e4 6573 3ae5  *`..&.j...!.es:.
++00000950: ba17 b536 b687 c7cf cc3c 33dc 7dda e599  ...6.....<3.}...
++00000960: f646 45c5 7831 d2f1 ada9 6bb4 8879 c28a  .FE.x1....k..y..
++00000970: cd48 ffba 888c 81ae 5592 1409 c978 4147  .H......U....xAG
++00000980: fa3b adf4 4fe3 5f7f b9db 72f1 bae2 fc55  .;..O._...r....U
++00000990: 0380 a21a e9a9 94a5 8750 15a7 3427 d52d  .........P..4'.-
++000009a0: 2f69 0127 6b2e 7222 6129 36a8 2a05 2549  /i.'k.r"a)6.*.%I
++000009b0: 9552 2af3 0c59 a6e9 a29c b042 6f11 3c71  .R*..Y.....Bo.<q
++000009c0: 0d06 5faf 594c 031e d739 2d64 0b22 6846  .._.YL...9-d."hF
++000009d0: 24d0 af52 5656 1d5a 1e5f 0397 13f1 5a97  $..RVV.Z._....Z.
++000009e0: 46cc f312 2056 2c63 f2bd 01d5 b53c f6ee  F... V,c.....<..
++000009f0: 3705 1764 9581 db3b ec68 3b01 7f2e fc63  7..d...;.h;....c
++00000a00: 1306 abbb 098e 2eae ca59 2c78 c5d7 f216  .........Y,x....
++00000a10: a051 4bfa c27f 6c22 8ccf 42b0 bb8c c175  .QK...l"..B....u
++00000a20: 4836 12f4 8da9 1c1e 5809 f783 acdc 0396  H6......X.......
++00000a30: 7b04 c3e6 4fa3 6190 56a3 150f 82f7 4134  {...O.a.V.....A4
++00000a40: e7c0 cdd2 c777 6b96 d1e7 56ba 1a29 cb2f  .....wk...V..)./
++00000a50: 2457 99ca 742d 2395 0c13 2669 32d2 fbb0  $W..t-#...&i2...
++00000a60: e45b 7adc 00af 445d fa35 cbe0 149b 2ec6  .[z...D].5......
++00000a70: 3a1a 1fe4 fc28 b484 ae49 9dc9 0508 b983  :....(...I......
++00000a80: 0743 d71d 5a8e b204 614c 3249 4541 249d  .C..Z...aL2IEA$.
++00000a90: f242 820e f77e fdac e61a ec69 ca41 e1da  .B...~.....i.A..
++00000aa0: 9cfe 5533 41a1 b040 5fe0 2b8c 24f6 c8aa  ..U3A..@_.+.$...
++00000ab0: 7a24 32d5 6a91 8d74 f4b5 02e7 91e0 aa8a  z$2.j..t........
++00000ac0: d0ef 4c7e ae57 086a 2c67 155d 6eb6 e5d9  ..L~.W.j,g.]n...
++00000ad0: 7342 2441 2792 2597 f5f1 1f44 4b62 1509  sB$A'.%....DKb..
++00000ae0: 04a1 68e9 b6cf 3f86 0558 0baf 13e6 a314  ..h...?..X......
++00000af0: 1a3c df07 0f90 9c27 f206 a902 4124 fb4a  .<.....'....A$.J
++00000b00: be57 b9e8 2d8b 5878 78f9 2dea 4766 bfe7  .W..-.Xxx.-.Gf..
++00000b10: fac6 7418 62c3 9fd8 a131 c136 36fa 41e0  ..t.b....1.66.A.
++00000b20: 5ac3 a93b 1df6 fadf c119 e17a 3127 b54c  Z..;.......z1'.L
++00000b30: f72a 50d0 23dd 8694 5f1c cdc8 ae3b c1a6  .*P.#..._....;..
++00000b40: 57b3 e448 e39b b9ff 196a fe61 e8ce be2b  W..H.....j.a...+
++00000b50: 8755 bf7b 6674 5b1d f5a2 96da ee85 1509  .U.{ft[.........
++00000b60: df8e 74cb b2c1 a9f7 c3d2 1dc0 72db 1cbe  ..t.........r...
++00000b70: b044 a660 3118 9887 bdcf 946d 5260 8c7b  .D.`1......mR`.{
++00000b80: 8eda 84ba 50cc 46fa 19a3 a065 14c1 cf50  ....P.F....e...P
++00000b90: c319 2374 42a9 e9ac 40ad 99b5 a2a9 8627  ..#tB...@......'
++00000ba0: d56d 31b4 7035 3741 06f5 7bea 0e71 9f34  .m1.p57A..{..q.4
++00000bb0: c247 dd6b 207b 56d0 4455 1180 9cac f650  .G.k {V.DU.....P
++00000bc0: cb5d 56e4 b7cb 8829 f107 20a7 15a9 a82a  .]V....).. ....*
++00000bd0: ae98 64cd 350a 1ebc 4859 9250 f52d d1c7  ..d.5...HY.P.-..
++00000be0: eded bfdd 4c6e b077 33bd b15c f30e 9d00  ....Ln.w3..\....
++00000bf0: 836a ce2f 05a4 180a 504d 0dd7 2136 ada1  .j./....PM..!6..
++00000c00: deac 673c 01c5 e4a4 a849 a652 4177 f2a1  ..g<.....I.RAw..
++00000c10: 92cd 0cd5 c020 66d8 3627 7d73 681b 66d8  ..... f.6'}sh.f.
++00000c20: 730c 7b30 b48c 81dd b38c a91d 58a1 d30f  s.{0........X...
++00000c30: 83d0 7794 68d4 e7ca fb3f 9a76 5394 5ef7  ..w.h....?.vS.^.
++00000c40: 1d54 bc53 22e4 4290 f815 be9e 73ba f621  .T.S".B.....s..!
++00000c50: 402a 0eaa 5480 ef29 59df 19f8 660f 28da  @*..T..)Y...f.(.
++00000c60: 118e 0c1b 0f4d c3f7 5ddb 7082 a8e7 f471  .....M..].p....q
++00000c70: 300d 9de8 4856 0564 fdc1 9639 40cd db94  0...HV.d...9@...
++00000c80: c81a da89 ea24 cdda 5363 b4df 3d6c aedb  .....$..Sc..=l..
++00000c90: 8d7d c6cf 1a82 370f 9423 fbb7 ffcd f009  .}....7..#......
++00000ca0: bccf e895 c6d1 f395 86d3 2fb3 c5ec 4adb  ........../...J.
++00000cb0: 8770 b17c 89ae 359e ccfc 6072 bdfd 643e  .p.|..5...`r..d>
++00000cc0: 9ffc b908 ffe8 ae40 ff18 d036 e16a 6c64  .......@...6.jld
++00000cd0: 8a3a 998c ff06 0000 ffff 0300 504b 0304  .:..........PK..
++00000ce0: 1400 0600 0800 0000 2100 2796 d6b5 ca02  ........!.'.....
++00000cf0: 0000 0a07 0000 0d00 0000 786c 2f73 7479  ..........xl/sty
++00000d00: 6c65 732e 786d 6cb4 55db 6edb 300c 7d1f  les.xml.U.n.0.}.
++00000d10: b07f 10f4 eeca 76e3 2c09 6c17 4b53 0305  ......v.,.l.KS..
++00000d20: b661 403b 60af 8a2d 2742 7531 2425 7336  .a@;`..-'Bu1$%s6
++00000d30: ecdf 47d9 4ee2 a2dd adc3 5e62 8912 0f0f  ..G.N.....^b....
++00000d40: 0f29 26bd 6aa5 407b 662c d72a c3d1 4588  .)&.j.@{f,.*..E.
++00000d50: 1153 a5ae b8da 64f8 d37d 11cc 30b2 8eaa  .S....d..}..0...
++00000d60: 8a0a ad58 860f cce2 abfc f5ab d4ba 8360  ...X...........`
++00000d70: 775b c61c 0208 6533 bc75 ae59 1062 cb2d  w[....e3.u.Y.b.-
++00000d80: 93d4 5ee8 8629 38a9 b591 d4c1 d66c 886d  ..^..)8......l.m
++00000d90: 0ca3 95f5 4e52 9038 0ca7 4452 ae70 8fb0  ....NR.8..DR.p..
++00000da0: 90e5 9f80 486a 1e76 4d50 6ad9 50c7 d75c  ....Hj.vMPj.P..\
++00000db0: 7077 e8b0 3092 e5e2 76a3 b4a1 6b01 54db  pw..0...v...k.T.
++00000dc0: 6842 4bd4 4653 13a3 d61c 8374 d627 7124  hBK.FS.....t.'q$
++00000dd0: 2f8d b6ba 7617 804b 745d f392 3da5 3b27  /...v..Kt]..=.;'
++00000de0: 7342 cb33 1220 bf0c 294a 4818 3fca bd35  sB.3. ..)JH.?..5
++00000df0: 2f44 9a10 c3f6 dc97 0fe7 69ad 95b3 a8d4  /D........i.....
++00000e00: 3be5 321c 0351 2fc1 e241 e92f aaf0 4750  ;.2..Q/..A./..GP
++00000e10: e1e1 569e daaf 684f 0558 624c f2b4 d442  ..V...hO.XbL...B
++00000e20: 1be4 a074 a05c e42d 8a4a d6df b8a6 82af  ...t.\.-.J......
++00000e30: 0df7 c69a 4a2e 0ebd b9f3 ebaa 3ddc 931c  ....J.......=...
++00000e40: b4f7 b788 e7d1 b3c9 d335 18fe 7fac 2ea4  .........5......
++00000e50: 8598 5c88 9102 bd21 4fa1 551c 33aa 8053  ..\....!O.U.3..S
++00000e60: 34ac ef0f 0da4 aaa0 ab7b ca70 f4db db1b  4........{.p....
++00000e70: 430f 519c 8c1c 4817 10b2 d4a6 8257 74d4  C.Q...H......Wt.
++00000e80: decb dc9b f254 b0da 8106 866f b6fe eb74  .....T.....o...t
++00000e90: 03bf 6bed 1c74 5a9e 569c 6eb4 a2c2 cb76  ..k..tZ.V.n....v
++00000ea0: f418 1690 4ec9 84b8 f32f ed73 fd08 bbad  ....N..../.s....
++00000eb0: 91da c942 badb 2ac3 f066 bde0 c725 2432  ...B..*..f...%$2
++00000ec0: 2c7b bc7e e3f1 c768 3df6 0836 06ca 7f0f  ,{.~...h=..6....
++00000ed0: 8bda fa84 ff33 ef08 f83d 4fea e48d 68d3  .....3...=O...h.
++00000ee0: 8883 efd1 a1fb 3aae c06e 24c1 2301 4ea9  ......:..n$.#.N.
++00000ef0: 20df a719 fee0 c78c 808e 1fe8 a0f5 8e0b   ...............
++00000f00: c7d5 33c9 0366 d59e e50c 7d35 9d1f 199d  ..3..f....}5....
++00000f10: d0a7 28a0 6ac5 6aba 13ee fe74 98e1 f3fa  ..(.j.j....t....
++00000f20: 3dab f84e c223 1b6e 7de4 7bed 3a88 0c9f  =..N.#.n}.{.:...
++00000f30: d7ef 7cd5 a3a9 8fc1 5af7 cec2 b380 2fda  ..|.....Z...../.
++00000f40: 199e e16f 37cb 37f3 d54d 1107 b370 390b  ...o7.7..M...p9.
++00000f50: 2697 2c09 e6c9 7215 2493 ebe5 6a55 ccc3  &.,...r.$...jU..
++00000f60: 38bc fe3e 1a5c ff30 b6ba 390b 058e 260b  8..>.\.0..9...&.
++00000f70: 2b60 b899 21d9 81fc ddd9 96e1 d1a6 a7df  +`..!...........
++00000f80: f53b d01e 739f c7d3 f06d 1285 4171 1946  .;..s....m..Aq.F
++00000f90: c164 4a67 c16c 7a99 0445 12c5 abe9 6479  .dJg.lz..E....dy
++00000fa0: 9314 c988 7bf2 c2f1 1692 28ea 07a5 279f  ....{.....(...'.
++00000fb0: 2c1c 974c 7075 acd5 b142 632b 1409 b6bf  ,..Lpu...Bc+....
++00000fc0: 4882 1c2b 41ce 7f62 f90f 0000 00ff ff03  H..+A..b........
++00000fd0: 0050 4b03 0414 0006 0008 0000 0021 00c1  .PK..........!..
++00000fe0: 1710 be4e 0700 00c6 2000 0013 0000 0078  ...N.... ......x
++00000ff0: 6c2f 7468 656d 652f 7468 656d 6531 2e78  l/theme/theme1.x
++00001000: 6d6c ec59 cd8b 1b37 14bf 17fa 3f0c 7377  ml.Y...7....?.sw
++00001010: fc35 e38f 25de e0cf 6c93 dd24 649d 941c  .5..%...l..$d...
++00001020: b5b6 ec51 5633 3292 bc1b 1302 2539 f552  ...QV32.....%9.R
++00001030: 28a4 a597 426f 3d94 d240 030d bdf4 8f09  (...Bo=..@......
++00001040: 24b4 e91f d127 cdd8 23ad e524 9b6c 4a5a  $....'..#..$.lJZ
++00001050: 760d 8b47 febd a7a7 f79e 7e7a f374 f1d2  v..G......~z.t..
++00001060: bd98 7a47 980b c292 965f be50 f23d 9c8c  ..zG....._.P.=..
++00001070: d898 24d3 967f 6b38 2834 7c4f 4894 8c11  ..$...k8(4|OH...
++00001080: 6509 6ef9 0b2c fc4b db9f 7e72 116d c908  e.n..,.K..~r.m..
++00001090: c7d8 03f9 446c a196 1f49 39db 2a16 c508  ....Dl...I9.*...
++000010a0: 8691 b8c0 6638 81df 268c c748 c223 9f16  ....f8..&..H.#..
++000010b0: c71c 1d83 de98 162b a552 ad18 2392 f85e  .......+.R..#..^
++000010c0: 8262 507b 7d32 2123 ec0d 954a 7f7b a9bc  .bP{}2!#...J.{..
++000010d0: 4fe1 3191 420d 8c28 df57 aab1 25a1 b1e3  O.1.B..(.W..%...
++000010e0: c3b2 4288 85e8 52ee 1d21 daf2 619e 313b  ..B...R..!..a.1;
++000010f0: 1ee2 7bd2 f728 1212 7e68 f925 fde7 17b7  ..{..(..~h.%....
++00001100: 2f16 d156 2644 e506 5943 6ea0 ff32 b94c  /..V&D..YCn..2.L
++00001110: 607c 58d1 73f2 e9c1 6ad2 2008 835a 7ba5  `|X.s...j. ..Z{.
++00001120: 5f03 a85c c7f5 ebfd 5abf b6d2 a701 6834  _..\....Z.....h4
++00001130: 8295 a6b6 d83a eb95 6e90 610d 50fa d5a1  .....:..n.a.P...
++00001140: bb57 ef55 cb16 ded0 5f5d b3b9 1daa 8f85  .W.U...._]......
++00001150: d7a0 547f b086 1f0c bae0 450b af41 293e  ..T.......E..A)>
++00001160: 5cc3 879d 66a7 67eb d7a0 145f 5bc3 d74b  \...f.g...._[..K
++00001170: ed5e 50b7 f46b 5044 4972 b886 2e85 b56a  .^P..kPDIr.....j
++00001180: 77b9 da15 64c2 e88e 13de 0c83 41bd 9229  w...d.......A..)
++00001190: cf51 900d abec 5253 4c58 2237 e55a 8cee  .Q....RSLX"7.Z..
++000011a0: 323e 0080 0252 2449 e2c9 c50c 4fd0 08b2  2>...R$I....O...
++000011b0: b88b 2839 e0c4 db25 d308 126f 8612 2660  ..(9...%...o..&`
++000011c0: b854 290d 4a55 f8af 3e81 fea6 238a b630  .T).JU..>...#..0
++000011d0: 32a4 955d 6089 581b 52f6 7862 c4c9 4cb6  2..]`.X.R.xb..L.
++000011e0: fc2b a0d5 3720 2f9e 3d7b fef0 e9f3 87bf  .+..7 /.={......
++000011f0: 3d7f f4e8 f9c3 5fb2 b9b5 2a4b 6e07 2553  =....._...*Kn.%S
++00001200: 53ee d58f 5fff fdfd 17de 5fbf fef0 eaf1  S..._....._.....
++00001210: 37e9 d427 f1c2 c4bf fcf9 cb97 bfff f13a  7..'...........:
++00001220: f5b0 e2dc 152f be7d f2f2 e993 17df 7df5  ...../.}......}.
++00001230: e74f 8f1d dadb 1c1d 98f0 2189 b1f0 aee1  .O........!.....
++00001240: 63ef 268b 6181 0efb f101 3f9d c430 42c4  c.&.a.....?..0B.
++00001250: 9240 11e8 76a8 eecb c802 5e5b 20ea c275  .@..v.....^[ ..u
++00001260: b0ed c2db 1c58 c605 bc3c bf6b d9ba 1ff1  .....X...<.k....
++00001270: b924 8e99 af46 b105 dc63 8c76 1877 3ae0  .$...F...c.v.w:.
++00001280: aa9a cbf0 f070 9e4c dd93 f3b9 89bb 89d0  .....p.L........
++00001290: 916b ee2e 4aac 00f7 e733 a057 e252 d98d  .k..J....3.W.R..
++000012a0: b065 e60d 8a12 89a6 38c1 d253 bfb1 438c  .e......8..S..C.
++000012b0: 1dab bb43 88e5 d73d 32e2 4cb0 89f4 ee10  ...C...=2.L.....
++000012c0: af83 88d3 2543 7260 2552 2eb4 4362 88cb  ....%Cr`%R..Cb..
++000012d0: c265 2084 daf2 cdde 6daf c3a8 6bd5 3d7c  .e .....m...k.=|
++000012e0: 6423 615b 20ea 307e 88a9 e5c6 cb68 2e51  d#a[ .0~.....h.Q
++000012f0: ec52 3944 3135 1dbe 8b64 e432 727f c147  .R9D15...d.2r..G
++00001300: 26ae 2f24 447a 8a29 f3fa 632c 844b e63a  &./$Dz.)..c,.K.:
++00001310: 87f5 1a41 bf0a 0ce3 0efb 1e5d c436 924b  ...A.......].6.K
++00001320: 72e8 d2b9 8b18 3391 3d76 d88d 503c 73da  r.....3.=v..P<s.
++00001330: 4c92 c8c4 7e26 0e21 4591 7783 4917 7c8f  L...~&.!E.w.I.|.
++00001340: d93b 443d 431c 50b2 31dc b709 b6c2 fd66  .;D=C.P.1......f
++00001350: 22b8 05e4 6a9a 9427 88fa 65ce 1db1 bc8c  "...j..'..e.....
++00001360: 99bd 1f17 7482 b08b 65da 3cb6 d8b5 cd89  ....t...e.<.....
++00001370: 333b 3af3 a995 dabb 1853 748c c618 7bb7  3;:......St...{.
++00001380: 3e73 58d0 6133 cbe7 b9d1 5722 6095 1dec  >sX.a3....W"`...
++00001390: 4aac 2bc8 ce55 f59c 6001 6592 aa6b d629  J.+..U..`.e..k.)
++000013a0: 7297 082b 65f7 f194 6db0 676f 7182 7816  r..+e...m.goq.x.
++000013b0: 2889 11df a4f9 1a44 dd4a 5d38 e59c 547a  (......D.J]8..Tz
++000013c0: 9d8e 0e4d e035 02e5 1fe4 8bd3 29d7 05e8  ...M.5......)...
++000013d0: 3092 bbbf 49eb 8d08 5967 977a 16ee 7c5d  0...I...Yg.z..|]
++000013e0: 702b 7e6f b3c7 605f de3d edbe 0419 7c6a  p+~o..`_.=....|j
++000013f0: 1920 f6b7 f6cd 1051 6b82 3c61 8608 0a0c  . .....Qk.<a....
++00001400: 17dd 8288 15fe 5c44 9dab 5a6c ee94 9bd8  ......\D..Zl....
++00001410: 9b36 0f03 1446 56bd 1393 e48d c5cf 89b2  .6...FV.........
++00001420: 27fc 77ca 1e77 0173 0605 8f5b f1fb 943a  '.w..w.s...[...:
++00001430: 9b28 65e7 4481 b309 f71f 2c6b 7a68 9edc  .(e.D.....,kzh..
++00001440: c070 92ac 73d6 7955 735e d5f8 fffb aa66  .p..s.yUs^.....f
++00001450: d35e 3eaf 65ce 6b99 f35a c6f5 f6f5 416a  .^>.e.k..Z....Aj
++00001460: 99bc 7c81 ca26 eff2 e89e 4fbc b1e5 3321  ..|..&....O...3!
++00001470: 94ee cb05 c5bb 4277 7d04 bcd1 8c07 30a8  ......Bw}.....0.
++00001480: db51 ba27 b96a 01ce 22f8 9a35 982c dc94  .Q.'.j.."..5.,..
++00001490: 232d e371 263f 2732 da8f d00c 5a43 65dd  #-.q&?'2....ZCe.
++000014a0: c09c 8a4c f554 7833 26a0 63a4 8775 2b15  ...L.Tx3&.c..u+.
++000014b0: 9fd0 adfb 4ef3 788f 8dd3 4e67 b9ac ba9a  ....N.x...Ng....
++000014c0: a90b 0592 f978 295c 8d43 974a a6e8 5a3d  .....x)\.C.J..Z=
++000014d0: efde add4 eb7e e854 7759 9706 28d9 d318  .....~.TwY..(...
++000014e0: 614c 661b 5175 1851 5f0e 4214 5e67 845e  aLf.Qu.Q_.B.^g.^
++000014f0: d999 58d1 7458 d150 ea97 a15a 4671 e50a  ..X.tX.P...ZFq..
++00001500: 306d 1515 78e5 f6e0 45bd e587 41da 4186  0m..x...E...A.A.
++00001510: 661c 94e7 6315 a7b4 99bc 8cae 0ace 9946  f...c..........F
++00001520: 7a93 33a9 9901 5062 2f33 208f 7453 d9ba  z.3...Pb/3 .tS..
++00001530: 7179 6a75 69aa bd45 a42d 238c 74b3 8d30  qyjui..E.-#.t..0
++00001540: d230 8217 e12c 3bcd 96fb 59c6 ba99 87d4  .0...,;...Y.....
++00001550: 324f b962 b91b 7233 ea8d 0f11 6b45 2227  2O.b..r3....kE"'
++00001560: b881 2626 53d0 c43b 6ef9 b56a 08b7 2a23  ..&&S..;n..j..*#
++00001570: 346b f913 e818 c3d7 7806 b923 d45b 17a2  4k......x..#.[..
++00001580: 53b8 7619 499e 6ef8 7761 9619 17b2 8744  S.v.I.n.wa.....D
++00001590: 943a 5c93 4eca 0631 9198 7b94 c42d 5f2d  .:\.N..1..{..-_-
++000015a0: 7f95 0d34 d11c a26d 2b57 8010 3e5a e39a  ...4...m+W..>Z..
++000015b0: 402b 1f9b 7110 743b c878 32c1 2369 86dd  @+..q.t;.x2.#i..
++000015c0: 1851 9e4e 1f81 e153 ae70 feaa c5df 1dac  .Q.N...S.p......
++000015d0: 24d9 1cc2 bd1f 8d8f bd03 3ae7 3711 a458  $.........:.7..X
++000015e0: 582f 2b07 8e89 808b 8372 eacd 3181 9bb0  X/+......r..1...
++000015f0: 1591 e5f9 77e2 60ca 68d7 bc8a d239 948e  ....w.`.h....9..
++00001600: 233a 8b50 76a2 9864 9ec2 3589 aecc d14f  #:.Pv..d..5....O
++00001610: 2b1f 184f d99a c1a1 eb2e 3c98 aa03 f6bd  +..O......<.....
++00001620: 4fdd 371f d5ca 7306 69e6 67a6 c52a ead4  O.7...s.i.g..*..
++00001630: 7493 e987 3be4 0dab f243 d4b2 2aa5 6efd  t...;....C..*.n.
++00001640: 4e2d 72ae 6b2e b90e 12d5 794a bce1 d47d  N-r.k.....yJ...}
++00001650: 8b03 c130 2d9f cc32 4d59 bc4e c38a b3b3  ...0-..2MY.N....
++00001660: 51db b433 2c08 0c4f d436 f86d 7546 383d  Q..3,..O.6.muF8=
++00001670: f1ae 273f c89d cc5a 7540 2ceb 4a9d f8fa  ..'?...Zu@,.J...
++00001680: cadc bcd5 6607 7781 3c7a 707f 38a7 52e8  ....f.w.<zp.8.R.
++00001690: 5042 6f97 2328 fad2 1bc8 9436 608b dc93  PBo.#(.....6`...
++000016a0: 598d 08df bc39 272d ff7e 296c 07dd 4ad8  Y....9'-.~)l..J.
++000016b0: 2d94 1a61 bf10 5483 52a1 11b6 ab85 7618  -..a..T.R.....v.
++000016c0: 56cb fdb0 5cea 752a 0fe0 6091 515c 0ed3  V...\.u*..`.Q\..
++000016d0: ebfa 015c 61d0 4576 69af c7d7 2eee e3e5  ...\a.Evi.......
++000016e0: 2dcd 8511 8b8b 4c5f cc17 b5e1 fae2 be5c  -.....L_.......\
++000016f0: d97c 71ef 1120 9dfb b5ca a059 6d76 6a85  .|q.. .....Ymvj.
++00001700: 66b5 3d28 04bd 4ea3 d0ec d63a 855e ad5b  f.=(..N....:.^.[
++00001710: ef0d 7add b0d1 1c3c f0bd 230d 0eda d56e  ..z....<..#....n
++00001720: 50eb 370a b572 b75b 086a 2565 7ea3 59a8  P.7..r.[.j%e~.Y.
++00001730: 0795 4a3b a8b7 1bfd a0fd 202b 6360 e529  ..J;...... +c`.)
++00001740: 7d64 be00 f76a bbb6 ff01 0000 ffff 0300  }d...j..........
++00001750: 504b 0304 1400 0600 0800 0000 2100 f5db  PK..........!...
++00001760: 71cd 3213 0000 d095 0000 1800 0000 786c  q.2...........xl
++00001770: 2f77 6f72 6b73 6865 6574 732f 7368 6565  /worksheets/shee
++00001780: 7431 2e78 6d6c 9c93 cb8e db20 1486 f795  t1.xml..... ....
++00001790: fa0e 887d 8ced 64dc 8e15 6754 651a 75a4  ...}..d...gTe.u.
++000017a0: 2eaa 5ed7 181f c728 605c 2037 557d f71e  ..^....(`\ 7U}..
++000017b0: ec38 8994 4d3a 960d 98cb f7ff 070e f3a7  .8..M:..........
++000017c0: 8356 6407 d649 d316 3489 624a a015 a692  .Vd..I..4.bJ....
++000017d0: edba a03f beaf 26ef 2971 9eb7 1557 a685  ...?..&.)q...W..
++000017e0: 821e c1d1 a7c5 db37 f3bd b11b d700 7882  .......7......x.
++000017f0: 84d6 15b4 f1be cb19 73a2 01cd 5d64 3a68  ........s...]d:h
++00001800: 71a4 3656 738f bf76 cd5c 6781 57fd 22ad  q.6Vs..v.\g.W.".
++00001810: 581a c719 d35c b674 20e4 f61e 86a9 6b29  X....\.t .....k)
++00001820: e0d9 88ad 86d6 0f10 0b8a 7bf4 ef1a d9b9  ..........{.....
++00001830: 91a6 c53d 38cd ed66 db4d 84d1 1d22 4aa9  ...=8..f.M..."J.
++00001840: a43f f650 4ab4 c85f d6ad b1bc 5418 f721  .?.PJ.._....T..!
++00001850: 9971 410e 16df 14bf e928 d3f7 df28 6929  .qA......(...(i)
++00001860: ac71 a6f6 1192 d9e0 f936 fc47 f6c8 b838  .q.......6.G...8
++00001870: 936e e3bf 0b93 cc98 859d 0c07 7841 a5af  .n..........xA..
++00001880: b394 3c9c 59e9 0536 7d25 2c3b c3c2 76d9  ..<.Y..6}%,;..v.
++00001890: 7c2b ab82 fe89 4fcf 04eb 2414 f1a5 18c7  |+....O...$.....
++000018a0: fed2 c5bc 9278 c221 2a62 a12e e887 245f  .....x.!*b....$_
++000018b0: a659 4cd9 62de 67d0 4f09 7b77 d526 9e97  .YL.b.g.O.{w.&..
++000018c0: df40 81f0 802a 0925 de74 9fa1 f64b 502a  .@...*.%.t...KP*
++000018d0: ac46 0b21 654b 6336 61e9 0b4e 8a51 c5f5  .F.!eKc6a..N.Q..
++000018e0: 4b82 0a17 5eee 6098 fe31 c5e9 ee77 2f1c  K...^.`..1...w/.
++000018f0: da28 cace aad7 edd1 c1aa 4ff3 2f96 94dc  .(........O./...
++00001900: c1d2 a85f b2f2 0dda c0eb 5441 cdb7 ca5f  ..._......TA..._
++00001910: 75a2 b953 e757 b3ff 0472 dd78 9c9a e11e  u..S.W...r.x....
++00001920: 8524 cbab e333 3881 d98d 0ea3 3468 0ba3  .$...38.....4h..
++00001930: 5008 4ba2 65b8 a598 9cfc d0d7 fb41 6736  P.K.e........Ag6
++00001940: 8b92 6c16 67e9 0325 2538 bf92 8148 89d8  ..l.g..%%8...H..
++00001950: 3a6f f468 e684 1a20 78be 3d04 eb13 2479  :o.h... x.=...$y
++00001960: f7df 1094 eb21 589f 20d3 38ca 4627 b7ea  .....!X. .8.F'..
++00001970: ac8f e41f 0000 00ff ff00 0000 ffff 949d  ................
++00001980: d1ae db36 1645 7f25 c87b 1d93 9225 b948  ...6.E.%.{...%.H
++00001990: 03cc bde9 875c 642e d0a7 cea0 37e8 ccfc  .....\d.....7...
++000019a0: fd1c cab4 c5cd 436e 7af7 a9e8 d149 5669  ......Cnz....IVi
++000019b0: 6a99 a2b4 adaf 1f7f bcbf fffc fef6 f3ed  j...............
++000019c0: dbd7 bffe f59f 4f7f fdf6 397c fef4 f1ef  ......O...9|....
++000019d0: b73f 3fec df7e 9d3e 7ffa 6f98 df7e fcfa  .??..~.>..o..~..
++000019e0: cfff 7d7f fff8 f1fe e7cf df3e 9f4f f1f3  ..}........>.O..
++000019f0: b7af 3fd2 a1ff 48c7 ee1d f6df 3fec bffe  ..?...H.....?...
++00001a00: fded fcf5 cbdf dfbe 7ef9 918f 78f1 4704  ........~...x.G.
++00001a10: 3ce2 d51f 111f 477c 31a6 0758 14c0 ecd8  <.....G|1..X....
++00001a20: 07d2 3255 4c65 71de 2a9c f43f 67ff 1ba7  ..2ULeq.*..?g...
++00001a30: b01d 15c0 b031 797a 7cec d807 c665 a930  .....1yz|....e.0
++00001a40: cae2 7cad 30a6 1d23 9ec2 15ff f9fd 97ce  ..|.0..#........
++00001a50: e8cc 0296 1ddb c72a 8bf3 5a61 cd2a d645  .......*..Za.*.E
++00001a60: c0b2 63fb 5850 ac66 d9eb 45c5 5a04 2c3b  ..c.XP.f..E.Z.,;
++00001a70: b68f 5516 e7ea 137e 5d54 ac55 c0b2 63fb  ..U....~]T.U..c.
++00001a80: 5865 d14d f155 c5da 042c 3bf6 8155 9f78  Xe.M.U...,;..U.x
++00001a90: 65cd cdf8 6da7 3aec 0027 dd55 20b0 63bb  e...m.:..'.U .c.
++00001aa0: 0465 cd4d ee2b 2308 67c5 8b76 7097 21fd  .e.M.+#.g..vp.!.
++00001ab0: 49c7 2757 4f65 ab26 0175 c621 4876 b683  I.'WOe.&.u.!Hv..
++00001ac0: fb14 65d1 cd5c fb7b 1885 a2e2 50ea b69e  ..e..\.{....P...
++00001ad0: 1150 7413 d5aa 8c42 3171 286d bb54 d27f  .Pt....B1q(m.T..
++00001ae0: 81aa 9b99 5665 188a 7943 6957 8f41 dd6b  ....Ve..yCiW.A.k
++00001af0: bd0c 4331 6d28 6dea 31a8 6bad 9761 2866  ..C1m(m.1.k..a(f
++00001b00: 0da5 3d3d 0675 abf5 320c c5a4 a1b4 a5c7  ..==.u..2.......
++00001b10: a02e b55e 86a1 9833 801e eb75 1414 eb45  ...^...3...u...E
++00001b20: 8bb5 320a c59e 0114 5953 94c5 8b53 1715  ..2.....YS...S..
++00001b30: 6854 049a 0e7e a86b aed7 6f50 acbf 74ad  hT...~.k..oP..t.
++00001b40: 958c 4554 049a 0eee 5340 b15e 2859 2ba3  ..ET....S@.^(Y+.
++00001b50: 90d6 b2b0 5ead c702 8af5 2a32 5281 4645  ....^.....*2R.FE
++00001b60: a0e9 e063 497d a931 a0ea 3e92 9b40 7fe9  ...cI}.1..>..@..
++00001b70: 7ca9 45c5 a0e9 e083 a31a f617 ac3a 8e9b  |.E..........:..
++00001b80: 41bb 1c8a 4223 48b2 1e0e 2856 f3f7 d55a  A...B#H...(V...Z
++00001b90: d3dc e862 280a 8db0 3aad 31a0 585f 7859  ...b(...:.1.X_xY
++00001ba0: 2bc5 5014 1a61 355a 6340 b15a 02bc 5a2b  +.P..a5Zc@.Z..Z+
++00001bb0: c550 141a 4b4b ba39 0ac5 e332 6abf 947d  .P..KK.9...2j..}
++00001bc0: b556 8aa1 3834 969a ac2f fba0 e8d6 1a56  .V..84.../.....V
++00001bd0: 4d18 d753 8c61 3e1f ff1c 6736 5e8c 2a52  M..S.a>...g6^.*R
++00001be0: 9d4a 6fba ab51 906a ad33 6b95 b014 cb4e  .Jo..Q.j.3k....N
++00001bf0: a548 1d56 5974 df38 d62a 6129 da9d 600f  .H.VYt.8.*a)..`.
++00001c00: a1be 7607 edd6 9eb1 5609 4bda 5200 d3d6  ..v.....V.K.R...
++00001c10: 58b0 a750 af12 a69b 869f 9e5b 8a96 a752  X..P.......[...R
++00001c20: cbb5 95a1 e83f c49b 959f c652 2c3d 9522  .....?.....R,=."
++00001c30: 7658 65d1 5d7c 58ab f421 2ad6 9e4a 313b  vXe.]|X..!*..J1;
++00001c40: 2c58 f7ba 8da1 9bb5 9f1e 2dc5 e253 296a  ,X........-..S)j
++00001c50: 8705 eb60 2788 9bc5 9fc6 52ac 3e95 e276  ...`'.....R.>..v
++00001c60: 58b0 3076 67e2 cdea 4f63 2996 9f4a cbd7  X.0vg...Oc)..J..
++00001c70: 5794 50f4 bb7b 37cb afa7 e5f8 9202 afcf  W.P..{7.........
++00001c80: 8ad7 d3c1 8f25 510d 0245 bf9f 77f3 3a01  .....%Q..E..w.:.
++00001c90: 514c 3e97 b276 20d4 e4d6 9ace 3602 a2b8  QL>..v .....6...
++00001ca0: 7b2e f5ec 40a8 bbad 7500 a2d8 7a2e 85ec  {...@...u...z...
++00001cb0: 40a8 adad 7500 226d f996 7eae 9cf2 32c3  @...u."m..~...2.
++00001cc0: be43 6d1c abee 20f3 a9b7 f5ac 1879 2ea5  .Cm... ......y..
++00001cd0: eb40 c0c8 6ef3 f966 e4b5 0fa2 3878 2e35  .@..n..f....8x.5
++00001ce0: eb40 60e5 5c5f e85a eb60 4414 ebce a558  .@`.\_.Z.`D....X
++00001cf0: 1d08 58b7 d69b b50e 4014 cfce a54a 1d08  ..X.....@....J..
++00001d00: dd80 b0d6 0188 62d6 b934 6ba8 6f29 41d5  ......b..4k.o)A.
++00001d10: a9d5 aa89 24ae c775 0698 f5a2 9835 1dfc  ....$..u.....5..
++00001d20: 30ab 0381 aa53 ab55 3988 62d6 4b29 4f0f  0....S.U9.b.K)O.
++00001d30: 42d5 6abd 1c44 31eb a594 a707 a16a b55e  B.j..D1......j.^
++00001d40: 0ea2 98f5 52ca d383 50b5 5a2f 0751 cc7a  ....R...P.Z/.Q.z
++00001d50: 81bb 69f5 f204 aa6e b25a 3581 84d3 e5e8  ..i....n.Z5.....
++00001d60: c3d9 2add 3f83 5d07 4742 dd7a c9bb ba7d  ..*.?.].GB.z...}
++00001d70: 12c5 ad17 d0a7 23a1 72b5 dec1 9828 72bd  ......#.r....(r.
++00001d80: c0de 8323 a176 b5de 0189 62d7 0b6c 3f38  ...#.v....b..l?8
++00001d90: 12aa 57eb 1d90 287a bd80 5e6b d143 d5cf  ..W...(z..^k.C..
++00001da0: d89b 5e2f 97e2 9483 19bb 287e 4d07 1f7e  ..^/......(~M..~
++00001db0: ad49 a0ea fc6a d534 2684 4411 ec02 8275  .I...j.4&.D....u
++00001dc0: 2454 b0d6 3b20 510c bb80 611d 0935 acf5  $T..; Q...a..5..
++00001dd0: 0e48 14c5 2ea0 5847 4215 6bbd 0312 c5b1  .H....XGB.k.....
++00001de0: 4be9 d850 6fec 41d5 cd58 abde 64df 9db1  K..Po.A..X..d...
++00001df0: 8a63 97d2 a29e 843a d67a 0724 8a63 97d2  .c.....:.z.$.c..
++00001e00: a29e 843a d67a 0724 8a63 97d2 a29e 843a  ...:.z.$.c.....:
++00001e10: d67a 0724 8a63 97d2 a29e 843a d67a 0724  .z.$.c.....:.z.$
++00001e20: 8a63 1770 6cbd ab09 553f 63b3 63af 9dfb  .c.pl...U?c.c...
++00001e30: 25ab a2d8 74f0 a1d8 1a04 aa4e b156 dd4f  %...t......N.V.O
++00001e40: e22e 8862 d815 0ceb 40a8 61ad 9783 2882  ...b....@.a...(.
++00001e50: 5d41 b00e 840a d67a 3988 e2d7 15fc ea40  ]A.....z9......@
++00001e60: a85f ad97 8328 7a5d 41af d59d 9117 a8ba  ._...(z]A.......
++00001e70: c96a d51d 64e9 ac60 57c5 aee9 e063 b23a  .j..d..`W....c.:
++00001e80: 106a 57eb e520 8a5c 5790 ab03 a172 b55e  .jW.. .\W....r.^
++00001e90: 0ea2 b875 05b7 3a10 ea56 ebe5 208a 5a57  ...u..:..V.. .ZW
++00001ea0: 50ab 03a1 6ab5 5e0e a298 7505 b3d6 0f14  P...j.^...u.....
++00001eb0: 41d5 4fd6 bcef bacd c7a6 02ac 5e37 45ad  A.O.........^7E.
++00001ec0: e9e0 63b6 ba87 dde8 0d35 eb4d 43b2 f649  ..c......5.MC..I
++00001ed0: 14b7 6ee0 5647 42dd 6abd 0312 45ae 1bc8  ..n.VGB.j...E...
++00001ee0: d591 50b9 5aef 8044 b1eb 0676 7524 d4ae  ..P.Z..D...vu$..
++00001ef0: d63b 2051 f4ba 815e abdb f02f 50f5 4f45  .; Q...^.../P.OE
++00001f00: def4 3adb cde0 f653 d19b e2d7 74f0 3163  ..:....S....t.1c
++00001f10: 1d09 f5ab f5a6 3121 248a 6037 10ac 23a1  ......1!$.`7..#.
++00001f20: 82b5 de01 8962 d80d 0ceb 48a8 61ad 7740  .....b....H.a.w@
++00001f30: a228 7603 c53a 12aa 58eb 1d90 288e ddc0  .(v..:..X...(...
++00001f40: b1f5 f357 5075 b773 ad9a 4896 6de9 ccd8  ...WPu.s..H.m...
++00001f50: abe2 d874 f031 636b 12a8 ba3b b856 1d90  ...t.1ck...;.V..
++00001f60: 288e bd82 631d 4959 758f d35a ef80 4471  (...c.IYu..Z..Dq
++00001f70: ec15 1ceb 48c0 b1f5 3d14 eb1d 9028 8ebd  ....H...=....(..
++00001f80: 8263 1d09 38b6 bead 64bd 0312 c5b1 5770  .c..8...d.....Wp
++00001f90: 6cbd bb06 55e7 58ab eee7 cea9 78f6 139f  l...U.X.....x...
++00001fa0: 3e57 1c7b 05c7 3a12 ea58 eb1d 9028 8ebd  >W.{..:..X...(..
++00001fb0: 8263 1d09 75ac f50e 4814 c75e c1b1 8e84  .c..u...H..^....
++00001fc0: 3ad6 7a07 248a 63af e058 4742 1d6b bd03  :.z.$.c..XGB.k..
++00001fd0: 12c5 b157 706c 7d6f 18aa de6c 37c7 6eb1  ...Wpl}o...l7.n.
++00001fe0: e7d8 7056 24bb 1f7d 58d6 3d1d 9ffe b0e3  ..pV$..}X.=.....
++00001ff0: 39d8 fa26 64ea 4ee3 c268 14d1 8633 98d6  9..&d.N..h...3..
++00002000: d3d0 e56c ea1e d128 b20d 67b0 ada7 a1ba  ...l...(..g.....
++00002010: 4ddd 231a 45b8 e10c c6f5 3454 b9a9 7b44  M.#.E.....4T..{D
++00002020: a348 379c 4beb c67a c582 651f abb0 ee44  .H7.K..z..e....D
++00002030: 13cf 6b67 a510 ce8a 78f7 a31f d3b4 4143  ..kg....x.....AC
++00002040: d59b ba47 348a 7cc3 b9f4 6b83 86ea 3775  ...G4.|...k...7u
++00002050: 8f68 1401 8773 e9d8 060d 5570 ea1e d128  .h...s....Up...(
++00002060: 120e e7d2 b30d 1aaa e1d4 3da2 5144 1cce  ..........=.QD..
++00002070: a589 a34b b042 b931 8b6f 2e9e 62e7 51ae  ...K.B.1.o..b.Q.
++00002080: a025 c720 1de6 61a0 ec36 6cd3 df95 8686  .%. ..a..6l.....
++00002090: c048 264e 71b3 e38c 7223 0365 1f07 c921  .H&Nq...r#.e...!
++000020a0: 3202 2389 18b2 628d 91a1 7b0b 2167 c908  2.#...b...{.!g..
++000020b0: 8ce4 6148 8c35 60e8 f642 c889 3202 2369  ..aH.5`..B..2.#i
++000020c0: 1852 65b1 de9b 0b50 f613 38e7 cad6 b977  .Re....P..8....w
++000020d0: 832c a4b8 d8f3 9970 0897 3568 b886 73bc  .,.....p..5h..s.
++000020e0: 8cd1 481a 868c 5983 866b 38a7 cc18 8da4  ..H...Y..k8.....
++000020f0: 6188 9a35 68b8 8673 d88c d148 1a86 c459  a..5h..s...H...Y
++00002100: 8386 6b38 87ce 188d a461 489e 4597 14c5  ..k8.....aH.E...
++00002110: 605a 7d35 19ac bc2f 6dae bd8d b220 05d0  `Z}5.../m.... ..
++00002120: f6a3 0ff5 f9dc 2add dd4d dd23 1a49 c490  ......*..M.#.I..
++00002130: 44f3 6303 652f e21c 46db c8d8 4826 b658  D.c.e/..F...H&.X
++00002140: 59f1 b5e0 c786 9b38 87d2 188d a462 48a6  Y......8.....bH.
++00002150: 35c6 86ab d8ba 479f 94e4 6248 a0c5 7a4b  5.....G...bH..zK
++00002160: 2440 d9bb d8ca 8966 59fb b358 7231 a4d4  $@.....fY..Xr1..
++00002170: 1a34 dcc5 39a8 c668 2417 4358 ad41 c35d  .4..9..h$.CX.A.]
++00002180: 9cf3 6a8c 4672 3164 d61a 34dc c539 b6c6  ..j.Fr1d..4..9..
++00002190: 6824 1743 74ad 41c3 5d9c d36b 8c46 7231  h$.Ct.A.]..k.Fr1
++000021a0: 84d4 2ef5 0337 01cb 2e07 9c43 6c53 e711  .....7.....ClS..
++000021b0: dc90 8268 cfaf 2720 b6e6 59a0 ec7f c820  ...h..' ..Y.... 
++000021c0: 27d7 fa2c 9287 21ab d660 815d e07a ef35  '..,..!..`.].z.5
++000021d0: e4b8 5a9f 45b2 3004 d41a 2c60 6197 18cf  ..Z.E.0...,`a...
++000021e0: 19b5 3e8b e460 8b96 1ddf 080d 16be 2d91  ..>..`........-.
++000021f0: 8369 7d16 c9c0 9036 2bae caf6 9ca7 fdd4  .i}....6+.......
++00002200: 030d 3ba4 f2fe 7d70 5a0f 77c3 6670 4899  ..;...}pZ.w.fpH.
++00002210: 3261 f696 8a6d d070 03e7 10da 4668 2403  2a...m.p....Fh$.
++00002220: 43f0 ac41 c30d 6cdd a3b1 910c 0c79 b306  C..A..l......y..
++00002230: 0d37 b075 8f68 2403 43cc ac41 c30d 6cdd  .7.u.h$.C..A..l.
++00002240: 231a c9c0 1020 8bf5 c341 81e7 cb52 39d1  #.... ...A...R9.
++00002250: ccd7 e2d2 1467 b194 30b3 bbcf e58a cfd1  .....g..0.......
++00002260: f090 59ea 1ed1 4816 869c 991f 1b28 fbd5  ..Y...H......(..
++00002270: 708e 9ab1 b191 3c0c 61b3 060d 5f0d e7bc  p.....<.a..._...
++00002280: 19a3 914c 0c89 b306 0d5f 0de7 d019 a391  ...L....._......
++00002290: 5c0c c9b2 58df 6e09 3c78 96ca fb39 35f5  \...X.n.<x...95.
++000022a0: 67b1 e462 c89e 3568 b88b ad7b 4423 b918  g..b..5h...{D#..
++000022b0: 0268 0d1a eee2 9c41 dbc8 d848 2e86 145a  .h.....A...H...Z
++000022c0: 8386 bb38 07d1 188d e462 88a2 3568 b88b  ...8.....b..5h..
++000022d0: 731a 8dd1 482e 86c4 5971 cb2d af28 7820  s...H...Yq.-.(x 
++000022e0: 2ddc 1369 dba1 4d54 b114 490b 903a f330  -..i..MT..I..:.0
++000022f0: 3c94 96ba f7bd f33e 8c64 62c8 a535 60f8  <......>.db..5`.
++00002300: adba 7b32 ad0f 2389 18b2 690d 182e e27b  ..{2..#...i....{
++00002310: 3aad 0f23 7918 f269 0d18 eee1 7b42 ad0f  :..#y..i....{B..
++00002320: 2369 1852 68d1 dd35 e421 b590 536a 97e5  #i.Rh..5.!..Sj..
++00002330: dabb 4f67 e931 6149 9c8e 3eb6 d63c 0dd7  ..Og.1aI..>..<..
++00002340: 704e aa31 1a49 c390 556b 8c0d d770 4eab  pN.1.I..Uk...pN.
++00002350: 311a 49c3 9057 6bd0 700d e7c4 1aa3 9134  1.I..Wk.p......4
++00002360: 0c99 b506 0dd7 704e ad31 1a49 c390 4c8b  ......pN.1.I..L.
++00002370: 751e 29f0 e05a 2a27 f3d9 0edc b937 8da5  u.)..Z*'.....7..
++00002380: ec5a 8078 9ac7 e1e9 b5d4 3dc4 9154 0c09  .Z.x......=..T..
++00002390: b606 0e57 71ce b0d1 d191 640c 31b6 060e  ...Wq.....d.1...
++000023a0: 9771 0eb2 511c 49c7 9065 6be0 701d e734  .q..Q.I..ek.p..4
++000023b0: 1bc5 9184 0c91 b5c9 dd58 e589 b690 236d  .........X....#m
++000023c0: b3fd 1473 f113 51e7 736f bf2d 85d6 9edf  ...s..Q.so.-....
++000023d0: b180 885b 838d eb39 87dc 9e67 9364 0da1  ...[...9...g.d..
++000023e0: b706 1b97 758e bd3d cf26 a91b 6270 0d36  ....u..=.&..bp.6
++000023f0: aeee 1c84 7b9e 4d12 3904 e31a 6c5c e439  ....{.M.9...l\.9
++00002400: 1af7 3c9b a475 08c3 4dee 2122 9e95 0b56  ..<..u..M.!"...V
++00002410: be79 74ed 6a5d cacb 0588 c479 1c9e 984b  .yt.j].....y...K
++00002420: dd43 1c49 eb10 9b6b e070 ade7 e05c 8864  .C.I...k.p...\.d
++00002430: 7424 ad43 78ae 81c3 b59e e373 1447 d23a  t$.Cx......s.G.:
++00002440: 44e8 1a38 5ceb 3944 4771 24ad 4354 6e72  D..8\.9DGq$.CTnr
++00002450: 0f62 f024 5db8 47e9 d6de 9344 5296 2e40  .b.$].G....DR..@
++00002460: 98ae 01c3 3d7e 8fd3 f561 2471 43a0 ae01  ....=~...a$qC...
++00002470: c3c5 7d8f d4f5 6124 5343 a8ae 01c3 4d7d  ..}...a$SC....M}
++00002480: 8fd5 f561 2435 43b0 ae01 c3d5 7c8f d6f5  ...a$5C.....|...
++00002490: 6124 1743 7cae b81f 9377 3a78 ba2e 5879  a$.C|....w:x..Xy
++000024a0: df5c e85f 284a f9ba 0001 3b4f 0365 ff2c  .\._(J....;O.e.,
++000024b0: 5c8e d845 4223 9918 4276 0d1a 6ee2 1cb3  \..EB#..Bv..n...
++000024c0: 6334 9288 2168 d7a0 e122 ce51 3b46 2379  c4..!h...".Q;F#y
++000024d0: 18c2 760d 1aee e11c b763 3492 8621 5237  ..v......c4..!R7
++000024e0: b967 3078 e22e 5879 dfe7 8da7 9e87 a5cc  .g0x..Xy........
++000024f0: 5d80 d05d 8386 7b38 c7ee 3642 2389 1882  ]..]..{8..6B#...
++00002500: 770d 1a2e e21c bd63 3492 8921 7cd7 a0e1  w......c4..!|...
++00002510: 26ce f13b 4623 a918 0278 0d1a aee2 1cc1  &..;F#...x......
++00002520: 6334 928b 2166 37b9 6730 a0dc b0df 3d22  c4..!f7.g0....="
++00002530: d29d c552 0e2f 40d4 ced3 40b9 f1cb f0f7  ...R./@...@.....
++00002540: 8848 9f46 7231 84f1 1a34 f01c 860b ace4  .H.Fr1...4......
++00002550: 381e f9a4 52c4 eef9 2b66 08e4 3568 f893  8...R...+f..5h..
++00002560: 1839 92c7 6824 1743 28af 41c3 9fc5 c8b1  .9..h$.C(.A.....
++00002570: 3c46 23b9 18a2 7793 bb73 cc93 7921 47f3  <F#...w..s..y!G.
++00002580: c2f5 b4e1 7b90 da61 e890 c277 c2e7 56aa  ....{..a...w..V.
++00002590: b7c1 c6cd 9cc3 7acf b349 9e86 f05e 838d  ......z..I...^..
++000025a0: 7b3a c7f7 9e67 93ac 0d71 be06 1bb7 760e  {:...g...q....v.
++000025b0: f43d cf26 391c 027e 0d36 eef0 1cf1 7b9e  .=.&9..~.6....{.
++000025c0: 4d32 3a84 fa26 7737 1c33 7fee 0967 2ba7  M2:..&w7.3...g+.
++000025d0: 75c9 7a3d 757e 6ac5 3603 9557 a441 aacf  u.z=u~j.6..W.A..
++000025e0: d1ec 7fd8 11fa ab9f 654b 65be 4a8a 29c6  ........eKe.J.).
++000025f0: f7f4 b9b8 1ffd f8eb 1a34 7475 9dba 4734  .........4tu..G4
++00002600: 8ad1 2384 fe1a 3474 759d ba47 348a d123  ..#...4tu..G4..#
++00002610: 84fe 1a34 7475 9dba 4734 8ad1 2384 fe1a  ...4tu..G4..#...
++00002620: 34f0 7c9d 9f37 f9d7 84c9 2c56 1c1e 5344  4.|..7....,V..SD
++00002630: 90cd 9bb2 ecd6 25a9 7b74 4e29 d68e 10fa  ......%.{tN)....
++00002640: 6b8c 4d69 6df7 ac6a ea1e d128 9eb6 6025  k.Mim..j...(..`%
++00002650: 1f1b f074 fd84 68ea 1ed1 2866 8e10 fa9b  ...t..h...(f....
++00002660: eadb be58 f6ef c5c8 a1bf 69eb a594 62ca  ...X......i...b.
++00002670: e909 be29 437f 0d9a b2ec 56d7 e9ef 4a63  ...)C.....V...Jc
++00002680: 4368 a4d4 5f84 589f a7e1 af8c 4bdd 231a  Ch.._.X.....K.#.
++00002690: c9c5 90eb 6bd0 d0d5 75bc c7fe fa9f 544a  ....k...u.....TJ
++000026a0: f23d ff49 e10b e4dc bce1 af90 8bf7 dc1f  .=.I............
++000026b0: a191 5c0c c1bf a9be 091d f99b e452 397d  ..\..........R9}
++000026c0: 5297 a977 b3c2 defa 228d 4d29 db06 0d77  R..w....".M)...w
++000026d0: 714e fe31 1ac9 c590 fc6b d070 17e7 e41f  qN.1.....k.p....
++000026e0: a391 5c0c c9bf 060d 7771 4efe 311a c9c5  ..\.....wqN.1...
++000026f0: 90fc 6bd0 7017 e7e4 1fa3 915c 8cef 9aab  ..k.p......\....
++00002700: ef3f 472c d72b d154 de57 14dd 670f 630a  .?G,.+.T.W..g.c.
++00002710: eb09 6738 c8d6 d370 17df 937f 7d1a edd5  ..g8...p....}...
++00002720: 73f8 ee39 4703 65bf a2b8 27ff 088d e462  s..9G.e...'....b
++00002730: 7c07 9da7 e12e be27 ff08 8de4 6248 fe15  |......'....bH..
++00002740: 19b5 dbfd 8188 65b7 a2b8 27ff 088d e462  ......e...'....b
++00002750: 48fe cdf5 9de3 8865 378b 73f2 8f3c d411  H......e7.s..<..
++00002760: b537 d361 b6cf e370 19e7 e81f c591 6c0c  .7.a...p......l.
++00002770: d9bf c6e8 701b e7ec 1fc5 9174 0ce1 bf06  ....p......t....
++00002780: 0ed7 710e ff51 1cc9 c790 fe6b e070 1fe7  ..q..Q.....k.p..
++00002790: f41f c591 840c f1bf c5cf 1dd8 b6f0 53f9  ..............S.
++000027a0: fefb f0bd b75e c494 d87b 5ec8 f802 3b4f  .....^...{^...;O
++000027b0: c385 9ce3 7fe1 d4a5 9102 8011 df5b e768  .............[.h
++000027c0: 301f 5887 1153 f7fe 4406 a191 848c afab  0.X..S..D.......
++000027d0: f334 5cc8 3902 c8c6 4612 32be a5ce d3d0  .4\.9...F.2.....
++000027e0: ade7 9843 808c 4612 32c4 00e7 faf9 8788  ...C..F.2.......
++000027f0: 65f7 f590 6380 61e9 6e70 a5ec def3 b318  e...c.a.np......
++00002800: 937e 754c 3df2 2060 2aef f366 ea3e 2f1a  .~uL=. `*..f.>/.
++00002810: a524 e07e f4b1 a1e6 71e8 6e73 ea1e e248  .$.~....q.ns...H
++00002820: 3e86 28e0 ec71 e806 73cc 5140 8b4b 76af  >.(..q..s.Q@.Kv.
++00002830: 6452 ba4f f8b0 40b8 1e87 ee29 c79c 05a4  dR.O..@....)....
++00002840: 3892 8f21 0cd8 181d ba8d 1c73 1890 e248  8..!.......s...H
++00002850: 42c6 b89f 7b21 3296 fd89 957f 9273 d93a  B...{!2......s.:
++00002860: 4f3e db33 d1ca 6705 71bf c59d e698 0674  O>.3..g.q......t
++00002870: 5f56 390d b89e 02de d2b9 fcfe 4be7 0563  _V9.........K..c
++00002880: 3125 fa9e 9f4a 90ff 6be0 81a1 dd06 e5e3  1%...J..k.......
++00002890: 4d74 029e a46c c80b 36f0 4a65 fbeb 8bc7  Mt...l..6.Je....
++000028a0: fbe9 043c c9e1 1020 6ce0 c166 737d 6b35  ...<... l..fs}k5
++000028b0: 3ede 5a27 e049 5287 c860 030f 16d9 ee4c  >.Z'.IR..`.....L
++000028c0: b8bf cb4e 997b d2a2 1b22 86b3 7b05 3196  ...N.{..."..{.1.
++000028d0: fda9 9125 bff5 f787 526a 5038 1560 55ed  ...%....RjP8.`U.
++000028e0: 71a0 ec4f 85fc 2a26 8623 491e 4286 8dd1  q..O..*&.#I.B...
++000028f0: 2925 df98 faf9 7d4c 0c47 923c a40c 1b38  )%....}L.G.<...8
++00002900: 2079 3fd5 f3a2 9be1 4892 c71c a1ff b060   y?.....H......`
++00002910: d5ed a776 7e10 9ae0 4841 c308 49c2 8bdb  ...v~...HA..I...
++00002920: 77c5 a0a1 9bca f7a0 613c 1d9d 107b 8c29  w.......a<...{.)
++00002930: 3bf8 fc4c 86a4 6183 864b fd9e 3424 3492  ;..L..a..K..4$4.
++00002940: c321 6ad8 a0e1 0ebf 470d 098d a46c c81a  .!j.....G....l..
++00002950: 3668 b8b2 ef59 4342 2319 1a5f 88e7 e70d  6h...YCB#.._....
++00002960: 3774 0e1b 4642 2309 19c2 8617 b75f 0f65  7t..FB#......_.e
++00002970: 7fd7 2987 0dcf a750 0c6b 358d 2521 e39b  ..)....P.k5.%!..
++00002980: f13c 0e17 724e 1b52 1c49 c8f8 7a3c 8fc3  .<..rN.R.I..z<..
++00002990: 859c e386 1447 1232 be23 cfe3 7021 e7bc  .....G.2.#..p!..
++000029a0: 21c5 9184 0c89 c2c6 dce1 42ce 8143 8623  !.........B..C.#
++000029b0: 050e edc7 9e8b dbb9 8bbb 08c0 c0a1 fb7e  ...............~
++000029c0: b807 0eeb 9fb5 f9f2 f1c7 fbfb cfef 6f3f  ..............o?
++000029d0: dfbe fd1f 0000 ffff 0000 00ff ff44 90c1  .............D..
++000029e0: 6ac3 300c 865f c5f8 bed8 f1d8 0a21 0994  j.0.._.......!..
++000029f0: c26e 3ded 09bc 588e cdec 28c8 2a2d 8cbd  .n=...X...(.*-..
++00002a00: fb92 2e69 7590 f44b 207d 526b 2f8c 1f31  ...iu..K }Rk/..1
++00002a10: 3190 20f0 9d3c d6cd c9bc 6b29 6ed4 5ca2  1. ..<....k)n.\.
++00002a20: ebe4 8fde ec65 89f5 eaf4 d3ed bd5f d9b7  .....e......._..
++00002a30: 0589 3fd9 326c 83cc 3e28 a7a9 34b7 44ce  ..?.2l..>(..4.D.
++00002a40: 7432 30cf 8d52 6508 906d a972 1c08 0b7a  t20..Re..m.r...z
++00002a50: ae06 cc0a bd8f 03a8 3213 5857 0200 e7a4  ........2.XW....
++00002a60: 8cae 0f8a e210 9c65 6bb6 3d27 9c5c e488  .......ek.='.\..
++00002a70: d303 fab8 42ab be55 0f8c 257f 1ed7 b7b3  ....B..U..%.....
++00002a80: 1de1 6c69 8c53 1109 3c77 5257 0729 288e  ..li.S..<wRW.)(.
++00002a90: 61cf 19e7 7bf5 4d8a 2f64 c6bc abb0 f000  a...{.M./d......
++00002aa0: adea 550a 8fb8 7ceb 5fac 0baf 48df 77d8  ..U...|._...H.w.
++00002ab0: fe0f 0000 ffff 0300 504b 0304 1400 0600  ........PK......
++00002ac0: 0800 0000 2100 d34c 9b3b 6603 0000 1f0c  ....!..L.;f.....
++00002ad0: 0000 1400 0000 786c 2f73 6861 7265 6453  ......xl/sharedS
++00002ae0: 7472 696e 6773 2e78 6d6c 9456 5b6f 9b30  trings.xml.V[o.0
++00002af0: 147e 9fb4 ff60 f1ba d004 9256 5b94 a452  .~...`.....V[..R
++00002b00: b355 7dd9 455d b777 071c b00a 36b3 cdd6  .U}.E].w....6...
++00002b10: fcfb 1de3 0482 8d49 ab3c 059f cb77 6edf  .......I.<...wn.
++00002b20: 39ab db97 b240 7f89 9094 b375 105d cd02  9....@.....u.]..
++00002b30: 4458 c253 cab2 75f0 ebe9 3efc 1820 a930  DX.S..u...>.. .0
++00002b40: 4b71 c119 5907 0722 83db cdfb 772b 2915  Kq..Y.."....w+).
++00002b50: 025d 26d7 41ae 54b5 9c4e 6592 9312 cb2b  .]&.A.T..Ne....+
++00002b60: 5e11 062f 7b2e 4aac e0af c8a6 b212 04a7  ^../{.J.........
++00002b70: 3227 4495 c534 9ecd 6ea6 25a6 2c40 09af  2'D..4..n.%.,@..
++00002b80: 995a 07d7 7114 a09a d13f 35d9 9a2f 379f  .Z..q....?5../7.
++00002b90: 82cd 4ad2 cd4a 6d18 2ec9 6aaa 36ab a9fe  ..J..Jm...j.6...
++00002ba0: 6fbe 2558 918c 0b4a a4fd 824b 6dc0 feba  o.%X...J...Km...
++00002bb0: c562 c719 4a29 7fa1 2999 a03d 9792 1617  .b..J)..)..=....
++00002bc0: a504 2f91 e4b4 405c a01d e510 9d84 6cf0  ../...@\......l.
++00002bd0: e4f9 92a6 e26f d22b 397b 0db0 33b1 b722  .....o.+9{..3.."
++00002be0: eb54 1967 a127 fcbc e082 ebba d9e1 7da6  .T.g.'........}.
++00002bf0: 8c2a c133 c2d0 c990 2df2 45e5 9841 66a3  .*.3....-.E..Af.
++00002c00: 89fe c5a1 224a e07d 5183 c570 821e eeb7  ...."J.}Q..p....
++00002c10: 6134 5fe0 51ad 5009 9a34 18b4 c656 ab2c  a4_.Q.P..4...V.,
++00002c20: 6617 35fa 3e16 f351 1f80 abf5 0128 354e  f.5.>..Q.....(5N
++00002c30: 415b 0b8d cb68 3ee2 324c 4f08 a3b0 736c  A[...h>.2LO...sl
++00002c40: a046 bb71 c53e d0eb 7804 68dc f9f1 db3c  .F.q.>..x.h....<
++00002c50: 136a 52ee 24dd 84b3 f05a 088f c906 6df0  .jR.$....Z....m.
++00002c60: 6787 137b c3d1 69eb f2a0 ebdd cba2 a95c  g..{..i........\
++00002c70: ec4d 637c e677 a855 1ad8 b117 b601 0d1c  .Mc|.w.U........
++00002c80: a3ba f632 915e fb22 cdc9 8bd5 8ad1 8d4f  ...2.^.".......O
++00002c90: b66f b8e9 dbd8 31fc 951c bb7d 0773 d8f4  .o....1....}.s..
++00002ca0: b7a6 4714 cd66 916d b72f 6ac0 9f27 db28  ..G..f.m./j..'.(
++00002cb0: c6d1 05c5 f336 7d30 3af3 1167 ae1f 9da2  .....6}0:..g....
++00002cc0: 38f6 a233 0ace 3038 456c c369 1b40 8fea  8..3..08El.i.@..
++00002cd0: 369c 3b83 ea48 9e45 6d4a ec05 73b2 dd6f  6.;..H.EmJ..s..o
++00002ce0: c9d8 9fa2 f384 429c 737f 9cc3 ccd7 62dd  ......B.s.....b.
++00002cf0: bf9a 575b 154d 882d 6b3d 862e 63b5 927e  ..W[.M.-k=..c..~
++00002d00: e66d 451a d63c b316 f9d3 da27 d847 e04a  .mE..<.....'.G.J
++00002d10: 6f3e 5bce b398 6e4c a1c7 56ee 307f 837d  o>[...nL..V.0..}
++00002d20: 4013 d46c 2ddb 8c7e 6b76 4563 03f6 ad2d  @..l-..~kvEc...-
++00002d30: f083 0863 be19 36e6 bcff ac8b 7d2d 503b  ...c..6.....}-P;
++00002d40: b603 2630 15cb 65c1 ff11 010b 5960 c565  ..&0..e.....Y`.e
++00002d50: 9513 41d0 0754 5715 7c04 04d5 f19b edbd  ..A..TW.|.......
++00002d60: 51d5 b5a8 c50e 3304 7ff5 7a6f 2a9f d32c  Q.....3...zo*..,
++00002d70: d7e7 4ef2 ecde 15da 61cd 6445 12ba a724  ..N.....a.dE...$
++00002d80: 1db4 da59 4c0a 2e09 8233 2013 708f 0c4b  ...YL....3 .p..K
++00002d90: 037c 54f1 aa2e b082 eb0b a584 49aa 0e13  .|T.........I...
++00002da0: 0454 92c1 fe74 d7b0 3e45 964b 9c41 e6eb  .T...t..>E.K.A..
++00002db0: 42d5 023b 178c 9180 154e 202b 071b a379  B..;.....N +...y
++00002dc0: a52c ade1 95fa b447 827c 38a4 4d65 6dc3  .,.....G.|8.Mem.
++00002dd0: 7735 9c88 4e19 cd49 60cb 3ee9 c3c0 b438  w5..N..I`.>....8
++00002de0: b0e8 a120 aee2 d369 47fb 04da 7939 8e4a  ... ...iG...y9.J
++00002df0: 9f28 e62e 51b4 336a 88db 6948 e896 8100  .(..Q.3j..iH....
++00002e00: ee34 bb57 c36f bfbf 6f27 e82f d7b5 2b08  .4.W.o..o'./..+.
++00002e10: 3450 8619 cc43 c2cb 4ad7 db69 1ffb 00a5  4P...C..J..i....
++00002e20: 4de3 d938 186e aa8a a07c bc16 0959 2e87  M..8.n...|...Y..
++00002e30: e56c 6b1d b34c 5a5d c022 0449 746b d96e  .lk..LZ].".Itk.n
++00002e40: fcea 9de4 140e fccd 7f00 0000 ffff 0300  ................
++00002e50: 504b 0304 1400 0600 0800 0000 2100 ca56  PK..........!..V
++00002e60: c4e1 5a01 0000 7102 0000 1100 0801 646f  ..Z...q.......do
++00002e70: 6350 726f 7073 2f63 6f72 652e 786d 6c20  cProps/core.xml 
++00002e80: a204 0128 a000 0100 0000 0000 0000 0000  ...(............
++00002e90: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00002ea0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002eb0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002ec0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002ed0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002ee0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002ef0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f00: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f10: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f20: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f30: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f40: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f50: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f60: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f70: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00002f80: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00002f90: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00002fa0: 0000 0000 7c92 5f4b c330 14c5 df05 bf43  ....|._K.0.....C
+-00002fb0: c97b 97fe 6173 86b6 0327 7bb2 28d8 a1f8  .{..as...'{.(...
+-00002fc0: 1692 db2d d826 25c9 ecf6 ed4d dbad 7628  ...-.&%....M..v(
+-00002fd0: 3ee6 9e93 5fce b924 591d ebca fb02 6d84  >..._..$Y.....m.
+-00002fe0: 9229 0a67 01f2 4032 c585 dca5 685b 6cfc  .).g..@2....h[l.
+-00002ff0: 25f2 8ca5 92d3 4a49 48d1 090c 5a65 b737  %.....JIH...Ze.7
+-00003000: 096b 0853 1a5e b46a 405b 01c6 7324 6908  .k.S.^.j@[..s$i.
+-00003010: 6b52 b4b7 b621 181b b687 9a9a 9973 4827  kR...!.......sH'
+-00003020: 964a d7d4 baa3 dee1 86b2 4fba 031c 05c1  .J........O.....
+-00003030: 02d7 6029 a796 e20e e837 2311 9d91 9c8d  ..`).....7#.....
+-00003040: c8e6 a0ab 1ec0 1986 0a6a 90d6 e070 16e2  .........j...p..
+-00003050: 1faf 055d 9b3f 2ff4 cac4 590b 7b6a 5ca7  ...].?/...Y.{j\.
+-00003060: 73dc 299b b341 1cdd 4723 4663 dbb6 b336  s.)..A..G#Fc...6
+-00003070: ee63 b8fc 217e cf9f 5efb aabe 90dd ae18  .c..!~..^.......
+-00003080: a02c e18c 300d d42a 9dad f75a 182f 3f58  .,..0..*...Z./?X
+-00003090: a812 3c99 773b aca8 b1b9 5b77 2980 3f9c  ..<.w;....[w).?.
+-000030a0: b25c 30ad 8c2a adf7 5c96 8281 b735 a013  .\0..*..\....5..
+-000030b0: fcdb e8f8 7d9d e111 e09e 0b48 863a 17e5  ....}......H.:..
+-000030c0: 2d5e 3f16 1b94 4541 14fa 41e4 4751 112c  -^?...EA..A.GQ.,
+-000030d0: c93c 24f3 fb8f 2ec7 d5fd 2ef0 30a8 cf69  .<$.........0..i
+-000030e0: fe27 c67e b0f0 a3b8 0863 12de 91f9 7c42  .'.~.....c....|B
+-000030f0: bc00 b23e f7f5 27c9 be01 0000 ffff 0300  ...>..'.........
+-00003100: 504b 0304 1400 0600 0800 0000 2100 e4ee  PK..........!...
+-00003110: 6155 9b01 0000 3303 0000 1000 0801 646f  aU....3.......do
+-00003120: 6350 726f 7073 2f61 7070 2e78 6d6c 20a2  cProps/app.xml .
+-00003130: 0401 28a0 0001 0000 0000 0000 0000 0000  ..(.............
++00002f80: 0000 0000 0000 007c 9251 4bc3 3014 85df  .......|.QK.0...
++00002f90: 05ff 43c9 7b9b b673 6386 b603 277b b228  ..C.{..sc...'{.(
++00002fa0: b8a1 f816 92db 2dd8 2425 c9ec f6ef 4ddb  ......-.$%....M.
++00002fb0: ad6e 283e e69e 932f e75c 922d 0eb2 0ebe  .n(>.../.\.-....
++00002fc0: c058 a155 8e92 2846 0128 a6b9 50db 1c6d  .X.U..(F.(..P..m
++00002fd0: d6ab 708e 02eb a8e2 b4d6 0a72 7404 8b16  ..p........rt...
++00002fe0: c5ed 4dc6 1ac2 b481 17a3 1b30 4e80 0d3c  ..M........0N..<
++00002ff0: 4959 c29a 1ced 9c6b 08c6 96ed 4052 1b79  IY.....k....@R.y
++00003000: 87f2 62a5 8da4 ce1f cd16 3794 7dd2 2de0  ..b.......7.}.-.
++00003010: 348e 6758 82a3 9c3a 8a3b 60d8 8c44 7442  4.gX...:.;`..DtB
++00003020: 7236 229b bda9 7b00 6718 6a90 a09c c549  r6"...{.g.j....I
++00003030: 94e0 1faf 0323 ed9f 177a e5c2 2985 3b36  .....#...z..).;6
++00003040: bed3 29ee 259b b341 1cdd 072b 4663 dbb6  ..).%..A...+Fc..
++00003050: 513b e963 f8fc 097e 2f9f 5efb aaa1 50dd  Q;.c...~/.^...P.
++00003060: ae18 a022 e38c 3003 d469 532c 7746 d8a0  ..."..0..iS,wF..
++00003070: dc3b a833 7c31 ef76 5853 eb4a bfee 4a00  .;.3|1.vXS.J..J.
++00003080: 7f38 16a5 6046 5b5d b9e0 b9aa 0483 6063  .8..`F[]......`c
++00003090: c164 f8b7 d1f3 fb3a c323 c003 1f90 0c75  .d.....:.#.....u
++000030a0: ceca db64 f9b8 5ea1 228d d324 8cd3 304d  ...d..^."..$..0M
++000030b0: d7f1 9c4c 1332 bdff e872 5cdd ef02 0f03  ...L.2...r\.....
++000030c0: 794a f33f 7112 c6b3 309d 75c4 e48e 4ce3  yJ.?q...0.u...L.
++000030d0: 0be2 1950 f4b9 af3f 49f1 0d00 00ff ff03  ...P...?I.......
++000030e0: 0050 4b03 0414 0006 0008 0000 0021 00e4  .PK..........!..
++000030f0: ee61 559b 0100 0033 0300 0010 0008 0164  .aU....3.......d
++00003100: 6f63 5072 6f70 732f 6170 702e 786d 6c20  ocProps/app.xml 
++00003110: a204 0128 a000 0100 0000 0000 0000 0000  ...(............
++00003120: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00003130: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003140: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003150: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003160: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003170: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003180: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003190: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031a0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031b0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031c0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031e0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003200: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00003210: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00003220: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00003230: 0000 0000 0000 9c93 4d6f db30 0c86 ef03  ........Mo.0....
+-00003240: f61f 0cdd 1b39 5d51 0c81 aca2 485b f4b0  .....9]Q....H[..
+-00003250: a201 e276 674e a663 a1b2 6488 ac91 ecd7  ...vgN.c..d.....
+-00003260: 57b6 d1c4 d976 da8d 1f2f 5e3e a224 75b3  W....v.../^>.$u.
+-00003270: 6f5d d663 241b 7c21 968b 5c64 e84d a8ac  o].c$.|!..\d.M..
+-00003280: df15 e2a5 7cb8 f82e 3262 f015 b8e0 b110  ....|...2b......
+-00003290: 0724 71a3 bf7e 519b 183a 8c6c 91b2 64e1  .$q..~Q..:.l..d.
+-000032a0: a910 0d73 b792 924c 832d d022 b57d ead4  ...s...L.-.".}..
+-000032b0: 21b6 c029 8d3b 19ea da1a bc0b e6bd 45cf  !..).;........E.
+-000032c0: f232 cfaf 25ee 197d 85d5 4577 3414 93e3  .2..%..}..Ew4...
+-000032d0: aae7 ff35 ad82 19f8 e8b5 3c74 0958 ab32  ...5......<t.X.2
+-000032e0: 30b8 d2b6 a873 254f 89ba ed3a 670d 703a  0....s%O...:g.p:
+-000032f0: bd7e b226 060a 3567 4f60 ace7 404d 76bf  .~.&..5gO`..@Mv.
+-00003300: 37e8 949c cb54 e2df a279 8f96 0f83 db3c  7....T...y.....<
+-00003310: 555b 030e d769 b4ae c111 2a79 2aa8 4784  U[...i....*y*.G.
+-00003320: 61ad 1bb0 91b4 ea79 d5a3 e110 33b2 bfd3  a......y....3...
+-00003330: 622f 45f6 0b08 07e0 42f4 102d 784e e083  b/E.....B..-xN..
+-00003340: 6c4a c6d8 75c4 51ff 0cf1 8d1a 4426 2593  lJ..u.Q.....D&%.
+-00003350: 602a 8ee1 5c3b 8fed 955e 8e82 149c 0b07  `*..\;...^......
+-00003360: 8309 2435 ce11 4bcb 0ee9 b9de 40e4 7f10  ..$5..K.....@...
+-00003370: 2fe7 c423 c3c4 3be1 6c07 be69 e69c 6f3c  /..#..;.l..i..o<
+-00003380: 729a f487 f73a b41d f843 6a1c a31f d6bf  r....:...Cj.....
+-00003390: d14b 5786 3b60 fc5c e779 516d 1b88 58a5  .KW.;`.\.yQm..X.
+-000033a0: 1b38 aefb 5850 8f69 93d1 0d26 eb06 fc0e  .8..XP.i...&....
+-000033b0: ab4f cddf 8de1 19bc 4e7f 402f af17 f9b7  .O......N.@/....
+-000033c0: 3cdd ebac a6e4 e9b5 eb0f 0000 00ff ff03  <...............
+-000033d0: 0050 4b01 022d 0014 0006 0008 0000 0021  .PK..-.........!
+-000033e0: 0062 ee9d 685e 0100 0090 0400 0013 0000  .b..h^..........
+-000033f0: 0000 0000 0000 0000 0000 0000 0000 005b  ...............[
+-00003400: 436f 6e74 656e 745f 5479 7065 735d 2e78  Content_Types].x
+-00003410: 6d6c 504b 0102 2d00 1400 0600 0800 0000  mlPK..-.........
+-00003420: 2100 b555 3023 f400 0000 4c02 0000 0b00  !..U0#....L.....
+-00003430: 0000 0000 0000 0000 0000 0000 9703 0000  ................
+-00003440: 5f72 656c 732f 2e72 656c 7350 4b01 022d  _rels/.relsPK..-
+-00003450: 0014 0006 0008 0000 0021 0081 3e94 97f3  .........!..>...
+-00003460: 0000 00ba 0200 001a 0000 0000 0000 0000  ................
+-00003470: 0000 0000 00bc 0600 0078 6c2f 5f72 656c  .........xl/_rel
+-00003480: 732f 776f 726b 626f 6f6b 2e78 6d6c 2e72  s/workbook.xml.r
+-00003490: 656c 7350 4b01 022d 0014 0006 0008 0000  elsPK..-........
+-000034a0: 0021 0079 9ccf 20c1 0300 0071 0900 000f  .!.y.. ....q....
+-000034b0: 0000 0000 0000 0000 0000 0000 00ef 0800  ................
+-000034c0: 0078 6c2f 776f 726b 626f 6f6b 2e78 6d6c  .xl/workbook.xml
+-000034d0: 504b 0102 2d00 1400 0600 0800 0000 2100  PK..-.........!.
+-000034e0: 2796 d6b5 ca02 0000 0a07 0000 0d00 0000  '...............
+-000034f0: 0000 0000 0000 0000 0000 dd0c 0000 786c  ..............xl
+-00003500: 2f73 7479 6c65 732e 786d 6c50 4b01 022d  /styles.xmlPK..-
+-00003510: 0014 0006 0008 0000 0021 00c1 1710 be4e  .........!.....N
+-00003520: 0700 00c6 2000 0013 0000 0000 0000 0000  .... ...........
+-00003530: 0000 0000 00d2 0f00 0078 6c2f 7468 656d  .........xl/them
+-00003540: 652f 7468 656d 6531 2e78 6d6c 504b 0102  e/theme1.xmlPK..
+-00003550: 2d00 1400 0600 0800 0000 2100 ded7 7d8e  -.........!...}.
+-00003560: 4e13 0000 2996 0000 1800 0000 0000 0000  N...)...........
+-00003570: 0000 0000 0000 5117 0000 786c 2f77 6f72  ......Q...xl/wor
+-00003580: 6b73 6865 6574 732f 7368 6565 7431 2e78  ksheets/sheet1.x
+-00003590: 6d6c 504b 0102 2d00 1400 0600 0800 0000  mlPK..-.........
+-000035a0: 2100 d34c 9b3b 6603 0000 1f0c 0000 1400  !..L.;f.........
+-000035b0: 0000 0000 0000 0000 0000 0000 d52a 0000  .............*..
+-000035c0: 786c 2f73 6861 7265 6453 7472 696e 6773  xl/sharedStrings
+-000035d0: 2e78 6d6c 504b 0102 2d00 1400 0600 0800  .xmlPK..-.......
+-000035e0: 0000 2100 e412 61e3 5c01 0000 7102 0000  ..!...a.\...q...
+-000035f0: 1100 0000 0000 0000 0000 0000 0000 6d2e  ..............m.
+-00003600: 0000 646f 6350 726f 7073 2f63 6f72 652e  ..docProps/core.
+-00003610: 786d 6c50 4b01 022d 0014 0006 0008 0000  xmlPK..-........
+-00003620: 0021 00e4 ee61 559b 0100 0033 0300 0010  .!...aU....3....
+-00003630: 0000 0000 0000 0000 0000 0000 0000 3100  ..............1.
+-00003640: 0064 6f63 5072 6f70 732f 6170 702e 786d  .docProps/app.xm
+-00003650: 6c50 4b05 0600 0000 000a 000a 0080 0200  lPK.............
+-00003660: 00d1 3300 0000 00                        ..3....
++00003210: 0000 0000 0000 009c 934d 6fdb 300c 86ef  .........Mo.0...
++00003220: 03f6 1f0c dd1b 395d 510c 81ac a248 5bf4  ......9]Q....H[.
++00003230: b0a2 01e2 7667 4ea6 63a1 b264 88ac 91ec  ....vgN.c..d....
++00003240: d757 b6d1 c4d9 76da 8d1f 2f5e 3ea2 2475  .W....v.../^>.$u
++00003250: b36f 5dd6 6324 1b7c 2196 8b5c 64e8 4da8  .o].c$.|!..\d.M.
++00003260: acdf 15e2 a57c b8f8 2e32 62f0 15b8 e0b1  .....|...2b.....
++00003270: 1007 2471 a3bf 7e51 9b18 3a8c 6c91 b264  ..$q..~Q..:.l..d
++00003280: e1a9 100d 73b7 9292 4c83 2dd0 22b5 7dea  ....s...L.-.".}.
++00003290: d421 b6c0 298d 3b19 eada 1abc 0be6 bd45  .!..).;........E
++000032a0: cff2 32cf af25 ee19 7d85 d545 7734 1493  ..2..%..}..Ew4..
++000032b0: e3aa e7ff 35ad 8219 f8e8 b53c 7409 58ab  ....5......<t.X.
++000032c0: 3230 b8d2 b6a8 7325 4f89 baed 3a67 0d70  20....s%O...:g.p
++000032d0: 3abd 7eb2 2606 0a35 674f 60ac e740 4d76  :.~.&..5gO`..@Mv
++000032e0: bf37 e894 9ccb 54e2 dfa2 798f 960f 83db  .7....T...y.....
++000032f0: 3c55 5b03 0ed7 69b4 aec1 112a 792a a847  <U[...i....*y*.G
++00003300: 8461 ad1b b091 b4ea 79d5 a3e1 1033 b2bf  .a......y....3..
++00003310: d362 2f45 f60b 0807 e042 f410 2d78 4ee0  .b/E.....B..-xN.
++00003320: 836c 4ac6 d875 c451 ff0c f18d 1a44 2625  .lJ..u.Q.....D&%
++00003330: 9360 2a8e e15c 3b8f ed95 5e8e 8214 9c0b  .`*..\;...^.....
++00003340: 0783 0924 35ce 114b cb0e e9b9 de40 e47f  ...$5..K.....@..
++00003350: 102f e7c4 23c3 c43b e16c 07be 69e6 9c6f  ./..#..;.l..i..o
++00003360: 3c72 9af4 87f7 3ab4 1df8 436a 1ca3 1fd6  <r....:...Cj....
++00003370: bfd1 4b57 863b 60fc 5ce7 7951 6d1b 8858  ..KW.;`.\.yQm..X
++00003380: a51b 38ae fb58 508f 6993 d10d 26eb 06fc  ..8..XP.i...&...
++00003390: 0eab 4fcd df8d e119 bc4e 7f40 2faf 17f9  ..O......N.@/...
++000033a0: b73c ddeb aca6 e4e9 b5eb 0f00 0000 ffff  .<..............
++000033b0: 0300 504b 0102 2d00 1400 0600 0800 0000  ..PK..-.........
++000033c0: 2100 62ee 9d68 5e01 0000 9004 0000 1300  !.b..h^.........
++000033d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++000033e0: 5b43 6f6e 7465 6e74 5f54 7970 6573 5d2e  [Content_Types].
++000033f0: 786d 6c50 4b01 022d 0014 0006 0008 0000  xmlPK..-........
++00003400: 0021 00b5 5530 23f4 0000 004c 0200 000b  .!..U0#....L....
++00003410: 0000 0000 0000 0000 0000 0000 0097 0300  ................
++00003420: 005f 7265 6c73 2f2e 7265 6c73 504b 0102  ._rels/.relsPK..
++00003430: 2d00 1400 0600 0800 0000 2100 813e 9497  -.........!..>..
++00003440: f300 0000 ba02 0000 1a00 0000 0000 0000  ................
++00003450: 0000 0000 0000 bc06 0000 786c 2f5f 7265  ..........xl/_re
++00003460: 6c73 2f77 6f72 6b62 6f6f 6b2e 786d 6c2e  ls/workbook.xml.
++00003470: 7265 6c73 504b 0102 2d00 1400 0600 0800  relsPK..-.......
++00003480: 0000 2100 03bd 63ff c003 0000 7209 0000  ..!...c.....r...
++00003490: 0f00 0000 0000 0000 0000 0000 0000 ef08  ................
++000034a0: 0000 786c 2f77 6f72 6b62 6f6f 6b2e 786d  ..xl/workbook.xm
++000034b0: 6c50 4b01 022d 0014 0006 0008 0000 0021  lPK..-.........!
++000034c0: 0027 96d6 b5ca 0200 000a 0700 000d 0000  .'..............
++000034d0: 0000 0000 0000 0000 0000 00dc 0c00 0078  ...............x
++000034e0: 6c2f 7374 796c 6573 2e78 6d6c 504b 0102  l/styles.xmlPK..
++000034f0: 2d00 1400 0600 0800 0000 2100 c117 10be  -.........!.....
++00003500: 4e07 0000 c620 0000 1300 0000 0000 0000  N.... ..........
++00003510: 0000 0000 0000 d10f 0000 786c 2f74 6865  ..........xl/the
++00003520: 6d65 2f74 6865 6d65 312e 786d 6c50 4b01  me/theme1.xmlPK.
++00003530: 022d 0014 0006 0008 0000 0021 00f5 db71  .-.........!...q
++00003540: cd32 1300 00d0 9500 0018 0000 0000 0000  .2..............
++00003550: 0000 0000 0000 0050 1700 0078 6c2f 776f  .......P...xl/wo
++00003560: 726b 7368 6565 7473 2f73 6865 6574 312e  rksheets/sheet1.
++00003570: 786d 6c50 4b01 022d 0014 0006 0008 0000  xmlPK..-........
++00003580: 0021 00d3 4c9b 3b66 0300 001f 0c00 0014  .!..L.;f........
++00003590: 0000 0000 0000 0000 0000 0000 00b8 2a00  ..............*.
++000035a0: 0078 6c2f 7368 6172 6564 5374 7269 6e67  .xl/sharedString
++000035b0: 732e 786d 6c50 4b01 022d 0014 0006 0008  s.xmlPK..-......
++000035c0: 0000 0021 00ca 56c4 e15a 0100 0071 0200  ...!..V..Z...q..
++000035d0: 0011 0000 0000 0000 0000 0000 0000 0050  ...............P
++000035e0: 2e00 0064 6f63 5072 6f70 732f 636f 7265  ...docProps/core
++000035f0: 2e78 6d6c 504b 0102 2d00 1400 0600 0800  .xmlPK..-.......
++00003600: 0000 2100 e4ee 6155 9b01 0000 3303 0000  ..!...aU....3...
++00003610: 1000 0000 0000 0000 0000 0000 0000 e130  ...............0
++00003620: 0000 646f 6350 726f 7073 2f61 7070 2e78  ..docProps/app.x
++00003630: 6d6c 504b 0506 0000 0000 0a00 0a00 8002  mlPK............
++00003640: 0000 b233 0000 0000                      ...3....
+```
+
+### Comparing `premise_gwp-0.9.4/premise_gwp/data/lcia_gwp2021_20a.xlsx` & `premise_gwp-0.9.5/premise_gwp/data/lcia_gwp2021_20a.xlsx`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/premise_gwp/data/lcia_gwp2021_20a_w_bio.xlsx` & `premise_gwp-0.9.5/premise_gwp/data/lcia_gwp2021_100a_w_bio.xlsx`
+
+ * *Files 22% similar despite different names*
+
+```diff
+@@ -137,77 +137,77 @@
+ 00000880: cbb4 e480 fa84 53ec ad82 b4b7 b720 9a29  ......S...... .)
+ 00000890: 66e5 ffb9 43db f606 9f82 791f d1f3 1909  f...C.....y.....
+ 000008a0: 493c 0d79 00d1 e8d4 212b f8c1 45f6 08f2  I<.y....!+..E...
+ 000008b0: bcfc 664d 79ce 6bc1 a3fa 0ce5 1cab 4b1e  ..fMy.k.......K.
+ 000008c0: aa35 3d7c 8674 2087 c847 1f7f 2992 73e5  .5=|.t ..G..).s.
+ 000008d0: a299 bb55 efe1 7442 fbca 29bf dbf2 2ccb  ...U..tB..)...,.
+ 000008e0: f4ef 66e4 c9c7 d5df 0000 00ff ff03 0050  ..f............P
+-000008f0: 4b03 0414 0006 0008 0000 0021 0003 bd63  K..........!...c
+-00000900: ffc0 0300 0072 0900 000f 0000 0078 6c2f  .....r.......xl/
++000008f0: 4b03 0414 0006 0008 0000 0021 0023 c5c4  K..........!.#..
++00000900: f6c0 0300 0071 0900 000f 0000 0078 6c2f  .....q.......xl/
+ 00000910: 776f 726b 626f 6f6b 2e78 6d6c ac55 6d6f  workbook.xml.Umo
+-00000920: a338 10fe 7ed2 fd07 0ef5 2b35 2640 12d4  .8..~.....+5&@..
+-00000930: 6415 02dc 566a 5655 9a6d ef3e 450e 38c1  d...VjVU.m.>E.8.
++00000920: a338 10fe 7ed2 fd07 0ef5 2b35 2640 1254  .8..~.....+5&@.T
++00000930: b282 90dc 566a 5655 9a6d ef3e 450e 38c1  ....VjVU.m.>E.8.
+ 00000940: 2a60 ce98 26d5 6aff fb8d 21e4 6573 3ae5  *`..&.j...!.es:.
+ 00000950: ba17 b536 b687 c7cf cc3c 33dc 7dda e599  ...6.....<3.}...
+-00000960: f646 45c5 7831 d2f1 ada9 6bb4 8879 c28a  .FE.x1....k..y..
+-00000970: cd48 ffba 888c 81ae 5592 1409 c978 4147  .H......U....xAG
+-00000980: fa3b adf4 4fe3 5f7f b9db 72f1 bae2 fc55  .;..O._...r....U
+-00000990: 0380 a21a e9a9 94a5 8750 15a7 3427 d52d  .........P..4'.-
+-000009a0: 2f69 0127 6b2e 7222 6129 36a8 2a05 2549  /i.'k.r"a)6.*.%I
+-000009b0: 9552 2af3 0c59 a6e9 a29c b042 6f11 3c71  .R*..Y.....Bo.<q
+-000009c0: 0d06 5faf 594c 031e d739 2d64 0b22 6846  .._.YL...9-d."hF
+-000009d0: 24d0 af52 5656 1d5a 1e5f 0397 13f1 5a97  $..RVV.Z._....Z.
+-000009e0: 46cc f312 2056 2c63 f2bd 01d5 b53c f6ee  F... V,c.....<..
+-000009f0: 3705 1764 9581 db3b ec68 3b01 7f2e fc63  7..d...;.h;....c
+-00000a00: 1306 abbb 098e 2eae ca59 2c78 c5d7 f216  .........Y,x....
+-00000a10: a051 4bfa c27f 6c22 8ccf 42b0 bb8c c175  .QK...l"..B....u
+-00000a20: 4836 12f4 8da9 1c1e 5809 f783 acdc 0396  H6......X.......
+-00000a30: 7b04 c3e6 4fa3 6190 56a3 150f 82f7 4134  {...O.a.V.....A4
+-00000a40: e7c0 cdd2 c777 6b96 d1e7 56ba 1a29 cb2f  .....wk...V..)./
+-00000a50: 2457 99ca 742d 2395 0c13 2669 32d2 fbb0  $W..t-#...&i2...
+-00000a60: e45b 7adc 00af 445d fa35 cbe0 149b 2ec6  .[z...D].5......
+-00000a70: 3a1a 1fe4 fc28 b484 ae49 9dc9 0508 b983  :....(...I......
+-00000a80: 0743 d71d 5a8e b204 614c 3249 4541 249d  .C..Z...aL2IEA$.
+-00000a90: f242 820e f77e fdac e61a ec69 ca41 e1da  .B...~.....i.A..
+-00000aa0: 9cfe 5533 41a1 b040 5fe0 2b8c 24f6 c8aa  ..U3A..@_.+.$...
+-00000ab0: 7a24 32d5 6a91 8d74 f4b5 02e7 91e0 aa8a  z$2.j..t........
+-00000ac0: d0ef 4c7e ae57 086a 2c67 155d 6eb6 e5d9  ..L~.W.j,g.]n...
+-00000ad0: 7342 2441 2792 2597 f5f1 1f44 4b62 1509  sB$A'.%....DKb..
+-00000ae0: 04a1 68e9 b6cf 3f86 0558 0baf 13e6 a314  ..h...?..X......
+-00000af0: 1a3c df07 0f90 9c27 f206 a902 4124 fb4a  .<.....'....A$.J
+-00000b00: be57 b9e8 2d8b 5878 78f9 2dea 4766 bfe7  .W..-.Xxx.-.Gf..
+-00000b10: fac6 7418 62c3 9fd8 a131 c136 36fa 41e0  ..t.b....1.66.A.
+-00000b20: 5ac3 a93b 1df6 fadf c119 e17a 3127 b54c  Z..;.......z1'.L
+-00000b30: f72a 50d0 23dd 8694 5f1c cdc8 ae3b c1a6  .*P.#..._....;..
+-00000b40: 57b3 e448 e39b b9ff 196a fe61 e8ce be2b  W..H.....j.a...+
+-00000b50: 8755 bf7b 6674 5b1d f5a2 96da ee85 1509  .U.{ft[.........
+-00000b60: df8e 74cb b2c1 a9f7 c3d2 1dc0 72db 1cbe  ..t.........r...
+-00000b70: b044 a660 3118 9887 bdcf 946d 5260 8c7b  .D.`1......mR`.{
+-00000b80: 8eda 84ba 50cc 46fa 19a3 a065 14c1 cf50  ....P.F....e...P
+-00000b90: c319 2374 42a9 e9ac 40ad 99b5 a2a9 8627  ..#tB...@......'
+-00000ba0: d56d 31b4 7035 3741 06f5 7bea 0e71 9f34  .m1.p57A..{..q.4
+-00000bb0: c247 dd6b 207b 56d0 4455 1180 9cac f650  .G.k {V.DU.....P
+-00000bc0: cb5d 56e4 b7cb 8829 f107 20a7 15a9 a82a  .]V....).. ....*
+-00000bd0: ae98 64cd 350a 1ebc 4859 9250 f52d d1c7  ..d.5...HY.P.-..
+-00000be0: eded bfdd 4c6e b077 33bd b15c f30e 9d00  ....Ln.w3..\....
+-00000bf0: 836a ce2f 05a4 180a 504d 0dd7 2136 ada1  .j./....PM..!6..
+-00000c00: deac 673c 01c5 e4a4 a849 a652 4177 f2a1  ..g<.....I.RAw..
+-00000c10: 92cd 0cd5 c020 66d8 3627 7d73 681b 66d8  ..... f.6'}sh.f.
+-00000c20: 730c 7b30 b48c 81dd b38c a91d 58a1 d30f  s.{0........X...
+-00000c30: 83d0 7794 68d4 e7ca fb3f 9a76 5394 5ef7  ..w.h....?.vS.^.
+-00000c40: 1d54 bc53 22e4 4290 f815 be9e 73ba f621  .T.S".B.....s..!
+-00000c50: 402a 0eaa 5480 ef29 59df 19f8 660f 28da  @*..T..)Y...f.(.
+-00000c60: 118e 0c1b 0f4d c3f7 5ddb 7082 a8e7 f471  .....M..].p....q
+-00000c70: 300d 9de8 4856 0564 fdc1 9639 40cd db94  0...HV.d...9@...
+-00000c80: c81a da89 ea24 cdda 5363 b4df 3d6c aedb  .....$..Sc..=l..
+-00000c90: 8d7d c6cf 1a82 370f 9423 fbb7 ffcd f009  .}....7..#......
+-00000ca0: bccf e895 c6d1 f395 86d3 2fb3 c5ec 4adb  ........../...J.
+-00000cb0: 8770 b17c 89ae 359e ccfc 6072 bdfd 643e  .p.|..5...`r..d>
+-00000cc0: 9ffc b908 ffe8 ae40 ff18 d036 e16a 6c64  .......@...6.jld
+-00000cd0: 8a3a 998c ff06 0000 ffff 0300 504b 0304  .:..........PK..
++00000960: f646 45c5 78e1 ebf8 d6d4 355a c43c 61c5  .FE.x.....5Z.<a.
++00000970: c6d7 bf2e a6c6 40d7 2a49 8a84 64bc a0be  ......@.*I..d...
++00000980: fe4e 2bfd d3e8 d75f eeb6 5cbc ae38 7fd5  .N+...._..\..8..
++00000990: 00a0 a87c 3d95 b2f4 10aa e294 e6a4 bae5  ...|=...........
++000009a0: 252d e064 cd45 4e24 2cc5 0655 a5a0 24a9  %-.d.EN$,..U..$.
++000009b0: 524a 659e 21cb 345d 9413 56e8 2d82 27ae  RJe.!.4]..V.-.'.
++000009c0: c1e0 eb35 8b69 c4e3 3aa7 856c 4104 cd88  ...5.i..:..lA...
++000009d0: 04fa 55ca caaa 43cb e36b e072 225e ebd2  ..U...C..k.r"^..
++000009e0: 8879 5e02 c48a 654c be37 a0ba 96c7 defd  .y^...eL.7......
++000009f0: a6e0 82ac 3270 7b87 1d6d 27e0 cf85 7f6c  ....2p{..m'....l
++00000a00: c260 7537 c1d1 c555 398b 05af f85a de02  .`u7...U9....Z..
++00000a10: 346a 495f f88f 4d84 f159 0876 9731 b80e  4jI_..M..Y.v.1..
++00000a20: c946 82be 3195 c303 2be1 7e90 957b c072  .F..1...+.~..{.r
++00000a30: 8f60 d8fc 6934 0cd2 6ab4 e241 f03e 88e6  .`..i4..j..A.>..
++00000a40: 1cb8 59fa e86e cd32 fadc 4a57 2365 f985  ..Y..n.2..JW#e..
++00000a50: e42a 5399 ae65 a492 9384 499a f87a 1f96  .*S..e....I..z..
++00000a60: 7c4b 8f1b e095 a8cb b066 199c 62d3 c558  |K.......f..b..X
++00000a70: 47a3 839c 1f85 96d0 35a9 33b9 0021 77f0  G.......5.3..!w.
++00000a80: 60e8 ba43 cb51 9620 8c20 9354 1444 d231  `..C.Q. . .T.D.1
++00000a90: 2f24 e870 efd7 cf6a aec1 1ea7 1c14 aecd  /$.p...j........
++00000aa0: e95f 3513 140a 0bf4 05be c248 628f acaa  ._5........Hb...
++00000ab0: 4722 53ad 1699 afa3 af15 388f 0457 5584  G"S.......8..WU.
++00000ac0: 7e67 f273 bd42 5063 39ab e872 b32d cf9e  ~g.s.BPc9..r.-..
++00000ad0: 1322 093a 912c b9ac 8fff 205a 12ab 4820  .".:.,.... Z..H 
++00000ae0: 0845 4bb7 7dfe 312c c05a 789d 301f a5d0  .EK.}.1,.Zx.0...
++00000af0: e0f9 3e7a 80e4 3c91 3748 1508 22d9 57f2  ..>z..<.7H..".W.
++00000b00: bdca 456f 59c4 c2c3 cb6f d872 70e0 8ec7  ..EoY....o.rp...
++00000b10: c620 b01d 2332 edc0 08dd c034 cca0 dfef  . ..#2.....4....
++00000b20: 073d 7b62 86ee 7770 46b8 5ecc 492d d3bd  .={b..wpF.^.I-..
++00000b30: 0a14 b4af db90 f28b a319 d975 27d8 f46a  ...........u'..j
++00000b40: 961c 697c 33f7 3f43 cd3f 0cdd d977 e5b0  ..i|3.?C.?...w..
++00000b50: ea77 cf8c 6eab a35e d452 dbbd b022 e15b  .w..n..^.R...".[
++00000b60: 5f1f 98e0 d37b b7c2 8e0d cb6d 73f6 c212  _....{.....ms...
++00000b70: 99fa ba35 684c dabd cf94 6d52 208c 7b8e  ...5hL....mR .{.
++00000b80: 7a0f ca42 11f3 f533 4251 4b68 0a3f 430d  z..B...3BQKh.?C.
++00000b90: 6784 d009 a3a6 b102 b366 d68a a618 9e54  g........f.....T
++00000ba0: b3c5 d0c1 d5dc c418 c4ef a93b c47d d2e8  ...........;.}..
++00000bb0: 1e75 af81 ea59 4113 5544 0072 b2da 432d  .u...YA.UD.r..C-
++00000bc0: 7759 91df 2ea7 4c69 3f02 35ad 4845 556d  wY....Li?.5.HEUm
++00000bd0: c524 6bae 51f0 e045 ca92 84aa 4f89 3e6a  .$k.Q..E....O.>j
++00000be0: 6fff ed26 b8c1 decd f8c6 72cd 3b74 020c  o..&......r.;t..
++00000bf0: a239 bf14 9062 a83f 3535 5c87 d8b4 867a  .9...b.?55\....z
++00000c00: b39e f104 0493 93a2 2699 ca04 ddc9 874a  ........&......J
++00000c10: 3633 1403 8398 611b d461 0e6d c39c f41c  63....a..a.m....
++00000c20: c31e 0c2d 6360 f72c 636c 47d6 c4e9 4fa2  ...-c`.,clG...O.
++00000c30: 49e8 28cd a8af 95f7 7ff4 eca6 26bd ee33  I.(.........&..3
++00000c40: a878 a744 c885 20f1 2b7c 3ce7 741d 4280  .x.D.. .+|<.t.B.
++00000c50: 541c 54a5 00df 53b2 a133 08cd 1e50 b4a7  T.T...S..3...P..
++00000c60: 786a d878 681a 61e8 da86 134d 7b4e 1f47  xj.xh.a....M{N.G
++00000c70: e389 333d 9255 0159 7fb0 630e 50f3 3625  ..3=.U.Y..c.P.6%
++00000c80: b286 6ea2 1a49 b3f6 d438 ddef 1e36 d7ed  ..n..I...8...6..
++00000c90: c63e e367 fdc0 9b47 ca91 fddb ff66 f804  .>.g...G.....f..
++00000ca0: de67 f44a e3e9 f395 86e3 2fb3 c5ec 4adb  .g.J....../...J.
++00000cb0: 87c9 62f9 32bd d638 9885 5170 bd7d 309f  ..b.2..8..Qp.}0.
++00000cc0: 077f 2e26 7f74 57a0 7f0c 689b 7035 3632  ...&.tW...h.p562
++00000cd0: 459d 4c46 7f03 0000 ffff 0300 504b 0304  E.LF........PK..
+ 00000ce0: 1400 0600 0800 0000 2100 2796 d6b5 ca02  ........!.'.....
+ 00000cf0: 0000 0a07 0000 0d00 0000 786c 2f73 7479  ..........xl/sty
+ 00000d00: 6c65 732e 786d 6cb4 55db 6edb 300c 7d1f  les.xml.U.n.0.}.
+ 00000d10: b07f 10f4 eeca 76e3 2c09 6c17 4b53 0305  ......v.,.l.KS..
+ 00000d20: b661 403b 60af 8a2d 2742 7531 2425 7336  .a@;`..-'Bu1$%s6
+ 00000d30: ecdf 47d9 4ee2 a2dd adc3 5e62 8912 0f0f  ..G.N.....^b....
+ 00000d40: 0f29 26bd 6aa5 407b 662c d72a c3d1 4588  .)&.j.@{f,.*..E.
+@@ -367,503 +367,505 @@
+ 000016e0: 2dcd 8511 8b8b 4c5f cc17 b5e1 fae2 be5c  -.....L_.......\
+ 000016f0: d97c 71ef 1120 9dfb b5ca a059 6d76 6a85  .|q.. .....Ymvj.
+ 00001700: 66b5 3d28 04bd 4ea3 d0ec d63a 855e ad5b  f.=(..N....:.^.[
+ 00001710: ef0d 7add b0d1 1c3c f0bd 230d 0eda d56e  ..z....<..#....n
+ 00001720: 50eb 370a b572 b75b 086a 2565 7ea3 59a8  P.7..r.[.j%e~.Y.
+ 00001730: 0795 4a3b a8b7 1bfd a0fd 202b 6360 e529  ..J;...... +c`.)
+ 00001740: 7d64 be00 f76a bbb6 ff01 0000 ffff 0300  }d...j..........
+-00001750: 504b 0304 1400 0600 0800 0000 2100 f5db  PK..........!...
+-00001760: 71cd 3213 0000 d095 0000 1800 0000 786c  q.2...........xl
++00001750: 504b 0304 1400 0600 0800 0000 2100 4b8e  PK..........!.K.
++00001760: 0571 5013 0000 2a96 0000 1800 0000 786c  .qP...*.......xl
+ 00001770: 2f77 6f72 6b73 6865 6574 732f 7368 6565  /worksheets/shee
+-00001780: 7431 2e78 6d6c 9c93 cb8e db20 1486 f795  t1.xml..... ....
+-00001790: fa0e 887d 8ced 64dc 8e15 6754 651a 75a4  ...}..d...gTe.u.
+-000017a0: 2eaa 5ed7 181f c728 605c 2037 557d f71e  ..^....(`\ 7U}..
+-000017b0: ec38 8994 4d3a 960d 98cb f7ff 070e f3a7  .8..M:..........
+-000017c0: 8356 6407 d649 d316 3489 624a a015 a692  .Vd..I..4.bJ....
+-000017d0: edba a03f beaf 26ef 2971 9eb7 1557 a685  ...?..&.)q...W..
+-000017e0: 821e c1d1 a7c5 db37 f3bd b11b d700 7882  .......7......x.
+-000017f0: 84d6 15b4 f1be cb19 73a2 01cd 5d64 3a68  ........s...]d:h
+-00001800: 71a4 3656 738f bf76 cd5c 6781 57fd 22ad  q.6Vs..v.\g.W.".
+-00001810: 581a c719 d35c b674 20e4 f61e 86a9 6b29  X....\.t .....k)
+-00001820: e0d9 88ad 86d6 0f10 0b8a 7bf4 ef1a d9b9  ..........{.....
+-00001830: 91a6 c53d 38cd ed66 db4d 84d1 1d22 4aa9  ...=8..f.M..."J.
+-00001840: a43f f650 4ab4 c85f d6ad b1bc 5418 f721  .?.PJ.._....T..!
+-00001850: 9971 410e 16df 14bf e928 d3f7 df28 6929  .qA......(...(i)
+-00001860: ac71 a6f6 1192 d9e0 f936 fc47 f6c8 b838  .q.......6.G...8
+-00001870: 936e e3bf 0b93 cc98 859d 0c07 7841 a5af  .n..........xA..
+-00001880: b394 3c9c 59e9 0536 7d25 2c3b c3c2 76d9  ..<.Y..6}%,;..v.
+-00001890: 7c2b ab82 fe89 4fcf 04eb 2414 f1a5 18c7  |+....O...$.....
+-000018a0: fed2 c5bc 9278 c221 2a62 a12e e887 245f  .....x.!*b....$_
+-000018b0: a659 4cd9 62de 67d0 4f09 7b77 d526 9e97  .YL.b.g.O.{w.&..
+-000018c0: df40 81f0 802a 0925 de74 9fa1 f64b 502a  .@...*.%.t...KP*
+-000018d0: ac46 0b21 654b 6336 61e9 0b4e 8a51 c5f5  .F.!eKc6a..N.Q..
+-000018e0: 4b82 0a17 5eee 6098 fe31 c5e9 ee77 2f1c  K...^.`..1...w/.
+-000018f0: da28 cace aad7 edd1 c1aa 4ff3 2f96 94dc  .(........O./...
+-00001900: c1d2 a85f b2f2 0dda c0eb 5441 cdb7 ca5f  ..._......TA..._
+-00001910: 75a2 b953 e757 b3ff 0472 dd78 9c9a e11e  u..S.W...r.x....
+-00001920: 8524 cbab e333 3881 d98d 0ea3 3468 0ba3  .$...38.....4h..
+-00001930: 5008 4ba2 65b8 a598 9cfc d0d7 fb41 6736  P.K.e........Ag6
+-00001940: 8b92 6c16 67e9 0325 2538 bf92 8148 89d8  ..l.g..%%8...H..
+-00001950: 3a6f f468 e684 1a20 78be 3d04 eb13 2479  :o.h... x.=...$y
+-00001960: f7df 1094 eb21 589f 20d3 38ca 4627 b7ea  .....!X. .8.F'..
+-00001970: ac8f e41f 0000 00ff ff00 0000 ffff 949d  ................
+-00001980: d1ae db36 1645 7f25 c87b 1d93 9225 b948  ...6.E.%.{...%.H
+-00001990: 03cc bde9 875c 642e d0a7 cea0 37e8 ccfc  .....\d.....7...
+-000019a0: fd1c cab4 c5cd 436e 7af7 a9e8 d149 5669  ......Cnz....IVi
+-000019b0: 6a99 a2b4 adaf 1f7f bcbf fffc fef6 f3ed  j...............
+-000019c0: dbd7 bffe f59f 4f7f fdf6 397c fef4 f1ef  ......O...9|....
+-000019d0: b73f 3fec df7e 9d3e 7ffa 6f98 df7e fcfa  .??..~.>..o..~..
+-000019e0: cfff 7d7f fff8 f1fe e7cf df3e 9f4f f1f3  ..}........>.O..
+-000019f0: b7af 3fd2 a1ff 48c7 ee1d f6df 3fec bffe  ..?...H.....?...
+-00001a00: fded fcf5 cbdf dfbe 7ef9 918f 78f1 4704  ........~...x.G.
+-00001a10: 3ce2 d51f 111f 477c 31a6 0758 14c0 ecd8  <.....G|1..X....
+-00001a20: 07d2 3255 4c65 71de 2a9c f43f 67ff 1ba7  ..2ULeq.*..?g...
+-00001a30: b01d 15c0 b031 797a 7cec d807 c665 a930  .....1yz|....e.0
+-00001a40: cae2 7cad 30a6 1d23 9ec2 15ff f9fd 97ce  ..|.0..#........
+-00001a50: e8cc 0296 1ddb c72a 8bf3 5a61 cd2a d645  .......*..Za.*.E
+-00001a60: c0b2 63fb 5850 ac66 d9eb 45c5 5a04 2c3b  ..c.XP.f..E.Z.,;
+-00001a70: b68f 5516 e7ea 137e 5d54 ac55 c0b2 63fb  ..U....~]T.U..c.
+-00001a80: 5865 d14d f155 c5da 042c 3bf6 8155 9f78  Xe.M.U...,;..U.x
+-00001a90: 65cd cdf8 6da7 3aec 0027 dd55 20b0 63bb  e...m.:..'.U .c.
+-00001aa0: 0465 cd4d ee2b 2308 67c5 8b76 7097 21fd  .e.M.+#.g..vp.!.
+-00001ab0: 49c7 2757 4f65 ab26 0175 c621 4876 b683  I.'WOe.&.u.!Hv..
+-00001ac0: fb14 65d1 cd5c fb7b 1885 a2e2 50ea b69e  ..e..\.{....P...
+-00001ad0: 1150 7413 d5aa 8c42 3171 286d bb54 d27f  .Pt....B1q(m.T..
+-00001ae0: 81aa 9b99 5665 188a 7943 6957 8f41 dd6b  ....Ve..yCiW.A.k
+-00001af0: bd0c 4331 6d28 6dea 31a8 6bad 9761 2866  ..C1m(m.1.k..a(f
+-00001b00: 0da5 3d3d 0675 abf5 320c c5a4 a1b4 a5c7  ..==.u..2.......
+-00001b10: a02e b55e 86a1 9833 801e eb75 1414 eb45  ...^...3...u...E
+-00001b20: 8bb5 320a c59e 0114 5953 94c5 8b53 1715  ..2.....YS...S..
+-00001b30: 6854 049a 0e7e a86b aed7 6f50 acbf 74ad  hT...~.k..oP..t.
+-00001b40: 958c 4554 049a 0eee 5340 b15e 2859 2ba3  ..ET....S@.^(Y+.
+-00001b50: 90d6 b2b0 5ead c702 8af5 2a32 5281 4645  ....^.....*2R.FE
+-00001b60: a0e9 e063 497d a931 a0ea 3e92 9b40 7fe9  ...cI}.1..>..@..
+-00001b70: 7ca9 45c5 a0e9 e083 a31a f617 ac3a 8e9b  |.E..........:..
+-00001b80: 41bb 1c8a 4223 48b2 1e0e 2856 f3f7 d55a  A...B#H...(V...Z
+-00001b90: d3dc e862 280a 8db0 3aad 31a0 585f 7859  ...b(...:.1.X_xY
+-00001ba0: 2bc5 5014 1a61 355a 6340 b15a 02bc 5a2b  +.P..a5Zc@.Z..Z+
+-00001bb0: c550 141a 4b4b ba39 0ac5 e332 6abf 947d  .P..KK.9...2j..}
+-00001bc0: b556 8aa1 3834 969a ac2f fba0 e8d6 1a56  .V..84.../.....V
+-00001bd0: 4d18 d753 8c61 3e1f ff1c 6736 5e8c 2a52  M..S.a>...g6^.*R
+-00001be0: 9d4a 6fba ab51 906a ad33 6b95 b014 cb4e  .Jo..Q.j.3k....N
+-00001bf0: a548 1d56 5974 df38 d62a 6129 da9d 600f  .H.VYt.8.*a)..`.
+-00001c00: a1be 7607 edd6 9eb1 5609 4bda 5200 d3d6  ..v.....V.K.R...
+-00001c10: 58b0 a750 af12 a69b 869f 9e5b 8a96 a752  X..P.......[...R
+-00001c20: cbb5 95a1 e83f c49b 959f c652 2c3d 9522  .....?.....R,=."
+-00001c30: 7658 65d1 5d7c 58ab f421 2ad6 9e4a 313b  vXe.]|X..!*..J1;
+-00001c40: 2c58 f7ba 8da1 9bb5 9f1e 2dc5 e253 296a  ,X........-..S)j
+-00001c50: 8705 eb60 2788 9bc5 9fc6 52ac 3e95 e276  ...`'.....R.>..v
+-00001c60: 58b0 3076 67e2 cdea 4f63 2996 9f4a cbd7  X.0vg...Oc)..J..
+-00001c70: 5794 50f4 bb7b 37cb afa7 e5f8 9202 afcf  W.P..{7.........
+-00001c80: 8ad7 d3c1 8f25 510d 0245 bf9f 77f3 3a01  .....%Q..E..w.:.
+-00001c90: 514c 3e97 b276 20d4 e4d6 9ace 3602 a2b8  QL>..v .....6...
+-00001ca0: 7b2e f5ec 40a8 bbad 7500 a2d8 7a2e 85ec  {...@...u...z...
+-00001cb0: 40a8 adad 7500 226d f996 7eae 9cf2 32c3  @...u."m..~...2.
+-00001cc0: be43 6d1c abee 20f3 a9b7 f5ac 1879 2ea5  .Cm... ......y..
+-00001cd0: eb40 c0c8 6ef3 f966 e4b5 0fa2 3878 2e35  .@..n..f....8x.5
+-00001ce0: eb40 60e5 5c5f e85a eb60 4414 ebce a558  .@`.\_.Z.`D....X
+-00001cf0: 1d08 58b7 d69b b50e 4014 cfce a54a 1d08  ..X.....@....J..
+-00001d00: dd80 b0d6 0188 62d6 b934 6ba8 6f29 41d5  ......b..4k.o)A.
+-00001d10: a9d5 aa89 24ae c775 0698 f5a2 9835 1dfc  ....$..u.....5..
+-00001d20: 30ab 0381 aa53 ab55 3988 62d6 4b29 4f0f  0....S.U9.b.K)O.
+-00001d30: 42d5 6abd 1c44 31eb a594 a707 a16a b55e  B.j..D1......j.^
+-00001d40: 0ea2 98f5 52ca d383 50b5 5a2f 0751 cc7a  ....R...P.Z/.Q.z
+-00001d50: 81bb 69f5 f204 aa6e b25a 3581 84d3 e5e8  ..i....n.Z5.....
+-00001d60: c3d9 2add 3f83 5d07 4742 dd7a c9bb ba7d  ..*.?.].GB.z...}
+-00001d70: 12c5 ad17 d0a7 23a1 72b5 dec1 9828 72bd  ......#.r....(r.
+-00001d80: c0de 8323 a176 b5de 0189 62d7 0b6c 3f38  ...#.v....b..l?8
+-00001d90: 12aa 57eb 1d90 287a bd80 5e6b d143 d5cf  ..W...(z..^k.C..
+-00001da0: d89b 5e2f 97e2 9483 19bb 287e 4d07 1f7e  ..^/......(~M..~
+-00001db0: ad49 a0ea fc6a d534 2684 4411 ec02 8275  .I...j.4&.D....u
+-00001dc0: 2454 b0d6 3b20 510c bb80 611d 0935 acf5  $T..; Q...a..5..
+-00001dd0: 0e48 14c5 2ea0 5847 4215 6bbd 0312 c5b1  .H....XGB.k.....
+-00001de0: 4be9 d850 6fec 41d5 cd58 abde 64df 9db1  K..Po.A..X..d...
+-00001df0: 8a63 97d2 a29e 843a d67a 0724 8a63 97d2  .c.....:.z.$.c..
+-00001e00: a29e 843a d67a 0724 8a63 97d2 a29e 843a  ...:.z.$.c.....:
+-00001e10: d67a 0724 8a63 97d2 a29e 843a d67a 0724  .z.$.c.....:.z.$
+-00001e20: 8a63 1770 6cbd ab09 553f 63b3 63af 9dfb  .c.pl...U?c.c...
+-00001e30: 25ab a2d8 74f0 a1d8 1a04 aa4e b156 dd4f  %...t......N.V.O
+-00001e40: e22e 8862 d815 0ceb 40a8 61ad 9783 2882  ...b....@.a...(.
+-00001e50: 5d41 b00e 840a d67a 3988 e2d7 15fc ea40  ]A.....z9......@
+-00001e60: a85f ad97 8328 7a5d 41af d59d 9117 a8ba  ._...(z]A.......
+-00001e70: c96a d51d 64e9 ac60 57c5 aee9 e063 b23a  .j..d..`W....c.:
+-00001e80: 106a 57eb e520 8a5c 5790 ab03 a172 b55e  .jW.. .\W....r.^
+-00001e90: 0ea2 b875 05b7 3a10 ea56 ebe5 208a 5a57  ...u..:..V.. .ZW
+-00001ea0: 50ab 03a1 6ab5 5e0e a298 7505 b3d6 0f14  P...j.^...u.....
+-00001eb0: 41d5 4fd6 bcef bacd c7a6 02ac 5e37 45ad  A.O.........^7E.
+-00001ec0: e9e0 63b6 ba87 dde8 0d35 eb4d 43b2 f649  ..c......5.MC..I
+-00001ed0: 14b7 6ee0 5647 42dd 6abd 0312 45ae 1bc8  ..n.VGB.j...E...
+-00001ee0: d591 50b9 5aef 8044 b1eb 0676 7524 d4ae  ..P.Z..D...vu$..
+-00001ef0: d63b 2051 f4ba 815e abdb f02f 50f5 4f45  .; Q...^.../P.OE
+-00001f00: def4 3adb cde0 f653 d19b e2d7 74f0 3163  ..:....S....t.1c
+-00001f10: 1d09 f5ab f5a6 3121 248a 6037 10ac 23a1  ......1!$.`7..#.
+-00001f20: 82b5 de01 8962 d80d 0ceb 48a8 61ad 7740  .....b....H.a.w@
+-00001f30: a228 7603 c53a 12aa 58eb 1d90 288e ddc0  .(v..:..X...(...
+-00001f40: b1f5 f357 5075 b773 ad9a 4896 6de9 ccd8  ...WPu.s..H.m...
+-00001f50: abe2 d874 f031 636b 12a8 ba3b b856 1d90  ...t.1ck...;.V..
+-00001f60: 288e bd82 631d 4959 758f d35a ef80 4471  (...c.IYu..Z..Dq
+-00001f70: ec15 1ceb 48c0 b1f5 3d14 eb1d 9028 8ebd  ....H...=....(..
+-00001f80: 8263 1d09 38b6 bead 64bd 0312 c5b1 5770  .c..8...d.....Wp
+-00001f90: 6cbd bb06 55e7 58ab eee7 cea9 78f6 139f  l...U.X.....x...
+-00001fa0: 3e57 1c7b 05c7 3a12 ea58 eb1d 9028 8ebd  >W.{..:..X...(..
+-00001fb0: 8263 1d09 75ac f50e 4814 c75e c1b1 8e84  .c..u...H..^....
+-00001fc0: 3ad6 7a07 248a 63af e058 4742 1d6b bd03  :.z.$.c..XGB.k..
+-00001fd0: 12c5 b157 706c 7d6f 18aa de6c 37c7 6eb1  ...Wpl}o...l7.n.
+-00001fe0: e7d8 7056 24bb 1f7d 58d6 3d1d 9ffe b0e3  ..pV$..}X.=.....
+-00001ff0: 39d8 fa26 64ea 4ee3 c268 14d1 8633 98d6  9..&d.N..h...3..
+-00002000: d3d0 e56c ea1e d128 b20d 67b0 ada7 a1ba  ...l...(..g.....
+-00002010: 4ddd 231a 45b8 e10c c6f5 3454 b9a9 7b44  M.#.E.....4T..{D
+-00002020: a348 379c 4beb c67a c582 651f abb0 ee44  .H7.K..z..e....D
+-00002030: 13cf 6b67 a510 ce8a 78f7 a31f d3b4 4143  ..kg....x.....AC
+-00002040: d59b ba47 348a 7cc3 b9f4 6b83 86ea 3775  ...G4.|...k...7u
+-00002050: 8f68 1401 8773 e9d8 060d 5570 ea1e d128  .h...s....Up...(
+-00002060: 120e e7d2 b30d 1aaa e1d4 3da2 5144 1cce  ..........=.QD..
+-00002070: a589 a34b b042 b931 8b6f 2e9e 62e7 51ae  ...K.B.1.o..b.Q.
+-00002080: a025 c720 1de6 61a0 ec36 6cd3 df95 8686  .%. ..a..6l.....
+-00002090: c048 264e 71b3 e38c 7223 0365 1f07 c921  .H&Nq...r#.e...!
+-000020a0: 3202 2389 18b2 628d 91a1 7b0b 2167 c908  2.#...b...{.!g..
+-000020b0: 8ce4 6148 8c35 60e8 f642 c889 3202 2369  ..aH.5`..B..2.#i
+-000020c0: 1852 65b1 de9b 0b50 f613 38e7 cad6 b977  .Re....P..8....w
+-000020d0: 832c a4b8 d8f3 9970 0897 3568 b886 73bc  .,.....p..5h..s.
+-000020e0: 8cd1 481a 868c 5983 866b 38a7 cc18 8da4  ..H...Y..k8.....
+-000020f0: 6188 9a35 68b8 8673 d88c d148 1a86 c459  a..5h..s...H...Y
+-00002100: 8386 6b38 87ce 188d a461 489e 4597 14c5  ..k8.....aH.E...
+-00002110: 605a 7d35 19ac bc2f 6dae bd8d b220 05d0  `Z}5.../m.... ..
+-00002120: f6a3 0ff5 f9dc 2add dd4d dd23 1a49 c490  ......*..M.#.I..
+-00002130: 44f3 6303 652f e21c 46db c8d8 4826 b658  D.c.e/..F...H&.X
+-00002140: 59f1 b5e0 c786 9b38 87d2 188d a462 48a6  Y......8.....bH.
+-00002150: 35c6 86ab d8ba 479f 94e4 6248 a0c5 7a4b  5.....G...bH..zK
+-00002160: 2440 d9bb d8ca 8966 59fb b358 7231 a4d4  $@.....fY..Xr1..
+-00002170: 1a34 dcc5 39a8 c668 2417 4358 ad41 c35d  .4..9..h$.CX.A.]
+-00002180: 9cf3 6a8c 4672 3164 d61a 34dc c539 b6c6  ..j.Fr1d..4..9..
+-00002190: 6824 1743 74ad 41c3 5d9c d36b 8c46 7231  h$.Ct.A.]..k.Fr1
+-000021a0: 84d4 2ef5 0337 01cb 2e07 9c43 6c53 e711  .....7.....ClS..
+-000021b0: dc90 8268 cfaf 2720 b6e6 59a0 ec7f c820  ...h..' ..Y.... 
+-000021c0: 27d7 fa2c 9287 21ab d660 815d e07a ef35  '..,..!..`.].z.5
+-000021d0: e4b8 5a9f 45b2 3004 d41a 2c60 6197 18cf  ..Z.E.0...,`a...
+-000021e0: 19b5 3e8b e460 8b96 1ddf 080d 16be 2d91  ..>..`........-.
+-000021f0: 8369 7d16 c9c0 9036 2bae caf6 9ca7 fdd4  .i}....6+.......
+-00002200: 030d 3ba4 f2fe 7d70 5a0f 77c3 6670 4899  ..;...}pZ.w.fpH.
+-00002210: 3261 f696 8a6d d070 03e7 10da 4668 2403  2a...m.p....Fh$.
+-00002220: 43f0 ac41 c30d 6cdd a3b1 910c 0c79 b306  C..A..l......y..
+-00002230: 0d37 b075 8f68 2403 43cc ac41 c30d 6cdd  .7.u.h$.C..A..l.
+-00002240: 231a c9c0 1020 8bf5 c341 81e7 cb52 39d1  #.... ...A...R9.
+-00002250: ccd7 e2d2 1467 b194 30b3 bbcf e58a cfd1  .....g..0.......
+-00002260: f090 59ea 1ed1 4816 869c 991f 1b28 fbd5  ..Y...H......(..
+-00002270: 708e 9ab1 b191 3c0c 61b3 060d 5f0d e7bc  p.....<.a..._...
+-00002280: 19a3 914c 0c89 b306 0d5f 0de7 d019 a391  ...L....._......
+-00002290: 5c0c c9b2 58df 6e09 3c78 96ca fb39 35f5  \...X.n.<x...95.
+-000022a0: 67b1 e462 c89e 3568 b88b ad7b 4423 b918  g..b..5h...{D#..
+-000022b0: 0268 0d1a eee2 9c41 dbc8 d848 2e86 145a  .h.....A...H...Z
+-000022c0: 8386 bb38 07d1 188d e462 88a2 3568 b88b  ...8.....b..5h..
+-000022d0: 731a 8dd1 482e 86c4 5971 cb2d af28 7820  s...H...Yq.-.(x 
+-000022e0: 2ddc 1369 dba1 4d54 b114 490b 903a f330  -..i..MT..I..:.0
+-000022f0: 3c94 96ba f7bd f33e 8c64 62c8 a535 60f8  <......>.db..5`.
+-00002300: adba 7b32 ad0f 2389 18b2 690d 182e e27b  ..{2..#...i....{
+-00002310: 3aad 0f23 7918 f269 0d18 eee1 7b42 ad0f  :..#y..i....{B..
+-00002320: 2369 1852 68d1 dd35 e421 b590 536a 97e5  #i.Rh..5.!..Sj..
+-00002330: dabb 4f67 e931 6149 9c8e 3eb6 d63c 0dd7  ..Og.1aI..>..<..
+-00002340: 704e aa31 1a49 c390 556b 8c0d d770 4eab  pN.1.I..Uk...pN.
+-00002350: 311a 49c3 9057 6bd0 700d e7c4 1aa3 9134  1.I..Wk.p......4
+-00002360: 0c99 b506 0dd7 704e ad31 1a49 c390 4c8b  ......pN.1.I..L.
+-00002370: 751e 29f0 e05a 2a27 f3d9 0edc b937 8da5  u.)..Z*'.....7..
+-00002380: ec5a 8078 9ac7 e1e9 b5d4 3dc4 9154 0c09  .Z.x......=..T..
+-00002390: b606 0e57 71ce b0d1 d191 640c 31b6 060e  ...Wq.....d.1...
+-000023a0: 9771 0eb2 511c 49c7 9065 6be0 701d e734  .q..Q.I..ek.p..4
+-000023b0: 1bc5 9184 0c91 b5c9 dd58 e589 b690 236d  .........X....#m
+-000023c0: b3fd 1473 f113 51e7 736f bf2d 85d6 9edf  ...s..Q.so.-....
+-000023d0: b180 885b 838d eb39 87dc 9e67 9364 0da1  ...[...9...g.d..
+-000023e0: b706 1b97 758e bd3d cf26 a91b 6270 0d36  ....u..=.&..bp.6
+-000023f0: aeee 1c84 7b9e 4d12 3904 e31a 6c5c e439  ....{.M.9...l\.9
+-00002400: 1af7 3c9b a475 08c3 4dee 2122 9e95 0b56  ..<..u..M.!"...V
+-00002410: be79 74ed 6a5d cacb 0588 c479 1c9e 984b  .yt.j].....y...K
+-00002420: dd43 1c49 eb10 9b6b e070 ade7 e05c 8864  .C.I...k.p...\.d
+-00002430: 7424 ad43 78ae 81c3 b59e e373 1447 d23a  t$.Cx......s.G.:
+-00002440: 44e8 1a38 5ceb 3944 4771 24ad 4354 6e72  D..8\.9DGq$.CTnr
+-00002450: 0f62 f024 5db8 47e9 d6de 9344 5296 2e40  .b.$].G....DR..@
+-00002460: 98ae 01c3 3d7e 8fd3 f561 2471 43a0 ae01  ....=~...a$qC...
+-00002470: c3c5 7d8f d4f5 6124 5343 a8ae 01c3 4d7d  ..}...a$SC....M}
+-00002480: 8fd5 f561 2435 43b0 ae01 c3d5 7c8f d6f5  ...a$5C.....|...
+-00002490: 6124 1743 7cae b81f 9377 3a78 ba2e 5879  a$.C|....w:x..Xy
+-000024a0: df5c e85f 284a f9ba 0001 3b4f 0365 ff2c  .\._(J....;O.e.,
+-000024b0: 5c8e d845 4223 9918 4276 0d1a 6ee2 1cb3  \..EB#..Bv..n...
+-000024c0: 6334 9288 2168 d7a0 e122 ce51 3b46 2379  c4..!h...".Q;F#y
+-000024d0: 18c2 760d 1aee e11c b763 3492 8621 5237  ..v......c4..!R7
+-000024e0: b967 3078 e22e 5879 dfe7 8da7 9e87 a5cc  .g0x..Xy........
+-000024f0: 5d80 d05d 8386 7b38 c7ee 3642 2389 1882  ]..]..{8..6B#...
+-00002500: 770d 1a2e e21c bd63 3492 8921 7cd7 a0e1  w......c4..!|...
+-00002510: 26ce f13b 4623 a918 0278 0d1a aee2 1cc1  &..;F#...x......
+-00002520: 6334 928b 2166 37b9 6730 a0dc b0df 3d22  c4..!f7.g0....="
+-00002530: d29d c552 0e2f 40d4 ced3 40b9 f1cb f0f7  ...R./@...@.....
+-00002540: 8848 9f46 7231 84f1 1a34 f01c 860b ace4  .H.Fr1...4......
+-00002550: 381e f9a4 52c4 eef9 2b66 08e4 3568 f893  8...R...+f..5h..
+-00002560: 1839 92c7 6824 1743 28af 41c3 9fc5 c8b1  .9..h$.C(.A.....
+-00002570: 3c46 23b9 18a2 7793 bb73 cc93 7921 47f3  <F#...w..s..y!G.
+-00002580: c2f5 b4e1 7b90 da61 e890 c277 c2e7 56aa  ....{..a...w..V.
+-00002590: b7c1 c6cd 9cc3 7acf b349 9e86 f05e 838d  ......z..I...^..
+-000025a0: 7b3a c7f7 9e67 93ac 0d71 be06 1bb7 760e  {:...g...q....v.
+-000025b0: f43d cf26 391c 027e 0d36 eef0 1cf1 7b9e  .=.&9..~.6....{.
+-000025c0: 4d32 3a84 fa26 7737 1c33 7fee 0967 2ba7  M2:..&w7.3...g+.
+-000025d0: 75c9 7a3d 757e 6ac5 3603 9557 a441 aacf  u.z=u~j.6..W.A..
+-000025e0: d1ec 7fd8 11fa ab9f 654b 65be 4a8a 29c6  ........eKe.J.).
+-000025f0: f7f4 b9b8 1ffd f8eb 1a34 7475 9dba 4734  .........4tu..G4
+-00002600: 8ad1 2384 fe1a 3474 759d ba47 348a d123  ..#...4tu..G4..#
+-00002610: 84fe 1a34 7475 9dba 4734 8ad1 2384 fe1a  ...4tu..G4..#...
+-00002620: 34f0 7c9d 9f37 f9d7 84c9 2c56 1c1e 5344  4.|..7....,V..SD
+-00002630: 90cd 9bb2 ecd6 25a9 7b74 4e29 d68e 10fa  ......%.{tN)....
+-00002640: 6b8c 4d69 6df7 ac6a ea1e d128 9eb6 6025  k.Mim..j...(..`%
+-00002650: 1f1b f074 fd84 68ea 1ed1 2866 8e10 fa9b  ...t..h...(f....
+-00002660: eadb be58 f6ef c5c8 a1bf 69eb a594 62ca  ...X......i...b.
+-00002670: e909 be29 437f 0d9a b2ec 56d7 e9ef 4a63  ...)C.....V...Jc
+-00002680: 4368 a4d4 5f84 589f a7e1 af8c 4bdd 231a  Ch.._.X.....K.#.
+-00002690: c9c5 90eb 6bd0 d0d5 75bc c7fe fa9f 544a  ....k...u.....TJ
+-000026a0: f23d ff49 e10b e4dc bce1 af90 8bf7 dc1f  .=.I............
+-000026b0: a191 5c0c c1bf a9be 091d f99b e452 397d  ..\..........R9}
+-000026c0: 5297 a977 b3c2 defa 228d 4d29 db06 0d77  R..w....".M)...w
+-000026d0: 714e fe31 1ac9 c590 fc6b d070 17e7 e41f  qN.1.....k.p....
+-000026e0: a391 5c0c c9bf 060d 7771 4efe 311a c9c5  ..\.....wqN.1...
+-000026f0: 90fc 6bd0 7017 e7e4 1fa3 915c 8cef 9aab  ..k.p......\....
+-00002700: ef3f 472c d72b d154 de57 14dd 670f 630a  .?G,.+.T.W..g.c.
+-00002710: eb09 6738 c8d6 d370 17df 937f 7d1a edd5  ..g8...p....}...
+-00002720: 73f8 ee39 4703 65bf a2b8 27ff 088d e462  s..9G.e...'....b
+-00002730: 7c07 9da7 e12e be27 ff08 8de4 6248 fe15  |......'....bH..
+-00002740: 19b5 dbfd 8188 65b7 a2b8 27ff 088d e462  ......e...'....b
+-00002750: 48fe cdf5 9de3 8865 378b 73f2 8f3c d411  H......e7.s..<..
+-00002760: b537 d361 b6cf e370 19e7 e81f c591 6c0c  .7.a...p......l.
+-00002770: d9bf c6e8 701b e7ec 1fc5 9174 0ce1 bf06  ....p......t....
+-00002780: 0ed7 710e ff51 1cc9 c790 fe6b e070 1fe7  ..q..Q.....k.p..
+-00002790: f41f c591 840c f1bf c5cf 1dd8 b6f0 53f9  ..............S.
+-000027a0: fefb f0bd b75e c494 d87b 5ec8 f802 3b4f  .....^...{^...;O
+-000027b0: c385 9ce3 7fe1 d4a5 9102 8011 df5b e768  .............[.h
+-000027c0: 301f 5887 1153 f7fe 4406 a191 848c afab  0.X..S..D.......
+-000027d0: f334 5cc8 3902 c8c6 4612 32be a5ce d3d0  .4\.9...F.2.....
+-000027e0: ade7 9843 808c 4612 32c4 00e7 faf9 8788  ...C..F.2.......
+-000027f0: 65f7 f590 6380 61e9 6e70 a5ec def3 b318  e...c.a.np......
+-00002800: 937e 754c 3df2 2060 2aef f366 ea3e 2f1a  .~uL=. `*..f.>/.
+-00002810: a524 e07e f4b1 a1e6 71e8 6e73 ea1e e248  .$.~....q.ns...H
+-00002820: 3e86 28e0 ec71 e806 73cc 5140 8b4b 76af  >.(..q..s.Q@.Kv.
+-00002830: 6452 ba4f f8b0 40b8 1e87 ee29 c79c 05a4  dR.O..@....)....
+-00002840: 3892 8f21 0cd8 181d ba8d 1c73 1890 e248  8..!.......s...H
+-00002850: 42c6 b89f 7b21 3296 fd89 957f 9273 d93a  B...{!2......s.:
+-00002860: 4f3e db33 d1ca 6705 71bf c59d e698 0674  O>.3..g.q......t
+-00002870: 5f56 390d b89e 02de d2b9 fcfe 4be7 0563  _V9.........K..c
+-00002880: 3125 fa9e 9f4a 90ff 6be0 81a1 dd06 e5e3  1%...J..k.......
+-00002890: 4d74 029e a46c c80b 36f0 4a65 fbeb 8bc7  Mt...l..6.Je....
+-000028a0: fbe9 043c c9e1 1020 6ce0 c166 737d 6b35  ...<... l..fs}k5
+-000028b0: 3ede 5a27 e049 5287 c860 030f 16d9 ee4c  >.Z'.IR..`.....L
+-000028c0: b8bf cb4e 997b d2a2 1b22 86b3 7b05 3196  ...N.{..."..{.1.
+-000028d0: fda9 9125 bff5 f787 526a 5038 1560 55ed  ...%....RjP8.`U.
+-000028e0: 71a0 ec4f 85fc 2a26 8623 491e 4286 8dd1  q..O..*&.#I.B...
+-000028f0: 2925 df98 faf9 7d4c 0c47 923c a40c 1b38  )%....}L.G.<...8
+-00002900: 2079 3fd5 f3a2 9be1 4892 c71c a1ff b060   y?.....H......`
+-00002910: d5ed a776 7e10 9ae0 4841 c308 49c2 8bdb  ...v~...HA..I...
+-00002920: 77c5 a0a1 9bca f7a0 613c 1d9d 107b 8c29  w.......a<...{.)
+-00002930: 3bf8 fc4c 86a4 6183 864b fd9e 3424 3492  ;..L..a..K..4$4.
+-00002940: c321 6ad8 a0e1 0ebf 470d 098d a46c c81a  .!j.....G....l..
+-00002950: 3668 b8b2 ef59 4342 2319 1a5f 88e7 e70d  6h...YCB#.._....
+-00002960: 3774 0e1b 4642 2309 19c2 8617 b75f 0f65  7t..FB#......_.e
+-00002970: 7fd7 2987 0dcf a750 0c6b 358d 2521 e39b  ..)....P.k5.%!..
+-00002980: f13c 0e17 724e 1b52 1c49 c8f8 7a3c 8fc3  .<..rN.R.I..z<..
+-00002990: 859c e386 1447 1232 be23 cfe3 7021 e7bc  .....G.2.#..p!..
+-000029a0: 21c5 9184 0c89 c2c6 dce1 42ce 8143 8623  !.........B..C.#
+-000029b0: 050e edc7 9e8b dbb9 8bbb 08c0 c0a1 fb7e  ...............~
+-000029c0: b807 0eeb 9fb5 f9f2 f1c7 fbfb cfef 6f3f  ..............o?
+-000029d0: dfbe fd1f 0000 ffff 0000 00ff ff44 90c1  .............D..
+-000029e0: 6ac3 300c 865f c5f8 bed8 f1d8 0a21 0994  j.0.._.......!..
+-000029f0: c26e 3ded 09bc 588e cdec 28c8 2a2d 8cbd  .n=...X...(.*-..
+-00002a00: fb92 2e69 7590 f44b 207d 526b 2f8c 1f31  ...iu..K }Rk/..1
+-00002a10: 3190 20f0 9d3c d6cd c9bc 6b29 6ed4 5ca2  1. ..<....k)n.\.
+-00002a20: ebe4 8fde ec65 89f5 eaf4 d3ed bd5f d9b7  .....e......._..
+-00002a30: 0589 3fd9 326c 83cc 3e28 a7a9 34b7 44ce  ..?.2l..>(..4.D.
+-00002a40: 7432 30cf 8d52 6508 906d a972 1c08 0b7a  t20..Re..m.r...z
+-00002a50: ae06 cc0a bd8f 03a8 3213 5857 0200 e7a4  ........2.XW....
+-00002a60: 8cae 0f8a e210 9c65 6bb6 3d27 9c5c e488  .......ek.='.\..
+-00002a70: d303 fab8 42ab be55 0f8c 257f 1ed7 b7b3  ....B..U..%.....
+-00002a80: 1de1 6c69 8c53 1109 3c77 5257 0729 288e  ..li.S..<wRW.)(.
+-00002a90: 61cf 19e7 7bf5 4d8a 2f64 c6bc abb0 f000  a...{.M./d......
+-00002aa0: adea 550a 8fb8 7ceb 5fac 0baf 48df 77d8  ..U...|._...H.w.
+-00002ab0: fe0f 0000 ffff 0300 504b 0304 1400 0600  ........PK......
+-00002ac0: 0800 0000 2100 d34c 9b3b 6603 0000 1f0c  ....!..L.;f.....
+-00002ad0: 0000 1400 0000 786c 2f73 6861 7265 6453  ......xl/sharedS
+-00002ae0: 7472 696e 6773 2e78 6d6c 9456 5b6f 9b30  trings.xml.V[o.0
+-00002af0: 147e 9fb4 ff60 f1ba d004 9256 5b94 a452  .~...`.....V[..R
+-00002b00: b355 7dd9 455d b777 071c b00a 36b3 cdd6  .U}.E].w....6...
+-00002b10: fcfb 1de3 0482 8d49 ab3c 059f cb77 6edf  .......I.<...wn.
+-00002b20: 39ab db97 b240 7f89 9094 b375 105d cd02  9....@.....u.]..
+-00002b30: 4458 c253 cab2 75f0 ebe9 3efc 1820 a930  DX.S..u...>.. .0
+-00002b40: 4b71 c119 5907 0722 83db cdfb 772b 2915  Kq..Y.."....w+).
+-00002b50: 025d 26d7 41ae 54b5 9c4e 6592 9312 cb2b  .]&.A.T..Ne....+
+-00002b60: 5e11 062f 7b2e 4aac e0af c8a6 b212 04a7  ^../{.J.........
+-00002b70: 3227 4495 c534 9ecd 6ea6 25a6 2c40 09af  2'D..4..n.%.,@..
+-00002b80: 995a 07d7 7114 a09a d13f 35d9 9a2f 379f  .Z..q....?5../7.
+-00002b90: 82cd 4ad2 cd4a 6d18 2ec9 6aaa 36ab a9fe  ..J..Jm...j.6...
+-00002ba0: 6fbe 2558 918c 0b4a a4fd 824b 6dc0 feba  o.%X...J...Km...
+-00002bb0: c562 c719 4a29 7fa1 2999 a03d 9792 1617  .b..J)..)..=....
+-00002bc0: a504 2f91 e4b4 405c a01d e510 9d84 6cf0  ../...@\......l.
+-00002bd0: e4f9 92a6 e26f d22b 397b 0db0 33b1 b722  .....o.+9{..3.."
+-00002be0: eb54 1967 a127 fcbc e082 ebba d9e1 7da6  .T.g.'........}.
+-00002bf0: 8c2a c133 c2d0 c990 2df2 45e5 9841 66a3  .*.3....-.E..Af.
+-00002c00: 89fe c5a1 224a e07d 5183 c570 821e eeb7  ...."J.}Q..p....
+-00002c10: 6134 5fe0 51ad 5009 9a34 18b4 c656 ab2c  a4_.Q.P..4...V.,
+-00002c20: 6617 35fa 3e16 f351 1f80 abf5 0128 354e  f.5.>..Q.....(5N
+-00002c30: 415b 0b8d cb68 3ee2 324c 4f08 a3b0 736c  A[...h>.2LO...sl
+-00002c40: a046 bb71 c53e d0eb 7804 68dc f9f1 db3c  .F.q.>..x.h....<
+-00002c50: 136a 52ee 24dd 84b3 f05a 088f c906 6df0  .jR.$....Z....m.
+-00002c60: 6787 137b c3d1 69eb f2a0 ebdd cba2 a95c  g..{..i........\
+-00002c70: ec4d 637c e677 a855 1ad8 b117 b601 0d1c  .Mc|.w.U........
+-00002c80: a3ba f632 915e fb22 cdc9 8bd5 8ad1 8d4f  ...2.^.".......O
+-00002c90: b66f b8e9 dbd8 31fc 951c bb7d 0773 d8f4  .o....1....}.s..
+-00002ca0: b7a6 4714 cd66 916d b72f 6ac0 9f27 db28  ..G..f.m./j..'.(
+-00002cb0: c6d1 05c5 f336 7d30 3af3 1167 ae1f 9da2  .....6}0:..g....
+-00002cc0: 38f6 a233 0ace 3038 456c c369 1b40 8fea  8..3..08El.i.@..
+-00002cd0: 369c 3b83 ea48 9e45 6d4a ec05 73b2 dd6f  6.;..H.EmJ..s..o
+-00002ce0: c9d8 9fa2 f384 429c 737f 9cc3 ccd7 62dd  ......B.s.....b.
+-00002cf0: bf9a 575b 154d 882d 6b3d 862e 63b5 927e  ..W[.M.-k=..c..~
+-00002d00: e66d 451a d63c b316 f9d3 da27 d847 e04a  .mE..<.....'.G.J
+-00002d10: 6f3e 5bce b398 6e4c a1c7 56ee 307f 837d  o>[...nL..V.0..}
+-00002d20: 4013 d46c 2ddb 8c7e 6b76 4563 03f6 ad2d  @..l-..~kvEc...-
+-00002d30: f083 0863 be19 36e6 bcff ac8b 7d2d 503b  ...c..6.....}-P;
+-00002d40: b603 2630 15cb 65c1 ff11 010b 5960 c565  ..&0..e.....Y`.e
+-00002d50: 9513 41d0 0754 5715 7c04 04d5 f19b edbd  ..A..TW.|.......
+-00002d60: 51d5 b5a8 c50e 3304 7ff5 7a6f 2a9f d32c  Q.....3...zo*..,
+-00002d70: d7e7 4ef2 ecde 15da 61cd 6445 12ba a724  ..N.....a.dE...$
+-00002d80: 1db4 da59 4c0a 2e09 8233 2013 708f 0c4b  ...YL....3 .p..K
+-00002d90: 037c 54f1 aa2e b082 eb0b a584 49aa 0e13  .|T.........I...
+-00002da0: 0454 92c1 fe74 d7b0 3e45 964b 9c41 e6eb  .T...t..>E.K.A..
+-00002db0: 42d5 023b 178c 9180 154e 202b 071b a379  B..;.....N +...y
+-00002dc0: a52c ade1 95fa b447 827c 38a4 4d65 6dc3  .,.....G.|8.Mem.
+-00002dd0: 7735 9c88 4e19 cd49 60cb 3ee9 c3c0 b438  w5..N..I`.>....8
+-00002de0: b0e8 a120 aee2 d369 47fb 04da 7939 8e4a  ... ...iG...y9.J
+-00002df0: 9f28 e62e 51b4 336a 88db 6948 e896 8100  .(..Q.3j..iH....
+-00002e00: ee34 bb57 c36f bfbf 6f27 e82f d7b5 2b08  .4.W.o..o'./..+.
+-00002e10: 3450 8619 cc43 c2cb 4ad7 db69 1ffb 00a5  4P...C..J..i....
+-00002e20: 4de3 d938 186e aa8a a07c bc16 0959 2e87  M..8.n...|...Y..
+-00002e30: e56c 6b1d b34c 5a5d c022 0449 746b d96e  .lk..LZ].".Itk.n
+-00002e40: fcea 9de4 140e fccd 7f00 0000 ffff 0300  ................
+-00002e50: 504b 0304 1400 0600 0800 0000 2100 ca56  PK..........!..V
+-00002e60: c4e1 5a01 0000 7102 0000 1100 0801 646f  ..Z...q.......do
+-00002e70: 6350 726f 7073 2f63 6f72 652e 786d 6c20  cProps/core.xml 
+-00002e80: a204 0128 a000 0100 0000 0000 0000 0000  ...(............
+-00002e90: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00002ea0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00001780: 7431 2e78 6d6c 9c93 cb8e 9b30 1486 f795  t1.xml.....0....
++00001790: fa0e 96f7 c1c0 30b4 8342 4655 4651 47ea  ......0..BFUFQG.
++000017a0: a2ea 756d cc21 58b1 31b5 9d9b aabe 7b8f  ..um.!X.1.....{.
++000017b0: 2124 91b2 8906 816d 7cf9 feff d8c7 f3e7  !$.....m|.......
++000017c0: 8356 6407 d649 d395 3489 624a a013 a696  .Vd..I..4.bJ....
++000017d0: ddba a43f 7fac 661f 2971 9e77 3557 a683  ...?..f.)q.w5W..
++000017e0: 921e c1d1 e7c5 fb77 f3bd b11b d702 7882  .......w......x.
++000017f0: 84ce 95b4 f5be 2f18 73a2 05cd 5d64 7ae8  ....../.s...]dz.
++00001800: 70a4 3156 738f bf76 cd5c 6f81 d7c3 22ad  p.1Vs..v.\o...".
++00001810: 581a c739 d35c 7674 2414 f61e 8669 1a29  X..9.\vt$....i.)
++00001820: e0c5 88ad 86ce 8f10 0b8a 7bf4 ef5a d9bb  ..........{..Z..
++00001830: 89a6 c53d 38cd ed66 dbcf 84d1 3d22 2aa9  ...=8..f....="*.
++00001840: a43f 0e50 4ab4 285e d79d b1bc 5218 f721  .?.PJ.(^....R..!
++00001850: c9b8 2007 8b6f 8adf c324 33f4 df28 6929  .. ..o...$3..(i)
++00001860: ac71 a6f1 1192 d9e8 f936 fc27 f6c4 b838  .q.......6.'...8
++00001870: 936e e3bf 0b93 64cc c24e 8603 bca0 d2b7  .n....d..N......
++00001880: 594a 1ecf acf4 027b 7823 2c3f c3c2 76d9  YJ.....{x#,?..v.
++00001890: 622b eb92 fe8d 4fcf 0ceb 2414 f1a5 98c6  b+....O...$.....
++000018a0: fed1 c5bc 9678 c221 2a62 a129 e9a7 a458  .....x.!*b.)...X
++000018b0: a679 4cd9 623e 64d0 2f09 7b77 d526 9e57  .yL.b>d./.{w.&.W
++000018c0: df41 81f0 802a 0925 def4 5fa0 f14b 500a  .A...*.%.._..KP.
++000018d0: 573f 5212 32b6 3266 1356 bee2 9c18 45dc  W?R.2.2f.V....E.
++000018e0: b022 8870 e1e5 0ec6 d9cb 04af 81fb 33e8  .".p..........3.
++000018f0: 8636 6ab2 b3e8 757b 32b0 1ab2 fcab 2515  .6j...u{2.....%.
++00001900: 77b0 34ea b7ac 7d8b 2e10 5343 c3b7 ca5f  w.4...}...SC..._
++00001910: 75a2 b753 e737 b3ff 0c72 dd7a 9c9a e316  u..S.7...r.z....
++00001920: 851c 2bea e30b 3881 c98d 0ea3 3468 0ba3  ..+...8.....4h..
++00001930: 5008 4ba2 65b8 a498 9bfc 30d4 fb51 27cb  P.K.e.....0..Q'.
++00001940: a224 cfe2 3cc5 282b 707e 2503 9112 b175  .$..<.(+p~%....u
++00001950: dee8 c9cc 0935 42f0 7807 08d6 2748 f2e1  .....5B.x...'H..
++00001960: 5e08 1b0c fd07 0000 ffff 0000 00ff ff94  ^...............
++00001970: 9ddd 8edb 3812 855f 6590 fb38 26f5 637b  ....8.._e..8&.c{
++00001980: 9009 b09d e441 826c 80b9 9a5d 4c07 d9dd  .....A.l...]L...
++00001990: b7df a25c 6df1 b0c8 239f 5c0d a654 e92f  ...\m...#.\..T./
++000019a0: 6cea 3345 e958 1f5f fffc f1e3 e797 6f3f  l.3E.X._......o?
++000019b0: bf7d faf8 f7bf fef3 dbdf 7fbc 4bef 7e7b  .}..........K.~{
++000019c0: fdf7 b7bf 5eed bf7e 9fde fdf6 df34 7ffb  ....^..~.....4..
++000019d0: fefb 3fff f7e5 c7eb f71f 7ffd fce3 ddf9  ..?.............
++000019e0: 94df 7dfa f8bd 1cfa 8f72 ecd6 61ff ffd5  ..}......r..a...
++000019f0: feef af4f e78f 1f7e 7dfa f8e1 bb1f f112  ...O...~}.......
++00001a00: 8f48 78c4 e778 447e 1cf1 c198 1e60 5900  .Hx..xD~.....`Y.
++00001a10: b363 1f48 ebd4 30d5 c5f9 dae0 947f dcaf  .c.H..0.........
++00001a20: 4fcb 29dd e0cf f5eb fb01 968d d1d3 e365  O.)............e
++00001a30: c73e b096 b5c1 aa8b f3ad c19a 36ac f574  .>..........6..t
++00001a40: c63f e9eb fbfd 5f07 a335 0b58 76ec 18ab  .?...._..5.Xv...
++00001a50: 2ece 9706 6b56 b116 01cb 8e1d 6341 b199  ....kV......cA..
++00001a60: 759f 1715 6b15 b0ec d831 565d 9c9b dff0  u...k....1V]....
++00001a70: e755 c5ba 0858 76ec 18ab 2e86 297f 51b1  .U...Xv.....).Q.
++00001a80: ae02 961d bb9f 894b 33e5 a1d8 8ed6 75c3  .......K3.....u.
++00001a90: 7abf fb02 e6f7 4d60 b063 7786 660a bf40  z.....M`.cw.f..@
++00001aa0: b165 b851 8674 565c 6907 ef14 8d76 5eca  .e.Q.tV\i....v^.
++00001ab0: 5ff5 a886 b3df aac5 4a83 a148 92b2 ed60  _.......J..H...`
++00001ac0: 8251 57c3 d96e 3f88 6128 824e 60e8 301a  .QW..n?.a(.N`.0.
++00001ad0: 7575 69cf 6eeb 6518 8a90 532d dd35 6080  uui.n.e...S-.5`.
++00001ae0: 92db b961 bd0c 4311 70aa 251b 3140 c1ed  ...a..C.p.%.1@..
++00001af0: 0796 f532 0c45 b8a9 966a fba9 09c5 3843  ...2.E...j....8C
++00001b00: efca 1dcd 50c5 afa9 7668 a000 c1b6 1f47  ....P...vh.....G
++00001b10: d6ca c642 d169 aa95 1928 40b6 617e de85  ...B.i...(@.a~..
++00001b20: 3a1a 0bc5 9ea9 3664 a0a8 8be1 c3c6 5ad9  :.....6d......Z.
++00001b30: 5828 fe4c b523 0345 5d0c 9f2d d64a 28b2  X(.L.#.E]..-.J(.
++00001b40: 22d0 72f0 aec8 764d 07c5 b0a8 a3fe cc8a  ".r...vM........
++00001b50: 3fcb c163 8aba 18bc 65ad 6c2c a4f5 2dac  ?..c....e.l,..-.
++00001b60: 61db b180 62ab ad4c ed99 157b 9683 c763  a...b..L...{...c
++00001b70: 01c5 f64c b556 3616 8a3c 33e8 b11d 0b28  ...L.V6..<3....(
++00001b80: b6ab 6a6b 6514 8a3b 332c 485b 0a28 ceed  ..jke..;3,H[.(..
++00001b90: 25c7 dd9d a395 4e56 e459 0ede 9781 2d06  %.....NV.Y....-.
++00001ba0: 14db 0b31 6b2d 8331 c450 ec99 4190 2d06  ...1k-.1.P..A.-.
++00001bb0: 141b 9f7c b656 8aa1 e833 d786 6c17 9f58  ...|.V...3..l..X
++00001bc0: dcaf eeb6 4bdb cf56 a518 8a3f 33ac 31db  ....K..V...?3.1.
++00001bd0: d100 7f86 197a f7e7 7c3a af79 aeae fd46  .....z..|:.y...F
++00001be0: 17a3 8a50 2758 91b6 57a3 20d4 f6f4 b5d6  ...P'X..W. .....
++00001bf0: 323a 4f63 2986 9d60 85da 6251 c35a ab84  2:Oc)..`..bQ.Z..
++00001c00: a528 7782 156b 8b45 956b ad12 96b4 a500  .(w..k.E.k......
++00001c10: 2bd8 160b 1cdc 7e2a 4e77 073f fd4b 54a4  +.....~*Nw.?.KT.
++00001c20: 3cd5 de6d 2fb9 a018 3e26 ad2a 8d96 62e9  <..m/...>&.*..b.
++00001c30: a916 71c0 aa8b 6125 63ad 1296 62ed a916  ..q...a%c...b...
++00001c40: 73c0 8225 6fd8 18ba 5bfb e95f a262 f1a9  s..%o...[.._.b..
++00001c50: 1675 c082 3d85 2088 bbc5 9fc6 52ac 3ed5  .u..=. .....R.>.
++00001c60: 560f 5874 516c add2 2f51 b1fc 548b bcbd  V.XtQl../Q..T...
++00001c70: 9484 62dc ddbb 5b3e 9fe6 5baa 37f8 0697  ..b...[>..[.7...
++00001c80: 10b3 62f9 72f0 6345 d062 4131 eeee dd2d  ..b.r.cE.bA1...-
++00001c90: ff34 9662 f9b9 1679 c0a2 96b7 d6f2 4b7c  .4.b...y......K|
++00001ca0: 1a4b b1fc 5c8b 3c60 51cb 5bab 84a5 587e  .K..\.<`Q.[...X~
++00001cb0: ae45 1eb0 a8e5 ad55 c292 368e 6bcb 3766  .E.....U..6.k.7f
++00001cc0: 7a99 e9d2 dbaa 1bd6 f9b4 5fa0 e006 b6e2  z........._.....
++00001cd0: f5b9 5677 0001 af87 2dec bbd7 f318 4431  ..Vw....-.....D1
++00001ce0: f95c cb3a 80c0 fabb dd36 b0d6 8311 51dc  .\.:.....6....Q.
++00001cf0: 3dd7 7a0e 20e0 eef6 0ad1 5a0f 4014 5bcf  =.z. .....Z.@.[.
++00001d00: b590 0308 d8ba 5da0 58eb 0188 e2e7 b9f6  ......].X.......
++00001d10: 736a 6f54 4135 08da aa1b c965 70b7 6551  sjoTA5.....ep.eQ
++00001d20: 8c5c 0e7e 1839 8040 3528 d9aa 1c44 71f0  .\.~.9.@5(...Dq.
++00001d30: 526b 3682 5009 5b2f 0751 acbb d462 8d20  Rk6.P.[/.Q...b. 
++00001d40: 54bb d6cb 4114 cf2e b54a 2308 15ad f572  T...A....J#....r
++00001d50: 10c5 ac0b dc93 6b17 3950 0d93 d5aa 05e4  ......k.9P......
++00001d60: 7c9a a7bd 11dc ba48 b7e1 60f3 22a0 50b9  |......H..`.".P.
++00001d70: da0f 3a42 51ec ba80 4003 0ad5 abf5 1ea1  ..:BQ...@.......
++00001d80: 287e 5d60 1323 a050 c15a ef11 8a62 d805  (~]`.#.P.Z...b..
++00001d90: 7639 020a 55ac f51e a128 8e5d c0b1 aded  v9..U....(.]....
++00001da0: a11a a7ad 3b76 3aef 6e86 59bb 2a92 2d07  ....;v:.n.Y.*.-.
++00001db0: ef92 6d49 a01a 246b d5ed 4c1e 9328 965d  ..mI..$k..L..(.]
++00001dc0: c1b2 8184 5ad6 7a0f 4814 cdae a0d9 4042  ....Z.z.H.....@B
++00001dd0: 356b bd07 248a 6757 f06c 20a1 9eb5 de03  5k..$.gW.l .....
++00001de0: 1245 b46b 2dda d4ee 1142 35cc 58ab 1692  .E.k-....B5.X...
++00001df0: eb3a 9ab0 8a66 d75a a411 846a d67a 3988  .:...f.Z...j.z9.
++00001e00: 22d9 b5d6 6804 a192 b55e 0ea2 2876 ad25  "...h....^..(v.%
++00001e10: 1a41 a862 ad97 8328 825d 6b85 4610 2a58  .A.b...(.]k.F.*X
++00001e20: ebe5 208a 5e57 d06b fb00 1154 e364 f53b  .. .^W.k...T.d.;
++00001e30: 71eb 7efb 01ec 7a51 ec5a 0ede edda 8240  q.~...zQ.Z.....@
++00001e40: 35d8 d5aa 6544 d210 4491 eb05 e41a 40a8  5...eD..D.....@.
++00001e50: 5cad 9783 286e bd80 5b03 0875 abf5 7210  \...(n..[..u..r.
++00001e60: 45ad 1750 6b00 a16a b55e 0ea2 98f5 0266  E..Pk..j.^.....f
++00001e70: 6dee afbc 4035 4c56 abde 4106 3b60 17c5  m...@5LV..A.;`..
++00001e80: ace5 e07d b206 106a 56eb e520 8a59 2f60  ...}...jV.. .Y/`
++00001e90: d600 42cd 6abd 1c44 31eb 05cc 1a40 a859  ..B.j..D1....@.Y
++00001ea0: ad97 8328 66bd 8059 0308 35ab f572 10c5  ...(f..Y..5..r..
++00001eb0: ac17 306b fb8c 0354 e364 bd9b 75b9 5617  ..0k...T.d..u.V.
++00001ec0: 8ca0 d6ab a2d6 72f0 3e5b 5b12 a806 b55a  ......r.>[[....Z
++00001ed0: b50c 0921 51dc 7a05 b706 12ea 56eb 3d20  ...!Q.z.....V.= 
++00001ee0: 51e4 7a05 b906 122a 57eb 3d20 51ec 7a05  Q.z....*W.= Q.z.
++00001ef0: bb06 126a 57eb 3d20 51f4 7a05 bd36 37f3  ...jW.= Q.z..67.
++00001f00: 5fa0 1a66 ac55 b753 6799 062b d7ab e2d7  _..f.U.Sg..+....
++00001f10: 72f0 3e63 0309 f5ab f51e 9028 82bd 8260  r.>c.......(...`
++00001f20: 0309 15ac f51e 9028 86bd 8261 0309 35ac  .......(...a..5.
++00001f30: f51e 9028 8abd 8262 0309 55ac f51e 9028  ...(...b..U....(
++00001f40: 8ebd 8263 9ba7 605e a01a 6e0a 5bb5 90ac  ...c..`^..n.[...
++00001f50: 4b1e ccd8 9be2 d872 f03e 635b 12a8 86fb  K......r.>c[....
++00001f60: c056 3d20 511c 7b03 c706 92ba 1a9e f0b3  .V= Q.{.........
++00001f70: de03 12c5 b137 706c 2001 c7b6 f750 acf7  .....7pl ....P..
++00001f80: 8044 71ec 0d1c 1b48 c0b1 eded 70eb 3d20  .Dq....H....p.= 
++00001f90: 511c 7b03 c7b6 3b6b 500d 8eb5 ea76 ee9c  Q.{...;kP....v..
++00001fa0: 06b7 0c6e 8a62 cbc1 fb84 0d20 54b1 d6cb  ...n.b..... T...
++00001fb0: 4114 c3de c0b0 0184 1ad6 7a39 8822 d81b  A.........z9."..
++00001fc0: 0836 8050 c15a 2f07 51fc 7a03 bf06 10ea  .6.P.Z/.Q.z.....
++00001fd0: 57eb e520 8a5e 6fa0 d7f6 2631 54a3 d4ee  W.. .^o...&1T...
++00001fe0: 7abd cda3 0581 3d96 2065 1d40 b031 ec00  z.....=. e.@.1..
++00001ff0: 0f97 8507 ebed 6795 6161 348a 63d3 1924  ......g.aa4.c..$
++00002000: 1b69 e84a b674 1fd1 289e 4d67 106d a4a1  .i.J.t..(.Mg.m..
++00002010: a62d dd47 348a 6bd3 1964 1b69 a86d 4bf7  .-.G4.k..d.i.mK.
++00002020: 118d e2db 74ae 859b dbc5 0a96 3b29 99bb  ....t.......;)..
++00002030: 7297 dbe0 b657 3a2b cedd 8e7e 48b7 0343  r....W:+...~H..C
++00002040: ad5b bacb d010 18c5 bbe9 5cab b503 43cd  .[........\...C.
++00002050: 5bba 0f60 14f7 a673 add7 0e0c b56f e93e  [..`...s.....o.>
++00002060: 8051 fc9b ceb5 623b 30d4 c0a5 fb00 4671  .Q....b;0.....Fq
++00002070: 703a d712 aed6 aadb 43c5 96f2 aacb 9d09  p:......C.......
++00002080: ec1a b65b b78f 2739 6127 2169 9133 4895  ...[..'9a'!i.3H.
++00002090: 451a 0c9d b58b baf2 b3b6 939b d048 1a2e  E............H..
++000020a0: 39b5 fd7c 0a49 6128 c7d0 9787 cf6e 8446  9..|.Ia(.....n.F
++000020b0: d230 24d0 3a63 4337 1592 67d0 188d a461  .0$.:cC7..g....a
++000020c0: 08a2 7568 e8c6 42f2 281a a391 340c 79b4  ..uh..B.(...4.y.
++000020d0: dc6e cb25 28c7 59ec 89b4 db3a ba91 9b4a  .n.%(.Y....:...J
++000020e0: 96ec f990 3924 cf3a 34dc c3d6 bdcd 6242  ....9$.:4.....bB
++000020f0: 2389 18e2 691d 1a2e 624f a8b1 b191 4c0c  #...i...bO....L.
++00002100: 31b5 0e0d 37b1 751f 8d8d a462 88ab 7568  1...7.u....b..uh
++00002110: b88a 3db1 c6c6 4672 31c4 d672 c8ad 41b9  ..=...Fr1..r..A.
++00002120: 338b fd7e 5989 5d0c 642c c5d7 12e4 d722  3..~Y.].d,....."
++00002130: 0ec6 db82 8cad bc5d 2a30 1cc9 c610 64eb  .......]*0....d.
++00002140: e0f0 45f1 5b96 8de1 483a b658 5af5 e110  ..E.[...H:.XZ...
++00002150: 7e59 508e 59c7 b750 1bc3 917c 0cd1 b6ce  ~YP.Y..P...|....
++00002160: e870 1fbf a5db 188e 2464 c8b8 e576 4b24  .p......$d...vK$
++00002170: 6104 aedd 1329 e532 77a6 cb3c 9cc9 9290  a....).2w..<....
++00002180: 21eb d6a1 e142 b6ee 231a 49c8 1079 ebd0  !....B..#.I..y..
++00002190: 7021 7bea 8d8d 8d24 6448 be75 68b8 903d  p!{....$dH.uh..=
++000021a0: fcc6 6824 2143 c6ad 43c3 85ec 1938 4623  ..h$!C..C....8F#
++000021b0: 0919 7270 4bfb ac4d c272 4cfd bb90 47b9  ..rpK..M.rL...G.
++000021c0: ea12 677b 7e51 01e1 b7c8 02e5 e81b cfbf  ..g{~Q..........
++000021d0: a521 8ba4 6248 bc75 5860 1738 7c32 78e8  .!..bH.uX`.8|2x.
++000021e0: 6dcc 2279 1862 6e1d 1658 1687 ef22 f0a4  m."y.bn..X..."..
++000021f0: db98 4592 b005 d4aa 306b 982f 508e 1fe0  ..E.....0k./P...
++00002200: 1e6f 1bb3 4806 86cc 5a8e 2c34 ec90 3cd3  .o..H...Z.,4..<.
++00002210: 6691 157b a6f0 38c6 994a 4e4d 98cb b570  f..{..8..JNM...p
++00002220: 3b6c dcc7 1e6c 7b9e 4db2 3344 db3a 6cdc  ;l...l{.M.3D.:l.
++00002230: ced6 5d3e 2b9e 6793 5c0d f9b6 0e1b 77b5  ..]>+.g.\.....w.
++00002240: 756b 6c92 b921 e4d6 61e3 e6f6 9cdb f3e3  ukl..!..a.......
++00002250: 2679 1cc2 6cb9 7dc4 28f1 ac5b 296f 2bd9  &y..l.}.(..[)o+.
++00002260: db70 af59 cab7 25c8 b045 1a1e 712b dd47  .p.Y..%..E..q+.G
++00002270: 3492 cb21 d7d6 a1e1 cb6a 8fb6 2532 3692  4..!.....j..%26.
++00002280: cd21 ced6 a1e1 9b1c 9e68 6334 92cf 21c5  .!.......hc4..!.
++00002290: d6a1 e18b 6a0f b231 1ac9 e890 4fcb ed8d  ....j..1....O...
++000022a0: 9bc4 e36b a55c e6cd 250f af0e 4b26 ed79  ...k.\..%...K&.y
++000022b0: 8743 82ad 43c3 1d6e dd47 3492 b521 c6d6  .C..C..n.G4..!..
++000022c0: a1e1 d6f6 241b 1b1b c9d3 9065 ebd0 704f  ....$......e..pO
++000022d0: 7b9c 8dd1 4866 8640 5b87 869b d933 6d8c  {...Hf.@[....3m.
++000022e0: 4672 31e4 d6aa 07d1 7dc3 99c7 da92 e7da  Fr1.....}.......
++000022f0: 2eb7 53fd e512 e7f3 2093 99a4 9cdb 76f4  ..S..... .....v.
++00002300: fe5d 6361 c397 27dd 4af7 36a7 9f66 933c  .]ca..'.J.6..f.<
++00002310: 0dd9 b738 6e50 8e9b d19e 7e7b 7edc 246b  ...8nP....~{~.$k
++00002320: 431c aec3 c6ad ed81 b8e7 d924 8743 42ae  C..........$.CB.
++00002330: c3c6 1dee 19b9 e7d9 24a3 432c 2e87 7b99  ........$.C,..{.
++00002340: 3c35 973c 3697 6cff 71b0 df27 c5e6 5239  <5.<6.l.q..'..R9
++00002350: 7abf dd11 69b8 d13d 39c7 6824 a343 74ae  z...i..=9.h$.Ct.
++00002360: 3336 dce8 1e9e 6334 92d1 213d d7a1 e146  36....c4..!=...F
++00002370: f7fc 1ca3 918c 0e01 ba0e 0d37 ba47 e818  ...........7.G..
++00002380: 8d64 7448 c9e5 361b 9578 88ae 94b7 f5ec  .dtH..6..x......
++00002390: 3a5e 9848 39ba 0451 b988 c393 74a5 fb10  :^.H9..Q....t...
++000023a0: 47f2 36a4 e93a 387c 7ded 79ba c446 4752  G.6..:8|}.y..FGR
++000023b0: 3544 ea3a 385c d51e aaa3 3892 9d21 57d7  5D.:8\....8..!W.
++000023c0: c1e1 76f6 641d c591 840c f1b9 ea72 cf17  ..v.d........r..
++000023d0: 273c 5d67 01a1 fbdc 49a7 c1b7 5da5 9299  '<]g....I...]...
++000023e0: 7b7e 890d 09bb 0e0d 17b2 67ec 12a1 9184  {~........g.....
++000023f0: 0c31 bb0e 0d17 b207 ed18 8d24 64c8 da75  .1.........$d..u
++00002400: 68b8 903d 6dc7 6824 2143 e0ae 43c3 85ec  h..=m.h$!C..C...
++00002410: 913b 4623 0919 7275 5378 2889 c7ee 9295  .;F#..ruSx(.....
++00002420: ef37 ee96 e195 a214 bd4b 90ae 8b38 3c7c  .7.......K...8<|
++00002430: 57ba 0f71 2421 4302 af83 c385 fc96 c1cb  W..q$!C.........
++00002440: 6474 2421 430e af83 c385 fc96 c463 3892  dt$!C........c8.
++00002450: 9021 8dd7 c1e1 427e cbe3 311c 49c8 90ba  .!....B~..1.I...
++00002460: 9bc2 831d 3c94 971e a9bc d102 598a e525  ....<.......Y..%
++00002470: c8e5 7560 b88f 1fc9 bc21 8ca4 63c8 e675  ..u`.....!..c..u
++00002480: 60b8 8e1f e9bc 218c 6463 c8e7 7560 b88d  `.....!.dc..u`..
++00002490: 1f09 bd21 8c24 63c8 e875 60b8 8c1f 29bd  ...!.$c..u`...).
++000024a0: 218c e462 48e2 4df1 7b99 f9f3 75d6 bd6d  !..bH.M.{...u..m
++000024b0: 295c 86df cd2c dd43 8430 5e84 e159 bde4  )\...,.C.0^..Y..
++000024c0: 61bd cb18 46f2 30a4 f53a 30dc c39e d723  a...F.0..:0....#
++000024d0: 3092 8521 b0d7 81e1 16f6 c81e 8191 1c0c  0..!............
++000024e0: 99bd 0e0c 77b0 a7f6 088c 6460 08e6 4de1  ....w.....d`..M.
++000024f0: 490e 9edb 4b1e dccb b7d3 be9f 800f 884a  I...K..........J
++00002500: c9bd 04d1 bd0e 0d57 b087 f718 8de4 6088  .......W......`.
++00002510: ef75 68b8 833d c0c7 6824 0943 84af 43c3  .uh..=..h$.C..C.
++00002520: 25ec 213e 4623 5918 627c 1d1a 6e61 0ff2  %.!>F#Y.b|..na..
++00002530: 311a 49c3 10d6 9bc2 dd70 28c7 d748 7898  1.I......p(..Hx.
++00002540: 8fd0 4869 be04 81bd 4803 e5b8 97eb 813e  ..Hi....H......>
++00002550: 4623 8918 227d 1d1a 789a 2364 5f3c d4c7  F#.."}..x.#d_<..
++00002560: 6824 1343 acaf 43c3 9fe7 f060 1fa3 9154  h$.C..C....`...T
++00002570: 0cd1 be0e 0da8 383c c7e6 e13e 4623 b918  ......8<...>F#..
++00002580: 027c 53b8 8fcd f37d c903 7ecb 6919 3dac  .|S....}..~.i.=.
++00002590: 2f45 fc12 64fc 3a34 dcc5 9ef2 6334 928b  /E..d.:4....c4..
++000025a0: 21e8 d7a1 e12e f6a8 1fa3 915c 0c69 bf0e  !..........\.i..
++000025b0: 0d77 b1e7 fd18 8de4 6288 fc75 68b8 8b3d  .w......b..uh..=
++000025c0: f4c7 6824 1743 b2af fac6 3fdf 64c3 e05f  ..h$.C....?.d.._
++000025d0: 3ca7 debe d9b2 7fcf c376 9195 d7ae 95a3  <........v......
++000025e0: 1ff7 3c02 cbf6 97ed 2f8c 689f 642b e5ed  ..<...../.h.d+..
++000025f0: 899a e1ea 2697 24df d31b 7edb d18c 862e  ....&.$...~.....
++00002600: 894b f711 8d62 e20c b9bf ced8 d035 71e9  .K...b.......5q.
++00002610: 3ea2 514c 9c21 f7d7 a1a1 8be2 d27d 44a3  >.QL.!.......}D.
++00002620: 9838 43ee af43 034f d7c5 79e3 df25 3c88  .8C..C.O..y..%<.
++00002630: fd65 29f6 b71d cd66 4ded e1f8 8e17 8ffd  .e)....fM.......
++00002640: 55cf 05e0 4b0c 4b8e 4f98 c1b5 663b e352  U...K.K.O...f;.R
++00002650: 97c3 53aa d953 7f63 16c5 c119 427f 1d16  ..S..S.c....B...
++00002660: 7070 fb64 68e9 de66 ccf0 77a4 1838 43e6  pp.dh..f..w..8C.
++00002670: 6f6a efad 6239 3c19 5aca 1bcb f016 592e  oj..b9<.Z.....Y.
++00002680: 393d e1b7 54ef 3a74 6860 5322 ce5e 37f0  9=..T.:th`S".^7.
++00002690: 9846 0afd 6548 f545 1a28 77de 51e4 0e26  .F..eH.E.(w.Q..&
++000026a0: 3492 8321 d5d7 a1a1 abe1 eca1 bf4c 6824  4..!.........Lh$
++000026b0: 0743 e8af 4343 57c3 d943 7f8c 4672 3084  .C..CCW..C..Fr0.
++000026c0: fea6 f64e 6f86 729c c51e fabb 4cd7 c1d6  ...No.r.....L...
++000026d0: 5a2e 39bd e767 31a4 fa3a 34dc c11e fa63  Z.9..g1..:4....c
++000026e0: 34ca cdba 8cef a28b 63c3 2dec a13f 4623  4.......c.-..?F#
++000026f0: 7918 df49 1769 b887 3df4 c768 2413 e3bb  y..I.i..=..h$...
++00002700: e922 0d37 b187 fe18 8de4 6208 fd55 09a3  .".7......b..U..
++00002710: fbfa 3363 b95d 7f96 7271 f19a 474f 03e7  ..3c.]..rq..GO..
++00002720: 92d3 1366 31c8 b67d e66c fbcb c80a d45f  ...f1..}.l....._
++00002730: 5747 68b4 57d6 61a8 2fd0 4039 bad8 337f  WGh.W.a./.@9..3.
++00002740: 8c46 7231 bebb 2ed2 7017 7be4 8fd1 482e  .Fr1....p.{...H.
++00002750: c648 5fa4 e12e f6c4 1fa3 915c 8cef b26b  .H_........\...k
++00002760: 6ff2 662c 8759 fc16 f89b 8729 e35c 327a  o.f,.Y.....).\2z
++00002770: cf4f 634c f445 1c2e e3b7 f7da 311c c9c6  .OcL.E......1...
++00002780: 90f8 9b23 0eb7 b127 fe12 c391 740c 91bf  ...#...'....t...
++00002790: 0e0e d7b1 47fe 288e e463 c8fc 7570 b88f  ....G.(..c..up..
++000027a0: 3df3 4771 2421 43e8 6f8d bf2c d89e 8853  =.Gq$!C.o..,...S
++000027b0: f9f1 8df0 d733 be02 7db0 4350 627b c2c4  .....3..}.CPb{..
++000027c0: aefd dc81 e36b 65fb 59e5 d3c2 be03 e249  .....ke.Y......I
++000027d0: 3829 1468 9f41 d5f6 4584 c3cc 601b 502c  8).h.A..E...`.P,
++000027e0: dd22 9c64 6f7c 2f5e f8b5 4239 5e0b 7a4a  .".do|/^..B9^.zJ
++000027f0: 5018 3949 e6f8 76bc 08c7 65ee b141 014e  P.9I..v...e..A.N
++00002800: 723b 0605 dba7 1e32 96c3 95ab e708 dfa7  r;.....2........
++00002810: f3e8 a65b 2ee1 c0e7 4f01 8812 ceed 3dec  ...[....O.....=.
++00002820: ed2f db97 28e1 fcf4 28a1 3d8c 317a 9e28  ./..(...(.=.1z.(
++00002830: 4be9 c1ed e8fd e745 1cba ef5c bab7 e789  K......E...\....
++00002840: 188e e476 080c 7646 876e 3c67 0f0c d2d1  ...v..vF.n<g....
++00002850: 91dc 0e19 c10e 0edd 79ce 9e11 a438 92db  ........y....8..
++00002860: 2116 d8c1 a15b cfd9 6381 1447 b239 46fd  !....[..c..G.9F.
++00002870: dabb d919 cbf1 ccf2 af3b b20b eac1 678b  .........;....g.
++00002880: 9404 b46f 5ba8 f51d ce73 4c02 8613 cb93  ...o[....sL.....
++00002890: 80e7 d379 f0b8 692e d9be e74f 7348 02ae  ...y..i....OsH..
++000028a0: 9106 56db 6157 c893 808c 4612 3424 013b  ..V.aW....F.4$.;
++000028b0: 34b5 a0e3 9588 2701 198d 6464 4802 7668  4.....'...ddH.vh
++000028c0: 60f7 39bc c1da 9380 8c46 1232 44fd 3a34  `.9......F.2D.:4
++000028d0: b0d8 0eb3 d893 808c 465a 6b43 1270 0e6f  ........FZkC.p.o
++000028e0: 2dc6 729c c5fe 3a3b fba2 dce1 4925 f918  -.r...:;....I%..
++000028f0: a280 1d1c 586b c769 ec01 6e86 23f9 18b2  ....Xk.i..n.#...
++00002900: 801d 9cda c79d 79ec bbd0 0c47 f231 8401  ......y....G.1..
++00002910: 3b38 e0e3 3891 7d23 9ae1 483e c6b8 5f9c  ;8..8.}#..H>.._.
++00002920: 3bb0 ba8e 33d9 77a2 098e 1400 b4c7 56eb  ;...3.w.......V.
++00002930: 2f70 08db f418 000c 53d9 0380 eba9 7adc  /p......S.....z.
++00002940: 056f a694 94de f342 c64c 5fa4 e142 f6c8  .o.....B.L_..B..
++00002950: 1fa3 9184 0c21 bf25 d270 217b c88f d148  .....!.%.p!{...H
++00002960: 4286 585f 8786 0bd9 637d 8c46 1232 befd  B.X_....c}.F.2..
++00002970: 2e8e 0d17 b207 f918 8d24 6408 f22d 61bb  .........$d..-a.
++00002980: 15ca 719b de83 7cf3 6982 abe9 dbe5 ebfb  ..q...|.i.......
++00002990: d13a a364 f584 690d 2be2 88c7 05ed c93e  .:.d..i.+......>
++000029a0: 094f 1236 be28 2fe2 7161 7bd4 4fc2 9304  .O.6.(/.qa{.O...
++000029b0: 8e2f cf8b 785c e09e fd93 f024 a143 daaf  ./..x\.....$.C..
++000029c0: 33f7 b8d0 3d0c a8e0 49e1 c00c e9bf ea85  3...=...I.......
++000029d0: 4ebe f78f e1c0 f079 e3e1 c0f9 b47f 50dd  N......y......P.
++000029e0: fdfe e1f5 cf1f 3f7e 7ef9 f6f3 dba7 ff03  ......?~~.......
++000029f0: 0000 ffff 0000 00ff ff44 50c1 6ac3 300c  .........DP.j.0.
++00002a00: fd15 e3fb e2c4 a32b 0b49 a014 76db 695f  .......+.I..v.i_
++00002a10: e0d9 726c 6647 4156 5961 ecdf 9774 49ab  ..rlfGAVYa...tI.
++00002a20: c3d3 7b12 484f eacc 85f1 2d26 0612 04be  ..{.HO....-&....
++00002a30: 97a7 a63d eb97 5a8a 2bb5 97e8 7af9 536f  ...=..Z.+...z.So
++00002a40: f1b4 e466 85fa 017b ef57 0e5d 41e2 0f36  ...f...{.W.]A..6
++00002a50: 0cdb 20bd 0fca 692a ed35 91d3 bd0c cc73  .. ...i*.5.....s
++00002a60: ab54 b101 b229 558e 96b0 a0e7 ca62 56e8  .T...)U......bV.
++00002a70: 7db4 a0ca 4c60 5c09 009c 93d2 7573 5414  }...L`\.....usT.
++00002a80: 6d70 868d def6 9c71 7291 234e 77d3 a7d7  mp.....qr.#Nw...
++00002a90: 4323 d5d0 a9bb 8d85 3f8e 1bba d98c f06e  C#......?......n
++00002aa0: 688c 5311 093c f7b2 ae8e 5250 1cc3 ce19  h.S..<....RP....
++00002ab0: e75b f520 c527 3263 de55 58fc 00ad ea59  .[. .'2c.UX....Y
++00002ac0: 0a8f b87c eb5f ac0b bf91 be6e 6687 3f00  ...|._.....nf.?.
++00002ad0: 0000 ffff 0300 504b 0304 1400 0600 0800  ......PK........
++00002ae0: 0000 2100 d34c 9b3b 6603 0000 1f0c 0000  ..!..L.;f.......
++00002af0: 1400 0000 786c 2f73 6861 7265 6453 7472  ....xl/sharedStr
++00002b00: 696e 6773 2e78 6d6c 9456 5b6f 9b30 147e  ings.xml.V[o.0.~
++00002b10: 9fb4 ff60 f1ba d004 9256 5b94 a452 b355  ...`.....V[..R.U
++00002b20: 7dd9 455d b777 071c b00a 36b3 cdd6 fcfb  }.E].w....6.....
++00002b30: 1de3 0482 8d49 ab3c 059f cb77 6edf 39ab  .....I.<...wn.9.
++00002b40: db97 b240 7f89 9094 b375 105d cd02 4458  ...@.....u.]..DX
++00002b50: c253 cab2 75f0 ebe9 3efc 1820 a930 4b71  .S..u...>.. .0Kq
++00002b60: c119 5907 0722 83db cdfb 772b 2915 025d  ..Y.."....w+)..]
++00002b70: 26d7 41ae 54b5 9c4e 6592 9312 cb2b 5e11  &.A.T..Ne....+^.
++00002b80: 062f 7b2e 4aac e0af c8a6 b212 04a7 3227  ./{.J.........2'
++00002b90: 4495 c534 9ecd 6ea6 25a6 2c40 09af 995a  D..4..n.%.,@...Z
++00002ba0: 07d7 7114 a09a d13f 35d9 9a2f 379f 82cd  ..q....?5../7...
++00002bb0: 4ad2 cd4a 6d18 2ec9 6aaa 36ab a9fe 6fbe  J..Jm...j.6...o.
++00002bc0: 2558 918c 0b4a a4fd 824b 6dc0 feba c562  %X...J...Km....b
++00002bd0: c719 4a29 7fa1 2999 a03d 9792 1617 a504  ..J)..)..=......
++00002be0: 2f91 e4b4 405c a01d e510 9d84 6cf0 e4f9  /...@\......l...
++00002bf0: 92a6 e26f d22b 397b 0db0 33b1 b722 eb54  ...o.+9{..3..".T
++00002c00: 1967 a127 fcbc e082 ebba d9e1 7da6 8c2a  .g.'........}..*
++00002c10: c133 c2d0 c990 2df2 45e5 9841 66a3 89fe  .3....-.E..Af...
++00002c20: c5a1 224a e07d 5183 c570 821e eeb7 6134  .."J.}Q..p....a4
++00002c30: 5fe0 51ad 5009 9a34 18b4 c656 ab2c 6617  _.Q.P..4...V.,f.
++00002c40: 35fa 3e16 f351 1f80 abf5 0128 354e 415b  5.>..Q.....(5NA[
++00002c50: 0b8d cb68 3ee2 324c 4f08 a3b0 736c a046  ...h>.2LO...sl.F
++00002c60: bb71 c53e d0eb 7804 68dc f9f1 db3c 136a  .q.>..x.h....<.j
++00002c70: 52ee 24dd 84b3 f05a 088f c906 6df0 6787  R.$....Z....m.g.
++00002c80: 137b c3d1 69eb f2a0 ebdd cba2 a95c ec4d  .{..i........\.M
++00002c90: 637c e677 a855 1ad8 b117 b601 0d1c a3ba  c|.w.U..........
++00002ca0: f632 915e fb22 cdc9 8bd5 8ad1 8d4f b66f  .2.^.".......O.o
++00002cb0: b8e9 dbd8 31fc 951c bb7d 0773 d8f4 b7a6  ....1....}.s....
++00002cc0: 4714 cd66 916d b72f 6ac0 9f27 db28 c6d1  G..f.m./j..'.(..
++00002cd0: 05c5 f336 7d30 3af3 1167 ae1f 9da2 38f6  ...6}0:..g....8.
++00002ce0: a233 0ace 3038 456c c369 1b40 8fea 369c  .3..08El.i.@..6.
++00002cf0: 3b83 ea48 9e45 6d4a ec05 73b2 dd6f c9d8  ;..H.EmJ..s..o..
++00002d00: 9fa2 f384 429c 737f 9cc3 ccd7 62dd bf9a  ....B.s.....b...
++00002d10: 575b 154d 882d 6b3d 862e 63b5 927e e66d  W[.M.-k=..c..~.m
++00002d20: 451a d63c b316 f9d3 da27 d847 e04a 6f3e  E..<.....'.G.Jo>
++00002d30: 5bce b398 6e4c a1c7 56ee 307f 837d 4013  [...nL..V.0..}@.
++00002d40: d46c 2ddb 8c7e 6b76 4563 03f6 ad2d f083  .l-..~kvEc...-..
++00002d50: 0863 be19 36e6 bcff ac8b 7d2d 503b b603  .c..6.....}-P;..
++00002d60: 2630 15cb 65c1 ff11 010b 5960 c565 9513  &0..e.....Y`.e..
++00002d70: 41d0 0754 5715 7c04 04d5 f19b edbd 51d5  A..TW.|.......Q.
++00002d80: b5a8 c50e 3304 7ff5 7a6f 2a9f d32c d7e7  ....3...zo*..,..
++00002d90: 4ef2 ecde 15da 61cd 6445 12ba a724 1db4  N.....a.dE...$..
++00002da0: da59 4c0a 2e09 8233 2013 708f 0c4b 037c  .YL....3 .p..K.|
++00002db0: 54f1 aa2e b082 eb0b a584 49aa 0e13 0454  T.........I....T
++00002dc0: 92c1 fe74 d7b0 3e45 964b 9c41 e6eb 42d5  ...t..>E.K.A..B.
++00002dd0: 023b 178c 9180 154e 202b 071b a379 a52c  .;.....N +...y.,
++00002de0: ade1 95fa b447 827c 38a4 4d65 6dc3 7735  .....G.|8.Mem.w5
++00002df0: 9c88 4e19 cd49 60cb 3ee9 c3c0 b438 b0e8  ..N..I`.>....8..
++00002e00: a120 aee2 d369 47fb 04da 7939 8e4a 9f28  . ...iG...y9.J.(
++00002e10: e62e 51b4 336a 88db 6948 e896 8100 ee34  ..Q.3j..iH.....4
++00002e20: bb57 c36f bfbf 6f27 e82f d7b5 2b08 3450  .W.o..o'./..+.4P
++00002e30: 8619 cc43 c2cb 4ad7 db69 1ffb 00a5 4de3  ...C..J..i....M.
++00002e40: d938 186e aa8a a07c bc16 0959 2e87 e56c  .8.n...|...Y...l
++00002e50: 6b1d b34c 5a5d c022 0449 746b d96e fcea  k..LZ].".Itk.n..
++00002e60: 9de4 140e fccd 7f00 0000 ffff 0300 504b  ..............PK
++00002e70: 0304 1400 0600 0800 0000 2100 38f9 d5f7  ..........!.8...
++00002e80: 5c01 0000 7102 0000 1100 0801 646f 6350  \...q.......docP
++00002e90: 726f 7073 2f63 6f72 652e 786d 6c20 a204  rops/core.xml ..
++00002ea0: 0128 a000 0100 0000 0000 0000 0000 0000  .(..............
+ 00002eb0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002ec0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002ed0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002ee0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002ef0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f00: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f10: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f20: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f30: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f40: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f50: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f60: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00002f70: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00002f80: 0000 0000 0000 007c 9251 4bc3 3014 85df  .......|.QK.0...
+-00002f90: 05ff 43c9 7b9b b673 6386 b603 277b b228  ..C.{..sc...'{.(
+-00002fa0: b8a1 f816 92db 2dd8 2425 c9ec f6ef 4ddb  ......-.$%....M.
+-00002fb0: ad6e 283e e69e 932f e75c 922d 0eb2 0ebe  .n(>.../.\.-....
+-00002fc0: c058 a155 8e92 2846 0128 a6b9 50db 1c6d  .X.U..(F.(..P..m
+-00002fd0: d6ab 708e 02eb a8e2 b4d6 0a72 7404 8b16  ..p........rt...
+-00002fe0: c5ed 4dc6 1ac2 b481 17a3 1b30 4e80 0d3c  ..M........0N..<
+-00002ff0: 4959 c29a 1ced 9c6b 08c6 96ed 4052 1b79  IY.....k....@R.y
+-00003000: 87f2 62a5 8da4 ce1f cd16 3794 7dd2 2de0  ..b.......7.}.-.
+-00003010: 348e 6758 82a3 9c3a 8a3b 60d8 8c44 7442  4.gX...:.;`..DtB
+-00003020: 7236 229b bda9 7b00 6718 6a90 a09c c549  r6"...{.g.j....I
+-00003030: 94e0 1faf 0323 ed9f 177a e5c2 2985 3b36  .....#...z..).;6
+-00003040: bed3 29ee 259b b341 1cdd 072b 4663 dbb6  ..).%..A...+Fc..
+-00003050: 513b e963 f8fc 097e 2f9f 5efb aaa1 50dd  Q;.c...~/.^...P.
+-00003060: ae18 a022 e38c 3003 d469 532c 7746 d8a0  ..."..0..iS,wF..
+-00003070: dc3b a833 7c31 ef76 5853 eb4a bfee 4a00  .;.3|1.vXS.J..J.
+-00003080: 7f38 16a5 6046 5b5d b9e0 b9aa 0483 6063  .8..`F[]......`c
+-00003090: c164 f8b7 d1f3 fb3a c323 c003 1f90 0c75  .d.....:.#.....u
+-000030a0: ceca db64 f9b8 5ea1 228d d324 8cd3 304d  ...d..^."..$..0M
+-000030b0: d7f1 9c4c 1332 bdff e872 5cdd ef02 0f03  ...L.2...r\.....
+-000030c0: 794a f33f 7112 c6b3 309d 75c4 e48e 4ce3  yJ.?q...0.u...L.
+-000030d0: 0be2 1950 f4b9 af3f 49f1 0d00 00ff ff03  ...P...?I.......
+-000030e0: 0050 4b03 0414 0006 0008 0000 0021 00e4  .PK..........!..
+-000030f0: ee61 559b 0100 0033 0300 0010 0008 0164  .aU....3.......d
+-00003100: 6f63 5072 6f70 732f 6170 702e 786d 6c20  ocProps/app.xml 
+-00003110: a204 0128 a000 0100 0000 0000 0000 0000  ...(............
+-00003120: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00003130: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00002f80: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00002f90: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00002fa0: 0000 0000 007c 9251 4bc3 3014 85df 05ff  .....|.QK.0.....
++00002fb0: 43c9 7b9b a673 6386 b603 277b 7228 d8a1  C.{..sc...'{r(..
++00002fc0: f816 92db 2dd8 2625 c9dc f6ef 4ddb ad76  ....-.&%....M..v
++00002fd0: 283e e69e 932f e75c 922e 8e75 157c 81b1  (>.../.\...u.|..
++00002fe0: 52ab 0c91 2846 0128 ae85 54db 0c6d 8a55  R...(F.(..T..m.U
++00002ff0: 3847 8175 4c09 5669 0519 3a81 458b fcf6  8G.uL.Vi..:.E...
++00003000: 26e5 0de5 dac0 8bd1 0d18 27c1 069e a42c  &.........'....,
++00003010: e54d 8676 ce35 1463 cb77 5033 1b79 87f2  .M.v.5.c.wP3.y..
++00003020: 62a9 4dcd 9c3f 9a2d 6e18 ff64 5bc0 491c  b.M..?.-n..d[.I.
++00003030: cf70 0d8e 09e6 186e 8161 3310 d119 29f8  .p.....n.a3...).
++00003040: 806c f6a6 ea00 8263 a8a0 06e5 2c26 11c1  .l.....c....,&..
++00003050: 3f5e 07a6 b67f 5ee8 9491 b396 eed4 f84e  ?^....^........N
++00003060: e7b8 63b6 e0bd 38b8 8f56 0ec6 c3e1 101d  ..c...8..V......
++00003070: 265d 0c9f 9fe0 f7f5 d36b 5735 94aa dd15  &].......kW5....
++00003080: 0794 a782 536e 8039 6df2 e5ce 481b acf7  ....Sn.9m...H...
++00003090: 0eaa 148f e6ed 0e2b 66dd daaf bb94 201e  .......+f..... .
++000030a0: 4ef9 5a72 a3ad 2e5d f05c 9692 43b0 b160  N.Zr...].\..C..`
++000030b0: 52fc dbe8 f95d 9dfe 1110 810f 48fb 3a17  R....]......H.:.
++000030c0: e56d b27c 2c56 284f e284 8471 1226 4911  .m.|,V(O...q.&I.
++000030d0: cfe9 94d0 e9fd 479b e3ea 7e1b b81f d4e7  ......G...~.....
++000030e0: 34ff 1327 613c 0b93 5941 e6f4 8e50 128f  4..'a<..YA...P..
++000030f0: 8817 40de e5be fe24 f937 0000 00ff ff03  ..@....$.7......
++00003100: 0050 4b03 0414 0006 0008 0000 0021 00e4  .PK..........!..
++00003110: ee61 559b 0100 0033 0300 0010 0008 0164  .aU....3.......d
++00003120: 6f63 5072 6f70 732f 6170 702e 786d 6c20  ocProps/app.xml 
++00003130: a204 0128 a000 0100 0000 0000 0000 0000  ...(............
+ 00003140: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003150: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003160: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003170: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003180: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003190: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031a0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031b0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031c0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031e0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 000031f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00003200: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00003210: 0000 0000 0000 009c 934d 6fdb 300c 86ef  .........Mo.0...
+-00003220: 03f6 1f0c dd1b 395d 510c 81ac a248 5bf4  ......9]Q....H[.
+-00003230: b0a2 01e2 7667 4ea6 63a1 b264 88ac 91ec  ....vgN.c..d....
+-00003240: d757 b6d1 c4d9 76da 8d1f 2f5e 3ea2 2475  .W....v.../^>.$u
+-00003250: b36f 5dd6 6324 1b7c 2196 8b5c 64e8 4da8  .o].c$.|!..\d.M.
+-00003260: acdf 15e2 a57c b8f8 2e32 62f0 15b8 e0b1  .....|...2b.....
+-00003270: 1007 2471 a3bf 7e51 9b18 3a8c 6c91 b264  ..$q..~Q..:.l..d
+-00003280: e1a9 100d 73b7 9292 4c83 2dd0 22b5 7dea  ....s...L.-.".}.
+-00003290: d421 b6c0 298d 3b19 eada 1abc 0be6 bd45  .!..).;........E
+-000032a0: cff2 32cf af25 ee19 7d85 d545 7734 1493  ..2..%..}..Ew4..
+-000032b0: e3aa e7ff 35ad 8219 f8e8 b53c 7409 58ab  ....5......<t.X.
+-000032c0: 3230 b8d2 b6a8 7325 4f89 baed 3a67 0d70  20....s%O...:g.p
+-000032d0: 3abd 7eb2 2606 0a35 674f 60ac e740 4d76  :.~.&..5gO`..@Mv
+-000032e0: bf37 e894 9ccb 54e2 dfa2 798f 960f 83db  .7....T...y.....
+-000032f0: 3c55 5b03 0ed7 69b4 aec1 112a 792a a847  <U[...i....*y*.G
+-00003300: 8461 ad1b b091 b4ea 79d5 a3e1 1033 b2bf  .a......y....3..
+-00003310: d362 2f45 f60b 0807 e042 f410 2d78 4ee0  .b/E.....B..-xN.
+-00003320: 836c 4ac6 d875 c451 ff0c f18d 1a44 2625  .lJ..u.Q.....D&%
+-00003330: 9360 2a8e e15c 3b8f ed95 5e8e 8214 9c0b  .`*..\;...^.....
+-00003340: 0783 0924 35ce 114b cb0e e9b9 de40 e47f  ...$5..K.....@..
+-00003350: 102f e7c4 23c3 c43b e16c 07be 69e6 9c6f  ./..#..;.l..i..o
+-00003360: 3c72 9af4 87f7 3ab4 1df8 436a 1ca3 1fd6  <r....:...Cj....
+-00003370: bfd1 4b57 863b 60fc 5ce7 7951 6d1b 8858  ..KW.;`.\.yQm..X
+-00003380: a51b 38ae fb58 508f 6993 d10d 26eb 06fc  ..8..XP.i...&...
+-00003390: 0eab 4fcd df8d e119 bc4e 7f40 2faf 17f9  ..O......N.@/...
+-000033a0: b73c ddeb aca6 e4e9 b5eb 0f00 0000 ffff  .<..............
+-000033b0: 0300 504b 0102 2d00 1400 0600 0800 0000  ..PK..-.........
+-000033c0: 2100 62ee 9d68 5e01 0000 9004 0000 1300  !.b..h^.........
+-000033d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-000033e0: 5b43 6f6e 7465 6e74 5f54 7970 6573 5d2e  [Content_Types].
+-000033f0: 786d 6c50 4b01 022d 0014 0006 0008 0000  xmlPK..-........
+-00003400: 0021 00b5 5530 23f4 0000 004c 0200 000b  .!..U0#....L....
+-00003410: 0000 0000 0000 0000 0000 0000 0097 0300  ................
+-00003420: 005f 7265 6c73 2f2e 7265 6c73 504b 0102  ._rels/.relsPK..
+-00003430: 2d00 1400 0600 0800 0000 2100 813e 9497  -.........!..>..
+-00003440: f300 0000 ba02 0000 1a00 0000 0000 0000  ................
+-00003450: 0000 0000 0000 bc06 0000 786c 2f5f 7265  ..........xl/_re
+-00003460: 6c73 2f77 6f72 6b62 6f6f 6b2e 786d 6c2e  ls/workbook.xml.
+-00003470: 7265 6c73 504b 0102 2d00 1400 0600 0800  relsPK..-.......
+-00003480: 0000 2100 03bd 63ff c003 0000 7209 0000  ..!...c.....r...
+-00003490: 0f00 0000 0000 0000 0000 0000 0000 ef08  ................
+-000034a0: 0000 786c 2f77 6f72 6b62 6f6f 6b2e 786d  ..xl/workbook.xm
+-000034b0: 6c50 4b01 022d 0014 0006 0008 0000 0021  lPK..-.........!
+-000034c0: 0027 96d6 b5ca 0200 000a 0700 000d 0000  .'..............
+-000034d0: 0000 0000 0000 0000 0000 00dc 0c00 0078  ...............x
+-000034e0: 6c2f 7374 796c 6573 2e78 6d6c 504b 0102  l/styles.xmlPK..
+-000034f0: 2d00 1400 0600 0800 0000 2100 c117 10be  -.........!.....
+-00003500: 4e07 0000 c620 0000 1300 0000 0000 0000  N.... ..........
+-00003510: 0000 0000 0000 d10f 0000 786c 2f74 6865  ..........xl/the
+-00003520: 6d65 2f74 6865 6d65 312e 786d 6c50 4b01  me/theme1.xmlPK.
+-00003530: 022d 0014 0006 0008 0000 0021 00f5 db71  .-.........!...q
+-00003540: cd32 1300 00d0 9500 0018 0000 0000 0000  .2..............
+-00003550: 0000 0000 0000 0050 1700 0078 6c2f 776f  .......P...xl/wo
+-00003560: 726b 7368 6565 7473 2f73 6865 6574 312e  rksheets/sheet1.
+-00003570: 786d 6c50 4b01 022d 0014 0006 0008 0000  xmlPK..-........
+-00003580: 0021 00d3 4c9b 3b66 0300 001f 0c00 0014  .!..L.;f........
+-00003590: 0000 0000 0000 0000 0000 0000 00b8 2a00  ..............*.
+-000035a0: 0078 6c2f 7368 6172 6564 5374 7269 6e67  .xl/sharedString
+-000035b0: 732e 786d 6c50 4b01 022d 0014 0006 0008  s.xmlPK..-......
+-000035c0: 0000 0021 00ca 56c4 e15a 0100 0071 0200  ...!..V..Z...q..
+-000035d0: 0011 0000 0000 0000 0000 0000 0000 0050  ...............P
+-000035e0: 2e00 0064 6f63 5072 6f70 732f 636f 7265  ...docProps/core
+-000035f0: 2e78 6d6c 504b 0102 2d00 1400 0600 0800  .xmlPK..-.......
+-00003600: 0000 2100 e4ee 6155 9b01 0000 3303 0000  ..!...aU....3...
+-00003610: 1000 0000 0000 0000 0000 0000 0000 e130  ...............0
+-00003620: 0000 646f 6350 726f 7073 2f61 7070 2e78  ..docProps/app.x
+-00003630: 6d6c 504b 0506 0000 0000 0a00 0a00 8002  mlPK............
+-00003640: 0000 b233 0000 0000                      ...3....
++00003210: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00003220: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00003230: 0000 0000 0000 009c 934d 6fdb 300c 86ef  .........Mo.0...
++00003240: 03f6 1f0c dd1b 395d 510c 81ac a248 5bf4  ......9]Q....H[.
++00003250: b0a2 01e2 7667 4ea6 63a1 b264 88ac 91ec  ....vgN.c..d....
++00003260: d757 b6d1 c4d9 76da 8d1f 2f5e 3ea2 2475  .W....v.../^>.$u
++00003270: b36f 5dd6 6324 1b7c 2196 8b5c 64e8 4da8  .o].c$.|!..\d.M.
++00003280: acdf 15e2 a57c b8f8 2e32 62f0 15b8 e0b1  .....|...2b.....
++00003290: 1007 2471 a3bf 7e51 9b18 3a8c 6c91 b264  ..$q..~Q..:.l..d
++000032a0: e1a9 100d 73b7 9292 4c83 2dd0 22b5 7dea  ....s...L.-.".}.
++000032b0: d421 b6c0 298d 3b19 eada 1abc 0be6 bd45  .!..).;........E
++000032c0: cff2 32cf af25 ee19 7d85 d545 7734 1493  ..2..%..}..Ew4..
++000032d0: e3aa e7ff 35ad 8219 f8e8 b53c 7409 58ab  ....5......<t.X.
++000032e0: 3230 b8d2 b6a8 7325 4f89 baed 3a67 0d70  20....s%O...:g.p
++000032f0: 3abd 7eb2 2606 0a35 674f 60ac e740 4d76  :.~.&..5gO`..@Mv
++00003300: bf37 e894 9ccb 54e2 dfa2 798f 960f 83db  .7....T...y.....
++00003310: 3c55 5b03 0ed7 69b4 aec1 112a 792a a847  <U[...i....*y*.G
++00003320: 8461 ad1b b091 b4ea 79d5 a3e1 1033 b2bf  .a......y....3..
++00003330: d362 2f45 f60b 0807 e042 f410 2d78 4ee0  .b/E.....B..-xN.
++00003340: 836c 4ac6 d875 c451 ff0c f18d 1a44 2625  .lJ..u.Q.....D&%
++00003350: 9360 2a8e e15c 3b8f ed95 5e8e 8214 9c0b  .`*..\;...^.....
++00003360: 0783 0924 35ce 114b cb0e e9b9 de40 e47f  ...$5..K.....@..
++00003370: 102f e7c4 23c3 c43b e16c 07be 69e6 9c6f  ./..#..;.l..i..o
++00003380: 3c72 9af4 87f7 3ab4 1df8 436a 1ca3 1fd6  <r....:...Cj....
++00003390: bfd1 4b57 863b 60fc 5ce7 7951 6d1b 8858  ..KW.;`.\.yQm..X
++000033a0: a51b 38ae fb58 508f 6993 d10d 26eb 06fc  ..8..XP.i...&...
++000033b0: 0eab 4fcd df8d e119 bc4e 7f40 2faf 17f9  ..O......N.@/...
++000033c0: b73c ddeb aca6 e4e9 b5eb 0f00 0000 ffff  .<..............
++000033d0: 0300 504b 0102 2d00 1400 0600 0800 0000  ..PK..-.........
++000033e0: 2100 62ee 9d68 5e01 0000 9004 0000 1300  !.b..h^.........
++000033f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00003400: 5b43 6f6e 7465 6e74 5f54 7970 6573 5d2e  [Content_Types].
++00003410: 786d 6c50 4b01 022d 0014 0006 0008 0000  xmlPK..-........
++00003420: 0021 00b5 5530 23f4 0000 004c 0200 000b  .!..U0#....L....
++00003430: 0000 0000 0000 0000 0000 0000 0097 0300  ................
++00003440: 005f 7265 6c73 2f2e 7265 6c73 504b 0102  ._rels/.relsPK..
++00003450: 2d00 1400 0600 0800 0000 2100 813e 9497  -.........!..>..
++00003460: f300 0000 ba02 0000 1a00 0000 0000 0000  ................
++00003470: 0000 0000 0000 bc06 0000 786c 2f5f 7265  ..........xl/_re
++00003480: 6c73 2f77 6f72 6b62 6f6f 6b2e 786d 6c2e  ls/workbook.xml.
++00003490: 7265 6c73 504b 0102 2d00 1400 0600 0800  relsPK..-.......
++000034a0: 0000 2100 23c5 c4f6 c003 0000 7109 0000  ..!.#.......q...
++000034b0: 0f00 0000 0000 0000 0000 0000 0000 ef08  ................
++000034c0: 0000 786c 2f77 6f72 6b62 6f6f 6b2e 786d  ..xl/workbook.xm
++000034d0: 6c50 4b01 022d 0014 0006 0008 0000 0021  lPK..-.........!
++000034e0: 0027 96d6 b5ca 0200 000a 0700 000d 0000  .'..............
++000034f0: 0000 0000 0000 0000 0000 00dc 0c00 0078  ...............x
++00003500: 6c2f 7374 796c 6573 2e78 6d6c 504b 0102  l/styles.xmlPK..
++00003510: 2d00 1400 0600 0800 0000 2100 c117 10be  -.........!.....
++00003520: 4e07 0000 c620 0000 1300 0000 0000 0000  N.... ..........
++00003530: 0000 0000 0000 d10f 0000 786c 2f74 6865  ..........xl/the
++00003540: 6d65 2f74 6865 6d65 312e 786d 6c50 4b01  me/theme1.xmlPK.
++00003550: 022d 0014 0006 0008 0000 0021 004b 8e05  .-.........!.K..
++00003560: 7150 1300 002a 9600 0018 0000 0000 0000  qP...*..........
++00003570: 0000 0000 0000 0050 1700 0078 6c2f 776f  .......P...xl/wo
++00003580: 726b 7368 6565 7473 2f73 6865 6574 312e  rksheets/sheet1.
++00003590: 786d 6c50 4b01 022d 0014 0006 0008 0000  xmlPK..-........
++000035a0: 0021 00d3 4c9b 3b66 0300 001f 0c00 0014  .!..L.;f........
++000035b0: 0000 0000 0000 0000 0000 0000 00d6 2a00  ..............*.
++000035c0: 0078 6c2f 7368 6172 6564 5374 7269 6e67  .xl/sharedString
++000035d0: 732e 786d 6c50 4b01 022d 0014 0006 0008  s.xmlPK..-......
++000035e0: 0000 0021 0038 f9d5 f75c 0100 0071 0200  ...!.8...\...q..
++000035f0: 0011 0000 0000 0000 0000 0000 0000 006e  ...............n
++00003600: 2e00 0064 6f63 5072 6f70 732f 636f 7265  ...docProps/core
++00003610: 2e78 6d6c 504b 0102 2d00 1400 0600 0800  .xmlPK..-.......
++00003620: 0000 2100 e4ee 6155 9b01 0000 3303 0000  ..!...aU....3...
++00003630: 1000 0000 0000 0000 0000 0000 0000 0131  ...............1
++00003640: 0000 646f 6350 726f 7073 2f61 7070 2e78  ..docProps/app.x
++00003650: 6d6c 504b 0506 0000 0000 0a00 0a00 8002  mlPK............
++00003660: 0000 d233 0000 0000                      ...3....
+```
+
+### Comparing `premise_gwp-0.9.4/premise_gwp/data/lcia_gwp_100a.xlsx` & `premise_gwp-0.9.5/premise_gwp/data/lcia_gwp_100a.xlsx`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/premise_gwp/data/lcia_gwp_100a_w_bio.xlsx` & `premise_gwp-0.9.5/premise_gwp/data/lcia_gwp_100a_w_bio.xlsx`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/premise_gwp/data/lcia_gwp_20a.xlsx` & `premise_gwp-0.9.5/premise_gwp/data/lcia_gwp_20a.xlsx`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/premise_gwp/data/lcia_gwp_20a_w_bio.xlsx` & `premise_gwp-0.9.5/premise_gwp/data/lcia_gwp_20a_w_bio.xlsx`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/premise_gwp.egg-info/PKG-INFO` & `premise_gwp-0.9.5/premise_gwp.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: premise-gwp
+-Version: 0.9.4
++Version: 0.9.5
+ Summary: Import IPCC's GWP100a method, with biogenic CO2 CFs, into Brightway2
+ Home-page: https://github.com/romainsacchi/premise_gwp
+ Author: Romain Sacchi
+ Author-email: romain.sacchi@psi.ch
+ License: BSD 3-clause
+ Classifier: Intended Audience :: End Users/Desktop
+ Classifier: Intended Audience :: Developers
+```
+
+### Comparing `premise_gwp-0.9.4/premise_gwp.egg-info/SOURCES.txt` & `premise_gwp-0.9.5/premise_gwp.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/setup.py` & `premise_gwp-0.9.5/setup.py`
+
+ * *Files identical despite different names*
+
+### Comparing `premise_gwp-0.9.4/tests/test_implementation.py` & `premise_gwp-0.9.5/tests/test_implementation.py`
+
+ * *Files identical despite different names*
+
