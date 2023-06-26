@@ -15298,3 +15298,103 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:11:59] INFO root fetch - processPackages [collective.documentgenerator]: Remove: archive file [/home/abi/fetcher/tmp/collective.documentgenerator-3.9.tar.gz]
 [2023-06-26 13:11:59] INFO root fetch - main [MainThread]: End processing [collective.documentgenerator]: success
 [2023-06-26 13:11:59] INFO root fetch - main [MainThread]: Store serial: [18645629]
+[2023-06-26 13:17:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645629]
+[2023-06-26 13:17:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: traffsimpy
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtd-ae
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: axaiogram
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdfdf
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Optimo-API-Testing
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auth-token-django
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transformer-lens
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wappstoiot
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: villa
+[2023-06-26 13:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: traffsimpy
+[2023-06-26 13:17:10] INFO root fetch - processPackages [rdfdf]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [rtd-ae]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [wappstoiot]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [axaiogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [traffsimpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [traffsimpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [transformer-lens]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [auth-token-django]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [villa]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [Optimo-API-Testing]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-06-26 13:17:10] INFO root fetch - processPackages [rdfdf]: Downloading https://files.pythonhosted.org/packages/5e/9c/bde986f6dd0a93bd4baf21578f86d03119b8a77e27351fafaa923da2ada0/rdfdf-0.1.2.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/8d/fa/57476ab85e28ad65618c17cf82e0551a3f5aa1948d030d8774566c8e72c5/axaiogram-0.0.8.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [traffsimpy]: Downloading https://files.pythonhosted.org/packages/9e/e7/dc4b9bd206ff2d260a4f39f9b8f683fbfede0d139e85bda76f596f31ce0e/traffsimpy-0.1.8.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [traffsimpy]: Downloading https://files.pythonhosted.org/packages/9e/e7/dc4b9bd206ff2d260a4f39f9b8f683fbfede0d139e85bda76f596f31ce0e/traffsimpy-0.1.8.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [wappstoiot]: Downloading https://files.pythonhosted.org/packages/b3/33/276c7011bc66da238829e5a51441ea95e111935f01ac07e136e9269431eb/wappstoiot-0.6.5.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [Optimo-API-Testing]: Downloading https://files.pythonhosted.org/packages/4a/9f/2c18537792384d88d63f709ce6644f85d4ca4f5f8ff6a17bbfa375263a72/Optimo%20API%20Testing-1.0.2.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/f7/ba/d4312f3351703dc9240e833ca04fad4fd690c7809ddc230df3758dde269b/auth-token-django-0.0.2.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [transformer-lens]: Downloading https://files.pythonhosted.org/packages/b3/81/292c0b3e38c76e2ad1c7219fb48c206e4514222a802830d92bf350e11740/transformer_lens-1.2.2.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/a7/10/a23ca468bc2f8e2dfe5558554334612c87811f701ddeb137dd7d89528039/villa-0.3.0.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [rtd-ae]: Downloading https://files.pythonhosted.org/packages/ea/aa/ae7d9471066e77809f112b141b4a9770814012f3e98a9844b927ee0d9369/rtd_ae-0.1.1.tar.gz
+[2023-06-26 13:17:10] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/3a/b9/ebe8494e336007718e89f31477eb283b3f6156c16ef56682554b41c1f057/axaiogram-0.0.9.tar.gz
+[2023-06-26 13:17:11] INFO root fetch - processPackages [rdfdf]: Downloading https://files.pythonhosted.org/packages/81/b2/d82f7b3e54723459b92d6efb6bc686d4eecd95e1a51fd45bd5a52d9b0aa2/rdfdf-0.1.3.tar.gz
+[2023-06-26 13:17:11] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.8.tar.gz tmp/axaiogram-0.0.9.tar.gz --markdown 20230626/a/axaiogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:17:11] INFO root fetch - processPackages [traffsimpy]: Downloading https://files.pythonhosted.org/packages/96/c5/71348131648b8814c4857214fc6310d282304c49208dcb47bd6b7f2ac947/traffsimpy-0.1.9-py3-none-any.whl
+[2023-06-26 13:17:11] INFO root fetch - processPackages [traffsimpy]: Downloading https://files.pythonhosted.org/packages/96/c5/71348131648b8814c4857214fc6310d282304c49208dcb47bd6b7f2ac947/traffsimpy-0.1.9-py3-none-any.whl
+[2023-06-26 13:17:11] INFO root fetch - processPackages [rdfdf]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [rdfdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfdf-0.1.2.tar.gz tmp/rdfdf-0.1.3.tar.gz --markdown 20230626/r/rdfdf/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 13:17:11] INFO root fetch - processPackages [auth-token-django]: Downloading https://files.pythonhosted.org/packages/04/05/8a15cf80298c52de1407842b56d2621022185070e3d84ee0e85953cd28a3/auth-token-django-0.0.3.tar.gz
+[2023-06-26 13:17:11] INFO root fetch - processPackages [Optimo-API-Testing]: Downloading https://files.pythonhosted.org/packages/f8/46/338574f31120fe90e23cabcf5f566abf63bee91347982536edd3b26c5ddb/Optimo%20API%20Testing-2.0.0.tar.gz
+[2023-06-26 13:17:11] INFO root fetch - processPackages [transformer-lens]: Downloading https://files.pythonhosted.org/packages/82/a2/95baa54586fefa7f28ec22abf02846cbe048a81239f1427ecc0cfc5994fd/transformer_lens-1.3.0.tar.gz
+[2023-06-26 13:17:11] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/31/09/4021797353cdf737eaa689eb4052ca009c60871306987c9ee721212e21b9/villa-0.4.0.tar.gz
+[2023-06-26 13:17:11] INFO root fetch - processPackages [wappstoiot]: Downloading https://files.pythonhosted.org/packages/c9/46/02f26e5c938392542c0a40b03e7a0f7c404d3e0f4442731ff67161b498bc/wappstoiot-0.6.6.tar.gz
+[2023-06-26 13:17:11] INFO root fetch - processPackages [auth-token-django]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [auth-token-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth-token-django-0.0.2.tar.gz tmp/auth-token-django-0.0.3.tar.gz --markdown 20230626/a/auth-token-django/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 13:17:11] INFO root fetch - processPackages [rtd-ae]: Downloading https://files.pythonhosted.org/packages/58/51/864945098f7a365c35af658e54652d7ff7164ba29b85eaa470f21ff37d1c/rtd_ae-0.1.2.tar.gz
+[2023-06-26 13:17:11] INFO root fetch - processPackages [traffsimpy]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [traffsimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traffsimpy-0.1.8.tar.gz tmp/traffsimpy-0.1.9-py3-none-any.whl.zip --markdown 20230626/t/traffsimpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 13:17:11] INFO root fetch - processPackages [traffsimpy]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [traffsimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traffsimpy-0.1.8.tar.gz tmp/traffsimpy-0.1.9-py3-none-any.whl.zip --markdown 20230626/t/traffsimpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 13:17:11] INFO root fetch - processPackages [Optimo-API-Testing]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [Optimo-API-Testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Optimo API Testing-1.0.2.tar.gz tmp/Optimo API Testing-2.0.0.tar.gz --markdown 20230626/O/Optimo-API-Testing/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-26 13:17:11] INFO root fetch - processPackages [transformer-lens]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [transformer-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_lens-1.2.2.tar.gz tmp/transformer_lens-1.3.0.tar.gz --markdown 20230626/t/transformer-lens/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-06-26 13:17:11] INFO root fetch - processPackages [villa]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villa-0.3.0.tar.gz tmp/villa-0.4.0.tar.gz --markdown 20230626/v/villa/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-26 13:17:11] INFO root fetch - processPackages [rtd-ae]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [rtd-ae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtd_ae-0.1.1.tar.gz tmp/rtd_ae-0.1.2.tar.gz --markdown 20230626/r/rtd-ae/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 13:17:11] INFO root fetch - processPackages [wappstoiot]: executing diffoscope
+[2023-06-26 13:17:11] INFO root fetch - processPackages [wappstoiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wappstoiot-0.6.5.tar.gz tmp/wappstoiot-0.6.6.tar.gz --markdown 20230626/w/wappstoiot/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-26 13:17:12] INFO root fetch - processPackages [traffsimpy]: Remove: archive file [/home/abi/fetcher/tmp/traffsimpy-0.1.8.tar.gz]
+[2023-06-26 13:17:12] INFO root fetch - processPackages [traffsimpy]: Remove: archive file [/home/abi/fetcher/tmp/traffsimpy-0.1.9-py3-none-any.whl.zip]
+[2023-06-26 13:17:12] INFO root fetch - processPackages [traffsimpy]: Start processing: nhs-aws-helpers
+[2023-06-26 13:17:12] INFO root fetch - main [MainThread]: End processing [traffsimpy]: success
+[2023-06-26 13:17:13] INFO root fetch - processPackages [Optimo-API-Testing]: Remove: archive file [/home/abi/fetcher/tmp/Optimo API Testing-1.0.2.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - processPackages [Optimo-API-Testing]: Remove: archive file [/home/abi/fetcher/tmp/Optimo API Testing-2.0.0.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - main [MainThread]: End processing [Optimo-API-Testing]: success
+[2023-06-26 13:17:13] INFO root fetch - processPackages [nhs-aws-helpers]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 13:17:13] INFO root fetch - processPackages [nhs-aws-helpers]: Downloading https://files.pythonhosted.org/packages/91/e5/c2c49b911a9a1530c148b5b606dcdb39cb6c9ae402ba17312f5994de95da/nhs_aws_helpers-0.1.1.tar.gz
+[2023-06-26 13:17:13] INFO root fetch - processPackages [rtd-ae]: Remove: archive file [/home/abi/fetcher/tmp/rtd_ae-0.1.1.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - processPackages [rtd-ae]: Remove: archive file [/home/abi/fetcher/tmp/rtd_ae-0.1.2.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - main [MainThread]: End processing [rtd-ae]: success
+[2023-06-26 13:17:13] INFO root fetch - processPackages [rdfdf]: Remove: archive file [/home/abi/fetcher/tmp/rdfdf-0.1.2.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - processPackages [rdfdf]: Remove: archive file [/home/abi/fetcher/tmp/rdfdf-0.1.3.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - main [MainThread]: End processing [rdfdf]: success
+[2023-06-26 13:17:13] INFO root fetch - main [MainThread]: End processing [traffsimpy]: success
+[2023-06-26 13:17:13] INFO root fetch - processPackages [nhs-aws-helpers]: Downloading https://files.pythonhosted.org/packages/1d/95/9958297fff793a04589a33c8aa2fdbaa377f1acd8e560dfb6ccb28a24401/nhs_aws_helpers-0.1.2.tar.gz
+[2023-06-26 13:17:13] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.3.0.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.4.0.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - main [MainThread]: End processing [villa]: success
+[2023-06-26 13:17:13] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.8.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.9.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 13:17:13] INFO root fetch - processPackages [nhs-aws-helpers]: executing diffoscope
+[2023-06-26 13:17:13] INFO root fetch - processPackages [nhs-aws-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhs_aws_helpers-0.1.1.tar.gz tmp/nhs_aws_helpers-0.1.2.tar.gz --markdown 20230626/n/nhs-aws-helpers/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 13:17:13] INFO root fetch - processPackages [transformer-lens]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lens-1.2.2.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - processPackages [transformer-lens]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lens-1.3.0.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - main [MainThread]: End processing [transformer-lens]: success
+[2023-06-26 13:17:13] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.0.2.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - processPackages [auth-token-django]: Remove: archive file [/home/abi/fetcher/tmp/auth-token-django-0.0.3.tar.gz]
+[2023-06-26 13:17:13] INFO root fetch - main [MainThread]: End processing [auth-token-django]: success
+[2023-06-26 13:17:14] INFO root fetch - processPackages [nhs-aws-helpers]: Remove: archive file [/home/abi/fetcher/tmp/nhs_aws_helpers-0.1.1.tar.gz]
+[2023-06-26 13:17:14] INFO root fetch - processPackages [nhs-aws-helpers]: Remove: archive file [/home/abi/fetcher/tmp/nhs_aws_helpers-0.1.2.tar.gz]
+[2023-06-26 13:17:14] INFO root fetch - main [MainThread]: End processing [nhs-aws-helpers]: success
+[2023-06-26 13:17:14] INFO root fetch - processPackages [wappstoiot]: Remove: archive file [/home/abi/fetcher/tmp/wappstoiot-0.6.5.tar.gz]
+[2023-06-26 13:17:14] INFO root fetch - processPackages [wappstoiot]: Remove: archive file [/home/abi/fetcher/tmp/wappstoiot-0.6.6.tar.gz]
+[2023-06-26 13:17:14] INFO root fetch - main [MainThread]: End processing [wappstoiot]: success
+[2023-06-26 13:17:14] INFO root fetch - main [MainThread]: Store serial: [18645667]
