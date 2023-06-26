@@ -10741,3 +10741,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 09:46:35] INFO root fetch - processPackages [awscdk-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/awscdk_minecraft-2.2.0-py2.py3-none-any.whl.zip]
 [2023-06-26 09:46:35] INFO root fetch - main [MainThread]: End processing [awscdk-minecraft]: success
 [2023-06-26 09:46:35] INFO root fetch - main [MainThread]: Store serial: [18643661]
+[2023-06-26 09:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643661]
+[2023-06-26 09:51:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-26 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2023-06-26 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-thread
+[2023-06-26 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitlab-arc-fs
+[2023-06-26 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udata-front
+[2023-06-26 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-26 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ggvlib
+[2023-06-26 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-listing
+[2023-06-26 09:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-cpu
+[2023-06-26 09:51:43] INFO root fetch - processPackages [gitlab-arc-fs]: New version: [0.0.9.dev1] Old Version: [0.0.8.dev1]
+[2023-06-26 09:51:43] INFO root fetch - processPackages [udata-front]: New version: [3.2.5.dev11388] Old Version: [3.2.5.dev11383]
+[2023-06-26 09:51:43] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: New version: [20230626.7.48.862380] Old Version: [20230626.7.36.830989]
+[2023-06-26 09:51:43] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-26 09:51:43] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 09:51:43] INFO root fetch - processPackages [django-listing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:51:43] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-26 09:51:43] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-06-26 09:51:43] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230626] Old Version: [2.14.0.dev20230625]
+[2023-06-26 09:51:43] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8d/4c/eb3ba23d8e8cd1c6b7f2a30fae10d221791d1ca657856bdb2f3336323f39/udata_front-3.2.5.dev11383-py2.py3-none-any.whl
+[2023-06-26 09:51:43] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Downloading https://files.pythonhosted.org/packages/76/c6/8d8cc418dbf27d236dab8431313c56f48ed729cef7a51b61369a5ff64e7a/certora-cli-alpha-cnandi-morpho-equiv-20230626.7.36.830989.tar.gz
+[2023-06-26 09:51:44] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0e/13/96cc6617347f539f4105aa2d8c22e0f59367d4839663ee5456fdf3fa2047/gitlab_arc_fs-0.0.8.dev1.tar.gz
+[2023-06-26 09:51:44] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/a3/59/905c67a72e8b857c31c798d6e0cc0030c1ee535d793a4ea094ecda645d18/django-listing-0.0.8.tar.gz
+[2023-06-26 09:51:44] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping package: exceeds size limit 40306641>=10485760
+[2023-06-26 09:51:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-26 09:51:44] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/c8/a4/76d1f8bec5b3584ef0e86ce8e53ab63916ffc36fcb0d2d8b4f0d337700c3/ggvlib-0.2.8.tar.gz
+[2023-06-26 09:51:44] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-06-26 09:51:44] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/08/75/d1f696df942f0de43d7eca511fd8a1006853357d600b84f5dbd7a69be6f0/tf_nightly_cpu-2.14.0.dev20230625-cp39-cp39-win_amd64.whl
+[2023-06-26 09:51:44] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-26 09:51:44] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-06-26 09:51:44] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230626/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-26 09:51:44] INFO root fetch - processPackages [gitlab-arc-fs]: Downloading https://files.pythonhosted.org/packages/0f/cd/99d970c989763e4c968b7bc029225b30885ba89e68822868e6b6f5cf5be8/gitlab_arc_fs-0.0.9.dev1.tar.gz
+[2023-06-26 09:51:44] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/36/b5/8586923d028b409a49b3a4b40b855f09eeba833cb2bacab0ecae6f8f4200/django-listing-0.0.9.tar.gz
+[2023-06-26 09:51:44] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/25/15/0acfb683f232e1bcbf7708d149bb19fb024f1b85f035eabc2314664384d9/tf_nightly_cpu-2.14.0.dev20230626-cp39-cp39-win_amd64.whl
+[2023-06-26 09:51:44] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/34/94/a276f716d8fabdf90cef3cc2a1fccf75e3e71e43c098bb84478fc31b0ff6/ggvlib-0.2.9.tar.gz
+[2023-06-26 09:51:44] INFO root fetch - processPackages [gitlab-arc-fs]: executing diffoscope
+[2023-06-26 09:51:44] INFO root fetch - processPackages [gitlab-arc-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz --markdown 20230626/g/gitlab-arc-fs/0.0.8.dev1-0.0.9.dev1/diff.md --exclude *.pyd
+[2023-06-26 09:51:44] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-26 09:51:44] INFO root fetch - processPackages [django-listing]: executing diffoscope
+[2023-06-26 09:51:44] INFO root fetch - processPackages [django-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-listing-0.0.8.tar.gz tmp/django-listing-0.0.9.tar.gz --markdown 20230626/d/django-listing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:51:44] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-26 09:51:44] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230625-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230626-cp39-cp39-win_amd64.whl.zip --markdown 20230626/t/tf-nightly-cpu/2.14.0.dev20230625-2.14.0.dev20230626/diff.md --exclude *.pyd
+[2023-06-26 09:51:44] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-06-26 09:51:44] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230626/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 09:51:44] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-26 09:51:44] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230626/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-26 09:51:45] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/b5/86/27fdc997302aee7a833998d0394a61b13366d4f5c15756989c1934c26218/udata_front-3.2.5.dev11388-py2.py3-none-any.whl
+[2023-06-26 09:51:46] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-06-26 09:51:46] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.5.dev11383-py2.py3-none-any.whl.zip tmp/udata_front-3.2.5.dev11388-py2.py3-none-any.whl.zip --markdown 20230626/u/udata-front/3.2.5.dev11383-3.2.5.dev11388/diff.md --exclude *.pyd
+[2023-06-26 09:51:46] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.8.dev1.tar.gz]
+[2023-06-26 09:51:46] INFO root fetch - processPackages [gitlab-arc-fs]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_arc_fs-0.0.9.dev1.tar.gz]
+[2023-06-26 09:51:46] INFO root fetch - main [MainThread]: End processing [gitlab-arc-fs]: success
+[2023-06-26 09:51:47] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230625-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 09:51:47] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230626-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 09:51:47] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-26 09:51:47] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.8.tar.gz]
+[2023-06-26 09:51:47] INFO root fetch - processPackages [ggvlib]: Remove: archive file [/home/abi/fetcher/tmp/ggvlib-0.2.9.tar.gz]
+[2023-06-26 09:51:47] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-06-26 09:51:47] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-06-26 09:51:47] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-06-26 09:51:47] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-06-26 09:51:48] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.0.8.tar.gz]
+[2023-06-26 09:51:48] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.0.9.tar.gz]
+[2023-06-26 09:51:48] INFO root fetch - main [MainThread]: End processing [django-listing]: success
+[2023-06-26 09:51:55] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-26 09:51:55] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-26 09:51:55] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-26 09:52:12] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11383-py2.py3-none-any.whl.zip]
+[2023-06-26 09:52:12] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11388-py2.py3-none-any.whl.zip]
+[2023-06-26 09:52:12] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-06-26 09:52:12] INFO root fetch - main [MainThread]: Store serial: [18643716]
