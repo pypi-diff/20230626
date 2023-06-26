@@ -8714,3 +8714,136 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:17:14] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-26 08:17:14] INFO root fetch - main [MainThread]: End processing [Mosek]: success
 [2023-06-26 08:17:14] INFO root fetch - main [MainThread]: Store serial: [18642789]
+[2023-06-26 08:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642789]
+[2023-06-26 08:22:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jinaai
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendoor
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transcriptorthology
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oganesson
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: potato-tool
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fdlogger
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: accim
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-cloudformation-awscommunity-time-static
+[2023-06-26 08:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funasr
+[2023-06-26 08:22:24] INFO root fetch - processPackages [jinaai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [oganesson]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [opendoor]: New version: [4.0.6] Old Version: [3.3.36rc0]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [fdlogger]: New version: [23.6.9] Old Version: [23.6.4]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [transcriptorthology]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-static]: New version: [1.4.0a7] Old Version: [1.3.0a7]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [accim]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [potato-tool]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [funasr]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-26 08:22:24] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/e0/35/3c5193a163d74848a57b5f0046d0d45e3e1db47f3a4c7d71003f7d7c35ea/transcriptorthology-2.0.4.tar.gz
+[2023-06-26 08:22:24] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-26 08:22:24] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/1b/e6/63b2e5cc560a952cf75f5703819946b754450fb765bc050079f3c0bdaf5f/jinaai-0.1.2.tar.gz
+[2023-06-26 08:22:24] INFO root fetch - processPackages [accim]: Downloading https://files.pythonhosted.org/packages/c7/d7/23020bf8d39050b32d2cdf67d1ff3441aaaf95ebde06783f424cd9b55c4a/accim-0.6.9.tar.gz
+[2023-06-26 08:22:24] INFO root fetch - processPackages [potato-tool]: Downloading https://files.pythonhosted.org/packages/45/e2/44e30bd3714b04744e347253712ab93de9434a45c1bf0b6a72aea3bc2b5d/potato_tool-0.0.5.tar.gz
+[2023-06-26 08:22:24] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-static]: Downloading https://files.pythonhosted.org/packages/1f/08/f5b6be362fb4ba20f857be8bd46ce5c8051f6b05492c4f93b0e8c6d23999/cdk-cloudformation-awscommunity-time-static-1.3.0a7.tar.gz
+[2023-06-26 08:22:24] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/ac/bb/54f03da1453e1c89f2f9884100131a0e5d78a4b9a38fe592819f3eb50c8d/funasr-0.6.2.tar.gz
+[2023-06-26 08:22:24] INFO root fetch - processPackages [opendoor]: Downloading https://files.pythonhosted.org/packages/fe/9c/c81ac56d74a8c86454a7a466ea7ee87d12e73c34223acfbcc27be018aab8/opendoor-3.3.36rc0.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/ed/cf/41d77e186e62170a7f4a885c1c5711f27e71e39ed8f0c8027e6b9b84e181/oganesson-0.1.6.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/7a/a9/70ef1dd24ea9d4109dced815141942da193b865bce593409d4188f2c7c29/fdlogger-23.6.4.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/8c/58/86465a837af20c1c06e74c5ab74bc954e520f4d66259f1f68d54e08d950c/transcriptorthology-2.0.5.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-26 08:22:25] INFO root fetch - processPackages [transcriptorthology]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [transcriptorthology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcriptorthology-2.0.4.tar.gz tmp/transcriptorthology-2.0.5.tar.gz --markdown 20230626/t/transcriptorthology/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-26 08:22:25] INFO root fetch - processPackages [jinaai]: Downloading https://files.pythonhosted.org/packages/ab/cd/76351e351cd0586a054c2a7b8067d7eba53510c9aad4d0fb5c634b3e3b76/jinaai-0.1.3.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230626/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-26 08:22:25] INFO root fetch - processPackages [potato-tool]: Downloading https://files.pythonhosted.org/packages/df/b9/c8611444a19932c223bab3be98d63e607e0ba5cf2c298c1e2c3cfbd00498/potato_tool-0.0.6.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/cd/87/f34e47bdad2f46ce073901064c3352a98e689b0292372bc2876378dce374/funasr-0.6.3.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [jinaai]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [jinaai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai-0.1.2.tar.gz tmp/jinaai-0.1.3.tar.gz --markdown 20230626/j/jinaai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 08:22:25] INFO root fetch - processPackages [opendoor]: Downloading https://files.pythonhosted.org/packages/69/97/e078c58ab5f455f1a1cfb6943545858f4ed073a8d88a5d9f326fd789a56b/opendoor-4.0.6.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.6.2.tar.gz tmp/funasr-0.6.3.tar.gz --markdown 20230626/f/funasr/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-26 08:22:25] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-static]: Downloading https://files.pythonhosted.org/packages/ad/99/9230e77b43ded581f4dc4f0c21c9f0cfad746f7f7a45533e7e9e11d09fe3/cdk-cloudformation-awscommunity-time-static-1.4.0a7.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [oganesson]: Downloading https://files.pythonhosted.org/packages/f9/e7/aa252d5ddaadcb3e9082066d847e908eca0104af2d11ea5a00e7c1dc42f7/oganesson-0.1.7.tar.gz
+[2023-06-26 08:22:25] INFO root fetch - processPackages [opendoor]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [opendoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendoor-3.3.36rc0.tar.gz tmp/opendoor-4.0.6.tar.gz --markdown 20230626/o/opendoor/3.3.36rc0-4.0.6/diff.md --exclude *.pyd
+[2023-06-26 08:22:25] INFO root fetch - processPackages [potato-tool]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [potato-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potato_tool-0.0.5.tar.gz tmp/potato_tool-0.0.6.tar.gz --markdown 20230626/p/potato-tool/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 08:22:25] INFO root fetch - processPackages [oganesson]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [oganesson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oganesson-0.1.6.tar.gz tmp/oganesson-0.1.7.tar.gz --markdown 20230626/o/oganesson/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-26 08:22:25] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/23/5d/36990542663e11f1d62f11923ffd1c6b1b0f3a7207e4f277d4deb1acc852/fdlogger-23.6.9.tar.gz
+[2023-06-26 08:22:25] WARNING root fetch - processPackages [accim]: Skipping package: exceeds size limit 23953289>=10485760
+[2023-06-26 08:22:25] INFO root fetch - processPackages [accim]: Start processing: potato-tool
+[2023-06-26 08:22:25] INFO root fetch - main [MainThread]: End processing [accim] error
+[2023-06-26 08:22:25] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-static]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-static]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-awscommunity-time-static-1.3.0a7.tar.gz tmp/cdk-cloudformation-awscommunity-time-static-1.4.0a7.tar.gz --markdown 20230626/c/cdk-cloudformation-awscommunity-time-static/1.3.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-06-26 08:22:25] INFO root fetch - processPackages [potato-tool]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 08:22:25] INFO root fetch - processPackages [fdlogger]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [fdlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdlogger-23.6.4.tar.gz tmp/fdlogger-23.6.9.tar.gz --markdown 20230626/f/fdlogger/23.6.4-23.6.9/diff.md --exclude *.pyd
+[2023-06-26 08:22:25] INFO root fetch - processPackages [potato-tool]: executing diffoscope
+[2023-06-26 08:22:25] INFO root fetch - processPackages [potato-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potato_tool-0.0.5.tar.gz tmp/potato_tool-0.0.6.tar.gz --markdown 20230626/p/potato-tool/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 08:22:26] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.1.2.tar.gz]
+[2023-06-26 08:22:26] INFO root fetch - processPackages [jinaai]: Remove: archive file [/home/abi/fetcher/tmp/jinaai-0.1.3.tar.gz]
+[2023-06-26 08:22:26] INFO root fetch - processPackages [jinaai]: Start processing: cdk-cloudformation-awscommunity-resource-lookup
+[2023-06-26 08:22:27] INFO root fetch - main [MainThread]: End processing [jinaai]: success
+[2023-06-26 08:22:27] ERROR root fetch - processPackages [cdk-cloudformation-awscommunity-resource-lookup]: Unable to get metadata: No such project 'cdk-cloudformation-awscommunity-resource-lookup'
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-resource-lookup]: Start processing: cdk-cloudformation-awscommunity-cloudfront-s3website-module
+[2023-06-26 08:22:27] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-resource-lookup] error
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-cloudfront-s3website-module]: New version: [1.9.0a7] Old Version: [1.8.0a7]
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-cloudfront-s3website-module]: Downloading https://files.pythonhosted.org/packages/00/8c/d917c6cc3326cdd92c78131ad8ef1c48261c1b2bb7477545d58b22e6fe90/cdk-cloudformation-awscommunity-cloudfront-s3website-module-1.8.0a7.tar.gz
+[2023-06-26 08:22:27] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-2.0.4.tar.gz]
+[2023-06-26 08:22:27] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-2.0.5.tar.gz]
+[2023-06-26 08:22:27] INFO root fetch - processPackages [transcriptorthology]: Start processing: cdk-cloudformation-awscommunity-s3-deletebucketcontents
+[2023-06-26 08:22:27] INFO root fetch - main [MainThread]: End processing [transcriptorthology]: success
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-deletebucketcontents]: New version: [1.8.0a7] Old Version: [1.8.0a6]
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-deletebucketcontents]: Downloading https://files.pythonhosted.org/packages/a8/21/449147e0781660538acc9340e5acce90c965508c9f0d56c1a1598d848c2a/cdk-cloudformation-awscommunity-s3-deletebucketcontents-1.8.0a6.tar.gz
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-cloudfront-s3website-module]: Downloading https://files.pythonhosted.org/packages/d6/e7/199e4a2827665aaaef4167fde6d8dddeb7d972e378a688247fae56ce56ea/cdk-cloudformation-awscommunity-cloudfront-s3website-module-1.9.0a7.tar.gz
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-cloudfront-s3website-module]: executing diffoscope
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-cloudfront-s3website-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-awscommunity-cloudfront-s3website-module-1.8.0a7.tar.gz tmp/cdk-cloudformation-awscommunity-cloudfront-s3website-module-1.9.0a7.tar.gz --markdown 20230626/c/cdk-cloudformation-awscommunity-cloudfront-s3website-module/1.8.0a7-1.9.0a7/diff.md --exclude *.pyd
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-static]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-time-static-1.3.0a7.tar.gz]
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-static]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-time-static-1.4.0a7.tar.gz]
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-static]: Start processing: cdk-cloudformation-awscommunity-account-alternatecontact
+[2023-06-26 08:22:27] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-time-static]: success
+[2023-06-26 08:22:27] INFO root fetch - processPackages [potato-tool]: Remove: archive file [/home/abi/fetcher/tmp/potato_tool-0.0.5.tar.gz]
+[2023-06-26 08:22:27] INFO root fetch - processPackages [potato-tool]: Remove: archive file [/home/abi/fetcher/tmp/potato_tool-0.0.6.tar.gz]
+[2023-06-26 08:22:27] INFO root fetch - processPackages [potato-tool]: Start processing: fscloudutils
+[2023-06-26 08:22:27] INFO root fetch - main [MainThread]: End processing [potato-tool]: success
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-deletebucketcontents]: Downloading https://files.pythonhosted.org/packages/5f/02/0f121094d598f60e3b8391814f2a810309cdda6d50184d2a1b7a18e997a6/cdk-cloudformation-awscommunity-s3-deletebucketcontents-1.8.0a7.tar.gz
+[2023-06-26 08:22:27] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-account-alternatecontact]: New version: [1.9.0a7] Old Version: [1.8.0a7]
+[2023-06-26 08:22:28] INFO root fetch - processPackages [fscloudutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 08:22:28] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-deletebucketcontents]: executing diffoscope
+[2023-06-26 08:22:28] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-deletebucketcontents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-awscommunity-s3-deletebucketcontents-1.8.0a6.tar.gz tmp/cdk-cloudformation-awscommunity-s3-deletebucketcontents-1.8.0a7.tar.gz --markdown 20230626/c/cdk-cloudformation-awscommunity-s3-deletebucketcontents/1.8.0a6-1.8.0a7/diff.md --exclude *.pyd
+[2023-06-26 08:22:28] INFO root fetch - main [MainThread]: End processing [potato-tool]: success
+[2023-06-26 08:22:28] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-account-alternatecontact]: Downloading https://files.pythonhosted.org/packages/c1/97/eb8975bb7c4009c1fd0c0c20ec9dc6001c1d9118f1de22ab8bab7519c945/cdk-cloudformation-awscommunity-account-alternatecontact-1.8.0a7.tar.gz
+[2023-06-26 08:22:28] INFO root fetch - processPackages [fscloudutils]: Downloading https://files.pythonhosted.org/packages/ca/7a/7315bb407e52696b660d12aebd976af7fe5264e725f58d7763b9d13307c7/fscloudutils-1.0.8.tar.gz
+[2023-06-26 08:22:28] INFO root fetch - processPackages [fscloudutils]: Downloading https://files.pythonhosted.org/packages/a2/99/e54f4a6b84bff3a0bc662baf850f39a32bfb60a791b8f563560bb68c52b8/fscloudutils-1.0.9.tar.gz
+[2023-06-26 08:22:28] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-account-alternatecontact]: Downloading https://files.pythonhosted.org/packages/82/88/48a5f984d56d60ace693ad5812da9475e91fb8acfdad5e2a1cd20b84e2ba/cdk-cloudformation-awscommunity-account-alternatecontact-1.9.0a7.tar.gz
+[2023-06-26 08:22:28] INFO root fetch - processPackages [fscloudutils]: executing diffoscope
+[2023-06-26 08:22:28] INFO root fetch - processPackages [fscloudutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fscloudutils-1.0.8.tar.gz tmp/fscloudutils-1.0.9.tar.gz --markdown 20230626/f/fscloudutils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 08:22:28] INFO root fetch - processPackages [opendoor]: Remove: archive file [/home/abi/fetcher/tmp/opendoor-3.3.36rc0.tar.gz]
+[2023-06-26 08:22:28] INFO root fetch - processPackages [opendoor]: Remove: archive file [/home/abi/fetcher/tmp/opendoor-4.0.6.tar.gz]
+[2023-06-26 08:22:28] INFO root fetch - main [MainThread]: End processing [opendoor]: success
+[2023-06-26 08:22:28] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-account-alternatecontact]: executing diffoscope
+[2023-06-26 08:22:28] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-account-alternatecontact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-awscommunity-account-alternatecontact-1.8.0a7.tar.gz tmp/cdk-cloudformation-awscommunity-account-alternatecontact-1.9.0a7.tar.gz --markdown 20230626/c/cdk-cloudformation-awscommunity-account-alternatecontact/1.8.0a7-1.9.0a7/diff.md --exclude *.pyd
+[2023-06-26 08:22:29] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.6.tar.gz]
+[2023-06-26 08:22:29] INFO root fetch - processPackages [oganesson]: Remove: archive file [/home/abi/fetcher/tmp/oganesson-0.1.7.tar.gz]
+[2023-06-26 08:22:29] INFO root fetch - main [MainThread]: End processing [oganesson]: success
+[2023-06-26 08:22:29] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-deletebucketcontents]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-s3-deletebucketcontents-1.8.0a6.tar.gz]
+[2023-06-26 08:22:29] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-deletebucketcontents]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-s3-deletebucketcontents-1.8.0a7.tar.gz]
+[2023-06-26 08:22:29] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-s3-deletebucketcontents]: success
+[2023-06-26 08:22:29] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-cloudfront-s3website-module]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-cloudfront-s3website-module-1.8.0a7.tar.gz]
+[2023-06-26 08:22:29] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-cloudfront-s3website-module]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-cloudfront-s3website-module-1.9.0a7.tar.gz]
+[2023-06-26 08:22:29] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-cloudfront-s3website-module]: success
+[2023-06-26 08:22:30] INFO root fetch - processPackages [fscloudutils]: Remove: archive file [/home/abi/fetcher/tmp/fscloudutils-1.0.8.tar.gz]
+[2023-06-26 08:22:30] INFO root fetch - processPackages [fscloudutils]: Remove: archive file [/home/abi/fetcher/tmp/fscloudutils-1.0.9.tar.gz]
+[2023-06-26 08:22:30] INFO root fetch - main [MainThread]: End processing [fscloudutils]: success
+[2023-06-26 08:22:30] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.2.tar.gz]
+[2023-06-26 08:22:30] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.6.3.tar.gz]
+[2023-06-26 08:22:30] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-06-26 08:22:30] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-account-alternatecontact]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-account-alternatecontact-1.8.0a7.tar.gz]
+[2023-06-26 08:22:30] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-account-alternatecontact]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-account-alternatecontact-1.9.0a7.tar.gz]
+[2023-06-26 08:22:30] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-account-alternatecontact]: success
+[2023-06-26 08:22:30] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.4.tar.gz]
+[2023-06-26 08:22:30] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.9.tar.gz]
+[2023-06-26 08:22:30] INFO root fetch - main [MainThread]: End processing [fdlogger]: success
+[2023-06-26 08:22:31] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-26 08:22:31] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-26 08:22:31] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-26 08:22:31] INFO root fetch - main [MainThread]: Store serial: [18642836]
