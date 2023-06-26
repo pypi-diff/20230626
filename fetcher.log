@@ -17277,3 +17277,121 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 14:38:44] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-26 14:38:44] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-26 14:38:44] INFO root fetch - main [MainThread]: Store serial: [18646549]
+[2023-06-26 14:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18646549]
+[2023-06-26 14:43:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robot-rumble
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syscryptographymodsV1
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waifu2x
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irene-pro
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wsgi-intercept
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proteinflow
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: checkov3
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openbakery
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lanablas
+[2023-06-26 14:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: customgpt-client
+[2023-06-26 14:43:54] INFO root fetch - processPackages [robot-rumble]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [openbakery]: New version: [1.0.0a0] Old Version: [0.1.0]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [syscryptographymodsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [proteinflow]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [checkov3]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [waifu2x]: New version: [2023] Old Version: [2022.2]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [customgpt-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [wsgi-intercept]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [irene-pro]: New version: [0.0.75] Old Version: [0.0.74]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [lanablas]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/82/2e/593e4ebdbc6b8db215d89d31095a449d64951b4a59b42b1959632d7984e1/customgpt_client-1.1.1-py3-none-any.whl
+[2023-06-26 14:43:54] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/41/9e/0b53403769b9a978da64933c5d6bf84e54ef6638bc94f4343f3ea1509dad/irene_pro-0.0.74.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/92/3e/13f239a62be5cd9b8c36afda0ba7053f0f554dd3e6b8b032d690170764c7/robot_rumble-0.0.8.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [syscryptographymodsV1]: Downloading https://files.pythonhosted.org/packages/81/33/3cb1913c9994c939c067366168f055521e2f5d4d559c42081d96010aa020/syscryptographymodsV1-1.0.0.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [openbakery]: Downloading https://files.pythonhosted.org/packages/98/6a/4b0ed86541aecb847bea4e85d8cd85db89185985c58c4b707e50189a0995/openbakery-0.1.0.tar.gz
+[2023-06-26 14:43:54] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 22358135>=10485760
+[2023-06-26 14:43:54] INFO root fetch - processPackages [robot-rumble]: Start processing: robot-rumble
+[2023-06-26 14:43:54] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-06-26 14:43:54] INFO root fetch - processPackages [wsgi-intercept]: Downloading https://files.pythonhosted.org/packages/8b/a2/2dec56a11e174d3ad6397a01118f6d7eaf3cc0fd3387f1b60d0f9df6ff96/wsgi_intercept-1.9.2.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/ac/91/426d81a2e18f5a26454ed7bfccaef8b69e5823dcf00cb6d595df731417bf/proteinflow-1.4.0.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [waifu2x]: Downloading https://files.pythonhosted.org/packages/11/af/72e8c056d1c713c650ad796d590727938491ed3416142d9a7ebffe31ad1d/waifu2x-2022.2.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [robot-rumble]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/bc/73/0f06606e41ebcfd63316846e2c98c040f51c2f8a9df0d3c143ee0f0f9d96/lanablas-0.1.2.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/61/1e/4e033f962f90e316186c790b47156b97c7487d8b98697561c2787970cba6/checkov3-0.1.8.tar.gz
+[2023-06-26 14:43:54] WARNING root fetch - processPackages [lanablas]: Skipping package: exceeds size limit 71402225>=10485760
+[2023-06-26 14:43:54] INFO root fetch - processPackages [lanablas]: Start processing: swibots
+[2023-06-26 14:43:54] INFO root fetch - main [MainThread]: End processing [lanablas] error
+[2023-06-26 14:43:54] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/92/3e/13f239a62be5cd9b8c36afda0ba7053f0f554dd3e6b8b032d690170764c7/robot_rumble-0.0.8.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/f9/c7/b4d537daec816dfe79ab68ef764b0f518ebbf6e4887dfd83fe132832baa2/customgpt_client-1.1.2-py3-none-any.whl
+[2023-06-26 14:43:54] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 22358135>=10485760
+[2023-06-26 14:43:54] INFO root fetch - processPackages [robot-rumble]: Start processing: dgl_client
+[2023-06-26 14:43:54] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-06-26 14:43:54] INFO root fetch - processPackages [dgl_client]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-26 14:43:54] WARNING root fetch - processPackages [waifu2x]: Skipping package: exceeds size limit 52518993>=10485760
+[2023-06-26 14:43:54] INFO root fetch - processPackages [waifu2x]: Start processing: iterative-stats
+[2023-06-26 14:43:54] INFO root fetch - main [MainThread]: End processing [waifu2x] error
+[2023-06-26 14:43:54] WARNING root fetch - processPackages [openbakery]: Skipping package: exceeds size limit 43180323>=10485760
+[2023-06-26 14:43:54] INFO root fetch - processPackages [openbakery]: Start processing: data-ecosystem-services
+[2023-06-26 14:43:54] INFO root fetch - main [MainThread]: End processing [openbakery] error
+[2023-06-26 14:43:54] INFO root fetch - processPackages [swibots]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/9f/cf/b596b295c2a15c11d5be98b83415a35f96153df4c6f334a1b528ee645d27/dgl_client-0.4.1.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/c1/92/a5dae265b7811215f6d7fccafe816f24cd3a1c26634594419835a0959cdb/irene_pro-0.0.75.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/ab/d6/a23cf016b6fd1ffc7aea9e093b5c87aa6e6291b0e343b687274a970cb1b6/proteinflow-1.4.1.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [iterative-stats]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-26 14:43:54] INFO root fetch - processPackages [syscryptographymodsV1]: Downloading https://files.pythonhosted.org/packages/8c/71/4216781955791d381bba21a4c4af4d868f5358f403b9128ea639eb8fecbd/syscryptographymodsV1-1.1.0.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [customgpt-client]: executing diffoscope
+[2023-06-26 14:43:54] INFO root fetch - processPackages [customgpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customgpt_client-1.1.1-py3-none-any.whl.zip tmp/customgpt_client-1.1.2-py3-none-any.whl.zip --markdown 20230626/c/customgpt-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-26 14:43:54] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/7d/45/f4fee69b84307792994b7b9a62b38085cb6b5c008df32da5d7661e06b611/checkov3-0.1.9.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-26 14:43:54] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.74.tar.gz tmp/irene_pro-0.0.75.tar.gz --markdown 20230626/i/irene-pro/0.0.74-0.0.75/diff.md --exclude *.pyd
+[2023-06-26 14:43:54] INFO root fetch - processPackages [syscryptographymodsV1]: executing diffoscope
+[2023-06-26 14:43:54] INFO root fetch - processPackages [syscryptographymodsV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscryptographymodsV1-1.0.0.tar.gz tmp/syscryptographymodsV1-1.1.0.tar.gz --markdown 20230626/s/syscryptographymodsV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-26 14:43:54] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [wsgi-intercept]: Downloading https://files.pythonhosted.org/packages/66/c8/836b590bc9e2a4a264b3007ea044d33b2ebd323ec06b141642884024e6bb/wsgi_intercept-1.9.3.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/1f/0f/f4a3b37bc930400543c2e5338a1e45fb6274fbd6dcf78cdb9a2c2aa6cb1a/swibots-1.2.8.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [proteinflow]: executing diffoscope
+[2023-06-26 14:43:54] INFO root fetch - processPackages [proteinflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinflow-1.4.0.tar.gz tmp/proteinflow-1.4.1.tar.gz --markdown 20230626/p/proteinflow/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-26 14:43:54] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/3e/42/312f998054daef70e6d3efd70f2d6fe2a6fde340dc366b531a13df9c434a/dgl_client-0.4.2.tar.gz
+[2023-06-26 14:43:54] INFO root fetch - processPackages [checkov3]: executing diffoscope
+[2023-06-26 14:43:54] INFO root fetch - processPackages [checkov3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov3-0.1.8.tar.gz tmp/checkov3-0.1.9.tar.gz --markdown 20230626/c/checkov3/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 14:43:55] INFO root fetch - processPackages [iterative-stats]: Downloading https://files.pythonhosted.org/packages/5c/73/f787a93bc127aeead43475d2c6dd0d24cbd321177d4316e808c9045419c9/iterative_stats-0.0.4.tar.gz
+[2023-06-26 14:43:55] ERROR root fetch - processPackages [syscryptographymodsV1]: Diffoscope failed: Error: error creating container storage: the container name "determined_mcnulty" is already in use by "e0d0f823dc0ab51ced7caea9bca0f707d799a42474776401c5d2b19679ee5c95". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-26 14:43:55] INFO root fetch - main [MainThread]: End processing [syscryptographymodsV1] error
+[2023-06-26 14:43:55] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-26 14:43:55] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230626/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-26 14:43:55] INFO root fetch - processPackages [wsgi-intercept]: executing diffoscope
+[2023-06-26 14:43:55] INFO root fetch - processPackages [wsgi-intercept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsgi_intercept-1.9.2.tar.gz tmp/wsgi_intercept-1.9.3.tar.gz --markdown 20230626/w/wsgi-intercept/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-26 14:43:55] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/83/15/690a7c9d70dac83df38a40bcb380b713e8dbc87e5fee63226b774b70f5bb/swibots-1.2.9.tar.gz
+[2023-06-26 14:43:55] INFO root fetch - processPackages [dgl_client]: executing diffoscope
+[2023-06-26 14:43:55] INFO root fetch - processPackages [dgl_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgl_client-0.4.1.tar.gz tmp/dgl_client-0.4.2.tar.gz --markdown 20230626/d/dgl_client/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-26 14:43:55] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-06-26 14:43:55] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.2.8.tar.gz tmp/swibots-1.2.9.tar.gz --markdown 20230626/s/swibots/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-26 14:43:55] INFO root fetch - processPackages [iterative-stats]: Downloading https://files.pythonhosted.org/packages/1e/8f/301859d98f4fbe3b1aed467ae063efcb568c19947d3ba0d3a802f49297f2/iterative_stats-0.0.6.tar.gz
+[2023-06-26 14:43:55] INFO root fetch - processPackages [iterative-stats]: executing diffoscope
+[2023-06-26 14:43:55] INFO root fetch - processPackages [iterative-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterative_stats-0.0.4.tar.gz tmp/iterative_stats-0.0.6.tar.gz --markdown 20230626/i/iterative-stats/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 14:43:56] INFO root fetch - processPackages [dgl_client]: Remove: archive file [/home/abi/fetcher/tmp/dgl_client-0.4.1.tar.gz]
+[2023-06-26 14:43:56] INFO root fetch - processPackages [dgl_client]: Remove: archive file [/home/abi/fetcher/tmp/dgl_client-0.4.2.tar.gz]
+[2023-06-26 14:43:56] INFO root fetch - main [MainThread]: End processing [dgl_client]: success
+[2023-06-26 14:43:56] INFO root fetch - processPackages [wsgi-intercept]: Remove: archive file [/home/abi/fetcher/tmp/wsgi_intercept-1.9.2.tar.gz]
+[2023-06-26 14:43:56] INFO root fetch - processPackages [wsgi-intercept]: Remove: archive file [/home/abi/fetcher/tmp/wsgi_intercept-1.9.3.tar.gz]
+[2023-06-26 14:43:56] INFO root fetch - main [MainThread]: End processing [wsgi-intercept]: success
+[2023-06-26 14:43:56] INFO root fetch - processPackages [iterative-stats]: Remove: archive file [/home/abi/fetcher/tmp/iterative_stats-0.0.4.tar.gz]
+[2023-06-26 14:43:56] INFO root fetch - processPackages [iterative-stats]: Remove: archive file [/home/abi/fetcher/tmp/iterative_stats-0.0.6.tar.gz]
+[2023-06-26 14:43:56] INFO root fetch - main [MainThread]: End processing [iterative-stats]: success
+[2023-06-26 14:43:57] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.74.tar.gz]
+[2023-06-26 14:43:57] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.75.tar.gz]
+[2023-06-26 14:43:57] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-26 14:43:57] INFO root fetch - processPackages [proteinflow]: Remove: archive file [/home/abi/fetcher/tmp/proteinflow-1.4.0.tar.gz]
+[2023-06-26 14:43:57] INFO root fetch - processPackages [proteinflow]: Remove: archive file [/home/abi/fetcher/tmp/proteinflow-1.4.1.tar.gz]
+[2023-06-26 14:43:57] INFO root fetch - main [MainThread]: End processing [proteinflow]: success
+[2023-06-26 14:43:57] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-26 14:43:57] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-26 14:43:57] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-26 14:43:59] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.1-py3-none-any.whl.zip]
+[2023-06-26 14:43:59] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.1.2-py3-none-any.whl.zip]
+[2023-06-26 14:43:59] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
+[2023-06-26 14:43:59] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.2.8.tar.gz]
+[2023-06-26 14:43:59] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.2.9.tar.gz]
+[2023-06-26 14:43:59] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-06-26 14:44:37] INFO root fetch - processPackages [checkov3]: Remove: archive file [/home/abi/fetcher/tmp/checkov3-0.1.8.tar.gz]
+[2023-06-26 14:44:37] INFO root fetch - processPackages [checkov3]: Remove: archive file [/home/abi/fetcher/tmp/checkov3-0.1.9.tar.gz]
+[2023-06-26 14:44:37] INFO root fetch - main [MainThread]: End processing [checkov3]: success
+[2023-06-26 14:44:37] INFO root fetch - main [MainThread]: Store serial: [18646597]
