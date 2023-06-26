@@ -9141,3 +9141,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:33:13] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
 [2023-06-26 08:33:13] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
 [2023-06-26 08:33:13] INFO root fetch - main [MainThread]: Store serial: [18642926]
+[2023-06-26 08:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642926]
+[2023-06-26 08:38:23] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-marshmallow-openapi
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dangqu-sdk
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SunIdea
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: axabc
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aanalytics2
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magic-folder
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsonrequest
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TPE-Bot
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acryl-datahub-actions
+[2023-06-26 08:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-sql-profiler
+[2023-06-26 08:38:23] INFO root fetch - processPackages [flask-marshmallow-openapi]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-26 08:38:23] INFO root fetch - processPackages [dangqu-sdk]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-26 08:38:23] WARNING root fetch - processPackages [SunIdea]: Skipping, unable to determine old version
+[2023-06-26 08:38:23] INFO root fetch - processPackages [SunIdea]: Start processing: etos-client
+[2023-06-26 08:38:23] INFO root fetch - main [MainThread]: End processing [SunIdea] error
+[2023-06-26 08:38:23] INFO root fetch - processPackages [acryl-datahub-actions]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 08:38:23] INFO root fetch - processPackages [magic-folder]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-26 08:38:23] INFO root fetch - processPackages [jsonrequest]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 08:38:23] INFO root fetch - processPackages [TPE-Bot]: New version: [0.5.25] Old Version: [0.5.24]
+[2023-06-26 08:38:23] INFO root fetch - processPackages [etos-client]: New version: [4.9.0] Old Version: [4.7.0]
+[2023-06-26 08:38:23] INFO root fetch - processPackages [fastapi-sql-profiler]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-06-26 08:38:23] INFO root fetch - processPackages [axabc]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 08:38:23] INFO root fetch - processPackages [aanalytics2]: New version: [0.4.0.post3] Old Version: [0.4.0.post2]
+[2023-06-26 08:38:23] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/5a/2f/958ce67f196a9c86b5b4275e4eca910695c11aaedddc951d1da541fcf66f/TPE_Bot-0.5.24.tar.gz
+[2023-06-26 08:38:23] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/d3/38/29c72e42cf6aa19d7372741bca2490039ae5bad7c6662e25480544b3e994/axabc-0.0.3.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [dangqu-sdk]: Downloading https://files.pythonhosted.org/packages/e0/fb/6aa4ccf0a12cfd48750022f4c0c969b6860fc3a970214bc834f12c7d5d34/dangqu-sdk-0.5.2.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/c6/93/e6c97ab6726ae8bfe54c6083cc48b765075c3db2825f27d35af08e4a861e/jsonrequest-0.1.1.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [magic-folder]: Downloading https://files.pythonhosted.org/packages/7d/98/5450a90d8c2b7825eee76836cb869643119908a53411f22051f51b005774/magic-folder-23.5.0.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [aanalytics2]: Downloading https://files.pythonhosted.org/packages/3b/2c/7c07c21ce304c9f31d759de2edda8aa9247dae0aca59ed19e16238d603c4/aanalytics2-0.4.0.post2.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/6d/0c/15d5198d8842fe8dbd2b57458d03818555c41f3704a0338fc333e8b554d3/flask-marshmallow-openapi-0.1.9.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [fastapi-sql-profiler]: Downloading https://files.pythonhosted.org/packages/1b/e9/b8ab69881e76abb8b18d3083b5eeb0f4fea1446c00cfe4ffdf9804232d46/fastapi-sql-profiler-2.0.0.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [etos-client]: Downloading https://files.pythonhosted.org/packages/e0/13/1c6b79ec936c9368cf3b068a5b48fa37a3dddbd216ec7b6c9c92077ff4bf/etos_client-4.7.0.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [acryl-datahub-actions]: Downloading https://files.pythonhosted.org/packages/f7/f3/a5ed1f698fc12386f7687ee0bcf23d378f542a418513fd5a65589135900b/acryl-datahub-actions-0.0.8.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/4d/25/94efd60da6c1bfacf6ee6e49cd050a51febe28be225044a6b076a83f8515/TPE_Bot-0.5.25.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/b1/e5/16ed434e63d473ef228190fb6ace97cef49471b86fbc78edc14e33ddb78e/axabc-0.0.4.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/60/d5/b3dfdc3b78b67b13931058f45fe448b78ec07e895606322d80aa6a1d954b/jsonrequest-0.1.2.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [dangqu-sdk]: Downloading https://files.pythonhosted.org/packages/ef/3d/d2e3b861bb449ed7aac702953b7acd06ea56ac0fa427b7ea9bd6d5e80e46/dangqu-sdk-0.5.3.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-06-26 08:38:24] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.3.tar.gz tmp/axabc-0.0.4.tar.gz --markdown 20230626/a/axabc/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 08:38:24] INFO root fetch - processPackages [aanalytics2]: Downloading https://files.pythonhosted.org/packages/00/41/ad04867f428944dc7e7954f3891c7174f314a3ae0b8e8fcb8f59301c5e08/aanalytics2-0.4.0.post3.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [fastapi-sql-profiler]: Downloading https://files.pythonhosted.org/packages/5d/7e/2d80b0bd5186256e7041f8ed1c9609b55a8bdcf0377e2bb7b324428bb89b/fastapi-sql-profiler-3.0.0.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [dangqu-sdk]: executing diffoscope
+[2023-06-26 08:38:24] INFO root fetch - processPackages [dangqu-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dangqu-sdk-0.5.2.tar.gz tmp/dangqu-sdk-0.5.3.tar.gz --markdown 20230626/d/dangqu-sdk/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-26 08:38:24] INFO root fetch - processPackages [jsonrequest]: executing diffoscope
+[2023-06-26 08:38:24] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/b8/e2/88f01abed4ea78d3d27a109566546f8f32b3bde10fedc71260aad727f99a/flask-marshmallow-openapi-0.2.0.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [jsonrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrequest-0.1.1.tar.gz tmp/jsonrequest-0.1.2.tar.gz --markdown 20230626/j/jsonrequest/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 08:38:24] INFO root fetch - processPackages [aanalytics2]: executing diffoscope
+[2023-06-26 08:38:24] INFO root fetch - processPackages [aanalytics2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalytics2-0.4.0.post2.tar.gz tmp/aanalytics2-0.4.0.post3.tar.gz --markdown 20230626/a/aanalytics2/0.4.0.post2-0.4.0.post3/diff.md --exclude *.pyd
+[2023-06-26 08:38:24] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2023-06-26 08:38:24] INFO root fetch - processPackages [etos-client]: Downloading https://files.pythonhosted.org/packages/df/0e/5f1ae72962c8bdf6454cea746ce106d181e77820224985be61e81dcafb4c/etos_client-4.9.0.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE_Bot-0.5.24.tar.gz tmp/TPE_Bot-0.5.25.tar.gz --markdown 20230626/T/TPE-Bot/0.5.24-0.5.25/diff.md --exclude *.pyd
+[2023-06-26 08:38:24] INFO root fetch - processPackages [fastapi-sql-profiler]: executing diffoscope
+[2023-06-26 08:38:24] INFO root fetch - processPackages [fastapi-sql-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-sql-profiler-2.0.0.tar.gz tmp/fastapi-sql-profiler-3.0.0.tar.gz --markdown 20230626/f/fastapi-sql-profiler/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-26 08:38:24] INFO root fetch - processPackages [acryl-datahub-actions]: Downloading https://files.pythonhosted.org/packages/e8/60/536d6ad0baf60149798c9a8a0eb055afe4bd3de5e985fc69e0ab782c0ad9/acryl-datahub-actions-0.0.9.tar.gz
+[2023-06-26 08:38:24] INFO root fetch - processPackages [flask-marshmallow-openapi]: executing diffoscope
+[2023-06-26 08:38:24] INFO root fetch - processPackages [flask-marshmallow-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-marshmallow-openapi-0.1.9.tar.gz tmp/flask-marshmallow-openapi-0.2.0.tar.gz --markdown 20230626/f/flask-marshmallow-openapi/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 08:38:24] INFO root fetch - processPackages [etos-client]: executing diffoscope
+[2023-06-26 08:38:24] INFO root fetch - processPackages [etos-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_client-4.7.0.tar.gz tmp/etos_client-4.9.0.tar.gz --markdown 20230626/e/etos-client/4.7.0-4.9.0/diff.md --exclude *.pyd
+[2023-06-26 08:38:24] INFO root fetch - processPackages [acryl-datahub-actions]: executing diffoscope
+[2023-06-26 08:38:24] INFO root fetch - processPackages [acryl-datahub-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-actions-0.0.8.tar.gz tmp/acryl-datahub-actions-0.0.9.tar.gz --markdown 20230626/a/acryl-datahub-actions/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 08:38:24] INFO root fetch - processPackages [magic-folder]: Downloading https://files.pythonhosted.org/packages/a7/76/146cfeea7bece7ce26673b0065ad35f5e31352f176acfb9c4da4a31b5d24/magic-folder-23.6.0.tar.gz
+[2023-06-26 08:38:25] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.3.tar.gz]
+[2023-06-26 08:38:25] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.4.tar.gz]
+[2023-06-26 08:38:25] INFO root fetch - processPackages [axabc]: Start processing: rid-kit
+[2023-06-26 08:38:25] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-06-26 08:38:25] INFO root fetch - processPackages [magic-folder]: executing diffoscope
+[2023-06-26 08:38:25] INFO root fetch - processPackages [magic-folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic-folder-23.5.0.tar.gz tmp/magic-folder-23.6.0.tar.gz --markdown 20230626/m/magic-folder/23.5.0-23.6.0/diff.md --exclude *.pyd
+[2023-06-26 08:38:25] INFO root fetch - processPackages [rid-kit]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-26 08:38:25] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/d5/0e/1d04bdfed87d5da0ae83e21045c4d3b7083a2d04957436edf789baf4461e/rid-kit-0.4.2.tar.gz
+[2023-06-26 08:38:26] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/dd/38/ece2930e59c495ba7a2ff6c10df9909768211efd28cf233c46d922760571/rid-kit-0.5.0.tar.gz
+[2023-06-26 08:38:26] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.1.tar.gz]
+[2023-06-26 08:38:26] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.2.tar.gz]
+[2023-06-26 08:38:26] INFO root fetch - processPackages [jsonrequest]: Start processing: JustScan
+[2023-06-26 08:38:26] INFO root fetch - main [MainThread]: End processing [jsonrequest]: success
+[2023-06-26 08:38:26] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-26 08:38:26] INFO root fetch - processPackages [dangqu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dangqu-sdk-0.5.2.tar.gz]
+[2023-06-26 08:38:26] INFO root fetch - processPackages [dangqu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dangqu-sdk-0.5.3.tar.gz]
+[2023-06-26 08:38:26] INFO root fetch - main [MainThread]: End processing [dangqu-sdk]: success
+[2023-06-26 08:38:26] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-26 08:38:26] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-26 08:38:26] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-26 08:38:26] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230626/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-26 08:38:26] INFO root fetch - processPackages [fastapi-sql-profiler]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sql-profiler-2.0.0.tar.gz]
+[2023-06-26 08:38:26] INFO root fetch - processPackages [fastapi-sql-profiler]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sql-profiler-3.0.0.tar.gz]
+[2023-06-26 08:38:26] INFO root fetch - main [MainThread]: End processing [fastapi-sql-profiler]: success
+[2023-06-26 08:38:26] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2023-06-26 08:38:26] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid-kit-0.4.2.tar.gz tmp/rid-kit-0.5.0.tar.gz --markdown 20230626/r/rid-kit/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-26 08:38:27] INFO root fetch - processPackages [etos-client]: Remove: archive file [/home/abi/fetcher/tmp/etos_client-4.7.0.tar.gz]
+[2023-06-26 08:38:27] INFO root fetch - processPackages [etos-client]: Remove: archive file [/home/abi/fetcher/tmp/etos_client-4.9.0.tar.gz]
+[2023-06-26 08:38:27] INFO root fetch - main [MainThread]: End processing [etos-client]: success
+[2023-06-26 08:38:27] INFO root fetch - processPackages [acryl-datahub-actions]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-actions-0.0.8.tar.gz]
+[2023-06-26 08:38:27] INFO root fetch - processPackages [acryl-datahub-actions]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-actions-0.0.9.tar.gz]
+[2023-06-26 08:38:27] INFO root fetch - main [MainThread]: End processing [acryl-datahub-actions]: success
+[2023-06-26 08:38:27] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE_Bot-0.5.24.tar.gz]
+[2023-06-26 08:38:27] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE_Bot-0.5.25.tar.gz]
+[2023-06-26 08:38:27] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2023-06-26 08:38:28] INFO root fetch - processPackages [aanalytics2]: Remove: archive file [/home/abi/fetcher/tmp/aanalytics2-0.4.0.post2.tar.gz]
+[2023-06-26 08:38:28] INFO root fetch - processPackages [aanalytics2]: Remove: archive file [/home/abi/fetcher/tmp/aanalytics2-0.4.0.post3.tar.gz]
+[2023-06-26 08:38:28] INFO root fetch - main [MainThread]: End processing [aanalytics2]: success
+[2023-06-26 08:38:28] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-26 08:38:28] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-26 08:38:28] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-26 08:38:30] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.4.2.tar.gz]
+[2023-06-26 08:38:30] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.5.0.tar.gz]
+[2023-06-26 08:38:30] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
+[2023-06-26 08:38:30] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.1.9.tar.gz]
+[2023-06-26 08:38:30] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.2.0.tar.gz]
+[2023-06-26 08:38:30] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
+[2023-06-26 08:38:31] INFO root fetch - processPackages [magic-folder]: Remove: archive file [/home/abi/fetcher/tmp/magic-folder-23.5.0.tar.gz]
+[2023-06-26 08:38:31] INFO root fetch - processPackages [magic-folder]: Remove: archive file [/home/abi/fetcher/tmp/magic-folder-23.6.0.tar.gz]
+[2023-06-26 08:38:31] INFO root fetch - main [MainThread]: End processing [magic-folder]: success
+[2023-06-26 08:38:31] INFO root fetch - main [MainThread]: Store serial: [18642966]
