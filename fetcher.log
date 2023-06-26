@@ -16509,3 +16509,106 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 14:05:26] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.6.tar.gz]
 [2023-06-26 14:05:26] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-26 14:05:26] INFO root fetch - main [MainThread]: Store serial: [18646153]
+[2023-06-26 14:10:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18646153]
+[2023-06-26 14:10:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-wrapper
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apysc
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robot-rumble
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usls
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irene-pro
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-serve
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: axaiogram
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-agents-nightly
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydatavisualization
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ramanspy
+[2023-06-26 14:10:35] INFO root fetch - processPackages [irene-pro]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-06-26 14:10:35] INFO root fetch - processPackages [async-wrapper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 14:10:35] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-26 14:10:35] INFO root fetch - processPackages [axaiogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 14:10:35] INFO root fetch - processPackages [usls]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 14:10:35] INFO root fetch - processPackages [robot-rumble]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 14:10:35] WARNING root fetch - processPackages [ramanspy]: Skipping, unable to determine old version
+[2023-06-26 14:10:35] INFO root fetch - processPackages [ramanspy]: Start processing: phate
+[2023-06-26 14:10:35] INFO root fetch - main [MainThread]: End processing [ramanspy] error
+[2023-06-26 14:10:35] WARNING root fetch - processPackages [pydatavisualization]: Skipping, unable to determine old version
+[2023-06-26 14:10:35] INFO root fetch - processPackages [pydatavisualization]: Start processing: dgl_client
+[2023-06-26 14:10:35] INFO root fetch - main [MainThread]: End processing [pydatavisualization] error
+[2023-06-26 14:10:35] INFO root fetch - processPackages [apysc]: New version: [3.1.7] Old Version: [3.1.6]
+[2023-06-26 14:10:35] INFO root fetch - processPackages [phate]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 14:10:35] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-26 14:10:35] INFO root fetch - processPackages [usls]: Downloading https://files.pythonhosted.org/packages/20/51/b9d418a763bc3f8d9f053e152cf5ca36475eae1b8c8324b68345ef7ec7a0/usls-0.2.8-py3-none-any.whl
+[2023-06-26 14:10:35] INFO root fetch - processPackages [dgl_client]: New version: [0.4.1] Old Version: [0.3.5]
+[2023-06-26 14:10:35] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/62/72/0c3df5f4465cbea492d779644f0f143aa9c898a78cf6fbb233a7cd9cfcce/irene_pro-0.0.71.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/8d/fa/57476ab85e28ad65618c17cf82e0551a3f5aa1948d030d8774566c8e72c5/axaiogram-0.0.8.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/3b/40/bc96c0ff8a816250e86d2725568816b44b02d8c2fec6959b9c3ea4639a90/apysc-3.1.6.tar.gz
+[2023-06-26 14:10:36] WARNING root fetch - processPackages [usls]: Skipping package: exceeds size limit 17146240>=10485760
+[2023-06-26 14:10:36] INFO root fetch - processPackages [usls]: Start processing: shelixir
+[2023-06-26 14:10:36] INFO root fetch - main [MainThread]: End processing [usls] error
+[2023-06-26 14:10:36] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/51/de/097b48e956ffeeefa0646a4239cf62d16c68b00786357029ed3cd63488c2/async_wrapper-0.1.1.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-26 14:10:36] WARNING root fetch - processPackages [shelixir]: Skipping, unable to determine old version
+[2023-06-26 14:10:36] INFO root fetch - processPackages [shelixir]: Start processing: clearconf
+[2023-06-26 14:10:36] INFO root fetch - main [MainThread]: End processing [shelixir] error
+[2023-06-26 14:10:36] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/92/3e/13f239a62be5cd9b8c36afda0ba7053f0f554dd3e6b8b032d690170764c7/robot_rumble-0.0.8.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/b6/95/bf8c655bfefe237705f9b702a74c8befa5389a4d9f307f564f80bd09c9ad/dgl_client-0.3.5.tar.gz
+[2023-06-26 14:10:36] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 22358135>=10485760
+[2023-06-26 14:10:36] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-06-26 14:10:36] INFO root fetch - processPackages [phate]: Downloading https://files.pythonhosted.org/packages/a1/d8/dd30c3984d872a2041d72dc6e489a1d0cf07aa4ccee51f6eb7c52feb9ea7/phate-1.0.8.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [clearconf]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-26 14:10:36] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/3a/b9/ebe8494e336007718e89f31477eb283b3f6156c16ef56682554b41c1f057/axaiogram-0.0.9.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/b3/bd/046abd43cb09b56e34610abd147ed1c03c9654839cce45c76378d5d09426/irene_pro-0.0.72.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/de/85/704a24a517a2abea41a6deb2d55ed727257dd4ef3c7e61fff4741ac550ae/apysc-3.1.7.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 14:10:36] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.8.tar.gz tmp/axaiogram-0.0.9.tar.gz --markdown 20230626/a/axaiogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 14:10:36] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/64/1a/259a96cac4db4139bde6431087bc5f829b8318aaa467ac73c5ec419dd347/async_wrapper-0.1.2.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/9f/cf/b596b295c2a15c11d5be98b83415a35f96153df4c6f334a1b528ee645d27/dgl_client-0.4.1.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [clearconf]: Downloading https://files.pythonhosted.org/packages/e0/cc/430cd120ce0eb51bf734245a97615298d3a0cc9232355914847d0c8a1824/clearconf-0.3.1.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-26 14:10:36] INFO root fetch - processPackages [dgl_client]: executing diffoscope
+[2023-06-26 14:10:36] INFO root fetch - processPackages [dgl_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgl_client-0.3.5.tar.gz tmp/dgl_client-0.4.1.tar.gz --markdown 20230626/d/dgl_client/0.3.5-0.4.1/diff.md --exclude *.pyd
+[2023-06-26 14:10:36] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-26 14:10:36] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230626/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-26 14:10:36] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-26 14:10:36] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.71.tar.gz tmp/irene_pro-0.0.72.tar.gz --markdown 20230626/i/irene-pro/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-06-26 14:10:36] INFO root fetch - processPackages [async-wrapper]: executing diffoscope
+[2023-06-26 14:10:36] INFO root fetch - processPackages [async-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_wrapper-0.1.1.tar.gz tmp/async_wrapper-0.1.2.tar.gz --markdown 20230626/a/async-wrapper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 14:10:36] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-26 14:10:36] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.6.tar.gz tmp/apysc-3.1.7.tar.gz --markdown 20230626/a/apysc/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2023-06-26 14:10:36] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-26 14:10:36] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230626/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-26 14:10:36] INFO root fetch - processPackages [clearconf]: Downloading https://files.pythonhosted.org/packages/79/23/1c6d0651863b69c588ec2f77858269db052254b8423d7a06c311beb2f3b9/clearconf-0.3.2.tar.gz
+[2023-06-26 14:10:36] INFO root fetch - processPackages [clearconf]: executing diffoscope
+[2023-06-26 14:10:36] INFO root fetch - processPackages [clearconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearconf-0.3.1.tar.gz tmp/clearconf-0.3.2.tar.gz --markdown 20230626/c/clearconf/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-26 14:10:37] INFO root fetch - processPackages [phate]: Downloading https://files.pythonhosted.org/packages/a0/52/55566ac5603a19dd04432f5b84ba13430b568ab12e438ebf9003e17f8b3a/phate-1.0.9.tar.gz
+[2023-06-26 14:10:37] INFO root fetch - processPackages [phate]: executing diffoscope
+[2023-06-26 14:10:37] INFO root fetch - processPackages [phate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phate-1.0.8.tar.gz tmp/phate-1.0.9.tar.gz --markdown 20230626/p/phate/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 14:10:38] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.1.1.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.1.2.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - main [MainThread]: End processing [async-wrapper]: success
+[2023-06-26 14:10:38] INFO root fetch - processPackages [dgl_client]: Remove: archive file [/home/abi/fetcher/tmp/dgl_client-0.3.5.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - processPackages [dgl_client]: Remove: archive file [/home/abi/fetcher/tmp/dgl_client-0.4.1.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - main [MainThread]: End processing [dgl_client]: success
+[2023-06-26 14:10:38] INFO root fetch - processPackages [clearconf]: Remove: archive file [/home/abi/fetcher/tmp/clearconf-0.3.1.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - processPackages [clearconf]: Remove: archive file [/home/abi/fetcher/tmp/clearconf-0.3.2.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - main [MainThread]: End processing [clearconf]: success
+[2023-06-26 14:10:38] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.71.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.72.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-26 14:10:38] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.8.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.9.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 14:10:38] INFO root fetch - processPackages [phate]: Remove: archive file [/home/abi/fetcher/tmp/phate-1.0.8.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - processPackages [phate]: Remove: archive file [/home/abi/fetcher/tmp/phate-1.0.9.tar.gz]
+[2023-06-26 14:10:38] INFO root fetch - main [MainThread]: End processing [phate]: success
+[2023-06-26 14:10:39] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-26 14:10:39] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-26 14:10:39] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-26 14:10:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.6.tar.gz]
+[2023-06-26 14:10:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.7.tar.gz]
+[2023-06-26 14:10:44] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-26 14:10:44] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-26 14:10:44] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-26 14:10:44] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-26 14:10:44] INFO root fetch - main [MainThread]: Store serial: [18646215]
