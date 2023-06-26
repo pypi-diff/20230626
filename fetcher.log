@@ -24275,3 +24275,125 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 18:03:35] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9190704883749.tar.gz]
 [2023-06-26 18:03:35] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-06-26 18:03:35] INFO root fetch - main [MainThread]: Store serial: [18649508]
+[2023-06-26 18:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18649508]
+[2023-06-26 18:08:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polylearner
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: madml
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eiffel-framework
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terraform-backend-s3-bucket
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-pygen
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amazon-braket-algorithm-library
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prepper
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecr-scan-notifier
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-data-mock
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyppbox-torchreid
+[2023-06-26 18:08:45] INFO root fetch - processPackages [madml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 18:08:45] INFO root fetch - processPackages [cognite-pygen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 18:08:45] INFO root fetch - processPackages [amazon-braket-algorithm-library]: New version: [1.4.0] Old Version: [1.3.5.post0]
+[2023-06-26 18:08:45] WARNING root fetch - processPackages [pyppbox-torchreid]: Skipping, unable to determine old version
+[2023-06-26 18:08:45] INFO root fetch - processPackages [polylearner]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 18:08:45] INFO root fetch - processPackages [pyppbox-torchreid]: Start processing: pulumi-azure-native
+[2023-06-26 18:08:45] WARNING root fetch - processPackages [eiffel-framework]: Skipping, unable to determine old version
+[2023-06-26 18:08:45] INFO root fetch - main [MainThread]: End processing [pyppbox-torchreid] error
+[2023-06-26 18:08:45] INFO root fetch - processPackages [eiffel-framework]: Start processing: ask-smapi-model
+[2023-06-26 18:08:45] INFO root fetch - processPackages [prepper]: New version: [1.2.2] Old Version: [1.2.0]
+[2023-06-26 18:08:45] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 18:08:45] INFO root fetch - main [MainThread]: End processing [eiffel-framework] error
+[2023-06-26 18:08:45] INFO root fetch - processPackages [py-data-mock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 18:08:45] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-06-26 18:08:45] INFO root fetch - processPackages [madml]: Downloading https://files.pythonhosted.org/packages/d9/26/04587f06a981505cb459e70826c85a7f0fa0b5b3d76451308f09a7738ad2/madml-0.0.2.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/00/1d/45e130588e398bb316a98f0e6793ef0d61220b74c7d14db5213e3f9f977e/cognite_pygen-0.9.0.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ask-smapi-model]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-26 18:08:45] INFO root fetch - processPackages [polylearner]: Downloading https://files.pythonhosted.org/packages/b7/ae/c15ca5633114cd4f2f644c51033342459faf1f7744867aa4c4623abcec4c/polylearner-0.1.0.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [py-data-mock]: Downloading https://files.pythonhosted.org/packages/21/d8/9d5dc91ee4a524fea8f39eb09fc265442071fa2afedc89213609e49c5006/py-data-mock-0.0.8.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/4c/75/c76ebfe32602f6ff94e217b84858461e0810f5eac5e358249e4f0e96b6cd/ecr-scan-notifier-0.0.2.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Downloading https://files.pythonhosted.org/packages/fd/8c/edb87280b168e112f4a3fbd27320d0ed23ba099ada9e55e866f3b3991884/amazon-braket-algorithm-library-1.3.5.post0.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ask-smapi-model]: Downloading https://files.pythonhosted.org/packages/cc/58/68fbbfca4c91086e37e2240e384dedd5ead58a736380d1bb7dbdcbeea679/ask-smapi-model-1.9.1.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [prepper]: Downloading https://files.pythonhosted.org/packages/93/cf/8ec08a3149923bcd2fc499ca34a6ccdf7cf87a02964d1a03cd1edc2838f9/prepper-1.2.0.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/d1/49/6e9ee9b7e112f30c081346d0cf07e10b4f8ee18a7556853b5019f26635a9/pulumi_azure_native-2.0.0b1.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/ce/02/7ecd0882d447246a79ac11eff331b1c4e7890eb9fd3e85568a959aef9aa9/cognite_pygen-0.9.1.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [madml]: Downloading https://files.pythonhosted.org/packages/d3/10/734ff6c4f8cbe9b9b0582e9b6bcca128d2be01af68f6050cfa8889848532/madml-0.0.3.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2023-06-26 18:08:45] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.9.0.tar.gz tmp/cognite_pygen-0.9.1.tar.gz --markdown 20230626/c/cognite-pygen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 18:08:45] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27822047>=10485760
+[2023-06-26 18:08:45] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: notification-service-nightly
+[2023-06-26 18:08:45] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-06-26 18:08:45] INFO root fetch - processPackages [madml]: executing diffoscope
+[2023-06-26 18:08:45] INFO root fetch - processPackages [madml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madml-0.0.2.tar.gz tmp/madml-0.0.3.tar.gz --markdown 20230626/m/madml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 18:08:45] INFO root fetch - processPackages [polylearner]: Downloading https://files.pythonhosted.org/packages/90/7c/9c7444dbdf8df413c4be9c3dc2938a8aaabf3d0d0521a73ba042be0b0c99/polylearner-0.1.1.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-26 18:08:45] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/da/cd/0874ac4c4cec51d69a17e5736c93d0b6496e19b566e548d9dc78d3da3fb0/ecr-scan-notifier-0.0.3.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Downloading https://files.pythonhosted.org/packages/79/d4/fabc23fde143e3b5d40a69ce5d495427632f17f42436414f9a7eba1c1737/amazon-braket-algorithm-library-1.4.0.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [py-data-mock]: Downloading https://files.pythonhosted.org/packages/d2/55/234fa2150c48fde820171fcf1074f8c816e80f1e00cdca90ed7098ecd6ff/py-data-mock-0.0.9.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [prepper]: Downloading https://files.pythonhosted.org/packages/a4/d6/43e1ed6beb84ab92983b8d8755330bb86d3181485416387a034b412c4f3d/prepper-1.2.2.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/60/1e/33a59a6d19349b60110279e0f4904b88c93779a866e4df1bb5fdc97ea00c/notification_service_nightly-2023.6.8.tar.gz
+[2023-06-26 18:08:45] INFO root fetch - processPackages [polylearner]: executing diffoscope
+[2023-06-26 18:08:45] INFO root fetch - processPackages [polylearner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polylearner-0.1.0.tar.gz tmp/polylearner-0.1.1.tar.gz --markdown 20230626/p/polylearner/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 18:08:46] INFO root fetch - processPackages [ask-smapi-model]: Downloading https://files.pythonhosted.org/packages/72/41/574a9f2ae259decea878ee76ade7e89abdef7e9af5966e4a92ef6ed9ebbf/ask-smapi-model-1.9.2.tar.gz
+[2023-06-26 18:08:46] INFO root fetch - processPackages [amazon-braket-algorithm-library]: executing diffoscope
+[2023-06-26 18:08:46] INFO root fetch - processPackages [amazon-braket-algorithm-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-algorithm-library-1.3.5.post0.tar.gz tmp/amazon-braket-algorithm-library-1.4.0.tar.gz --markdown 20230626/a/amazon-braket-algorithm-library/1.3.5.post0-1.4.0/diff.md --exclude *.pyd
+[2023-06-26 18:08:46] INFO root fetch - processPackages [py-data-mock]: executing diffoscope
+[2023-06-26 18:08:46] INFO root fetch - processPackages [py-data-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-data-mock-0.0.8.tar.gz tmp/py-data-mock-0.0.9.tar.gz --markdown 20230626/p/py-data-mock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 18:08:46] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2023-06-26 18:08:46] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.2.tar.gz tmp/ecr-scan-notifier-0.0.3.tar.gz --markdown 20230626/e/ecr-scan-notifier/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 18:08:46] INFO root fetch - processPackages [prepper]: executing diffoscope
+[2023-06-26 18:08:46] INFO root fetch - processPackages [prepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepper-1.2.0.tar.gz tmp/prepper-1.2.2.tar.gz --markdown 20230626/p/prepper/1.2.0-1.2.2/diff.md --exclude *.pyd
+[2023-06-26 18:08:46] INFO root fetch - processPackages [ask-smapi-model]: executing diffoscope
+[2023-06-26 18:08:46] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-06-26 18:08:46] INFO root fetch - processPackages [ask-smapi-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ask-smapi-model-1.9.1.tar.gz tmp/ask-smapi-model-1.9.2.tar.gz --markdown 20230626/a/ask-smapi-model/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-26 18:08:46] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/f8/ce/f2cdb54fd34d5f722838df65d988beeaf815ec747efab45a21e56deaaa7c/notification_service_nightly-2023.6.9.tar.gz
+[2023-06-26 18:08:46] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-06-26 18:08:46] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230626/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 18:08:46] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-06-26 18:08:46] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.6.8.tar.gz tmp/notification_service_nightly-2023.6.9.tar.gz --markdown 20230626/n/notification-service-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-26 18:08:47] INFO root fetch - processPackages [madml]: Remove: archive file [/home/abi/fetcher/tmp/madml-0.0.2.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [madml]: Remove: archive file [/home/abi/fetcher/tmp/madml-0.0.3.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [madml]: Start processing: ai-flow-nightly
+[2023-06-26 18:08:47] INFO root fetch - main [MainThread]: End processing [madml]: success
+[2023-06-26 18:08:47] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.0.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [cognite-pygen]: Start processing: gpt-code-search
+[2023-06-26 18:08:47] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2023-06-26 18:08:47] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [gpt-code-search]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/34/1d/be9be06cee41d896178e7bb38ed9dec185d52aae65bb569e8174d486e5ed/ai_flow_nightly-2023.6.8.tar.gz
+[2023-06-26 18:08:47] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/7c/f3/45ee0bbf0fc9855f82b844867f659bff5855842b93570125a6abf4e02e5e/gpt_code_search-0.0.5.tar.gz
+[2023-06-26 18:08:47] INFO root fetch - processPackages [py-data-mock]: Remove: archive file [/home/abi/fetcher/tmp/py-data-mock-0.0.8.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [py-data-mock]: Remove: archive file [/home/abi/fetcher/tmp/py-data-mock-0.0.9.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - main [MainThread]: End processing [py-data-mock]: success
+[2023-06-26 18:08:47] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.2.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.3.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2023-06-26 18:08:47] INFO root fetch - processPackages [prepper]: Remove: archive file [/home/abi/fetcher/tmp/prepper-1.2.0.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [prepper]: Remove: archive file [/home/abi/fetcher/tmp/prepper-1.2.2.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - main [MainThread]: End processing [prepper]: success
+[2023-06-26 18:08:47] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/cc/73/3f73f232627f5ecbe868f04b645ad7af47bcedf955abd2f49f643b401ca5/ai_flow_nightly-2023.6.9.tar.gz
+[2023-06-26 18:08:47] INFO root fetch - processPackages [polylearner]: Remove: archive file [/home/abi/fetcher/tmp/polylearner-0.1.0.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [polylearner]: Remove: archive file [/home/abi/fetcher/tmp/polylearner-0.1.1.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - main [MainThread]: End processing [polylearner]: success
+[2023-06-26 18:08:47] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-06-26 18:08:47] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.6.8.tar.gz tmp/ai_flow_nightly-2023.6.9.tar.gz --markdown 20230626/a/ai-flow-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-26 18:08:47] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/6d/da/cb9997c595b1501eb99b806687240209d86980bbc240ec6a8b5282ab04dc/gpt_code_search-0.0.6.tar.gz
+[2023-06-26 18:08:47] INFO root fetch - processPackages [gpt-code-search]: executing diffoscope
+[2023-06-26 18:08:47] INFO root fetch - processPackages [gpt-code-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_search-0.0.5.tar.gz tmp/gpt_code_search-0.0.6.tar.gz --markdown 20230626/g/gpt-code-search/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 18:08:47] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-06-26 18:08:47] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-06-26 18:08:48] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-algorithm-library-1.3.5.post0.tar.gz]
+[2023-06-26 18:08:48] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-algorithm-library-1.4.0.tar.gz]
+[2023-06-26 18:08:48] INFO root fetch - main [MainThread]: End processing [amazon-braket-algorithm-library]: success
+[2023-06-26 18:08:48] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.8.tar.gz]
+[2023-06-26 18:08:48] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.6.9.tar.gz]
+[2023-06-26 18:08:48] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-06-26 18:08:48] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.5.tar.gz]
+[2023-06-26 18:08:48] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.6.tar.gz]
+[2023-06-26 18:08:48] INFO root fetch - main [MainThread]: End processing [gpt-code-search]: success
+[2023-06-26 18:08:50] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.8.tar.gz]
+[2023-06-26 18:08:50] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.6.9.tar.gz]
+[2023-06-26 18:08:50] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-06-26 18:08:56] INFO root fetch - processPackages [ask-smapi-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-smapi-model-1.9.1.tar.gz]
+[2023-06-26 18:08:56] INFO root fetch - processPackages [ask-smapi-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-smapi-model-1.9.2.tar.gz]
+[2023-06-26 18:08:56] INFO root fetch - main [MainThread]: End processing [ask-smapi-model]: success
+[2023-06-26 18:08:56] INFO root fetch - main [MainThread]: Store serial: [18649556]
