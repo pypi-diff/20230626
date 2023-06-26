@@ -21406,3 +21406,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 16:45:17] INFO root fetch - processPackages [taegis-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/taegis-sdk-python-1.0.0rc1.tar.gz]
 [2023-06-26 16:45:17] INFO root fetch - main [MainThread]: End processing [taegis-sdk-python]: success
 [2023-06-26 16:45:17] INFO root fetch - main [MainThread]: Store serial: [18648446]
+[2023-06-26 16:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648446]
+[2023-06-26 16:50:27] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xnattagger
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nais-processor
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nomenklatura
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-apollo
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fs-transact
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superpoint-superglue-deployment
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kangtools
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dwiqc
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: few-shot-priming
+[2023-06-26 16:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: intercode-bench
+[2023-06-26 16:50:27] INFO root fetch - processPackages [nais-processor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 16:50:27] INFO root fetch - processPackages [superpoint-superglue-deployment]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 16:50:27] INFO root fetch - processPackages [xnattagger]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-26 16:50:27] WARNING root fetch - processPackages [flask-apollo]: Skipping, unable to determine old version
+[2023-06-26 16:50:27] INFO root fetch - processPackages [nomenklatura]: New version: [3.0.0] Old Version: [2.9.5]
+[2023-06-26 16:50:27] INFO root fetch - processPackages [flask-apollo]: Start processing: coiled
+[2023-06-26 16:50:27] INFO root fetch - processPackages [kangtools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 16:50:27] INFO root fetch - processPackages [intercode-bench]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-26 16:50:27] INFO root fetch - main [MainThread]: End processing [flask-apollo] error
+[2023-06-26 16:50:27] INFO root fetch - processPackages [dwiqc]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-26 16:50:27] WARNING root fetch - processPackages [fs-transact]: Skipping, unable to determine old version
+[2023-06-26 16:50:27] INFO root fetch - processPackages [fs-transact]: Start processing: frills
+[2023-06-26 16:50:27] INFO root fetch - main [MainThread]: End processing [fs-transact] error
+[2023-06-26 16:50:27] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-26 16:50:27] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-26 16:50:27] WARNING root fetch - processPackages [frills]: Skipping, unable to determine old version
+[2023-06-26 16:50:27] INFO root fetch - processPackages [frills]: Start processing: actsecmodel
+[2023-06-26 16:50:27] INFO root fetch - main [MainThread]: End processing [frills] error
+[2023-06-26 16:50:27] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-26 16:50:27] INFO root fetch - processPackages [actsecmodel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 16:50:27] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/d6/d3/3f5eca1bf27faaef75008a45157055bc467899cd6117a575811796d517a5/dwiqc-0.5.2-py2.py3-none-any.whl
+[2023-06-26 16:50:27] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [superpoint-superglue-deployment]: Downloading https://files.pythonhosted.org/packages/84/d2/32c645ee163dce8d42438d3667528aad184dca64659794fa038cd0cf40d0/superpoint_superglue_deployment-0.0.2.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [intercode-bench]: Downloading https://files.pythonhosted.org/packages/c7/53/5d1b44b072c6a9f1efd9dffa0a8e7b64a7f514ca99ccb4ca058a971c30df/intercode-bench-0.1.5.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [kangtools]: Downloading https://files.pythonhosted.org/packages/e6/14/bc11f179ccefc2004cb33019fdc57e60a674a0c49c52037e28682fbc9aa6/kangtools-0.0.4.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [nais-processor]: Downloading https://files.pythonhosted.org/packages/3e/49/df101cde2c9409f0641bf679ebd4a30f4e447b926cb2080bfd3b48ce58bd/nais-processor-0.0.8.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [xnattagger]: Downloading https://files.pythonhosted.org/packages/b5/99/0069972f891ee529b7cd46d7956f48986219d3873299ccd2de14b808a8f9/xnattagger-0.4.8-py2.py3-none-any.whl
+[2023-06-26 16:50:27] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/54/7d/09aee7f4bad75a794be6bfe071dbfcf5d4737a15ad4809bb9d2fe86e888f/nomenklatura-2.9.5.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [actsecmodel]: Downloading https://files.pythonhosted.org/packages/ec/fd/41c6e0393593dcd772a54fa0f8ab52abdd1598a1ee4595744bc1ed848102/actsecmodel-0.0.1.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-26 16:50:27] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/3b/ff/313929d5d470ce29a653ee71924ed3c14de0a838d1bfa1cc06fdcfca2475/dwiqc-0.5.3-py2.py3-none-any.whl
+[2023-06-26 16:50:27] INFO root fetch - processPackages [superpoint-superglue-deployment]: Downloading https://files.pythonhosted.org/packages/e8/e6/f8a7dddc6188d18c14c90dcee306558d7670cbc38739522e8e844297f845/superpoint_superglue_deployment-0.0.3.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-26 16:50:27] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230626/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 16:50:27] INFO root fetch - processPackages [intercode-bench]: Downloading https://files.pythonhosted.org/packages/01/91/ce7cf6e2d9290efb0c59cb2183d0d279651679425943dbf1b88b6e761257/intercode-bench-0.1.6.tar.gz
+[2023-06-26 16:50:27] INFO root fetch - processPackages [kangtools]: Downloading https://files.pythonhosted.org/packages/df/3c/9f371e4f2d253e33e5fd37947084584b0196893b26af7c9333ceb12666ac/kangtools-0.0.5.tar.gz
+[2023-06-26 16:50:28] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-26 16:50:28] INFO root fetch - processPackages [superpoint-superglue-deployment]: executing diffoscope
+[2023-06-26 16:50:28] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230626/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-26 16:50:28] INFO root fetch - processPackages [superpoint-superglue-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpoint_superglue_deployment-0.0.2.tar.gz tmp/superpoint_superglue_deployment-0.0.3.tar.gz --markdown 20230626/s/superpoint-superglue-deployment/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 16:50:28] INFO root fetch - processPackages [actsecmodel]: Downloading https://files.pythonhosted.org/packages/91/b4/8e1e169cef3011b35ccdf1982f35f23af52a7d16301b87575cc478ddb89c/actsecmodel-0.0.2.tar.gz
+[2023-06-26 16:50:28] INFO root fetch - processPackages [xnattagger]: Downloading https://files.pythonhosted.org/packages/88/a3/0d1a82de7a69315a0cfec45ecd4bbd0b38efd05625b61de72aa3a755640f/xnattagger-0.4.9-py2.py3-none-any.whl
+[2023-06-26 16:50:28] INFO root fetch - processPackages [nais-processor]: Downloading https://files.pythonhosted.org/packages/fb/55/ed01cd3952126a9fb602120835eb4ee7c6005f4f662207464f435425a955/nais-processor-0.0.9.tar.gz
+[2023-06-26 16:50:28] INFO root fetch - processPackages [intercode-bench]: executing diffoscope
+[2023-06-26 16:50:28] INFO root fetch - processPackages [intercode-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intercode-bench-0.1.5.tar.gz tmp/intercode-bench-0.1.6.tar.gz --markdown 20230626/i/intercode-bench/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-26 16:50:28] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-26 16:50:28] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.5.2-py2.py3-none-any.whl.zip tmp/dwiqc-0.5.3-py2.py3-none-any.whl.zip --markdown 20230626/d/dwiqc/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-26 16:50:28] INFO root fetch - processPackages [kangtools]: executing diffoscope
+[2023-06-26 16:50:28] INFO root fetch - processPackages [kangtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangtools-0.0.4.tar.gz tmp/kangtools-0.0.5.tar.gz --markdown 20230626/k/kangtools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 16:50:28] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/7e/99/8d9f526916ad45c92d20f93563153a06ac6a3a05191b2e1b26500ba1dff5/nomenklatura-3.0.0.tar.gz
+[2023-06-26 16:50:28] INFO root fetch - processPackages [nais-processor]: executing diffoscope
+[2023-06-26 16:50:28] INFO root fetch - processPackages [nais-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nais-processor-0.0.8.tar.gz tmp/nais-processor-0.0.9.tar.gz --markdown 20230626/n/nais-processor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 16:50:28] INFO root fetch - processPackages [xnattagger]: executing diffoscope
+[2023-06-26 16:50:28] INFO root fetch - processPackages [xnattagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnattagger-0.4.8-py2.py3-none-any.whl.zip tmp/xnattagger-0.4.9-py2.py3-none-any.whl.zip --markdown 20230626/x/xnattagger/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-26 16:50:28] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-06-26 16:50:28] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-2.9.5.tar.gz tmp/nomenklatura-3.0.0.tar.gz --markdown 20230626/n/nomenklatura/2.9.5-3.0.0/diff.md --exclude *.pyd
+[2023-06-26 16:50:28] INFO root fetch - processPackages [actsecmodel]: executing diffoscope
+[2023-06-26 16:50:28] INFO root fetch - processPackages [actsecmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actsecmodel-0.0.1.tar.gz tmp/actsecmodel-0.0.2.tar.gz --markdown 20230626/a/actsecmodel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 16:50:29] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.2-py2.py3-none-any.whl.zip]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.3-py2.py3-none-any.whl.zip]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [dwiqc]: Start processing: tabulario
+[2023-06-26 16:50:29] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-26 16:50:29] INFO root fetch - processPackages [tabulario]: New version: [0.4.0rc1] Old Version: [0.3.2]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [kangtools]: Remove: archive file [/home/abi/fetcher/tmp/kangtools-0.0.4.tar.gz]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [kangtools]: Remove: archive file [/home/abi/fetcher/tmp/kangtools-0.0.5.tar.gz]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [kangtools]: Start processing: dj-qiyu-tpl
+[2023-06-26 16:50:29] INFO root fetch - main [MainThread]: End processing [kangtools]: success
+[2023-06-26 16:50:29] INFO root fetch - processPackages [dj-qiyu-tpl]: New version: [0.7.1] Old Version: [0.6.9]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [superpoint-superglue-deployment]: Remove: archive file [/home/abi/fetcher/tmp/superpoint_superglue_deployment-0.0.2.tar.gz]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [superpoint-superglue-deployment]: Remove: archive file [/home/abi/fetcher/tmp/superpoint_superglue_deployment-0.0.3.tar.gz]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [superpoint-superglue-deployment]: Start processing: ngsderive
+[2023-06-26 16:50:29] INFO root fetch - main [MainThread]: End processing [superpoint-superglue-deployment]: success
+[2023-06-26 16:50:29] INFO root fetch - processPackages [tabulario]: Downloading https://files.pythonhosted.org/packages/9e/e7/fdd4bcb2e6cd6d437183d2bbceb673cac5733eb4d7ceff11f572722a70cc/tabulario-0.3.2.tar.gz
+[2023-06-26 16:50:29] INFO root fetch - processPackages [ngsderive]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [nais-processor]: Remove: archive file [/home/abi/fetcher/tmp/nais-processor-0.0.8.tar.gz]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [nais-processor]: Remove: archive file [/home/abi/fetcher/tmp/nais-processor-0.0.9.tar.gz]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [nais-processor]: Start processing: aa-simplewiki
+[2023-06-26 16:50:29] INFO root fetch - main [MainThread]: End processing [nais-processor]: success
+[2023-06-26 16:50:29] INFO root fetch - processPackages [aa-simplewiki]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [dj-qiyu-tpl]: Downloading https://files.pythonhosted.org/packages/97/b4/24e1e4ca14a3ac07ef6f38708e2606ee03653aa1c992aa31abcef0c110bb/dj-qiyu-tpl-0.6.9.tar.gz
+[2023-06-26 16:50:29] INFO root fetch - processPackages [intercode-bench]: Remove: archive file [/home/abi/fetcher/tmp/intercode-bench-0.1.5.tar.gz]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [intercode-bench]: Remove: archive file [/home/abi/fetcher/tmp/intercode-bench-0.1.6.tar.gz]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [intercode-bench]: Start processing: vexpr
+[2023-06-26 16:50:29] INFO root fetch - main [MainThread]: End processing [intercode-bench]: success
+[2023-06-26 16:50:29] WARNING root fetch - processPackages [vexpr]: Skipping, unable to determine old version
+[2023-06-26 16:50:29] INFO root fetch - main [MainThread]: End processing [vexpr] error
+[2023-06-26 16:50:29] INFO root fetch - processPackages [xnattagger]: Remove: archive file [/home/abi/fetcher/tmp/xnattagger-0.4.8-py2.py3-none-any.whl.zip]
+[2023-06-26 16:50:29] INFO root fetch - processPackages [xnattagger]: Remove: archive file [/home/abi/fetcher/tmp/xnattagger-0.4.9-py2.py3-none-any.whl.zip]
+[2023-06-26 16:50:29] INFO root fetch - main [MainThread]: End processing [xnattagger]: success
+[2023-06-26 16:50:30] INFO root fetch - processPackages [ngsderive]: Downloading https://files.pythonhosted.org/packages/31/f8/10802ff31654ea8db7e7a8910b6cd3abd42818c57525ac0047d83139c9a0/ngsderive-3.1.1.tar.gz
+[2023-06-26 16:50:30] INFO root fetch - processPackages [tabulario]: Downloading https://files.pythonhosted.org/packages/19/22/3d044bab30e6c00586ca87e7c6c12c58f2275b3624c9d94ddc5c24deaab5/tabulario-0.4.0rc1.tar.gz
+[2023-06-26 16:50:30] INFO root fetch - processPackages [actsecmodel]: Remove: archive file [/home/abi/fetcher/tmp/actsecmodel-0.0.1.tar.gz]
+[2023-06-26 16:50:30] INFO root fetch - processPackages [actsecmodel]: Remove: archive file [/home/abi/fetcher/tmp/actsecmodel-0.0.2.tar.gz]
+[2023-06-26 16:50:30] INFO root fetch - main [MainThread]: End processing [actsecmodel]: success
+[2023-06-26 16:50:30] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/5b/a4/dc6023b3baa11c0ad15c45c099bd866605f302a00220114ec5ad20c4bab4/aa-simplewiki-1.0.3.tar.gz
+[2023-06-26 16:50:30] INFO root fetch - processPackages [tabulario]: executing diffoscope
+[2023-06-26 16:50:30] INFO root fetch - processPackages [tabulario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabulario-0.3.2.tar.gz tmp/tabulario-0.4.0rc1.tar.gz --markdown 20230626/t/tabulario/0.3.2-0.4.0rc1/diff.md --exclude *.pyd
+[2023-06-26 16:50:30] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-2.9.5.tar.gz]
+[2023-06-26 16:50:30] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.0.0.tar.gz]
+[2023-06-26 16:50:30] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-06-26 16:50:30] INFO root fetch - processPackages [ngsderive]: Downloading https://files.pythonhosted.org/packages/e7/60/f04b6f0495033036934f624679816f5f69994c7b42776f03791fbef970ba/ngsderive-3.2.0.tar.gz
+[2023-06-26 16:50:30] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/77/e7/326352457886dd3ccb6bc2bb2920e2f82304868de58aa0a4b60add6d70ce/aa-simplewiki-1.0.4.tar.gz
+[2023-06-26 16:50:30] INFO root fetch - processPackages [ngsderive]: executing diffoscope
+[2023-06-26 16:50:30] INFO root fetch - processPackages [ngsderive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngsderive-3.1.1.tar.gz tmp/ngsderive-3.2.0.tar.gz --markdown 20230626/n/ngsderive/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-06-26 16:50:30] INFO root fetch - processPackages [aa-simplewiki]: executing diffoscope
+[2023-06-26 16:50:30] INFO root fetch - processPackages [aa-simplewiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-simplewiki-1.0.3.tar.gz tmp/aa-simplewiki-1.0.4.tar.gz --markdown 20230626/a/aa-simplewiki/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-26 16:50:30] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-26 16:50:30] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-26 16:50:30] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-26 16:50:31] INFO root fetch - processPackages [tabulario]: Remove: archive file [/home/abi/fetcher/tmp/tabulario-0.3.2.tar.gz]
+[2023-06-26 16:50:31] INFO root fetch - processPackages [tabulario]: Remove: archive file [/home/abi/fetcher/tmp/tabulario-0.4.0rc1.tar.gz]
+[2023-06-26 16:50:31] INFO root fetch - main [MainThread]: End processing [tabulario]: success
+[2023-06-26 16:50:31] INFO root fetch - processPackages [ngsderive]: Remove: archive file [/home/abi/fetcher/tmp/ngsderive-3.1.1.tar.gz]
+[2023-06-26 16:50:31] INFO root fetch - processPackages [ngsderive]: Remove: archive file [/home/abi/fetcher/tmp/ngsderive-3.2.0.tar.gz]
+[2023-06-26 16:50:31] INFO root fetch - main [MainThread]: End processing [ngsderive]: success
+[2023-06-26 16:50:31] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-26 16:50:31] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-26 16:50:31] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-26 16:50:31] INFO root fetch - processPackages [aa-simplewiki]: Remove: archive file [/home/abi/fetcher/tmp/aa-simplewiki-1.0.3.tar.gz]
+[2023-06-26 16:50:31] INFO root fetch - processPackages [aa-simplewiki]: Remove: archive file [/home/abi/fetcher/tmp/aa-simplewiki-1.0.4.tar.gz]
+[2023-06-26 16:50:31] INFO root fetch - main [MainThread]: End processing [aa-simplewiki]: success
+[2023-06-26 16:50:31] INFO root fetch - processPackages [dj-qiyu-tpl]: Downloading https://files.pythonhosted.org/packages/ae/a5/7af4e625b1e6374f4cba2dec604c6c84bf176e19a325285d8f6b65e1fe90/dj_qiyu_tpl-0.7.1.tar.gz
+[2023-06-26 16:50:31] INFO root fetch - processPackages [dj-qiyu-tpl]: executing diffoscope
+[2023-06-26 16:50:31] INFO root fetch - processPackages [dj-qiyu-tpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-qiyu-tpl-0.6.9.tar.gz tmp/dj_qiyu_tpl-0.7.1.tar.gz --markdown 20230626/d/dj-qiyu-tpl/0.6.9-0.7.1/diff.md --exclude *.pyd
+[2023-06-26 16:51:06] INFO root fetch - processPackages [dj-qiyu-tpl]: Remove: archive file [/home/abi/fetcher/tmp/dj-qiyu-tpl-0.6.9.tar.gz]
+[2023-06-26 16:51:06] INFO root fetch - processPackages [dj-qiyu-tpl]: Remove: archive file [/home/abi/fetcher/tmp/dj_qiyu_tpl-0.7.1.tar.gz]
+[2023-06-26 16:51:06] INFO root fetch - main [MainThread]: End processing [dj-qiyu-tpl]: success
+[2023-06-26 16:51:06] INFO root fetch - main [MainThread]: Store serial: [18648503]
