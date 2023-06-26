@@ -12084,3 +12084,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 10:53:20] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
 [2023-06-26 10:53:20] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
 [2023-06-26 10:53:20] INFO root fetch - main [MainThread]: Store serial: [18644226]
+[2023-06-26 10:58:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644226]
+[2023-06-26 10:58:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-26 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygrb-lc
+[2023-06-26 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-26 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wafermap-clustering
+[2023-06-26 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-hmac-authentication
+[2023-06-26 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-fluent
+[2023-06-26 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zipline-tej
+[2023-06-26 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-scheduler-sdk-preview
+[2023-06-26 10:58:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-06-26 10:58:31] INFO root fetch - processPackages [pygrb-lc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 10:58:31] INFO root fetch - processPackages [django-hmac-authentication]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-26 10:58:31] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-26 10:58:31] INFO root fetch - processPackages [pytest-fluent]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-26 10:58:31] INFO root fetch - processPackages [zipline-tej]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 10:58:31] INFO root fetch - processPackages [kfish]: New version: [99.0.202306260858] Old Version: [99.0.202306252201]
+[2023-06-26 10:58:31] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.796] Old Version: [0.0.795]
+[2023-06-26 10:58:31] INFO root fetch - processPackages [kcli]: New version: [99.0.202306260856] Old Version: [99.0.202306252159]
+[2023-06-26 10:58:31] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/70/78/8798e9b1bbbe248046e20b0bcd6287ab78785c1342986a751f982ac707cd/wafermap-clustering-0.2.2.tar.gz
+[2023-06-26 10:58:31] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/81/74/1c77fcc7996870f973250f70f5fd993fbdf66e25b3c8f01eb1d263d75c6a/zipline-tej-0.0.8.tar.gz
+[2023-06-26 10:58:31] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f5/41/49d077e37b8721179857b6066a611839f6fee8b46f294140ecbeb09830e4/kcli-99.0.202306252159-py3-none-any.whl
+[2023-06-26 10:58:31] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/dc/ed/6da28b13869354504234acf93a011d04e617bf6d22fa9e372b333a228965/pygrb_lc-0.0.8.tar.gz
+[2023-06-26 10:58:31] INFO root fetch - processPackages [pytest-fluent]: Downloading https://files.pythonhosted.org/packages/b8/1e/23254d3ef69e5a9e5d87140a3a08c0d341720a227a44c46c768db6329996/pytest-fluent-0.0.0.tar.gz
+[2023-06-26 10:58:31] INFO root fetch - processPackages [django-hmac-authentication]: Downloading https://files.pythonhosted.org/packages/8e/9b/2e6bb811f26fc14e7411c580aa9890427f33b94b367fb2abf63e0df2984b/django_hmac_authentication-1.3.1.tar.gz
+[2023-06-26 10:58:31] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/87/e6/41e16b8e3ccd093601736c346658ed761a3f2814e501ea812066c16dc773/kfish-99.0.202306252201-py3-none-any.whl
+[2023-06-26 10:58:31] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/da/b2/799da349e66379c79106a6e8b794fb6a3a86583b074a493cb883686342f9/lusid-scheduler-sdk-preview-0.0.795.tar.gz
+[2023-06-26 10:58:31] INFO root fetch - processPackages [zipline-tej]: Downloading https://files.pythonhosted.org/packages/84/15/b5579d7eb6cdb4cc9d6c22c0f36086080b26eabdda5b9d6a1f9a7f8f8df6/zipline-tej-0.0.9.tar.gz
+[2023-06-26 10:58:31] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/c8/ee/87f9b221320eb20bd3bfa3d9c999143082117a336f0dbee32a97424c799b/wafermap-clustering-0.2.3.tar.gz
+[2023-06-26 10:58:31] INFO root fetch - processPackages [django-hmac-authentication]: Downloading https://files.pythonhosted.org/packages/0b/11/e36f5d9fb97e9afdd7d59602dda25d3829c2e9236ac77a2a56938eb4faa2/django_hmac_authentication-1.3.2.tar.gz
+[2023-06-26 10:58:32] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/02/ea/644d8167fa552c50c71ab064fc67ccd3cef16458660e3525e4dfe623ed1f/kfish-99.0.202306260858-py3-none-any.whl
+[2023-06-26 10:58:32] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/42/12/fd3cc57b75f172184914dff3e104854d260f7408aa3f42696c4a90c2de41/pygrb_lc-0.0.9.tar.gz
+[2023-06-26 10:58:32] INFO root fetch - processPackages [zipline-tej]: executing diffoscope
+[2023-06-26 10:58:32] INFO root fetch - processPackages [zipline-tej]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline-tej-0.0.8.tar.gz tmp/zipline-tej-0.0.9.tar.gz --markdown 20230626/z/zipline-tej/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 10:58:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/89/ee/8206625caecc0b84e4d22e2aa7630198e0bf434226b404bddb4dd216197f/kcli-99.0.202306260856-py3-none-any.whl
+[2023-06-26 10:58:32] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/06/91/79f25c46239c733f8ad8b5afe3d1f943ec4e8741948f26ded408f03a07d9/lusid-scheduler-sdk-preview-0.0.796.tar.gz
+[2023-06-26 10:58:32] INFO root fetch - processPackages [django-hmac-authentication]: executing diffoscope
+[2023-06-26 10:58:32] INFO root fetch - processPackages [django-hmac-authentication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_hmac_authentication-1.3.1.tar.gz tmp/django_hmac_authentication-1.3.2.tar.gz --markdown 20230626/d/django-hmac-authentication/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-26 10:58:32] INFO root fetch - processPackages [pytest-fluent]: Downloading https://files.pythonhosted.org/packages/8d/db/5d807f39ec0d169d79ee7bc358e99a75be8547f8f1437db55621a95cf070/pytest-fluent-0.1.0.tar.gz
+[2023-06-26 10:58:32] INFO root fetch - processPackages [pygrb-lc]: executing diffoscope
+[2023-06-26 10:58:32] INFO root fetch - processPackages [pygrb-lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrb_lc-0.0.8.tar.gz tmp/pygrb_lc-0.0.9.tar.gz --markdown 20230626/p/pygrb-lc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 10:58:32] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-06-26 10:58:32] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.2.2.tar.gz tmp/wafermap-clustering-0.2.3.tar.gz --markdown 20230626/w/wafermap-clustering/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-26 10:58:32] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-26 10:58:32] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306252201-py3-none-any.whl.zip tmp/kfish-99.0.202306260858-py3-none-any.whl.zip --markdown 20230626/k/kfish/99.0.202306252201-99.0.202306260858/diff.md --exclude *.pyd
+[2023-06-26 10:58:32] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-06-26 10:58:32] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.795.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.796.tar.gz --markdown 20230626/l/lusid-scheduler-sdk-preview/0.0.795-0.0.796/diff.md --exclude *.pyd
+[2023-06-26 10:58:32] INFO root fetch - processPackages [pytest-fluent]: executing diffoscope
+[2023-06-26 10:58:32] INFO root fetch - processPackages [pytest-fluent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-fluent-0.0.0.tar.gz tmp/pytest-fluent-0.1.0.tar.gz --markdown 20230626/p/pytest-fluent/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-26 10:58:32] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-26 10:58:32] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306252159-py3-none-any.whl.zip tmp/kcli-99.0.202306260856-py3-none-any.whl.zip --markdown 20230626/k/kcli/99.0.202306252159-99.0.202306260856/diff.md --exclude *.pyd
+[2023-06-26 10:58:33] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306252201-py3-none-any.whl.zip]
+[2023-06-26 10:58:33] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306260858-py3-none-any.whl.zip]
+[2023-06-26 10:58:33] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-26 10:58:33] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.0.8.tar.gz]
+[2023-06-26 10:58:33] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.0.9.tar.gz]
+[2023-06-26 10:58:33] INFO root fetch - main [MainThread]: End processing [pygrb-lc]: success
+[2023-06-26 10:58:33] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.2.tar.gz]
+[2023-06-26 10:58:33] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.3.tar.gz]
+[2023-06-26 10:58:33] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-06-26 10:58:33] INFO root fetch - processPackages [django-hmac-authentication]: Remove: archive file [/home/abi/fetcher/tmp/django_hmac_authentication-1.3.1.tar.gz]
+[2023-06-26 10:58:33] INFO root fetch - processPackages [django-hmac-authentication]: Remove: archive file [/home/abi/fetcher/tmp/django_hmac_authentication-1.3.2.tar.gz]
+[2023-06-26 10:58:33] INFO root fetch - main [MainThread]: End processing [django-hmac-authentication]: success
+[2023-06-26 10:58:34] INFO root fetch - processPackages [pytest-fluent]: Remove: archive file [/home/abi/fetcher/tmp/pytest-fluent-0.0.0.tar.gz]
+[2023-06-26 10:58:34] INFO root fetch - processPackages [pytest-fluent]: Remove: archive file [/home/abi/fetcher/tmp/pytest-fluent-0.1.0.tar.gz]
+[2023-06-26 10:58:34] INFO root fetch - main [MainThread]: End processing [pytest-fluent]: success
+[2023-06-26 10:58:34] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.8.tar.gz]
+[2023-06-26 10:58:34] INFO root fetch - processPackages [zipline-tej]: Remove: archive file [/home/abi/fetcher/tmp/zipline-tej-0.0.9.tar.gz]
+[2023-06-26 10:58:34] INFO root fetch - main [MainThread]: End processing [zipline-tej]: success
+[2023-06-26 10:58:36] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.795.tar.gz]
+[2023-06-26 10:58:36] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.796.tar.gz]
+[2023-06-26 10:58:36] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-06-26 10:58:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306252159-py3-none-any.whl.zip]
+[2023-06-26 10:58:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306260856-py3-none-any.whl.zip]
+[2023-06-26 10:58:41] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-26 10:58:41] INFO root fetch - main [MainThread]: Store serial: [18644248]
