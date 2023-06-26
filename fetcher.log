@@ -5506,3 +5506,121 @@
 [2023-06-26 04:23:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.6.tar.gz]
 [2023-06-26 04:23:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
 [2023-06-26 04:23:00] INFO root fetch - main [MainThread]: Store serial: [18641451]
+[2023-06-26 04:28:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641451]
+[2023-06-26 04:28:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-26 04:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdx-python-country
+[2023-06-26 04:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datalad
+[2023-06-26 04:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-sb-imageserializer
+[2023-06-26 04:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: halc
+[2023-06-26 04:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toollib
+[2023-06-26 04:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: analysis-runner
+[2023-06-26 04:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-enabler
+[2023-06-26 04:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sj-tool
+[2023-06-26 04:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datafeed-api
+[2023-06-26 04:28:09] INFO root fetch - processPackages [hdx-python-country]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-06-26 04:28:09] INFO root fetch - processPackages [halc]: New version: [0.22.6] Old Version: [0.22.5]
+[2023-06-26 04:28:09] INFO root fetch - processPackages [wagtail-sb-imageserializer]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-26 04:28:09] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 04:28:09] WARNING root fetch - processPackages [datafeed-api]: Skipping, unable to determine old version
+[2023-06-26 04:28:09] INFO root fetch - processPackages [datalad]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-26 04:28:09] INFO root fetch - main [MainThread]: End processing [datafeed-api] error
+[2023-06-26 04:28:09] INFO root fetch - processPackages [pytest-enabler]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-26 04:28:09] INFO root fetch - processPackages [analysis-runner]: New version: [2.41.0] Old Version: [2.40.9]
+[2023-06-26 04:28:09] INFO root fetch - processPackages [toollib]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-06-26 04:28:09] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/89/ae/1280aff88096af0871bc3c5924c2f9f2ff8635ef1e57569a1f09acf379f7/hdx_python_country-3.5.0.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [halc]: Downloading https://files.pythonhosted.org/packages/a9/e1/1491afd84c8f9b67878798108d9ef2ad769bb2715f82a2057a6f625058d4/halc-0.22.5.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-06-26 04:28:09] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230626/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 04:28:09] INFO root fetch - processPackages [wagtail-sb-imageserializer]: Downloading https://files.pythonhosted.org/packages/81/20/2f0e15667624364dec3a637c015a919320bdf3779fb7402f70800fd1bd04/wagtail_sb_imageserializer-0.3.0.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [pytest-enabler]: Downloading https://files.pythonhosted.org/packages/b1/c0/f860bbf520461453726b45c2de6f39f8d00a6ef7ca9df4a0dde6f919e5a1/pytest-enabler-2.1.1.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [datalad]: Downloading https://files.pythonhosted.org/packages/83/de/da3e50ae6a0e77ef1be20d329a4b8d9c8e208f2d75c1a0576d6dec5fddc4/datalad-0.9.2.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/77/94/77252b7b959308c5da3995b15b8ec1524cd222a497d6b507c01751dd2ead/analysis-runner-2.40.9.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/65/4c/440169d6e7d8ce3963f1ebac98900655cbf2510e4707415b11342a72d73e/toollib-1.4.6-py3-none-any.whl
+[2023-06-26 04:28:09] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/a3/54/f66e6096a1796c587544ed9e15a8e495d3f87cb125d175b4b74c160ff969/hdx_python_country-3.5.1.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [halc]: Downloading https://files.pythonhosted.org/packages/3e/98/5c8d142912fc3acbb0f4af8f9973eb38f41162bd395b9484f1a9ab6b23c1/halc-0.22.6.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [halc]: executing diffoscope
+[2023-06-26 04:28:09] INFO root fetch - processPackages [halc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halc-0.22.5.tar.gz tmp/halc-0.22.6.tar.gz --markdown 20230626/h/halc/0.22.5-0.22.6/diff.md --exclude *.pyd
+[2023-06-26 04:28:09] INFO root fetch - processPackages [wagtail-sb-imageserializer]: Downloading https://files.pythonhosted.org/packages/a0/d4/b98ad1e7158b46e91f7000a289060598e89661c72e2e24dc4da6030b6119/wagtail_sb_imageserializer-0.4.0.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [hdx-python-country]: executing diffoscope
+[2023-06-26 04:28:09] INFO root fetch - processPackages [hdx-python-country]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_country-3.5.0.tar.gz tmp/hdx_python_country-3.5.1.tar.gz --markdown 20230626/h/hdx-python-country/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-06-26 04:28:09] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/6d/71/299b6bf9249267c4e449919ec74da0cf4c9d019b0745b9661dd7c1cf4438/analysis-runner-2.41.0.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [analysis-runner]: executing diffoscope
+[2023-06-26 04:28:09] INFO root fetch - processPackages [analysis-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysis-runner-2.40.9.tar.gz tmp/analysis-runner-2.41.0.tar.gz --markdown 20230626/a/analysis-runner/2.40.9-2.41.0/diff.md --exclude *.pyd
+[2023-06-26 04:28:09] INFO root fetch - processPackages [wagtail-sb-imageserializer]: executing diffoscope
+[2023-06-26 04:28:09] INFO root fetch - processPackages [wagtail-sb-imageserializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_sb_imageserializer-0.3.0.tar.gz tmp/wagtail_sb_imageserializer-0.4.0.tar.gz --markdown 20230626/w/wagtail-sb-imageserializer/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-26 04:28:09] INFO root fetch - processPackages [pytest-enabler]: Downloading https://files.pythonhosted.org/packages/86/bb/e3c6b15208829a90172a39659bcc52077dbba1c1f23af9d777f66a0490fa/pytest-enabler-2.2.0.tar.gz
+[2023-06-26 04:28:09] INFO root fetch - processPackages [pytest-enabler]: executing diffoscope
+[2023-06-26 04:28:09] INFO root fetch - processPackages [pytest-enabler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-enabler-2.1.1.tar.gz tmp/pytest-enabler-2.2.0.tar.gz --markdown 20230626/p/pytest-enabler/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-26 04:28:10] INFO root fetch - processPackages [datalad]: Downloading https://files.pythonhosted.org/packages/19/e1/3ce7c39836c0c23d61fe00d66f88bccc659d78c41891db41b1f16902f753/datalad-0.9.3.tar.gz
+[2023-06-26 04:28:10] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/c1/23/ff83159b2d23b788b3dd3257331d52d50d32c71f41564446414002ac0c57/toollib-1.4.7-py3-none-any.whl
+[2023-06-26 04:28:10] INFO root fetch - processPackages [toollib]: executing diffoscope
+[2023-06-26 04:28:10] INFO root fetch - processPackages [toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toollib-1.4.6-py3-none-any.whl.zip tmp/toollib-1.4.7-py3-none-any.whl.zip --markdown 20230626/t/toollib/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-06-26 04:28:10] INFO root fetch - processPackages [datalad]: executing diffoscope
+[2023-06-26 04:28:10] INFO root fetch - processPackages [datalad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalad-0.9.2.tar.gz tmp/datalad-0.9.3.tar.gz --markdown 20230626/d/datalad/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-26 04:28:10] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-06-26 04:28:10] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-06-26 04:28:10] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-06-26 04:28:11] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.5.0.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.5.1.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - main [MainThread]: End processing [hdx-python-country]: success
+[2023-06-26 04:28:11] INFO root fetch - processPackages [halc]: Remove: archive file [/home/abi/fetcher/tmp/halc-0.22.5.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - processPackages [halc]: Remove: archive file [/home/abi/fetcher/tmp/halc-0.22.6.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - main [MainThread]: End processing [halc]: success
+[2023-06-26 04:28:11] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-2.40.9.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-2.41.0.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - main [MainThread]: End processing [analysis-runner]: success
+[2023-06-26 04:28:11] INFO root fetch - processPackages [wagtail-sb-imageserializer]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_sb_imageserializer-0.3.0.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - processPackages [wagtail-sb-imageserializer]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_sb_imageserializer-0.4.0.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - main [MainThread]: End processing [wagtail-sb-imageserializer]: success
+[2023-06-26 04:28:11] INFO root fetch - processPackages [pytest-enabler]: Remove: archive file [/home/abi/fetcher/tmp/pytest-enabler-2.1.1.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - processPackages [pytest-enabler]: Remove: archive file [/home/abi/fetcher/tmp/pytest-enabler-2.2.0.tar.gz]
+[2023-06-26 04:28:11] INFO root fetch - main [MainThread]: End processing [pytest-enabler]: success
+[2023-06-26 04:28:12] ERROR root fetch - processPackages [toollib]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-06-26 04:28:12] INFO root fetch - main [MainThread]: End processing [toollib] error
+[2023-06-26 04:28:16] INFO root fetch - processPackages [datalad]: Remove: archive file [/home/abi/fetcher/tmp/datalad-0.9.2.tar.gz]
+[2023-06-26 04:28:16] INFO root fetch - processPackages [datalad]: Remove: archive file [/home/abi/fetcher/tmp/datalad-0.9.3.tar.gz]
+[2023-06-26 04:28:16] INFO root fetch - main [MainThread]: End processing [datalad]: success
+[2023-06-26 04:28:16] INFO root fetch - main [MainThread]: Store serial: [18641475]
