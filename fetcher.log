@@ -8553,3 +8553,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:05:43] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1687758259.tar.gz]
 [2023-06-26 08:05:43] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
 [2023-06-26 08:05:43] INFO root fetch - main [MainThread]: Store serial: [18642710]
+[2023-06-26 08:10:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642710]
+[2023-06-26 08:10:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-rds20140815-py2
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-rds20140815
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-tls
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-tax
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: troo-permission-management
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fortilib
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-vault
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: type-infer
+[2023-06-26 08:10:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: returnn
+[2023-06-26 08:10:52] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-26 08:10:52] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-26 08:10:52] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1687758130] Old Version: [5.1.0a1687057369]
+[2023-06-26 08:10:52] INFO root fetch - processPackages [fortilib]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-26 08:10:52] INFO root fetch - processPackages [type-infer]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-26 08:10:52] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230625] Old Version: [2.4.0.dev20230624]
+[2023-06-26 08:10:52] INFO root fetch - processPackages [antchain-tax]: New version: [1.6.2] Old Version: [1.6.13]
+[2023-06-26 08:10:52] WARNING root fetch - processPackages [troo-permission-management]: Skipping, unable to determine old version
+[2023-06-26 08:10:52] INFO root fetch - main [MainThread]: End processing [troo-permission-management] error
+[2023-06-26 08:10:52] INFO root fetch - processPackages [pulumi-vault]: New version: [5.9.0a1678382334] Old Version: [5.9.0a1678129627]
+[2023-06-26 08:10:52] INFO root fetch - processPackages [returnn]: New version: [1.20230626.75721] Old Version: [1.20230626.24329]
+[2023-06-26 08:10:52] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/1e/d6/280b727ab727b2a51d5d473149c3210f6d37ccf45d375468ba22e8c796a0/pyg_nightly-2.4.0.dev20230624.tar.gz
+[2023-06-26 08:10:52] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/89/fb/f5836fb4f7e0606d815961a5e5293f73f41b8a90fe6d2ca2b858b95014c8/alibabacloud_rds20140815-2.1.5.tar.gz
+[2023-06-26 08:10:52] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/ab/ac/d54b6f58b064dc10f41a7e4dccf83b3c5854ad157027a54b4c9d114e9126/alibabacloud_rds20140815_py2-1.0.6.tar.gz
+[2023-06-26 08:10:52] INFO root fetch - processPackages [antchain-tax]: Downloading https://files.pythonhosted.org/packages/25/bd/c7d8eebd184cc4e6e77e8fcd76e1ce99d8d6f770a75f3be46eebe6ef0a07/antchain_tax-1.6.13.tar.gz
+[2023-06-26 08:10:52] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/bb/d2/e49545868049ac6ec066641bee6e0d423692a083a26d3f952b6967a6c8cd/pulumi_tls-5.1.0a1687057369.tar.gz
+[2023-06-26 08:10:52] INFO root fetch - processPackages [fortilib]: Downloading https://files.pythonhosted.org/packages/c3/6e/b9f298da3de338e25aa96cf1b69b1efe23cf2c3e76a8b5706071d3c7c1a2/fortilib-0.1.6.tar.gz
+[2023-06-26 08:10:52] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/4f/49/b11488761663552eae0d5f5e16fcaded4a937e0b07924964cae7269a5118/returnn-1.20230626.24329.tar.gz
+[2023-06-26 08:10:52] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/e3/c9/65898499b67448eae06780fb3be448afa8cd40dece05d5bff04eb8c060fd/pulumi_vault-5.9.0a1678129627.tar.gz
+[2023-06-26 08:10:52] INFO root fetch - processPackages [type-infer]: Downloading https://files.pythonhosted.org/packages/49/ce/7194394c02abb568342ad17706a41a5fff08bf345dc8986ccae90a196aae/type_infer-0.0.7.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/fb/ff/498f58b998040d6f196f86471303eca08c237392a654f8b8622db813bc8d/pyg_nightly-2.4.0.dev20230625.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [antchain-tax]: Downloading https://files.pythonhosted.org/packages/1a/8b/8a20f6f53f95abb35c6a2129abac26b9c3cde4f40e136cd0596fc0556384/antchain_tax-1.6.2.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [fortilib]: Downloading https://files.pythonhosted.org/packages/56/be/9b2906208319bda02bdaa7eb94620e00f112dcb23ee40a0d087cf62daf12/fortilib-0.1.7.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8f/a9/3419ddf787fa4e169155f6806a5156a21a08b5979c2de181f6f99a38c284/alibabacloud_rds20140815-2.1.6.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/89/bd/945e3537a401de7df3aa426491965a2e92140d97981beaf012fcb5d274bf/alibabacloud_rds20140815_py2-1.0.7.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [fortilib]: executing diffoscope
+[2023-06-26 08:10:53] INFO root fetch - processPackages [fortilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortilib-0.1.6.tar.gz tmp/fortilib-0.1.7.tar.gz --markdown 20230626/f/fortilib/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-26 08:10:53] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/88/b9/e7460ab301b01ab6bf4636e2cc46ff90307488d8fbbf21a7384fcc9742e4/pulumi_tls-5.1.0a1687758130.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/e1/08/b8c0dbcc693c2305787f256c1ed98180b16f27a1a9c0d7146ced66e4e515/returnn-1.20230626.75721.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [antchain-tax]: executing diffoscope
+[2023-06-26 08:10:53] INFO root fetch - processPackages [antchain-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_tax-1.6.13.tar.gz tmp/antchain_tax-1.6.2.tar.gz --markdown 20230626/a/antchain-tax/1.6.13-1.6.2/diff.md --exclude *.pyd
+[2023-06-26 08:10:53] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-26 08:10:53] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230624.tar.gz tmp/pyg_nightly-2.4.0.dev20230625.tar.gz --markdown 20230626/p/pyg-nightly/2.4.0.dev20230624-2.4.0.dev20230625/diff.md --exclude *.pyd
+[2023-06-26 08:10:53] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-06-26 08:10:53] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.1.5.tar.gz tmp/alibabacloud_rds20140815-2.1.6.tar.gz --markdown 20230626/a/alibabacloud-rds20140815/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-26 08:10:53] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-06-26 08:10:53] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.0.6.tar.gz tmp/alibabacloud_rds20140815_py2-1.0.7.tar.gz --markdown 20230626/a/alibabacloud-rds20140815-py2/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-26 08:10:53] INFO root fetch - processPackages [type-infer]: Downloading https://files.pythonhosted.org/packages/a4/02/6f9d342882c34a4ddcb94dedc96e50c96c829546475febc99141bbc9c230/type_infer-0.0.9.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-26 08:10:53] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230626.24329.tar.gz tmp/returnn-1.20230626.75721.tar.gz --markdown 20230626/r/returnn/1.20230626.24329-1.20230626.75721/diff.md --exclude *.pyd
+[2023-06-26 08:10:53] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/ed/2f/d2dbb3407f0fdd01cc4ad94d930a70843270a50c7d8cc4597b5113561639/pulumi_vault-5.9.0a1678382334.tar.gz
+[2023-06-26 08:10:53] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2023-06-26 08:10:53] INFO root fetch - processPackages [type-infer]: executing diffoscope
+[2023-06-26 08:10:53] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1687057369.tar.gz tmp/pulumi_tls-5.1.0a1687758130.tar.gz --markdown 20230626/p/pulumi-tls/5.1.0a1687057369-5.1.0a1687758130/diff.md --exclude *.pyd
+[2023-06-26 08:10:53] INFO root fetch - processPackages [type-infer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/type_infer-0.0.7.tar.gz tmp/type_infer-0.0.9.tar.gz --markdown 20230626/t/type-infer/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 08:10:53] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2023-06-26 08:10:53] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-5.9.0a1678129627.tar.gz tmp/pulumi_vault-5.9.0a1678382334.tar.gz --markdown 20230626/p/pulumi-vault/5.9.0a1678129627-5.9.0a1678382334/diff.md --exclude *.pyd
+[2023-06-26 08:10:55] INFO root fetch - processPackages [fortilib]: Remove: archive file [/home/abi/fetcher/tmp/fortilib-0.1.6.tar.gz]
+[2023-06-26 08:10:55] INFO root fetch - processPackages [fortilib]: Remove: archive file [/home/abi/fetcher/tmp/fortilib-0.1.7.tar.gz]
+[2023-06-26 08:10:55] INFO root fetch - main [MainThread]: End processing [fortilib]: success
+[2023-06-26 08:10:55] INFO root fetch - processPackages [antchain-tax]: Remove: archive file [/home/abi/fetcher/tmp/antchain_tax-1.6.13.tar.gz]
+[2023-06-26 08:10:55] INFO root fetch - processPackages [antchain-tax]: Remove: archive file [/home/abi/fetcher/tmp/antchain_tax-1.6.2.tar.gz]
+[2023-06-26 08:10:55] INFO root fetch - main [MainThread]: End processing [antchain-tax]: success
+[2023-06-26 08:10:55] INFO root fetch - processPackages [type-infer]: Remove: archive file [/home/abi/fetcher/tmp/type_infer-0.0.7.tar.gz]
+[2023-06-26 08:10:55] INFO root fetch - processPackages [type-infer]: Remove: archive file [/home/abi/fetcher/tmp/type_infer-0.0.9.tar.gz]
+[2023-06-26 08:10:55] INFO root fetch - main [MainThread]: End processing [type-infer]: success
+[2023-06-26 08:10:55] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1687057369.tar.gz]
+[2023-06-26 08:10:55] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1687758130.tar.gz]
+[2023-06-26 08:10:55] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2023-06-26 08:10:57] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678129627.tar.gz]
+[2023-06-26 08:10:57] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678382334.tar.gz]
+[2023-06-26 08:10:57] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2023-06-26 08:10:57] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.0.6.tar.gz]
+[2023-06-26 08:10:57] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.0.7.tar.gz]
+[2023-06-26 08:10:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-06-26 08:10:57] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.1.5.tar.gz]
+[2023-06-26 08:10:57] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.1.6.tar.gz]
+[2023-06-26 08:10:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-06-26 08:10:58] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230626.24329.tar.gz]
+[2023-06-26 08:10:58] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230626.75721.tar.gz]
+[2023-06-26 08:10:58] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-26 08:11:05] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230624.tar.gz]
+[2023-06-26 08:11:05] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230625.tar.gz]
+[2023-06-26 08:11:05] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-26 08:11:05] INFO root fetch - main [MainThread]: Store serial: [18642741]
