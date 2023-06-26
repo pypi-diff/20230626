@@ -11949,3 +11949,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 10:48:07] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-06-26 10:48:07] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-06-26 10:48:07] INFO root fetch - main [MainThread]: Store serial: [18644178]
+[2023-06-26 10:53:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644178]
+[2023-06-26 10:53:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypalert
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Flask-pyoidc
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otel-tracer
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydoclint
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nydok
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hscan
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RLS-Task-GUI
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dowell-mail-package
+[2023-06-26 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastexception
+[2023-06-26 10:53:16] INFO root fetch - processPackages [pypalert]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-26 10:53:16] INFO root fetch - processPackages [hscan]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-26 10:53:16] INFO root fetch - processPackages [otel-tracer]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 10:53:16] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-26 10:53:16] INFO root fetch - processPackages [fastexception]: New version: [0.1.2.1] Old Version: [0.1.2]
+[2023-06-26 10:53:16] WARNING root fetch - processPackages [RLS-Task-GUI]: Skipping, unable to determine old version
+[2023-06-26 10:53:16] INFO root fetch - processPackages [RLS-Task-GUI]: Start processing: wafermap-clustering
+[2023-06-26 10:53:16] INFO root fetch - main [MainThread]: End processing [RLS-Task-GUI] error
+[2023-06-26 10:53:16] INFO root fetch - processPackages [Flask-pyoidc]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-26 10:53:16] INFO root fetch - processPackages [nydok]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-26 10:53:16] WARNING root fetch - processPackages [dowell-mail-package]: Skipping, unable to determine old version
+[2023-06-26 10:53:16] INFO root fetch - processPackages [dowell-mail-package]: Start processing: craft-ai-sdk
+[2023-06-26 10:53:16] INFO root fetch - main [MainThread]: End processing [dowell-mail-package] error
+[2023-06-26 10:53:16] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-26 10:53:16] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-26 10:53:16] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 10:53:16] INFO root fetch - processPackages [fastexception]: Downloading https://files.pythonhosted.org/packages/c5/4b/cffa5f48911cdf27fd7031e42b7c1b549dd85ee9cd6b1c290805ad20694d/fastexception-0.1.2.tar.gz
+[2023-06-26 10:53:16] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/f9/71/8bc268cc71ac85f2dbc8006dd8fd01d7309c84b6e8fa998a6c0b93d97158/hscan-2.6.0.tar.gz
+[2023-06-26 10:53:16] INFO root fetch - processPackages [pydoclint]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 10:53:16] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/b1/d6/a209762d954b73ee9cb373b4807aba48397c01b40da1d7e581bd341524df/otel_tracer-0.0.6-py3-none-any.whl
+[2023-06-26 10:53:16] INFO root fetch - processPackages [Flask-pyoidc]: Downloading https://files.pythonhosted.org/packages/19/3c/ec31cb850d202785e73f0dbf4aef064fbb5364652046d8912255c1371bbf/Flask_pyoidc-3.8.0-py3-none-any.whl
+[2023-06-26 10:53:16] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-26 10:53:16] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/06/e0/dc77a4d22df8fd8eeb7ff1ee879f4c98377071e98400d820945ff1b423fd/pypalert-2.0.4.tar.gz
+[2023-06-26 10:53:16] INFO root fetch - processPackages [nydok]: Downloading https://files.pythonhosted.org/packages/87/4f/1e76f668ad2a0005523c9487908b6bf3e46a3b01d57f5230a36ae8620695/nydok-0.8.1.tar.gz
+[2023-06-26 10:53:16] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/00/37/4d6fd2a449b685327e40a494dbefcdc1379a4352052eb133bac60269738b/wafermap-clustering-0.2.1.tar.gz
+[2023-06-26 10:53:16] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2023-06-26 10:53:16] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/88/64/f0f85cdb501e1d74fe72d7b3b306ad13f100598b427f8ff0e8568dc3a68f/pydoclint-0.0.8.tar.gz
+[2023-06-26 10:53:17] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/19/e0/785500aa5675437b218484711ca34aedd2d114f65b44929bd9fcbf9ec4c2/hscan-2.6.1.tar.gz
+[2023-06-26 10:53:17] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230626/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-26 10:53:17] INFO root fetch - processPackages [fastexception]: Downloading https://files.pythonhosted.org/packages/0a/2e/e07ed606b09cd45ff3ada385dbe8067f5819f6b030026645b77698f32729/fastexception-0.1.2.1.tar.gz
+[2023-06-26 10:53:17] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/2d/01/9389d6f7f4ee342a458f2bf9876b9a8f87af91a614658d8a1848266ee52c/otel_tracer-0.0.7-py3-none-any.whl
+[2023-06-26 10:53:17] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/ad/4b/722e80483116cd6c76536c52a7378a4b35f341ff621329338a3f4598d45a/pypalert-2.0.5.tar.gz
+[2023-06-26 10:53:17] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/70/78/8798e9b1bbbe248046e20b0bcd6287ab78785c1342986a751f982ac707cd/wafermap-clustering-0.2.2.tar.gz
+[2023-06-26 10:53:17] INFO root fetch - processPackages [hscan]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [hscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscan-2.6.0.tar.gz tmp/hscan-2.6.1.tar.gz --markdown 20230626/h/hscan/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-26 10:53:17] INFO root fetch - processPackages [nydok]: Downloading https://files.pythonhosted.org/packages/1a/46/3ee0032042475b648840adeb7b03b723222729a2ba332ea1da8422f40714/nydok-0.8.2.tar.gz
+[2023-06-26 10:53:17] INFO root fetch - processPackages [otel-tracer]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [otel-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otel_tracer-0.0.6-py3-none-any.whl.zip tmp/otel_tracer-0.0.7-py3-none-any.whl.zip --markdown 20230626/o/otel-tracer/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 10:53:17] INFO root fetch - processPackages [Flask-pyoidc]: Downloading https://files.pythonhosted.org/packages/12/99/cdcfc4169591a1af7a317f057e430e971bc33e268f4a7772eaff5a977283/Flask_pyoidc-3.9.0-py3-none-any.whl
+[2023-06-26 10:53:17] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/08/fc/a46479a39d8bd265031e3186beb56d28f720613929d6a32ec23a11b6798b/pydoclint-0.0.9.tar.gz
+[2023-06-26 10:53:17] INFO root fetch - processPackages [pypalert]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [pypalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypalert-2.0.4.tar.gz tmp/pypalert-2.0.5.tar.gz --markdown 20230626/p/pypalert/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-26 10:53:17] INFO root fetch - processPackages [fastexception]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [fastexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastexception-0.1.2.tar.gz tmp/fastexception-0.1.2.1.tar.gz --markdown 20230626/f/fastexception/0.1.2-0.1.2.1/diff.md --exclude *.pyd
+[2023-06-26 10:53:17] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2023-06-26 10:53:17] INFO root fetch - processPackages [nydok]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [nydok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nydok-0.8.1.tar.gz tmp/nydok-0.8.2.tar.gz --markdown 20230626/n/nydok/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-26 10:53:17] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.8.tar.gz tmp/pydoclint-0.0.9.tar.gz --markdown 20230626/p/pydoclint/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 10:53:17] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.2.1.tar.gz tmp/wafermap-clustering-0.2.2.tar.gz --markdown 20230626/w/wafermap-clustering/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-26 10:53:17] INFO root fetch - processPackages [Flask-pyoidc]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [Flask-pyoidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask_pyoidc-3.8.0-py3-none-any.whl.zip tmp/Flask_pyoidc-3.9.0-py3-none-any.whl.zip --markdown 20230626/F/Flask-pyoidc/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-26 10:53:17] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2023-06-26 10:53:17] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20230626/c/craft-ai-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 10:53:18] INFO root fetch - processPackages [fastexception]: Remove: archive file [/home/abi/fetcher/tmp/fastexception-0.1.2.tar.gz]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [fastexception]: Remove: archive file [/home/abi/fetcher/tmp/fastexception-0.1.2.1.tar.gz]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [fastexception]: Start processing: irene-pro
+[2023-06-26 10:53:18] INFO root fetch - main [MainThread]: End processing [fastexception]: success
+[2023-06-26 10:53:18] INFO root fetch - processPackages [irene-pro]: New version: [0.0.71] Old Version: [0.0.70]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.6.0.tar.gz]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.6.1.tar.gz]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [hscan]: Start processing: xj-enroll
+[2023-06-26 10:53:18] INFO root fetch - main [MainThread]: End processing [hscan]: success
+[2023-06-26 10:53:18] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/22/13/464cf7913a7f142920dbcc1f34238b91ed0e6132e56a4afd967d196ca2a7/irene_pro-0.0.70.tar.gz
+[2023-06-26 10:53:18] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-2.0.4.tar.gz]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-2.0.5.tar.gz]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [pypalert]: Start processing: attune-project-api
+[2023-06-26 10:53:18] INFO root fetch - main [MainThread]: End processing [pypalert]: success
+[2023-06-26 10:53:18] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.6-py3-none-any.whl.zip]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.7-py3-none-any.whl.zip]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [otel-tracer]: Start processing: judoscale
+[2023-06-26 10:53:18] INFO root fetch - main [MainThread]: End processing [otel-tracer]: success
+[2023-06-26 10:53:18] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.1.tar.gz]
+[2023-06-26 10:53:18] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.2.tar.gz]
+[2023-06-26 10:53:18] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-06-26 10:53:19] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 10:53:19] INFO root fetch - processPackages [judoscale]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-26 10:53:19] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/62/72/0c3df5f4465cbea492d779644f0f143aa9c898a78cf6fbb233a7cd9cfcce/irene_pro-0.0.71.tar.gz
+[2023-06-26 10:53:19] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-06-26 10:53:19] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2023-06-26 10:53:19] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2023-06-26 10:53:19] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2023-06-26 10:53:19] INFO root fetch - processPackages [nydok]: Remove: archive file [/home/abi/fetcher/tmp/nydok-0.8.1.tar.gz]
+[2023-06-26 10:53:19] INFO root fetch - processPackages [nydok]: Remove: archive file [/home/abi/fetcher/tmp/nydok-0.8.2.tar.gz]
+[2023-06-26 10:53:19] INFO root fetch - main [MainThread]: End processing [nydok]: success
+[2023-06-26 10:53:19] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-26 10:53:19] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.70.tar.gz tmp/irene_pro-0.0.71.tar.gz --markdown 20230626/i/irene-pro/0.0.70-0.0.71/diff.md --exclude *.pyd
+[2023-06-26 10:53:19] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-26 10:53:19] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-26 10:53:19] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-26 10:53:19] INFO root fetch - processPackages [Flask-pyoidc]: Remove: archive file [/home/abi/fetcher/tmp/Flask_pyoidc-3.8.0-py3-none-any.whl.zip]
+[2023-06-26 10:53:19] INFO root fetch - processPackages [Flask-pyoidc]: Remove: archive file [/home/abi/fetcher/tmp/Flask_pyoidc-3.9.0-py3-none-any.whl.zip]
+[2023-06-26 10:53:19] INFO root fetch - main [MainThread]: End processing [Flask-pyoidc]: success
+[2023-06-26 10:53:19] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-06-26 10:53:19] INFO root fetch - processPackages [judoscale]: Downloading https://files.pythonhosted.org/packages/83/62/64d59d56c1bd97fb0895459a307c7283c93d3005fa60e7da3bf4d6c52dcc/judoscale-1.4.1.tar.gz
+[2023-06-26 10:53:19] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-06-26 10:53:19] INFO root fetch - processPackages [judoscale]: Downloading https://files.pythonhosted.org/packages/62/fd/d247321b84bd4f0be7a506943dd296aeb5ac2f3981600af87e38f1f989d6/judoscale-1.4.2.tar.gz
+[2023-06-26 10:53:19] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-06-26 10:53:19] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.8.tar.gz]
+[2023-06-26 10:53:19] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
+[2023-06-26 10:53:19] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-06-26 10:53:19] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-06-26 10:53:19] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230626/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-26 10:53:19] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-06-26 10:53:19] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230626/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 10:53:19] INFO root fetch - processPackages [judoscale]: executing diffoscope
+[2023-06-26 10:53:19] INFO root fetch - processPackages [judoscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/judoscale-1.4.1.tar.gz tmp/judoscale-1.4.2.tar.gz --markdown 20230626/j/judoscale/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-26 10:53:20] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.70.tar.gz]
+[2023-06-26 10:53:20] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.71.tar.gz]
+[2023-06-26 10:53:20] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-26 10:53:20] INFO root fetch - processPackages [judoscale]: Remove: archive file [/home/abi/fetcher/tmp/judoscale-1.4.1.tar.gz]
+[2023-06-26 10:53:20] INFO root fetch - processPackages [judoscale]: Remove: archive file [/home/abi/fetcher/tmp/judoscale-1.4.2.tar.gz]
+[2023-06-26 10:53:20] INFO root fetch - main [MainThread]: End processing [judoscale]: success
+[2023-06-26 10:53:20] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.8.tar.gz]
+[2023-06-26 10:53:20] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.9.tar.gz]
+[2023-06-26 10:53:20] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-06-26 10:53:20] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-06-26 10:53:20] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-06-26 10:53:20] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-06-26 10:53:20] INFO root fetch - main [MainThread]: Store serial: [18644226]
