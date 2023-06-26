@@ -10812,3 +10812,105 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 09:52:12] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11388-py2.py3-none-any.whl.zip]
 [2023-06-26 09:52:12] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-06-26 09:52:12] INFO root fetch - main [MainThread]: Store serial: [18643716]
+[2023-06-26 09:57:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643716]
+[2023-06-26 09:57:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdevpy
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kernml
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fmu-sumo
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s3local
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyNyaaTa
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyNyaaTa
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: retro-data-structures
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kingpin-tgp
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterlab-blockly
+[2023-06-26 09:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: visiongraph
+[2023-06-26 09:57:22] INFO root fetch - processPackages [kernml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 09:57:22] INFO root fetch - processPackages [s3local]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-26 09:57:22] WARNING root fetch - processPackages [fmu-sumo]: Skipping, unable to determine old version
+[2023-06-26 09:57:22] INFO root fetch - processPackages [fmu-sumo]: Start processing: data-gradients
+[2023-06-26 09:57:22] INFO root fetch - main [MainThread]: End processing [fmu-sumo] error
+[2023-06-26 09:57:22] INFO root fetch - processPackages [sdevpy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306260752] Old Version: [202306260751]
+[2023-06-26 09:57:22] WARNING root fetch - processPackages [kingpin-tgp]: Skipping, unable to determine old version
+[2023-06-26 09:57:22] INFO root fetch - processPackages [kingpin-tgp]: Start processing: sdc-scissor
+[2023-06-26 09:57:22] INFO root fetch - main [MainThread]: End processing [kingpin-tgp] error
+[2023-06-26 09:57:22] INFO root fetch - processPackages [jupyterlab-blockly]: New version: [0.3.0a4] Old Version: [0.3.0a3]
+[2023-06-26 09:57:22] INFO root fetch - processPackages [retro-data-structures]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 09:57:22] INFO root fetch - processPackages [visiongraph]: New version: [0.1.47.1] Old Version: [0.1.46.1]
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: New version: [202306260752] Old Version: [202306260751]
+[2023-06-26 09:57:22] INFO root fetch - processPackages [data-gradients]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-06-26 09:57:22] INFO root fetch - processPackages [sdc-scissor]: New version: [2.2.0rc3] Old Version: [2.2.0rc1]
+[2023-06-26 09:57:22] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/14/c8/fb99fe2074a617dd0f0d6145736aabd55c62863f640e03e31eecb6c1bc89/retro-data-structures-0.8.0.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [s3local]: Downloading https://files.pythonhosted.org/packages/72/77/dae926a0b463782f817216d33c2706413c02b41a3c84bac3dfa28a3ee23a/s3local-0.4.0.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [kernml]: Downloading https://files.pythonhosted.org/packages/e1/ab/5a79ac90df7cbe519f9b1ad64327ff802e4b7aa6619f9bef926acb764bc3/kernml-0.0.2.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/5e/1b/786f3a69b088867a26b91d3eee2366f90fbdd3af7f7f19d7238caba33c31/sdevpy-0.1.3.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/24/b8/7690cf32ffc2902955a3f0377a9687a8a4a7d29dd14859d110428260cef9/PyNyaaTa-202306260751.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/24/b8/7690cf32ffc2902955a3f0377a9687a8a4a7d29dd14859d110428260cef9/PyNyaaTa-202306260751.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [jupyterlab-blockly]: Downloading https://files.pythonhosted.org/packages/5e/5d/f2c0d3590a2a3082ea81419aa4fdcd146dbc2f91a0a5b2a1eb775ef0a044/jupyterlab_blockly-0.3.0a3.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/07/b1/7b33fab60f878e556b1effb15fb90ec3c94c2ffb8fccef9fbc215165b1a4/visiongraph-0.1.46.1-py3-none-any.whl
+[2023-06-26 09:57:22] INFO root fetch - processPackages [sdc-scissor]: Downloading https://files.pythonhosted.org/packages/ec/ef/dd8a95378b7e19ee48eb2c3a31ff2dae6b7dd8393a2fdd2aba04dff65806/sdc_scissor-2.2.0rc1.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [data-gradients]: Downloading https://files.pythonhosted.org/packages/c7/b5/d505eab390ab6870c292ddbe2cfd97a616a4292f8d40118a255f20a24a50/data_gradients-0.0.9-py3-none-any.whl
+[2023-06-26 09:57:22] INFO root fetch - processPackages [s3local]: Downloading https://files.pythonhosted.org/packages/a0/14/4309ed63aad86e19a549c5a6099c9261afa3bd2f552b8454a5ade8825c3f/s3local-0.4.1.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/95/99/3fc33634a4abebfc4c59c9a4a2274b5672a2f14c64b176626a92a4ddf88b/retro-data-structures-0.9.0.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/b0/e4/d8b167e26ba852fb8c64a8cb2a08bd1ce4a2c43e818ea8b1430b35b1d9e2/sdevpy-0.1.4.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [kernml]: Downloading https://files.pythonhosted.org/packages/7c/9c/4283428a79c33cec4d133ed2630895401c37c44937824cdb6fcfcc4043f3/kernml-0.0.3.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [s3local]: executing diffoscope
+[2023-06-26 09:57:22] INFO root fetch - processPackages [s3local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3local-0.4.0.tar.gz tmp/s3local-0.4.1.tar.gz --markdown 20230626/s/s3local/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-26 09:57:22] INFO root fetch - processPackages [sdevpy]: executing diffoscope
+[2023-06-26 09:57:22] INFO root fetch - processPackages [sdevpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdevpy-0.1.3.tar.gz tmp/sdevpy-0.1.4.tar.gz --markdown 20230626/s/sdevpy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-26 09:57:22] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/f6/8c/95aeab90159647a341dc8b99db668e4dce6253cbcacbe3064464d6e92d9c/visiongraph-0.1.47.1-py3-none-any.whl
+[2023-06-26 09:57:22] INFO root fetch - processPackages [kernml]: executing diffoscope
+[2023-06-26 09:57:22] INFO root fetch - processPackages [kernml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kernml-0.0.2.tar.gz tmp/kernml-0.0.3.tar.gz --markdown 20230626/k/kernml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 09:57:22] WARNING root fetch - processPackages [jupyterlab-blockly]: Skipping package: exceeds size limit 14019501>=10485760
+[2023-06-26 09:57:22] INFO root fetch - processPackages [jupyterlab-blockly]: Start processing: dcentrapi
+[2023-06-26 09:57:22] INFO root fetch - main [MainThread]: End processing [jupyterlab-blockly] error
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/0a/71/0060635519103d78cb8b2723d8b739b8f0ccf13b1c884ba3ca9a55c5534e/PyNyaaTa-202306260752-py3-none-any.whl
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/0a/71/0060635519103d78cb8b2723d8b739b8f0ccf13b1c884ba3ca9a55c5534e/PyNyaaTa-202306260752-py3-none-any.whl
+[2023-06-26 09:57:22] INFO root fetch - processPackages [dcentrapi]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 09:57:22] INFO root fetch - processPackages [data-gradients]: Downloading https://files.pythonhosted.org/packages/84/fa/c092f9e12355d95972814a41c37a281c7e238a04e386190f3b2526733f52/data_gradients-0.1.1-py3-none-any.whl
+[2023-06-26 09:57:22] INFO root fetch - processPackages [sdc-scissor]: Downloading https://files.pythonhosted.org/packages/75/66/364b7c9f07c7a48da34984451c15234c7a037137428a3d494bb5461bb994/sdc_scissor-2.2.0rc3.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [retro-data-structures]: executing diffoscope
+[2023-06-26 09:57:22] INFO root fetch - processPackages [retro-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retro-data-structures-0.8.0.tar.gz tmp/retro-data-structures-0.9.0.tar.gz --markdown 20230626/r/retro-data-structures/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306260751.tar.gz tmp/PyNyaaTa-202306260752-py3-none-any.whl.zip --markdown 20230626/P/PyNyaaTa/202306260751-202306260752/diff.md --exclude *.pyd
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-06-26 09:57:22] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306260751.tar.gz tmp/PyNyaaTa-202306260752-py3-none-any.whl.zip --markdown 20230626/P/PyNyaaTa/202306260751-202306260752/diff.md --exclude *.pyd
+[2023-06-26 09:57:22] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2023-06-26 09:57:22] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.46.1-py3-none-any.whl.zip tmp/visiongraph-0.1.47.1-py3-none-any.whl.zip --markdown 20230626/v/visiongraph/0.1.46.1-0.1.47.1/diff.md --exclude *.pyd
+[2023-06-26 09:57:22] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/1d/e4/3319fa3d3acf8b5fa07a5ff9325398d861ccf31cf58491a8614fd0acdc3f/dcentrapi-0.2.5.tar.gz
+[2023-06-26 09:57:22] INFO root fetch - processPackages [data-gradients]: executing diffoscope
+[2023-06-26 09:57:22] INFO root fetch - processPackages [data-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_gradients-0.0.9-py3-none-any.whl.zip tmp/data_gradients-0.1.1-py3-none-any.whl.zip --markdown 20230626/d/data-gradients/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 09:57:23] INFO root fetch - processPackages [sdc-scissor]: executing diffoscope
+[2023-06-26 09:57:23] INFO root fetch - processPackages [sdc-scissor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc_scissor-2.2.0rc1.tar.gz tmp/sdc_scissor-2.2.0rc3.tar.gz --markdown 20230626/s/sdc-scissor/2.2.0rc1-2.2.0rc3/diff.md --exclude *.pyd
+[2023-06-26 09:57:23] INFO root fetch - processPackages [dcentrapi]: Downloading https://files.pythonhosted.org/packages/3f/57/0e50ee656caad94d8d74d9167690ba04c674e5e39b2b9f2c08c63e8f6d1a/dcentrapi-0.2.6.tar.gz
+[2023-06-26 09:57:23] INFO root fetch - processPackages [dcentrapi]: executing diffoscope
+[2023-06-26 09:57:23] INFO root fetch - processPackages [dcentrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcentrapi-0.2.5.tar.gz tmp/dcentrapi-0.2.6.tar.gz --markdown 20230626/d/dcentrapi/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 09:57:24] INFO root fetch - processPackages [kernml]: Remove: archive file [/home/abi/fetcher/tmp/kernml-0.0.2.tar.gz]
+[2023-06-26 09:57:24] INFO root fetch - processPackages [kernml]: Remove: archive file [/home/abi/fetcher/tmp/kernml-0.0.3.tar.gz]
+[2023-06-26 09:57:24] INFO root fetch - main [MainThread]: End processing [kernml]: success
+[2023-06-26 09:57:25] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306260751.tar.gz]
+[2023-06-26 09:57:25] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306260752-py3-none-any.whl.zip]
+[2023-06-26 09:57:25] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-26 09:57:25] INFO root fetch - processPackages [s3local]: Remove: archive file [/home/abi/fetcher/tmp/s3local-0.4.0.tar.gz]
+[2023-06-26 09:57:25] INFO root fetch - processPackages [s3local]: Remove: archive file [/home/abi/fetcher/tmp/s3local-0.4.1.tar.gz]
+[2023-06-26 09:57:25] INFO root fetch - main [MainThread]: End processing [s3local]: success
+[2023-06-26 09:57:25] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.5.tar.gz]
+[2023-06-26 09:57:25] INFO root fetch - processPackages [dcentrapi]: Remove: archive file [/home/abi/fetcher/tmp/dcentrapi-0.2.6.tar.gz]
+[2023-06-26 09:57:25] INFO root fetch - main [MainThread]: End processing [dcentrapi]: success
+[2023-06-26 09:57:25] INFO root fetch - processPackages [data-gradients]: Remove: archive file [/home/abi/fetcher/tmp/data_gradients-0.0.9-py3-none-any.whl.zip]
+[2023-06-26 09:57:25] INFO root fetch - processPackages [data-gradients]: Remove: archive file [/home/abi/fetcher/tmp/data_gradients-0.1.1-py3-none-any.whl.zip]
+[2023-06-26 09:57:25] INFO root fetch - main [MainThread]: End processing [data-gradients]: success
+[2023-06-26 09:57:26] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.1.3.tar.gz]
+[2023-06-26 09:57:26] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.1.4.tar.gz]
+[2023-06-26 09:57:26] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
+[2023-06-26 09:57:26] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.46.1-py3-none-any.whl.zip]
+[2023-06-26 09:57:26] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.47.1-py3-none-any.whl.zip]
+[2023-06-26 09:57:26] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2023-06-26 09:57:28] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-06-26 09:57:28] INFO root fetch - processPackages [sdc-scissor]: Remove: archive file [/home/abi/fetcher/tmp/sdc_scissor-2.2.0rc1.tar.gz]
+[2023-06-26 09:57:28] INFO root fetch - processPackages [sdc-scissor]: Remove: archive file [/home/abi/fetcher/tmp/sdc_scissor-2.2.0rc3.tar.gz]
+[2023-06-26 09:57:28] INFO root fetch - main [MainThread]: End processing [sdc-scissor]: success
+[2023-06-26 09:59:53] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.8.0.tar.gz]
+[2023-06-26 09:59:53] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
+[2023-06-26 09:59:53] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
+[2023-06-26 09:59:53] INFO root fetch - main [MainThread]: Store serial: [18643753]
