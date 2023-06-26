@@ -6399,3 +6399,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 05:27:47] INFO root fetch - processPackages [mindaudio]: Remove: archive file [/home/abi/fetcher/tmp/mindaudio-0.1.2.tar.gz]
 [2023-06-26 05:27:47] INFO root fetch - main [MainThread]: End processing [mindaudio]: success
 [2023-06-26 05:27:47] INFO root fetch - main [MainThread]: Store serial: [18641765]
+[2023-06-26 05:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641765]
+[2023-06-26 05:32:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: preprocessing-pgp
+[2023-06-26 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yarastorm
+[2023-06-26 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-parallel-toolkit
+[2023-06-26 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypalert
+[2023-06-26 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grassmanntn
+[2023-06-26 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickmpc
+[2023-06-26 05:32:55] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 05:32:55] INFO root fetch - processPackages [quickmpc]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-26 05:32:55] WARNING root fetch - processPackages [yarastorm]: Skipping, unable to determine old version
+[2023-06-26 05:32:55] INFO root fetch - main [MainThread]: End processing [yarastorm] error
+[2023-06-26 05:32:55] INFO root fetch - processPackages [grassmanntn]: New version: [1.1] Old Version: [1.0]
+[2023-06-26 05:32:55] INFO root fetch - processPackages [pypalert]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-26 05:32:55] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-06-26 05:32:56] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/f9/c4/8f1f12c66de894355bd7cb714567d73ac8d4e41198b5262cecce71bb446e/pypalert-2.0.1.tar.gz
+[2023-06-26 05:32:56] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/25/11/a730d976ebd429c0c4e02f49afd2c08cae685cee982d05c0db64bafef90f/grassmanntn-1.0.tar.gz
+[2023-06-26 05:32:56] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/fb/d7/cdb982de6cf37c6803074cba61a6eb20893a931d5937634947a58cc6b577/quickmpc-0.4.1.tar.gz
+[2023-06-26 05:32:56] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/14/be/50909d7d515465d0516773c08706d76f10f81be64ca4cc8f42b4d0aaa7de/openai_parallel_toolkit-0.5.0-py3-none-any.whl
+[2023-06-26 05:32:56] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-06-26 05:32:56] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/6e/44/1583bda25c818b54786ca4204616d131da062d4b9ed2cb4776666844ee54/pypalert-2.0.2.tar.gz
+[2023-06-26 05:32:56] INFO root fetch - processPackages [pypalert]: executing diffoscope
+[2023-06-26 05:32:56] INFO root fetch - processPackages [pypalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypalert-2.0.1.tar.gz tmp/pypalert-2.0.2.tar.gz --markdown 20230626/p/pypalert/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-26 05:32:56] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/7a/db/c1d10dbcb51e73876fcadcb57df6e79003edf3c22019e0c8c08fdca87801/grassmanntn-1.1.tar.gz
+[2023-06-26 05:32:56] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/ec/db/a3ca73692fd40b978058a2adc333bc96c26da24c2901f6527d618146dac2/quickmpc-0.4.2.tar.gz
+[2023-06-26 05:32:56] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-06-26 05:32:56] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.0.tar.gz tmp/grassmanntn-1.1.tar.gz --markdown 20230626/g/grassmanntn/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-26 05:32:56] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/43/d5/5c302fe387fd67388917b4e562100f3bdfe2e574d287cbcdb70947a534c2/openai_parallel_toolkit-0.5.1-py3-none-any.whl
+[2023-06-26 05:32:56] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-06-26 05:32:56] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-0.4.1.tar.gz tmp/quickmpc-0.4.2.tar.gz --markdown 20230626/q/quickmpc/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-26 05:32:56] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-06-26 05:32:56] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-0.5.0-py3-none-any.whl.zip tmp/openai_parallel_toolkit-0.5.1-py3-none-any.whl.zip --markdown 20230626/o/openai-parallel-toolkit/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 05:32:56] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-06-26 05:32:56] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-26 05:32:57] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-2.0.1.tar.gz]
+[2023-06-26 05:32:57] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-2.0.2.tar.gz]
+[2023-06-26 05:32:57] INFO root fetch - main [MainThread]: End processing [pypalert]: success
+[2023-06-26 05:32:58] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-0.5.0-py3-none-any.whl.zip]
+[2023-06-26 05:32:58] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-0.5.1-py3-none-any.whl.zip]
+[2023-06-26 05:32:58] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-06-26 05:32:58] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-0.4.1.tar.gz]
+[2023-06-26 05:32:58] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-0.4.2.tar.gz]
+[2023-06-26 05:32:58] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-06-26 05:32:58] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.0.tar.gz]
+[2023-06-26 05:32:58] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.tar.gz]
+[2023-06-26 05:32:58] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-06-26 05:32:58] INFO root fetch - main [MainThread]: Store serial: [18641782]
