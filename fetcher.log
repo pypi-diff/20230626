@@ -7412,3 +7412,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 06:46:45] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-26 06:46:45] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
 [2023-06-26 06:46:45] INFO root fetch - main [MainThread]: Store serial: [18642157]
+[2023-06-26 06:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642157]
+[2023-06-26 06:52:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-26 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-git-gitlab
+[2023-06-26 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Clone-ChatGPT
+[2023-06-26 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JustScan
+[2023-06-26 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: judini
+[2023-06-26 06:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-storage-helper
+[2023-06-26 06:52:01] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 06:52:01] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-26 06:52:01] INFO root fetch - processPackages [judini]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 06:52:01] INFO root fetch - processPackages [azure-storage-helper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 06:52:01] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.2.4] Old Version: [1.2.3.1]
+[2023-06-26 06:52:01] INFO root fetch - processPackages [judini]: Downloading https://files.pythonhosted.org/packages/6c/17/9906933739231c4a56a3d664784d79f442db5ef93e7073e7d56809216c0b/judini-0.0.3.tar.gz
+[2023-06-26 06:52:01] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-06-26 06:52:01] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-26 06:52:01] INFO root fetch - processPackages [azure-storage-helper]: Downloading https://files.pythonhosted.org/packages/19/70/44d0857c0a024f19d493b1eaf3d58c638a615c298271e499f8a794e07439/azure_storage_helper-0.1.0.tar.gz
+[2023-06-26 06:52:01] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/a3/84/de1668899d48be04b39817548b22ba921320aa2a7871e3bfedee0a141aa8/Clone-ChatGPT-1.2.3.1.tar.gz
+[2023-06-26 06:52:01] INFO root fetch - processPackages [judini]: Downloading https://files.pythonhosted.org/packages/58/bb/52bcd904d7b5f2338ad3d4567632fb94c84e884f0d082e87b4ffc2aeeef3/judini-0.0.4.tar.gz
+[2023-06-26 06:52:02] INFO root fetch - processPackages [azure-storage-helper]: Downloading https://files.pythonhosted.org/packages/78/10/f0548b6b4db8c080a45c67e9c32aa120ce54db225971f7111ecb006e53df/azure_storage_helper-0.1.1.tar.gz
+[2023-06-26 06:52:02] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/75/bf/b4b1fd4ce01d8bdefccc982d9d85c0794307e529b68823871084d0ef833e/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl
+[2023-06-26 06:52:02] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-26 06:52:02] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/ca/41/50367495d4ceca5e0ed3b81f3197a2a61321b6e3249496b5b744940068dc/Clone-ChatGPT-1.2.4.tar.gz
+[2023-06-26 06:52:02] INFO root fetch - processPackages [judini]: executing diffoscope
+[2023-06-26 06:52:02] INFO root fetch - processPackages [judini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/judini-0.0.3.tar.gz tmp/judini-0.0.4.tar.gz --markdown 20230626/j/judini/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 06:52:02] INFO root fetch - processPackages [azure-storage-helper]: executing diffoscope
+[2023-06-26 06:52:02] INFO root fetch - processPackages [azure-storage-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_storage_helper-0.1.0.tar.gz tmp/azure_storage_helper-0.1.1.tar.gz --markdown 20230626/a/azure-storage-helper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 06:52:02] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-26 06:52:02] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230626/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-26 06:52:02] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-06-26 06:52:02] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230626/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 06:52:02] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-06-26 06:52:02] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.2.3.1.tar.gz tmp/Clone-ChatGPT-1.2.4.tar.gz --markdown 20230626/C/Clone-ChatGPT/1.2.3.1-1.2.4/diff.md --exclude *.pyd
+[2023-06-26 06:52:03] INFO root fetch - processPackages [judini]: Remove: archive file [/home/abi/fetcher/tmp/judini-0.0.3.tar.gz]
+[2023-06-26 06:52:03] INFO root fetch - processPackages [judini]: Remove: archive file [/home/abi/fetcher/tmp/judini-0.0.4.tar.gz]
+[2023-06-26 06:52:03] INFO root fetch - main [MainThread]: End processing [judini]: success
+[2023-06-26 06:52:03] INFO root fetch - processPackages [azure-storage-helper]: Remove: archive file [/home/abi/fetcher/tmp/azure_storage_helper-0.1.0.tar.gz]
+[2023-06-26 06:52:03] INFO root fetch - processPackages [azure-storage-helper]: Remove: archive file [/home/abi/fetcher/tmp/azure_storage_helper-0.1.1.tar.gz]
+[2023-06-26 06:52:03] INFO root fetch - main [MainThread]: End processing [azure-storage-helper]: success
+[2023-06-26 06:52:03] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-06-26 06:52:03] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-06-26 06:52:03] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-06-26 06:52:03] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-26 06:52:03] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-26 06:52:03] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-26 06:52:04] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.3.1.tar.gz]
+[2023-06-26 06:52:04] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.4.tar.gz]
+[2023-06-26 06:52:04] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-06-26 06:52:04] INFO root fetch - main [MainThread]: Store serial: [18642183]
