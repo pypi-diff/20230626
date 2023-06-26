@@ -18832,3 +18832,289 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 15:24:25] INFO root fetch - processPackages [numpy]: Remove: archive file [/home/abi/fetcher/tmp/numpy-1.9.3.zip]
 [2023-06-26 15:24:25] INFO root fetch - main [MainThread]: End processing [numpy]: success
 [2023-06-26 15:24:25] INFO root fetch - main [MainThread]: Store serial: [18647290]
+[2023-06-26 15:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18647290]
+[2023-06-26 15:29:34] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-26 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-filer
+[2023-06-26 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qotto-auth-client
+[2023-06-26 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gov-uk-dashboards
+[2023-06-26 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scs-core
+[2023-06-26 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: traveltimepy
+[2023-06-26 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scs-analysis
+[2023-06-26 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-agent
+[2023-06-26 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-dali-weekly-cuda120
+[2023-06-26 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyko-sdk
+[2023-06-26 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tendril-caching
+[2023-06-26 15:29:35] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 15:29:35] INFO root fetch - processPackages [tendril-caching]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-analysis]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-06-26 15:29:35] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [django-filer]: New version: [3.0.0rc1] Old Version: [2.3rc1]
+[2023-06-26 15:29:35] INFO root fetch - processPackages [tendril-caching]: Downloading https://files.pythonhosted.org/packages/7e/50/fb249ad2decdc99f740725e6c614f8eed4daba3389472379093878376748/tendril-caching-0.2.3.tar.gz
+[2023-06-26 15:29:35] WARNING root fetch - processPackages [xia-agent]: Skipping, unable to determine old version
+[2023-06-26 15:29:35] INFO root fetch - processPackages [xia-agent]: Start processing: CLIP-API-service
+[2023-06-26 15:29:35] INFO root fetch - main [MainThread]: End processing [xia-agent] error
+[2023-06-26 15:29:35] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-06-26 15:29:35] INFO root fetch - processPackages [qotto-auth-client]: New version: [2.2.2a1] Old Version: [2.2.2a0]
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/e5/46/17080f9a15616da853bff32ad5c1d45ec851993b5555129267c361bb2aa7/scs-analysis-2.7.4.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: New version: [1.28.0.dev20230625] Old Version: [1.27.0.dev20230604]
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-core]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-06-26 15:29:35] INFO root fetch - processPackages [traveltimepy]: New version: [3.4.0] Old Version: [3.3.0b1]
+[2023-06-26 15:29:35] WARNING root fetch - processPackages [CLIP-API-service]: Skipping, unable to determine old version
+[2023-06-26 15:29:35] INFO root fetch - processPackages [CLIP-API-service]: Start processing: fastapi-docx
+[2023-06-26 15:29:35] INFO root fetch - main [MainThread]: End processing [CLIP-API-service] error
+[2023-06-26 15:29:35] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/e2/50/e00f70c96c81e89a5c74492c88e714c18ce77656c32a0a7a5f6af65b5bb2/scs-analysis-2.7.5.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [tendril-caching]: Downloading https://files.pythonhosted.org/packages/de/09/2cb0d0cd5e7c87f16a9cba5023f914569a205159ed369af34899e091635b/tendril-caching-0.2.4.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/57/d7/5767e67d00bed713985d6738588a4d1a718e22844981fbab5c090636e859/django-filer-2.3rc1.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/a7/05/7cbafba142de1a88b9aab5e60356e7b32f0b36bc78afb7bd437d521ea22c/scs-core-2.8.1.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [fastapi-docx]: New version: [0.2] Old Version: [0.1.9]
+[2023-06-26 15:29:35] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/6d/21/3e177c64d0abb3986d820d9ca8d643bc3748ca387c6b2eea10c40331e099/nvidia-dali-weekly-cuda120-1.27.0.dev20230604.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-26 15:29:35] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230626/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 15:29:35] INFO root fetch - processPackages [traveltimepy]: Downloading https://files.pythonhosted.org/packages/dc/21/205597c5e3e035620c082135289b068839b15952e4c45dbeba920a2e228d/traveltimepy-3.3.0b1.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-analysis-2.7.4.tar.gz tmp/scs-analysis-2.7.5.tar.gz --markdown 20230626/s/scs-analysis/2.7.4-2.7.5/diff.md --exclude *.pyd
+[2023-06-26 15:29:35] INFO root fetch - processPackages [tendril-caching]: executing diffoscope
+[2023-06-26 15:29:35] INFO root fetch - processPackages [tendril-caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-caching-0.2.3.tar.gz tmp/tendril-caching-0.2.4.tar.gz --markdown 20230626/t/tendril-caching/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-26 15:29:35] INFO root fetch - processPackages [qotto-auth-client]: Downloading https://files.pythonhosted.org/packages/55/47/c888763062f9a77b0f574a740d806a828c1cf657b6cc974a0e05d6d7ac0e/qotto_auth_client-2.2.2a0.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [fastapi-docx]: Downloading https://files.pythonhosted.org/packages/cd/e8/5a0909c4c7ad8dc571e45b69343a8892d093d7df0a73e31375674c31aaea/fastapi_docx-0.1.9.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/e4/8f/b798ce11c1ac451216345292b892ba85668feb0808969e442395cf21316c/scs-core-2.8.2.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [django-filer]: Downloading https://files.pythonhosted.org/packages/af/27/2da072bf5b912b0019cd35eaa025e3e7f7dda926772e32542c5334617c79/django-filer-3.0.0rc1.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [traveltimepy]: Downloading https://files.pythonhosted.org/packages/08/6d/42d11b3b96173cc7cd6715e9745f6039af9b5a3d9f6ee3da629e95e7d690/traveltimepy-3.4.0.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/2a/34/7fda18451b2e7895d6c5b82271ee66c5dea9a058a4cb2129a803726996b4/nvidia-dali-weekly-cuda120-1.28.0.dev20230625.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-core]: executing diffoscope
+[2023-06-26 15:29:35] INFO root fetch - processPackages [scs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-core-2.8.1.tar.gz tmp/scs-core-2.8.2.tar.gz --markdown 20230626/s/scs-core/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-06-26 15:29:35] INFO root fetch - processPackages [qotto-auth-client]: Downloading https://files.pythonhosted.org/packages/83/90/d36dd81762f2e8145a018a6cf5fad0d7aba970289dcda9731e7317085e73/qotto_auth_client-2.2.2a1.tar.gz
+[2023-06-26 15:29:35] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-06-26 15:29:35] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20230626/g/gov-uk-dashboards/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-06-26 15:29:35] INFO root fetch - processPackages [django-filer]: executing diffoscope
+[2023-06-26 15:29:35] INFO root fetch - processPackages [django-filer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-filer-2.3rc1.tar.gz tmp/django-filer-3.0.0rc1.tar.gz --markdown 20230626/d/django-filer/2.3rc1-3.0.0rc1/diff.md --exclude *.pyd
+[2023-06-26 15:29:35] INFO root fetch - processPackages [qotto-auth-client]: executing diffoscope
+[2023-06-26 15:29:35] INFO root fetch - processPackages [qotto-auth-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qotto_auth_client-2.2.2a0.tar.gz tmp/qotto_auth_client-2.2.2a1.tar.gz --markdown 20230626/q/qotto-auth-client/2.2.2a0-2.2.2a1/diff.md --exclude *.pyd
+[2023-06-26 15:29:35] INFO root fetch - processPackages [traveltimepy]: executing diffoscope
+[2023-06-26 15:29:35] INFO root fetch - processPackages [traveltimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traveltimepy-3.3.0b1.tar.gz tmp/traveltimepy-3.4.0.tar.gz --markdown 20230626/t/traveltimepy/3.3.0b1-3.4.0/diff.md --exclude *.pyd
+[2023-06-26 15:29:35] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: executing diffoscope
+[2023-06-26 15:29:35] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-weekly-cuda120-1.27.0.dev20230604.tar.gz tmp/nvidia-dali-weekly-cuda120-1.28.0.dev20230625.tar.gz --markdown 20230626/n/nvidia-dali-weekly-cuda120/1.27.0.dev20230604-1.28.0.dev20230625/diff.md --exclude *.pyd
+[2023-06-26 15:29:36] INFO root fetch - processPackages [fastapi-docx]: Downloading https://files.pythonhosted.org/packages/61/01/57dca32d6c7a5fbefd2f04d0797f29b9248ee3742d39fe5fc44e9d74e8f5/fastapi_docx-0.2.tar.gz
+[2023-06-26 15:29:36] INFO root fetch - processPackages [fastapi-docx]: executing diffoscope
+[2023-06-26 15:29:36] INFO root fetch - processPackages [fastapi-docx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_docx-0.1.9.tar.gz tmp/fastapi_docx-0.2.tar.gz --markdown 20230626/f/fastapi-docx/0.1.9-0.2/diff.md --exclude *.pyd
+[2023-06-26 15:29:37] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [hyko-sdk]: Start processing: py-avro-schema
+[2023-06-26 15:29:37] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-26 15:29:37] INFO root fetch - processPackages [py-avro-schema]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/9f/ee/44c39185c4e43ce72818e85e271a943e35b83149d283502941987752668a/py-avro-schema-2.1.1.tar.gz
+[2023-06-26 15:29:37] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/fa/b4/4d62f13005468ddbc04ee4c9c4ab5e741bc99e1aac130bb0cef09abeb9a2/py-avro-schema-2.1.2.tar.gz
+[2023-06-26 15:29:37] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-weekly-cuda120-1.27.0.dev20230604.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-weekly-cuda120-1.28.0.dev20230625.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Start processing: xia-logger
+[2023-06-26 15:29:37] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda120]: success
+[2023-06-26 15:29:37] INFO root fetch - processPackages [py-avro-schema]: executing diffoscope
+[2023-06-26 15:29:37] INFO root fetch - processPackages [py-avro-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-avro-schema-2.1.1.tar.gz tmp/py-avro-schema-2.1.2.tar.gz --markdown 20230626/p/py-avro-schema/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-26 15:29:37] WARNING root fetch - processPackages [xia-logger]: Skipping, unable to determine old version
+[2023-06-26 15:29:37] INFO root fetch - processPackages [xia-logger]: Start processing: svix
+[2023-06-26 15:29:37] INFO root fetch - main [MainThread]: End processing [xia-logger] error
+[2023-06-26 15:29:37] INFO root fetch - processPackages [fastapi-docx]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_docx-0.1.9.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [fastapi-docx]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_docx-0.2.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [fastapi-docx]: Start processing: gps-building-blocks
+[2023-06-26 15:29:37] INFO root fetch - main [MainThread]: End processing [fastapi-docx]: success
+[2023-06-26 15:29:37] INFO root fetch - processPackages [svix]: New version: [1.5.0] Old Version: [1.4.12]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [qotto-auth-client]: Remove: archive file [/home/abi/fetcher/tmp/qotto_auth_client-2.2.2a0.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [qotto-auth-client]: Remove: archive file [/home/abi/fetcher/tmp/qotto_auth_client-2.2.2a1.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [qotto-auth-client]: Start processing: pynad
+[2023-06-26 15:29:37] INFO root fetch - main [MainThread]: End processing [qotto-auth-client]: success
+[2023-06-26 15:29:37] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2023-06-26 15:29:37] INFO root fetch - processPackages [gov-uk-dashboards]: Start processing: pyporscheconnectapi
+[2023-06-26 15:29:37] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-06-26 15:29:37] INFO root fetch - processPackages [pynad]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [pynad]: Downloading https://files.pythonhosted.org/packages/dd/26/8615c355012b784188a7250a988c444ca380263d0a76040cf39dc2df9bdf/pynad-3.0.0.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [pyporscheconnectapi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [svix]: Downloading https://files.pythonhosted.org/packages/c8/f1/82e72fd5375babff103bf5326bde6612b01b97d3c670c77bab3d1e9fd4f8/svix-1.4.12.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [tendril-caching]: Remove: archive file [/home/abi/fetcher/tmp/tendril-caching-0.2.3.tar.gz]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [tendril-caching]: Remove: archive file [/home/abi/fetcher/tmp/tendril-caching-0.2.4.tar.gz]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [tendril-caching]: Start processing: jupyterlab-nbgallery
+[2023-06-26 15:29:38] INFO root fetch - main [MainThread]: End processing [tendril-caching]: success
+[2023-06-26 15:29:38] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.4.tar.gz]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.5.tar.gz]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [scs-analysis]: Start processing: cybrid-api-id-python
+[2023-06-26 15:29:38] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2023-06-26 15:29:38] INFO root fetch - processPackages [pyporscheconnectapi]: Downloading https://files.pythonhosted.org/packages/08/f1/f1705aec38ce5e6445a13fe08571e23c6e0e8ae187c94a924bce18342ba1/pyporscheconnectapi-0.1.3.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [pynad]: Downloading https://files.pythonhosted.org/packages/e0/ae/88d2a73cb07ffa09f36988cfa504fec9d238db098b72443f9d5dde9a0f1a/pynad-3.0.1.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [svix]: Downloading https://files.pythonhosted.org/packages/59/43/9d96ffe20a6acfb75cb02dee4286f7e9cda7b77f2d9031c245c5b5397579/svix-1.5.0.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2023-06-26 15:29:38] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20230626/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-26 15:29:38] INFO root fetch - processPackages [jupyterlab-nbgallery]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [traveltimepy]: Remove: archive file [/home/abi/fetcher/tmp/traveltimepy-3.3.0b1.tar.gz]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [traveltimepy]: Remove: archive file [/home/abi/fetcher/tmp/traveltimepy-3.4.0.tar.gz]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [traveltimepy]: Start processing: mkdocs-obsidian-support-plugin
+[2023-06-26 15:29:38] INFO root fetch - main [MainThread]: End processing [traveltimepy]: success
+[2023-06-26 15:29:38] INFO root fetch - processPackages [pyporscheconnectapi]: Downloading https://files.pythonhosted.org/packages/96/9b/a2dc54942a755e678c4d763a40297540d2b64a478175f053e2553ee7a66a/pyporscheconnectapi-0.1.4.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [pynad]: executing diffoscope
+[2023-06-26 15:29:38] INFO root fetch - processPackages [pynad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynad-3.0.0.tar.gz tmp/pynad-3.0.1.tar.gz --markdown 20230626/p/pynad/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-26 15:29:38] INFO root fetch - processPackages [svix]: executing diffoscope
+[2023-06-26 15:29:38] INFO root fetch - processPackages [svix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svix-1.4.12.tar.gz tmp/svix-1.5.0.tar.gz --markdown 20230626/s/svix/1.4.12-1.5.0/diff.md --exclude *.pyd
+[2023-06-26 15:29:38] INFO root fetch - processPackages [jupyterlab-nbgallery]: Downloading https://files.pythonhosted.org/packages/e9/90/3f53000cc61eed494801409c6e6e191d5164b64e8a1b4c283a5e20c19e3c/jupyterlab_nbgallery-2.0.3.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [pyporscheconnectapi]: executing diffoscope
+[2023-06-26 15:29:38] INFO root fetch - processPackages [pyporscheconnectapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyporscheconnectapi-0.1.3.tar.gz tmp/pyporscheconnectapi-0.1.4.tar.gz --markdown 20230626/p/pyporscheconnectapi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-26 15:29:38] INFO root fetch - processPackages [mkdocs-obsidian-support-plugin]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-26 15:29:38] INFO root fetch - processPackages [mkdocs-obsidian-support-plugin]: Downloading https://files.pythonhosted.org/packages/d4/22/5b27986309e1b811a2507c00d96bdad283c0c9359d97f214513a9d1bfa68/mkdocs-obsidian-support-plugin-0.6.1.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [jupyterlab-nbgallery]: Downloading https://files.pythonhosted.org/packages/1d/83/66b1172600c11f1396e6ae3d3944ed71f3db2f8a57dbaf9f4b10bcf4186b/jupyterlab_nbgallery-2.0.4.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-26 15:29:38] INFO root fetch - processPackages [jupyterlab-nbgallery]: executing diffoscope
+[2023-06-26 15:29:38] INFO root fetch - processPackages [jupyterlab-nbgallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nbgallery-2.0.3.tar.gz tmp/jupyterlab_nbgallery-2.0.4.tar.gz --markdown 20230626/j/jupyterlab-nbgallery/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-26 15:29:39] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-26 15:29:39] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230626/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 15:29:39] INFO root fetch - processPackages [mkdocs-obsidian-support-plugin]: Downloading https://files.pythonhosted.org/packages/35/fa/bf99c06bc6e01abe4ba7e66f097955fcb2c7e6a9117f7266199e42077a3e/mkdocs-obsidian-support-plugin-0.6.2.tar.gz
+[2023-06-26 15:29:39] INFO root fetch - processPackages [mkdocs-obsidian-support-plugin]: executing diffoscope
+[2023-06-26 15:29:39] INFO root fetch - processPackages [mkdocs-obsidian-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-obsidian-support-plugin-0.6.1.tar.gz tmp/mkdocs-obsidian-support-plugin-0.6.2.tar.gz --markdown 20230626/m/mkdocs-obsidian-support-plugin/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-26 15:29:40] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.1.1.tar.gz]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.1.2.tar.gz]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [py-avro-schema]: Start processing: datahtml
+[2023-06-26 15:29:40] INFO root fetch - main [MainThread]: End processing [py-avro-schema]: success
+[2023-06-26 15:29:40] INFO root fetch - processPackages [datahtml]: New version: [0.4.0rc4] Old Version: [0.4.0rc3]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/77/79/47849ab1912546eebfccdf533f29dd6e50acbdc5b1bda5646564a7e3385b/datahtml-0.4.0rc3.tar.gz
+[2023-06-26 15:29:40] INFO root fetch - processPackages [datahtml]: Downloading https://files.pythonhosted.org/packages/93/cd/71cad63a3e8c01cd40d3c51f48446390060bf24d4ee8a8a12198de612624/datahtml-0.4.0rc4.tar.gz
+[2023-06-26 15:29:40] INFO root fetch - processPackages [pyporscheconnectapi]: Remove: archive file [/home/abi/fetcher/tmp/pyporscheconnectapi-0.1.3.tar.gz]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [pyporscheconnectapi]: Remove: archive file [/home/abi/fetcher/tmp/pyporscheconnectapi-0.1.4.tar.gz]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [pyporscheconnectapi]: Start processing: tendril-filestore
+[2023-06-26 15:29:40] INFO root fetch - main [MainThread]: End processing [pyporscheconnectapi]: success
+[2023-06-26 15:29:40] INFO root fetch - processPackages [datahtml]: executing diffoscope
+[2023-06-26 15:29:40] INFO root fetch - processPackages [datahtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahtml-0.4.0rc3.tar.gz tmp/datahtml-0.4.0rc4.tar.gz --markdown 20230626/d/datahtml/0.4.0rc3-0.4.0rc4/diff.md --exclude *.pyd
+[2023-06-26 15:29:40] INFO root fetch - processPackages [tendril-filestore]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [pynad]: Remove: archive file [/home/abi/fetcher/tmp/pynad-3.0.0.tar.gz]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [pynad]: Remove: archive file [/home/abi/fetcher/tmp/pynad-3.0.1.tar.gz]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [pynad]: Start processing: openai-dbd
+[2023-06-26 15:29:40] INFO root fetch - main [MainThread]: End processing [pynad]: success
+[2023-06-26 15:29:40] INFO root fetch - processPackages [mkdocs-obsidian-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-obsidian-support-plugin-0.6.1.tar.gz]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [mkdocs-obsidian-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-obsidian-support-plugin-0.6.2.tar.gz]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [mkdocs-obsidian-support-plugin]: Start processing: atlaspy
+[2023-06-26 15:29:40] INFO root fetch - main [MainThread]: End processing [mkdocs-obsidian-support-plugin]: success
+[2023-06-26 15:29:40] INFO root fetch - processPackages [atlaspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 15:29:40] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-26 15:29:40] INFO root fetch - processPackages [gps-building-blocks]: Start processing: cybrid-api-organization-python
+[2023-06-26 15:29:40] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2023-06-26 15:29:40] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/dd/5d/c559c4dcd95807aef5d86de327f34c9a0c4c9d3839a033ecd9428cd729b4/atlaspy-0.0.8.tar.gz
+[2023-06-26 15:29:40] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 15:29:40] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/98/1f/385dc24472ea89752af67647e7688375ca04bd13858d6f97bbc9e3bbb529/tendril-filestore-0.2.3.tar.gz
+[2023-06-26 15:29:40] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 15:29:41] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-26 15:29:41] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/3a/9c/0d067b2bf3950f09a6219734090e44577bdf53d6bffc9c44e5a322d02d05/atlaspy-0.0.9.tar.gz
+[2023-06-26 15:29:41] INFO root fetch - processPackages [atlaspy]: executing diffoscope
+[2023-06-26 15:29:41] INFO root fetch - processPackages [atlaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlaspy-0.0.8.tar.gz tmp/atlaspy-0.0.9.tar.gz --markdown 20230626/a/atlaspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:29:41] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-26 15:29:41] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/03/9f/7edea71fcb3ff54ff36e57367de2282f1b743105cee3e3f31eff7656013a/tendril-filestore-0.2.4.tar.gz
+[2023-06-26 15:29:41] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-26 15:29:41] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-26 15:29:41] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230626/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:29:41] INFO root fetch - processPackages [tendril-filestore]: executing diffoscope
+[2023-06-26 15:29:41] INFO root fetch - processPackages [tendril-filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-filestore-0.2.3.tar.gz tmp/tendril-filestore-0.2.4.tar.gz --markdown 20230626/t/tendril-filestore/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-26 15:29:41] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-26 15:29:41] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-26 15:29:41] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230626/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 15:29:42] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: cybrid-api-bank-python
+[2023-06-26 15:29:42] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-26 15:29:42] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc3.tar.gz]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [datahtml]: Remove: archive file [/home/abi/fetcher/tmp/datahtml-0.4.0rc4.tar.gz]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [datahtml]: Start processing: BlitzChain
+[2023-06-26 15:29:42] INFO root fetch - main [MainThread]: End processing [datahtml]: success
+[2023-06-26 15:29:42] INFO root fetch - processPackages [BlitzChain]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/0b/a7/266cae20bc20768f836f8baa31e0c0449b7584c8de836667f40098ba024d/BlitzChain-0.1.1.tar.gz
+[2023-06-26 15:29:42] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-2.8.1.tar.gz]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-2.8.2.tar.gz]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [scs-core]: Start processing: intel-sgx-ra
+[2023-06-26 15:29:42] INFO root fetch - main [MainThread]: End processing [scs-core]: success
+[2023-06-26 15:29:42] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-2.3rc1.tar.gz]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [django-filer]: Remove: archive file [/home/abi/fetcher/tmp/django-filer-3.0.0rc1.tar.gz]
+[2023-06-26 15:29:42] INFO root fetch - main [MainThread]: End processing [django-filer]: success
+[2023-06-26 15:29:42] INFO root fetch - processPackages [intel-sgx-ra]: New version: [2.0a9] Old Version: [2.0a8]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/22/c0/326ae678c476b190a071c05fb7d00341744a1594e6c233a1e509cd8057a9/BlitzChain-0.1.2.tar.gz
+[2023-06-26 15:29:42] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-26 15:29:42] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-06-26 15:29:42] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.1.1.tar.gz tmp/BlitzChain-0.1.2.tar.gz --markdown 20230626/B/BlitzChain/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 15:29:42] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/4d/db/f48e245110f06046ff9666ff3c88904c7182a80136b0ea42fdcc13127785/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl
+[2023-06-26 15:29:42] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-26 15:29:42] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-26 15:29:42] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-26 15:29:43] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-26 15:29:43] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-26 15:29:43] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230626/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 15:29:43] INFO root fetch - processPackages [intel-sgx-ra]: Downloading https://files.pythonhosted.org/packages/c1/81/773e0f4d7f401bd1f161865ac39db49a4a0eb4e7db5556ac591810b60303/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl
+[2023-06-26 15:29:43] INFO root fetch - processPackages [intel-sgx-ra]: executing diffoscope
+[2023-06-26 15:29:43] INFO root fetch - processPackages [intel-sgx-ra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl.zip tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip --markdown 20230626/i/intel-sgx-ra/2.0a8-2.0a9/diff.md --exclude *.pyd
+[2023-06-26 15:29:43] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.1.1.tar.gz]
+[2023-06-26 15:29:43] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.1.2.tar.gz]
+[2023-06-26 15:29:43] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-06-26 15:29:44] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-26 15:29:44] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-26 15:29:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-26 15:29:44] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.3.tar.gz]
+[2023-06-26 15:29:44] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.4.tar.gz]
+[2023-06-26 15:29:44] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
+[2023-06-26 15:29:45] INFO root fetch - processPackages [svix]: Remove: archive file [/home/abi/fetcher/tmp/svix-1.4.12.tar.gz]
+[2023-06-26 15:29:45] INFO root fetch - processPackages [svix]: Remove: archive file [/home/abi/fetcher/tmp/svix-1.5.0.tar.gz]
+[2023-06-26 15:29:45] INFO root fetch - main [MainThread]: End processing [svix]: success
+[2023-06-26 15:29:45] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.8.tar.gz]
+[2023-06-26 15:29:45] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.9.tar.gz]
+[2023-06-26 15:29:45] INFO root fetch - main [MainThread]: End processing [atlaspy]: success
+[2023-06-26 15:29:46] INFO root fetch - processPackages [jupyterlab-nbgallery]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbgallery-2.0.3.tar.gz]
+[2023-06-26 15:29:46] INFO root fetch - processPackages [jupyterlab-nbgallery]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbgallery-2.0.4.tar.gz]
+[2023-06-26 15:29:46] INFO root fetch - main [MainThread]: End processing [jupyterlab-nbgallery]: success
+[2023-06-26 15:29:48] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-26 15:29:48] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-26 15:29:48] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-26 15:29:59] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a8-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
+[2023-06-26 15:29:59] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
+[2023-06-26 15:29:59] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
+[2023-06-26 15:29:59] INFO root fetch - main [MainThread]: Store serial: [18647399]
