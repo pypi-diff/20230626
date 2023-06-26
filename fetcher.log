@@ -23901,3 +23901,210 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:53:00] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
 [2023-06-26 17:53:00] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-06-26 17:53:00] INFO root fetch - main [MainThread]: Store serial: [18649355]
+[2023-06-26 17:58:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18649355]
+[2023-06-26 17:58:09] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dwiqc
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lfinancial
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: planetarypy
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unimpeded
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neulabs-cdk-constructs
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revChatGPT
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rna-tools
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yandil
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ima-predeployed
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyasic
+[2023-06-26 17:58:09] INFO root fetch - processPackages [dwiqc]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [planetarypy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [yandil]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [lfinancial]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [neulabs-cdk-constructs]: New version: [0.5.0] Old Version: [0.4.8]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [pyasic]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [unimpeded]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [rna-tools]: New version: [3.8.6] Old Version: [3.8.5]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ima-predeployed]: New version: [2.0.0b1] Old Version: [2.0.0b0]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [revChatGPT]: New version: [6.5.0] Old Version: [6.4.4]
+[2023-06-26 17:58:09] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/15/22/bf7fb5c3d34ffce55ba837c02d2c57f9065f884e05aaaa45ef415bd54c22/ima-predeployed-2.0.0b0.tar.gz
+[2023-06-26 17:58:09] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/4c/a2/cdd8703c45223d929b6b43d6e72b445b960b09a6783adaf4d9d030d3ef69/dwiqc-0.5.4-py2.py3-none-any.whl
+[2023-06-26 17:58:09] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/7a/e0/033ccd290f6d0e5405c00cdd66a82d0c9f4de3757c39711850cf714c7c2d/unimpeded-0.0.3.tar.gz
+[2023-06-26 17:58:09] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/a0/61/e02ec3313ea3379f0e22d74c9c8b7a5dd3f46b1adbd52b8bc997821665b4/lfinancial-0.0.7.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/91/f6/d55ff7d5041e8b2ad2bd99e5e117741f9cccd9a09a0928905364d27fea58/yandil-0.1.4.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/1a/24/3f5674778363caaeee10fa16c761a224fed410ae5c0d02a3c17ca4e37144/planetarypy-0.8.0.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b0/f5/cde62a14d3884e501c67927dde025541aed63cff63d8643a4f92b69b8509/neulabs-cdk-constructs-0.4.8.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/8b/cb/6d4cd3f342cc1eda735f322c923e89b06fb809652bccc8f7ba41b10189f2/pyasic-0.9.3.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [rna-tools]: Downloading https://files.pythonhosted.org/packages/fc/28/54f42db5d1d8058ac335285407279b707fba209f5002f9d45fb13a5507c2/rna_tools-3.8.5-py3-none-any.whl
+[2023-06-26 17:58:10] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/45/1f/9744b17b6be89f433b0bc8e17164f123411468ec8aa6760a0f445ecb47cb/revChatGPT-6.4.4.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/95/22/5bfe132da878e0bb6d44a0158de50bb41ec06a4e3301d48c687fdfc0abe2/ima-predeployed-2.0.0b1.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/a9/c8/b1224e7537355d69215b159bff76fb5d7a3131d9e47fd78023262810363b/dwiqc-0.5.5-py2.py3-none-any.whl
+[2023-06-26 17:58:10] INFO root fetch - processPackages [unimpeded]: Downloading https://files.pythonhosted.org/packages/c8/da/6050cbe5fe005aeb3215ad07344c2b92f0fdf18a385210dacfacb52daf17/unimpeded-0.0.4.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/51/79/2a7696fe910110a80b88a9117bce6f674c08bb1fadbafd3430d7e48f8576/lfinancial-0.0.8.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [yandil]: Downloading https://files.pythonhosted.org/packages/ef/62/32ce2fd637f45260c40adaad9180e074a9867ff415393456e219cfc9377a/yandil-0.2.0.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-26 17:58:10] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.5.4-py2.py3-none-any.whl.zip tmp/dwiqc-0.5.5-py2.py3-none-any.whl.zip --markdown 20230626/d/dwiqc/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-26 17:58:10] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/ed/b9/6f67b468572ef9104654f47302dd56ae89da1ac7031cc1e7f9add52ea208/revChatGPT-6.5.0.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [unimpeded]: executing diffoscope
+[2023-06-26 17:58:10] INFO root fetch - processPackages [unimpeded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimpeded-0.0.3.tar.gz tmp/unimpeded-0.0.4.tar.gz --markdown 20230626/u/unimpeded/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 17:58:10] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-06-26 17:58:10] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.0.7.tar.gz tmp/lfinancial-0.0.8.tar.gz --markdown 20230626/l/lfinancial/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-26 17:58:10] INFO root fetch - processPackages [neulabs-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/1a/0f/a2db090ffd043f218664c9265208cb559e2f8a8a1342501fba0312de1e01/neulabs-cdk-constructs-0.5.0.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [yandil]: executing diffoscope
+[2023-06-26 17:58:10] INFO root fetch - processPackages [yandil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandil-0.1.4.tar.gz tmp/yandil-0.2.0.tar.gz --markdown 20230626/y/yandil/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 17:58:10] INFO root fetch - processPackages [pyasic]: Downloading https://files.pythonhosted.org/packages/70/30/6c8b77c23f901b5c8b406344a29a98220a0b5212116530bd177635c4430d/pyasic-0.9.4.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-26 17:58:10] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.4.4.tar.gz tmp/revChatGPT-6.5.0.tar.gz --markdown 20230626/r/revChatGPT/6.4.4-6.5.0/diff.md --exclude *.pyd
+[2023-06-26 17:58:10] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/b9/8a/0501c85429a67c118dfd5a60ff6bca1fc0e04d41d7163d284fa9184d27c6/planetarypy-0.9.0.tar.gz
+[2023-06-26 17:58:10] INFO root fetch - processPackages [pyasic]: executing diffoscope
+[2023-06-26 17:58:10] INFO root fetch - processPackages [pyasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasic-0.9.3.tar.gz tmp/pyasic-0.9.4.tar.gz --markdown 20230626/p/pyasic/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 17:58:10] INFO root fetch - processPackages [neulabs-cdk-constructs]: executing diffoscope
+[2023-06-26 17:58:10] INFO root fetch - processPackages [neulabs-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neulabs-cdk-constructs-0.4.8.tar.gz tmp/neulabs-cdk-constructs-0.5.0.tar.gz --markdown 20230626/n/neulabs-cdk-constructs/0.4.8-0.5.0/diff.md --exclude *.pyd
+[2023-06-26 17:58:10] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-06-26 17:58:10] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-2.0.0b0.tar.gz tmp/ima-predeployed-2.0.0b1.tar.gz --markdown 20230626/i/ima-predeployed/2.0.0b0-2.0.0b1/diff.md --exclude *.pyd
+[2023-06-26 17:58:10] INFO root fetch - processPackages [planetarypy]: executing diffoscope
+[2023-06-26 17:58:10] INFO root fetch - processPackages [planetarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetarypy-0.8.0.tar.gz tmp/planetarypy-0.9.0.tar.gz --markdown 20230626/p/planetarypy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:58:10] INFO root fetch - processPackages [rna-tools]: Downloading https://files.pythonhosted.org/packages/a5/23/4d5f4be246b1d866327d5cc6efa1c4b508e3ca659cfdc33efceda1613518/rna_tools-3.8.6-py3-none-any.whl
+[2023-06-26 17:58:11] INFO root fetch - processPackages [rna-tools]: executing diffoscope
+[2023-06-26 17:58:11] INFO root fetch - processPackages [rna-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rna_tools-3.8.5-py3-none-any.whl.zip tmp/rna_tools-3.8.6-py3-none-any.whl.zip --markdown 20230626/r/rna-tools/3.8.5-3.8.6/diff.md --exclude *.pyd
+[2023-06-26 17:58:11] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.4-py2.py3-none-any.whl.zip]
+[2023-06-26 17:58:11] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.5-py2.py3-none-any.whl.zip]
+[2023-06-26 17:58:11] INFO root fetch - processPackages [dwiqc]: Start processing: py-Ayiin
+[2023-06-26 17:58:11] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-26 17:58:11] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.7] Old Version: [0.4.6.dev9]
+[2023-06-26 17:58:11] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.0.3.tar.gz]
+[2023-06-26 17:58:11] INFO root fetch - processPackages [unimpeded]: Remove: archive file [/home/abi/fetcher/tmp/unimpeded-0.0.4.tar.gz]
+[2023-06-26 17:58:11] INFO root fetch - processPackages [unimpeded]: Start processing: pyspaya
+[2023-06-26 17:58:11] INFO root fetch - main [MainThread]: End processing [unimpeded]: success
+[2023-06-26 17:58:11] WARNING root fetch - processPackages [pyspaya]: Skipping, unable to determine old version
+[2023-06-26 17:58:11] INFO root fetch - processPackages [pyspaya]: Start processing: moldoc
+[2023-06-26 17:58:11] INFO root fetch - main [MainThread]: End processing [pyspaya] error
+[2023-06-26 17:58:11] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.0.7.tar.gz]
+[2023-06-26 17:58:11] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.0.8.tar.gz]
+[2023-06-26 17:58:11] INFO root fetch - processPackages [lfinancial]: Start processing: gcloud-storage-manager
+[2023-06-26 17:58:11] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-06-26 17:58:12] INFO root fetch - processPackages [moldoc]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-06-26 17:58:12] WARNING root fetch - processPackages [gcloud-storage-manager]: Skipping, unable to determine old version
+[2023-06-26 17:58:12] INFO root fetch - processPackages [gcloud-storage-manager]: Start processing: onvif-gui
+[2023-06-26 17:58:12] INFO root fetch - main [MainThread]: End processing [gcloud-storage-manager] error
+[2023-06-26 17:58:12] INFO root fetch - processPackages [onvif-gui]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.4.tar.gz]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.5.0.tar.gz]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [revChatGPT]: Start processing: pulser
+[2023-06-26 17:58:12] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/8c/f1/21dea6f120a71ca512dcb52fbb8f28c6bf46e1962cab68ba35e7c88e0cd3/py-Ayiin-0.4.6.dev9.tar.gz
+[2023-06-26 17:58:12] INFO root fetch - processPackages [neulabs-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/neulabs-cdk-constructs-0.4.8.tar.gz]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [neulabs-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/neulabs-cdk-constructs-0.5.0.tar.gz]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [neulabs-cdk-constructs]: Start processing: pulser-core
+[2023-06-26 17:58:12] INFO root fetch - main [MainThread]: End processing [neulabs-cdk-constructs]: success
+[2023-06-26 17:58:12] INFO root fetch - processPackages [moldoc]: Downloading https://files.pythonhosted.org/packages/4d/45/e067266dfb874a68be8decf4f3c78cb4ce80519ebce2c0f375caa8186ecf/moldoc-1.1.0.tar.gz
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.1.4.tar.gz]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [yandil]: Remove: archive file [/home/abi/fetcher/tmp/yandil-0.2.0.tar.gz]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [yandil]: Start processing: pulser-pasqal
+[2023-06-26 17:58:12] INFO root fetch - main [MainThread]: End processing [yandil]: success
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-pasqal]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser]: Downloading https://files.pythonhosted.org/packages/7a/f5/dc3d2a7d7080c9ee2dfa9e08f20a258f502d81e6f5fa1af62208883a29f8/pulser-0.9.2-py3-none-any.whl
+[2023-06-26 17:58:12] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/0b/a1/dfeb4ba2d525bfcd3fe352881a8e7bee0c2a61cbaeafa6b2b6aea7c23bc7/onvif-gui-1.2.8.tar.gz
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-core]: Downloading https://files.pythonhosted.org/packages/50/d8/f849379e24e8bb7f7ae7f008169e8d06b8d499f05ac7f799064dc520b62b/pulser_core-0.9.2-py3-none-any.whl
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-pasqal]: Downloading https://files.pythonhosted.org/packages/e0/b1/5ac368dd1c0f3dfd390a168f8b38d93c34ad5d42087407f7a0aff2495046/pulser_pasqal-0.9.2-py3-none-any.whl
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.3.tar.gz]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pyasic]: Remove: archive file [/home/abi/fetcher/tmp/pyasic-0.9.4.tar.gz]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pyasic]: Start processing: pulser-simulation
+[2023-06-26 17:58:12] INFO root fetch - main [MainThread]: End processing [pyasic]: success
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-simulation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-26 17:58:12] INFO root fetch - processPackages [moldoc]: Downloading https://files.pythonhosted.org/packages/0b/8d/f40db2fe0ff1ee25f24ac0e42697b1eae83fe29eed1ee70dba72424f305f/moldoc-2.0.0.tar.gz
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser]: Downloading https://files.pythonhosted.org/packages/9e/dd/b544014809726e9c26e1f6b4bc8b80bd057546b594270fa4bb6260415ad2/pulser-0.9.3-py3-none-any.whl
+[2023-06-26 17:58:12] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/49/81/cfb39dbb9c5d75ef3cac0b0dde45e6a205c99ad6622cc006c5956dd8c284/onvif-gui-1.2.9.tar.gz
+[2023-06-26 17:58:12] INFO root fetch - processPackages [moldoc]: executing diffoscope
+[2023-06-26 17:58:12] INFO root fetch - processPackages [moldoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moldoc-1.1.0.tar.gz tmp/moldoc-2.0.0.tar.gz --markdown 20230626/m/moldoc/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-26 17:58:12] INFO root fetch - processPackages [onvif-gui]: executing diffoscope
+[2023-06-26 17:58:12] INFO root fetch - processPackages [onvif-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-gui-1.2.8.tar.gz tmp/onvif-gui-1.2.9.tar.gz --markdown 20230626/o/onvif-gui/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-simulation]: Downloading https://files.pythonhosted.org/packages/48/a5/5e5b94881cf8608659a1bac865530a27484b74446b05d4f1301ec14ee370/pulser_simulation-0.9.2-py3-none-any.whl
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser]: executing diffoscope
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser-0.9.2-py3-none-any.whl.zip tmp/pulser-0.9.3-py3-none-any.whl.zip --markdown 20230626/p/pulser/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-core]: Downloading https://files.pythonhosted.org/packages/b3/4c/e0c85f11a7c4b8348b4f084333258c0fe20e92304dc0c6753a72aeb52b40/pulser_core-0.9.3-py3-none-any.whl
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-pasqal]: Downloading https://files.pythonhosted.org/packages/40/e0/26ba4af7e7b6f15a07ada9d9d963b6148fe875b11eb195ff7468777a866a/pulser_pasqal-0.9.3-py3-none-any.whl
+[2023-06-26 17:58:12] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/f3/33/fe5916b0e3688d04abb4ff78ce9195278639ebf1f103f6f2911fcff2471b/py-Ayiin-0.4.7.tar.gz
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-core]: executing diffoscope
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser_core-0.9.2-py3-none-any.whl.zip tmp/pulser_core-0.9.3-py3-none-any.whl.zip --markdown 20230626/p/pulser-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-pasqal]: executing diffoscope
+[2023-06-26 17:58:12] INFO root fetch - processPackages [pulser-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser_pasqal-0.9.2-py3-none-any.whl.zip tmp/pulser_pasqal-0.9.3-py3-none-any.whl.zip --markdown 20230626/p/pulser-pasqal/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-26 17:58:12] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-06-26 17:58:12] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.6.dev9.tar.gz tmp/py-Ayiin-0.4.7.tar.gz --markdown 20230626/p/py-Ayiin/0.4.6.dev9-0.4.7/diff.md --exclude *.pyd
+[2023-06-26 17:58:13] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.8.0.tar.gz]
+[2023-06-26 17:58:13] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.9.0.tar.gz]
+[2023-06-26 17:58:13] INFO root fetch - processPackages [planetarypy]: Start processing: pkr
+[2023-06-26 17:58:13] INFO root fetch - main [MainThread]: End processing [planetarypy]: success
+[2023-06-26 17:58:13] INFO root fetch - processPackages [pkr]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-26 17:58:13] INFO root fetch - processPackages [pulser-simulation]: Downloading https://files.pythonhosted.org/packages/db/3e/198aea9df13043e681751c9e3c957c3df78c5621bc71fc10ffc264ee8d22/pulser_simulation-0.9.3-py3-none-any.whl
+[2023-06-26 17:58:13] INFO root fetch - processPackages [pulser-simulation]: executing diffoscope
+[2023-06-26 17:58:13] INFO root fetch - processPackages [pulser-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser_simulation-0.9.2-py3-none-any.whl.zip tmp/pulser_simulation-0.9.3-py3-none-any.whl.zip --markdown 20230626/p/pulser-simulation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-26 17:58:13] INFO root fetch - processPackages [pkr]: Downloading https://files.pythonhosted.org/packages/8b/25/e70052a22cea8a6accece949560b0e7079a2646858a296304630d25a0179/pkr-1.4.8-py3-none-any.whl
+[2023-06-26 17:58:13] INFO root fetch - processPackages [pkr]: Downloading https://files.pythonhosted.org/packages/49/ba/33acec6b2bbea1ee44ef1640cd8de83dbf2dcbc94ad160a7d9d41ae113c1/pkr-1.4.9-py3-none-any.whl
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser]: Remove: archive file [/home/abi/fetcher/tmp/pulser-0.9.2-py3-none-any.whl.zip]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pkr]: executing diffoscope
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pkr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkr-1.4.8-py3-none-any.whl.zip tmp/pkr-1.4.9-py3-none-any.whl.zip --markdown 20230626/p/pkr/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser]: Remove: archive file [/home/abi/fetcher/tmp/pulser-0.9.3-py3-none-any.whl.zip]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser]: Start processing: Hunabku-scienti
+[2023-06-26 17:58:14] INFO root fetch - main [MainThread]: End processing [pulser]: success
+[2023-06-26 17:58:14] INFO root fetch - processPackages [Hunabku-scienti]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [moldoc]: Remove: archive file [/home/abi/fetcher/tmp/moldoc-1.1.0.tar.gz]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [moldoc]: Remove: archive file [/home/abi/fetcher/tmp/moldoc-2.0.0.tar.gz]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [moldoc]: Start processing: biotrade
+[2023-06-26 17:58:14] INFO root fetch - main [MainThread]: End processing [moldoc]: success
+[2023-06-26 17:58:14] INFO root fetch - processPackages [biotrade]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/d3/e8/0f433eeea93f37bb93c88d771cff9f35316b7127318a4ce31953e6b99a69/biotrade-0.2.1.tar.gz
+[2023-06-26 17:58:14] INFO root fetch - processPackages [Hunabku-scienti]: Downloading https://files.pythonhosted.org/packages/c8/b9/99d64f64f87bf63b74835686acd26e6ea97911db0c8f79a1e003badb33ee/Hunabku_scienti-0.0.5.tar.gz
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/pulser_pasqal-0.9.2-py3-none-any.whl.zip]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/pulser_pasqal-0.9.3-py3-none-any.whl.zip]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser-pasqal]: Start processing: napalm-nokia-olt
+[2023-06-26 17:58:14] INFO root fetch - main [MainThread]: End processing [pulser-pasqal]: success
+[2023-06-26 17:58:14] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/f2/e7/76fe771f9b583c90c353da77e70894eb04e3f78092ccf4c2a426168d91a8/napalm_nokia_olt-0.0.8.tar.gz
+[2023-06-26 17:58:14] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/26/2c/2d428aaa0eada11aa4a6c98d7b6ac6a03d899bdc8f46115a074d73a878fe/napalm_nokia_olt-0.0.9.tar.gz
+[2023-06-26 17:58:14] INFO root fetch - processPackages [Hunabku-scienti]: Downloading https://files.pythonhosted.org/packages/5b/cc/7a75a6a944142b18544f6f135bc0888158751ac5dd2fbe4b1433ed067143/Hunabku_scienti-0.0.6.tar.gz
+[2023-06-26 17:58:14] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/19/e8/936e6243ecb132788ffa58abf74ab1c0034fea94b8ca6a92ca5f08cb8b6d/biotrade-0.2.2.tar.gz
+[2023-06-26 17:58:14] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-06-26 17:58:14] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.8.tar.gz tmp/napalm_nokia_olt-0.0.9.tar.gz --markdown 20230626/n/napalm-nokia-olt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:58:14] INFO root fetch - processPackages [Hunabku-scienti]: executing diffoscope
+[2023-06-26 17:58:14] INFO root fetch - processPackages [Hunabku-scienti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hunabku_scienti-0.0.5.tar.gz tmp/Hunabku_scienti-0.0.6.tar.gz --markdown 20230626/H/Hunabku-scienti/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser-core]: Remove: archive file [/home/abi/fetcher/tmp/pulser_core-0.9.2-py3-none-any.whl.zip]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser-core]: Remove: archive file [/home/abi/fetcher/tmp/pulser_core-0.9.3-py3-none-any.whl.zip]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser-core]: Start processing: madml
+[2023-06-26 17:58:14] INFO root fetch - main [MainThread]: End processing [pulser-core]: success
+[2023-06-26 17:58:14] INFO root fetch - processPackages [biotrade]: executing diffoscope
+[2023-06-26 17:58:14] INFO root fetch - processPackages [biotrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biotrade-0.2.1.tar.gz tmp/biotrade-0.2.2.tar.gz --markdown 20230626/b/biotrade/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-26 17:58:14] INFO root fetch - processPackages [madml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser-simulation]: Remove: archive file [/home/abi/fetcher/tmp/pulser_simulation-0.9.2-py3-none-any.whl.zip]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [pulser-simulation]: Remove: archive file [/home/abi/fetcher/tmp/pulser_simulation-0.9.3-py3-none-any.whl.zip]
+[2023-06-26 17:58:14] INFO root fetch - main [MainThread]: End processing [pulser-simulation]: success
+[2023-06-26 17:58:14] INFO root fetch - processPackages [madml]: Downloading https://files.pythonhosted.org/packages/63/04/c2b89fbd462114cac54fac235eef719654199ef80a786025d52e00964723/madml-0.0.1.tar.gz
+[2023-06-26 17:58:14] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.6.dev9.tar.gz]
+[2023-06-26 17:58:14] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.7.tar.gz]
+[2023-06-26 17:58:14] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-06-26 17:58:15] INFO root fetch - processPackages [madml]: Downloading https://files.pythonhosted.org/packages/d9/26/04587f06a981505cb459e70826c85a7f0fa0b5b3d76451308f09a7738ad2/madml-0.0.2.tar.gz
+[2023-06-26 17:58:15] INFO root fetch - processPackages [madml]: executing diffoscope
+[2023-06-26 17:58:15] INFO root fetch - processPackages [madml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madml-0.0.1.tar.gz tmp/madml-0.0.2.tar.gz --markdown 20230626/m/madml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 17:58:15] INFO root fetch - processPackages [pkr]: Remove: archive file [/home/abi/fetcher/tmp/pkr-1.4.8-py3-none-any.whl.zip]
+[2023-06-26 17:58:15] INFO root fetch - processPackages [pkr]: Remove: archive file [/home/abi/fetcher/tmp/pkr-1.4.9-py3-none-any.whl.zip]
+[2023-06-26 17:58:15] INFO root fetch - main [MainThread]: End processing [pkr]: success
+[2023-06-26 17:58:15] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.8.tar.gz]
+[2023-06-26 17:58:15] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.9.tar.gz]
+[2023-06-26 17:58:15] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-06-26 17:58:15] INFO root fetch - processPackages [Hunabku-scienti]: Remove: archive file [/home/abi/fetcher/tmp/Hunabku_scienti-0.0.5.tar.gz]
+[2023-06-26 17:58:15] INFO root fetch - processPackages [Hunabku-scienti]: Remove: archive file [/home/abi/fetcher/tmp/Hunabku_scienti-0.0.6.tar.gz]
+[2023-06-26 17:58:15] INFO root fetch - main [MainThread]: End processing [Hunabku-scienti]: success
+[2023-06-26 17:58:16] INFO root fetch - processPackages [madml]: Remove: archive file [/home/abi/fetcher/tmp/madml-0.0.1.tar.gz]
+[2023-06-26 17:58:16] INFO root fetch - processPackages [madml]: Remove: archive file [/home/abi/fetcher/tmp/madml-0.0.2.tar.gz]
+[2023-06-26 17:58:16] INFO root fetch - main [MainThread]: End processing [madml]: success
+[2023-06-26 17:58:17] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.5-py3-none-any.whl.zip]
+[2023-06-26 17:58:17] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.6-py3-none-any.whl.zip]
+[2023-06-26 17:58:17] INFO root fetch - main [MainThread]: End processing [rna-tools]: success
+[2023-06-26 17:58:17] INFO root fetch - processPackages [biotrade]: Remove: archive file [/home/abi/fetcher/tmp/biotrade-0.2.1.tar.gz]
+[2023-06-26 17:58:17] INFO root fetch - processPackages [biotrade]: Remove: archive file [/home/abi/fetcher/tmp/biotrade-0.2.2.tar.gz]
+[2023-06-26 17:58:17] INFO root fetch - main [MainThread]: End processing [biotrade]: success
+[2023-06-26 17:58:17] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b0.tar.gz]
+[2023-06-26 17:58:17] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b1.tar.gz]
+[2023-06-26 17:58:17] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-06-26 17:58:18] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-1.2.8.tar.gz]
+[2023-06-26 17:58:18] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-1.2.9.tar.gz]
+[2023-06-26 17:58:18] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
+[2023-06-26 17:58:18] INFO root fetch - main [MainThread]: Store serial: [18649427]
