@@ -8181,3 +8181,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 07:43:09] INFO root fetch - processPackages [re-common]: Remove: archive file [/home/abi/fetcher/tmp/re_common-0.2.9.tar.gz]
 [2023-06-26 07:43:09] INFO root fetch - main [MainThread]: End processing [re-common]: success
 [2023-06-26 07:43:09] INFO root fetch - main [MainThread]: Store serial: [18642537]
+[2023-06-26 07:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642537]
+[2023-06-26 07:48:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-26 07:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-compiler-openapi
+[2023-06-26 07:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trtpg
+[2023-06-26 07:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-mpl3115a2
+[2023-06-26 07:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-compiler-jsoneditor
+[2023-06-26 07:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piicatcher
+[2023-06-26 07:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acore-constants
+[2023-06-26 07:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jcci
+[2023-06-26 07:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: originpro
+[2023-06-26 07:48:18] WARNING root fetch - processPackages [xia-compiler-jsoneditor]: Skipping, unable to determine old version
+[2023-06-26 07:48:18] INFO root fetch - main [MainThread]: End processing [xia-compiler-jsoneditor] error
+[2023-06-26 07:48:18] INFO root fetch - processPackages [originpro]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-26 07:48:18] INFO root fetch - processPackages [piicatcher]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-26 07:48:18] WARNING root fetch - processPackages [trtpg]: Skipping, unable to determine old version
+[2023-06-26 07:48:18] INFO root fetch - main [MainThread]: End processing [trtpg] error
+[2023-06-26 07:48:18] WARNING root fetch - processPackages [jcci]: Skipping, unable to determine old version
+[2023-06-26 07:48:18] INFO root fetch - main [MainThread]: End processing [jcci] error
+[2023-06-26 07:48:18] WARNING root fetch - processPackages [xia-compiler-openapi]: Skipping, unable to determine old version
+[2023-06-26 07:48:18] INFO root fetch - main [MainThread]: End processing [xia-compiler-openapi] error
+[2023-06-26 07:48:18] WARNING root fetch - processPackages [micropython-mpl3115a2]: Skipping, unable to determine old version
+[2023-06-26 07:48:18] INFO root fetch - main [MainThread]: End processing [micropython-mpl3115a2] error
+[2023-06-26 07:48:18] INFO root fetch - processPackages [acore-constants]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 07:48:18] INFO root fetch - processPackages [acore-constants]: Downloading https://files.pythonhosted.org/packages/91/f3/3c174f4bb621a6ce632e8827479c151e68fb7297193dc056ae4edf353d88/acore_constants-0.1.1.tar.gz
+[2023-06-26 07:48:18] INFO root fetch - processPackages [originpro]: Downloading https://files.pythonhosted.org/packages/b8/06/28445031b1849b3258a2f34ff38a674ebafd452d9c5357ca18e91a15fbc1/originpro-1.1.6-py3-none-any.whl
+[2023-06-26 07:48:18] INFO root fetch - processPackages [piicatcher]: Downloading https://files.pythonhosted.org/packages/94/51/98f979341a445c3042697065b024efc9e11a71952875513033a25089a859/piicatcher-0.9.5.tar.gz
+[2023-06-26 07:48:19] INFO root fetch - processPackages [acore-constants]: Downloading https://files.pythonhosted.org/packages/49/2d/22e396edec91042e29f87598eb0c3a70277cf63c3237259a8807fcccda3d/acore_constants-0.1.2.tar.gz
+[2023-06-26 07:48:19] INFO root fetch - processPackages [originpro]: Downloading https://files.pythonhosted.org/packages/68/83/3ca9c137e660235eed8acb96b0c864cf4a3dcb0b63b9ea5282cd4c8d92e7/originpro-1.1.7-py3-none-any.whl
+[2023-06-26 07:48:19] INFO root fetch - processPackages [piicatcher]: Downloading https://files.pythonhosted.org/packages/3a/d5/44c85c79d66867803e7dda71a3e8de288f446004369a0f663dc82dc39eec/piicatcher-0.9.6.tar.gz
+[2023-06-26 07:48:19] INFO root fetch - processPackages [originpro]: executing diffoscope
+[2023-06-26 07:48:19] INFO root fetch - processPackages [originpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/originpro-1.1.6-py3-none-any.whl.zip tmp/originpro-1.1.7-py3-none-any.whl.zip --markdown 20230626/o/originpro/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-26 07:48:19] INFO root fetch - processPackages [acore-constants]: executing diffoscope
+[2023-06-26 07:48:19] INFO root fetch - processPackages [acore-constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_constants-0.1.1.tar.gz tmp/acore_constants-0.1.2.tar.gz --markdown 20230626/a/acore-constants/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 07:48:19] INFO root fetch - processPackages [piicatcher]: executing diffoscope
+[2023-06-26 07:48:19] INFO root fetch - processPackages [piicatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piicatcher-0.9.5.tar.gz tmp/piicatcher-0.9.6.tar.gz --markdown 20230626/p/piicatcher/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-26 07:48:20] INFO root fetch - processPackages [acore-constants]: Remove: archive file [/home/abi/fetcher/tmp/acore_constants-0.1.1.tar.gz]
+[2023-06-26 07:48:20] INFO root fetch - processPackages [acore-constants]: Remove: archive file [/home/abi/fetcher/tmp/acore_constants-0.1.2.tar.gz]
+[2023-06-26 07:48:20] INFO root fetch - main [MainThread]: End processing [acore-constants]: success
+[2023-06-26 07:48:20] INFO root fetch - processPackages [originpro]: Remove: archive file [/home/abi/fetcher/tmp/originpro-1.1.6-py3-none-any.whl.zip]
+[2023-06-26 07:48:20] INFO root fetch - processPackages [originpro]: Remove: archive file [/home/abi/fetcher/tmp/originpro-1.1.7-py3-none-any.whl.zip]
+[2023-06-26 07:48:20] INFO root fetch - main [MainThread]: End processing [originpro]: success
+[2023-06-26 07:48:20] INFO root fetch - processPackages [piicatcher]: Remove: archive file [/home/abi/fetcher/tmp/piicatcher-0.9.5.tar.gz]
+[2023-06-26 07:48:20] INFO root fetch - processPackages [piicatcher]: Remove: archive file [/home/abi/fetcher/tmp/piicatcher-0.9.6.tar.gz]
+[2023-06-26 07:48:20] INFO root fetch - main [MainThread]: End processing [piicatcher]: success
+[2023-06-26 07:48:20] INFO root fetch - main [MainThread]: Store serial: [18642579]
