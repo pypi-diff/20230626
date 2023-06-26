@@ -1207,3 +1207,42 @@
 [2023-06-26 01:59:10] INFO root fetch - processPackages [ctfcli]: Remove: archive file [/home/abi/fetcher/tmp/ctfcli-0.0.9.tar.gz]
 [2023-06-26 01:59:10] INFO root fetch - main [MainThread]: End processing [ctfcli]: success
 [2023-06-26 01:59:10] INFO root fetch - main [MainThread]: Store serial: [18639915]
+[2023-06-26 02:04:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18639915]
+[2023-06-26 02:04:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-26 02:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flook
+[2023-06-26 02:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commitizen
+[2023-06-26 02:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zrb
+[2023-06-26 02:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mangorest
+[2023-06-26 02:04:19] INFO root fetch - processPackages [commitizen]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-06-26 02:04:19] INFO root fetch - processPackages [flook]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-26 02:04:19] INFO root fetch - processPackages [mangorest]: New version: [0.12200000000000003] Old Version: [0.12100000000000002]
+[2023-06-26 02:04:19] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 02:04:19] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-26 02:04:19] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/df/ac/94e7225439057b73307a8482b73afff5e0eb0c2b6b332fecf0bf3ca5e2ab/commitizen-3.5.1.tar.gz
+[2023-06-26 02:04:19] INFO root fetch - processPackages [mangorest]: Downloading https://files.pythonhosted.org/packages/49/5a/c9b04109f77fcba8784fb2ed3fcef6510302cd43bbf226034b4e590a8ccf/mangorest-0.12100000000000002.tar.gz
+[2023-06-26 02:04:19] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/29/b8/26bf3a31b07b72b764f4df1ced8fdefb05a2f83482732e85ae4ad10ae8bf/flook-0.1.3.tar.gz
+[2023-06-26 02:04:19] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-26 02:04:19] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/79/56/bf99588f7f05719a2a5811a5fcc568cdd6523ad26439ea1e031efd932f45/commitizen-3.5.2.tar.gz
+[2023-06-26 02:04:19] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-26 02:04:19] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230626/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 02:04:19] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/d1/49/99d02612830bb45b3a848d678572216706d070018e9bca497c8f6e097851/flook-0.1.4.tar.gz
+[2023-06-26 02:04:19] INFO root fetch - processPackages [mangorest]: Downloading https://files.pythonhosted.org/packages/00/91/10b95d4e760bfe4fc2b198ccdb5b8aaac1e3063a8f54b863c30759f306c2/mangorest-0.12200000000000003.tar.gz
+[2023-06-26 02:04:19] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2023-06-26 02:04:19] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.5.1.tar.gz tmp/commitizen-3.5.2.tar.gz --markdown 20230626/c/commitizen/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-06-26 02:04:19] INFO root fetch - processPackages [mangorest]: executing diffoscope
+[2023-06-26 02:04:19] INFO root fetch - processPackages [mangorest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangorest-0.12100000000000002.tar.gz tmp/mangorest-0.12200000000000003.tar.gz --markdown 20230626/m/mangorest/0.12100000000000002-0.12200000000000003/diff.md --exclude *.pyd
+[2023-06-26 02:04:20] INFO root fetch - processPackages [flook]: executing diffoscope
+[2023-06-26 02:04:20] INFO root fetch - processPackages [flook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flook-0.1.3.tar.gz tmp/flook-0.1.4.tar.gz --markdown 20230626/f/flook/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-26 02:04:21] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-26 02:04:21] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-26 02:04:21] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-26 02:04:21] INFO root fetch - processPackages [mangorest]: Remove: archive file [/home/abi/fetcher/tmp/mangorest-0.12100000000000002.tar.gz]
+[2023-06-26 02:04:21] INFO root fetch - processPackages [mangorest]: Remove: archive file [/home/abi/fetcher/tmp/mangorest-0.12200000000000003.tar.gz]
+[2023-06-26 02:04:21] INFO root fetch - main [MainThread]: End processing [mangorest]: success
+[2023-06-26 02:04:21] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.1.tar.gz]
+[2023-06-26 02:04:21] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.2.tar.gz]
+[2023-06-26 02:04:21] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2023-06-26 02:04:21] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.3.tar.gz]
+[2023-06-26 02:04:21] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.1.4.tar.gz]
+[2023-06-26 02:04:21] INFO root fetch - main [MainThread]: End processing [flook]: success
+[2023-06-26 02:04:21] INFO root fetch - main [MainThread]: Store serial: [18639927]
