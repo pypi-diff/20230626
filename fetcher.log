@@ -5908,3 +5908,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 04:49:40] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
 [2023-06-26 04:49:40] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-26 04:49:40] INFO root fetch - main [MainThread]: Store serial: [18641575]
+[2023-06-26 04:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641575]
+[2023-06-26 04:54:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iterum
+[2023-06-26 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pibble
+[2023-06-26 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypalert
+[2023-06-26 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-brand
+[2023-06-26 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-brand
+[2023-06-26 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-brand
+[2023-06-26 04:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-brand-external-report-layout
+[2023-06-26 04:54:55] INFO root fetch - processPackages [pibble]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-26 04:54:55] INFO root fetch - processPackages [iterum]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-26 04:54:55] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/88/d0/376af8d87bb2da14cb7b21b986f02e0c420aa6cb7300d5f7e13626894971/pibble-0.6.1.tar.gz
+[2023-06-26 04:54:55] INFO root fetch - processPackages [odoo-addon-account-brand]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-26 04:54:55] INFO root fetch - processPackages [odoo-addon-brand]: New version: [16.0.1.0.2.7] Old Version: [16.0.1.0.2.6]
+[2023-06-26 04:54:55] INFO root fetch - processPackages [pypalert]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-06-26 04:54:55] INFO root fetch - processPackages [odoo-addon-product-brand]: New version: [16.0.1.0.1.5] Old Version: [16.0.1.0.1.4]
+[2023-06-26 04:54:55] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-06-26 04:54:55] INFO root fetch - processPackages [iterum]: Downloading https://files.pythonhosted.org/packages/cc/9a/7bee5827588e0a062d83c34c944051edee704f0f5170accac48492347b23/iterum-0.1.0-py3-none-any.whl
+[2023-06-26 04:54:55] INFO root fetch - processPackages [odoo-addon-account-brand]: Downloading https://files.pythonhosted.org/packages/fa/1a/5e5a1a23bbdb2c0be1b6ee2f6ad4e38086662267baef41320f1256cbb9d3/odoo_addon_account_brand-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-26 04:54:55] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/44/42/0d085e1c0b13d9a7c6eb4f066aef1a852be718b31721a7f6b350553a2fc9/pypalert-1.3.1.tar.gz
+[2023-06-26 04:54:55] INFO root fetch - processPackages [odoo-addon-brand]: Downloading https://files.pythonhosted.org/packages/a0/92/81f3f7f52ca7c30bdac36331cb665f8d0572f4d9af9caadd94f25d8f3806/odoo_addon_brand-16.0.1.0.2.6-py3-none-any.whl
+[2023-06-26 04:54:55] INFO root fetch - processPackages [odoo-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/7b/36/671763585a5641b4d9fc161032e25c41f58a7af0680f7148632119492a86/odoo_addon_product_brand-16.0.1.0.1.4-py3-none-any.whl
+[2023-06-26 04:54:55] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Downloading https://files.pythonhosted.org/packages/7f/e6/cfde606d7ffad97445e4c588782204103bafd3b15b2c03100611a06dc0d2/odoo_addon_brand_external_report_layout-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-26 04:54:55] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/7e/93/9171095afee4f1653bb642cda09dcdfcd363f944463bb070fc67f22eac7c/pibble-0.6.2.tar.gz
+[2023-06-26 04:54:55] INFO root fetch - processPackages [iterum]: Downloading https://files.pythonhosted.org/packages/31/e6/0eb7190f6a72d6a1b1d1b719f8e9943a8edf3dc6fd6a209d16a9ebd3f72e/iterum-0.2.0-py3-none-any.whl
+[2023-06-26 04:54:55] INFO root fetch - processPackages [odoo-addon-account-brand]: Downloading https://files.pythonhosted.org/packages/24/34/7d1e6e31549e6985e83122811ebacddf67eff8c24e68cc0c2eafe2ef9cf7/odoo_addon_account_brand-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-26 04:54:56] INFO root fetch - processPackages [iterum]: executing diffoscope
+[2023-06-26 04:54:56] INFO root fetch - processPackages [iterum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterum-0.1.0-py3-none-any.whl.zip tmp/iterum-0.2.0-py3-none-any.whl.zip --markdown 20230626/i/iterum/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/55/15/9ed18bd749e31354fd1c16b4cafe744061466f33e99d6349a70a3a081261/odoo_addon_product_brand-16.0.1.0.1.5-py3-none-any.whl
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Downloading https://files.pythonhosted.org/packages/af/60/89b9f02fcc298195c85f1d82187dc7ca1330fc7bde3147c2012fea041ce7/odoo_addon_brand_external_report_layout-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-26 04:54:56] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-06-26 04:54:56] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.6.1.tar.gz tmp/pibble-0.6.2.tar.gz --markdown 20230626/p/pibble/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-account-brand]: executing diffoscope
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-account-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_brand-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_brand-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-account-brand/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-brand]: Downloading https://files.pythonhosted.org/packages/56/2a/1d890f473cd00767d9c35ff32acb2cf576afdf5aae241542dab452b34ca2/odoo_addon_brand-16.0.1.0.2.7-py3-none-any.whl
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: executing diffoscope
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-brand-external-report-layout/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-26 04:54:56] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/c7/92/7c4b4e744967dc97b5fdd37c26cd3c8ca456e01d30047629f924daf77458/pypalert-2.0.0.tar.gz
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-product-brand]: executing diffoscope
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_brand-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_product_brand-16.0.1.0.1.5-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-product-brand/16.0.1.0.1.4-16.0.1.0.1.5/diff.md --exclude *.pyd
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-brand]: executing diffoscope
+[2023-06-26 04:54:56] INFO root fetch - processPackages [odoo-addon-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_brand-16.0.1.0.2.6-py3-none-any.whl.zip tmp/odoo_addon_brand-16.0.1.0.2.7-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-brand/16.0.1.0.2.6-16.0.1.0.2.7/diff.md --exclude *.pyd
+[2023-06-26 04:54:56] INFO root fetch - processPackages [pypalert]: executing diffoscope
+[2023-06-26 04:54:56] INFO root fetch - processPackages [pypalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypalert-1.3.1.tar.gz tmp/pypalert-2.0.0.tar.gz --markdown 20230626/p/pypalert/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-26 04:54:57] INFO root fetch - processPackages [iterum]: Remove: archive file [/home/abi/fetcher/tmp/iterum-0.1.0-py3-none-any.whl.zip]
+[2023-06-26 04:54:57] INFO root fetch - processPackages [iterum]: Remove: archive file [/home/abi/fetcher/tmp/iterum-0.2.0-py3-none-any.whl.zip]
+[2023-06-26 04:54:57] INFO root fetch - main [MainThread]: End processing [iterum]: success
+[2023-06-26 04:54:57] INFO root fetch - processPackages [odoo-addon-account-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_brand-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-26 04:54:57] INFO root fetch - processPackages [odoo-addon-account-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_brand-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-26 04:54:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-brand]: success
+[2023-06-26 04:54:57] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-26 04:54:57] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-26 04:54:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-brand-external-report-layout]: success
+[2023-06-26 04:54:58] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-1.3.1.tar.gz]
+[2023-06-26 04:54:58] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-2.0.0.tar.gz]
+[2023-06-26 04:54:58] INFO root fetch - main [MainThread]: End processing [pypalert]: success
+[2023-06-26 04:54:58] INFO root fetch - processPackages [odoo-addon-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand-16.0.1.0.2.6-py3-none-any.whl.zip]
+[2023-06-26 04:54:58] INFO root fetch - processPackages [odoo-addon-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2023-06-26 04:54:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-brand]: success
+[2023-06-26 04:54:58] INFO root fetch - processPackages [odoo-addon-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_brand-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-06-26 04:54:58] INFO root fetch - processPackages [odoo-addon-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_brand-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-06-26 04:54:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-brand]: success
+[2023-06-26 04:54:58] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.1.tar.gz]
+[2023-06-26 04:54:58] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.2.tar.gz]
+[2023-06-26 04:54:58] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-06-26 04:54:58] INFO root fetch - main [MainThread]: Store serial: [18641592]
