@@ -5465,3 +5465,44 @@
 [2023-06-26 04:17:49] INFO root fetch - processPackages [pycaret]: Remove: archive file [/home/abi/fetcher/tmp/pycaret-3.0.3-py3-none-any.whl.zip]
 [2023-06-26 04:17:49] INFO root fetch - main [MainThread]: End processing [pycaret]: success
 [2023-06-26 04:17:49] INFO root fetch - main [MainThread]: Store serial: [18641424]
+[2023-06-26 04:22:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641424]
+[2023-06-26 04:22:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oxenai
+[2023-06-26 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-06-26 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybaseutils
+[2023-06-26 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-btripopen20220520
+[2023-06-26 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qingcloud-hpc
+[2023-06-26 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptgscroller
+[2023-06-26 04:22:57] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-26 04:22:57] INFO root fetch - processPackages [oxenai]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-06-26 04:22:57] INFO root fetch - processPackages [pybaseutils]: New version: [0.8.5] Old Version: [0.8.3]
+[2023-06-26 04:22:57] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-26 04:22:57] WARNING root fetch - processPackages [qingcloud-hpc]: Skipping, unable to determine old version
+[2023-06-26 04:22:57] INFO root fetch - main [MainThread]: End processing [qingcloud-hpc] error
+[2023-06-26 04:22:57] WARNING root fetch - processPackages [ptgscroller]: Skipping, unable to determine old version
+[2023-06-26 04:22:57] INFO root fetch - main [MainThread]: End processing [ptgscroller] error
+[2023-06-26 04:22:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/cf/d8/a90363eaf72b059a6aca7c23fd9bae40d9b189204c357edbfeace1d2715f/alibabacloud_btripopen20220520_py2-1.1.5.tar.gz
+[2023-06-26 04:22:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/40/42/814e54ee1b8db81a165cde6e7459adcf94fc65e112c880bda9475b2d46d1/alibabacloud_btripopen20220520-1.1.5.tar.gz
+[2023-06-26 04:22:58] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/1d/34/a016d9dc57165ae22ab33fc8a54ffa05dfabe92e14e96b77b2c86c427862/pybaseutils-0.8.3.tar.gz
+[2023-06-26 04:22:58] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/f9/07/9b84496c51d7eb0978a7122e0246eb47d8118ed65cba24367d0ffec0ae9e/oxenai-0.1.9-cp310-cp310-macosx_11_0_arm64.whl
+[2023-06-26 04:22:58] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/a2/71/d08d979a58197671244cf51d580c72b24b638dc8b48a7e1f5b8ff1a0faf3/pybaseutils-0.8.5.tar.gz
+[2023-06-26 04:22:58] WARNING root fetch - processPackages [oxenai]: Skipping package: exceeds size limit 14827494>=10485760
+[2023-06-26 04:22:58] INFO root fetch - main [MainThread]: End processing [oxenai] error
+[2023-06-26 04:22:58] INFO root fetch - processPackages [pybaseutils]: executing diffoscope
+[2023-06-26 04:22:58] INFO root fetch - processPackages [pybaseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaseutils-0.8.3.tar.gz tmp/pybaseutils-0.8.5.tar.gz --markdown 20230626/p/pybaseutils/0.8.3-0.8.5/diff.md --exclude *.pyd
+[2023-06-26 04:22:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/cf/74/e740e31f9512e3fcd02e9405e83bef4e40c618bcb42a4b0d09bc61865cc2/alibabacloud_btripopen20220520-1.1.6.tar.gz
+[2023-06-26 04:22:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/18/ac/ae61ba79534cf3b15be33b0562a2a2be1db04c2c3547a7e2e09e05c5d25c/alibabacloud_btripopen20220520_py2-1.1.6.tar.gz
+[2023-06-26 04:22:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-06-26 04:22:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.1.5.tar.gz tmp/alibabacloud_btripopen20220520-1.1.6.tar.gz --markdown 20230626/a/alibabacloud-btripopen20220520/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-26 04:22:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-06-26 04:22:58] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.1.5.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.1.6.tar.gz --markdown 20230626/a/alibabacloud-btripopen20220520-py2/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-26 04:23:00] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-0.8.3.tar.gz]
+[2023-06-26 04:23:00] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-0.8.5.tar.gz]
+[2023-06-26 04:23:00] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
+[2023-06-26 04:23:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.5.tar.gz]
+[2023-06-26 04:23:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.6.tar.gz]
+[2023-06-26 04:23:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-06-26 04:23:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.5.tar.gz]
+[2023-06-26 04:23:00] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.6.tar.gz]
+[2023-06-26 04:23:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-06-26 04:23:00] INFO root fetch - main [MainThread]: Store serial: [18641451]
