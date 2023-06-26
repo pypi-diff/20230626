@@ -7121,3 +7121,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 06:14:52] INFO root fetch - processPackages [scrippy-db]: Remove: archive file [/home/abi/fetcher/tmp/scrippy-db-1.1.76.tar.gz]
 [2023-06-26 06:14:52] INFO root fetch - main [MainThread]: End processing [scrippy-db]: success
 [2023-06-26 06:14:52] INFO root fetch - main [MainThread]: Store serial: [18641994]
+[2023-06-26 06:19:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641994]
+[2023-06-26 06:20:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-26 06:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lycoris-lora
+[2023-06-26 06:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Jedutils
+[2023-06-26 06:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcee-align
+[2023-06-26 06:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-envconfig
+[2023-06-26 06:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: judini
+[2023-06-26 06:20:03] INFO root fetch - processPackages [Jedutils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 06:20:03] WARNING root fetch - processPackages [judini]: Skipping, unable to determine old version
+[2023-06-26 06:20:03] INFO root fetch - main [MainThread]: End processing [judini] error
+[2023-06-26 06:20:03] INFO root fetch - processPackages [django-envconfig]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-06-26 06:20:03] WARNING root fetch - processPackages [arcee-align]: Skipping, unable to determine old version
+[2023-06-26 06:20:03] INFO root fetch - main [MainThread]: End processing [arcee-align] error
+[2023-06-26 06:20:03] INFO root fetch - processPackages [lycoris-lora]: New version: [0.1.7.dev9] Old Version: [0.1.7.dev8]
+[2023-06-26 06:20:03] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/b1/c9/291594490dd6eef9b9f9cbd13742cf378ad8eac4b57234a125b050e3b4bc/lycoris_lora-0.1.7.dev8.tar.gz
+[2023-06-26 06:20:03] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/8d/0d/7f8d0721c0dc3b8bd3a6d31ac2671aaf67dfb5d4e5c150a6b077b96715a8/Jedutils-0.1.0.tar.gz
+[2023-06-26 06:20:03] INFO root fetch - processPackages [django-envconfig]: Downloading https://files.pythonhosted.org/packages/80/8d/66462dd3261d18f55b4c668bde0b80b08f3ad8414e261720a8081e99d665/django-envconfig-0.2.7.tar.gz
+[2023-06-26 06:20:03] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/77/7d/0262a49babd70839941551b1a7e237c192e4fc2394c953d5e57c934c6374/lycoris_lora-0.1.7.dev9.tar.gz
+[2023-06-26 06:20:03] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/a6/3f/6cd5e40d9f4b116ddc9087ec5b9f1cae55c030756e987926a434c86ffeee/Jedutils-0.1.1.tar.gz
+[2023-06-26 06:20:03] INFO root fetch - processPackages [Jedutils]: executing diffoscope
+[2023-06-26 06:20:03] INFO root fetch - processPackages [Jedutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jedutils-0.1.0.tar.gz tmp/Jedutils-0.1.1.tar.gz --markdown 20230626/J/Jedutils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 06:20:03] INFO root fetch - processPackages [django-envconfig]: Downloading https://files.pythonhosted.org/packages/91/6c/46016155ac0045ea4c33a9b6b7e3a5ca5e4f13d82fb00ab2692535df4354/django-envconfig-0.3.0.tar.gz
+[2023-06-26 06:20:03] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-06-26 06:20:03] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-0.1.7.dev8.tar.gz tmp/lycoris_lora-0.1.7.dev9.tar.gz --markdown 20230626/l/lycoris-lora/0.1.7.dev8-0.1.7.dev9/diff.md --exclude *.pyd
+[2023-06-26 06:20:03] INFO root fetch - processPackages [django-envconfig]: executing diffoscope
+[2023-06-26 06:20:03] INFO root fetch - processPackages [django-envconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-envconfig-0.2.7.tar.gz tmp/django-envconfig-0.3.0.tar.gz --markdown 20230626/d/django-envconfig/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 06:20:04] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.0.tar.gz]
+[2023-06-26 06:20:04] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.1.tar.gz]
+[2023-06-26 06:20:04] INFO root fetch - main [MainThread]: End processing [Jedutils]: success
+[2023-06-26 06:20:05] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev8.tar.gz]
+[2023-06-26 06:20:05] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev9.tar.gz]
+[2023-06-26 06:20:05] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-06-26 06:20:05] INFO root fetch - processPackages [django-envconfig]: Remove: archive file [/home/abi/fetcher/tmp/django-envconfig-0.2.7.tar.gz]
+[2023-06-26 06:20:05] INFO root fetch - processPackages [django-envconfig]: Remove: archive file [/home/abi/fetcher/tmp/django-envconfig-0.3.0.tar.gz]
+[2023-06-26 06:20:05] INFO root fetch - main [MainThread]: End processing [django-envconfig]: success
+[2023-06-26 06:20:05] INFO root fetch - main [MainThread]: Store serial: [18642009]
