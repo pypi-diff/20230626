@@ -7243,3 +7243,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 06:30:28] INFO root fetch - main [MainThread]: End processing [pykebab]: success
 [2023-06-26 06:30:28] INFO root fetch - main [MainThread]: End processing [pykebab]: success
 [2023-06-26 06:30:28] INFO root fetch - main [MainThread]: Store serial: [18642043]
+[2023-06-26 06:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642043]
+[2023-06-26 06:35:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 06:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roiextractors
+[2023-06-26 06:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fugle-trade-core
+[2023-06-26 06:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes
+[2023-06-26 06:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trtpg
+[2023-06-26 06:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gistdawater
+[2023-06-26 06:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt
+[2023-06-26 06:35:38] INFO root fetch - processPackages [roiextractors]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-26 06:35:38] INFO root fetch - processPackages [fugle-trade-core]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 06:35:38] INFO root fetch - processPackages [pypomes]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 06:35:38] WARNING root fetch - processPackages [trtpg]: Skipping, unable to determine old version
+[2023-06-26 06:35:38] INFO root fetch - main [MainThread]: End processing [trtpg] error
+[2023-06-26 06:35:38] INFO root fetch - processPackages [gistdawater]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 06:35:38] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-26 06:35:38] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/d3/cf/9eba5de3949a348ddb9200a2e2c042428539b10ae6e3ecdfb62bc2adaac8/pypomes-0.1.8.tar.gz
+[2023-06-26 06:35:38] INFO root fetch - processPackages [gistdawater]: Downloading https://files.pythonhosted.org/packages/13/ab/9be6cf533eaa52f26ceb07636208456e217b85569b26c485f9a678c7977f/gistdawater-0.0.3.tar.gz
+[2023-06-26 06:35:38] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-26 06:35:38] INFO root fetch - processPackages [fugle-trade-core]: Downloading https://files.pythonhosted.org/packages/6c/38/67e0a5de3d6e8c8a57ac279e415b4b4aff61511c614474a3a5f0daf5df1f/fugle_trade_core-0.5.0-cp37-abi3-win_amd64.whl
+[2023-06-26 06:35:38] INFO root fetch - processPackages [roiextractors]: Downloading https://files.pythonhosted.org/packages/92/0d/3c7d34bad9df7aac4110477931f848b31ddf5c13adf36e6d52d432d06e2d/roiextractors-0.5.2.tar.gz
+[2023-06-26 06:35:38] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-26 06:35:38] INFO root fetch - processPackages [pypomes]: Downloading https://files.pythonhosted.org/packages/40/03/b9f4efbb51549610c5c9f9cbc41799a2b2de27123bba1d82bfaa29eefa5d/pypomes-0.1.9.tar.gz
+[2023-06-26 06:35:39] INFO root fetch - processPackages [gistdawater]: Downloading https://files.pythonhosted.org/packages/ed/f2/920766c90ef892061cbdd9892ec4f1e6ff73f2aa816fd5e6d6f93a20509d/gistdawater-0.0.4.tar.gz
+[2023-06-26 06:35:39] INFO root fetch - processPackages [roiextractors]: Downloading https://files.pythonhosted.org/packages/e3/ad/000028d637d1520aecaa24eb3dcdd997118931eea3daaf8de50b59f24089/roiextractors-0.5.3.tar.gz
+[2023-06-26 06:35:39] INFO root fetch - processPackages [gistdawater]: executing diffoscope
+[2023-06-26 06:35:39] INFO root fetch - processPackages [gistdawater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gistdawater-0.0.3.tar.gz tmp/gistdawater-0.0.4.tar.gz --markdown 20230626/g/gistdawater/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 06:35:39] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-26 06:35:39] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230626/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-26 06:35:39] INFO root fetch - processPackages [roiextractors]: executing diffoscope
+[2023-06-26 06:35:39] INFO root fetch - processPackages [roiextractors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roiextractors-0.5.2.tar.gz tmp/roiextractors-0.5.3.tar.gz --markdown 20230626/r/roiextractors/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-26 06:35:39] INFO root fetch - processPackages [pypomes]: executing diffoscope
+[2023-06-26 06:35:39] INFO root fetch - processPackages [pypomes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes-0.1.8.tar.gz tmp/pypomes-0.1.9.tar.gz --markdown 20230626/p/pypomes/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 06:35:39] INFO root fetch - processPackages [fugle-trade-core]: Downloading https://files.pythonhosted.org/packages/b1/10/f56f78943f980754d69c2357c92f0a5600e425107a082ad987fd402a1f38/fugle_trade_core-0.5.1-cp37-abi3-win_amd64.whl
+[2023-06-26 06:35:39] INFO root fetch - processPackages [fugle-trade-core]: executing diffoscope
+[2023-06-26 06:35:39] INFO root fetch - processPackages [fugle-trade-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugle_trade_core-0.5.0-cp37-abi3-win_amd64.whl.zip tmp/fugle_trade_core-0.5.1-cp37-abi3-win_amd64.whl.zip --markdown 20230626/f/fugle-trade-core/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 06:35:40] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.8.tar.gz]
+[2023-06-26 06:35:40] INFO root fetch - processPackages [pypomes]: Remove: archive file [/home/abi/fetcher/tmp/pypomes-0.1.9.tar.gz]
+[2023-06-26 06:35:40] INFO root fetch - main [MainThread]: End processing [pypomes]: success
+[2023-06-26 06:35:40] INFO root fetch - processPackages [roiextractors]: Remove: archive file [/home/abi/fetcher/tmp/roiextractors-0.5.2.tar.gz]
+[2023-06-26 06:35:40] INFO root fetch - processPackages [roiextractors]: Remove: archive file [/home/abi/fetcher/tmp/roiextractors-0.5.3.tar.gz]
+[2023-06-26 06:35:40] INFO root fetch - main [MainThread]: End processing [roiextractors]: success
+[2023-06-26 06:35:40] INFO root fetch - processPackages [gistdawater]: Remove: archive file [/home/abi/fetcher/tmp/gistdawater-0.0.3.tar.gz]
+[2023-06-26 06:35:40] INFO root fetch - processPackages [gistdawater]: Remove: archive file [/home/abi/fetcher/tmp/gistdawater-0.0.4.tar.gz]
+[2023-06-26 06:35:40] INFO root fetch - main [MainThread]: End processing [gistdawater]: success
+[2023-06-26 06:35:41] INFO root fetch - processPackages [fugle-trade-core]: Remove: archive file [/home/abi/fetcher/tmp/fugle_trade_core-0.5.0-cp37-abi3-win_amd64.whl.zip]
+[2023-06-26 06:35:41] INFO root fetch - processPackages [fugle-trade-core]: Remove: archive file [/home/abi/fetcher/tmp/fugle_trade_core-0.5.1-cp37-abi3-win_amd64.whl.zip]
+[2023-06-26 06:35:41] INFO root fetch - main [MainThread]: End processing [fugle-trade-core]: success
+[2023-06-26 06:35:50] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-26 06:35:50] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-26 06:35:50] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-26 06:35:50] INFO root fetch - main [MainThread]: Store serial: [18642064]
