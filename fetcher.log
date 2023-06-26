@@ -16257,3 +16257,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:54:44] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.5.tar.gz]
 [2023-06-26 13:54:44] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-06-26 13:54:44] INFO root fetch - main [MainThread]: Store serial: [18646030]
+[2023-06-26 13:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18646030]
+[2023-06-26 13:59:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: videomass
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyegt
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vertez
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotPython
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyko-sdk
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flexmeasures
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-pfx
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydatawork
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: configuraptor
+[2023-06-26 13:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lupin-grognard
+[2023-06-26 13:59:53] INFO root fetch - processPackages [flexmeasures]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 13:59:53] WARNING root fetch - processPackages [pyegt]: Skipping, unable to determine old version
+[2023-06-26 13:59:53] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-26 13:59:53] INFO root fetch - main [MainThread]: End processing [pyegt] error
+[2023-06-26 13:59:53] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 13:59:53] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 13:59:53] WARNING root fetch - processPackages [vertez]: Skipping, unable to determine old version
+[2023-06-26 13:59:53] INFO root fetch - main [MainThread]: End processing [vertez] error
+[2023-06-26 13:59:53] INFO root fetch - processPackages [videomass]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-06-26 13:59:53] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-26 13:59:53] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [configuraptor]: New version: [1.9.2] Old Version: [1.8.0]
+[2023-06-26 13:59:53] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev60]
+[2023-06-26 13:59:53] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/40/d0/f693b6b7fac79bf93bf29f86700d7bf9d3907f438daeea364d75bb2eb91c/hyko_sdk-0.1.7.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/54/d6/5f4106babfe3f4bed4f79ff5e21ee46b716203802745656119b7921714e7/flexmeasures-0.9.3.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [videomass]: Downloading https://files.pythonhosted.org/packages/b5/43/26433b36301fb05b3f75fcb51d3127b4c83a56f955d7cc89652fa6864c12/videomass-5.0.1.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/ed/b7/6f92d13de634ff5ec43ecd646f7b7028b150492524b618b92688e4d95f5d/django-pfx-1.2.dev60.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/57/19/34925c0692fe8cf372d2738b4eb23d59ca29288419a5571f3d13d6758c0b/configuraptor-1.8.0.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-26 13:59:53] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-26 13:59:53] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230626/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 13:59:54] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-26 13:59:54] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230626/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 13:59:54] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-26 13:59:54] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-06-26 13:59:54] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-26 13:59:54] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.7.tar.gz tmp/hyko_sdk-0.1.8.tar.gz --markdown 20230626/h/hyko-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 13:59:54] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-26 13:59:54] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230626/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 13:59:54] INFO root fetch - processPackages [videomass]: Downloading https://files.pythonhosted.org/packages/82/d6/15f9ffecb27e9be7916657045065316ada27cd6621922f16b8002f42297d/videomass-5.0.2.tar.gz
+[2023-06-26 13:59:54] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/c6/5d/8f10cf246fa624fdfd121882fdd621658a55715eeddeac38ddcbe5d0f3f8/configuraptor-1.9.2.tar.gz
+[2023-06-26 13:59:54] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-06-26 13:59:54] INFO root fetch - processPackages [videomass]: executing diffoscope
+[2023-06-26 13:59:54] INFO root fetch - processPackages [videomass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videomass-5.0.1.tar.gz tmp/videomass-5.0.2.tar.gz --markdown 20230626/v/videomass/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-06-26 13:59:54] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-26 13:59:54] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.8.0.tar.gz tmp/configuraptor-1.9.2.tar.gz --markdown 20230626/c/configuraptor/1.8.0-1.9.2/diff.md --exclude *.pyd
+[2023-06-26 13:59:54] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-06-26 13:59:54] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev60.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230626/d/django-pfx/1.2.dev60-1.2.dev8/diff.md --exclude *.pyd
+[2023-06-26 13:59:54] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/36/f9/a77949c243c7adde4c28f2a6861c0208ad20e4f95832238f910fdbea1103/flexmeasures-0.9.4.tar.gz
+[2023-06-26 13:59:55] INFO root fetch - processPackages [flexmeasures]: executing diffoscope
+[2023-06-26 13:59:55] INFO root fetch - processPackages [flexmeasures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexmeasures-0.9.3.tar.gz tmp/flexmeasures-0.9.4.tar.gz --markdown 20230626/f/flexmeasures/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 13:59:55] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-26 13:59:55] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-26 13:59:55] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-26 13:59:55] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.7.tar.gz]
+[2023-06-26 13:59:55] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-06-26 13:59:55] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-26 13:59:55] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-26 13:59:55] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-26 13:59:55] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-26 13:59:56] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.8.0.tar.gz]
+[2023-06-26 13:59:56] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.9.2.tar.gz]
+[2023-06-26 13:59:56] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-26 13:59:57] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev60.tar.gz]
+[2023-06-26 13:59:57] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev8.tar.gz]
+[2023-06-26 13:59:57] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-06-26 13:59:59] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.3.tar.gz]
+[2023-06-26 13:59:59] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.4.tar.gz]
+[2023-06-26 13:59:59] INFO root fetch - main [MainThread]: End processing [flexmeasures]: success
+[2023-06-26 14:00:02] INFO root fetch - processPackages [videomass]: Remove: archive file [/home/abi/fetcher/tmp/videomass-5.0.1.tar.gz]
+[2023-06-26 14:00:02] INFO root fetch - processPackages [videomass]: Remove: archive file [/home/abi/fetcher/tmp/videomass-5.0.2.tar.gz]
+[2023-06-26 14:00:02] INFO root fetch - main [MainThread]: End processing [videomass]: success
+[2023-06-26 14:00:06] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-26 14:00:06] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-26 14:00:06] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-26 14:00:06] INFO root fetch - main [MainThread]: Store serial: [18646079]
