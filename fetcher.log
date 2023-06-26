@@ -18373,3 +18373,291 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 15:13:31] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.25-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-26 15:13:31] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-06-26 15:13:31] INFO root fetch - main [MainThread]: Store serial: [18647124]
+[2023-06-26 15:18:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18647124]
+[2023-06-26 15:18:43] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dn3
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MicroLIA
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: convocations
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atlaspy
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supervisely
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multiversx-sdk-network-providers
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-pusher-flask
+[2023-06-26 15:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mflag
+[2023-06-26 15:18:43] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-06-26 15:18:43] WARNING root fetch - processPackages [xia-pusher-flask]: Skipping, unable to determine old version
+[2023-06-26 15:18:43] INFO root fetch - processPackages [dn3]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-26 15:18:43] INFO root fetch - processPackages [MicroLIA]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-06-26 15:18:43] INFO root fetch - processPackages [xia-pusher-flask]: Start processing: easys-ordermanager
+[2023-06-26 15:18:43] INFO root fetch - main [MainThread]: End processing [xia-pusher-flask] error
+[2023-06-26 15:18:43] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.7] Old Version: [0.1.9.6]
+[2023-06-26 15:18:43] INFO root fetch - processPackages [multiversx-sdk-network-providers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 15:18:43] INFO root fetch - processPackages [mflag]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-06-26 15:18:43] INFO root fetch - processPackages [atlaspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 15:18:43] INFO root fetch - processPackages [convocations]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 15:18:43] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 15:18:43] INFO root fetch - processPackages [easys-ordermanager]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-26 15:18:43] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/dd/5d/c559c4dcd95807aef5d86de327f34c9a0c4c9d3839a033ecd9428cd729b4/atlaspy-0.0.8.tar.gz
+[2023-06-26 15:18:43] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/af/6e/a4bd4ff5c738b79f2afcbb3003b3237f8b0feaf448af0fe08a3ffa650a0a/easys-ordermanager-2.2.2.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [MicroLIA]: Downloading https://files.pythonhosted.org/packages/1f/75/b308c8b37fb08a387fccc007a643ff6ee364a9832f8321a502ac51ed879e/MicroLIA-2.2.6.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [dn3]: Downloading https://files.pythonhosted.org/packages/16/57/a63dd1f1dcb1a1595cbab0091b8040cc726072cd1c32a468ebb0828e0529/dn3-1.2.0.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/11/bf/b6f7f5cc146631c6802a1a5aaf8178126a569ce20c3038822dc236fc231a/pillar1-0.1.9.6.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/89/ce/2d19543b26d195805bdab5420c20f93e8f3d5f6a9954648589996718fcb0/convocations-0.8.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/3f/bc/295cdc5daad0264be6aadf4a2bc5bece9987b45b8837dc859226304280d7/mflag-1.6.6.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/27/f1/3cbbc62fb266ba87a09ce15850305f92b122e977a5466a36af5bf78c5567/multiversx_sdk_network_providers-0.8.0.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/4b/74/c0befa344981f4a0f3f91a09d1f9ceae135cf702ef7ba5bec619770e1550/easys-ordermanager-2.2.3.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [easys-ordermanager]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [easys-ordermanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easys-ordermanager-2.2.2.tar.gz tmp/easys-ordermanager-2.2.3.tar.gz --markdown 20230626/e/easys-ordermanager/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-26 15:18:44] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230626/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 15:18:44] INFO root fetch - processPackages [MicroLIA]: Downloading https://files.pythonhosted.org/packages/63/3c/7d06c271e0e4d3dbb41ade05cdcc35d94a184814a5dacfed877cff11f3b2/MicroLIA-2.2.7.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [atlaspy]: Downloading https://files.pythonhosted.org/packages/3a/9c/0d067b2bf3950f09a6219734090e44577bdf53d6bffc9c44e5a322d02d05/atlaspy-0.0.9.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/90/d1/1369957dcb347a73705514eb53550d2f2c602373a0719cbd1796c4a74827/convocations-0.9.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/72/cf/61c604b5b0e2210d1635a7ac22bfc895a8e118eef048bbdc91d131ec9b68/mflag-1.6.7.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [MicroLIA]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [dn3]: Downloading https://files.pythonhosted.org/packages/3a/5e/957c0dd72757f6b4deb4f91a365aec82cd3c1e11fa15be84430f823a49a9/dn3-1.2.1.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [MicroLIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MicroLIA-2.2.6.tar.gz tmp/MicroLIA-2.2.7.tar.gz --markdown 20230626/M/MicroLIA/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-06-26 15:18:44] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/16/99/4ef436295d8240dde7d8e77b0a87b94fd67041640ac5815cefbeacf91b2f/multiversx_sdk_network_providers-0.9.0.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/10/54/599d755c817b874f65c4531512e6e352741f231f9a260599ea6fd5852c51/pillar1-0.1.9.7.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [atlaspy]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [atlaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlaspy-0.0.8.tar.gz tmp/atlaspy-0.0.9.tar.gz --markdown 20230626/a/atlaspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:18:44] INFO root fetch - processPackages [convocations]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-06-26 15:18:44] INFO root fetch - processPackages [convocations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convocations-0.8.tar.gz tmp/convocations-0.9.tar.gz --markdown 20230626/c/convocations/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 15:18:44] INFO root fetch - processPackages [dn3]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [dn3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dn3-1.2.0.tar.gz tmp/dn3-1.2.1.tar.gz --markdown 20230626/d/dn3/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-26 15:18:44] INFO root fetch - processPackages [mflag]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [mflag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mflag-1.6.6.tar.gz tmp/mflag-1.6.7.tar.gz --markdown 20230626/m/mflag/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-06-26 15:18:44] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.6.tar.gz tmp/pillar1-0.1.9.7.tar.gz --markdown 20230626/p/pillar1/0.1.9.6-0.1.9.7/diff.md --exclude *.pyd
+[2023-06-26 15:18:44] INFO root fetch - processPackages [multiversx-sdk-network-providers]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [multiversx-sdk-network-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_network_providers-0.8.0.tar.gz tmp/multiversx_sdk_network_providers-0.9.0.tar.gz --markdown 20230626/m/multiversx-sdk-network-providers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 15:18:44] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-06-26 15:18:44] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230626/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-06-26 15:18:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [nbdev-pandas]: Start processing: cognite-power-ops
+[2023-06-26 15:18:46] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-26 15:18:46] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-26 15:18:46] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-1.6.6.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-1.6.7.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [mflag]: Start processing: pydantic-settings-create
+[2023-06-26 15:18:46] INFO root fetch - main [MainThread]: End processing [mflag]: success
+[2023-06-26 15:18:46] ERROR root fetch - processPackages [pydantic-settings-create]: Unable to get metadata: No such project 'pydantic-settings-create'
+[2023-06-26 15:18:46] INFO root fetch - processPackages [pydantic-settings-create]: Start processing: dev-gpt
+[2023-06-26 15:18:46] INFO root fetch - main [MainThread]: End processing [pydantic-settings-create] error
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.45.dev1] Old Version: [0.18.44.dev3]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.8.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [atlaspy]: Remove: archive file [/home/abi/fetcher/tmp/atlaspy-0.0.9.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [atlaspy]: Start processing: nbdev-pytorch
+[2023-06-26 15:18:46] INFO root fetch - main [MainThread]: End processing [atlaspy]: success
+[2023-06-26 15:18:46] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.6.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.7.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [pillar1]: Start processing: dev-gpt
+[2023-06-26 15:18:46] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-26 15:18:46] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.45.dev1] Old Version: [0.18.44.dev3]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-26 15:18:46] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_network_providers-0.8.0.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_network_providers-0.9.0.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Start processing: ibmpairs
+[2023-06-26 15:18:46] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-network-providers]: success
+[2023-06-26 15:18:46] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-26 15:18:46] INFO root fetch - processPackages [ibmpairs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/99/1a/a5bfe758860c86e7f3400b269c8c4396d84132568508eba07e89e20cdef7/dev-gpt-0.18.44.dev3.tar.gz
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/99/1a/a5bfe758860c86e7f3400b269c8c4396d84132568508eba07e89e20cdef7/dev-gpt-0.18.44.dev3.tar.gz
+[2023-06-26 15:18:46] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-26 15:18:46] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230626/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-26 15:18:46] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-26 15:18:46] INFO root fetch - processPackages [ibmpairs]: Downloading https://files.pythonhosted.org/packages/1b/04/6bda102a4648d83d7276b3a50b33f03cf7995b8f8f511396517e4cc1dacc/ibmpairs-0.2.8.tar.gz
+[2023-06-26 15:18:46] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-26 15:18:46] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230626/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/94/18/abb1c513a4f47796083ba83564ac26d2e29f1a76479bf293e3b4ba670c6a/dev-gpt-0.18.45.dev1.tar.gz
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/94/18/abb1c513a4f47796083ba83564ac26d2e29f1a76479bf293e3b4ba670c6a/dev-gpt-0.18.45.dev1.tar.gz
+[2023-06-26 15:18:46] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-0.8.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-0.9.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [convocations]: Start processing: dev-gpt
+[2023-06-26 15:18:46] INFO root fetch - main [MainThread]: End processing [convocations]: success
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.45.dev1] Old Version: [0.18.44.dev3]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dn3]: Remove: archive file [/home/abi/fetcher/tmp/dn3-1.2.0.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dn3]: Remove: archive file [/home/abi/fetcher/tmp/dn3-1.2.1.tar.gz]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dn3]: Start processing: fredtools
+[2023-06-26 15:18:46] INFO root fetch - main [MainThread]: End processing [dn3]: success
+[2023-06-26 15:18:46] INFO root fetch - processPackages [fredtools]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.44.dev3.tar.gz tmp/dev-gpt-0.18.45.dev1.tar.gz --markdown 20230626/d/dev-gpt/0.18.44.dev3-0.18.45.dev1/diff.md --exclude *.pyd
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-06-26 15:18:46] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.44.dev3.tar.gz tmp/dev-gpt-0.18.45.dev1.tar.gz --markdown 20230626/d/dev-gpt/0.18.44.dev3-0.18.45.dev1/diff.md --exclude *.pyd
+[2023-06-26 15:18:46] INFO root fetch - processPackages [ibmpairs]: Downloading https://files.pythonhosted.org/packages/f1/d8/2f080a7737c747de31a54619273e8a197937aeb10659b9ea950a0bfcc0ae/ibmpairs-0.2.9.tar.gz
+[2023-06-26 15:18:47] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-06-26 15:18:47] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.44.dev3.tar.gz tmp/dev-gpt-0.18.45.dev1.tar.gz --markdown 20230626/d/dev-gpt/0.18.44.dev3-0.18.45.dev1/diff.md --exclude *.pyd
+[2023-06-26 15:18:47] INFO root fetch - processPackages [fredtools]: Downloading https://files.pythonhosted.org/packages/d5/d0/f1fc013c3cc4eddac58e4dc5e9c539865696e5baa03ce2cc269a714b657a/fredtools-0.6.8-py3-none-any.whl
+[2023-06-26 15:18:47] INFO root fetch - processPackages [ibmpairs]: executing diffoscope
+[2023-06-26 15:18:47] INFO root fetch - processPackages [ibmpairs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibmpairs-0.2.8.tar.gz tmp/ibmpairs-0.2.9.tar.gz --markdown 20230626/i/ibmpairs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 15:18:47] INFO root fetch - processPackages [fredtools]: Downloading https://files.pythonhosted.org/packages/e2/dc/be3d7c8d2dd0c27c957f25eafdfff7d7c0ae3b6bb2fabe88e2c73dedeb5b/fredtools-0.6.9-py3-none-any.whl
+[2023-06-26 15:18:47] INFO root fetch - processPackages [fredtools]: executing diffoscope
+[2023-06-26 15:18:47] INFO root fetch - processPackages [fredtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fredtools-0.6.8-py3-none-any.whl.zip tmp/fredtools-0.6.9-py3-none-any.whl.zip --markdown 20230626/f/fredtools/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-26 15:18:47] INFO root fetch - processPackages [easys-ordermanager]: Remove: archive file [/home/abi/fetcher/tmp/easys-ordermanager-2.2.2.tar.gz]
+[2023-06-26 15:18:47] INFO root fetch - processPackages [easys-ordermanager]: Remove: archive file [/home/abi/fetcher/tmp/easys-ordermanager-2.2.3.tar.gz]
+[2023-06-26 15:18:47] INFO root fetch - processPackages [easys-ordermanager]: Start processing: hyko-sdk
+[2023-06-26 15:18:47] INFO root fetch - main [MainThread]: End processing [easys-ordermanager]: success
+[2023-06-26 15:18:47] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 15:18:47] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-06-26 15:18:47] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-06-26 15:18:47] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-26 15:18:47] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230626/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 15:18:48] INFO root fetch - processPackages [dev-gpt]: Remove: archive file [/home/abi/fetcher/tmp/dev-gpt-0.18.44.dev3.tar.gz]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [dev-gpt]: Remove: archive file [/home/abi/fetcher/tmp/dev-gpt-0.18.45.dev1.tar.gz]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [dev-gpt]: Start processing: nbdev-scipy
+[2023-06-26 15:18:48] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-06-26 15:18:48] INFO root fetch - processPackages [ibmpairs]: Remove: archive file [/home/abi/fetcher/tmp/ibmpairs-0.2.8.tar.gz]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [ibmpairs]: Remove: archive file [/home/abi/fetcher/tmp/ibmpairs-0.2.9.tar.gz]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [ibmpairs]: Start processing: supy
+[2023-06-26 15:18:48] INFO root fetch - main [MainThread]: End processing [ibmpairs]: success
+[2023-06-26 15:18:48] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [dev-gpt]: Start processing: braincube-aws-core
+[2023-06-26 15:18:48] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-06-26 15:18:48] INFO root fetch - processPackages [fredtools]: Remove: archive file [/home/abi/fetcher/tmp/fredtools-0.6.8-py3-none-any.whl.zip]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [fredtools]: Remove: archive file [/home/abi/fetcher/tmp/fredtools-0.6.9-py3-none-any.whl.zip]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [fredtools]: Start processing: jsonl2x
+[2023-06-26 15:18:48] INFO root fetch - main [MainThread]: End processing [fredtools]: success
+[2023-06-26 15:18:48] INFO root fetch - processPackages [braincube-aws-core]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-26 15:18:48] INFO root fetch - processPackages [jsonl2x]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/b5/f5/74760a9cb28dd81745ba7a63d448d0de2b9be67f85851d1a8b0e1ae2f4a6/braincube-aws-core-0.0.7.tar.gz
+[2023-06-26 15:18:48] INFO root fetch - processPackages [jsonl2x]: Downloading https://files.pythonhosted.org/packages/43/cd/80bddc47fb0f9c5b4a133831f671f64e855071bbb433b26edaf79bb6649e/jsonl2x-0.1.1.tar.gz
+[2023-06-26 15:18:48] INFO root fetch - processPackages [supy]: New version: [2023.6.5.dev0] Old Version: [2023.6.3.dev0]
+[2023-06-26 15:18:48] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-26 15:18:48] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-26 15:18:48] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230626/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 15:18:49] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/95/dd/5d9de9c18b7b0e0372d399a0d2a8ff72db8459350f1b71aa6b8c7da3e062/braincube-aws-core-0.0.8.tar.gz
+[2023-06-26 15:18:49] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/dc/d9/e7016c5d432eb9634780aa201c5ccde9c44d9a2e3838a4ad3dcf796b9c6e/supy-2023.6.3.dev0-cp39-cp39-win_amd64.whl
+[2023-06-26 15:18:49] INFO root fetch - processPackages [jsonl2x]: Downloading https://files.pythonhosted.org/packages/ea/23/783f4f85cadec9f06a33617085d0d71080ba403917cdb544d8c71d8af13b/jsonl2x-0.1.2.tar.gz
+[2023-06-26 15:18:49] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-26 15:18:49] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-26 15:18:49] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-26 15:18:49] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-06-26 15:18:49] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-06-26 15:18:49] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-26 15:18:49] ERROR root fetch - processPackages [dev-gpt]: Diffoscope failed: gzip: tmp/dev-gpt-0.18.45.dev1.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/dev-gpt-0.18.45.dev1.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-26 15:18:49] INFO root fetch - main [MainThread]: End processing [dev-gpt] error
+[2023-06-26 15:18:49] INFO root fetch - processPackages [jsonl2x]: executing diffoscope
+[2023-06-26 15:18:49] INFO root fetch - processPackages [jsonl2x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonl2x-0.1.1.tar.gz tmp/jsonl2x-0.1.2.tar.gz --markdown 20230626/j/jsonl2x/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 15:18:49] INFO root fetch - processPackages [braincube-aws-core]: executing diffoscope
+[2023-06-26 15:18:49] INFO root fetch - processPackages [braincube-aws-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-0.0.7.tar.gz tmp/braincube-aws-core-0.0.8.tar.gz --markdown 20230626/b/braincube-aws-core/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-26 15:18:49] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-26 15:18:49] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-26 15:18:49] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-26 15:18:49] INFO root fetch - processPackages [supy]: Downloading https://files.pythonhosted.org/packages/16/1e/f441faaeaa1d23829d9691c1cb6a920f98c05088e419e77d595ef955f5b1/supy-2023.6.5.dev0-cp39-cp39-win_amd64.whl
+[2023-06-26 15:18:50] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-26 15:18:50] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-26 15:18:50] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-26 15:18:50] INFO root fetch - processPackages [supy]: executing diffoscope
+[2023-06-26 15:18:50] INFO root fetch - processPackages [supy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supy-2023.6.3.dev0-cp39-cp39-win_amd64.whl.zip tmp/supy-2023.6.5.dev0-cp39-cp39-win_amd64.whl.zip --markdown 20230626/s/supy/2023.6.3.dev0-2023.6.5.dev0/diff.md --exclude *.pyd
+[2023-06-26 15:18:50] INFO root fetch - processPackages [jsonl2x]: Remove: archive file [/home/abi/fetcher/tmp/jsonl2x-0.1.1.tar.gz]
+[2023-06-26 15:18:50] INFO root fetch - processPackages [jsonl2x]: Remove: archive file [/home/abi/fetcher/tmp/jsonl2x-0.1.2.tar.gz]
+[2023-06-26 15:18:50] INFO root fetch - main [MainThread]: End processing [jsonl2x]: success
+[2023-06-26 15:18:50] INFO root fetch - processPackages [MicroLIA]: Remove: archive file [/home/abi/fetcher/tmp/MicroLIA-2.2.6.tar.gz]
+[2023-06-26 15:18:50] INFO root fetch - processPackages [MicroLIA]: Remove: archive file [/home/abi/fetcher/tmp/MicroLIA-2.2.7.tar.gz]
+[2023-06-26 15:18:50] INFO root fetch - main [MainThread]: End processing [MicroLIA]: success
+[2023-06-26 15:18:51] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-06-26 15:18:51] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-06-26 15:18:51] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-06-26 15:18:51] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.7.tar.gz]
+[2023-06-26 15:18:51] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.8.tar.gz]
+[2023-06-26 15:18:51] INFO root fetch - main [MainThread]: End processing [braincube-aws-core]: success
+[2023-06-26 15:18:51] INFO root fetch - processPackages [supy]: Remove: archive file [/home/abi/fetcher/tmp/supy-2023.6.3.dev0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 15:18:51] INFO root fetch - processPackages [supy]: Remove: archive file [/home/abi/fetcher/tmp/supy-2023.6.5.dev0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 15:18:51] INFO root fetch - main [MainThread]: End processing [supy]: success
+[2023-06-26 15:18:51] INFO root fetch - main [MainThread]: Store serial: [18647212]
