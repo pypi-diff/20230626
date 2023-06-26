@@ -6827,3 +6827,297 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 06:09:33] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
 [2023-06-26 06:09:33] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-06-26 06:09:33] INFO root fetch - main [MainThread]: Store serial: [18641918]
+[2023-06-26 06:14:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641918]
+[2023-06-26 06:14:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splam
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splam
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: splam
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acore-soap-app
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splam
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splam
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: splam
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: splam
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aimsgb
+[2023-06-26 06:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fast-matrix-market
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [acore-soap-app]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [aimsgb]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [fast-matrix-market]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-26 06:14:46] INFO root fetch - processPackages [fast-matrix-market]: Downloading https://files.pythonhosted.org/packages/5e/f0/d3f0c63694c3a57d54a49ea52eea096b3056f85ebf58024524d3bff1ef96/fast-matrix-market-1.7.0.tar.gz
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/d2/5b/22a4fcfe26a0143961724c2e97dd652e9be936686eca0d133a4ed8768d6e/splam-0.2.5-py3.8-macosx-11.1-arm64.egg
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/d2/5b/22a4fcfe26a0143961724c2e97dd652e9be936686eca0d133a4ed8768d6e/splam-0.2.5-py3.8-macosx-11.1-arm64.egg
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/d2/5b/22a4fcfe26a0143961724c2e97dd652e9be936686eca0d133a4ed8768d6e/splam-0.2.5-py3.8-macosx-11.1-arm64.egg
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/d2/5b/22a4fcfe26a0143961724c2e97dd652e9be936686eca0d133a4ed8768d6e/splam-0.2.5-py3.8-macosx-11.1-arm64.egg
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/d2/5b/22a4fcfe26a0143961724c2e97dd652e9be936686eca0d133a4ed8768d6e/splam-0.2.5-py3.8-macosx-11.1-arm64.egg
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/d2/5b/22a4fcfe26a0143961724c2e97dd652e9be936686eca0d133a4ed8768d6e/splam-0.2.5-py3.8-macosx-11.1-arm64.egg
+[2023-06-26 06:14:46] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/d2/5b/22a4fcfe26a0143961724c2e97dd652e9be936686eca0d133a4ed8768d6e/splam-0.2.5-py3.8-macosx-11.1-arm64.egg
+[2023-06-26 06:14:47] INFO root fetch - processPackages [acore-soap-app]: Downloading https://files.pythonhosted.org/packages/62/f6/c81532a9c4c24c56ff27cd2784e6f3d60472471a434b259d5aebf24e8d1c/acore_soap_app-0.1.1.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [aimsgb]: Downloading https://files.pythonhosted.org/packages/20/b9/45efa6f226c52adabedfda1c77b1f2d2a2e808cbd978f11f60853390b5ba/aimsgb-0.1.3.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [acore-soap-app]: Downloading https://files.pythonhosted.org/packages/a6/b0/ccf726e0382c8feeb5922140bf106a708d11038c0fe46585234b273cdcf2/acore_soap_app-0.2.1.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [fast-matrix-market]: Downloading https://files.pythonhosted.org/packages/8a/78/d4fd716cddca43c5b526c70a989ea091cac39eb0b7bf866f7d296e914a7c/fast-matrix-market-1.7.1.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/f6/9c/4828dd12bb6172adcc2ca51a572c807da6f03b933af30d7d422028200833/splam-0.2.6.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/f6/9c/4828dd12bb6172adcc2ca51a572c807da6f03b933af30d7d422028200833/splam-0.2.6.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/f6/9c/4828dd12bb6172adcc2ca51a572c807da6f03b933af30d7d422028200833/splam-0.2.6.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/f6/9c/4828dd12bb6172adcc2ca51a572c807da6f03b933af30d7d422028200833/splam-0.2.6.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/f6/9c/4828dd12bb6172adcc2ca51a572c807da6f03b933af30d7d422028200833/splam-0.2.6.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/f6/9c/4828dd12bb6172adcc2ca51a572c807da6f03b933af30d7d422028200833/splam-0.2.6.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [aimsgb]: Downloading https://files.pythonhosted.org/packages/7c/4f/70164562fd1048895f8c626cf7a418a51acf65c1ff9e057f965d9512c1b5/aimsgb-1.0.0.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: Downloading https://files.pythonhosted.org/packages/f6/9c/4828dd12bb6172adcc2ca51a572c807da6f03b933af30d7d422028200833/splam-0.2.6.tar.gz
+[2023-06-26 06:14:47] INFO root fetch - processPackages [fast-matrix-market]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [fast-matrix-market]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-matrix-market-1.7.0.tar.gz tmp/fast-matrix-market-1.7.1.tar.gz --markdown 20230626/f/fast-matrix-market/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-26 06:14:47] INFO root fetch - processPackages [acore-soap-app]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [acore-soap-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_soap_app-0.1.1.tar.gz tmp/acore_soap_app-0.2.1.tar.gz --markdown 20230626/a/acore-soap-app/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splam-0.2.5-py3.8-macosx-11.1-arm64.egg tmp/splam-0.2.6.tar.gz --markdown 20230626/s/splam/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splam-0.2.5-py3.8-macosx-11.1-arm64.egg tmp/splam-0.2.6.tar.gz --markdown 20230626/s/splam/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splam-0.2.5-py3.8-macosx-11.1-arm64.egg tmp/splam-0.2.6.tar.gz --markdown 20230626/s/splam/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splam-0.2.5-py3.8-macosx-11.1-arm64.egg tmp/splam-0.2.6.tar.gz --markdown 20230626/s/splam/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splam-0.2.5-py3.8-macosx-11.1-arm64.egg tmp/splam-0.2.6.tar.gz --markdown 20230626/s/splam/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splam-0.2.5-py3.8-macosx-11.1-arm64.egg tmp/splam-0.2.6.tar.gz --markdown 20230626/s/splam/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [splam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splam-0.2.5-py3.8-macosx-11.1-arm64.egg tmp/splam-0.2.6.tar.gz --markdown 20230626/s/splam/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 06:14:47] INFO root fetch - processPackages [aimsgb]: executing diffoscope
+[2023-06-26 06:14:47] INFO root fetch - processPackages [aimsgb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimsgb-0.1.3.tar.gz tmp/aimsgb-1.0.0.tar.gz --markdown 20230626/a/aimsgb/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 06:14:49] INFO root fetch - processPackages [acore-soap-app]: Remove: archive file [/home/abi/fetcher/tmp/acore_soap_app-0.1.1.tar.gz]
+[2023-06-26 06:14:49] INFO root fetch - processPackages [acore-soap-app]: Remove: archive file [/home/abi/fetcher/tmp/acore_soap_app-0.2.1.tar.gz]
+[2023-06-26 06:14:49] INFO root fetch - processPackages [acore-soap-app]: Start processing: osom-work
+[2023-06-26 06:14:49] INFO root fetch - main [MainThread]: End processing [acore-soap-app]: success
+[2023-06-26 06:14:49] WARNING root fetch - processPackages [osom-work]: Skipping, unable to determine old version
+[2023-06-26 06:14:49] INFO root fetch - processPackages [osom-work]: Start processing: proactive
+[2023-06-26 06:14:49] INFO root fetch - main [MainThread]: End processing [osom-work] error
+[2023-06-26 06:14:49] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-26 06:14:49] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-26 06:14:49] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-26 06:14:49] INFO root fetch - processPackages [proactive]: Start processing: dank-mids
+[2023-06-26 06:14:49] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-26 06:14:49] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-26 06:14:49] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-26 06:14:49] INFO root fetch - processPackages [fast-matrix-market]: Remove: archive file [/home/abi/fetcher/tmp/fast-matrix-market-1.7.0.tar.gz]
+[2023-06-26 06:14:49] INFO root fetch - processPackages [fast-matrix-market]: Remove: archive file [/home/abi/fetcher/tmp/fast-matrix-market-1.7.1.tar.gz]
+[2023-06-26 06:14:49] INFO root fetch - processPackages [fast-matrix-market]: Start processing: proactive-jupyter-kernel
+[2023-06-26 06:14:49] INFO root fetch - main [MainThread]: End processing [fast-matrix-market]: success
+[2023-06-26 06:14:49] INFO root fetch - processPackages [splam]: Remove: archive file [/home/abi/fetcher/tmp/splam-0.2.5-py3.8-macosx-11.1-arm64.egg]
+[2023-06-26 06:14:49] INFO root fetch - processPackages [splam]: Remove: archive file [/home/abi/fetcher/tmp/splam-0.2.6.tar.gz]
+[2023-06-26 06:14:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-26 06:14:49] INFO root fetch - processPackages [splam]: Start processing: scrippy-db
+[2023-06-26 06:14:49] INFO root fetch - main [MainThread]: End processing [splam]: success
+[2023-06-26 06:14:50] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-26 06:14:50] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-26 06:14:50] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230626/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-26 06:14:50] INFO root fetch - processPackages [scrippy-db]: New version: [1.1.76] Old Version: [1.1.75]
+[2023-06-26 06:14:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-26 06:14:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230626/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-26 06:14:50] INFO root fetch - processPackages [scrippy-db]: Downloading https://files.pythonhosted.org/packages/07/0b/abfd051c7d5292616c4c963ecc15f77787cba8d696aae1d1e9d2b8b12897/scrippy-db-1.1.75.tar.gz
+[2023-06-26 06:14:50] ERROR root fetch - processPackages [splam]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 235, in compare
+    details = self.compare_bytes(other, source=source)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-26 06:14:50] INFO root fetch - main [MainThread]: End processing [splam] error
+[2023-06-26 06:14:50] ERROR root fetch - processPackages [splam]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 235, in compare
+    details = self.compare_bytes(other, source=source)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-26 06:14:50] INFO root fetch - main [MainThread]: End processing [splam] error
+[2023-06-26 06:14:50] INFO root fetch - main [MainThread]: End processing [splam]: success
+[2023-06-26 06:14:50] INFO root fetch - processPackages [scrippy-db]: Downloading https://files.pythonhosted.org/packages/f1/42/65ac22ca0494af78ff3b3b246ac108f7e30a4676a0be13c01daa1f557b31/scrippy-db-1.1.76.tar.gz
+[2023-06-26 06:14:50] INFO root fetch - main [MainThread]: End processing [splam]: success
+[2023-06-26 06:14:50] ERROR root fetch - processPackages [splam]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 235, in compare
+    details = self.compare_bytes(other, source=source)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-26 06:14:50] INFO root fetch - main [MainThread]: End processing [splam] error
+[2023-06-26 06:14:50] INFO root fetch - processPackages [scrippy-db]: executing diffoscope
+[2023-06-26 06:14:50] INFO root fetch - processPackages [scrippy-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrippy-db-1.1.75.tar.gz tmp/scrippy-db-1.1.76.tar.gz --markdown 20230626/s/scrippy-db/1.1.75-1.1.76/diff.md --exclude *.pyd
+[2023-06-26 06:14:50] INFO root fetch - main [MainThread]: End processing [splam]: success
+[2023-06-26 06:14:51] INFO root fetch - processPackages [aimsgb]: Remove: archive file [/home/abi/fetcher/tmp/aimsgb-0.1.3.tar.gz]
+[2023-06-26 06:14:51] INFO root fetch - processPackages [aimsgb]: Remove: archive file [/home/abi/fetcher/tmp/aimsgb-1.0.0.tar.gz]
+[2023-06-26 06:14:51] INFO root fetch - main [MainThread]: End processing [aimsgb]: success
+[2023-06-26 06:14:52] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-26 06:14:52] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-26 06:14:52] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-26 06:14:52] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-26 06:14:52] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-26 06:14:52] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-26 06:14:52] INFO root fetch - processPackages [scrippy-db]: Remove: archive file [/home/abi/fetcher/tmp/scrippy-db-1.1.75.tar.gz]
+[2023-06-26 06:14:52] INFO root fetch - processPackages [scrippy-db]: Remove: archive file [/home/abi/fetcher/tmp/scrippy-db-1.1.76.tar.gz]
+[2023-06-26 06:14:52] INFO root fetch - main [MainThread]: End processing [scrippy-db]: success
+[2023-06-26 06:14:52] INFO root fetch - main [MainThread]: Store serial: [18641994]
