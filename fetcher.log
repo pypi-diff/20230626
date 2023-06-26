@@ -5367,3 +5367,33 @@
 [2023-06-26 04:07:13] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
 [2023-06-26 04:07:13] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-06-26 04:07:13] INFO root fetch - main [MainThread]: Store serial: [18641385]
+[2023-06-26 04:12:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641385]
+[2023-06-26 04:12:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-26 04:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BlitzChain
+[2023-06-26 04:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domain-admin
+[2023-06-26 04:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gptrepo
+[2023-06-26 04:12:22] INFO root fetch - processPackages [BlitzChain]: New version: [0.1.1] Old Version: [0.0.0]
+[2023-06-26 04:12:22] INFO root fetch - processPackages [gptrepo]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-26 04:12:22] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-26 04:12:22] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-06-26 04:12:22] INFO root fetch - processPackages [gptrepo]: Downloading https://files.pythonhosted.org/packages/0c/b1/9d74d5bd0faed568132b55ec3c078e61bc93d97d4c103c3efe4c9b28ebdd/gptrepo-1.0.2.tar.gz
+[2023-06-26 04:12:22] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/5c/23/4f07dbf5c60e45a3e7c3248d934b9e229a2db65421ee06e6c6c02c572081/BlitzChain-0.0.0.tar.gz
+[2023-06-26 04:12:23] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/0b/a7/266cae20bc20768f836f8baa31e0c0449b7584c8de836667f40098ba024d/BlitzChain-0.1.1.tar.gz
+[2023-06-26 04:12:23] INFO root fetch - processPackages [gptrepo]: Downloading https://files.pythonhosted.org/packages/ac/0d/045f3df978a3830f6f16e7b9cf1bf3e39f9037d797600020aa75457f80c3/gptrepo-1.0.3.tar.gz
+[2023-06-26 04:12:23] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-06-26 04:12:23] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-06-26 04:12:23] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.0.0.tar.gz tmp/BlitzChain-0.1.1.tar.gz --markdown 20230626/B/BlitzChain/0.0.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 04:12:23] INFO root fetch - processPackages [gptrepo]: executing diffoscope
+[2023-06-26 04:12:23] INFO root fetch - processPackages [gptrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptrepo-1.0.2.tar.gz tmp/gptrepo-1.0.3.tar.gz --markdown 20230626/g/gptrepo/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-26 04:12:23] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-26 04:12:23] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230626/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-26 04:12:24] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.0.0.tar.gz]
+[2023-06-26 04:12:24] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.1.1.tar.gz]
+[2023-06-26 04:12:24] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-06-26 04:12:24] INFO root fetch - processPackages [gptrepo]: Remove: archive file [/home/abi/fetcher/tmp/gptrepo-1.0.2.tar.gz]
+[2023-06-26 04:12:24] INFO root fetch - processPackages [gptrepo]: Remove: archive file [/home/abi/fetcher/tmp/gptrepo-1.0.3.tar.gz]
+[2023-06-26 04:12:24] INFO root fetch - main [MainThread]: End processing [gptrepo]: success
+[2023-06-26 04:12:36] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-06-26 04:12:36] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-06-26 04:12:36] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-26 04:12:36] INFO root fetch - main [MainThread]: Store serial: [18641395]
