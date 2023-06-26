@@ -9326,3 +9326,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:43:46] INFO root fetch - processPackages [evalplus]: Remove: archive file [/home/abi/fetcher/tmp/evalplus-0.1.6.tar.gz]
 [2023-06-26 08:43:46] INFO root fetch - main [MainThread]: End processing [evalplus]: success
 [2023-06-26 08:43:46] INFO root fetch - main [MainThread]: Store serial: [18642996]
+[2023-06-26 08:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642996]
+[2023-06-26 08:48:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-26 08:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastexception
+[2023-06-26 08:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stadiamaps
+[2023-06-26 08:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FPC
+[2023-06-26 08:48:55] INFO root fetch - processPackages [fastexception]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 08:48:55] INFO root fetch - processPackages [stadiamaps]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-26 08:48:55] INFO root fetch - processPackages [fastexception]: Downloading https://files.pythonhosted.org/packages/fe/61/13f60fa9b0d62f7969b4f63f1a2d84b8c9f49042535ac9a25f4db98d8559/fastexception-0.1.1.tar.gz
+[2023-06-26 08:48:55] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 08:48:56] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/c9/00/56df4866bee95211d5c64073ee23d83060458c550ad46372a2c97b6b839d/stadiamaps-1.0.5.tar.gz
+[2023-06-26 08:48:56] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2023-06-26 08:48:56] INFO root fetch - processPackages [fastexception]: Downloading https://files.pythonhosted.org/packages/c5/4b/cffa5f48911cdf27fd7031e42b7c1b549dd85ee9cd6b1c290805ad20694d/fastexception-0.1.2.tar.gz
+[2023-06-26 08:48:56] INFO root fetch - processPackages [fastexception]: executing diffoscope
+[2023-06-26 08:48:56] INFO root fetch - processPackages [fastexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastexception-0.1.1.tar.gz tmp/fastexception-0.1.2.tar.gz --markdown 20230626/f/fastexception/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 08:48:56] INFO root fetch - processPackages [stadiamaps]: Downloading https://files.pythonhosted.org/packages/14/4e/e6414656d32d268c0a62ef67eb5028431c577d13d3d58cc36ef1357b231d/stadiamaps-1.0.6.tar.gz
+[2023-06-26 08:48:56] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2023-06-26 08:48:56] INFO root fetch - processPackages [stadiamaps]: executing diffoscope
+[2023-06-26 08:48:56] INFO root fetch - processPackages [stadiamaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadiamaps-1.0.5.tar.gz tmp/stadiamaps-1.0.6.tar.gz --markdown 20230626/s/stadiamaps/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-26 08:48:56] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2023-06-26 08:48:56] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20230626/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 08:48:57] INFO root fetch - processPackages [fastexception]: Remove: archive file [/home/abi/fetcher/tmp/fastexception-0.1.1.tar.gz]
+[2023-06-26 08:48:57] INFO root fetch - processPackages [fastexception]: Remove: archive file [/home/abi/fetcher/tmp/fastexception-0.1.2.tar.gz]
+[2023-06-26 08:48:57] INFO root fetch - main [MainThread]: End processing [fastexception]: success
+[2023-06-26 08:48:57] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2023-06-26 08:48:57] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2023-06-26 08:48:57] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2023-06-26 08:49:00] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.5.tar.gz]
+[2023-06-26 08:49:00] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.6.tar.gz]
+[2023-06-26 08:49:00] INFO root fetch - main [MainThread]: End processing [stadiamaps]: success
+[2023-06-26 08:49:00] INFO root fetch - main [MainThread]: Store serial: [18643012]
