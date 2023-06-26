@@ -9065,3 +9065,79 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:27:51] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.1-py3-none-any.whl.zip]
 [2023-06-26 08:27:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
 [2023-06-26 08:27:51] INFO root fetch - main [MainThread]: Store serial: [18642892]
+[2023-06-26 08:33:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642892]
+[2023-06-26 08:33:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-26 08:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-invoice-inter-company
+[2023-06-26 08:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataclass-binder
+[2023-06-26 08:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rid-kit
+[2023-06-26 08:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HawaData
+[2023-06-26 08:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: draccus
+[2023-06-26 08:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-setu-now
+[2023-06-26 08:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rid-kit
+[2023-06-26 08:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TPE-Bot
+[2023-06-26 08:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytedee-async
+[2023-06-26 08:33:08] INFO root fetch - processPackages [HawaData]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-06-26 08:33:08] INFO root fetch - processPackages [rid-kit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-26 08:33:08] INFO root fetch - processPackages [nonebot-plugin-setu-now]: New version: [0.6.1] Old Version: [0.6.0b1]
+[2023-06-26 08:33:08] WARNING root fetch - processPackages [draccus]: Skipping, unable to determine old version
+[2023-06-26 08:33:08] INFO root fetch - main [MainThread]: End processing [draccus] error
+[2023-06-26 08:33:08] INFO root fetch - processPackages [TPE-Bot]: New version: [0.5.24] Old Version: [0.5.23]
+[2023-06-26 08:33:08] INFO root fetch - processPackages [pytedee-async]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 08:33:08] INFO root fetch - processPackages [odoo-addon-account-invoice-inter-company]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-26 08:33:08] INFO root fetch - processPackages [dataclass-binder]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-26 08:33:08] INFO root fetch - processPackages [rid-kit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-26 08:33:08] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Downloading https://files.pythonhosted.org/packages/87/bb/7116245e990b6d0044bafe04d2f4453f2ae4c46b12f2cf4f2b51cb019361/nonebot_plugin_setu_now-0.6.0b1.tar.gz
+[2023-06-26 08:33:08] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/90/32/b9c48780d4916e1a7dde2209da0546286632a0e558eb5ffab7cb50dd3328/HawaData-0.7.5.tar.gz
+[2023-06-26 08:33:08] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/9f/db/c0cbd2da532aea22e7e1d4df74dfac37c73ff3d2de07e737454b4ab92276/rid-kit-0.4.1.tar.gz
+[2023-06-26 08:33:08] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/9f/db/c0cbd2da532aea22e7e1d4df74dfac37c73ff3d2de07e737454b4ab92276/rid-kit-0.4.1.tar.gz
+[2023-06-26 08:33:08] INFO root fetch - processPackages [odoo-addon-account-invoice-inter-company]: Downloading https://files.pythonhosted.org/packages/6a/c8/b9038b365eb716f64d0d0f4f8a27ee1bd8f10b25c2ab52e963482d5ea090/odoo_addon_account_invoice_inter_company-16.0.1.0.1-py3-none-any.whl
+[2023-06-26 08:33:08] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/a6/a1/190197c883aadbfc57e30992ac57604793f7c788e446240161b19f84378c/pytedee_async-0.0.4.tar.gz
+[2023-06-26 08:33:08] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c0/2f/7c8ba068591ab1891cba73687fdf3fe5a8b586df443215264ad851ec24bf/TPE_Bot-0.5.23.tar.gz
+[2023-06-26 08:33:08] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Downloading https://files.pythonhosted.org/packages/ca/db/f1aa8524647ac76800d5ad44cede4d088887afdc419ea06cdfc1e8dd1992/nonebot_plugin_setu_now-0.6.1.tar.gz
+[2023-06-26 08:33:08] INFO root fetch - processPackages [dataclass-binder]: Downloading https://files.pythonhosted.org/packages/cb/f0/70dfd14138ed868a9fcd1a8a8cdc681bd6e10348c87fa828a46b586b0c0f/dataclass_binder-0.1.3.tar.gz
+[2023-06-26 08:33:08] INFO root fetch - processPackages [nonebot-plugin-setu-now]: executing diffoscope
+[2023-06-26 08:33:08] INFO root fetch - processPackages [nonebot-plugin-setu-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_setu_now-0.6.0b1.tar.gz tmp/nonebot_plugin_setu_now-0.6.1.tar.gz --markdown 20230626/n/nonebot-plugin-setu-now/0.6.0b1-0.6.1/diff.md --exclude *.pyd
+[2023-06-26 08:33:08] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/5f/0b/b062b99c56f4884d74482724553a74ab0cfae63df0f921446c71ef13f86e/HawaData-0.7.6.tar.gz
+[2023-06-26 08:33:09] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-26 08:33:09] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.7.5.tar.gz tmp/HawaData-0.7.6.tar.gz --markdown 20230626/H/HawaData/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-06-26 08:33:09] INFO root fetch - processPackages [odoo-addon-account-invoice-inter-company]: Downloading https://files.pythonhosted.org/packages/f4/80/8c014fcce1ab18e69b7fbdf3a2c3e3e82489fe3820e62e9724d3cf293419/odoo_addon_account_invoice_inter_company-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-26 08:33:09] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/06/83/ea93896d14952af93025214422529e9f87a25374e189754411f5b88c32fe/pytedee_async-0.0.5.tar.gz
+[2023-06-26 08:33:09] INFO root fetch - processPackages [pytedee-async]: executing diffoscope
+[2023-06-26 08:33:09] INFO root fetch - processPackages [pytedee-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytedee_async-0.0.4.tar.gz tmp/pytedee_async-0.0.5.tar.gz --markdown 20230626/p/pytedee-async/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 08:33:09] INFO root fetch - processPackages [odoo-addon-account-invoice-inter-company]: executing diffoscope
+[2023-06-26 08:33:09] INFO root fetch - processPackages [odoo-addon-account-invoice-inter-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_inter_company-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_inter_company-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-account-invoice-inter-company/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-26 08:33:09] INFO root fetch - processPackages [dataclass-binder]: Downloading https://files.pythonhosted.org/packages/dd/b6/9ae34c407f2b77488d8c78e5541ef5e277f31f6bfcad34e868fc0d09d938/dataclass_binder-0.2.0.tar.gz
+[2023-06-26 08:33:09] INFO root fetch - processPackages [dataclass-binder]: executing diffoscope
+[2023-06-26 08:33:09] INFO root fetch - processPackages [dataclass-binder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_binder-0.1.3.tar.gz tmp/dataclass_binder-0.2.0.tar.gz --markdown 20230626/d/dataclass-binder/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 08:33:09] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/5a/2f/958ce67f196a9c86b5b4275e4eca910695c11aaedddc951d1da541fcf66f/TPE_Bot-0.5.24.tar.gz
+[2023-06-26 08:33:09] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2023-06-26 08:33:09] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE_Bot-0.5.23.tar.gz tmp/TPE_Bot-0.5.24.tar.gz --markdown 20230626/T/TPE-Bot/0.5.23-0.5.24/diff.md --exclude *.pyd
+[2023-06-26 08:33:10] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/d5/0e/1d04bdfed87d5da0ae83e21045c4d3b7083a2d04957436edf789baf4461e/rid-kit-0.4.2.tar.gz
+[2023-06-26 08:33:10] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/d5/0e/1d04bdfed87d5da0ae83e21045c4d3b7083a2d04957436edf789baf4461e/rid-kit-0.4.2.tar.gz
+[2023-06-26 08:33:10] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2023-06-26 08:33:10] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid-kit-0.4.1.tar.gz tmp/rid-kit-0.4.2.tar.gz --markdown 20230626/r/rid-kit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-26 08:33:10] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_setu_now-0.6.0b1.tar.gz]
+[2023-06-26 08:33:10] INFO root fetch - processPackages [nonebot-plugin-setu-now]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_setu_now-0.6.1.tar.gz]
+[2023-06-26 08:33:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-setu-now]: success
+[2023-06-26 08:33:10] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2023-06-26 08:33:10] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid-kit-0.4.1.tar.gz tmp/rid-kit-0.4.2.tar.gz --markdown 20230626/r/rid-kit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-26 08:33:10] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.5.tar.gz]
+[2023-06-26 08:33:10] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.6.tar.gz]
+[2023-06-26 08:33:10] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-26 08:33:10] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.0.4.tar.gz]
+[2023-06-26 08:33:10] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.0.5.tar.gz]
+[2023-06-26 08:33:10] INFO root fetch - main [MainThread]: End processing [pytedee-async]: success
+[2023-06-26 08:33:11] INFO root fetch - processPackages [odoo-addon-account-invoice-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_inter_company-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-26 08:33:11] INFO root fetch - processPackages [odoo-addon-account-invoice-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_inter_company-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-26 08:33:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-inter-company]: success
+[2023-06-26 08:33:11] INFO root fetch - processPackages [dataclass-binder]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_binder-0.1.3.tar.gz]
+[2023-06-26 08:33:11] INFO root fetch - processPackages [dataclass-binder]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_binder-0.2.0.tar.gz]
+[2023-06-26 08:33:11] INFO root fetch - main [MainThread]: End processing [dataclass-binder]: success
+[2023-06-26 08:33:11] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE_Bot-0.5.23.tar.gz]
+[2023-06-26 08:33:11] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE_Bot-0.5.24.tar.gz]
+[2023-06-26 08:33:11] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2023-06-26 08:33:13] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.4.1.tar.gz]
+[2023-06-26 08:33:13] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.4.2.tar.gz]
+[2023-06-26 08:33:13] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
+[2023-06-26 08:33:13] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
+[2023-06-26 08:33:13] INFO root fetch - main [MainThread]: Store serial: [18642926]
