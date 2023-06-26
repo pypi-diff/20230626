@@ -19846,3 +19846,137 @@ EOFError: EOF read where object expected
 [2023-06-26 15:56:10] INFO root fetch - processPackages [kibot]: Remove: archive file [/home/abi/fetcher/tmp/kibot-1.6.3.tar.gz]
 [2023-06-26 15:56:10] INFO root fetch - main [MainThread]: End processing [kibot]: success
 [2023-06-26 15:56:10] INFO root fetch - main [MainThread]: Store serial: [18647733]
+[2023-06-26 16:01:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18647733]
+[2023-06-26 16:01:21] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatgpt-functions
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oking
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramodels
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytedee-async
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-graph-builder
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-api
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto_dataclass
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-pygen
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydantic-db-backend
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FuncsForSPO
+[2023-06-26 16:01:21] INFO root fetch - processPackages [dbt-graph-builder]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 16:01:21] WARNING root fetch - processPackages [chatgpt-functions]: Skipping, unable to determine old version
+[2023-06-26 16:01:21] INFO root fetch - processPackages [chatgpt-functions]: Start processing: PythonHuff
+[2023-06-26 16:01:21] INFO root fetch - main [MainThread]: End processing [chatgpt-functions] error
+[2023-06-26 16:01:21] INFO root fetch - processPackages [pytedee-async]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 16:01:21] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-06-26 16:01:21] INFO root fetch - processPackages [cognite-pygen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-26 16:01:21] INFO root fetch - processPackages [oking]: New version: [4.1.175] Old Version: [4.1.174]
+[2023-06-26 16:01:21] WARNING root fetch - processPackages [PythonHuff]: Skipping, unable to determine old version
+[2023-06-26 16:01:21] INFO root fetch - processPackages [PythonHuff]: Start processing: yandex-reviews-parser
+[2023-06-26 16:01:21] INFO root fetch - main [MainThread]: End processing [PythonHuff] error
+[2023-06-26 16:01:21] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/49/82/d7e1cb92030c77afd033a4cd97ce831aa86f011f31032ac20deaba40dee5/dbt-graph-builder-0.1.0.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [yandex-reviews-parser]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 16:01:21] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-06-26 16:01:21] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/00/1d/45e130588e398bb316a98f0e6793ef0d61220b74c7d14db5213e3f9f977e/cognite_pygen-0.9.0.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [pydantic-db-backend]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-26 16:01:21] WARNING root fetch - processPackages [auto_dataclass]: Skipping, unable to determine old version
+[2023-06-26 16:01:21] INFO root fetch - processPackages [auto_dataclass]: Start processing: chaco
+[2023-06-26 16:01:21] INFO root fetch - main [MainThread]: End processing [auto_dataclass] error
+[2023-06-26 16:01:21] INFO root fetch - processPackages [FuncsForSPO]: New version: [6.1.2] Old Version: [6.1.1]
+[2023-06-26 16:01:21] INFO root fetch - processPackages [yandex-reviews-parser]: Downloading https://files.pythonhosted.org/packages/41/3d/b52b3492220d737be7be8c5f5a193643e165738e5f54caa4ee838e8ed1cc/yandex_reviews_parser-0.1.0.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/37/4b/48785432bd2101da7cfc866aa061ebde4bbff3149b1b4db757166cb651c4/oking-4.1.174.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [chaco]: New version: [6.0.0] Old Version: [5.1.1]
+[2023-06-26 16:01:21] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-06-26 16:01:21] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/cb/e6/85064e2588ad7bd50b4142d3513ef1d8f331eb40864a38a0356577bb8932/FuncsForSPO-6.1.1.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [yandex-reviews-parser]: Downloading https://files.pythonhosted.org/packages/37/f9/71469ad24a0384da3d5f693ead24c0f95e91b611bd112da36a5efa717855/yandex_reviews_parser-0.1.1.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/29/50/18c10af19da6e83620e673ff8d77290b99a90892729564b8c77dee0b1682/pydantic_db_backend-0.3.0.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/ce/02/7ecd0882d447246a79ac11eff331b1c4e7890eb9fd3e85568a959aef9aa9/cognite_pygen-0.9.1.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/1c/a4/521f00f46c628479b40638f8d758c9730760df06a6045d39d6d906b820c6/dbt-graph-builder-0.1.1.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/e9/07/53925f2fb64c34da465959f828ad3716031f56a9aa881445565d36d58899/pytedee_async-0.0.8.tar.gz
+[2023-06-26 16:01:21] INFO root fetch - processPackages [yandex-reviews-parser]: executing diffoscope
+[2023-06-26 16:01:21] INFO root fetch - processPackages [yandex-reviews-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex_reviews_parser-0.1.0.tar.gz tmp/yandex_reviews_parser-0.1.1.tar.gz --markdown 20230626/y/yandex-reviews-parser/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 16:01:21] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82499270>=10485760
+[2023-06-26 16:01:21] INFO root fetch - processPackages [oking]: Start processing: PYPI-TEST-XT
+[2023-06-26 16:01:21] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-06-26 16:01:21] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-06-26 16:01:21] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2023-06-26 16:01:21] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230626/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-26 16:01:21] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.9.0.tar.gz tmp/cognite_pygen-0.9.1.tar.gz --markdown 20230626/c/cognite-pygen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 16:01:22] INFO root fetch - processPackages [chaco]: Downloading https://files.pythonhosted.org/packages/b0/91/170729a8f28729bbb2ff6ae19e98db44c3d4e70942eb06067da95cc06073/chaco-5.1.1.tar.gz
+[2023-06-26 16:01:22] INFO root fetch - processPackages [dbt-graph-builder]: executing diffoscope
+[2023-06-26 16:01:22] INFO root fetch - processPackages [dbt-graph-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-graph-builder-0.1.0.tar.gz tmp/dbt-graph-builder-0.1.1.tar.gz --markdown 20230626/d/dbt-graph-builder/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 16:01:22] WARNING root fetch - processPackages [PYPI-TEST-XT]: Skipping, unable to determine old version
+[2023-06-26 16:01:22] INFO root fetch - processPackages [PYPI-TEST-XT]: Start processing: ciphertrust-sdk
+[2023-06-26 16:01:22] INFO root fetch - main [MainThread]: End processing [PYPI-TEST-XT] error
+[2023-06-26 16:01:22] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/16/4f/f82986d75c4b3d2eebb1624a4a0f824a9732e5be687b4b32f84e8e967f4d/FuncsForSPO-6.1.2.tar.gz
+[2023-06-26 16:01:22] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/44/68/a95d9b88baac2d220d78d8f46f138d83c1649881a6dc3e576dfbc3092742/pydantic_db_backend-0.3.1.tar.gz
+[2023-06-26 16:01:22] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/f7/ed/4fbe2f168ad1676e4645207bede88706e3f79ddacb5433412eec431382fc/pytedee_async-0.0.9.tar.gz
+[2023-06-26 16:01:22] INFO root fetch - processPackages [ciphertrust-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-26 16:01:22] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-26 16:01:22] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-6.1.1.tar.gz tmp/FuncsForSPO-6.1.2.tar.gz --markdown 20230626/F/FuncsForSPO/6.1.1-6.1.2/diff.md --exclude *.pyd
+[2023-06-26 16:01:22] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-26 16:01:22] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-26 16:01:22] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230626/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-26 16:01:22] INFO root fetch - processPackages [pydantic-db-backend]: executing diffoscope
+[2023-06-26 16:01:22] INFO root fetch - processPackages [pydantic-db-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_db_backend-0.3.0.tar.gz tmp/pydantic_db_backend-0.3.1.tar.gz --markdown 20230626/p/pydantic-db-backend/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 16:01:22] INFO root fetch - processPackages [pytedee-async]: executing diffoscope
+[2023-06-26 16:01:22] INFO root fetch - processPackages [pytedee-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytedee_async-0.0.8.tar.gz tmp/pytedee_async-0.0.9.tar.gz --markdown 20230626/p/pytedee-async/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 16:01:22] INFO root fetch - processPackages [chaco]: Downloading https://files.pythonhosted.org/packages/0e/80/6fa3c1e046bc19139d81acb5d45a50e2df82ccedb119244b52cd62e39632/chaco-6.0.0.tar.gz
+[2023-06-26 16:01:22] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/71/05/8054ea8bd7bd81ca7f25f909ab868971c741a5f9d9d6e0e8d96d21a3b51c/ciphertrust-sdk-1.0.1.tar.gz
+[2023-06-26 16:01:22] INFO root fetch - processPackages [chaco]: executing diffoscope
+[2023-06-26 16:01:22] INFO root fetch - processPackages [chaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaco-5.1.1.tar.gz tmp/chaco-6.0.0.tar.gz --markdown 20230626/c/chaco/5.1.1-6.0.0/diff.md --exclude *.pyd
+[2023-06-26 16:01:22] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/d6/ac/04a999c1cb8db07351facab361f6d8087c877914d20f431b8b004835b806/ciphertrust-sdk-1.0.2.tar.gz
+[2023-06-26 16:01:22] INFO root fetch - processPackages [ciphertrust-sdk]: executing diffoscope
+[2023-06-26 16:01:22] INFO root fetch - processPackages [ciphertrust-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciphertrust-sdk-1.0.1.tar.gz tmp/ciphertrust-sdk-1.0.2.tar.gz --markdown 20230626/c/ciphertrust-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-26 16:01:23] INFO root fetch - processPackages [yandex-reviews-parser]: Remove: archive file [/home/abi/fetcher/tmp/yandex_reviews_parser-0.1.0.tar.gz]
+[2023-06-26 16:01:23] INFO root fetch - processPackages [yandex-reviews-parser]: Remove: archive file [/home/abi/fetcher/tmp/yandex_reviews_parser-0.1.1.tar.gz]
+[2023-06-26 16:01:23] INFO root fetch - processPackages [yandex-reviews-parser]: Start processing: wisedata
+[2023-06-26 16:01:23] INFO root fetch - main [MainThread]: End processing [yandex-reviews-parser]: success
+[2023-06-26 16:01:23] WARNING root fetch - processPackages [wisedata]: Skipping, unable to determine old version
+[2023-06-26 16:01:23] INFO root fetch - processPackages [wisedata]: Start processing: aws-adfs
+[2023-06-26 16:01:23] INFO root fetch - main [MainThread]: End processing [wisedata] error
+[2023-06-26 16:01:23] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.1.0.tar.gz]
+[2023-06-26 16:01:23] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.1.1.tar.gz]
+[2023-06-26 16:01:23] INFO root fetch - processPackages [dbt-graph-builder]: Start processing: dedoc
+[2023-06-26 16:01:23] INFO root fetch - main [MainThread]: End processing [dbt-graph-builder]: success
+[2023-06-26 16:01:23] INFO root fetch - processPackages [aws-adfs]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-06-26 16:01:23] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.0.tar.gz]
+[2023-06-26 16:01:23] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
+[2023-06-26 16:01:23] INFO root fetch - processPackages [cognite-pygen]: Start processing: PythonHuff
+[2023-06-26 16:01:23] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2023-06-26 16:01:23] INFO root fetch - processPackages [PythonHuff]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-26 16:01:23] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.3.0.tar.gz]
+[2023-06-26 16:01:23] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.3.1.tar.gz]
+[2023-06-26 16:01:23] INFO root fetch - main [MainThread]: End processing [pydantic-db-backend]: success
+[2023-06-26 16:01:24] WARNING root fetch - processPackages [dedoc]: Skipping, unable to determine old version
+[2023-06-26 16:01:24] INFO root fetch - main [MainThread]: End processing [dedoc] error
+[2023-06-26 16:01:24] INFO root fetch - processPackages [aws-adfs]: Downloading https://files.pythonhosted.org/packages/1c/45/d215d4d8007fd9eb6f8a3311e153b3e89ffc9582a660080392a2e6e24eb0/aws_adfs-2.7.0.tar.gz
+[2023-06-26 16:01:24] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.0.8.tar.gz]
+[2023-06-26 16:01:24] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.0.9.tar.gz]
+[2023-06-26 16:01:24] INFO root fetch - main [MainThread]: End processing [pytedee-async]: success
+[2023-06-26 16:01:24] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.1.tar.gz]
+[2023-06-26 16:01:24] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.2.tar.gz]
+[2023-06-26 16:01:24] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-26 16:01:24] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-26 16:01:24] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-26 16:01:24] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-26 16:01:24] INFO root fetch - processPackages [PythonHuff]: Downloading https://files.pythonhosted.org/packages/49/b7/00a7f3264f1c1fd081ef4761dca1becc7178ec3854b458acf28afba7174b/PythonHuff-1.0.1.tar.gz
+[2023-06-26 16:01:24] INFO root fetch - processPackages [aws-adfs]: Downloading https://files.pythonhosted.org/packages/e1/9d/b03ec4bbb63cdb1de653ba0421affb981170f5f157afac23c6ad8b382ec3/aws_adfs-2.8.0.tar.gz
+[2023-06-26 16:01:24] INFO root fetch - processPackages [PythonHuff]: Downloading https://files.pythonhosted.org/packages/64/aa/8d658d9cffb0b7d5895ee95c899e8d3f01996b3bf3d44cf6a1fd9fa9e62d/PythonHuff-1.0.2.tar.gz
+[2023-06-26 16:01:24] INFO root fetch - processPackages [aws-adfs]: executing diffoscope
+[2023-06-26 16:01:24] INFO root fetch - processPackages [aws-adfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_adfs-2.7.0.tar.gz tmp/aws_adfs-2.8.0.tar.gz --markdown 20230626/a/aws-adfs/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-06-26 16:01:24] INFO root fetch - processPackages [PythonHuff]: executing diffoscope
+[2023-06-26 16:01:24] INFO root fetch - processPackages [PythonHuff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonHuff-1.0.1.tar.gz tmp/PythonHuff-1.0.2.tar.gz --markdown 20230626/P/PythonHuff/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-26 16:01:24] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.1.tar.gz]
+[2023-06-26 16:01:24] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.2.tar.gz]
+[2023-06-26 16:01:24] INFO root fetch - main [MainThread]: End processing [ciphertrust-sdk]: success
+[2023-06-26 16:01:25] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip]
+[2023-06-26 16:01:25] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-26 16:01:25] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-06-26 16:01:25] INFO root fetch - processPackages [PythonHuff]: Remove: archive file [/home/abi/fetcher/tmp/PythonHuff-1.0.1.tar.gz]
+[2023-06-26 16:01:25] INFO root fetch - processPackages [PythonHuff]: Remove: archive file [/home/abi/fetcher/tmp/PythonHuff-1.0.2.tar.gz]
+[2023-06-26 16:01:25] INFO root fetch - main [MainThread]: End processing [PythonHuff]: success
+[2023-06-26 16:01:25] INFO root fetch - processPackages [aws-adfs]: Remove: archive file [/home/abi/fetcher/tmp/aws_adfs-2.7.0.tar.gz]
+[2023-06-26 16:01:25] INFO root fetch - processPackages [aws-adfs]: Remove: archive file [/home/abi/fetcher/tmp/aws_adfs-2.8.0.tar.gz]
+[2023-06-26 16:01:25] INFO root fetch - main [MainThread]: End processing [aws-adfs]: success
+[2023-06-26 16:01:31] INFO root fetch - processPackages [chaco]: Remove: archive file [/home/abi/fetcher/tmp/chaco-5.1.1.tar.gz]
+[2023-06-26 16:01:31] INFO root fetch - processPackages [chaco]: Remove: archive file [/home/abi/fetcher/tmp/chaco-6.0.0.tar.gz]
+[2023-06-26 16:01:31] INFO root fetch - main [MainThread]: End processing [chaco]: success
+[2023-06-26 16:01:31] INFO root fetch - main [MainThread]: Store serial: [18647798]
