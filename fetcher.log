@@ -12963,3 +12963,170 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 11:33:46] INFO root fetch - processPackages [adslproxy-enhance]: Remove: archive file [/home/abi/fetcher/tmp/adslproxy-enhance-3.7.3.tar.gz]
 [2023-06-26 11:33:46] INFO root fetch - main [MainThread]: End processing [adslproxy-enhance]: success
 [2023-06-26 11:33:46] INFO root fetch - main [MainThread]: Store serial: [18644584]
+[2023-06-26 11:38:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644584]
+[2023-06-26 11:38:57] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tracebloc-package-dev
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfirebird
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smoloki
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtgql
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aspeak
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gaohn-common-utils
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: requosts
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scs-core
+[2023-06-26 11:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scs-analysis
+[2023-06-26 11:38:57] INFO root fetch - processPackages [smoloki]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [pyfirebird]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [scs-core]: New version: [2.8.1] Old Version: [2.4.6]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [scs-analysis]: New version: [2.7.2] Old Version: [2.0.0]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [qtgql]: New version: [0.120.2] Old Version: [0.120.1]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [aspeak]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230626.9.34.254631] Old Version: [20230626.6.41.903469]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [requosts]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/f5/f7/0310f5d42f27dd05358e76f50bd5bab774922e31258259adeec35ff0ccc0/gaohn-common-utils-0.0.81.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/4a/36/bf3c59510b1e013e0614f37073faea4dd4ff179762f997e75cfe19bd2fbf/qtgql-0.120.1.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [requosts]: Downloading https://files.pythonhosted.org/packages/83/10/c34a48c8c026dcd445b7ade6c55f8b0e4e3a3222adbcef0868afe319331e/requosts-0.0.2.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/55/25/770ddd9d3e93d5c89b5cf8d7e1c451b911d017a70a10aef1841e4ecc8423/pyfirebird-0.0.46.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [smoloki]: Downloading https://files.pythonhosted.org/packages/88/d7/3e6002951b3056c393f97345d3b4c2c59cebf6ece6917ceea24909988149/smoloki-0.0.8.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/59/7b/debf09064b31361387f9a8471700ddfca49c4c2e54975224aa5bb7346ad4/scs-analysis-2.0.0.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/7f/c6/1310dbd5c088553820abd73ae654b595fd1459f33de6dc25aee17a762c50/tracebloc_package-dev-0.5.0.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d5/7b/891b493b32448e7feadace1e1c971b2e63cd84199eed22ca8eaf11c99054/certora-cli-alpha-master-20230626.6.41.903469.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/87/bc/cea97325ef2dc7fb1c056b5cb1255e9de53b9bfcde6a140ea355d2755137/aspeak-6.0.0b1-cp39-none-win_amd64.whl
+[2023-06-26 11:38:57] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37394054>=10485760
+[2023-06-26 11:38:57] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: fusion-platform-python-sdk
+[2023-06-26 11:38:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-26 11:38:57] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/c4/8f/da4d267d9a8d5596d309723ffebc28067819b3666d5a3ba7af4972283878/scs-core-2.4.6.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [requosts]: Downloading https://files.pythonhosted.org/packages/c4/58/dbb16649fe97c99c2a4a225f45d569821df09845d3c94cc87a1cd19f0990/requosts-0.0.3.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/46/9f/b2e0cc86c25636462254d8770fc8bc1e7a0fb3dd9b51fa90dc72d25184d4/gaohn-common-utils-0.0.82.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [fusion-platform-python-sdk]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-26 11:38:57] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/36/1b/61c325083281c9714a085c26eef935df21fc33d1c09b31518a8483d4985a/qtgql-0.120.2.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-26 11:38:57] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.81.tar.gz tmp/gaohn-common-utils-0.0.82.tar.gz --markdown 20230626/g/gaohn-common-utils/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-06-26 11:38:57] INFO root fetch - processPackages [requosts]: executing diffoscope
+[2023-06-26 11:38:57] INFO root fetch - processPackages [requosts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requosts-0.0.2.tar.gz tmp/requosts-0.0.3.tar.gz --markdown 20230626/r/requosts/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 11:38:57] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-06-26 11:38:57] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.120.1.tar.gz tmp/qtgql-0.120.2.tar.gz --markdown 20230626/q/qtgql/0.120.1-0.120.2/diff.md --exclude *.pyd
+[2023-06-26 11:38:57] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/ab/06/eb4b6332551c77061b7046a1b7676bed931d4386cf34809019d869fa7abd/tracebloc_package-dev-0.5.1.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-06-26 11:38:57] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.0.tar.gz tmp/tracebloc_package-dev-0.5.1.tar.gz --markdown 20230626/t/tracebloc-package-dev/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 11:38:57] INFO root fetch - processPackages [pyfirebird]: Downloading https://files.pythonhosted.org/packages/e5/f5/12cf9af51222c214d075a54c37bf66a92a90b79d62167d9032ceb41c1aca/pyfirebird-0.0.47.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/26/98/24d421b4adc3ca3082f4d71ed9818702f36c5b29ec7244f751a1cd1f6468/scs-analysis-2.7.2.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/a7/05/7cbafba142de1a88b9aab5e60356e7b32f0b36bc78afb7bd437d521ea22c/scs-core-2.8.1.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [fusion-platform-python-sdk]: Downloading https://files.pythonhosted.org/packages/99/69/7f66cfef247c0f1110ccc4ccac764e1d3029f9d8eb05aaf9659ab52f9f95/fusion-platform-python-sdk-1.7.2.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [pyfirebird]: executing diffoscope
+[2023-06-26 11:38:57] INFO root fetch - processPackages [pyfirebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirebird-0.0.46.tar.gz tmp/pyfirebird-0.0.47.tar.gz --markdown 20230626/p/pyfirebird/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-06-26 11:38:57] INFO root fetch - processPackages [smoloki]: Downloading https://files.pythonhosted.org/packages/9f/a3/10631a2338c9a76d19cd32f7fc3ab8355f595abae43f927833a42aa8913b/smoloki-0.0.9.tar.gz
+[2023-06-26 11:38:57] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2023-06-26 11:38:57] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-analysis-2.0.0.tar.gz tmp/scs-analysis-2.7.2.tar.gz --markdown 20230626/s/scs-analysis/2.0.0-2.7.2/diff.md --exclude *.pyd
+[2023-06-26 11:38:58] INFO root fetch - processPackages [scs-core]: executing diffoscope
+[2023-06-26 11:38:58] INFO root fetch - processPackages [scs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-core-2.4.6.tar.gz tmp/scs-core-2.8.1.tar.gz --markdown 20230626/s/scs-core/2.4.6-2.8.1/diff.md --exclude *.pyd
+[2023-06-26 11:38:58] INFO root fetch - processPackages [smoloki]: executing diffoscope
+[2023-06-26 11:38:58] INFO root fetch - processPackages [smoloki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smoloki-0.0.8.tar.gz tmp/smoloki-0.0.9.tar.gz --markdown 20230626/s/smoloki/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 11:38:58] INFO root fetch - processPackages [fusion-platform-python-sdk]: Downloading https://files.pythonhosted.org/packages/75/bf/10be641ba6f68a82fcb28d68468670c21efca9129daa2660398d1ec486e2/fusion-platform-python-sdk-1.7.3.tar.gz
+[2023-06-26 11:38:58] INFO root fetch - processPackages [fusion-platform-python-sdk]: executing diffoscope
+[2023-06-26 11:38:58] INFO root fetch - processPackages [fusion-platform-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-platform-python-sdk-1.7.2.tar.gz tmp/fusion-platform-python-sdk-1.7.3.tar.gz --markdown 20230626/f/fusion-platform-python-sdk/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-26 11:38:58] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/4d/a0/08e990c27f0aee91b1381203f120579a16b67f2d8284d048be9293579212/aspeak-6.0.0b2-cp39-none-win_amd64.whl
+[2023-06-26 11:38:58] INFO root fetch - processPackages [aspeak]: executing diffoscope
+[2023-06-26 11:38:58] INFO root fetch - processPackages [aspeak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspeak-6.0.0b1-cp39-none-win_amd64.whl.zip tmp/aspeak-6.0.0b2-cp39-none-win_amd64.whl.zip --markdown 20230626/a/aspeak/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-06-26 11:38:58] INFO root fetch - processPackages [requosts]: Remove: archive file [/home/abi/fetcher/tmp/requosts-0.0.2.tar.gz]
+[2023-06-26 11:38:58] INFO root fetch - processPackages [requosts]: Remove: archive file [/home/abi/fetcher/tmp/requosts-0.0.3.tar.gz]
+[2023-06-26 11:38:58] INFO root fetch - processPackages [requosts]: Start processing: lanablas
+[2023-06-26 11:38:58] INFO root fetch - main [MainThread]: End processing [requosts]: success
+[2023-06-26 11:38:58] INFO root fetch - processPackages [lanablas]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/e2/9f/1a7dec4c850be7406619e12d2fd9a6632611c8a86f539cbdd9a5662ce51c/lanablas-0.0.7.tar.gz
+[2023-06-26 11:38:59] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.0.tar.gz]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.1.tar.gz]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [tracebloc-package-dev]: Start processing: pygitguardian
+[2023-06-26 11:38:59] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-06-26 11:38:59] INFO root fetch - processPackages [pygitguardian]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/63/82/c7aaa72c287c19083c3043bec1307a6d71096c7ae8ab2c2d8eca6e443880/lanablas-0.0.8.tar.gz
+[2023-06-26 11:38:59] INFO root fetch - processPackages [lanablas]: executing diffoscope
+[2023-06-26 11:38:59] INFO root fetch - processPackages [lanablas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanablas-0.0.7.tar.gz tmp/lanablas-0.0.8.tar.gz --markdown 20230626/l/lanablas/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-26 11:38:59] INFO root fetch - processPackages [pygitguardian]: Downloading https://files.pythonhosted.org/packages/f1/6c/7de50e7bbb27c4b40404bcf82902e62f440adf402f381e04396a382dd3dc/pygitguardian-1.7.0.tar.gz
+[2023-06-26 11:38:59] INFO root fetch - processPackages [smoloki]: Remove: archive file [/home/abi/fetcher/tmp/smoloki-0.0.8.tar.gz]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [smoloki]: Remove: archive file [/home/abi/fetcher/tmp/smoloki-0.0.9.tar.gz]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [smoloki]: Start processing: SFM4300-readout
+[2023-06-26 11:38:59] INFO root fetch - main [MainThread]: End processing [smoloki]: success
+[2023-06-26 11:38:59] WARNING root fetch - processPackages [SFM4300-readout]: Skipping, unable to determine old version
+[2023-06-26 11:38:59] INFO root fetch - processPackages [SFM4300-readout]: Start processing: priceloop-api-dev1
+[2023-06-26 11:38:59] INFO root fetch - main [MainThread]: End processing [SFM4300-readout] error
+[2023-06-26 11:38:59] WARNING root fetch - processPackages [priceloop-api-dev1]: Skipping, unable to determine old version
+[2023-06-26 11:38:59] INFO root fetch - processPackages [priceloop-api-dev1]: Start processing: Dowell-Mail
+[2023-06-26 11:38:59] INFO root fetch - main [MainThread]: End processing [priceloop-api-dev1] error
+[2023-06-26 11:38:59] WARNING root fetch - processPackages [Dowell-Mail]: Skipping, unable to determine old version
+[2023-06-26 11:38:59] INFO root fetch - processPackages [Dowell-Mail]: Start processing: aleph-alpha-client
+[2023-06-26 11:38:59] INFO root fetch - main [MainThread]: End processing [Dowell-Mail] error
+[2023-06-26 11:38:59] INFO root fetch - processPackages [pygitguardian]: Downloading https://files.pythonhosted.org/packages/c4/cb/72c1295a5b18b79ce8cc45cb19a7f2a1ff8fa5161dcc3eb2a46e40705e2c/pygitguardian-1.8.0.tar.gz
+[2023-06-26 11:38:59] INFO root fetch - processPackages [aleph-alpha-client]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [pygitguardian]: executing diffoscope
+[2023-06-26 11:38:59] INFO root fetch - processPackages [pygitguardian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygitguardian-1.7.0.tar.gz tmp/pygitguardian-1.8.0.tar.gz --markdown 20230626/p/pygitguardian/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-26 11:38:59] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.81.tar.gz]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.82.tar.gz]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [gaohn-common-utils]: Start processing: farm-ng-package
+[2023-06-26 11:38:59] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-26 11:38:59] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.120.1.tar.gz]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.120.2.tar.gz]
+[2023-06-26 11:38:59] INFO root fetch - processPackages [qtgql]: Start processing: tabulation
+[2023-06-26 11:38:59] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-06-26 11:38:59] INFO root fetch - processPackages [farm-ng-package]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-26 11:38:59] WARNING root fetch - processPackages [tabulation]: Skipping, unable to determine old version
+[2023-06-26 11:38:59] INFO root fetch - processPackages [tabulation]: Start processing: mesh-common
+[2023-06-26 11:38:59] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-26 11:38:59] INFO root fetch - processPackages [mesh-common]: New version: [0.1.1] Old Version: [0.0.3]
+[2023-06-26 11:39:00] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/97/e4/6925bf8e6d2afa083ca1efef3f8795938677f2a059fef3dcd0af6b3318b6/aleph-alpha-client-3.1.3.tar.gz
+[2023-06-26 11:39:00] INFO root fetch - processPackages [farm-ng-package]: Downloading https://files.pythonhosted.org/packages/3d/9f/0afba3c496d57b021ce87f6b3a13fca01c819f67847bc10f1cc4a0aa5724/farm_ng_package-0.1.1.tar.gz
+[2023-06-26 11:39:00] INFO root fetch - processPackages [mesh-common]: Downloading https://files.pythonhosted.org/packages/72/0d/7d8eefd908fbf7f752ae5c7c7a5f99604a7bac41c70de1654e0b103c0217/mesh_common-0.0.3.tar.gz
+[2023-06-26 11:39:00] INFO root fetch - processPackages [fusion-platform-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fusion-platform-python-sdk-1.7.2.tar.gz]
+[2023-06-26 11:39:00] INFO root fetch - processPackages [fusion-platform-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fusion-platform-python-sdk-1.7.3.tar.gz]
+[2023-06-26 11:39:00] INFO root fetch - processPackages [fusion-platform-python-sdk]: Start processing: lib-preprocessing-REMLA23-team2
+[2023-06-26 11:39:00] INFO root fetch - main [MainThread]: End processing [fusion-platform-python-sdk]: success
+[2023-06-26 11:39:00] WARNING root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Skipping, unable to determine old version
+[2023-06-26 11:39:00] INFO root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Start processing: UEVaultManager
+[2023-06-26 11:39:00] INFO root fetch - main [MainThread]: End processing [lib-preprocessing-REMLA23-team2] error
+[2023-06-26 11:39:00] INFO root fetch - processPackages [UEVaultManager]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-26 11:39:00] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/8a/94/e1fa733ec45f527068c4f31394facf6c247ff75f1d306d198ac872a4a940/UEVaultManager-1.7.0.tar.gz
+[2023-06-26 11:39:00] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/8c/9a/cd6ad4b2bf0244deccfb2a097d3283dfece6d6800236c659cdc66c873b27/aleph-alpha-client-3.1.4.tar.gz
+[2023-06-26 11:39:00] INFO root fetch - processPackages [aleph-alpha-client]: executing diffoscope
+[2023-06-26 11:39:00] INFO root fetch - processPackages [aleph-alpha-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleph-alpha-client-3.1.3.tar.gz tmp/aleph-alpha-client-3.1.4.tar.gz --markdown 20230626/a/aleph-alpha-client/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-06-26 11:39:00] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/dc/5e/d42aead0f60735658f7aadc6b0a15671bae3e0f21acddda1e668dc5e4993/UEVaultManager-1.7.1.tar.gz
+[2023-06-26 11:39:00] INFO root fetch - processPackages [farm-ng-package]: Downloading https://files.pythonhosted.org/packages/ac/a2/283d4d1f99eac36347058a7aeefc0054c4c6973dac4349900b6eede2d856/farm_ng_package-0.1.3.tar.gz
+[2023-06-26 11:39:00] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-06-26 11:39:00] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.7.0.tar.gz tmp/UEVaultManager-1.7.1.tar.gz --markdown 20230626/U/UEVaultManager/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-26 11:39:00] INFO root fetch - processPackages [mesh-common]: Downloading https://files.pythonhosted.org/packages/45/da/0cea95c22be8e70a07d945e2f175fa47f514b6cf74362635f7d829fea74a/mesh_common-0.1.1.tar.gz
+[2023-06-26 11:39:00] INFO root fetch - processPackages [farm-ng-package]: executing diffoscope
+[2023-06-26 11:39:00] INFO root fetch - processPackages [farm-ng-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farm_ng_package-0.1.1.tar.gz tmp/farm_ng_package-0.1.3.tar.gz --markdown 20230626/f/farm-ng-package/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 11:39:00] INFO root fetch - processPackages [mesh-common]: executing diffoscope
+[2023-06-26 11:39:00] INFO root fetch - processPackages [mesh-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_common-0.0.3.tar.gz tmp/mesh_common-0.1.1.tar.gz --markdown 20230626/m/mesh-common/0.0.3-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 11:39:00] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.7.tar.gz]
+[2023-06-26 11:39:00] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.8.tar.gz]
+[2023-06-26 11:39:00] INFO root fetch - main [MainThread]: End processing [lanablas]: success
+[2023-06-26 11:39:01] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.0.0.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.2.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2023-06-26 11:39:01] INFO root fetch - processPackages [pygitguardian]: Remove: archive file [/home/abi/fetcher/tmp/pygitguardian-1.7.0.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - processPackages [pygitguardian]: Remove: archive file [/home/abi/fetcher/tmp/pygitguardian-1.8.0.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - main [MainThread]: End processing [pygitguardian]: success
+[2023-06-26 11:39:01] INFO root fetch - processPackages [farm-ng-package]: Remove: archive file [/home/abi/fetcher/tmp/farm_ng_package-0.1.1.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - processPackages [farm-ng-package]: Remove: archive file [/home/abi/fetcher/tmp/farm_ng_package-0.1.3.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - main [MainThread]: End processing [farm-ng-package]: success
+[2023-06-26 11:39:01] INFO root fetch - processPackages [aleph-alpha-client]: Remove: archive file [/home/abi/fetcher/tmp/aleph-alpha-client-3.1.3.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - processPackages [aleph-alpha-client]: Remove: archive file [/home/abi/fetcher/tmp/aleph-alpha-client-3.1.4.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - main [MainThread]: End processing [aleph-alpha-client]: success
+[2023-06-26 11:39:01] INFO root fetch - processPackages [mesh-common]: Remove: archive file [/home/abi/fetcher/tmp/mesh_common-0.0.3.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - processPackages [mesh-common]: Remove: archive file [/home/abi/fetcher/tmp/mesh_common-0.1.1.tar.gz]
+[2023-06-26 11:39:01] INFO root fetch - main [MainThread]: End processing [mesh-common]: success
+[2023-06-26 11:39:02] INFO root fetch - processPackages [UEVaultManager]: Remove: archive file [/home/abi/fetcher/tmp/UEVaultManager-1.7.0.tar.gz]
+[2023-06-26 11:39:02] INFO root fetch - processPackages [UEVaultManager]: Remove: archive file [/home/abi/fetcher/tmp/UEVaultManager-1.7.1.tar.gz]
+[2023-06-26 11:39:02] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-06-26 11:39:02] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-2.4.6.tar.gz]
+[2023-06-26 11:39:02] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-2.8.1.tar.gz]
+[2023-06-26 11:39:02] INFO root fetch - main [MainThread]: End processing [scs-core]: success
+[2023-06-26 11:39:05] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.46.tar.gz]
+[2023-06-26 11:39:05] INFO root fetch - processPackages [pyfirebird]: Remove: archive file [/home/abi/fetcher/tmp/pyfirebird-0.0.47.tar.gz]
+[2023-06-26 11:39:05] INFO root fetch - main [MainThread]: End processing [pyfirebird]: success
+[2023-06-26 11:39:26] INFO root fetch - processPackages [aspeak]: Remove: archive file [/home/abi/fetcher/tmp/aspeak-6.0.0b1-cp39-none-win_amd64.whl.zip]
+[2023-06-26 11:39:26] INFO root fetch - processPackages [aspeak]: Remove: archive file [/home/abi/fetcher/tmp/aspeak-6.0.0b2-cp39-none-win_amd64.whl.zip]
+[2023-06-26 11:39:26] INFO root fetch - main [MainThread]: End processing [aspeak]: success
+[2023-06-26 11:39:26] INFO root fetch - main [MainThread]: Store serial: [18644668]
