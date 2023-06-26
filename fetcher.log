@@ -22731,3 +22731,184 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:29:23] INFO root fetch - processPackages [skorch]: Remove: archive file [/home/abi/fetcher/tmp/skorch-0.9.0.tar.gz]
 [2023-06-26 17:29:23] INFO root fetch - main [MainThread]: End processing [skorch]: success
 [2023-06-26 17:29:23] INFO root fetch - main [MainThread]: Store serial: [18648962]
+[2023-06-26 17:34:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648962]
+[2023-06-26 17:34:33] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SMjour
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyDapi2
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kangtools
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: expert-intelligence-toolbox
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docker-shaper
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gascompressibility
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: automation-utilities
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jolt-docker
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jolt
+[2023-06-26 17:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libTSCANAPI
+[2023-06-26 17:34:33] INFO root fetch - processPackages [SMjour]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [kangtools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [jolt-docker]: New version: [0.9.95] Old Version: [0.9.93]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [automation-utilities]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [docker-shaper]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [PyDapi2]: New version: [0.6.2] Old Version: [0.4.3]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [gascompressibility]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [jolt]: New version: [0.9.97] Old Version: [0.9.95]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [kangtools]: Downloading https://files.pythonhosted.org/packages/85/a0/9dea4c15809b07aac9aa56fccb2141dd9256bc57e57fa0542cf29f533a59/kangtools-0.0.6.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/6e/18/77d031a0d62aa70f6ef151d479844b1f076d50327dfa0855ca82fec84b17/automation-utilities-1.2.2.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/3d/4d/20e2eb0ad39991eb2d6b511721ad7bb18df2823d3f65953c13be025e1e3b/jolt_docker-0.9.93.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/b7/36/5dac7a7b86e8c45816e8d55a2d0999ea19e2fa27ba5a1dbb8beab1757c80/SMjour-0.0.7.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/89/2c/ac639cae7cd25be807f6b1dead4b71e5595e37ea88c19f3e77cd87c33ae8/libTSCANAPI-1.1.0.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [PyDapi2]: Downloading https://files.pythonhosted.org/packages/76/46/7bcb7d035a1da9a238ae68fe32f0092eb3a537674d3602a0ceccdbaec09f/PyDapi2-0.4.3.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/18/39/073ecb0a9c17c9b36216fa00f733a95be6171d7d71cbade0058f937ce53b/jolt-0.9.95.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/b4/1f/111bef3365b9ad38291558e11154570c3facb1c6a46c8a12ffe8d0c6fad2/docker_shaper-0.1.2.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/ee/1d/54fd0bb8c4163089fd1a7b50f1f9b82fb984f98ca1c684cabf97dfb63776/gascompressibility-0.1.1.tar.gz
+[2023-06-26 17:34:33] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-26 17:34:33] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16302666>=10485760
+[2023-06-26 17:34:33] INFO root fetch - processPackages [libTSCANAPI]: Start processing: hcube
+[2023-06-26 17:34:33] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-06-26 17:34:33] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-26 17:34:33] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230626/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:34:33] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 17:34:33] INFO root fetch - processPackages [kangtools]: Downloading https://files.pythonhosted.org/packages/5f/f4/f5d08a6fd2b5bcd8acab2534e417272da74dea51c5abf9e384d279db562e/kangtools-0.0.7.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/22/fa/4cb3c302e771bbc9fd98a17299f6b53267ea6ddb6f63db69f09f00a15784/automation-utilities-1.2.3.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [SMjour]: Downloading https://files.pythonhosted.org/packages/e0/27/fc2e79ce11ee8e44c63bd16cd245cafc2402878d1801530e8ae87ec66f26/SMjour-0.0.8.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [kangtools]: executing diffoscope
+[2023-06-26 17:34:34] INFO root fetch - processPackages [kangtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangtools-0.0.6.tar.gz tmp/kangtools-0.0.7.tar.gz --markdown 20230626/k/kangtools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 17:34:34] INFO root fetch - processPackages [docker-shaper]: Downloading https://files.pythonhosted.org/packages/bb/ad/68b127a4a0250821ddbcacf8d91801ee46c78c0dd2d4d73b9a8d02a1c7f1/docker_shaper-0.1.3.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [gascompressibility]: Downloading https://files.pythonhosted.org/packages/a1/74/a3245cd11a44d2087765c1701cb2294e4a0be833e04e13bad9dd253ffd32/gascompressibility-0.1.2.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-26 17:34:34] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.2.2.tar.gz tmp/automation-utilities-1.2.3.tar.gz --markdown 20230626/a/automation-utilities/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-26 17:34:34] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/65/3b/fcaa54d80d4d38a7f457352705a6b33e69dcd69a3514df6f2b49d9fce7bd/jolt_docker-0.9.95.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/cf/1e/068e7b8bff7d0eadf039a015bb6286f250cc8a3cf5edf54927424bb4fe1e/jolt-0.9.97.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [SMjour]: executing diffoscope
+[2023-06-26 17:34:34] INFO root fetch - processPackages [SMjour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SMjour-0.0.7.tar.gz tmp/SMjour-0.0.8.tar.gz --markdown 20230626/S/SMjour/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-26 17:34:34] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [gascompressibility]: executing diffoscope
+[2023-06-26 17:34:34] INFO root fetch - processPackages [gascompressibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gascompressibility-0.1.1.tar.gz tmp/gascompressibility-0.1.2.tar.gz --markdown 20230626/g/gascompressibility/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 17:34:34] INFO root fetch - processPackages [docker-shaper]: executing diffoscope
+[2023-06-26 17:34:34] INFO root fetch - processPackages [docker-shaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_shaper-0.1.2.tar.gz tmp/docker_shaper-0.1.3.tar.gz --markdown 20230626/d/docker-shaper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 17:34:34] INFO root fetch - processPackages [PyDapi2]: Downloading https://files.pythonhosted.org/packages/1c/1d/eb390e50e332f3fde4c5f23391e31ba8ab0fd84b2914fb61b0341cec8aa4/PyDapi2-0.6.2.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [jolt-docker]: executing diffoscope
+[2023-06-26 17:34:34] INFO root fetch - processPackages [jolt-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt_docker-0.9.93.tar.gz tmp/jolt_docker-0.9.95.tar.gz --markdown 20230626/j/jolt-docker/0.9.93-0.9.95/diff.md --exclude *.pyd
+[2023-06-26 17:34:34] INFO root fetch - processPackages [jolt]: executing diffoscope
+[2023-06-26 17:34:34] INFO root fetch - processPackages [jolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt-0.9.95.tar.gz tmp/jolt-0.9.97.tar.gz --markdown 20230626/j/jolt/0.9.95-0.9.97/diff.md --exclude *.pyd
+[2023-06-26 17:34:34] INFO root fetch - processPackages [PyDapi2]: executing diffoscope
+[2023-06-26 17:34:34] INFO root fetch - processPackages [PyDapi2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDapi2-0.4.3.tar.gz tmp/PyDapi2-0.6.2.tar.gz --markdown 20230626/P/PyDapi2/0.4.3-0.6.2/diff.md --exclude *.pyd
+[2023-06-26 17:34:34] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2023-06-26 17:34:34] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2023-06-26 17:34:34] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20230626/h/hcube/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 17:34:35] INFO root fetch - processPackages [kangtools]: Remove: archive file [/home/abi/fetcher/tmp/kangtools-0.0.6.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [kangtools]: Remove: archive file [/home/abi/fetcher/tmp/kangtools-0.0.7.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [kangtools]: Start processing: nlpaf
+[2023-06-26 17:34:35] INFO root fetch - main [MainThread]: End processing [kangtools]: success
+[2023-06-26 17:34:35] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.2.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.3.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [automation-utilities]: Start processing: gracy
+[2023-06-26 17:34:35] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-26 17:34:35] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.7.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [SMjour]: Remove: archive file [/home/abi/fetcher/tmp/SMjour-0.0.8.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [SMjour]: Start processing: gundi-client-v2
+[2023-06-26 17:34:35] INFO root fetch - main [MainThread]: End processing [SMjour]: success
+[2023-06-26 17:34:35] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: BlitzChain
+[2023-06-26 17:34:35] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-26 17:34:35] WARNING root fetch - processPackages [gundi-client-v2]: Skipping, unable to determine old version
+[2023-06-26 17:34:35] INFO root fetch - processPackages [gundi-client-v2]: Start processing: python-schema-registry-client
+[2023-06-26 17:34:35] INFO root fetch - main [MainThread]: End processing [gundi-client-v2] error
+[2023-06-26 17:34:35] INFO root fetch - processPackages [python-schema-registry-client]: New version: [2.5.0] Old Version: [2.4.4]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [BlitzChain]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/cd/1f/c880607a2c92ea7edf79b474fe69127bf700211792b250de5688cc0f35c4/gracy-1.9.0.tar.gz
+[2023-06-26 17:34:35] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.1.1.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [gascompressibility]: Remove: archive file [/home/abi/fetcher/tmp/gascompressibility-0.1.2.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [gascompressibility]: Start processing: rend
+[2023-06-26 17:34:35] INFO root fetch - main [MainThread]: End processing [gascompressibility]: success
+[2023-06-26 17:34:35] INFO root fetch - processPackages [rend]: New version: [7.0.0] Old Version: [6.5.2]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [python-schema-registry-client]: Downloading https://files.pythonhosted.org/packages/a4/c9/5d61fd1b3695d570e35f83154f4c648c6fef6300aa70bf8d881ddf9f2fc0/python_schema_registry_client-2.4.4.tar.gz
+[2023-06-26 17:34:35] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.93.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.95.tar.gz]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [jolt-docker]: Start processing: selenium-testing-library
+[2023-06-26 17:34:35] INFO root fetch - main [MainThread]: End processing [jolt-docker]: success
+[2023-06-26 17:34:35] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-06-26 17:34:35] INFO root fetch - processPackages [selenium-testing-library]: New version: [2023.5] Old Version: [2023.4]
+[2023-06-26 17:34:35] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/1e/6f/ce2bfb2b73be0d267e60d390c02a83bd9ad556c22357258727c677517895/gracy-1.9.1.tar.gz
+[2023-06-26 17:34:35] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/9d/8f/7d033c135a8a2bc6b824b39ad0afac9d8f5e417c189589312acea9689654/BlitzChain-0.1.3.tar.gz
+[2023-06-26 17:34:36] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-06-26 17:34:36] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230626/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-26 17:34:36] INFO root fetch - processPackages [rend]: Downloading https://files.pythonhosted.org/packages/b5/5e/6bbbd3a4c053651ac70ac0b247cd6c04c32a00f059ee48633fc3ca685423/rend-6.5.2.tar.gz
+[2023-06-26 17:34:36] INFO root fetch - processPackages [selenium-testing-library]: Downloading https://files.pythonhosted.org/packages/8a/e9/ff5963da0d358b4f7de1373e06cc42026e7f69d09235f1c341b8a397f2aa/selenium_testing_library-2023.4.tar.gz
+[2023-06-26 17:34:36] INFO root fetch - processPackages [python-schema-registry-client]: Downloading https://files.pythonhosted.org/packages/c9/dd/d4adab4eb4399b063f6778d04a27d40dda8c04f778044f15ae2b7a0cf4f4/python_schema_registry_client-2.5.0.tar.gz
+[2023-06-26 17:34:36] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/19/60/98d80495a07b8587526c515fc58f165a696440adcd8946f0bf3d81d13a56/BlitzChain-0.1.4.tar.gz
+[2023-06-26 17:34:36] INFO root fetch - processPackages [python-schema-registry-client]: executing diffoscope
+[2023-06-26 17:34:36] INFO root fetch - processPackages [python-schema-registry-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_schema_registry_client-2.4.4.tar.gz tmp/python_schema_registry_client-2.5.0.tar.gz --markdown 20230626/p/python-schema-registry-client/2.4.4-2.5.0/diff.md --exclude *.pyd
+[2023-06-26 17:34:36] INFO root fetch - processPackages [rend]: Downloading https://files.pythonhosted.org/packages/98/a4/ef378c3ee8cc19daaf3c320d069924f1809080b2671d5d489bff63c1ac4b/rend-7.0.0.tar.gz
+[2023-06-26 17:34:36] INFO root fetch - processPackages [selenium-testing-library]: Downloading https://files.pythonhosted.org/packages/77/4d/048ab39aa255410b5b2161f9c917081edb49c41d47b5b6304b09f92bc21d/selenium_testing_library-2023.5.tar.gz
+[2023-06-26 17:34:36] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-06-26 17:34:36] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.1.3.tar.gz tmp/BlitzChain-0.1.4.tar.gz --markdown 20230626/B/BlitzChain/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-26 17:34:36] INFO root fetch - processPackages [rend]: executing diffoscope
+[2023-06-26 17:34:36] INFO root fetch - processPackages [rend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rend-6.5.2.tar.gz tmp/rend-7.0.0.tar.gz --markdown 20230626/r/rend/6.5.2-7.0.0/diff.md --exclude *.pyd
+[2023-06-26 17:34:36] INFO root fetch - processPackages [selenium-testing-library]: executing diffoscope
+[2023-06-26 17:34:36] INFO root fetch - processPackages [selenium-testing-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_testing_library-2023.4.tar.gz tmp/selenium_testing_library-2023.5.tar.gz --markdown 20230626/s/selenium-testing-library/2023.4-2023.5/diff.md --exclude *.pyd
+[2023-06-26 17:34:36] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-06-26 17:34:36] INFO root fetch - processPackages [nlpaf]: Start processing: provo
+[2023-06-26 17:34:36] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-06-26 17:34:36] INFO root fetch - processPackages [provo]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-06-26 17:34:36] INFO root fetch - processPackages [provo]: Downloading https://files.pythonhosted.org/packages/ae/ed/d5def05ea02e42fff877fbc0f76cfd22ca86c9d31a0df15b90919a7b4a7e/provo-1.0.5.tar.gz
+[2023-06-26 17:34:36] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2023-06-26 17:34:36] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2023-06-26 17:34:36] INFO root fetch - processPackages [hcube]: Start processing: fastapi-cruddy-framework
+[2023-06-26 17:34:36] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2023-06-26 17:34:36] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-0.1.2.tar.gz]
+[2023-06-26 17:34:36] INFO root fetch - processPackages [docker-shaper]: Remove: archive file [/home/abi/fetcher/tmp/docker_shaper-0.1.3.tar.gz]
+[2023-06-26 17:34:36] INFO root fetch - processPackages [docker-shaper]: Start processing: auth0-python
+[2023-06-26 17:34:36] INFO root fetch - main [MainThread]: End processing [docker-shaper]: success
+[2023-06-26 17:34:36] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:34:36] INFO root fetch - processPackages [auth0-python]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-06-26 17:34:37] INFO root fetch - processPackages [provo]: Downloading https://files.pythonhosted.org/packages/e5/35/b0758570078c569e9986dca85dcc54564510dfcc1d2d21cbe302efca91dc/provo-1.1.0.tar.gz
+[2023-06-26 17:34:37] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/35/25/12d956cf6a12e9b80d068639448c3168dced8b09421e2bcc9d836834b0b0/fastapi_cruddy_framework-0.0.8.tar.gz
+[2023-06-26 17:34:37] INFO root fetch - processPackages [provo]: executing diffoscope
+[2023-06-26 17:34:37] INFO root fetch - processPackages [provo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/provo-1.0.5.tar.gz tmp/provo-1.1.0.tar.gz --markdown 20230626/p/provo/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-06-26 17:34:37] INFO root fetch - processPackages [auth0-python]: Downloading https://files.pythonhosted.org/packages/7d/51/b43454517c627aa1f61990e363855064ac09ba8fe5d6e8d01382414468ae/auth0-python-4.2.0.tar.gz
+[2023-06-26 17:34:37] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/42/cf/ab76e6d9347a6ad42b9fa537b6285bf61f469bcc21324b6fd6ca9edfba97/fastapi_cruddy_framework-0.0.9.tar.gz
+[2023-06-26 17:34:37] INFO root fetch - processPackages [auth0-python]: Downloading https://files.pythonhosted.org/packages/74/d3/4200ffc2bfaa751ff72f99e3177050bb8c8f13cf9ea16ef6032e0907c55a/auth0-python-4.3.0.tar.gz
+[2023-06-26 17:34:37] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-06-26 17:34:37] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230626/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:34:37] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.0.tar.gz]
+[2023-06-26 17:34:37] INFO root fetch - processPackages [gracy]: Remove: archive file [/home/abi/fetcher/tmp/gracy-1.9.1.tar.gz]
+[2023-06-26 17:34:37] INFO root fetch - processPackages [gracy]: Start processing: modulefgoiriz1
+[2023-06-26 17:34:37] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-06-26 17:34:37] INFO root fetch - processPackages [auth0-python]: executing diffoscope
+[2023-06-26 17:34:37] INFO root fetch - processPackages [auth0-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth0-python-4.2.0.tar.gz tmp/auth0-python-4.3.0.tar.gz --markdown 20230626/a/auth0-python/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-06-26 17:34:37] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.1.3.tar.gz]
+[2023-06-26 17:34:37] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.1.4.tar.gz]
+[2023-06-26 17:34:37] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-06-26 17:34:37] WARNING root fetch - processPackages [modulefgoiriz1]: Skipping, unable to determine old version
+[2023-06-26 17:34:37] INFO root fetch - main [MainThread]: End processing [modulefgoiriz1] error
+[2023-06-26 17:34:37] INFO root fetch - processPackages [rend]: Remove: archive file [/home/abi/fetcher/tmp/rend-6.5.2.tar.gz]
+[2023-06-26 17:34:37] INFO root fetch - processPackages [rend]: Remove: archive file [/home/abi/fetcher/tmp/rend-7.0.0.tar.gz]
+[2023-06-26 17:34:37] INFO root fetch - main [MainThread]: End processing [rend]: success
+[2023-06-26 17:34:38] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.95.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.97.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - main [MainThread]: End processing [jolt]: success
+[2023-06-26 17:34:38] INFO root fetch - processPackages [python-schema-registry-client]: Remove: archive file [/home/abi/fetcher/tmp/python_schema_registry_client-2.4.4.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - processPackages [python-schema-registry-client]: Remove: archive file [/home/abi/fetcher/tmp/python_schema_registry_client-2.5.0.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - main [MainThread]: End processing [python-schema-registry-client]: success
+[2023-06-26 17:34:38] INFO root fetch - processPackages [selenium-testing-library]: Remove: archive file [/home/abi/fetcher/tmp/selenium_testing_library-2023.4.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - processPackages [selenium-testing-library]: Remove: archive file [/home/abi/fetcher/tmp/selenium_testing_library-2023.5.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - main [MainThread]: End processing [selenium-testing-library]: success
+[2023-06-26 17:34:38] INFO root fetch - processPackages [provo]: Remove: archive file [/home/abi/fetcher/tmp/provo-1.0.5.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - processPackages [provo]: Remove: archive file [/home/abi/fetcher/tmp/provo-1.1.0.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.8.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - main [MainThread]: End processing [provo]: success
+[2023-06-26 17:34:38] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.9.tar.gz]
+[2023-06-26 17:34:38] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-06-26 17:34:39] INFO root fetch - processPackages [auth0-python]: Remove: archive file [/home/abi/fetcher/tmp/auth0-python-4.2.0.tar.gz]
+[2023-06-26 17:34:39] INFO root fetch - processPackages [auth0-python]: Remove: archive file [/home/abi/fetcher/tmp/auth0-python-4.3.0.tar.gz]
+[2023-06-26 17:34:39] INFO root fetch - main [MainThread]: End processing [auth0-python]: success
+[2023-06-26 17:35:30] INFO root fetch - processPackages [PyDapi2]: Remove: archive file [/home/abi/fetcher/tmp/PyDapi2-0.4.3.tar.gz]
+[2023-06-26 17:35:30] INFO root fetch - processPackages [PyDapi2]: Remove: archive file [/home/abi/fetcher/tmp/PyDapi2-0.6.2.tar.gz]
+[2023-06-26 17:35:30] INFO root fetch - main [MainThread]: End processing [PyDapi2]: success
+[2023-06-26 17:35:30] INFO root fetch - main [MainThread]: Store serial: [18649027]
