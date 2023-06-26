@@ -21002,3 +21002,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 16:29:20] INFO root fetch - processPackages [linopy]: Remove: archive file [/home/abi/fetcher/tmp/linopy-0.2.1.tar.gz]
 [2023-06-26 16:29:20] INFO root fetch - main [MainThread]: End processing [linopy]: success
 [2023-06-26 16:29:20] INFO root fetch - main [MainThread]: Store serial: [18648228]
+[2023-06-26 16:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648228]
+[2023-06-26 16:34:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynad
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: expert-intelligence-toolbox
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eventbrite-python
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e-models
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deci-platform-client
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KafkaMetricsExporter
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: licensecheck
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: st4sd-runtime-core
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: toSalute
+[2023-06-26 16:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: actsecmodel
+[2023-06-26 16:34:30] INFO root fetch - processPackages [pynad]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-26 16:34:30] INFO root fetch - processPackages [st4sd-runtime-core]: New version: [2.0.0a9.dev8] Old Version: [2.0.0a9.dev7]
+[2023-06-26 16:34:30] INFO root fetch - processPackages [e-models]: New version: [1.4] Old Version: [1.3.3]
+[2023-06-26 16:34:30] WARNING root fetch - processPackages [KafkaMetricsExporter]: Skipping, unable to determine old version
+[2023-06-26 16:34:30] INFO root fetch - processPackages [KafkaMetricsExporter]: Start processing: pyEDFlib
+[2023-06-26 16:34:30] INFO root fetch - main [MainThread]: End processing [KafkaMetricsExporter] error
+[2023-06-26 16:34:30] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 16:34:30] WARNING root fetch - processPackages [toSalute]: Skipping, unable to determine old version
+[2023-06-26 16:34:30] INFO root fetch - processPackages [toSalute]: Start processing: blackboardsync
+[2023-06-26 16:34:30] INFO root fetch - main [MainThread]: End processing [toSalute] error
+[2023-06-26 16:34:30] WARNING root fetch - processPackages [eventbrite-python]: Skipping, unable to determine old version
+[2023-06-26 16:34:30] INFO root fetch - processPackages [eventbrite-python]: Start processing: scm-wrap
+[2023-06-26 16:34:30] INFO root fetch - main [MainThread]: End processing [eventbrite-python] error
+[2023-06-26 16:34:30] INFO root fetch - processPackages [deci-platform-client]: New version: [5.4.1] Old Version: [5.4.0]
+[2023-06-26 16:34:30] WARNING root fetch - processPackages [actsecmodel]: Skipping, unable to determine old version
+[2023-06-26 16:34:30] INFO root fetch - processPackages [actsecmodel]: Start processing: balepy
+[2023-06-26 16:34:30] INFO root fetch - main [MainThread]: End processing [actsecmodel] error
+[2023-06-26 16:34:30] INFO root fetch - processPackages [licensecheck]: New version: [2023.1.4] Old Version: [2023.1.3]
+[2023-06-26 16:34:30] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.4rc2] Old Version: [0.9.4rc1]
+[2023-06-26 16:34:30] INFO root fetch - processPackages [pyEDFlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 16:34:30] INFO root fetch - processPackages [balepy]: New version: [0.3] Old Version: [0.2]
+[2023-06-26 16:34:30] INFO root fetch - processPackages [scm-wrap]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-26 16:34:30] INFO root fetch - processPackages [pynad]: Downloading https://files.pythonhosted.org/packages/e0/ae/88d2a73cb07ffa09f36988cfa504fec9d238db098b72443f9d5dde9a0f1a/pynad-3.0.1.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/a9/bc/7e7f80a9b5d0b48dc46d4dadcf8b53768390f4f5e5f530e2bc7eff5ce005/licensecheck-2023.1.3.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/2b/b9/0dd0c260134bb9c66e75e0ffbeebda1f9aa3a2ca06c195618e680ac47940/blackboardsync-0.9.4rc1.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/61/2c/a8fd540d32dffaf2c3b8d2f8df0041804bfdac213ae2e2766a520ea8bbf7/balepy-0.2.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/fb/49/a57957d0f605a9d1db3958274e70410e1e62180bd21875d06e5427c9cba3/e-models-1.3.3.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/f8/80/d329b6d6b491885e93d67347d73a6f1bf511452406c30914f4fa69817029/st4sd-runtime-core-2.0.0a9.dev7.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/8d/43/319f393c88dde94a1bf21247947c035726d5c2afb6e1e8270b109fa1abfa/deci_platform_client-5.4.0-py3-none-any.whl
+[2023-06-26 16:34:30] INFO root fetch - processPackages [scm-wrap]: Downloading https://files.pythonhosted.org/packages/ac/6f/6fd947b37c7d62524cf677533f0b8850a41a4a96f6710bb993965920edf5/scm-wrap-1.1.8.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [pyEDFlib]: Downloading https://files.pythonhosted.org/packages/77/da/53f1f725fb25c5e89bd7c14fc493a7fc49fecc32567e147d3dcd4e683a3e/pyEDFlib-0.1.8.zip
+[2023-06-26 16:34:30] INFO root fetch - processPackages [pynad]: Downloading https://files.pythonhosted.org/packages/94/ff/e14d74f34761fe0ffefc5a378a5d4c6129c699792072c679992ac9375ac8/pynad-3.0.2.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/76/08/5327807bbb24a86a9598422d00dc9308b3211ac6849ecb2b8f936cff7065/licensecheck-2023.1.4.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [pynad]: executing diffoscope
+[2023-06-26 16:34:30] INFO root fetch - processPackages [pynad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynad-3.0.1.tar.gz tmp/pynad-3.0.2.tar.gz --markdown 20230626/p/pynad/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-26 16:34:30] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/e6/60/d4d2924797d9202d8e8496c772bbe920eeb2c9eacf6b9188d872cf5eb05e/balepy-0.3.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [licensecheck]: executing diffoscope
+[2023-06-26 16:34:30] INFO root fetch - processPackages [licensecheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensecheck-2023.1.3.tar.gz tmp/licensecheck-2023.1.4.tar.gz --markdown 20230626/l/licensecheck/2023.1.3-2023.1.4/diff.md --exclude *.pyd
+[2023-06-26 16:34:30] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-26 16:34:30] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/9f/85/fcc2d628d160df99a0e7d22d827ef7f91f2f338de54df3db1a991ac22099/deci_platform_client-5.4.1-py3-none-any.whl
+[2023-06-26 16:34:30] INFO root fetch - processPackages [balepy]: executing diffoscope
+[2023-06-26 16:34:30] INFO root fetch - processPackages [balepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balepy-0.2.tar.gz tmp/balepy-0.3.tar.gz --markdown 20230626/b/balepy/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-26 16:34:30] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/da/26/35ba8cbddb2282fe599d1cbd9109f09dc61db34718201d5fca8738b55bd6/e-models-1.4.tar.gz
+[2023-06-26 16:34:31] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/d8/d0/4d9687436a383b4302f7b27bb93175d13ec8a24b6bb2e3f1199f7968a6ad/blackboardsync-0.9.4rc2.tar.gz
+[2023-06-26 16:34:31] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/d8/e8/7cfc981a124bd5a134ff8cc0f9597e07673ad694af3ac5209efd3ecdf64a/st4sd-runtime-core-2.0.0a9.dev8.tar.gz
+[2023-06-26 16:34:31] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-26 16:34:31] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230626/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 16:34:31] INFO root fetch - processPackages [scm-wrap]: Downloading https://files.pythonhosted.org/packages/91/9c/25eaf593137cdc491c6953eccfd81d4d2c93085461453f867a9a1162d16b/scm-wrap-1.1.9.tar.gz
+[2023-06-26 16:34:31] INFO root fetch - processPackages [deci-platform-client]: executing diffoscope
+[2023-06-26 16:34:31] INFO root fetch - processPackages [deci-platform-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_platform_client-5.4.0-py3-none-any.whl.zip tmp/deci_platform_client-5.4.1-py3-none-any.whl.zip --markdown 20230626/d/deci-platform-client/5.4.0-5.4.1/diff.md --exclude *.pyd
+[2023-06-26 16:34:31] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-06-26 16:34:31] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.3.3.tar.gz tmp/e-models-1.4.tar.gz --markdown 20230626/e/e-models/1.3.3-1.4/diff.md --exclude *.pyd
+[2023-06-26 16:34:31] INFO root fetch - processPackages [st4sd-runtime-core]: executing diffoscope
+[2023-06-26 16:34:31] INFO root fetch - processPackages [scm-wrap]: executing diffoscope
+[2023-06-26 16:34:31] INFO root fetch - processPackages [st4sd-runtime-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st4sd-runtime-core-2.0.0a9.dev7.tar.gz tmp/st4sd-runtime-core-2.0.0a9.dev8.tar.gz --markdown 20230626/s/st4sd-runtime-core/2.0.0a9.dev7-2.0.0a9.dev8/diff.md --exclude *.pyd
+[2023-06-26 16:34:31] INFO root fetch - processPackages [scm-wrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scm-wrap-1.1.8.tar.gz tmp/scm-wrap-1.1.9.tar.gz --markdown 20230626/s/scm-wrap/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-26 16:34:31] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-26 16:34:31] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.4rc1.tar.gz tmp/blackboardsync-0.9.4rc2.tar.gz --markdown 20230626/b/blackboardsync/0.9.4rc1-0.9.4rc2/diff.md --exclude *.pyd
+[2023-06-26 16:34:31] INFO root fetch - processPackages [pyEDFlib]: Downloading https://files.pythonhosted.org/packages/17/ac/106268085bb8062aff59fc6e9bc2a6ceb021a388a585ecde6108f02ab3f1/pyEDFlib-0.1.9.tar.gz
+[2023-06-26 16:34:31] INFO root fetch - processPackages [pyEDFlib]: executing diffoscope
+[2023-06-26 16:34:31] INFO root fetch - processPackages [pyEDFlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEDFlib-0.1.8.zip tmp/pyEDFlib-0.1.9.tar.gz --markdown 20230626/p/pyEDFlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 16:34:32] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: chromakey
+[2023-06-26 16:34:32] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-26 16:34:32] INFO root fetch - processPackages [chromakey]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 16:34:32] INFO root fetch - processPackages [pynad]: Remove: archive file [/home/abi/fetcher/tmp/pynad-3.0.1.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - processPackages [pynad]: Remove: archive file [/home/abi/fetcher/tmp/pynad-3.0.2.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - main [MainThread]: End processing [pynad]: success
+[2023-06-26 16:34:32] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2023.1.3.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2023.1.4.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - main [MainThread]: End processing [licensecheck]: success
+[2023-06-26 16:34:32] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.2.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.3.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - main [MainThread]: End processing [balepy]: success
+[2023-06-26 16:34:32] INFO root fetch - processPackages [chromakey]: Downloading https://files.pythonhosted.org/packages/12/73/783f764d700349b72b1de9bf9c08944a2bbb64ca09ec6d2884e0a36a73e4/chromakey-0.1.0.tar.gz
+[2023-06-26 16:34:32] INFO root fetch - processPackages [scm-wrap]: Remove: archive file [/home/abi/fetcher/tmp/scm-wrap-1.1.8.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - processPackages [scm-wrap]: Remove: archive file [/home/abi/fetcher/tmp/scm-wrap-1.1.9.tar.gz]
+[2023-06-26 16:34:32] INFO root fetch - main [MainThread]: End processing [scm-wrap]: success
+[2023-06-26 16:34:32] INFO root fetch - processPackages [chromakey]: Downloading https://files.pythonhosted.org/packages/9d/f3/137556d3348050d6eab8803c9dfaac9bf182f524d786024170a79b665eb9/chromakey-0.1.1.tar.gz
+[2023-06-26 16:34:32] INFO root fetch - processPackages [chromakey]: executing diffoscope
+[2023-06-26 16:34:32] INFO root fetch - processPackages [chromakey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromakey-0.1.0.tar.gz tmp/chromakey-0.1.1.tar.gz --markdown 20230626/c/chromakey/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 16:34:33] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.3.3.tar.gz]
+[2023-06-26 16:34:33] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.4.tar.gz]
+[2023-06-26 16:34:33] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-06-26 16:34:33] INFO root fetch - processPackages [chromakey]: Remove: archive file [/home/abi/fetcher/tmp/chromakey-0.1.0.tar.gz]
+[2023-06-26 16:34:33] INFO root fetch - processPackages [chromakey]: Remove: archive file [/home/abi/fetcher/tmp/chromakey-0.1.1.tar.gz]
+[2023-06-26 16:34:33] INFO root fetch - main [MainThread]: End processing [chromakey]: success
+[2023-06-26 16:34:34] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.4rc1.tar.gz]
+[2023-06-26 16:34:34] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.4rc2.tar.gz]
+[2023-06-26 16:34:34] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-26 16:34:34] INFO root fetch - processPackages [pyEDFlib]: Remove: archive file [/home/abi/fetcher/tmp/pyEDFlib-0.1.8.zip]
+[2023-06-26 16:34:34] INFO root fetch - processPackages [pyEDFlib]: Remove: archive file [/home/abi/fetcher/tmp/pyEDFlib-0.1.9.tar.gz]
+[2023-06-26 16:34:34] INFO root fetch - main [MainThread]: End processing [pyEDFlib]: success
+[2023-06-26 16:34:35] INFO root fetch - processPackages [st4sd-runtime-core]: Remove: archive file [/home/abi/fetcher/tmp/st4sd-runtime-core-2.0.0a9.dev7.tar.gz]
+[2023-06-26 16:34:35] INFO root fetch - processPackages [st4sd-runtime-core]: Remove: archive file [/home/abi/fetcher/tmp/st4sd-runtime-core-2.0.0a9.dev8.tar.gz]
+[2023-06-26 16:34:35] INFO root fetch - main [MainThread]: End processing [st4sd-runtime-core]: success
+[2023-06-26 16:34:38] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.4.0-py3-none-any.whl.zip]
+[2023-06-26 16:34:38] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.4.1-py3-none-any.whl.zip]
+[2023-06-26 16:34:38] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
+[2023-06-26 16:34:38] INFO root fetch - main [MainThread]: Store serial: [18648325]
