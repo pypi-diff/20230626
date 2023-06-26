@@ -14960,3 +14960,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 12:50:49] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
 [2023-06-26 12:50:49] INFO root fetch - main [MainThread]: End processing [openlane]: success
 [2023-06-26 12:50:49] INFO root fetch - main [MainThread]: Store serial: [18645460]
+[2023-06-26 12:55:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645460]
+[2023-06-26 12:55:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-fr-fec-oca
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: causal-testing-framework
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-preprocessing-REMLA23-team2
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overhave
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: braincube-aws-core
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lemon-ai
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: titan-iris
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: current-events-magnifier
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dgl_client
+[2023-06-26 12:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dowell-permutation
+[2023-06-26 12:55:58] INFO root fetch - processPackages [lemon-ai]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-26 12:55:58] INFO root fetch - processPackages [titan-iris]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-26 12:55:58] INFO root fetch - processPackages [odoo14-addon-l10n-fr-fec-oca]: New version: [14.0.2.0.0] Old Version: [14.0.1.2.0]
+[2023-06-26 12:55:58] WARNING root fetch - processPackages [lib-preprocessing-REMLA23-team2]: Skipping, unable to determine old version
+[2023-06-26 12:55:58] INFO root fetch - main [MainThread]: End processing [lib-preprocessing-REMLA23-team2] error
+[2023-06-26 12:55:58] INFO root fetch - processPackages [causal-testing-framework]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-06-26 12:55:58] INFO root fetch - processPackages [dgl_client]: New version: [0.4.1] Old Version: [0.3.5]
+[2023-06-26 12:55:58] INFO root fetch - processPackages [braincube-aws-core]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 12:55:58] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.0.3.9] Old Version: [0.0.3.8]
+[2023-06-26 12:55:58] WARNING root fetch - processPackages [dowell-permutation]: Skipping, unable to determine old version
+[2023-06-26 12:55:58] INFO root fetch - processPackages [overhave]: New version: [4.0.0] Old Version: [3.9.0]
+[2023-06-26 12:55:58] INFO root fetch - main [MainThread]: End processing [dowell-permutation] error
+[2023-06-26 12:55:58] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e3/0b/a57fa24b63a67042315ba785058210a7907a91c250b0713ef9d7b212a410/titan-iris-0.8.3.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [lemon-ai]: Downloading https://files.pythonhosted.org/packages/aa/54/c3e091f61bb62e952df4094ce6ec7d176a2c1eea373850c12bd8e0f0fb8d/lemon-ai-0.1.0.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [causal-testing-framework]: Downloading https://files.pythonhosted.org/packages/9a/bd/2c53f524647b3f0889b6e314eb35d9b363850e4c67a7172c0bbd185d0b39/causal_testing_framework-4.1.0.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/b6/95/bf8c655bfefe237705f9b702a74c8befa5389a4d9f307f564f80bd09c9ad/dgl_client-0.3.5.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/95/c6/7f9d5d625b636c7a933e07afee832e374fb2bdc09ef5bd9d845c66ac215f/current_events_magnifier-0.0.3.8.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [odoo14-addon-l10n-fr-fec-oca]: Downloading https://files.pythonhosted.org/packages/fe/1b/34ef0f3fe643c0c24dcc3a936cb2bf01554477afd33111db3dc9dfef0a34/odoo14_addon_l10n_fr_fec_oca-14.0.1.2.0-py3-none-any.whl
+[2023-06-26 12:55:58] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/53/af/c768a33320940cbb4d2e9af53d090268fc9eb0b87bed8e10c081c668f698/overhave-3.9.0.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/f9/6d/be10e0b244775f698ea4c0263f063c18e2b07a7746513a8c68e6c3474516/braincube-aws-core-0.0.5.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/8b/64/ccf26b934321bc3a259d2113e049f040124722e539664d971581111e9d25/titan-iris-0.8.4.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-26 12:55:58] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.3.tar.gz tmp/titan-iris-0.8.4.tar.gz --markdown 20230626/t/titan-iris/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-26 12:55:58] INFO root fetch - processPackages [lemon-ai]: Downloading https://files.pythonhosted.org/packages/60/e1/7dc1f9273c70b5230abff68098d9e8ba9c16138d56791868f783fcc78884/lemon-ai-0.1.2.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/98/73/910a248777d8a09512e17ac8a9d773f48aba09be0e837d0891c152567f4f/current_events_magnifier-0.0.3.9.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [odoo14-addon-l10n-fr-fec-oca]: Downloading https://files.pythonhosted.org/packages/ec/a4/b9a6044fc9303977a2e988f3545a13794af8d4bc06f23d3d0246042aa95f/odoo14_addon_l10n_fr_fec_oca-14.0.2.0.0-py3-none-any.whl
+[2023-06-26 12:55:58] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/2a/24/d9eeceda140aebab597e1fb3d6b01f20287f08ef50f95a033635e69635cd/overhave-4.0.0.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/9f/cf/b596b295c2a15c11d5be98b83415a35f96153df4c6f334a1b528ee645d27/dgl_client-0.4.1.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [lemon-ai]: executing diffoscope
+[2023-06-26 12:55:58] INFO root fetch - processPackages [lemon-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemon-ai-0.1.0.tar.gz tmp/lemon-ai-0.1.2.tar.gz --markdown 20230626/l/lemon-ai/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 12:55:58] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/88/12/34a61686bf0445d80c1fe33b19379587eda523fc767f83f9ec7fe87af063/braincube-aws-core-0.0.6.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-26 12:55:58] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.0.3.8.tar.gz tmp/current_events_magnifier-0.0.3.9.tar.gz --markdown 20230626/c/current-events-magnifier/0.0.3.8-0.0.3.9/diff.md --exclude *.pyd
+[2023-06-26 12:55:58] INFO root fetch - processPackages [odoo14-addon-l10n-fr-fec-oca]: executing diffoscope
+[2023-06-26 12:55:58] INFO root fetch - processPackages [odoo14-addon-l10n-fr-fec-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_fr_fec_oca-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_fr_fec_oca-14.0.2.0.0-py3-none-any.whl.zip --markdown 20230626/o/odoo14-addon-l10n-fr-fec-oca/14.0.1.2.0-14.0.2.0.0/diff.md --exclude *.pyd
+[2023-06-26 12:55:58] INFO root fetch - processPackages [dgl_client]: executing diffoscope
+[2023-06-26 12:55:58] INFO root fetch - processPackages [dgl_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgl_client-0.3.5.tar.gz tmp/dgl_client-0.4.1.tar.gz --markdown 20230626/d/dgl_client/0.3.5-0.4.1/diff.md --exclude *.pyd
+[2023-06-26 12:55:58] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-06-26 12:55:58] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-3.9.0.tar.gz tmp/overhave-4.0.0.tar.gz --markdown 20230626/o/overhave/3.9.0-4.0.0/diff.md --exclude *.pyd
+[2023-06-26 12:55:58] INFO root fetch - processPackages [braincube-aws-core]: executing diffoscope
+[2023-06-26 12:55:58] INFO root fetch - processPackages [braincube-aws-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-0.0.5.tar.gz tmp/braincube-aws-core-0.0.6.tar.gz --markdown 20230626/b/braincube-aws-core/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 12:55:58] INFO root fetch - processPackages [causal-testing-framework]: Downloading https://files.pythonhosted.org/packages/25/da/a04785672bd51a57aa37db98e986c09bf57ebcb009ac3a81369cbab629c7/causal_testing_framework-4.2.0.tar.gz
+[2023-06-26 12:55:58] INFO root fetch - processPackages [causal-testing-framework]: executing diffoscope
+[2023-06-26 12:55:58] INFO root fetch - processPackages [causal-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causal_testing_framework-4.1.0.tar.gz tmp/causal_testing_framework-4.2.0.tar.gz --markdown 20230626/c/causal-testing-framework/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-06-26 12:56:00] INFO root fetch - processPackages [lemon-ai]: Remove: archive file [/home/abi/fetcher/tmp/lemon-ai-0.1.0.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - processPackages [lemon-ai]: Remove: archive file [/home/abi/fetcher/tmp/lemon-ai-0.1.2.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - main [MainThread]: End processing [lemon-ai]: success
+[2023-06-26 12:56:00] INFO root fetch - processPackages [dgl_client]: Remove: archive file [/home/abi/fetcher/tmp/dgl_client-0.3.5.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - processPackages [dgl_client]: Remove: archive file [/home/abi/fetcher/tmp/dgl_client-0.4.1.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - main [MainThread]: End processing [dgl_client]: success
+[2023-06-26 12:56:00] INFO root fetch - processPackages [odoo14-addon-l10n-fr-fec-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_fr_fec_oca-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-26 12:56:00] INFO root fetch - processPackages [odoo14-addon-l10n-fr-fec-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_fr_fec_oca-14.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-26 12:56:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-fr-fec-oca]: success
+[2023-06-26 12:56:00] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.5.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.6.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - main [MainThread]: End processing [braincube-aws-core]: success
+[2023-06-26 12:56:00] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.8.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.0.3.9.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-26 12:56:00] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.3.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.4.tar.gz]
+[2023-06-26 12:56:00] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-26 12:56:01] INFO root fetch - processPackages [causal-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/causal_testing_framework-4.1.0.tar.gz]
+[2023-06-26 12:56:01] INFO root fetch - processPackages [causal-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/causal_testing_framework-4.2.0.tar.gz]
+[2023-06-26 12:56:01] INFO root fetch - main [MainThread]: End processing [causal-testing-framework]: success
+[2023-06-26 12:56:02] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-3.9.0.tar.gz]
+[2023-06-26 12:56:02] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.0.0.tar.gz]
+[2023-06-26 12:56:02] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-06-26 12:56:02] INFO root fetch - main [MainThread]: Store serial: [18645494]
