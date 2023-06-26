@@ -15092,3 +15092,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:01:30] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.4.2.tar.gz]
 [2023-06-26 13:01:30] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-06-26 13:01:30] INFO root fetch - main [MainThread]: Store serial: [18645516]
+[2023-06-26 13:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645516]
+[2023-06-26 13:06:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymultigit
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axaiogram
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: web3Batch
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duffy
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentinel-analysis
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turnip-text
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oauth2-lib
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nannyml
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygac
+[2023-06-26 13:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wordview
+[2023-06-26 13:06:40] INFO root fetch - processPackages [sentinel-analysis]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pygac]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [duffy]: New version: [3.3.7] Old Version: [3.3.6rc1]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [oauth2-lib]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [axaiogram]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 13:06:40] WARNING root fetch - processPackages [web3Batch]: Skipping, unable to determine old version
+[2023-06-26 13:06:40] INFO root fetch - processPackages [wordview]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [web3Batch]: Start processing: duffy
+[2023-06-26 13:06:40] INFO root fetch - main [MainThread]: End processing [web3Batch] error
+[2023-06-26 13:06:40] INFO root fetch - processPackages [turnip-text]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pymultigit]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [nannyml]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [duffy]: New version: [3.3.7] Old Version: [3.3.6rc1]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/b2/27/0198ec3b88d4e24fd15da40328d810fcc8e7d5f353c4d69f720e57bd1f22/axaiogram-0.0.6.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [sentinel-analysis]: Downloading https://files.pythonhosted.org/packages/52/9b/6f67884d255d51c124d31b6bb65786093b833cca70ea99bb7f67986c1b89/sentinel_analysis-0.1.4.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pygac]: Downloading https://files.pythonhosted.org/packages/93/d0/1efb3374f8ab062d70e89ac7c66f980b3123dd76b226c229dd7190fdc226/pygac-1.7.1.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [duffy]: Downloading https://files.pythonhosted.org/packages/aa/03/7177f2b5d611a7698ea53e940cb46c07fdd4c18acbd505de76412cf23c2d/duffy-3.3.6rc1.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [duffy]: Downloading https://files.pythonhosted.org/packages/aa/03/7177f2b5d611a7698ea53e940cb46c07fdd4c18acbd505de76412cf23c2d/duffy-3.3.6rc1.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [turnip-text]: Downloading https://files.pythonhosted.org/packages/67/ba/dd76d89d24699da90d7a7715b0196f36bc096578187fe092931c69c1c5df/turnip_text-0.0.2.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [nannyml]: Downloading https://files.pythonhosted.org/packages/37/7a/f4633c9b02c2c4dca23dfc5174f908184f77d3f6007691700d78f26cb015/nannyml-0.8.6.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/6d/d1/d9c1ea29da867df10bb14251a285c95d85b641e455ec3f04a4d066035b34/oauth2-lib-1.2.8.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/da/ae/3fdc0d2b8e9ff602f72ed856c175852b58b7560da0480f5e8d83207646eb/pymultigit-0.0.85.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/0c/7d/2bae5d5da8079e71ec28cb84bfbb24f559b48b352fcb109c06b0fca1efe6/wordview-0.3.7.tar.gz
+[2023-06-26 13:06:40] WARNING root fetch - processPackages [nannyml]: Skipping package: exceeds size limit 20342268>=10485760
+[2023-06-26 13:06:40] INFO root fetch - processPackages [nannyml]: Start processing: cm2py
+[2023-06-26 13:06:40] INFO root fetch - main [MainThread]: End processing [nannyml] error
+[2023-06-26 13:06:40] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/1a/53/66f21b9a45482cc35c69c23bb026c683411bd1bc50395ef1bbd6e27c808c/axaiogram-0.0.7.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [cm2py]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-26 13:06:40] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 13:06:40] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.6.tar.gz tmp/axaiogram-0.0.7.tar.gz --markdown 20230626/a/axaiogram/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 13:06:40] INFO root fetch - processPackages [turnip-text]: Downloading https://files.pythonhosted.org/packages/e9/ee/6278af3a7664d39a0115d04a71e522b244ec70d1ef081a30375190a439cb/turnip_text-0.0.3.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [sentinel-analysis]: Downloading https://files.pythonhosted.org/packages/31/91/2ba16ee4a9996a0ce547075b14a8c5ac92dd441d2263042dd5fc013e475e/sentinel_analysis-0.1.5.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/78/fc/47199a00018fdfaf51422ee7079e8f6ef12ad0e9f7b47a8c73d51bb7ae1a/pymultigit-0.0.86.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [sentinel-analysis]: executing diffoscope
+[2023-06-26 13:06:40] INFO root fetch - processPackages [sentinel-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_analysis-0.1.4.tar.gz tmp/sentinel_analysis-0.1.5.tar.gz --markdown 20230626/s/sentinel-analysis/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pygac]: Downloading https://files.pythonhosted.org/packages/75/21/d2eaa3b496fa3d116a6facdde6bd23288e7be7c98549d58437d0956cdac3/pygac-1.7.2.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pymultigit]: executing diffoscope
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pymultigit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultigit-0.0.85.tar.gz tmp/pymultigit-0.0.86.tar.gz --markdown 20230626/p/pymultigit/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-06-26 13:06:40] INFO root fetch - processPackages [turnip-text]: executing diffoscope
+[2023-06-26 13:06:40] INFO root fetch - processPackages [turnip-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turnip_text-0.0.2.tar.gz tmp/turnip_text-0.0.3.tar.gz --markdown 20230626/t/turnip-text/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 13:06:40] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/27/cc/3736897e4778b7bbe2c8b3f34da5fb5f988d368eb61e83736cd238f546cd/oauth2-lib-1.2.9.tar.gz
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pygac]: executing diffoscope
+[2023-06-26 13:06:40] INFO root fetch - processPackages [pygac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygac-1.7.1.tar.gz tmp/pygac-1.7.2.tar.gz --markdown 20230626/p/pygac/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-26 13:06:41] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/6e/53/05319d3b91d2de4bba9333c5e20db240817f37a40ec3cb68a4cf463aa7cb/wordview-0.4.0.tar.gz
+[2023-06-26 13:06:41] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/6e/5b/ec095a4be025094875f3cbaaeff2801fb841d8f8f87c30e6e1c455f9f96c/cm2py-0.2.1.tar.gz
+[2023-06-26 13:06:41] INFO root fetch - processPackages [duffy]: Downloading https://files.pythonhosted.org/packages/5f/25/743e959b386201fc5c1835fd431947c612a08bc02237945eed032773da6c/duffy-3.3.7.tar.gz
+[2023-06-26 13:06:41] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-06-26 13:06:41] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.3.7.tar.gz tmp/wordview-0.4.0.tar.gz --markdown 20230626/w/wordview/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-06-26 13:06:41] INFO root fetch - processPackages [duffy]: Downloading https://files.pythonhosted.org/packages/5f/25/743e959b386201fc5c1835fd431947c612a08bc02237945eed032773da6c/duffy-3.3.7.tar.gz
+[2023-06-26 13:06:41] INFO root fetch - processPackages [duffy]: executing diffoscope
+[2023-06-26 13:06:41] INFO root fetch - processPackages [duffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duffy-3.3.6rc1.tar.gz tmp/duffy-3.3.7.tar.gz --markdown 20230626/d/duffy/3.3.6rc1-3.3.7/diff.md --exclude *.pyd
+[2023-06-26 13:06:41] INFO root fetch - processPackages [duffy]: executing diffoscope
+[2023-06-26 13:06:41] INFO root fetch - processPackages [duffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duffy-3.3.6rc1.tar.gz tmp/duffy-3.3.7.tar.gz --markdown 20230626/d/duffy/3.3.6rc1-3.3.7/diff.md --exclude *.pyd
+[2023-06-26 13:06:41] INFO root fetch - processPackages [oauth2-lib]: executing diffoscope
+[2023-06-26 13:06:41] INFO root fetch - processPackages [oauth2-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauth2-lib-1.2.8.tar.gz tmp/oauth2-lib-1.2.9.tar.gz --markdown 20230626/o/oauth2-lib/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-26 13:06:41] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/ae/b0/f15093f8bc67895ed5d93fb707acca91f45439f04095163ce80212db1364/cm2py-0.2.2.tar.gz
+[2023-06-26 13:06:41] INFO root fetch - processPackages [cm2py]: executing diffoscope
+[2023-06-26 13:06:41] INFO root fetch - processPackages [cm2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm2py-0.2.1.tar.gz tmp/cm2py-0.2.2.tar.gz --markdown 20230626/c/cm2py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-26 13:06:42] INFO root fetch - processPackages [sentinel-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_analysis-0.1.4.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - processPackages [sentinel-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_analysis-0.1.5.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - processPackages [sentinel-analysis]: Start processing: PVNet
+[2023-06-26 13:06:42] INFO root fetch - main [MainThread]: End processing [sentinel-analysis]: success
+[2023-06-26 13:06:42] INFO root fetch - processPackages [PVNet]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-26 13:06:42] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/e5/9f/6d46b08e0539687efe4df8dc6021af5777a8a9a7bc63a4f36724654c0c33/PVNet-2.0.0.tar.gz
+[2023-06-26 13:06:42] INFO root fetch - processPackages [pymultigit]: Remove: archive file [/home/abi/fetcher/tmp/pymultigit-0.0.85.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - processPackages [pymultigit]: Remove: archive file [/home/abi/fetcher/tmp/pymultigit-0.0.86.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - main [MainThread]: End processing [pymultigit]: success
+[2023-06-26 13:06:42] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d1/54/e9dd414413df4aea4b088f4abc204b8648e6e99a117cfa60c55a092c2a7c/PVNet-2.1.0.tar.gz
+[2023-06-26 13:06:42] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-06-26 13:06:42] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.0.0.tar.gz tmp/PVNet-2.1.0.tar.gz --markdown 20230626/P/PVNet/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-26 13:06:42] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.6.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.7.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 13:06:42] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.1.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.2.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - main [MainThread]: End processing [cm2py]: success
+[2023-06-26 13:06:42] INFO root fetch - processPackages [duffy]: Remove: archive file [/home/abi/fetcher/tmp/duffy-3.3.6rc1.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - processPackages [duffy]: Remove: archive file [/home/abi/fetcher/tmp/duffy-3.3.7.tar.gz]
+[2023-06-26 13:06:42] INFO root fetch - main [MainThread]: End processing [duffy]: success
+[2023-06-26 13:06:42] INFO root fetch - main [MainThread]: End processing [duffy]: success
+[2023-06-26 13:06:43] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.7.tar.gz]
+[2023-06-26 13:06:43] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.4.0.tar.gz]
+[2023-06-26 13:06:43] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-06-26 13:06:43] INFO root fetch - processPackages [oauth2-lib]: Remove: archive file [/home/abi/fetcher/tmp/oauth2-lib-1.2.8.tar.gz]
+[2023-06-26 13:06:43] INFO root fetch - processPackages [oauth2-lib]: Remove: archive file [/home/abi/fetcher/tmp/oauth2-lib-1.2.9.tar.gz]
+[2023-06-26 13:06:43] INFO root fetch - main [MainThread]: End processing [oauth2-lib]: success
+[2023-06-26 13:06:43] INFO root fetch - processPackages [turnip-text]: Remove: archive file [/home/abi/fetcher/tmp/turnip_text-0.0.2.tar.gz]
+[2023-06-26 13:06:43] INFO root fetch - processPackages [turnip-text]: Remove: archive file [/home/abi/fetcher/tmp/turnip_text-0.0.3.tar.gz]
+[2023-06-26 13:06:43] INFO root fetch - main [MainThread]: End processing [turnip-text]: success
+[2023-06-26 13:06:43] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.0.0.tar.gz]
+[2023-06-26 13:06:43] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.0.tar.gz]
+[2023-06-26 13:06:43] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-06-26 13:06:45] INFO root fetch - processPackages [pygac]: Remove: archive file [/home/abi/fetcher/tmp/pygac-1.7.1.tar.gz]
+[2023-06-26 13:06:45] INFO root fetch - processPackages [pygac]: Remove: archive file [/home/abi/fetcher/tmp/pygac-1.7.2.tar.gz]
+[2023-06-26 13:06:45] INFO root fetch - main [MainThread]: End processing [pygac]: success
+[2023-06-26 13:06:45] INFO root fetch - main [MainThread]: Store serial: [18645569]
