@@ -9628,3 +9628,484 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 09:04:58] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-5.1.0.tar.gz]
 [2023-06-26 09:04:58] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
 [2023-06-26 09:04:58] INFO root fetch - main [MainThread]: Store serial: [18643230]
+[2023-06-26 09:10:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643230]
+[2023-06-26 09:10:15] INFO root fetch - main [MainThread]: Found 41 changed packages
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projhelper
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fennel-ai
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tomwer
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: csv2sqltable
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mse-cli-core
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gacha
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autoxx
+[2023-06-26 09:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smart-chromadb
+[2023-06-26 09:10:15] INFO root fetch - processPackages [mse-cli-core]: New version: [0.1a8] Old Version: [0.1a7]
+[2023-06-26 09:10:15] WARNING root fetch - processPackages [csv2sqltable]: Skipping, unable to determine old version
+[2023-06-26 09:10:15] INFO root fetch - processPackages [csv2sqltable]: Start processing: luisa-python
+[2023-06-26 09:10:15] INFO root fetch - main [MainThread]: End processing [csv2sqltable] error
+[2023-06-26 09:10:15] INFO root fetch - processPackages [autoxx]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-06-26 09:10:15] INFO root fetch - processPackages [fennel-ai]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-26 09:10:15] WARNING root fetch - processPackages [smart-chromadb]: Skipping, unable to determine old version
+[2023-06-26 09:10:15] INFO root fetch - processPackages [smart-chromadb]: Start processing: tree-sitter-languages
+[2023-06-26 09:10:15] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-26 09:10:15] INFO root fetch - main [MainThread]: End processing [smart-chromadb] error
+[2023-06-26 09:10:15] WARNING root fetch - processPackages [gacha]: Skipping, unable to determine old version
+[2023-06-26 09:10:15] INFO root fetch - processPackages [gacha]: Start processing: XPER
+[2023-06-26 09:10:15] INFO root fetch - main [MainThread]: End processing [gacha] error
+[2023-06-26 09:10:15] INFO root fetch - processPackages [tomwer]: New version: [1.2.0a1] Old Version: [1.2.0a0]
+[2023-06-26 09:10:15] INFO root fetch - processPackages [cg]: New version: [37.0.2] Old Version: [37.0.1]
+[2023-06-26 09:10:15] INFO root fetch - processPackages [luisa-python]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-26 09:10:16] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:16] INFO root fetch - processPackages [tree-sitter-languages]: New version: [1.6.1] Old Version: [1.5.0]
+[2023-06-26 09:10:16] INFO root fetch - processPackages [projhelper]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 09:10:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/fe/11/5fe924ba312fbef3a57a969ce49fcb23f1697b48c91c2488ffbad35823c6/cg-37.0.1.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/9b/d3/a48618f41f6e01c1e2160f3130a1b390992e7c0799d0cc2059ed1521a73c/autoxx-0.0.34.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/2b/6d/54662865fa39f70c8e936c74f7fb8b8edd5126ddd5eb28866087b93efad1/mse_cli_core-0.1a7.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/d4/26/4eb76cfe9ce1dbe30c04220d8454ea3bc2454cab78e5cb06cba758448183/fennel_ai-0.8.6.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/55/e2/51deca77c72c63d2cf45e1e2662ae01f72e3bf6634c8491cb56d4ff29361/tomwer-1.2.0a0.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [projhelper]: Downloading https://files.pythonhosted.org/packages/86/e9/ca5cf6c02e79db9db40bb31e922ffdaca40fa65bb9b63ec3df2d979ade66/projhelper-0.1.7.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [tree-sitter-languages]: Downloading https://files.pythonhosted.org/packages/3b/4d/e700b0afd940b61ffb6bb6d6108467342211f47809045891997f4a0a7229/tree_sitter_languages-1.5.0-cp39-cp39-win_amd64.whl
+[2023-06-26 09:10:16] INFO root fetch - processPackages [luisa-python]: Downloading https://files.pythonhosted.org/packages/ca/35/e15b4cc34cee238e9481b94bb9cbf9fb7337037d2ffd08b2254b386cc8c2/luisa_python-0.2.1-cp311-cp311-win_amd64.whl
+[2023-06-26 09:10:16] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-26 09:10:16] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230626/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:16] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/ce/d5/611c3e719afe1632742e21c360b62c9dcc652a72cbee8be5876aa5e972ff/autoxx-0.0.35.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/f1/da/a150ba3bd4f52dd763a0365c901a497c90e31350397f0c1ad461e7928f5b/mse_cli_core-0.1a8.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-06-26 09:10:16] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.34.tar.gz tmp/autoxx-0.0.35.tar.gz --markdown 20230626/a/autoxx/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-06-26 09:10:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/03/7f/e5f02fbcbddd941f2f264941be8a6afb5f5e7883e9ad77ecec62b14bb5a3/cg-37.0.2.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [projhelper]: Downloading https://files.pythonhosted.org/packages/cb/d8/e4ae8e784d59f866feccf9824b47f873e6977826b5c225df75acf8c17b3d/projhelper-0.1.8.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:16] INFO root fetch - processPackages [projhelper]: executing diffoscope
+[2023-06-26 09:10:16] INFO root fetch - processPackages [projhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projhelper-0.1.7.tar.gz tmp/projhelper-0.1.8.tar.gz --markdown 20230626/p/projhelper/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 09:10:16] INFO root fetch - processPackages [mse-cli-core]: executing diffoscope
+[2023-06-26 09:10:16] INFO root fetch - processPackages [mse-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_cli_core-0.1a7.tar.gz tmp/mse_cli_core-0.1a8.tar.gz --markdown 20230626/m/mse-cli-core/0.1a7-0.1a8/diff.md --exclude *.pyd
+[2023-06-26 09:10:16] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-26 09:10:16] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.1.tar.gz tmp/cg-37.0.2.tar.gz --markdown 20230626/c/cg/37.0.1-37.0.2/diff.md --exclude *.pyd
+[2023-06-26 09:10:16] INFO root fetch - processPackages [tree-sitter-languages]: Downloading https://files.pythonhosted.org/packages/36/7a/0ad24661e78c9c5c5f397608cd72f69c05a8662236f5d2a26d43bd7c085f/tree_sitter_languages-1.6.1-cp39-cp39-win_amd64.whl
+[2023-06-26 09:10:16] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/4c/fc/90b33a768471ec120e5a2eb150847406a26ac2ef34bd6a41f7eb20a0432f/fennel_ai-0.8.7.tar.gz
+[2023-06-26 09:10:16] WARNING root fetch - processPackages [luisa-python]: Skipping package: exceeds size limit 64265843>=10485760
+[2023-06-26 09:10:16] INFO root fetch - processPackages [luisa-python]: Start processing: XPER
+[2023-06-26 09:10:16] INFO root fetch - main [MainThread]: End processing [luisa-python] error
+[2023-06-26 09:10:16] INFO root fetch - processPackages [fennel-ai]: executing diffoscope
+[2023-06-26 09:10:16] INFO root fetch - processPackages [fennel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fennel_ai-0.8.6.tar.gz tmp/fennel_ai-0.8.7.tar.gz --markdown 20230626/f/fennel-ai/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-26 09:10:16] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:17] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/9c/a6/94383f8fefff438a708de6a15de54cdf27095e019093eba700e8d3150b0f/tomwer-1.2.0a1.tar.gz
+[2023-06-26 09:10:17] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:17] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:17] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:17] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:17] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:17] INFO root fetch - processPackages [tree-sitter-languages]: executing diffoscope
+[2023-06-26 09:10:17] INFO root fetch - processPackages [tree-sitter-languages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_languages-1.5.0-cp39-cp39-win_amd64.whl.zip tmp/tree_sitter_languages-1.6.1-cp39-cp39-win_amd64.whl.zip --markdown 20230626/t/tree-sitter-languages/1.5.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-26 09:10:18] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.34.tar.gz]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.35.tar.gz]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [autoxx]: Start processing: XPER
+[2023-06-26 09:10:18] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [tomwer]: executing diffoscope
+[2023-06-26 09:10:18] INFO root fetch - processPackages [tomwer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomwer-1.2.0a0.tar.gz tmp/tomwer-1.2.0a1.tar.gz --markdown 20230626/t/tomwer/1.2.0a0-1.2.0a1/diff.md --exclude *.pyd
+[2023-06-26 09:10:18] INFO root fetch - processPackages [projhelper]: Remove: archive file [/home/abi/fetcher/tmp/projhelper-0.1.7.tar.gz]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [projhelper]: Remove: archive file [/home/abi/fetcher/tmp/projhelper-0.1.8.tar.gz]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [projhelper]: Start processing: XPER
+[2023-06-26 09:10:18] INFO root fetch - main [MainThread]: End processing [projhelper]: success
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:18] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a7.tar.gz]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a8.tar.gz]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [mse-cli-core]: Start processing: XPER
+[2023-06-26 09:10:18] INFO root fetch - main [MainThread]: End processing [mse-cli-core]: success
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:18] ERROR root fetch - processPackages [XPER]: Diffoscope failed: Error: error creating container storage: the container name "dreamy_lichterman" is already in use by "d1d348a453c38417ae583fa2654049e1e003b1b8f65bed0012858e571c670495". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:18] INFO root fetch - main [MainThread]: End processing [XPER] error
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:18] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [seven-cloudapp-frame]: Start processing: XPER
+[2023-06-26 09:10:18] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:18] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:19] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.6.tar.gz]
+[2023-06-26 09:10:19] INFO root fetch - processPackages [fennel-ai]: Remove: archive file [/home/abi/fetcher/tmp/fennel_ai-0.8.7.tar.gz]
+[2023-06-26 09:10:19] INFO root fetch - processPackages [fennel-ai]: Start processing: XPER
+[2023-06-26 09:10:19] INFO root fetch - main [MainThread]: End processing [fennel-ai]: success
+[2023-06-26 09:10:19] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:19] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:19] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:21] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:21] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:21] ERROR root fetch - processPackages [XPER]: Diffoscope failed: gzip: tmp/XPER-0.0.9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/XPER-0.0.9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:21] INFO root fetch - main [MainThread]: End processing [XPER] error
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:21] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:21] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:22] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:22] ERROR root fetch - processPackages [XPER]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/XPER-0.0.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/XPER-0.0.9.tar.gz: No such file or directory
+
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:22] INFO root fetch - main [MainThread]: End processing [XPER] error
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:22] ERROR root fetch - processPackages [XPER]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/XPER-0.0.9.tar.gz: No such file or directory
+
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:22] INFO root fetch - main [MainThread]: End processing [XPER] error
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:22] ERROR root fetch - processPackages [XPER]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/XPER-0.0.9.tar.gz: No such file or directory
+
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:22] INFO root fetch - main [MainThread]: End processing [XPER] error
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:22] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:25] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:25] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:25] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:25] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:25] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:26] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:26] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:26] ERROR root fetch - processPackages [XPER]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/XPER-0.0.8.tar.gz: No such file or directory
+
+[2023-06-26 09:10:26] INFO root fetch - processPackages [XPER]: Start processing: mxcubeweb
+[2023-06-26 09:10:26] INFO root fetch - main [MainThread]: End processing [XPER] error
+[2023-06-26 09:10:26] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:26] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:26] INFO root fetch - processPackages [mxcubeweb]: New version: [1.45.0] Old Version: [1.44.0]
+[2023-06-26 09:10:26] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/cb/44/1cac8f8346a418a542b5ccb4494164057ad0b460bca32b63cb8578a4bb7c/mxcubeweb-1.44.0.tar.gz
+[2023-06-26 09:10:26] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/9e/5c/52241a691226a2006e129c016cf3a3b11c255f7b065e168cbbb92dd5e6bc/mxcubeweb-1.45.0.tar.gz
+[2023-06-26 09:10:26] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-26 09:10:26] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.44.0.tar.gz tmp/mxcubeweb-1.45.0.tar.gz --markdown 20230626/m/mxcubeweb/1.44.0-1.45.0/diff.md --exclude *.pyd
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:28] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:28] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.44.0.tar.gz]
+[2023-06-26 09:10:28] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.45.0.tar.gz]
+[2023-06-26 09:10:28] INFO root fetch - processPackages [mxcubeweb]: Start processing: msb-client-websocket-python
+[2023-06-26 09:10:28] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-26 09:10:28] INFO root fetch - processPackages [msb-client-websocket-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-06-26 09:10:28] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:28] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:28] INFO root fetch - processPackages [msb-client-websocket-python]: Downloading https://files.pythonhosted.org/packages/13/74/439d6cd049a9b853efd7ac2e90f027e11184d2fd4c7eab0958014b5f2890/msb-client-websocket-python-1.0.8.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:29] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:29] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [msb-client-websocket-python]: Downloading https://files.pythonhosted.org/packages/6a/d4/257c3522b9475ab37d787a1536e7da9fa71e8cd849889e3e4bbb3b7e7c21/msb-client-websocket-python-1.0.9.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/ae/2d/41457ff7ff4e5347b5ad44d430579e6720ff29b66a7d06d7754ec79fb011/XPER-0.0.8.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Start processing: XPER
+[2023-06-26 09:10:29] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:29] INFO root fetch - processPackages [msb-client-websocket-python]: executing diffoscope
+[2023-06-26 09:10:29] INFO root fetch - processPackages [msb-client-websocket-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msb-client-websocket-python-1.0.8.tar.gz tmp/msb-client-websocket-python-1.0.9.tar.gz --markdown 20230626/m/msb-client-websocket-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Start processing: SpaGoG
+[2023-06-26 09:10:29] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:29] INFO root fetch - processPackages [SpaGoG]: New version: [0.18] Old Version: [0.17]
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: Downloading https://files.pythonhosted.org/packages/b3/4a/3e0a3cec66405593c7f44c1d2128bcd47efbd87eba31462db86569c8da19/XPER-0.0.9.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a0.tar.gz]
+[2023-06-26 09:10:29] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a1.tar.gz]
+[2023-06-26 09:10:29] INFO root fetch - processPackages [tomwer]: Start processing: mxcubeweb
+[2023-06-26 09:10:29] INFO root fetch - main [MainThread]: End processing [tomwer]: success
+[2023-06-26 09:10:29] INFO root fetch - processPackages [mxcubeweb]: New version: [1.46.0] Old Version: [1.45.0]
+[2023-06-26 09:10:29] ERROR root fetch - processPackages [XPER]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/XPER-0.0.9.tar.gz: No such file or directory
+
+[2023-06-26 09:10:29] INFO root fetch - main [MainThread]: End processing [XPER] error
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:29] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/90/5d/28473337c55f40627f8433100fb70da8e69841c283d052d07dafdf1c1a38/SpaGoG-0.17.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:29] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/9e/5c/52241a691226a2006e129c016cf3a3b11c255f7b065e168cbbb92dd5e6bc/mxcubeweb-1.45.0.tar.gz
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: executing diffoscope
+[2023-06-26 09:10:29] INFO root fetch - processPackages [XPER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XPER-0.0.8.tar.gz tmp/XPER-0.0.9.tar.gz --markdown 20230626/X/XPER/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:10:30] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/14/72/7400f07d4357b73580d3067b2cd26efb727abce6f76e018ca82d843350ba/SpaGoG-0.18.tar.gz
+[2023-06-26 09:10:30] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/20/a1/5873ec855e990c1bbee7fdcea6a3405e7dcfd3d404228aa15a851d44a553/mxcubeweb-1.46.0.tar.gz
+[2023-06-26 09:10:30] INFO root fetch - processPackages [SpaGoG]: executing diffoscope
+[2023-06-26 09:10:30] INFO root fetch - processPackages [SpaGoG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpaGoG-0.17.tar.gz tmp/SpaGoG-0.18.tar.gz --markdown 20230626/S/SpaGoG/0.17-0.18/diff.md --exclude *.pyd
+[2023-06-26 09:10:30] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-26 09:10:30] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.45.0.tar.gz tmp/mxcubeweb-1.46.0.tar.gz --markdown 20230626/m/mxcubeweb/1.45.0-1.46.0/diff.md --exclude *.pyd
+[2023-06-26 09:10:31] INFO root fetch - processPackages [msb-client-websocket-python]: Remove: archive file [/home/abi/fetcher/tmp/msb-client-websocket-python-1.0.8.tar.gz]
+[2023-06-26 09:10:31] INFO root fetch - processPackages [msb-client-websocket-python]: Remove: archive file [/home/abi/fetcher/tmp/msb-client-websocket-python-1.0.9.tar.gz]
+[2023-06-26 09:10:31] INFO root fetch - main [MainThread]: End processing [msb-client-websocket-python]: success
+[2023-06-26 09:10:31] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.17.tar.gz]
+[2023-06-26 09:10:31] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.18.tar.gz]
+[2023-06-26 09:10:31] INFO root fetch - main [MainThread]: End processing [SpaGoG]: success
+[2023-06-26 09:10:31] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.45.0.tar.gz]
+[2023-06-26 09:10:31] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.46.0.tar.gz]
+[2023-06-26 09:10:31] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-26 09:10:32] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.8.tar.gz]
+[2023-06-26 09:10:32] INFO root fetch - processPackages [XPER]: Remove: archive file [/home/abi/fetcher/tmp/XPER-0.0.9.tar.gz]
+[2023-06-26 09:10:32] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:32] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:33] ERROR root fetch - processPackages [XPER]: Diffoscope failed: gzip: tmp/XPER-0.0.9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/XPER-0.0.9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-26 09:10:33] INFO root fetch - main [MainThread]: End processing [XPER] error
+[2023-06-26 09:10:33] INFO root fetch - main [MainThread]: End processing [XPER]: success
+[2023-06-26 09:10:34] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.1.tar.gz]
+[2023-06-26 09:10:34] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.2.tar.gz]
+[2023-06-26 09:10:34] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-26 09:11:37] INFO root fetch - processPackages [tree-sitter-languages]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_languages-1.5.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 09:11:37] INFO root fetch - processPackages [tree-sitter-languages]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_languages-1.6.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 09:11:37] INFO root fetch - main [MainThread]: End processing [tree-sitter-languages]: success
+[2023-06-26 09:11:37] INFO root fetch - main [MainThread]: Store serial: [18643406]
