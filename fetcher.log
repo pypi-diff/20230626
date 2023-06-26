@@ -15777,3 +15777,106 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:33:11] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230626-py3-none-win_amd64.whl.zip]
 [2023-06-26 13:33:11] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-06-26 13:33:11] INFO root fetch - main [MainThread]: Store serial: [18645826]
+[2023-06-26 13:38:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645826]
+[2023-06-26 13:38:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cca-zoo
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-serving
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pasta-eln
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysquril
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web3Batch
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: instructure-dap-client
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fhict-cb-01
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: titan-iris
+[2023-06-26 13:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titan-iris
+[2023-06-26 13:38:24] INFO root fetch - processPackages [pasta-eln]: New version: [2.4.0] Old Version: [2.3.9]
+[2023-06-26 13:38:24] WARNING root fetch - processPackages [web3Batch]: Skipping, unable to determine old version
+[2023-06-26 13:38:24] INFO root fetch - processPackages [web3Batch]: Start processing: gomea
+[2023-06-26 13:38:24] INFO root fetch - processPackages [pysquril]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-26 13:38:24] INFO root fetch - main [MainThread]: End processing [web3Batch] error
+[2023-06-26 13:38:24] INFO root fetch - processPackages [fhict-cb-01]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-26 13:38:24] INFO root fetch - processPackages [instructure-dap-client]: New version: [0.3.9.1] Old Version: [0.3.8.2]
+[2023-06-26 13:38:24] INFO root fetch - processPackages [cca-zoo]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-26 13:38:24] INFO root fetch - processPackages [gomea]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-26 13:38:24] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230626] Old Version: [2.4.0b20230625]
+[2023-06-26 13:38:24] INFO root fetch - processPackages [titan-iris]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-26 13:38:24] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-26 13:38:24] INFO root fetch - processPackages [titan-iris]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-26 13:38:24] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/a4/f5/1cb645b12276c09f60f74cef5e4e92746bee8dac1a6de52ab3e25ba568f3/pysquril-0.3.0.tar.gz
+[2023-06-26 13:38:24] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/ff/12/4f1000dade1566838e3e724b7d28c6409c52ce7ac4152a176bdc17bdb32f/pasta_eln-2.3.9-py3-none-any.whl
+[2023-06-26 13:38:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/8b/64/ccf26b934321bc3a259d2113e049f040124722e539664d971581111e9d25/titan-iris-0.8.4.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/eb/20/780ac0200cc7d0f9a43dd5fb8b543c5f206255004ac83a0ac2053575e75a/bigdl_serving-2.4.0b20230625-py2.py3-none-any.whl
+[2023-06-26 13:38:25] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/61/8f/f3c59b0897c80bb4db63c471f75bd3b6cff6508d647239a8fbd50fd3496b/cca_zoo-2.0.5.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/14/91/1d14793794bb96d1a900bc6b09b965d865ae10ee1a3d951aaa882330e135/instructure-dap-client-0.3.8.2.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/8b/64/ccf26b934321bc3a259d2113e049f040124722e539664d971581111e9d25/titan-iris-0.8.4.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [fhict-cb-01]: Downloading https://files.pythonhosted.org/packages/5d/e7/67a09a58425a291c39edb7245aa1e2aa6903ae9a994a755fb9bd09681521/fhict_cb_01-0.2.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [gomea]: Downloading https://files.pythonhosted.org/packages/fd/89/35d645d15026b01ae65e83979261c4b81df3cf5f487af6557608e142e345/gomea-1.0.1.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-26 13:38:25] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/da/24/19408ee40e44b35ce9bb32816d7f07a7087388f065728e8dcd5732d5dad8/pysquril-0.3.1.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/94/93/b2e9a0ac92ab25989f83144bf8b409f0ad8fadb259df48194a508fb84242/pasta_eln-2.4.0-py3-none-any.whl
+[2023-06-26 13:38:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/77/bfbef8440910fbd84fa769b2b45b8f7958b3a06a9c6011df3dc6d9c3502b/titan-iris-0.8.5.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/77/bfbef8440910fbd84fa769b2b45b8f7958b3a06a9c6011df3dc6d9c3502b/titan-iris-0.8.5.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [pysquril]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [pysquril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysquril-0.3.0.tar.gz tmp/pysquril-0.3.1.tar.gz --markdown 20230626/p/pysquril/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 13:38:25] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/98/a6/bbc763972499aca61f627f45dc334c20eb4ad71cde922efc1f5f10b2d39a/cca_zoo-2.0.6.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/4f/8a/9ec182c0dc13fe83ca9668508b1602816edba56ef059382ccb98ae4ebf45/bigdl_serving-2.4.0b20230626-py2.py3-none-any.whl
+[2023-06-26 13:38:25] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.3.9-py3-none-any.whl.zip tmp/pasta_eln-2.4.0-py3-none-any.whl.zip --markdown 20230626/p/pasta-eln/2.3.9-2.4.0/diff.md --exclude *.pyd
+[2023-06-26 13:38:25] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.4.tar.gz tmp/titan-iris-0.8.5.tar.gz --markdown 20230626/t/titan-iris/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-26 13:38:25] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.4.tar.gz tmp/titan-iris-0.8.5.tar.gz --markdown 20230626/t/titan-iris/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-26 13:38:25] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-2.0.5.tar.gz tmp/cca_zoo-2.0.6.tar.gz --markdown 20230626/c/cca-zoo/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-26 13:38:25] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/f3/d9/7b69c0ddefa8972b7c9100ab388e8d57be11075326ab81603de974900f95/instructure-dap-client-0.3.9.1.tar.gz
+[2023-06-26 13:38:25] INFO root fetch - processPackages [fhict-cb-01]: Downloading https://files.pythonhosted.org/packages/0b/8f/419317ec50e2946641e76e3564a484fe9d3bfd7f8ee2c32a748a8c8d53c5/fhict_cb_01-0.2.1-py3-none-any.whl
+[2023-06-26 13:38:25] INFO root fetch - processPackages [instructure-dap-client]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [instructure-dap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructure-dap-client-0.3.8.2.tar.gz tmp/instructure-dap-client-0.3.9.1.tar.gz --markdown 20230626/i/instructure-dap-client/0.3.8.2-0.3.9.1/diff.md --exclude *.pyd
+[2023-06-26 13:38:25] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230625-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230626-py2.py3-none-any.whl.zip --markdown 20230626/b/bigdl-serving/2.4.0b20230625-2.4.0b20230626/diff.md --exclude *.pyd
+[2023-06-26 13:38:25] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-26 13:38:25] INFO root fetch - processPackages [fhict-cb-01]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [fhict-cb-01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhict_cb_01-0.2.tar.gz tmp/fhict_cb_01-0.2.1-py3-none-any.whl.zip --markdown 20230626/f/fhict-cb-01/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-26 13:38:25] INFO root fetch - processPackages [gomea]: Downloading https://files.pythonhosted.org/packages/8a/b2/6e11254cb9267e6d8bd878ead16ef8a17f1057f6612941867b153325aad0/gomea-1.0.2-cp39-cp39-win_amd64.whl
+[2023-06-26 13:38:25] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230626/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-26 13:38:25] INFO root fetch - processPackages [gomea]: executing diffoscope
+[2023-06-26 13:38:25] INFO root fetch - processPackages [gomea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gomea-1.0.1.tar.gz tmp/gomea-1.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230626/g/gomea/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-26 13:38:27] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230625-py2.py3-none-any.whl.zip]
+[2023-06-26 13:38:27] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230626-py2.py3-none-any.whl.zip]
+[2023-06-26 13:38:27] INFO root fetch - processPackages [bigdl-serving]: Start processing: layerx-sdk-beta
+[2023-06-26 13:38:27] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-26 13:38:27] INFO root fetch - processPackages [fhict-cb-01]: Remove: archive file [/home/abi/fetcher/tmp/fhict_cb_01-0.2.tar.gz]
+[2023-06-26 13:38:27] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-26 13:38:27] INFO root fetch - processPackages [fhict-cb-01]: Remove: archive file [/home/abi/fetcher/tmp/fhict_cb_01-0.2.1-py3-none-any.whl.zip]
+[2023-06-26 13:38:27] INFO root fetch - main [MainThread]: End processing [fhict-cb-01]: success
+[2023-06-26 13:38:27] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-26 13:38:27] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.4.tar.gz]
+[2023-06-26 13:38:27] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.5.tar.gz]
+[2023-06-26 13:38:27] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-26 13:38:27] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-26 13:38:27] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-26 13:38:27] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230626/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-26 13:38:27] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.3.0.tar.gz]
+[2023-06-26 13:38:27] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.3.1.tar.gz]
+[2023-06-26 13:38:27] INFO root fetch - main [MainThread]: End processing [pysquril]: success
+[2023-06-26 13:38:27] INFO root fetch - processPackages [instructure-dap-client]: Remove: archive file [/home/abi/fetcher/tmp/instructure-dap-client-0.3.8.2.tar.gz]
+[2023-06-26 13:38:27] INFO root fetch - processPackages [instructure-dap-client]: Remove: archive file [/home/abi/fetcher/tmp/instructure-dap-client-0.3.9.1.tar.gz]
+[2023-06-26 13:38:27] INFO root fetch - main [MainThread]: End processing [instructure-dap-client]: success
+[2023-06-26 13:38:27] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.3.9-py3-none-any.whl.zip]
+[2023-06-26 13:38:27] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.0-py3-none-any.whl.zip]
+[2023-06-26 13:38:27] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-06-26 13:38:27] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-26 13:38:28] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.0.5.tar.gz]
+[2023-06-26 13:38:28] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.0.6.tar.gz]
+[2023-06-26 13:38:28] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-06-26 13:38:28] INFO root fetch - processPackages [gomea]: Remove: archive file [/home/abi/fetcher/tmp/gomea-1.0.1.tar.gz]
+[2023-06-26 13:38:28] INFO root fetch - processPackages [gomea]: Remove: archive file [/home/abi/fetcher/tmp/gomea-1.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 13:38:28] INFO root fetch - main [MainThread]: End processing [gomea]: success
+[2023-06-26 13:38:28] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-26 13:38:28] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-26 13:38:28] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-26 13:38:32] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-26 13:38:32] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-26 13:38:32] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-26 13:38:32] INFO root fetch - main [MainThread]: Store serial: [18645871]
