@@ -7912,3 +7912,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 07:22:04] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230625-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-26 07:22:04] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-06-26 07:22:04] INFO root fetch - main [MainThread]: Store serial: [18642379]
+[2023-06-26 07:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642379]
+[2023-06-26 07:27:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-26 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: potato-tool
+[2023-06-26 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-near
+[2023-06-26 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-compiler-python
+[2023-06-26 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-near
+[2023-06-26 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-radar
+[2023-06-26 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microsoft-kiota-abstractions
+[2023-06-26 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GPTConnect
+[2023-06-26 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: transcriptorthology
+[2023-06-26 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metaloop-python-sdk
+[2023-06-26 07:27:17] INFO root fetch - processPackages [microsoft-kiota-abstractions]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-26 07:27:17] WARNING root fetch - processPackages [xia-compiler-python]: Skipping, unable to determine old version
+[2023-06-26 07:27:17] INFO root fetch - main [MainThread]: End processing [xia-compiler-python] error
+[2023-06-26 07:27:17] INFO root fetch - processPackages [py-near]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-26 07:27:17] INFO root fetch - processPackages [GPTConnect]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-26 07:27:17] INFO root fetch - processPackages [transcriptorthology]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-26 07:27:17] INFO root fetch - processPackages [cloud-radar]: New version: [0.9.1a0] Old Version: [0.9.0a2]
+[2023-06-26 07:27:17] INFO root fetch - processPackages [py-near]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-26 07:27:17] WARNING root fetch - processPackages [potato-tool]: Skipping, unable to determine old version
+[2023-06-26 07:27:17] INFO root fetch - main [MainThread]: End processing [potato-tool] error
+[2023-06-26 07:27:17] INFO root fetch - processPackages [metaloop-python-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 07:27:17] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/58/58/10117906f6780ac6b0820582e56e73d7bbba0badfa64bbf0e20898386e69/transcriptorthology-2.0.1.tar.gz
+[2023-06-26 07:27:17] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/b1/47/9254be237e5882e157aed0f1acfe9015593a1b37ef5814f5917c1ae35efd/GPTConnect-0.2.4.tar.gz
+[2023-06-26 07:27:17] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/09/3d/1328e9dce00a1a3f89aab84cee71abeae8cb40dc512297d40ccfbb64302e/py_near-1.1.1-py3-none-any.whl
+[2023-06-26 07:27:17] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Downloading https://files.pythonhosted.org/packages/5d/d2/0e0bb16c5cca27dca4950b6f13aca54baf93423926e7c366cf37203e93b2/microsoft_kiota_abstractions-0.5.3.tar.gz
+[2023-06-26 07:27:17] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/09/3d/1328e9dce00a1a3f89aab84cee71abeae8cb40dc512297d40ccfbb64302e/py_near-1.1.1-py3-none-any.whl
+[2023-06-26 07:27:17] INFO root fetch - processPackages [metaloop-python-sdk]: Downloading https://files.pythonhosted.org/packages/25/9d/e28343123f0124516b910c6f1bbb9669b13ad88bc780f6628017a07434ec/metaloop-python-sdk-1.8.0.tar.gz
+[2023-06-26 07:27:17] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/db/f3/0a49dc6d2f0b2b4b77f672af6e18832eed420cec36f1add0b1d8b8fb4369/cloud_radar-0.9.0a2.tar.gz
+[2023-06-26 07:27:17] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/ef/0e/65671969fdcbb63a3ac5f98e3e8ad7e795e0c8441f608d6d93318dcc86e5/GPTConnect-0.2.5.tar.gz
+[2023-06-26 07:27:17] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/2f/0c/073de524b9ea7f7d83deb2aa7343583ef5a4c7b4a27c687616194a5ffd78/transcriptorthology-2.0.2.tar.gz
+[2023-06-26 07:27:17] INFO root fetch - processPackages [GPTConnect]: executing diffoscope
+[2023-06-26 07:27:17] INFO root fetch - processPackages [GPTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTConnect-0.2.4.tar.gz tmp/GPTConnect-0.2.5.tar.gz --markdown 20230626/G/GPTConnect/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-26 07:27:18] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Downloading https://files.pythonhosted.org/packages/11/59/a75677d3cd92c03734436be671683bf5f1462c253a0c49aa42831c381a63/microsoft_kiota_abstractions-0.5.4.tar.gz
+[2023-06-26 07:27:18] INFO root fetch - processPackages [transcriptorthology]: executing diffoscope
+[2023-06-26 07:27:18] INFO root fetch - processPackages [transcriptorthology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcriptorthology-2.0.1.tar.gz tmp/transcriptorthology-2.0.2.tar.gz --markdown 20230626/t/transcriptorthology/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-26 07:27:18] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/18/05/4c98ca6c0ddff64eacd4b8e70b5974dd7ade3273324bf891a3ce0520e0b7/py_near-1.1.2.tar.gz
+[2023-06-26 07:27:18] INFO root fetch - processPackages [microsoft-kiota-abstractions]: executing diffoscope
+[2023-06-26 07:27:18] INFO root fetch - processPackages [microsoft-kiota-abstractions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microsoft_kiota_abstractions-0.5.3.tar.gz tmp/microsoft_kiota_abstractions-0.5.4.tar.gz --markdown 20230626/m/microsoft-kiota-abstractions/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-26 07:27:18] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/18/05/4c98ca6c0ddff64eacd4b8e70b5974dd7ade3273324bf891a3ce0520e0b7/py_near-1.1.2.tar.gz
+[2023-06-26 07:27:18] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2023-06-26 07:27:18] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.1-py3-none-any.whl.zip tmp/py_near-1.1.2.tar.gz --markdown 20230626/p/py-near/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-26 07:27:18] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2023-06-26 07:27:18] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.1-py3-none-any.whl.zip tmp/py_near-1.1.2.tar.gz --markdown 20230626/p/py-near/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-26 07:27:18] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/9a/a9/e7eb14fbdfe4539791bb6a28cdb4f69ee17e3efef8577bfbca8deef8a3cd/cloud_radar-0.9.1a0.tar.gz
+[2023-06-26 07:27:18] INFO root fetch - processPackages [metaloop-python-sdk]: Downloading https://files.pythonhosted.org/packages/f7/12/1f0878d955d59b57a7260b70c737e22646f5d1a1834fb439329b2fd649fd/metaloop-python-sdk-1.9.0.tar.gz
+[2023-06-26 07:27:18] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2023-06-26 07:27:18] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.9.0a2.tar.gz tmp/cloud_radar-0.9.1a0.tar.gz --markdown 20230626/c/cloud-radar/0.9.0a2-0.9.1a0/diff.md --exclude *.pyd
+[2023-06-26 07:27:18] INFO root fetch - processPackages [metaloop-python-sdk]: executing diffoscope
+[2023-06-26 07:27:18] INFO root fetch - processPackages [metaloop-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaloop-python-sdk-1.8.0.tar.gz tmp/metaloop-python-sdk-1.9.0.tar.gz --markdown 20230626/m/metaloop-python-sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 07:27:19] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-2.0.1.tar.gz]
+[2023-06-26 07:27:19] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-2.0.2.tar.gz]
+[2023-06-26 07:27:19] INFO root fetch - main [MainThread]: End processing [transcriptorthology]: success
+[2023-06-26 07:27:19] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.1-py3-none-any.whl.zip]
+[2023-06-26 07:27:19] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.2.tar.gz]
+[2023-06-26 07:27:19] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2023-06-26 07:27:19] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.2.4.tar.gz]
+[2023-06-26 07:27:19] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.2.5.tar.gz]
+[2023-06-26 07:27:19] INFO root fetch - main [MainThread]: End processing [GPTConnect]: success
+[2023-06-26 07:27:20] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2023-06-26 07:27:20] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_abstractions-0.5.3.tar.gz]
+[2023-06-26 07:27:20] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_abstractions-0.5.4.tar.gz]
+[2023-06-26 07:27:20] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-abstractions]: success
+[2023-06-26 07:27:20] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.0a2.tar.gz]
+[2023-06-26 07:27:20] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.1a0.tar.gz]
+[2023-06-26 07:27:20] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2023-06-26 07:27:20] INFO root fetch - processPackages [metaloop-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/metaloop-python-sdk-1.8.0.tar.gz]
+[2023-06-26 07:27:20] INFO root fetch - processPackages [metaloop-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/metaloop-python-sdk-1.9.0.tar.gz]
+[2023-06-26 07:27:20] INFO root fetch - main [MainThread]: End processing [metaloop-python-sdk]: success
+[2023-06-26 07:27:20] INFO root fetch - main [MainThread]: Store serial: [18642411]
