@@ -5211,3 +5211,69 @@
 [2023-06-26 03:51:35] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-26 03:51:35] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-26 03:51:35] INFO root fetch - main [MainThread]: Store serial: [18641335]
+[2023-06-26 03:56:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641335]
+[2023-06-26 03:56:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 03:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alpha-dom
+[2023-06-26 03:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-06-26 03:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gull-api
+[2023-06-26 03:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: papermc-bibliothek
+[2023-06-26 03:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skillshare_dl
+[2023-06-26 03:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctd-python
+[2023-06-26 03:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neuroshape
+[2023-06-26 03:56:46] INFO root fetch - processPackages [gull-api]: New version: [0.0.12rc4] Old Version: [0.0.12rc3]
+[2023-06-26 03:56:46] INFO root fetch - processPackages [alpha-dom]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 03:56:46] INFO root fetch - processPackages [skillshare_dl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 03:56:46] INFO root fetch - processPackages [papermc-bibliothek]: New version: [6.0.0] Old Version: [4.0.1]
+[2023-06-26 03:56:46] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.6.5] Old Version: [0.0.4.6.4]
+[2023-06-26 03:56:46] INFO root fetch - processPackages [ctd-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 03:56:46] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-26 03:56:46] INFO root fetch - processPackages [skillshare_dl]: Downloading https://files.pythonhosted.org/packages/c6/87/6bf3983d548b39d3187622e03a1f35a8851d22dd8eef71b725ce65c509c8/skillshare_dl-0.0.2.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [alpha-dom]: Downloading https://files.pythonhosted.org/packages/a1/db/4a343763e11d9357ed8d58573fd1af2be8532fe64e8b63ba186e5fecffb1/alpha_dom-0.1.2.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/64/86/22462091f8e536e8b102da143822d3e8ad0e6a9ff622e0da7bcc53d08e1a/gull_api-0.0.12rc3.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/52/ec/63408daf68c80a2c325975bce0fd762beeb596710b568d70f3910957e7a0/ctd-python-0.1.1.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [papermc-bibliothek]: Downloading https://files.pythonhosted.org/packages/67/05/b13e80e217679e1bb8799a92a0e2bd79742320e20539b9b30fd9d403fe26/papermc-bibliothek-4.0.1.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/3d/24/ec8c0b61e2058610f3c4b9d5fad98f484528a09b9b9ac5675960e842736d/neuroshape-0.0.4.6.4.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/b1/42/e423b5f96ab7de43b69ae501e21f2d35e68b985b2333c4c883810567ed6f/gull_api-0.0.12rc4.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [alpha-dom]: Downloading https://files.pythonhosted.org/packages/df/6b/c416f25bf337344dfce87a45309d3b9cc58eb393c4d74138c1d674ad8411/alpha_dom-0.1.3.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [gull-api]: executing diffoscope
+[2023-06-26 03:56:46] INFO root fetch - processPackages [gull-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gull_api-0.0.12rc3.tar.gz tmp/gull_api-0.0.12rc4.tar.gz --markdown 20230626/g/gull-api/0.0.12rc3-0.0.12rc4/diff.md --exclude *.pyd
+[2023-06-26 03:56:46] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [skillshare_dl]: Downloading https://files.pythonhosted.org/packages/dc/4c/c902ff47a02e8446d97d7b74cbc2512f1f09a6221664f7369e45cd48fdb5/skillshare_dl-0.0.3.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/c9/f0/b8b651feb4e849e9a30765e5cd26c2830510c0691512048ba744d06597a1/ctd-python-0.1.2.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/97/2a/4b63c032e5cbb4ac4e9f6b206dea6788a9f4f2cd8467c6b57452b9af8d7b/neuroshape-0.0.4.6.5.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [alpha-dom]: executing diffoscope
+[2023-06-26 03:56:46] INFO root fetch - processPackages [alpha-dom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpha_dom-0.1.2.tar.gz tmp/alpha_dom-0.1.3.tar.gz --markdown 20230626/a/alpha-dom/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 03:56:46] INFO root fetch - processPackages [papermc-bibliothek]: Downloading https://files.pythonhosted.org/packages/5a/eb/0a84202b598d5fa63122174d8fbd1fb075b9bd7f45d3ecbebc4e834c89c7/papermc_bibliothek-6.0.0.tar.gz
+[2023-06-26 03:56:46] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-26 03:56:46] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230626/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-26 03:56:46] INFO root fetch - processPackages [skillshare_dl]: executing diffoscope
+[2023-06-26 03:56:46] INFO root fetch - processPackages [skillshare_dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillshare_dl-0.0.2.tar.gz tmp/skillshare_dl-0.0.3.tar.gz --markdown 20230626/s/skillshare_dl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 03:56:46] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-26 03:56:46] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.6.4.tar.gz tmp/neuroshape-0.0.4.6.5.tar.gz --markdown 20230626/n/neuroshape/0.0.4.6.4-0.0.4.6.5/diff.md --exclude *.pyd
+[2023-06-26 03:56:46] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-06-26 03:56:46] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.1.1.tar.gz tmp/ctd-python-0.1.2.tar.gz --markdown 20230626/c/ctd-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 03:56:46] INFO root fetch - processPackages [papermc-bibliothek]: executing diffoscope
+[2023-06-26 03:56:46] INFO root fetch - processPackages [papermc-bibliothek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papermc-bibliothek-4.0.1.tar.gz tmp/papermc_bibliothek-6.0.0.tar.gz --markdown 20230626/p/papermc-bibliothek/4.0.1-6.0.0/diff.md --exclude *.pyd
+[2023-06-26 03:56:47] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.12rc3.tar.gz]
+[2023-06-26 03:56:47] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.12rc4.tar.gz]
+[2023-06-26 03:56:47] INFO root fetch - main [MainThread]: End processing [gull-api]: success
+[2023-06-26 03:56:48] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-26 03:56:48] INFO root fetch - processPackages [alpha-dom]: Remove: archive file [/home/abi/fetcher/tmp/alpha_dom-0.1.2.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - processPackages [alpha-dom]: Remove: archive file [/home/abi/fetcher/tmp/alpha_dom-0.1.3.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - main [MainThread]: End processing [alpha-dom]: success
+[2023-06-26 03:56:48] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.1.1.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.1.2.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-06-26 03:56:48] INFO root fetch - processPackages [skillshare_dl]: Remove: archive file [/home/abi/fetcher/tmp/skillshare_dl-0.0.2.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - processPackages [skillshare_dl]: Remove: archive file [/home/abi/fetcher/tmp/skillshare_dl-0.0.3.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - main [MainThread]: End processing [skillshare_dl]: success
+[2023-06-26 03:56:48] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.6.4.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.6.5.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-26 03:56:48] INFO root fetch - processPackages [papermc-bibliothek]: Remove: archive file [/home/abi/fetcher/tmp/papermc-bibliothek-4.0.1.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - processPackages [papermc-bibliothek]: Remove: archive file [/home/abi/fetcher/tmp/papermc_bibliothek-6.0.0.tar.gz]
+[2023-06-26 03:56:48] INFO root fetch - main [MainThread]: End processing [papermc-bibliothek]: success
+[2023-06-26 03:56:48] INFO root fetch - main [MainThread]: Store serial: [18641356]
