@@ -10572,3 +10572,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 09:34:45] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a1.tar.gz]
 [2023-06-26 09:34:45] INFO root fetch - main [MainThread]: End processing [tomwer]: success
 [2023-06-26 09:34:45] INFO root fetch - main [MainThread]: Store serial: [18643573]
+[2023-06-26 09:39:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643573]
+[2023-06-26 09:39:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-26 09:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcmutils
+[2023-06-26 09:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmetadata-sqllineage
+[2023-06-26 09:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mxcubeweb
+[2023-06-26 09:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-26 09:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mrfix
+[2023-06-26 09:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-06-26 09:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-avro-schema
+[2023-06-26 09:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: st110913package
+[2023-06-26 09:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: video-process
+[2023-06-26 09:39:55] INFO root fetch - processPackages [jcmutils]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mrfix]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-26 09:39:55] INFO root fetch - processPackages [openmetadata-sqllineage]: New version: [1.1.0.0] Old Version: [1.0.4]
+[2023-06-26 09:39:55] INFO root fetch - processPackages [video-process]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-26 09:39:55] WARNING root fetch - processPackages [st110913package]: Skipping, unable to determine old version
+[2023-06-26 09:39:55] INFO root fetch - main [MainThread]: End processing [st110913package] error
+[2023-06-26 09:39:55] INFO root fetch - processPackages [py-avro-schema]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-26 09:39:55] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: New version: [20230626.7.36.830989] Old Version: [20230626.7.1.241415]
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mxcubeweb]: New version: [1.48.0] Old Version: [1.47.0]
+[2023-06-26 09:39:55] INFO root fetch - processPackages [cg]: New version: [37.0.3] Old Version: [37.0.2]
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/17/c3/54bd019b551cf6a64148fe1408f5425398b07f478085508c936308b218f2/mrfix-2.0.6.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/03/7f/e5f02fbcbddd941f2f264941be8a6afb5f5e7883e9ad77ecec62b14bb5a3/cg-37.0.2.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/74/d9/851454bde145f3e4fe1f163bed8302b5dadb2517daf3f91e66d929aa6e21/mxcubeweb-1.47.0.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/b8/98/8748b6274ced1c639e43d4900d01041baf0dc017d1731dce4592ba3b0ad4/jcmutils-1.5.8.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Downloading https://files.pythonhosted.org/packages/0b/ce/249e1472c0c88c3b37e440a337e24b9bd8c63d90dac0755320af3e8ca83f/certora-cli-alpha-cnandi-morpho-equiv-20230626.7.1.241415.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/d2/c9/b9e0fd7610bfa007908d43c813e704f3839c394ad82b45ba224a8d6f0b5f/video_process-0.1.6.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [openmetadata-sqllineage]: Downloading https://files.pythonhosted.org/packages/c6/5f/aefe4ea08856bbfe626d94f037f1c579a6cceb1167798984fc4a157325dc/openmetadata-sqllineage-1.0.4.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/9f/ee/44c39185c4e43ce72818e85e271a943e35b83149d283502941987752668a/py-avro-schema-2.1.1.tar.gz
+[2023-06-26 09:39:55] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping package: exceeds size limit 40306543>=10485760
+[2023-06-26 09:39:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/bd/04/7cd87095fe0f6938ad9c7ea1629f5a441e56f39734405023af667225037f/mrfix-2.0.7.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/04/67/1551625f863652f28b0e5d463361001931f07ddaf74aa2ec308489e663bb/mxcubeweb-1.48.0.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/9a/05/479a0f56aba4b64c880b379be614c1f547aa76ae82278d96a431abf5049e/cg-37.0.3.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/88/2e/88c5d0f3df0bb1c77ce0325fe2da77b12b8bcc8d0a6fdae0a69a7529d6a2/jcmutils-1.5.9.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/d4/4b/5d7d08c3b60b066c78238a9b443f191fb84aaeb3317760f4fd2ac78f6599/video_process-0.1.7.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/fa/b4/4d62f13005468ddbc04ee4c9c4ab5e741bc99e1aac130bb0cef09abeb9a2/py-avro-schema-2.1.2.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-2.0.6.tar.gz tmp/mrfix-2.0.7.tar.gz --markdown 20230626/m/mrfix/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-26 09:39:55] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.47.0.tar.gz tmp/mxcubeweb-1.48.0.tar.gz --markdown 20230626/m/mxcubeweb/1.47.0-1.48.0/diff.md --exclude *.pyd
+[2023-06-26 09:39:55] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-26 09:39:55] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.2.tar.gz tmp/cg-37.0.3.tar.gz --markdown 20230626/c/cg/37.0.2-37.0.3/diff.md --exclude *.pyd
+[2023-06-26 09:39:55] INFO root fetch - processPackages [openmetadata-sqllineage]: Downloading https://files.pythonhosted.org/packages/59/09/ffbe1dcb45b38ca28721c26b150249eaeeb624665ae1b57aed4cc66605e9/openmetadata-sqllineage-1.1.0.0.tar.gz
+[2023-06-26 09:39:55] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-06-26 09:39:55] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.5.8.tar.gz tmp/jcmutils-1.5.9.tar.gz --markdown 20230626/j/jcmutils/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-26 09:39:55] INFO root fetch - processPackages [py-avro-schema]: executing diffoscope
+[2023-06-26 09:39:55] INFO root fetch - processPackages [py-avro-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-avro-schema-2.1.1.tar.gz tmp/py-avro-schema-2.1.2.tar.gz --markdown 20230626/p/py-avro-schema/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-26 09:39:55] INFO root fetch - processPackages [video-process]: executing diffoscope
+[2023-06-26 09:39:55] INFO root fetch - processPackages [video-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_process-0.1.6.tar.gz tmp/video_process-0.1.7.tar.gz --markdown 20230626/v/video-process/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-26 09:39:56] INFO root fetch - processPackages [openmetadata-sqllineage]: executing diffoscope
+[2023-06-26 09:39:56] INFO root fetch - processPackages [openmetadata-sqllineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-sqllineage-1.0.4.tar.gz tmp/openmetadata-sqllineage-1.1.0.0.tar.gz --markdown 20230626/o/openmetadata-sqllineage/1.0.4-1.1.0.0/diff.md --exclude *.pyd
+[2023-06-26 09:39:57] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.6.tar.gz]
+[2023-06-26 09:39:57] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-2.0.7.tar.gz]
+[2023-06-26 09:39:57] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-06-26 09:39:57] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.6.tar.gz]
+[2023-06-26 09:39:57] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.7.tar.gz]
+[2023-06-26 09:39:57] INFO root fetch - main [MainThread]: End processing [video-process]: success
+[2023-06-26 09:39:57] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.5.8.tar.gz]
+[2023-06-26 09:39:57] INFO root fetch - processPackages [jcmutils]: Remove: archive file [/home/abi/fetcher/tmp/jcmutils-1.5.9.tar.gz]
+[2023-06-26 09:39:57] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-06-26 09:39:57] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.1.1.tar.gz]
+[2023-06-26 09:39:57] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py-avro-schema-2.1.2.tar.gz]
+[2023-06-26 09:39:57] INFO root fetch - main [MainThread]: End processing [py-avro-schema]: success
+[2023-06-26 09:39:58] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.47.0.tar.gz]
+[2023-06-26 09:39:58] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.48.0.tar.gz]
+[2023-06-26 09:39:58] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-26 09:40:06] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.2.tar.gz]
+[2023-06-26 09:40:06] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.3.tar.gz]
+[2023-06-26 09:40:06] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-26 09:40:40] INFO root fetch - processPackages [openmetadata-sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-sqllineage-1.0.4.tar.gz]
+[2023-06-26 09:40:40] INFO root fetch - processPackages [openmetadata-sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-sqllineage-1.1.0.0.tar.gz]
+[2023-06-26 09:40:40] INFO root fetch - main [MainThread]: End processing [openmetadata-sqllineage]: success
+[2023-06-26 09:40:40] INFO root fetch - main [MainThread]: Store serial: [18643601]
