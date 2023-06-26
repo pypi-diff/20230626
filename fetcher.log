@@ -22441,3 +22441,167 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:18:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.7.tar.gz]
 [2023-06-26 17:18:30] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-26 17:18:30] INFO root fetch - main [MainThread]: Store serial: [18648830]
+[2023-06-26 17:23:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648830]
+[2023-06-26 17:23:40] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monalysa
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flagsmith-flag-engine
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySide2-Fluent-Widgets
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-game-collection
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robologs-ros-utils
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: product-key-memory
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: expert-intelligence-toolbox
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybind11-union-find
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nydok
+[2023-06-26 17:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-baserow-simple
+[2023-06-26 17:23:40] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-26 17:23:40] INFO root fetch - processPackages [pybind11-union-find]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 17:23:40] INFO root fetch - processPackages [nydok]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-26 17:23:40] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 17:23:40] INFO root fetch - processPackages [python-baserow-simple]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 17:23:40] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:23:40] WARNING root fetch - processPackages [robologs-ros-utils]: Skipping, unable to determine old version
+[2023-06-26 17:23:40] INFO root fetch - processPackages [product-key-memory]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-26 17:23:40] INFO root fetch - processPackages [robologs-ros-utils]: Start processing: grib2io
+[2023-06-26 17:23:40] INFO root fetch - main [MainThread]: End processing [robologs-ros-utils] error
+[2023-06-26 17:23:40] INFO root fetch - processPackages [monalysa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:23:40] INFO root fetch - processPackages [flagsmith-flag-engine]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-06-26 17:23:40] INFO root fetch - processPackages [grib2io]: New version: [2.0.0rc2.post1] Old Version: [2.0.0rc2]
+[2023-06-26 17:23:40] INFO root fetch - processPackages [nydok]: Downloading https://files.pythonhosted.org/packages/1a/46/3ee0032042475b648840adeb7b03b723222729a2ba332ea1da8422f40714/nydok-0.8.2.tar.gz
+[2023-06-26 17:23:40] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-26 17:23:40] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-06-26 17:23:40] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/d3/05/2018a913ce0cd7fe1332bfcc212b45f4d06d2cf57c8c383613cf5d12032e/PySide2-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-26 17:23:40] INFO root fetch - processPackages [pybind11-union-find]: Downloading https://files.pythonhosted.org/packages/79/cf/a76ce9c38ae70a6ff48769d1fb2211539dd96f606c18cb175573a0fb6021/pybind11_union_find-0.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:23:40] INFO root fetch - processPackages [grib2io]: Downloading https://files.pythonhosted.org/packages/04/ab/327921a65fce2ec75b16614e4e644623b0757f0349e5821fc23beb927527/grib2io-2.0.0rc2.tar.gz
+[2023-06-26 17:23:40] INFO root fetch - processPackages [python-baserow-simple]: Downloading https://files.pythonhosted.org/packages/fc/de/ee5beee7d0016df9725b1f43a32aba905f9a7ec8aa814a6e12d0c726be75/python_baserow_simple-0.0.2.tar.gz
+[2023-06-26 17:23:40] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d7/d1/e2eb5cd92f494b0b719769cb08194a6c063fd07bdea68fb227e0ee3bd9dd/monalysa-0.0.8.tar.gz
+[2023-06-26 17:23:40] INFO root fetch - processPackages [flagsmith-flag-engine]: Downloading https://files.pythonhosted.org/packages/18/a8/429d7bb3725d46f1e2af74fae095fb6340eb0d16be78a468d01cd199b7fe/flagsmith-flag-engine-3.5.0.tar.gz
+[2023-06-26 17:23:40] INFO root fetch - processPackages [product-key-memory]: Downloading https://files.pythonhosted.org/packages/a8/ed/32b1f11952c7f0e3ab20a34415ae44b6107cbd0a83d9fc70b88b12855e6e/product_key_memory-0.1.9.tar.gz
+[2023-06-26 17:23:40] WARNING root fetch - processPackages [grib2io]: Skipping package: exceeds size limit 48555343>=10485760
+[2023-06-26 17:23:40] INFO root fetch - processPackages [grib2io]: Start processing: mabel
+[2023-06-26 17:23:40] INFO root fetch - main [MainThread]: End processing [grib2io] error
+[2023-06-26 17:23:40] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [mabel]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-26 17:23:41] INFO root fetch - processPackages [nydok]: Downloading https://files.pythonhosted.org/packages/e4/3e/78591819da1f97e51506997ff35a7b60050cceb3ad2bf1ee5c83b403efe2/nydok-0.8.3.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230626/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-26 17:23:41] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230626/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:23:41] INFO root fetch - processPackages [nydok]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [nydok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nydok-0.8.2.tar.gz tmp/nydok-0.8.3.tar.gz --markdown 20230626/n/nydok/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-26 17:23:41] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0c/ac/0dedbf9a5cfc3ae2242417b37e3a1746cac1ee8eb58c929e61f214a62396/PySide2-Fluent-Widgets-0.9.9.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [product-key-memory]: Downloading https://files.pythonhosted.org/packages/8e/d2/49a6ac6d0c6aaa4d81807b2f3d37133311694f540512cbf4fc47e0e15fc2/product_key_memory-0.2.0.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [python-baserow-simple]: Downloading https://files.pythonhosted.org/packages/af/b1/2e2fa127cf5520d27c68d90cd142ab340f59a3b8cafda6b99041d2ccd410/python_baserow_simple-0.0.3.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [flagsmith-flag-engine]: Downloading https://files.pythonhosted.org/packages/c2/c2/ed48ab4cf13d33fd841987e78a0048cef549da7869de17bb63cbd08afbef/flagsmith-flag-engine-3.5.1.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [mabel]: Downloading https://files.pythonhosted.org/packages/4a/79/35fb3b283cb0729273d3bd0d760bcd73c7079230a9323cf8e3ab751681e6/mabel-0.6.8.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [pybind11-union-find]: Downloading https://files.pythonhosted.org/packages/34/66/1b56b7465cbdd4d7d98e67bb026292c861c5890621d3f14bea7166dfb761/pybind11_union_find-0.0.2.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.9.8.tar.gz tmp/PySide2-Fluent-Widgets-0.9.9.tar.gz --markdown 20230626/P/PySide2-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 17:23:41] INFO root fetch - processPackages [monalysa]: Downloading https://files.pythonhosted.org/packages/d1/13/65abe2bca84d2821801bdc73c3bbd3b627ec03c54b9fac03ac4f95b372f9/monalysa-0.0.9.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [product-key-memory]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [product-key-memory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/product_key_memory-0.1.9.tar.gz tmp/product_key_memory-0.2.0.tar.gz --markdown 20230626/p/product-key-memory/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 17:23:41] INFO root fetch - processPackages [python-baserow-simple]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [python-baserow-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_baserow_simple-0.0.2.tar.gz tmp/python_baserow_simple-0.0.3.tar.gz --markdown 20230626/p/python-baserow-simple/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 17:23:41] INFO root fetch - processPackages [flagsmith-flag-engine]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [flagsmith-flag-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagsmith-flag-engine-3.5.0.tar.gz tmp/flagsmith-flag-engine-3.5.1.tar.gz --markdown 20230626/f/flagsmith-flag-engine/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-06-26 17:23:41] INFO root fetch - processPackages [monalysa]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [monalysa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monalysa-0.0.8.tar.gz tmp/monalysa-0.0.9.tar.gz --markdown 20230626/m/monalysa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:23:41] INFO root fetch - processPackages [pybind11-union-find]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [pybind11-union-find]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybind11_union_find-0.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pybind11_union_find-0.0.2.tar.gz --markdown 20230626/p/pybind11-union-find/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 17:23:41] INFO root fetch - processPackages [mabel]: Downloading https://files.pythonhosted.org/packages/26/51/ddd150a5c52368b5b19e51c9393b6ca80ae6b47840ec2eb86973222103c1/mabel-0.6.9.tar.gz
+[2023-06-26 17:23:41] INFO root fetch - processPackages [mabel]: executing diffoscope
+[2023-06-26 17:23:41] INFO root fetch - processPackages [mabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mabel-0.6.8.tar.gz tmp/mabel-0.6.9.tar.gz --markdown 20230626/m/mabel/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-26 17:23:42] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-26 17:23:42] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-26 17:23:42] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: modulefgoiriz
+[2023-06-26 17:23:42] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-26 17:23:42] WARNING root fetch - processPackages [modulefgoiriz]: Skipping, unable to determine old version
+[2023-06-26 17:23:42] INFO root fetch - processPackages [modulefgoiriz]: Start processing: orzo
+[2023-06-26 17:23:42] INFO root fetch - main [MainThread]: End processing [modulefgoiriz] error
+[2023-06-26 17:23:42] WARNING root fetch - processPackages [orzo]: Skipping, unable to determine old version
+[2023-06-26 17:23:42] INFO root fetch - processPackages [orzo]: Start processing: few-shot-priming
+[2023-06-26 17:23:42] INFO root fetch - main [MainThread]: End processing [orzo] error
+[2023-06-26 17:23:42] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-26 17:23:42] INFO root fetch - processPackages [python-baserow-simple]: Remove: archive file [/home/abi/fetcher/tmp/python_baserow_simple-0.0.2.tar.gz]
+[2023-06-26 17:23:42] INFO root fetch - processPackages [python-baserow-simple]: Remove: archive file [/home/abi/fetcher/tmp/python_baserow_simple-0.0.3.tar.gz]
+[2023-06-26 17:23:42] INFO root fetch - processPackages [python-baserow-simple]: Start processing: grib2io-interp
+[2023-06-26 17:23:42] INFO root fetch - main [MainThread]: End processing [python-baserow-simple]: success
+[2023-06-26 17:23:42] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-26 17:23:42] WARNING root fetch - processPackages [grib2io-interp]: Skipping, unable to determine old version
+[2023-06-26 17:23:42] INFO root fetch - processPackages [grib2io-interp]: Start processing: scitools-iris
+[2023-06-26 17:23:42] INFO root fetch - main [MainThread]: End processing [grib2io-interp] error
+[2023-06-26 17:23:42] INFO root fetch - processPackages [scitools-iris]: New version: [3.6.1] Old Version: [3.6.0rc0]
+[2023-06-26 17:23:42] INFO root fetch - processPackages [product-key-memory]: Remove: archive file [/home/abi/fetcher/tmp/product_key_memory-0.1.9.tar.gz]
+[2023-06-26 17:23:42] INFO root fetch - processPackages [product-key-memory]: Remove: archive file [/home/abi/fetcher/tmp/product_key_memory-0.2.0.tar.gz]
+[2023-06-26 17:23:42] INFO root fetch - processPackages [product-key-memory]: Start processing: mapdata
+[2023-06-26 17:23:42] INFO root fetch - main [MainThread]: End processing [product-key-memory]: success
+[2023-06-26 17:23:43] INFO root fetch - processPackages [mapdata]: New version: [2.6.6] Old Version: [2.6.3]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [nydok]: Remove: archive file [/home/abi/fetcher/tmp/nydok-0.8.2.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [nydok]: Remove: archive file [/home/abi/fetcher/tmp/nydok-0.8.3.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [nydok]: Start processing: wisedata
+[2023-06-26 17:23:43] INFO root fetch - main [MainThread]: End processing [nydok]: success
+[2023-06-26 17:23:43] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/50/9e/851f1884f6567fa5d8002d0563f51c94b247cd663cfabfb4ca1b822189fa/mapdata-2.6.3.tar.gz
+[2023-06-26 17:23:43] INFO root fetch - processPackages [wisedata]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-26 17:23:43] INFO root fetch - processPackages [scitools-iris]: Downloading https://files.pythonhosted.org/packages/f5/2d/fa5b170d362437e8a3f14b1d9078733c313dc4e3963910521cda85b55dfb/scitools-iris-3.6.0rc0.tar.gz
+[2023-06-26 17:23:43] INFO root fetch - processPackages [pybind11-union-find]: Remove: archive file [/home/abi/fetcher/tmp/pybind11_union_find-0.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [pybind11-union-find]: Remove: archive file [/home/abi/fetcher/tmp/pybind11_union_find-0.0.2.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [pybind11-union-find]: Start processing: pop-serial
+[2023-06-26 17:23:43] INFO root fetch - main [MainThread]: End processing [pybind11-union-find]: success
+[2023-06-26 17:23:43] INFO root fetch - processPackages [mapdata]: Downloading https://files.pythonhosted.org/packages/7e/da/6c029885b2b45429af568c2b230e9a7538c30ba4e0e6f8bc03601eb50049/mapdata-2.6.6.tar.gz
+[2023-06-26 17:23:43] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-26 17:23:43] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230626/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 17:23:43] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/ba/fc/6ec51cdeef28b4d5d81e0685e3e32aac3cfd0a9a1d6315b0db995d793589/wisedata-1.0.0.tar.gz
+[2023-06-26 17:23:43] INFO root fetch - processPackages [pop-serial]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [mapdata]: executing diffoscope
+[2023-06-26 17:23:43] INFO root fetch - processPackages [mapdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapdata-2.6.3.tar.gz tmp/mapdata-2.6.6.tar.gz --markdown 20230626/m/mapdata/2.6.3-2.6.6/diff.md --exclude *.pyd
+[2023-06-26 17:23:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Start processing: simplebox
+[2023-06-26 17:23:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-26 17:23:43] INFO root fetch - processPackages [flagsmith-flag-engine]: Remove: archive file [/home/abi/fetcher/tmp/flagsmith-flag-engine-3.5.0.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [flagsmith-flag-engine]: Remove: archive file [/home/abi/fetcher/tmp/flagsmith-flag-engine-3.5.1.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - main [MainThread]: End processing [flagsmith-flag-engine]: success
+[2023-06-26 17:23:43] INFO root fetch - processPackages [pop-serial]: Downloading https://files.pythonhosted.org/packages/fc/07/a139cce533f210c581b41a591a80dda609b4bd61c4db02d5c0ddbcc55f9d/pop-serial-1.1.1.tar.gz
+[2023-06-26 17:23:43] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a161] Old Version: [0.0.1a160]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [wisedata]: Downloading https://files.pythonhosted.org/packages/67/28/83087fcad1f90901e288d193340466655f6ceb4d5dd0203d73175af840cd/wisedata-1.0.1.tar.gz
+[2023-06-26 17:23:43] INFO root fetch - processPackages [scitools-iris]: Downloading https://files.pythonhosted.org/packages/0e/97/61782b608f174b322adcd6c9fd210303572cb06656ccb24fab2acf079427/scitools-iris-3.6.1.tar.gz
+[2023-06-26 17:23:43] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.8.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [monalysa]: Remove: archive file [/home/abi/fetcher/tmp/monalysa-0.0.9.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - main [MainThread]: End processing [monalysa]: success
+[2023-06-26 17:23:43] INFO root fetch - processPackages [wisedata]: executing diffoscope
+[2023-06-26 17:23:43] INFO root fetch - processPackages [wisedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wisedata-1.0.0.tar.gz tmp/wisedata-1.0.1.tar.gz --markdown 20230626/w/wisedata/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-26 17:23:43] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.9.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-06-26 17:23:43] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/f4/1b/a5a26a5d8a138c466ce3828dd8f4fdc7eb43e483efe052fb0077ad8cdb9c/simplebox-0.0.1a160-py3-none-any.whl
+[2023-06-26 17:23:43] INFO root fetch - processPackages [pop-serial]: Downloading https://files.pythonhosted.org/packages/ac/ce/011505f0acee7a6594e3093ec65645f0272653855d68aa985f4049915c8a/pop-serial-2.0.0.tar.gz
+[2023-06-26 17:23:43] INFO root fetch - processPackages [scitools-iris]: executing diffoscope
+[2023-06-26 17:23:43] INFO root fetch - processPackages [scitools-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitools-iris-3.6.0rc0.tar.gz tmp/scitools-iris-3.6.1.tar.gz --markdown 20230626/s/scitools-iris/3.6.0rc0-3.6.1/diff.md --exclude *.pyd
+[2023-06-26 17:23:43] INFO root fetch - processPackages [mabel]: Remove: archive file [/home/abi/fetcher/tmp/mabel-0.6.8.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - processPackages [mabel]: Remove: archive file [/home/abi/fetcher/tmp/mabel-0.6.9.tar.gz]
+[2023-06-26 17:23:43] INFO root fetch - main [MainThread]: End processing [mabel]: success
+[2023-06-26 17:23:43] INFO root fetch - processPackages [pop-serial]: executing diffoscope
+[2023-06-26 17:23:43] INFO root fetch - processPackages [pop-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-serial-1.1.1.tar.gz tmp/pop-serial-2.0.0.tar.gz --markdown 20230626/p/pop-serial/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-26 17:23:44] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/93/0b/e2dc9daaa7c3e33c7d0206d58cacc48c1b300d46fa12633ebacd579bab2c/simplebox-0.0.1a161-py3-none-any.whl
+[2023-06-26 17:23:44] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-06-26 17:23:44] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a160-py3-none-any.whl.zip tmp/simplebox-0.0.1a161-py3-none-any.whl.zip --markdown 20230626/s/simplebox/0.0.1a160-0.0.1a161/diff.md --exclude *.pyd
+[2023-06-26 17:23:44] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-26 17:23:44] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-26 17:23:44] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-26 17:23:44] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.6.3.tar.gz]
+[2023-06-26 17:23:44] INFO root fetch - processPackages [mapdata]: Remove: archive file [/home/abi/fetcher/tmp/mapdata-2.6.6.tar.gz]
+[2023-06-26 17:23:44] INFO root fetch - main [MainThread]: End processing [mapdata]: success
+[2023-06-26 17:23:44] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.0.tar.gz]
+[2023-06-26 17:23:44] INFO root fetch - processPackages [wisedata]: Remove: archive file [/home/abi/fetcher/tmp/wisedata-1.0.1.tar.gz]
+[2023-06-26 17:23:44] INFO root fetch - main [MainThread]: End processing [wisedata]: success
+[2023-06-26 17:23:45] INFO root fetch - processPackages [pop-serial]: Remove: archive file [/home/abi/fetcher/tmp/pop-serial-1.1.1.tar.gz]
+[2023-06-26 17:23:45] INFO root fetch - processPackages [pop-serial]: Remove: archive file [/home/abi/fetcher/tmp/pop-serial-2.0.0.tar.gz]
+[2023-06-26 17:23:45] INFO root fetch - main [MainThread]: End processing [pop-serial]: success
+[2023-06-26 17:23:45] INFO root fetch - processPackages [simplebox]: Remove: archive file [/home/abi/fetcher/tmp/simplebox-0.0.1a160-py3-none-any.whl.zip]
+[2023-06-26 17:23:45] INFO root fetch - processPackages [simplebox]: Remove: archive file [/home/abi/fetcher/tmp/simplebox-0.0.1a161-py3-none-any.whl.zip]
+[2023-06-26 17:23:45] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-06-26 17:24:09] INFO root fetch - processPackages [scitools-iris]: Remove: archive file [/home/abi/fetcher/tmp/scitools-iris-3.6.0rc0.tar.gz]
+[2023-06-26 17:24:09] INFO root fetch - processPackages [scitools-iris]: Remove: archive file [/home/abi/fetcher/tmp/scitools-iris-3.6.1.tar.gz]
+[2023-06-26 17:24:09] INFO root fetch - main [MainThread]: End processing [scitools-iris]: success
+[2023-06-26 17:24:09] INFO root fetch - main [MainThread]: Store serial: [18648915]
