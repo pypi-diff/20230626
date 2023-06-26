@@ -6521,3 +6521,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 05:43:22] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
 [2023-06-26 05:43:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2023-06-26 05:43:22] INFO root fetch - main [MainThread]: Store serial: [18641810]
+[2023-06-26 05:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641810]
+[2023-06-26 05:48:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-26 05:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clickzetta-connector
+[2023-06-26 05:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-sqlalchemy
+[2023-06-26 05:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grassmanntn
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-26 05:48:32] WARNING root fetch - processPackages [grassmanntn]: Skipping, unable to determine old version
+[2023-06-26 05:48:32] INFO root fetch - main [MainThread]: End processing [grassmanntn] error
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230626/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-26 05:48:32] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230626/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-26 05:48:33] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-26 05:48:33] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-26 05:48:33] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-26 05:48:34] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-26 05:48:34] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-26 05:48:34] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-26 05:48:34] INFO root fetch - main [MainThread]: Store serial: [18641820]
