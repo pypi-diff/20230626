@@ -18255,3 +18255,121 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 15:07:33] INFO root fetch - processPackages [exact]: Remove: archive file [/home/abi/fetcher/tmp/exact-1.1.4-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
 [2023-06-26 15:07:33] INFO root fetch - main [MainThread]: End processing [exact]: success
 [2023-06-26 15:07:33] INFO root fetch - main [MainThread]: Store serial: [18647045]
+[2023-06-26 15:12:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18647045]
+[2023-06-26 15:12:45] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thipstercli
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swh.graphql
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tendril-caching
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gcloud-connectors
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fredtools
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-stdlib
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easys-ordermanager
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyxll
+[2023-06-26 15:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mkdocs-dsfr
+[2023-06-26 15:12:45] INFO root fetch - processPackages [tendril-caching]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [thipstercli]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [swh.graphql]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.25] Old Version: [2023.6.24]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-26 15:12:45] INFO root fetch - processPackages [mkdocs-dsfr]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/73/1c/757a0e1224b088c2da1c9eb71b1d5f24d35ae78bba0c8b0761782612b46a/fbgemm_gpu_nightly_cpu-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-26 15:12:45] INFO root fetch - processPackages [fredtools]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [gcloud-connectors]: New version: [0.1.94] Old Version: [0.1.92]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [easys-ordermanager]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [pyxll]: New version: [5.6.4] Old Version: [5.6.3]
+[2023-06-26 15:12:45] INFO root fetch - processPackages [tendril-caching]: Downloading https://files.pythonhosted.org/packages/7e/50/fb249ad2decdc99f740725e6c614f8eed4daba3389472379093878376748/tendril-caching-0.2.3.tar.gz
+[2023-06-26 15:12:45] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/a3/d6/b21dc619db68ad261a2282eaf7019c3d6dbc152324e7b7be956e676019b9/thipstercli-0.5.6.tar.gz
+[2023-06-26 15:12:45] INFO root fetch - processPackages [swh.graphql]: Downloading https://files.pythonhosted.org/packages/1f/6c/136ec9cc0eb6932c95f7d398d80ccd066c33c92aa1e021517e28693c8e79/swh.graphql-0.0.95.tar.gz
+[2023-06-26 15:12:45] INFO root fetch - processPackages [mkdocs-dsfr]: Downloading https://files.pythonhosted.org/packages/1b/41/0dfc16e78c013a23246a320ad7015866dbb3a3dd3014f2e34bb6c2a2be3d/mkdocs_dsfr-0.0.4.tar.gz
+[2023-06-26 15:12:45] INFO root fetch - processPackages [fredtools]: Downloading https://files.pythonhosted.org/packages/d5/d0/f1fc013c3cc4eddac58e4dc5e9c539865696e5baa03ce2cc269a714b657a/fredtools-0.6.8-py3-none-any.whl
+[2023-06-26 15:12:45] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/af/6e/a4bd4ff5c738b79f2afcbb3003b3237f8b0feaf448af0fe08a3ffa650a0a/easys-ordermanager-2.2.2.tar.gz
+[2023-06-26 15:12:45] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-26 15:12:45] INFO root fetch - processPackages [gcloud-connectors]: Downloading https://files.pythonhosted.org/packages/b6/76/d21f8bd48c1988c7b54da8d946e9c87dca99193b0f2aa5d6ce1c1cc60990/gcloud-connectors-0.1.92.tar.gz
+[2023-06-26 15:12:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/19/03/c9bc9a6bd0f8b128bea4ac6256b4ae7155dc84661b67aff5f92283e1991a/fbgemm_gpu_nightly_cpu-2023.6.25-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-26 15:12:45] INFO root fetch - processPackages [pyxll]: Downloading https://files.pythonhosted.org/packages/62/bf/9dd3a433deffb1bbfe4ac322e834cc8f97cbf5531d91e29c1689e0fe94a8/pyxll-5.6.3-cp39-none-any.whl
+[2023-06-26 15:12:45] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-26 15:12:45] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.5.5.tar.gz tmp/thipstercli-0.5.6.tar.gz --markdown 20230626/t/thipstercli/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-26 15:12:45] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-26 15:12:45] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230626/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 15:12:45] INFO root fetch - processPackages [tendril-caching]: Downloading https://files.pythonhosted.org/packages/de/09/2cb0d0cd5e7c87f16a9cba5023f914569a205159ed369af34899e091635b/tendril-caching-0.2.4.tar.gz
+[2023-06-26 15:12:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-26 15:12:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.25-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230626/f/fbgemm-gpu-nightly-cpu/2023.6.24-2023.6.25/diff.md --exclude *.pyd
+[2023-06-26 15:12:46] INFO root fetch - processPackages [swh.graphql]: Downloading https://files.pythonhosted.org/packages/1a/d9/5e257f6afa6ff3e14944ad151f4b5fe926b0e9a00d1bb80fafc1d468d835/swh.graphql-0.0.96.tar.gz
+[2023-06-26 15:12:46] INFO root fetch - processPackages [mkdocs-dsfr]: Downloading https://files.pythonhosted.org/packages/6b/d6/eb7e4a3c980f8f89045257ce5437c5282e32f753a22ca3b5ff94a82cf285/mkdocs_dsfr-0.1.0.tar.gz
+[2023-06-26 15:12:46] INFO root fetch - processPackages [pyxll]: Downloading https://files.pythonhosted.org/packages/f8/e9/93e06ea91447f15ec9df344f00b9a2809c5ed0dea70fc28ce9c521718cb3/pyxll-5.6.4-cp39-none-any.whl
+[2023-06-26 15:12:46] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/4b/74/c0befa344981f4a0f3f91a09d1f9ceae135cf702ef7ba5bec619770e1550/easys-ordermanager-2.2.3.tar.gz
+[2023-06-26 15:12:46] INFO root fetch - processPackages [fredtools]: Downloading https://files.pythonhosted.org/packages/e2/dc/be3d7c8d2dd0c27c957f25eafdfff7d7c0ae3b6bb2fabe88e2c73dedeb5b/fredtools-0.6.9-py3-none-any.whl
+[2023-06-26 15:12:46] INFO root fetch - processPackages [gcloud-connectors]: Downloading https://files.pythonhosted.org/packages/14/53/2c63bead240603f870dc3afbebbea3e8121ecf0f0a9ebed4e7869b1a3774/gcloud-connectors-0.1.94.tar.gz
+[2023-06-26 15:12:46] INFO root fetch - processPackages [swh.graphql]: executing diffoscope
+[2023-06-26 15:12:46] INFO root fetch - processPackages [swh.graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.graphql-0.0.95.tar.gz tmp/swh.graphql-0.0.96.tar.gz --markdown 20230626/s/swh.graphql/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-06-26 15:12:46] INFO root fetch - processPackages [tendril-caching]: executing diffoscope
+[2023-06-26 15:12:46] INFO root fetch - processPackages [tendril-caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-caching-0.2.3.tar.gz tmp/tendril-caching-0.2.4.tar.gz --markdown 20230626/t/tendril-caching/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-26 15:12:46] INFO root fetch - processPackages [fredtools]: executing diffoscope
+[2023-06-26 15:12:46] INFO root fetch - processPackages [fredtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fredtools-0.6.8-py3-none-any.whl.zip tmp/fredtools-0.6.9-py3-none-any.whl.zip --markdown 20230626/f/fredtools/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-26 15:12:46] INFO root fetch - processPackages [mkdocs-dsfr]: executing diffoscope
+[2023-06-26 15:12:46] INFO root fetch - processPackages [mkdocs-dsfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_dsfr-0.0.4.tar.gz tmp/mkdocs_dsfr-0.1.0.tar.gz --markdown 20230626/m/mkdocs-dsfr/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-26 15:12:46] INFO root fetch - processPackages [gcloud-connectors]: executing diffoscope
+[2023-06-26 15:12:46] INFO root fetch - processPackages [gcloud-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloud-connectors-0.1.92.tar.gz tmp/gcloud-connectors-0.1.94.tar.gz --markdown 20230626/g/gcloud-connectors/0.1.92-0.1.94/diff.md --exclude *.pyd
+[2023-06-26 15:12:46] INFO root fetch - processPackages [pyxll]: executing diffoscope
+[2023-06-26 15:12:46] INFO root fetch - processPackages [pyxll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxll-5.6.3-cp39-none-any.whl.zip tmp/pyxll-5.6.4-cp39-none-any.whl.zip --markdown 20230626/p/pyxll/5.6.3-5.6.4/diff.md --exclude *.pyd
+[2023-06-26 15:12:46] INFO root fetch - processPackages [easys-ordermanager]: executing diffoscope
+[2023-06-26 15:12:46] INFO root fetch - processPackages [easys-ordermanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easys-ordermanager-2.2.2.tar.gz tmp/easys-ordermanager-2.2.3.tar.gz --markdown 20230626/e/easys-ordermanager/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-26 15:12:48] INFO root fetch - processPackages [gcloud-connectors]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-connectors-0.1.92.tar.gz]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [gcloud-connectors]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-connectors-0.1.94.tar.gz]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [gcloud-connectors]: Start processing: dbdemos
+[2023-06-26 15:12:48] INFO root fetch - main [MainThread]: End processing [gcloud-connectors]: success
+[2023-06-26 15:12:48] INFO root fetch - processPackages [pyxll]: Remove: archive file [/home/abi/fetcher/tmp/pyxll-5.6.3-cp39-none-any.whl.zip]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [pyxll]: Remove: archive file [/home/abi/fetcher/tmp/pyxll-5.6.4-cp39-none-any.whl.zip]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [pyxll]: Start processing: pillar1
+[2023-06-26 15:12:48] INFO root fetch - main [MainThread]: End processing [pyxll]: success
+[2023-06-26 15:12:48] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.5] Old Version: [0.1.9.4]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [fredtools]: Remove: archive file [/home/abi/fetcher/tmp/fredtools-0.6.8-py3-none-any.whl.zip]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [fredtools]: Remove: archive file [/home/abi/fetcher/tmp/fredtools-0.6.9-py3-none-any.whl.zip]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [fredtools]: Start processing: pydantic-settings-creat
+[2023-06-26 15:12:48] INFO root fetch - main [MainThread]: End processing [fredtools]: success
+[2023-06-26 15:12:48] INFO root fetch - processPackages [dbdemos]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/6b/3e/05e004455f9e30b1af9204967b2101a9feb9cf7d1ccf8d3155d53b8f82f5/pillar1-0.1.9.4.tar.gz
+[2023-06-26 15:12:48] WARNING root fetch - processPackages [pydantic-settings-creat]: Skipping, unable to determine old version
+[2023-06-26 15:12:48] INFO root fetch - processPackages [pydantic-settings-creat]: Start processing: nbdev-numpy
+[2023-06-26 15:12:48] INFO root fetch - main [MainThread]: End processing [pydantic-settings-creat] error
+[2023-06-26 15:12:48] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.5.tar.gz]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.6.tar.gz]
+[2023-06-26 15:12:48] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-26 15:12:48] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/6c/c5/9454bae82e5fb5c1b0134e7c26d6cc743c4c92ae262fcd50a4f297cc5054/dbdemos-0.3.8-py3-none-any.whl
+[2023-06-26 15:12:48] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-26 15:12:48] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 29692537>=10485760
+[2023-06-26 15:12:48] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-06-26 15:12:48] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/dd/59/d6a771cade693f70cc9eca35cf895d6e693288ba6fed7777e3664b21c02f/pillar1-0.1.9.5.tar.gz
+[2023-06-26 15:12:48] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-26 15:12:48] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-26 15:12:48] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230626/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 15:12:48] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-26 15:12:48] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.4.tar.gz tmp/pillar1-0.1.9.5.tar.gz --markdown 20230626/p/pillar1/0.1.9.4-0.1.9.5/diff.md --exclude *.pyd
+[2023-06-26 15:12:48] INFO root fetch - processPackages [tendril-caching]: Remove: archive file [/home/abi/fetcher/tmp/tendril-caching-0.2.3.tar.gz]
+[2023-06-26 15:12:48] INFO root fetch - processPackages [tendril-caching]: Remove: archive file [/home/abi/fetcher/tmp/tendril-caching-0.2.4.tar.gz]
+[2023-06-26 15:12:48] INFO root fetch - main [MainThread]: End processing [tendril-caching]: success
+[2023-06-26 15:12:49] INFO root fetch - processPackages [swh.graphql]: Remove: archive file [/home/abi/fetcher/tmp/swh.graphql-0.0.95.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - processPackages [swh.graphql]: Remove: archive file [/home/abi/fetcher/tmp/swh.graphql-0.0.96.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - main [MainThread]: End processing [swh.graphql]: success
+[2023-06-26 15:12:49] INFO root fetch - processPackages [easys-ordermanager]: Remove: archive file [/home/abi/fetcher/tmp/easys-ordermanager-2.2.2.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - processPackages [easys-ordermanager]: Remove: archive file [/home/abi/fetcher/tmp/easys-ordermanager-2.2.3.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - main [MainThread]: End processing [easys-ordermanager]: success
+[2023-06-26 15:12:49] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-26 15:12:49] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.4.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.5.tar.gz]
+[2023-06-26 15:12:49] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-26 15:12:49] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-26 15:12:58] INFO root fetch - processPackages [mkdocs-dsfr]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_dsfr-0.0.4.tar.gz]
+[2023-06-26 15:12:58] INFO root fetch - processPackages [mkdocs-dsfr]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_dsfr-0.1.0.tar.gz]
+[2023-06-26 15:12:58] INFO root fetch - main [MainThread]: End processing [mkdocs-dsfr]: success
+[2023-06-26 15:13:31] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-26 15:13:31] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.25-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-26 15:13:31] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-26 15:13:31] INFO root fetch - main [MainThread]: Store serial: [18647124]
