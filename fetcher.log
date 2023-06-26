@@ -15200,3 +15200,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 13:06:45] INFO root fetch - processPackages [pygac]: Remove: archive file [/home/abi/fetcher/tmp/pygac-1.7.2.tar.gz]
 [2023-06-26 13:06:45] INFO root fetch - main [MainThread]: End processing [pygac]: success
 [2023-06-26 13:06:45] INFO root fetch - main [MainThread]: Store serial: [18645569]
+[2023-06-26 13:11:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645569]
+[2023-06-26 13:11:55] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyopf
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-uberweb
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoQA23
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openhgnn
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axaiogram
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphene-protector
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyter-cleaner
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Products.CPUtils
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SFM4300-readout
+[2023-06-26 13:11:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cryptoadvance.specter
+[2023-06-26 13:11:55] ERROR root fetch - processPackages [flask-uberweb]: Unable to get metadata: No such project 'flask-uberweb'
+[2023-06-26 13:11:55] INFO root fetch - processPackages [flask-uberweb]: Start processing: pyright
+[2023-06-26 13:11:55] INFO root fetch - main [MainThread]: End processing [flask-uberweb] error
+[2023-06-26 13:11:55] INFO root fetch - processPackages [Products.CPUtils]: New version: [1.23] Old Version: [1.22]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [axaiogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 13:11:55] WARNING root fetch - processPackages [AutoQA23]: Skipping, unable to determine old version
+[2023-06-26 13:11:55] INFO root fetch - processPackages [AutoQA23]: Start processing: axaiogram
+[2023-06-26 13:11:55] INFO root fetch - main [MainThread]: End processing [AutoQA23] error
+[2023-06-26 13:11:55] INFO root fetch - processPackages [pyopf]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [openhgnn]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [SFM4300-readout]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [pyright]: New version: [1.1.316] Old Version: [1.1.315]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [jupyter-cleaner]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [cryptoadvance.specter]: New version: [2.0.2rc4] Old Version: [2.0.2rc3]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [graphene-protector]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [axaiogram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [graphene-protector]: Downloading https://files.pythonhosted.org/packages/91/d5/ab1e639439be66f251de22a4796835571501625db94787f041758bcf3559/graphene_protector-0.9.0.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/8d/fa/57476ab85e28ad65618c17cf82e0551a3f5aa1948d030d8774566c8e72c5/axaiogram-0.0.8.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [openhgnn]: Downloading https://files.pythonhosted.org/packages/ca/8b/e86e7a3af496da4b1189d2d19cd7320ded6529817be8087351b08655a0cd/openhgnn-0.4.0.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/8d/fa/57476ab85e28ad65618c17cf82e0551a3f5aa1948d030d8774566c8e72c5/axaiogram-0.0.8.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [Products.CPUtils]: Downloading https://files.pythonhosted.org/packages/6f/5f/cbc0c05d5adf18511a2d17e50e16046094326cdad8844558551aaf8b5b8d/Products.CPUtils-1.22.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [cryptoadvance.specter]: Downloading https://files.pythonhosted.org/packages/db/7b/d5c4a422fecfbb1c51167c73f96c11108a0420b5a658c4f65eefca2f690e/cryptoadvance.specter-2.0.2rc3.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [pyopf]: Downloading https://files.pythonhosted.org/packages/76/fc/b40d163dedfb2b9dc431a4c3fa5c0799ace247e1b55ceccf46f2a7881520/pyopf-1.1.0.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [jupyter-cleaner]: Downloading https://files.pythonhosted.org/packages/d9/b5/ac9363441bf00b1f697f351c220d0cd468f90d1ed6bfcf7339c9c707dfc6/jupyter_cleaner-0.2.1.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/a5/b6/c98d5f00a5961926e9840c1e8d44e54128885afcca6e5f9834754846f8f7/pyright-1.1.315.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [SFM4300-readout]: Downloading https://files.pythonhosted.org/packages/77/8b/0581ec543ac95fb4eab436e7a7fed554c1a41fac876bcd8e4d8333950104/SFM4300_readout-0.1.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [graphene-protector]: Downloading https://files.pythonhosted.org/packages/b4/35/1f8905c25768c0f4c0d0e64a1c197438593d05b9fbe77336bef315f9a38d/graphene_protector-0.9.1.tar.gz
+[2023-06-26 13:11:55] WARNING root fetch - processPackages [cryptoadvance.specter]: Skipping package: exceeds size limit 13662253>=10485760
+[2023-06-26 13:11:55] INFO root fetch - processPackages [cryptoadvance.specter]: Start processing: collective.documentgenerator
+[2023-06-26 13:11:55] INFO root fetch - main [MainThread]: End processing [cryptoadvance.specter] error
+[2023-06-26 13:11:55] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/3a/b9/ebe8494e336007718e89f31477eb283b3f6156c16ef56682554b41c1f057/axaiogram-0.0.9.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/3a/b9/ebe8494e336007718e89f31477eb283b3f6156c16ef56682554b41c1f057/axaiogram-0.0.9.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [collective.documentgenerator]: New version: [3.9] Old Version: [3.8]
+[2023-06-26 13:11:55] INFO root fetch - processPackages [jupyter-cleaner]: Downloading https://files.pythonhosted.org/packages/56/10/d60ad924b874f5ea79e6567d62578ec671fdcd6e889c371434a85471c068/jupyter_cleaner-0.2.2.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/9b/e7/aba8ce531623d86e7f9e242f17aa6431f627d5ab9b96f689f9394ef15752/pyright-1.1.316.tar.gz
+[2023-06-26 13:11:55] WARNING root fetch - processPackages [pyopf]: Skipping package: exceeds size limit 30091486>=10485760
+[2023-06-26 13:11:55] INFO root fetch - main [MainThread]: End processing [pyopf] error
+[2023-06-26 13:11:55] INFO root fetch - processPackages [Products.CPUtils]: Downloading https://files.pythonhosted.org/packages/71/28/abfe91044b8c75e511b0a89bdef8bb92cd6061edc70fc91bbe2ac9b88a78/Products.CPUtils-1.23.tar.gz
+[2023-06-26 13:11:55] INFO root fetch - processPackages [graphene-protector]: executing diffoscope
+[2023-06-26 13:11:55] INFO root fetch - processPackages [graphene-protector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_protector-0.9.0.tar.gz tmp/graphene_protector-0.9.1.tar.gz --markdown 20230626/g/graphene-protector/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-26 13:11:55] INFO root fetch - processPackages [SFM4300-readout]: Downloading https://files.pythonhosted.org/packages/66/b6/7d9a43c857ff358d83586bd07d2bd9dfee19612f2d87566e99b662c43cce/SFM4300_readout-0.1.1.tar.gz
+[2023-06-26 13:11:56] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 13:11:56] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.8.tar.gz tmp/axaiogram-0.0.9.tar.gz --markdown 20230626/a/axaiogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:11:56] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 13:11:56] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.8.tar.gz tmp/axaiogram-0.0.9.tar.gz --markdown 20230626/a/axaiogram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 13:11:56] INFO root fetch - processPackages [jupyter-cleaner]: executing diffoscope
+[2023-06-26 13:11:56] INFO root fetch - processPackages [jupyter-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_cleaner-0.2.1.tar.gz tmp/jupyter_cleaner-0.2.2.tar.gz --markdown 20230626/j/jupyter-cleaner/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-26 13:11:56] INFO root fetch - processPackages [openhgnn]: Downloading https://files.pythonhosted.org/packages/ca/18/73aa356e28ab060201a48511cf6950d359a91662ecfb0fa5be75bdba23fb/openhgnn-0.4.1-py3-none-any.whl
+[2023-06-26 13:11:56] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2023-06-26 13:11:56] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.315.tar.gz tmp/pyright-1.1.316.tar.gz --markdown 20230626/p/pyright/1.1.315-1.1.316/diff.md --exclude *.pyd
+[2023-06-26 13:11:56] INFO root fetch - processPackages [collective.documentgenerator]: Downloading https://files.pythonhosted.org/packages/85/86/0c7ba787757126896ce1ab74985456d1eac4b14613da82599f9afd474556/collective.documentgenerator-3.8.tar.gz
+[2023-06-26 13:11:56] INFO root fetch - processPackages [Products.CPUtils]: executing diffoscope
+[2023-06-26 13:11:56] INFO root fetch - processPackages [Products.CPUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.CPUtils-1.22.tar.gz tmp/Products.CPUtils-1.23.tar.gz --markdown 20230626/P/Products.CPUtils/1.22-1.23/diff.md --exclude *.pyd
+[2023-06-26 13:11:56] INFO root fetch - processPackages [openhgnn]: executing diffoscope
+[2023-06-26 13:11:56] INFO root fetch - processPackages [openhgnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhgnn-0.4.0.tar.gz tmp/openhgnn-0.4.1-py3-none-any.whl.zip --markdown 20230626/o/openhgnn/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-26 13:11:56] INFO root fetch - processPackages [SFM4300-readout]: executing diffoscope
+[2023-06-26 13:11:56] INFO root fetch - processPackages [SFM4300-readout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SFM4300_readout-0.1.tar.gz tmp/SFM4300_readout-0.1.1.tar.gz --markdown 20230626/S/SFM4300-readout/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 13:11:56] INFO root fetch - processPackages [collective.documentgenerator]: Downloading https://files.pythonhosted.org/packages/3d/14/85ecccbae2e98b59c2e8853c0cf072fc817d077963c12053f6def0522469/collective.documentgenerator-3.9.tar.gz
+[2023-06-26 13:11:56] INFO root fetch - processPackages [collective.documentgenerator]: executing diffoscope
+[2023-06-26 13:11:56] INFO root fetch - processPackages [collective.documentgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.documentgenerator-3.8.tar.gz tmp/collective.documentgenerator-3.9.tar.gz --markdown 20230626/c/collective.documentgenerator/3.8-3.9/diff.md --exclude *.pyd
+[2023-06-26 13:11:57] INFO root fetch - processPackages [SFM4300-readout]: Remove: archive file [/home/abi/fetcher/tmp/SFM4300_readout-0.1.tar.gz]
+[2023-06-26 13:11:57] INFO root fetch - processPackages [SFM4300-readout]: Remove: archive file [/home/abi/fetcher/tmp/SFM4300_readout-0.1.1.tar.gz]
+[2023-06-26 13:11:57] INFO root fetch - main [MainThread]: End processing [SFM4300-readout]: success
+[2023-06-26 13:11:57] INFO root fetch - processPackages [jupyter-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_cleaner-0.2.1.tar.gz]
+[2023-06-26 13:11:57] INFO root fetch - processPackages [jupyter-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_cleaner-0.2.2.tar.gz]
+[2023-06-26 13:11:57] INFO root fetch - main [MainThread]: End processing [jupyter-cleaner]: success
+[2023-06-26 13:11:57] INFO root fetch - processPackages [graphene-protector]: Remove: archive file [/home/abi/fetcher/tmp/graphene_protector-0.9.0.tar.gz]
+[2023-06-26 13:11:57] INFO root fetch - processPackages [graphene-protector]: Remove: archive file [/home/abi/fetcher/tmp/graphene_protector-0.9.1.tar.gz]
+[2023-06-26 13:11:57] INFO root fetch - main [MainThread]: End processing [graphene-protector]: success
+[2023-06-26 13:11:58] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.8.tar.gz]
+[2023-06-26 13:11:58] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.9.tar.gz]
+[2023-06-26 13:11:58] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 13:11:58] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.315.tar.gz]
+[2023-06-26 13:11:58] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.316.tar.gz]
+[2023-06-26 13:11:58] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2023-06-26 13:11:58] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 13:11:58] INFO root fetch - processPackages [openhgnn]: Remove: archive file [/home/abi/fetcher/tmp/openhgnn-0.4.0.tar.gz]
+[2023-06-26 13:11:58] INFO root fetch - processPackages [openhgnn]: Remove: archive file [/home/abi/fetcher/tmp/openhgnn-0.4.1-py3-none-any.whl.zip]
+[2023-06-26 13:11:58] INFO root fetch - main [MainThread]: End processing [openhgnn]: success
+[2023-06-26 13:11:58] INFO root fetch - processPackages [Products.CPUtils]: Remove: archive file [/home/abi/fetcher/tmp/Products.CPUtils-1.22.tar.gz]
+[2023-06-26 13:11:58] INFO root fetch - processPackages [Products.CPUtils]: Remove: archive file [/home/abi/fetcher/tmp/Products.CPUtils-1.23.tar.gz]
+[2023-06-26 13:11:58] INFO root fetch - main [MainThread]: End processing [Products.CPUtils]: success
+[2023-06-26 13:11:59] INFO root fetch - processPackages [collective.documentgenerator]: Remove: archive file [/home/abi/fetcher/tmp/collective.documentgenerator-3.8.tar.gz]
+[2023-06-26 13:11:59] INFO root fetch - processPackages [collective.documentgenerator]: Remove: archive file [/home/abi/fetcher/tmp/collective.documentgenerator-3.9.tar.gz]
+[2023-06-26 13:11:59] INFO root fetch - main [MainThread]: End processing [collective.documentgenerator]: success
+[2023-06-26 13:11:59] INFO root fetch - main [MainThread]: Store serial: [18645629]
