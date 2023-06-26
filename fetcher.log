@@ -5974,3 +5974,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 04:54:58] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.2.tar.gz]
 [2023-06-26 04:54:58] INFO root fetch - main [MainThread]: End processing [pibble]: success
 [2023-06-26 04:54:58] INFO root fetch - main [MainThread]: Store serial: [18641592]
+[2023-06-26 05:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641592]
+[2023-06-26 05:00:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2023-06-26 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oloren
+[2023-06-26 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lm-datahandler
+[2023-06-26 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: halring
+[2023-06-26 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-htmlrender
+[2023-06-26 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pandora-ChatGPT
+[2023-06-26 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: image-processing-dp
+[2023-06-26 05:00:08] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 05:00:08] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 05:00:08] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-26 05:00:08] INFO root fetch - processPackages [halring]: New version: [2.2.0] Old Version: [2.1.9]
+[2023-06-26 05:00:08] INFO root fetch - processPackages [policyengine-us]: New version: [0.341.0] Old Version: [0.340.0]
+[2023-06-26 05:00:08] WARNING root fetch - processPackages [image-processing-dp]: Skipping, unable to determine old version
+[2023-06-26 05:00:08] INFO root fetch - main [MainThread]: End processing [image-processing-dp] error
+[2023-06-26 05:00:08] INFO root fetch - processPackages [nonebot-plugin-htmlrender]: New version: [0.2.1] Old Version: [0.2.0.3]
+[2023-06-26 05:00:08] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-06-26 05:00:08] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-26 05:00:08] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/d6/d4/d10443bb002573f753ac33d3534450990cfa5e8e388f4cd232c32dfb7d21/policyengine-us-0.340.0.tar.gz
+[2023-06-26 05:00:08] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/48/fa/3e57f12292db490efc5bf6a503793c9dd30bbd252d531c1cf2afd4523d13/Pandora-ChatGPT-1.2.3.tar.gz
+[2023-06-26 05:00:08] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/83/7d/7f8d2fee625ea5dbe891ba424a87bf63d020c7d724c524a55fa1e0a1fcf4/halring-2.1.9-py3-none-any.whl
+[2023-06-26 05:00:08] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-06-26 05:00:08] INFO root fetch - processPackages [nonebot-plugin-htmlrender]: Downloading https://files.pythonhosted.org/packages/e7/f8/a9dccb4308f4ac1236025806dd13fd3b2d1e954a3e61726e46409b0a5c6d/nonebot_plugin_htmlrender-0.2.0.3.tar.gz
+[2023-06-26 05:00:08] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-26 05:00:08] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-26 05:00:08] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230626/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 05:00:09] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/fc/42/80fe5ec4ef3a977570fb3037a09a53ca22338df0ea48ebf27c909820c543/Pandora-ChatGPT-1.2.4.tar.gz
+[2023-06-26 05:00:09] INFO root fetch - processPackages [halring]: Downloading https://files.pythonhosted.org/packages/87/d7/36faee69d378c7d904145a13fb4a54507c123ba2a16aa8dda32444126e0a/halring-2.2.0-py3-none-any.whl
+[2023-06-26 05:00:09] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/d5/22/e8f0e53ed3c01e583ec401805abaca6e1859da1cba1fd4be7fa9ec59c6fd/policyengine-us-0.341.0.tar.gz
+[2023-06-26 05:00:09] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-26 05:00:09] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230626/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 05:00:09] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-06-26 05:00:09] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.2.3.tar.gz tmp/Pandora-ChatGPT-1.2.4.tar.gz --markdown 20230626/P/Pandora-ChatGPT/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-26 05:00:09] INFO root fetch - processPackages [halring]: executing diffoscope
+[2023-06-26 05:00:09] INFO root fetch - processPackages [halring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halring-2.1.9-py3-none-any.whl.zip tmp/halring-2.2.0-py3-none-any.whl.zip --markdown 20230626/h/halring/2.1.9-2.2.0/diff.md --exclude *.pyd
+[2023-06-26 05:00:09] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-26 05:00:09] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.340.0.tar.gz tmp/policyengine-us-0.341.0.tar.gz --markdown 20230626/p/policyengine-us/0.340.0-0.341.0/diff.md --exclude *.pyd
+[2023-06-26 05:00:09] INFO root fetch - processPackages [nonebot-plugin-htmlrender]: Downloading https://files.pythonhosted.org/packages/3d/e2/91993a74c1ead832960d4da0fe348660d0563b87edf48908279bf66fd971/nonebot_plugin_htmlrender-0.2.1.tar.gz
+[2023-06-26 05:00:09] INFO root fetch - processPackages [nonebot-plugin-htmlrender]: executing diffoscope
+[2023-06-26 05:00:09] INFO root fetch - processPackages [nonebot-plugin-htmlrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_htmlrender-0.2.0.3.tar.gz tmp/nonebot_plugin_htmlrender-0.2.1.tar.gz --markdown 20230626/n/nonebot-plugin-htmlrender/0.2.0.3-0.2.1/diff.md --exclude *.pyd
+[2023-06-26 05:00:10] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-06-26 05:00:10] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-06-26 05:00:10] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-26 05:00:11] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.3.tar.gz]
+[2023-06-26 05:00:11] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.4.tar.gz]
+[2023-06-26 05:00:11] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-06-26 05:00:11] INFO root fetch - processPackages [nonebot-plugin-htmlrender]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_htmlrender-0.2.0.3.tar.gz]
+[2023-06-26 05:00:11] INFO root fetch - processPackages [nonebot-plugin-htmlrender]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_htmlrender-0.2.1.tar.gz]
+[2023-06-26 05:00:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-htmlrender]: success
+[2023-06-26 05:00:11] INFO root fetch - processPackages [halring]: Remove: archive file [/home/abi/fetcher/tmp/halring-2.1.9-py3-none-any.whl.zip]
+[2023-06-26 05:00:11] INFO root fetch - processPackages [halring]: Remove: archive file [/home/abi/fetcher/tmp/halring-2.2.0-py3-none-any.whl.zip]
+[2023-06-26 05:00:11] INFO root fetch - main [MainThread]: End processing [halring]: success
+[2023-06-26 05:00:14] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-26 05:00:14] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-26 05:00:14] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-26 05:01:26] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.340.0.tar.gz]
+[2023-06-26 05:01:26] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.341.0.tar.gz]
+[2023-06-26 05:01:26] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-26 05:01:26] INFO root fetch - main [MainThread]: Store serial: [18641613]
