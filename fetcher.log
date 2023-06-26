@@ -8226,3 +8226,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 07:48:20] INFO root fetch - processPackages [piicatcher]: Remove: archive file [/home/abi/fetcher/tmp/piicatcher-0.9.6.tar.gz]
 [2023-06-26 07:48:20] INFO root fetch - main [MainThread]: End processing [piicatcher]: success
 [2023-06-26 07:48:20] INFO root fetch - main [MainThread]: Store serial: [18642579]
+[2023-06-26 07:53:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642579]
+[2023-06-26 07:53:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-26 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m23
+[2023-06-26 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyezviz
+[2023-06-26 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: banditpam
+[2023-06-26 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libknot
+[2023-06-26 07:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invokelint
+[2023-06-26 07:53:29] INFO root fetch - processPackages [pyezviz]: New version: [0.2.1.6] Old Version: [0.2.1.5]
+[2023-06-26 07:53:29] INFO root fetch - processPackages [m23]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-06-26 07:53:29] INFO root fetch - processPackages [banditpam]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-06-26 07:53:29] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/36/98/cb941e6afe17778f09a726bb5b084a03c111eb5a237a0aeec34ad17af6c1/pyezviz-0.2.1.5.tar.gz
+[2023-06-26 07:53:29] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/57/a9/ebcc464195f7db58b9dfca1b387e77835186085e61a30bf6f8cdf03f796b/m23-1.8.7.tar.gz
+[2023-06-26 07:53:29] INFO root fetch - processPackages [libknot]: New version: [3.2.8] Old Version: [3.2.7]
+[2023-06-26 07:53:29] INFO root fetch - processPackages [invokelint]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-26 07:53:29] INFO root fetch - processPackages [banditpam]: Downloading https://files.pythonhosted.org/packages/e5/8c/64baeaf496b8868321fe88f5d33393f3c306b65eca3ac7b141a2ce11713c/banditpam-4.0.1.tar.gz
+[2023-06-26 07:53:30] INFO root fetch - processPackages [libknot]: Downloading https://files.pythonhosted.org/packages/34/7c/5b8bdc8179757e6da160a51e56a3e06a847a4691462b8696e120ed9f47df/libknot-3.2.7.tar.gz
+[2023-06-26 07:53:30] INFO root fetch - processPackages [invokelint]: Downloading https://files.pythonhosted.org/packages/86/3e/779580d390d9e0ffbc7e1b650c697f1ced16dfe641426b28bb1802282a51/invokelint-0.8.0.tar.gz
+[2023-06-26 07:53:30] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/bd/29/90a1f9a48ddd7500bfdec6a1e7110cb97e399d1dd40f08ddf405b26b2fb4/pyezviz-0.2.1.6.tar.gz
+[2023-06-26 07:53:30] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/f1/2a/b92dcff71a9eddedf9c1faefc861ac62079c091a40e0354de53eaace4a52/m23-1.8.8.tar.gz
+[2023-06-26 07:53:30] INFO root fetch - processPackages [pyezviz]: executing diffoscope
+[2023-06-26 07:53:30] INFO root fetch - processPackages [pyezviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezviz-0.2.1.5.tar.gz tmp/pyezviz-0.2.1.6.tar.gz --markdown 20230626/p/pyezviz/0.2.1.5-0.2.1.6/diff.md --exclude *.pyd
+[2023-06-26 07:53:30] INFO root fetch - processPackages [invokelint]: Downloading https://files.pythonhosted.org/packages/98/5e/1b8053a8f47b4551336f66676deeb09431646507a3c378be42b4e843c891/invokelint-0.8.1.tar.gz
+[2023-06-26 07:53:30] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-26 07:53:30] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.8.7.tar.gz tmp/m23-1.8.8.tar.gz --markdown 20230626/m/m23/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-06-26 07:53:30] INFO root fetch - processPackages [libknot]: Downloading https://files.pythonhosted.org/packages/8f/8e/a845926b50b87ac6a2f255a5f0008b03fcc220aeaf46022f641ac2fcee08/libknot-3.2.8.tar.gz
+[2023-06-26 07:53:30] INFO root fetch - processPackages [banditpam]: Downloading https://files.pythonhosted.org/packages/03/5b/3245a81105f9516c2c86164032f300299c795f5b45de201a3310e34938d9/banditpam-4.0.2-cp39-cp39-macosx_11_0_arm64.whl
+[2023-06-26 07:53:30] INFO root fetch - processPackages [invokelint]: executing diffoscope
+[2023-06-26 07:53:30] INFO root fetch - processPackages [invokelint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invokelint-0.8.0.tar.gz tmp/invokelint-0.8.1.tar.gz --markdown 20230626/i/invokelint/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-26 07:53:30] INFO root fetch - processPackages [libknot]: executing diffoscope
+[2023-06-26 07:53:30] INFO root fetch - processPackages [libknot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libknot-3.2.7.tar.gz tmp/libknot-3.2.8.tar.gz --markdown 20230626/l/libknot/3.2.7-3.2.8/diff.md --exclude *.pyd
+[2023-06-26 07:53:30] INFO root fetch - processPackages [banditpam]: executing diffoscope
+[2023-06-26 07:53:30] INFO root fetch - processPackages [banditpam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banditpam-4.0.1.tar.gz tmp/banditpam-4.0.2-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230626/b/banditpam/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-06-26 07:53:31] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.5.tar.gz]
+[2023-06-26 07:53:31] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.6.tar.gz]
+[2023-06-26 07:53:31] INFO root fetch - main [MainThread]: End processing [pyezviz]: success
+[2023-06-26 07:53:31] INFO root fetch - processPackages [invokelint]: Remove: archive file [/home/abi/fetcher/tmp/invokelint-0.8.0.tar.gz]
+[2023-06-26 07:53:31] INFO root fetch - processPackages [invokelint]: Remove: archive file [/home/abi/fetcher/tmp/invokelint-0.8.1.tar.gz]
+[2023-06-26 07:53:31] INFO root fetch - main [MainThread]: End processing [invokelint]: success
+[2023-06-26 07:53:32] INFO root fetch - processPackages [libknot]: Remove: archive file [/home/abi/fetcher/tmp/libknot-3.2.7.tar.gz]
+[2023-06-26 07:53:32] INFO root fetch - processPackages [libknot]: Remove: archive file [/home/abi/fetcher/tmp/libknot-3.2.8.tar.gz]
+[2023-06-26 07:53:32] INFO root fetch - main [MainThread]: End processing [libknot]: success
+[2023-06-26 07:53:32] INFO root fetch - processPackages [banditpam]: Remove: archive file [/home/abi/fetcher/tmp/banditpam-4.0.1.tar.gz]
+[2023-06-26 07:53:32] INFO root fetch - processPackages [banditpam]: Remove: archive file [/home/abi/fetcher/tmp/banditpam-4.0.2-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2023-06-26 07:53:32] INFO root fetch - main [MainThread]: End processing [banditpam]: success
+[2023-06-26 07:53:32] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.7.tar.gz]
+[2023-06-26 07:53:32] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.8.8.tar.gz]
+[2023-06-26 07:53:32] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-26 07:53:32] INFO root fetch - main [MainThread]: Store serial: [18642605]
