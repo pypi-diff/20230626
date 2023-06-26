@@ -19291,3 +19291,235 @@ EOFError: EOF read where object expected
 [2023-06-26 15:36:34] INFO root fetch - processPackages [adbc-driver-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_snowflake-0.5.1-py3-none-win_amd64.whl.zip]
 [2023-06-26 15:36:34] INFO root fetch - main [MainThread]: End processing [adbc-driver-snowflake]: success
 [2023-06-26 15:36:34] INFO root fetch - main [MainThread]: Store serial: [18647499]
+[2023-06-26 15:42:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18647499]
+[2023-06-26 15:42:28] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeastvision
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atom-db
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JupyterQuiz
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-amazon-sp-api
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testflows
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ifd-python
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-management
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynerd
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: expert-intelligence-toolbox
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hydronaut
+[2023-06-26 15:42:28] INFO root fetch - processPackages [yeastvision]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 15:42:28] WARNING root fetch - processPackages [pynerd]: Skipping, unable to determine old version
+[2023-06-26 15:42:28] INFO root fetch - processPackages [pynerd]: Start processing: acoular
+[2023-06-26 15:42:28] INFO root fetch - main [MainThread]: End processing [pynerd] error
+[2023-06-26 15:42:28] INFO root fetch - processPackages [JupyterQuiz]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ml-management]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ifd-python]: New version: [10.1.9] Old Version: [10.1.8]
+[2023-06-26 15:42:28] INFO root fetch - processPackages [python-amazon-sp-api]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-06-26 15:42:28] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 15:42:28] INFO root fetch - processPackages [testflows]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-26 15:42:28] INFO root fetch - processPackages [atom-db]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-06-26 15:42:28] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-26 15:42:28] INFO root fetch - processPackages [hydronaut]: New version: [2023.9] Old Version: [2023.8]
+[2023-06-26 15:42:28] INFO root fetch - processPackages [acoular]: New version: [23.6] Old Version: [22.3]
+[2023-06-26 15:42:28] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/bb/09/cc986488f0766309d6875010dff625708dccd4a8bd6648b459d54db7ba92/yeastvision-0.1.4.tar.gz
+[2023-06-26 15:42:28] INFO root fetch - processPackages [testflows]: Downloading https://files.pythonhosted.org/packages/5e/67/4e9b6fed1b22a25656dafff61a7913a98708e59385738fb16bd0f00bcc40/testflows-1.9.8.tar.gz
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/5a/52/31174518adac5e8e06c54bbffe2bc4f57506dab7ac7a89a1781e67d8b253/ml-management-0.0.38.tar.gz
+[2023-06-26 15:42:28] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/46/22/d5d63cc2de3ec7fdba02b2da8390211c1c144b370607ef7fbdef4992fc50/ifd_python-10.1.8.tar.gz
+[2023-06-26 15:42:28] INFO root fetch - processPackages [atom-db]: Downloading https://files.pythonhosted.org/packages/45/98/48e17877e1cc54bbd9b898245487cbe8fd084416f129c75aac9832c42d9d/atom_db-0.7.9-py3-none-any.whl
+[2023-06-26 15:42:28] INFO root fetch - processPackages [JupyterQuiz]: Downloading https://files.pythonhosted.org/packages/f3/44/1ad8f39ef91e41a7016eb0ea8ca76c4b71616ece80ab68f1a3c5e9cfab1b/jupyterquiz-2.6.2.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [python-amazon-sp-api]: Downloading https://files.pythonhosted.org/packages/06/d7/90609b17ec59ed35fb664cfa53e94fd76ca0a61927f61dca7252b9f32999/python-amazon-sp-api-0.9.2.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [acoular]: Downloading https://files.pythonhosted.org/packages/da/fd/b154bc6078b152bfe5b0e4eeead298ca26b0ab99358e5a592d259e527f9a/acoular-22.3.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [hydronaut]: Downloading https://files.pythonhosted.org/packages/9d/7e/b225a7a7a2ffb86b4ed3fe056e172c078f041e79eabad986817c4a68a007/hydronaut-2023.8.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230626/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:42:29] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/76/46/93e34eb58d789fddbdbb6a2bea2b721c232d10958a951e029891a8c578d9/yeastvision-0.1.5.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/94/ca/38202e4a07f75a92f13fa06f76514b26d1aa1204932b3064fb4c7c703bd3/ml-management-0.0.39.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/d5/2f/63e7b5ecff0b1ff2d13c4a7301c45fe91ff57e14308f699d2a8df4254c99/ifd_python-10.1.9.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [testflows]: Downloading https://files.pythonhosted.org/packages/4f/76/a16230b7a4a82bca3087622a881a090786a3e86c240ebf2737bb64787ab1/testflows-1.9.9.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [yeastvision]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [yeastvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeastvision-0.1.4.tar.gz tmp/yeastvision-0.1.5.tar.gz --markdown 20230626/y/yeastvision/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 15:42:29] INFO root fetch - processPackages [atom-db]: Downloading https://files.pythonhosted.org/packages/3c/49/c024b73df297019083ed95d520275bbb053964182df780fc059a733662e1/atom_db-0.8.0-py3-none-any.whl
+[2023-06-26 15:42:29] INFO root fetch - processPackages [python-amazon-sp-api]: Downloading https://files.pythonhosted.org/packages/ef/f1/fbff1bfaae672efd6f92bca848aba8026a1b6d2b8559272a523a0989320e/python-amazon-sp-api-0.9.4.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [acoular]: Downloading https://files.pythonhosted.org/packages/05/d9/10545b5af73ff0390c66f22337f7959ac9719c060e23c1d4dcda94b95ad9/acoular-23.6.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-10.1.8.tar.gz tmp/ifd_python-10.1.9.tar.gz --markdown 20230626/i/ifd-python/10.1.8-10.1.9/diff.md --exclude *.pyd
+[2023-06-26 15:42:29] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.38.tar.gz tmp/ml-management-0.0.39.tar.gz --markdown 20230626/m/ml-management/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-06-26 15:42:29] INFO root fetch - processPackages [atom-db]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [atom-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atom_db-0.7.9-py3-none-any.whl.zip tmp/atom_db-0.8.0-py3-none-any.whl.zip --markdown 20230626/a/atom-db/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-06-26 15:42:29] INFO root fetch - processPackages [python-amazon-sp-api]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [python-amazon-sp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amazon-sp-api-0.9.2.tar.gz tmp/python-amazon-sp-api-0.9.4.tar.gz --markdown 20230626/p/python-amazon-sp-api/0.9.2-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 15:42:29] INFO root fetch - processPackages [hydronaut]: Downloading https://files.pythonhosted.org/packages/3d/59/c4998d8baa4060422ab6762f749beca1991fee8049c534d779d8abda658d/hydronaut-2023.9.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [testflows]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [testflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows-1.9.8.tar.gz tmp/testflows-1.9.9.tar.gz --markdown 20230626/t/testflows/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-26 15:42:29] INFO root fetch - processPackages [acoular]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [acoular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acoular-22.3.tar.gz tmp/acoular-23.6.tar.gz --markdown 20230626/a/acoular/22.3-23.6/diff.md --exclude *.pyd
+[2023-06-26 15:42:29] INFO root fetch - processPackages [JupyterQuiz]: Downloading https://files.pythonhosted.org/packages/12/81/6fa635c0b7aacd48ba240fc576bf94f915c1ebb62a9ebc77659f4131fad3/jupyterquiz-2.6.3.tar.gz
+[2023-06-26 15:42:29] INFO root fetch - processPackages [hydronaut]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [hydronaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydronaut-2023.8.tar.gz tmp/hydronaut-2023.9.tar.gz --markdown 20230626/h/hydronaut/2023.8-2023.9/diff.md --exclude *.pyd
+[2023-06-26 15:42:29] INFO root fetch - processPackages [JupyterQuiz]: executing diffoscope
+[2023-06-26 15:42:29] INFO root fetch - processPackages [JupyterQuiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterquiz-2.6.2.tar.gz tmp/jupyterquiz-2.6.3.tar.gz --markdown 20230626/J/JupyterQuiz/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-06-26 15:42:30] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-26 15:42:30] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-26 15:42:30] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: th2-grpc-check1
+[2023-06-26 15:42:30] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-26 15:42:30] INFO root fetch - processPackages [th2-grpc-check1]: New version: [4.2.0.dev5378806706] Old Version: [4.1.1.dev0]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [th2-grpc-check1]: Downloading https://files.pythonhosted.org/packages/3c/5f/65517431470db6bbab4b1439d730ea6a54c6879046f2321b960c20aa87f7/th2_grpc_check1-4.1.1.dev0.tar.gz
+[2023-06-26 15:42:31] INFO root fetch - processPackages [atom-db]: Remove: archive file [/home/abi/fetcher/tmp/atom_db-0.7.9-py3-none-any.whl.zip]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [atom-db]: Remove: archive file [/home/abi/fetcher/tmp/atom_db-0.8.0-py3-none-any.whl.zip]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [atom-db]: Start processing: mljar-supervised
+[2023-06-26 15:42:31] INFO root fetch - main [MainThread]: End processing [atom-db]: success
+[2023-06-26 15:42:31] INFO root fetch - processPackages [testflows]: Remove: archive file [/home/abi/fetcher/tmp/testflows-1.9.8.tar.gz]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [testflows]: Remove: archive file [/home/abi/fetcher/tmp/testflows-1.9.9.tar.gz]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [testflows]: Start processing: tendril-utils-core
+[2023-06-26 15:42:31] INFO root fetch - main [MainThread]: End processing [testflows]: success
+[2023-06-26 15:42:31] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.8.tar.gz]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.9.tar.gz]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [ifd-python]: Start processing: capcruncher-tools
+[2023-06-26 15:42:31] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-06-26 15:42:31] INFO root fetch - processPackages [mljar-supervised]: New version: [1.0.0] Old Version: [0.9.1]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [th2-grpc-check1]: Downloading https://files.pythonhosted.org/packages/30/fb/7730171a61fca92d93f081610e5232e18619ba03ff653f3a02e8cffc1cc3/th2_grpc_check1-4.2.0.dev5378806706.tar.gz
+[2023-06-26 15:42:31] INFO root fetch - processPackages [tendril-utils-core]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-26 15:42:31] WARNING root fetch - processPackages [capcruncher-tools]: Skipping, unable to determine old version
+[2023-06-26 15:42:31] INFO root fetch - processPackages [capcruncher-tools]: Start processing: python-amazon-sp-api
+[2023-06-26 15:42:31] INFO root fetch - main [MainThread]: End processing [capcruncher-tools] error
+[2023-06-26 15:42:31] INFO root fetch - processPackages [th2-grpc-check1]: executing diffoscope
+[2023-06-26 15:42:31] INFO root fetch - processPackages [python-amazon-sp-api]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [th2-grpc-check1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_check1-4.1.1.dev0.tar.gz tmp/th2_grpc_check1-4.2.0.dev5378806706.tar.gz --markdown 20230626/t/th2-grpc-check1/4.1.1.dev0-4.2.0.dev5378806706/diff.md --exclude *.pyd
+[2023-06-26 15:42:31] INFO root fetch - processPackages [mljar-supervised]: Downloading https://files.pythonhosted.org/packages/d8/63/aa24c74e69543dca5ae1a3e70470a0df2d265c98f4548ee4171bd5da2560/mljar-supervised-0.9.1.tar.gz
+[2023-06-26 15:42:31] INFO root fetch - processPackages [python-amazon-sp-api]: executing diffoscope
+[2023-06-26 15:42:31] INFO root fetch - processPackages [python-amazon-sp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amazon-sp-api-0.9.2.tar.gz tmp/python-amazon-sp-api-0.9.4.tar.gz --markdown 20230626/p/python-amazon-sp-api/0.9.2-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 15:42:31] INFO root fetch - processPackages [tendril-utils-core]: Downloading https://files.pythonhosted.org/packages/78/7a/c75db77bcc70ae8b82192eaca8f88dcf6294f9d905aa12e9128bab27ceba/tendril-utils-core-0.5.8.tar.gz
+[2023-06-26 15:42:31] INFO root fetch - processPackages [mljar-supervised]: Downloading https://files.pythonhosted.org/packages/f5/c1/318611c612980766ae6eefa73d5e9be76f6acb49d866950be3ab0596a8d3/mljar-supervised-1.0.0.tar.gz
+[2023-06-26 15:42:31] INFO root fetch - processPackages [hydronaut]: Remove: archive file [/home/abi/fetcher/tmp/hydronaut-2023.8.tar.gz]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [hydronaut]: Remove: archive file [/home/abi/fetcher/tmp/hydronaut-2023.9.tar.gz]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [hydronaut]: Start processing: taskproc
+[2023-06-26 15:42:31] INFO root fetch - main [MainThread]: End processing [hydronaut]: success
+[2023-06-26 15:42:31] INFO root fetch - processPackages [taskproc]: New version: [0.13.0] Old Version: [0.11.2]
+[2023-06-26 15:42:31] INFO root fetch - processPackages [mljar-supervised]: executing diffoscope
+[2023-06-26 15:42:31] INFO root fetch - processPackages [mljar-supervised]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mljar-supervised-0.9.1.tar.gz tmp/mljar-supervised-1.0.0.tar.gz --markdown 20230626/m/mljar-supervised/0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 15:42:31] INFO root fetch - processPackages [taskproc]: Downloading https://files.pythonhosted.org/packages/d3/53/70cabb26b89587a26fa93e8db00319afe449ae1ec471fe4567c0c3042710/taskproc-0.11.2.tar.gz
+[2023-06-26 15:42:32] INFO root fetch - processPackages [tendril-utils-core]: Downloading https://files.pythonhosted.org/packages/b3/bb/7a5cfe87741b97a84cc6d7a28fe96d2bf24796a04e06e90ae6612da66612/tendril-utils-core-0.5.9.tar.gz
+[2023-06-26 15:42:32] INFO root fetch - processPackages [tendril-utils-core]: executing diffoscope
+[2023-06-26 15:42:32] INFO root fetch - processPackages [tendril-utils-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-core-0.5.8.tar.gz tmp/tendril-utils-core-0.5.9.tar.gz --markdown 20230626/t/tendril-utils-core/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-26 15:42:32] INFO root fetch - processPackages [taskproc]: Downloading https://files.pythonhosted.org/packages/ba/99/5cc499d13853798c909472293fc208ad9f108bfcc40d8a88495c4f43f20a/taskproc-0.13.0.tar.gz
+[2023-06-26 15:42:32] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.4.tar.gz]
+[2023-06-26 15:42:32] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.5.tar.gz]
+[2023-06-26 15:42:32] INFO root fetch - processPackages [yeastvision]: Start processing: flake8-isolated-packages
+[2023-06-26 15:42:32] INFO root fetch - main [MainThread]: End processing [yeastvision]: success
+[2023-06-26 15:42:32] INFO root fetch - processPackages [taskproc]: executing diffoscope
+[2023-06-26 15:42:32] INFO root fetch - processPackages [taskproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskproc-0.11.2.tar.gz tmp/taskproc-0.13.0.tar.gz --markdown 20230626/t/taskproc/0.11.2-0.13.0/diff.md --exclude *.pyd
+[2023-06-26 15:42:32] INFO root fetch - processPackages [acoular]: Remove: archive file [/home/abi/fetcher/tmp/acoular-22.3.tar.gz]
+[2023-06-26 15:42:32] INFO root fetch - processPackages [acoular]: Remove: archive file [/home/abi/fetcher/tmp/acoular-23.6.tar.gz]
+[2023-06-26 15:42:32] INFO root fetch - processPackages [acoular]: Start processing: jupytercards
+[2023-06-26 15:42:32] INFO root fetch - main [MainThread]: End processing [acoular]: success
+[2023-06-26 15:42:32] INFO root fetch - processPackages [flake8-isolated-packages]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-26 15:42:32] INFO root fetch - processPackages [jupytercards]: New version: [2.5.6] Old Version: [2.5.5]
+[2023-06-26 15:42:32] INFO root fetch - processPackages [flake8-isolated-packages]: Downloading https://files.pythonhosted.org/packages/23/b9/a01b61d9c15f42fd00b5e8261cd5301dd8a5110142379006b3c179a7749f/flake8-isolated-packages-2.1.0.tar.gz
+[2023-06-26 15:42:32] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.38.tar.gz]
+[2023-06-26 15:42:32] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.39.tar.gz]
+[2023-06-26 15:42:32] INFO root fetch - processPackages [ml-management]: Start processing: opr
+[2023-06-26 15:42:32] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-06-26 15:42:32] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/32/42/827c4a9c57ed5f11b24a3493bb8437002eba4774edf82a661f7c264fb87f/jupytercards-2.5.5.tar.gz
+[2023-06-26 15:42:32] WARNING root fetch - processPackages [opr]: Skipping, unable to determine old version
+[2023-06-26 15:42:32] INFO root fetch - processPackages [opr]: Start processing: certora-cli-alpha-master
+[2023-06-26 15:42:32] INFO root fetch - main [MainThread]: End processing [opr] error
+[2023-06-26 15:42:32] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230626.9.34.254631] Old Version: [20230626.6.41.903469]
+[2023-06-26 15:42:32] INFO root fetch - processPackages [flake8-isolated-packages]: Downloading https://files.pythonhosted.org/packages/56/3b/293fbf06a1f41b0462f4d84b2dbd0a8e8b52f095aa111c48ee8cd41f4c37/flake8_isolated_packages-2.2.0.tar.gz
+[2023-06-26 15:42:32] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d5/7b/891b493b32448e7feadace1e1c971b2e63cd84199eed22ca8eaf11c99054/certora-cli-alpha-master-20230626.6.41.903469.tar.gz
+[2023-06-26 15:42:32] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37394054>=10485760
+[2023-06-26 15:42:32] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: returnn
+[2023-06-26 15:42:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-26 15:42:32] INFO root fetch - processPackages [flake8-isolated-packages]: executing diffoscope
+[2023-06-26 15:42:32] INFO root fetch - processPackages [flake8-isolated-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-isolated-packages-2.1.0.tar.gz tmp/flake8_isolated_packages-2.2.0.tar.gz --markdown 20230626/f/flake8-isolated-packages/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-26 15:42:33] INFO root fetch - processPackages [returnn]: New version: [1.20230626.75721] Old Version: [1.20230626.24329]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/57/94/4c06d498f1e8b34b175baa70f86643d8c3a962088c241fbb789f57c8af21/jupytercards-2.5.6.tar.gz
+[2023-06-26 15:42:33] INFO root fetch - processPackages [th2-grpc-check1]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_check1-4.1.1.dev0.tar.gz]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [th2-grpc-check1]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_check1-4.2.0.dev5378806706.tar.gz]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [th2-grpc-check1]: Start processing: rttbackend
+[2023-06-26 15:42:33] INFO root fetch - main [MainThread]: End processing [th2-grpc-check1]: success
+[2023-06-26 15:42:33] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/4f/49/b11488761663552eae0d5f5e16fcaded4a937e0b07924964cae7269a5118/returnn-1.20230626.24329.tar.gz
+[2023-06-26 15:42:33] WARNING root fetch - processPackages [rttbackend]: Skipping, unable to determine old version
+[2023-06-26 15:42:33] INFO root fetch - processPackages [rttbackend]: Start processing: pystac-client
+[2023-06-26 15:42:33] INFO root fetch - main [MainThread]: End processing [rttbackend] error
+[2023-06-26 15:42:33] INFO root fetch - processPackages [jupytercards]: executing diffoscope
+[2023-06-26 15:42:33] INFO root fetch - processPackages [jupytercards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercards-2.5.5.tar.gz tmp/jupytercards-2.5.6.tar.gz --markdown 20230626/j/jupytercards/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2023-06-26 15:42:33] INFO root fetch - processPackages [pystac-client]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/e1/08/b8c0dbcc693c2305787f256c1ed98180b16f27a1a9c0d7146ced66e4e515/returnn-1.20230626.75721.tar.gz
+[2023-06-26 15:42:33] INFO root fetch - processPackages [pystac-client]: Downloading https://files.pythonhosted.org/packages/26/31/9c70c25cd02a00d7f0ca1290a15b5c3c87c2201840c24db7ff7555a34eb3/pystac-client-0.7.1.tar.gz
+[2023-06-26 15:42:33] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-26 15:42:33] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230626.24329.tar.gz tmp/returnn-1.20230626.75721.tar.gz --markdown 20230626/r/returnn/1.20230626.24329-1.20230626.75721/diff.md --exclude *.pyd
+[2023-06-26 15:42:33] INFO root fetch - processPackages [python-amazon-sp-api]: Remove: archive file [/home/abi/fetcher/tmp/python-amazon-sp-api-0.9.2.tar.gz]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [python-amazon-sp-api]: Remove: archive file [/home/abi/fetcher/tmp/python-amazon-sp-api-0.9.4.tar.gz]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [python-amazon-sp-api]: Start processing: spaceone-api
+[2023-06-26 15:42:33] INFO root fetch - main [MainThread]: End processing [python-amazon-sp-api]: success
+[2023-06-26 15:42:33] INFO root fetch - processPackages [taskproc]: Remove: archive file [/home/abi/fetcher/tmp/taskproc-0.11.2.tar.gz]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [taskproc]: Remove: archive file [/home/abi/fetcher/tmp/taskproc-0.13.0.tar.gz]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [taskproc]: Start processing: cg
+[2023-06-26 15:42:33] INFO root fetch - main [MainThread]: End processing [taskproc]: success
+[2023-06-26 15:42:33] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [pystac-client]: Downloading https://files.pythonhosted.org/packages/56/2c/343ba63a288687f066560619f3e48679a19ec310b740d8f83c590fa7ae49/pystac-client-0.7.2.tar.gz
+[2023-06-26 15:42:33] INFO root fetch - processPackages [cg]: New version: [37.0.6] Old Version: [37.0.5]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [python-amazon-sp-api]: Start processing: power-grid-model
+[2023-06-26 15:42:33] INFO root fetch - main [MainThread]: End processing [python-amazon-sp-api]: success
+[2023-06-26 15:42:33] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9188807400796] Old Version: [1.5.0rc9187210536722]
+[2023-06-26 15:42:33] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/bf/d8/62342d88220161dbcad1eb612af5a670d430461f193518798170833b8c3e/cg-37.0.5.tar.gz
+[2023-06-26 15:42:33] INFO root fetch - processPackages [pystac-client]: executing diffoscope
+[2023-06-26 15:42:33] INFO root fetch - processPackages [pystac-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystac-client-0.7.1.tar.gz tmp/pystac-client-0.7.2.tar.gz --markdown 20230626/p/pystac-client/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-26 15:42:33] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-06-26 15:42:33] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/24/e9/ddd723063d0b7ceb29a222c4bc619c0a2468b500e9d82232e052452b266a/power-grid-model-1.5.0rc9187210536722.tar.gz
+[2023-06-26 15:42:34] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/af/37/07bb9822b9985b10a8ac62a97ca805e29c473886922955bf340a2ade2c07/power-grid-model-1.5.0rc9188807400796.tar.gz
+[2023-06-26 15:42:34] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a1/cf/1ad0128741c9da4b13b0910bfaf14c7e4444376d1cebdf512fbcc30aabf1/cg-37.0.6.tar.gz
+[2023-06-26 15:42:34] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-26 15:42:34] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9187210536722.tar.gz tmp/power-grid-model-1.5.0rc9188807400796.tar.gz --markdown 20230626/p/power-grid-model/1.5.0rc9187210536722-1.5.0rc9188807400796/diff.md --exclude *.pyd
+[2023-06-26 15:42:34] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-06-26 15:42:34] INFO root fetch - processPackages [flake8-isolated-packages]: Remove: archive file [/home/abi/fetcher/tmp/flake8-isolated-packages-2.1.0.tar.gz]
+[2023-06-26 15:42:34] INFO root fetch - processPackages [flake8-isolated-packages]: Remove: archive file [/home/abi/fetcher/tmp/flake8_isolated_packages-2.2.0.tar.gz]
+[2023-06-26 15:42:34] INFO root fetch - processPackages [flake8-isolated-packages]: Start processing: ifd-python
+[2023-06-26 15:42:34] INFO root fetch - main [MainThread]: End processing [flake8-isolated-packages]: success
+[2023-06-26 15:42:34] INFO root fetch - processPackages [ifd-python]: New version: [10.1.9] Old Version: [10.1.8]
+[2023-06-26 15:42:34] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/46/22/d5d63cc2de3ec7fdba02b2da8390211c1c144b370607ef7fbdef4992fc50/ifd_python-10.1.8.tar.gz
+[2023-06-26 15:42:34] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-06-26 15:42:34] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230626/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-26 15:42:34] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/d5/2f/63e7b5ecff0b1ff2d13c4a7301c45fe91ff57e14308f699d2a8df4254c99/ifd_python-10.1.9.tar.gz
+[2023-06-26 15:42:34] INFO root fetch - processPackages [jupytercards]: Remove: archive file [/home/abi/fetcher/tmp/jupytercards-2.5.5.tar.gz]
+[2023-06-26 15:42:34] INFO root fetch - processPackages [jupytercards]: Remove: archive file [/home/abi/fetcher/tmp/jupytercards-2.5.6.tar.gz]
+[2023-06-26 15:42:34] INFO root fetch - processPackages [jupytercards]: Start processing: cleancourt
+[2023-06-26 15:42:34] INFO root fetch - main [MainThread]: End processing [jupytercards]: success
+[2023-06-26 15:42:34] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-06-26 15:42:34] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-10.1.8.tar.gz tmp/ifd_python-10.1.9.tar.gz --markdown 20230626/i/ifd-python/10.1.8-10.1.9/diff.md --exclude *.pyd
+[2023-06-26 15:42:34] INFO root fetch - processPackages [cleancourt]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-26 15:42:34] INFO root fetch - processPackages [tendril-utils-core]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-core-0.5.8.tar.gz]
+[2023-06-26 15:42:34] INFO root fetch - processPackages [tendril-utils-core]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-core-0.5.9.tar.gz]
+[2023-06-26 15:42:34] INFO root fetch - main [MainThread]: End processing [tendril-utils-core]: success
+[2023-06-26 15:42:34] INFO root fetch - processPackages [cleancourt]: Downloading https://files.pythonhosted.org/packages/5d/ca/ab9aabd24691f3267fcdf460230324a1e952e7cd251f76e357822cbe2627/cleancourt-0.7.8.tar.gz
+[2023-06-26 15:42:34] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-26 15:42:34] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.5.tar.gz tmp/cg-37.0.6.tar.gz --markdown 20230626/c/cg/37.0.5-37.0.6/diff.md --exclude *.pyd
+[2023-06-26 15:42:35] INFO root fetch - processPackages [cleancourt]: Downloading https://files.pythonhosted.org/packages/d6/e1/b59e06dbfaf7be0e825bd5e68e3b75ec3d03b273516a3bf4bb08640d2f08/cleancourt-0.7.9.tar.gz
+[2023-06-26 15:42:35] INFO root fetch - processPackages [cleancourt]: executing diffoscope
+[2023-06-26 15:42:35] INFO root fetch - processPackages [cleancourt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleancourt-0.7.8.tar.gz tmp/cleancourt-0.7.9.tar.gz --markdown 20230626/c/cleancourt/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-26 15:42:35] INFO root fetch - processPackages [pystac-client]: Remove: archive file [/home/abi/fetcher/tmp/pystac-client-0.7.1.tar.gz]
+[2023-06-26 15:42:35] INFO root fetch - processPackages [pystac-client]: Remove: archive file [/home/abi/fetcher/tmp/pystac-client-0.7.2.tar.gz]
+[2023-06-26 15:42:35] INFO root fetch - main [MainThread]: End processing [pystac-client]: success
+[2023-06-26 15:42:35] INFO root fetch - processPackages [mljar-supervised]: Remove: archive file [/home/abi/fetcher/tmp/mljar-supervised-0.9.1.tar.gz]
+[2023-06-26 15:42:35] INFO root fetch - processPackages [mljar-supervised]: Remove: archive file [/home/abi/fetcher/tmp/mljar-supervised-1.0.0.tar.gz]
+[2023-06-26 15:42:35] INFO root fetch - main [MainThread]: End processing [mljar-supervised]: success
+[2023-06-26 15:42:36] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.8.tar.gz]
+[2023-06-26 15:42:36] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.9.tar.gz]
+[2023-06-26 15:42:36] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-06-26 15:42:36] INFO root fetch - processPackages [cleancourt]: Remove: archive file [/home/abi/fetcher/tmp/cleancourt-0.7.8.tar.gz]
+[2023-06-26 15:42:36] INFO root fetch - processPackages [cleancourt]: Remove: archive file [/home/abi/fetcher/tmp/cleancourt-0.7.9.tar.gz]
+[2023-06-26 15:42:36] INFO root fetch - main [MainThread]: End processing [cleancourt]: success
+[2023-06-26 15:42:37] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip]
+[2023-06-26 15:42:37] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-26 15:42:37] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-06-26 15:42:40] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9187210536722.tar.gz]
+[2023-06-26 15:42:40] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9188807400796.tar.gz]
+[2023-06-26 15:42:40] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-26 15:42:40] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230626.24329.tar.gz]
+[2023-06-26 15:42:40] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230626.75721.tar.gz]
+[2023-06-26 15:42:40] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-26 15:42:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.5.tar.gz]
+[2023-06-26 15:42:47] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.6.tar.gz]
+[2023-06-26 15:42:47] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-26 15:44:06] INFO root fetch - processPackages [JupyterQuiz]: Remove: archive file [/home/abi/fetcher/tmp/jupyterquiz-2.6.2.tar.gz]
+[2023-06-26 15:44:06] INFO root fetch - processPackages [JupyterQuiz]: Remove: archive file [/home/abi/fetcher/tmp/jupyterquiz-2.6.3.tar.gz]
+[2023-06-26 15:44:06] INFO root fetch - main [MainThread]: End processing [JupyterQuiz]: success
+[2023-06-26 15:44:06] INFO root fetch - main [MainThread]: Store serial: [18647599]
