@@ -9524,3 +9524,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:59:39] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.1.tar.gz]
 [2023-06-26 08:59:39] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-26 08:59:39] INFO root fetch - main [MainThread]: Store serial: [18643159]
+[2023-06-26 09:04:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643159]
+[2023-06-26 09:04:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ailingbot
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axsqlalchemy
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenFisca-France-Local
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invenio-base
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MLandPattern
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsonrequest
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqio-nightly
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snaketool-utils
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-user
+[2023-06-26 09:04:50] INFO root fetch - processPackages [jsonrequest]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-26 09:04:50] INFO root fetch - processPackages [OpenFisca-France-Local]: New version: [5.1.0] Old Version: [5.0.1]
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ailingbot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 09:04:50] WARNING root fetch - processPackages [snaketool-utils]: Skipping, unable to determine old version
+[2023-06-26 09:04:50] INFO root fetch - processPackages [snaketool-utils]: Start processing: gcloud-secret-configure
+[2023-06-26 09:04:50] INFO root fetch - main [MainThread]: End processing [snaketool-utils] error
+[2023-06-26 09:04:50] INFO root fetch - processPackages [MLandPattern]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 09:04:50] WARNING root fetch - processPackages [axsqlalchemy]: Skipping, unable to determine old version
+[2023-06-26 09:04:50] INFO root fetch - processPackages [axsqlalchemy]: Start processing: xia-engine
+[2023-06-26 09:04:50] INFO root fetch - main [MainThread]: End processing [axsqlalchemy] error
+[2023-06-26 09:04:50] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: New version: [20230626.7.1.241415] Old Version: [20230625.9.43.822972]
+[2023-06-26 09:04:50] INFO root fetch - processPackages [invenio-base]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-26 09:04:50] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-26 09:04:50] INFO root fetch - processPackages [gcloud-secret-configure]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-26 09:04:50] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-26 09:04:50] INFO root fetch - processPackages [xia-engine]: New version: [0.8.25] Old Version: [0.8.24]
+[2023-06-26 09:04:50] INFO root fetch - processPackages [gcloud-secret-configure]: Downloading https://files.pythonhosted.org/packages/f8/c4/a3e28739f0d4df999b2d7ddf82dd3876b6d15acdba48caa3b387de06689c/gcloud-secret-configure-1.0.0.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/32/c0/8c033d32fed0e2f4e0f0bdbc45fb9925a5976b0d684db807f2f22201b419/jsonrequest-0.1.3.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/2c/fc/83b8790efe6ab85f4899563b32bee34d121e8250f436865c8f0034c254e8/OpenFisca-France-Local-5.0.1.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/db/fc/767e0a44b776c609268a419bffb97eabfc21ad3d22081df45922634f3d40/ailingbot-0.0.2.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [invenio-base]: Downloading https://files.pythonhosted.org/packages/fc/00/5906d44e8c5ff079854b0fb7d64ccc9c3f34b31a22fb4f5f7cf154ac40a0/invenio-base-1.2.9.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/d0/d3/b543d67a07d77ea0e789610f076c799c96a518fb719222de60e9b063e4aa/xia_engine-0.8.24-cp39-none-win_amd64.whl
+[2023-06-26 09:04:50] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Downloading https://files.pythonhosted.org/packages/2c/a0/98432eceb517c0ca1d74e194fd28155aaddbae3426b44a7059f02dfd45c2/certora-cli-alpha-cnandi-morpho-equiv-20230625.9.43.822972.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [gcloud-secret-configure]: Downloading https://files.pythonhosted.org/packages/2e/b9/9d2f4299c1ffe046ca251e24b4edf200a312371ff667f53843e1d5126e20/gcloud-secret-configure-1.0.1.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [gcloud-secret-configure]: executing diffoscope
+[2023-06-26 09:04:50] INFO root fetch - processPackages [gcloud-secret-configure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcloud-secret-configure-1.0.0.tar.gz tmp/gcloud-secret-configure-1.0.1.tar.gz --markdown 20230626/g/gcloud-secret-configure/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-26 09:04:50] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-26 09:04:50] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230626/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-26 09:04:50] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping package: exceeds size limit 40305439>=10485760
+[2023-06-26 09:04:50] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Start processing: hscan
+[2023-06-26 09:04:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-26 09:04:50] INFO root fetch - processPackages [jsonrequest]: Downloading https://files.pythonhosted.org/packages/2d/06/a482485fa99d60f707c7711ec7c4bd8429a6f0fda9f22c817d6abd7b19a2/jsonrequest-0.1.4.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/20/3d/c1763f81d627d1f1600bf49432ca316e0b7466472bc309dd9e9f1c1c8b68/ailingbot-0.0.3.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-26 09:04:50] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230626/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-26 09:04:50] INFO root fetch - processPackages [hscan]: New version: [2.6.0] Old Version: [2.5.2]
+[2023-06-26 09:04:50] INFO root fetch - processPackages [invenio-base]: Downloading https://files.pythonhosted.org/packages/f2/f2/0afcd7fa0399bbbc4937d6f9dc8fb861847458c69492573bec06380ad009/invenio-base-1.3.0.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [jsonrequest]: executing diffoscope
+[2023-06-26 09:04:50] INFO root fetch - processPackages [jsonrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrequest-0.1.3.tar.gz tmp/jsonrequest-0.1.4.tar.gz --markdown 20230626/j/jsonrequest/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ailingbot]: executing diffoscope
+[2023-06-26 09:04:50] INFO root fetch - processPackages [ailingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailingbot-0.0.2.tar.gz tmp/ailingbot-0.0.3.tar.gz --markdown 20230626/a/ailingbot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 09:04:50] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/59/5a/bbed6a2c3f71e292f237157dd53a72cc9539ef1edcce572c07df1a27f72c/hscan-2.5.2.tar.gz
+[2023-06-26 09:04:50] INFO root fetch - processPackages [invenio-base]: executing diffoscope
+[2023-06-26 09:04:50] INFO root fetch - processPackages [invenio-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-base-1.2.9.tar.gz tmp/invenio-base-1.3.0.tar.gz --markdown 20230626/i/invenio-base/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-26 09:04:50] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/33/2a/3ef8a885212946275df15fab4d99723c96ec3052a3668821b9dfa370bfe3/xia_engine-0.8.25-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-26 09:04:51] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/f9/71/8bc268cc71ac85f2dbc8006dd8fd01d7309c84b6e8fa998a6c0b93d97158/hscan-2.6.0.tar.gz
+[2023-06-26 09:04:51] INFO root fetch - processPackages [hscan]: executing diffoscope
+[2023-06-26 09:04:51] INFO root fetch - processPackages [hscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscan-2.5.2.tar.gz tmp/hscan-2.6.0.tar.gz --markdown 20230626/h/hscan/2.5.2-2.6.0/diff.md --exclude *.pyd
+[2023-06-26 09:04:51] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/88/85/b9868672c3e3fed6bba3de04d663bf5eaf360f0b74f4d9883b8b6d962df0/MLandPattern-0.2.5.tar.gz
+[2023-06-26 09:04:51] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-06-26 09:04:51] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.24-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.25-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230626/x/xia-engine/0.8.24-0.8.25/diff.md --exclude *.pyd
+[2023-06-26 09:04:51] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/93/38/ce4b04cf692b4a42efc92a6cb2155741940629e44e220d3c4dabc86504a7/MLandPattern-0.2.6.tar.gz
+[2023-06-26 09:04:51] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-06-26 09:04:51] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.2.5.tar.gz tmp/MLandPattern-0.2.6.tar.gz --markdown 20230626/M/MLandPattern/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 09:04:51] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/9e/22/a26d29b5931eb3b1649598ab820d5909c548807cb6662263dd3a7afcd58f/OpenFisca-France-Local-5.1.0.tar.gz
+[2023-06-26 09:04:52] INFO root fetch - processPackages [gcloud-secret-configure]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-secret-configure-1.0.0.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - processPackages [gcloud-secret-configure]: Remove: archive file [/home/abi/fetcher/tmp/gcloud-secret-configure-1.0.1.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - main [MainThread]: End processing [gcloud-secret-configure]: success
+[2023-06-26 09:04:52] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.3.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - processPackages [jsonrequest]: Remove: archive file [/home/abi/fetcher/tmp/jsonrequest-0.1.4.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - main [MainThread]: End processing [jsonrequest]: success
+[2023-06-26 09:04:52] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.2.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.3.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - main [MainThread]: End processing [ailingbot]: success
+[2023-06-26 09:04:52] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-26 09:04:52] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.5.2.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - processPackages [hscan]: Remove: archive file [/home/abi/fetcher/tmp/hscan-2.6.0.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - main [MainThread]: End processing [hscan]: success
+[2023-06-26 09:04:52] INFO root fetch - processPackages [OpenFisca-France-Local]: executing diffoscope
+[2023-06-26 09:04:52] INFO root fetch - processPackages [OpenFisca-France-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Local-5.0.1.tar.gz tmp/OpenFisca-France-Local-5.1.0.tar.gz --markdown 20230626/O/OpenFisca-France-Local/5.0.1-5.1.0/diff.md --exclude *.pyd
+[2023-06-26 09:04:52] INFO root fetch - processPackages [invenio-base]: Remove: archive file [/home/abi/fetcher/tmp/invenio-base-1.2.9.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - processPackages [invenio-base]: Remove: archive file [/home/abi/fetcher/tmp/invenio-base-1.3.0.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - main [MainThread]: End processing [invenio-base]: success
+[2023-06-26 09:04:52] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.5.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - processPackages [MLandPattern]: Remove: archive file [/home/abi/fetcher/tmp/MLandPattern-0.2.6.tar.gz]
+[2023-06-26 09:04:52] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-06-26 09:04:53] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.24-cp39-none-win_amd64.whl.zip]
+[2023-06-26 09:04:53] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.25-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-26 09:04:53] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-06-26 09:04:54] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-26 09:04:54] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-26 09:04:54] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-26 09:04:58] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-5.0.1.tar.gz]
+[2023-06-26 09:04:58] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-5.1.0.tar.gz]
+[2023-06-26 09:04:58] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
+[2023-06-26 09:04:58] INFO root fetch - main [MainThread]: Store serial: [18643230]
