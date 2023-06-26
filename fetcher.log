@@ -5325,3 +5325,45 @@
 [2023-06-26 04:02:00] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.1.tar.gz]
 [2023-06-26 04:02:00] INFO root fetch - main [MainThread]: End processing [pibble]: success
 [2023-06-26 04:02:00] INFO root fetch - main [MainThread]: Store serial: [18641368]
+[2023-06-26 04:07:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641368]
+[2023-06-26 04:07:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-26 04:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gravitorch
+[2023-06-26 04:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cr
+[2023-06-26 04:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marqo
+[2023-06-26 04:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m-abac-test
+[2023-06-26 04:07:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: image-processing-ds
+[2023-06-26 04:07:09] INFO root fetch - processPackages [marqo]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-26 04:07:09] INFO root fetch - processPackages [cr]: New version: [1.6] Old Version: [1.5]
+[2023-06-26 04:07:09] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 04:07:09] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 04:07:09] WARNING root fetch - processPackages [image-processing-ds]: Skipping, unable to determine old version
+[2023-06-26 04:07:09] INFO root fetch - main [MainThread]: End processing [image-processing-ds] error
+[2023-06-26 04:07:09] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-06-26 04:07:09] INFO root fetch - processPackages [cr]: Downloading https://files.pythonhosted.org/packages/5d/ed/15894764380dfd461651514eaaf1a57cbc78afef64eb94b5f221e0c982e7/cr-1.5.tar.gz
+[2023-06-26 04:07:09] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/25/de/4c17bc33b4aa558e588358415dd57b463160630d6e80827f639a46d040bb/marqo-0.9.5.tar.gz
+[2023-06-26 04:07:09] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-06-26 04:07:09] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-06-26 04:07:09] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-26 04:07:09] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230626/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 04:07:10] INFO root fetch - processPackages [cr]: Downloading https://files.pythonhosted.org/packages/39/bc/5a298015fb0c2db561dd004d85fc969f38c522c3370f084bc8defbd4826f/cr-1.6.tar.gz
+[2023-06-26 04:07:10] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/f7/82/999dd0035a5acf765ac6ee2d29f6c771832fbf1efe18f4d13d09fc6c1cbf/marqo-0.9.6.tar.gz
+[2023-06-26 04:07:10] INFO root fetch - processPackages [cr]: executing diffoscope
+[2023-06-26 04:07:10] INFO root fetch - processPackages [cr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cr-1.5.tar.gz tmp/cr-1.6.tar.gz --markdown 20230626/c/cr/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-26 04:07:10] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-06-26 04:07:10] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2023-06-26 04:07:10] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-0.9.5.tar.gz tmp/marqo-0.9.6.tar.gz --markdown 20230626/m/marqo/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-26 04:07:10] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-06-26 04:07:10] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230626/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 04:07:11] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-06-26 04:07:11] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-06-26 04:07:11] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-26 04:07:11] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-0.9.5.tar.gz]
+[2023-06-26 04:07:11] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-0.9.6.tar.gz]
+[2023-06-26 04:07:11] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2023-06-26 04:07:11] INFO root fetch - processPackages [cr]: Remove: archive file [/home/abi/fetcher/tmp/cr-1.5.tar.gz]
+[2023-06-26 04:07:11] INFO root fetch - processPackages [cr]: Remove: archive file [/home/abi/fetcher/tmp/cr-1.6.tar.gz]
+[2023-06-26 04:07:11] INFO root fetch - main [MainThread]: End processing [cr]: success
+[2023-06-26 04:07:13] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.8.tar.gz]
+[2023-06-26 04:07:13] INFO root fetch - processPackages [gravitorch]: Remove: archive file [/home/abi/fetcher/tmp/gravitorch-0.0.9.tar.gz]
+[2023-06-26 04:07:13] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-06-26 04:07:13] INFO root fetch - main [MainThread]: Store serial: [18641385]
