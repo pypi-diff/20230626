@@ -10109,3 +10109,137 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 09:11:37] INFO root fetch - processPackages [tree-sitter-languages]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_languages-1.6.1-cp39-cp39-win_amd64.whl.zip]
 [2023-06-26 09:11:37] INFO root fetch - main [MainThread]: End processing [tree-sitter-languages]: success
 [2023-06-26 09:11:37] INFO root fetch - main [MainThread]: Store serial: [18643406]
+[2023-06-26 09:16:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643406]
+[2023-06-26 09:17:00] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypipr
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geovisio_cli
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thipstercli
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mxcubeweb
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-hub-nightly
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jijbench
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: axaiogram
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-standalone-docs
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-api-flask
+[2023-06-26 09:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xnvme
+[2023-06-26 09:17:01] INFO root fetch - processPackages [geovisio_cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-26 09:17:01] INFO root fetch - processPackages [jijbench]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-06-26 09:17:01] INFO root fetch - processPackages [mxcubeweb]: New version: [1.47.0] Old Version: [1.46.0]
+[2023-06-26 09:17:01] INFO root fetch - processPackages [thipstercli]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-26 09:17:01] INFO root fetch - processPackages [fastapi-standalone-docs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 09:17:01] WARNING root fetch - processPackages [axaiogram]: Skipping, unable to determine old version
+[2023-06-26 09:17:01] INFO root fetch - processPackages [xnvme]: New version: [0.7.0] Old Version: [0.2.0]
+[2023-06-26 09:17:01] INFO root fetch - processPackages [axaiogram]: Start processing: always-updates
+[2023-06-26 09:17:01] INFO root fetch - main [MainThread]: End processing [axaiogram] error
+[2023-06-26 09:17:01] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 09:17:01] WARNING root fetch - processPackages [xia-api-flask]: Skipping, unable to determine old version
+[2023-06-26 09:17:01] INFO root fetch - processPackages [xia-api-flask]: Start processing: personal-knowledge-library
+[2023-06-26 09:17:01] INFO root fetch - main [MainThread]: End processing [xia-api-flask] error
+[2023-06-26 09:17:01] INFO root fetch - processPackages [personal-knowledge-library]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-26 09:17:01] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-26 09:17:01] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-26 09:17:01] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/20/a1/5873ec855e990c1bbee7fdcea6a3405e7dcfd3d404228aa15a851d44a553/mxcubeweb-1.46.0.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [jijbench]: Downloading https://files.pythonhosted.org/packages/bb/94/72f3fd5c7613240c4c24cf8b01a64e8f93cf5dd86f4fe3485145aa7e7a72/jijbench-0.5.6.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/95/39/0117f5898f8bdef4747e069c7eb2e50c66ece9b2b142a3fcf24f45f3a933/fastapi_standalone_docs-0.1.1.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/2d/35/b14c458dd4542589944d3b3ce44ffd082b8bd86810ef58739285ef12a68e/thipstercli-0.5.3.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/a1/e5/ff288c8b1aa913961f74dc011bc699d9437f7f422480003bfa2ef47b7ae7/geovisio_cli-0.2.1.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [xnvme]: Downloading https://files.pythonhosted.org/packages/43/71/b4ea6ad02ae11aa8ca36ab56b657cc2c4b7fce7a19a84c7a552633b1e65e/xnvme-0.2.0.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/47/97/6e685770e1171cb0652f10044bee9ff53e3607dd8e2c398c06d79bcaf893/personal_knowledge_library-1.0.3.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-26 09:17:01] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230626/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-26 09:17:01] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/74/d9/851454bde145f3e4fe1f163bed8302b5dadb2517daf3f91e66d929aa6e21/mxcubeweb-1.47.0.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [fastapi-standalone-docs]: Downloading https://files.pythonhosted.org/packages/25/58/2c0c761fd4abae40b9e3a8f77b76886dda8ce670b70adb8e1d2aac17bbe5/fastapi_standalone_docs-0.1.2.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [xnvme]: Downloading https://files.pythonhosted.org/packages/6d/6b/94f91b695c15384cb25047bf4ea1f3075757effcc1f604ca1642728d4414/xnvme-core-0.7.0.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/00/77/ca1a1db6ce5a972299b50b071c36e01f89d588824d92026758652b5d883d/thipstercli-0.5.4.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [personal-knowledge-library]: Downloading https://files.pythonhosted.org/packages/02/99/6f2217118b74b883515098d1d47af6448672c31638d58110dd1fd029930f/personal_knowledge_library-1.0.4.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [jijbench]: Downloading https://files.pythonhosted.org/packages/c4/f7/bbec71c0278d12ab3767be0edb5da79aa1070e6ef6d46c1ec8cc164a2bc3/jijbench-0.5.7.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/f8/1a/e7da69b05365640ab64adf0bacad15249432607eac74c11f4c4d977d06aa/geovisio_cli-0.2.2.tar.gz
+[2023-06-26 09:17:01] INFO root fetch - processPackages [fastapi-standalone-docs]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [fastapi-standalone-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_standalone_docs-0.1.1.tar.gz tmp/fastapi_standalone_docs-0.1.2.tar.gz --markdown 20230626/f/fastapi-standalone-docs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 09:17:01] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.5.3.tar.gz tmp/thipstercli-0.5.4.tar.gz --markdown 20230626/t/thipstercli/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-26 09:17:01] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-26 09:17:01] INFO root fetch - processPackages [xnvme]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [xnvme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnvme-0.2.0.tar.gz tmp/xnvme-core-0.7.0.tar.gz --markdown 20230626/x/xnvme/0.2.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-26 09:17:01] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.46.0.tar.gz tmp/mxcubeweb-1.47.0.tar.gz --markdown 20230626/m/mxcubeweb/1.46.0-1.47.0/diff.md --exclude *.pyd
+[2023-06-26 09:17:01] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230626/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 09:17:01] INFO root fetch - processPackages [jijbench]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [jijbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijbench-0.5.6.tar.gz tmp/jijbench-0.5.7.tar.gz --markdown 20230626/j/jijbench/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-06-26 09:17:01] INFO root fetch - processPackages [personal-knowledge-library]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [personal-knowledge-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_knowledge_library-1.0.3.tar.gz tmp/personal_knowledge_library-1.0.4.tar.gz --markdown 20230626/p/personal-knowledge-library/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-26 09:17:01] INFO root fetch - processPackages [geovisio_cli]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [geovisio_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovisio_cli-0.2.1.tar.gz tmp/geovisio_cli-0.2.2.tar.gz --markdown 20230626/g/geovisio_cli/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-26 09:17:01] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-26 09:17:01] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230626/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-26 09:17:03] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-26 09:17:03] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-26 09:17:03] INFO root fetch - processPackages [always-updates]: Start processing: thipstercli
+[2023-06-26 09:17:03] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-26 09:17:03] INFO root fetch - processPackages [thipstercli]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-26 09:17:03] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/8c/49/d007611caa09b48843efd4e63df6168fe7251f85a14837cedc64a33e0bb9/thipstercli-0.5.5.tar.gz
+[2023-06-26 09:17:03] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.3.tar.gz]
+[2023-06-26 09:17:03] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.4.tar.gz]
+[2023-06-26 09:17:03] INFO root fetch - processPackages [thipstercli]: Start processing: devCellPy
+[2023-06-26 09:17:03] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-26 09:17:03] INFO root fetch - processPackages [devCellPy]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-26 09:17:03] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-26 09:17:03] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.5.4.tar.gz tmp/thipstercli-0.5.5.tar.gz --markdown 20230626/t/thipstercli/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-26 09:17:03] INFO root fetch - processPackages [devCellPy]: Downloading https://files.pythonhosted.org/packages/e8/ec/7e4eee5e9a9b77ac3b5154c791359f648ca3b9552cb57b6f57257c06f5c3/devCellPy-1.2.0.tar.gz
+[2023-06-26 09:17:04] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-06-26 09:17:04] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-06-26 09:17:04] INFO root fetch - processPackages [pypipr]: Start processing: rid-kit
+[2023-06-26 09:17:04] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-06-26 09:17:04] INFO root fetch - processPackages [rid-kit]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-26 09:17:04] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-26 09:17:04] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-26 09:17:04] INFO root fetch - processPackages [tf-hub-nightly]: Start processing: SpaGoG
+[2023-06-26 09:17:04] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-26 09:17:04] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/1c/af/dd49f0791848881f1a005cd638bbaf2f87be684048dbaeb2f6565f7dc59c/rid-kit-0.5.1.tar.gz
+[2023-06-26 09:17:04] INFO root fetch - processPackages [SpaGoG]: New version: [0.19] Old Version: [0.18]
+[2023-06-26 09:17:04] INFO root fetch - processPackages [devCellPy]: Downloading https://files.pythonhosted.org/packages/4a/6c/1c22a7f2a7faf03f8d88bbe535811a40cf460eb781e679b12aaaa3d74ca6/devCellPy-1.3.0.tar.gz
+[2023-06-26 09:17:04] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/14/72/7400f07d4357b73580d3067b2cd26efb727abce6f76e018ca82d843350ba/SpaGoG-0.18.tar.gz
+[2023-06-26 09:17:04] ERROR root fetch - processPackages [thipstercli]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/thipstercli-0.5.4.tar.gz: No such file or directory
+
+[2023-06-26 09:17:04] INFO root fetch - main [MainThread]: End processing [thipstercli] error
+[2023-06-26 09:17:04] INFO root fetch - processPackages [devCellPy]: executing diffoscope
+[2023-06-26 09:17:04] INFO root fetch - processPackages [devCellPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devCellPy-1.2.0.tar.gz tmp/devCellPy-1.3.0.tar.gz --markdown 20230626/d/devCellPy/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-26 09:17:04] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/1e/d2/696e490296eb60a982826b9cc7604f4ea5ef160664adc96972cbc29ac79b/SpaGoG-0.19.tar.gz
+[2023-06-26 09:17:04] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/81/4d/ab787b19e8206f0130edc5a381501d8b118e268ef5bec6a158c023c1573c/rid-kit-0.5.2.tar.gz
+[2023-06-26 09:17:04] INFO root fetch - processPackages [SpaGoG]: executing diffoscope
+[2023-06-26 09:17:04] INFO root fetch - processPackages [SpaGoG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpaGoG-0.18.tar.gz tmp/SpaGoG-0.19.tar.gz --markdown 20230626/S/SpaGoG/0.18-0.19/diff.md --exclude *.pyd
+[2023-06-26 09:17:05] INFO root fetch - processPackages [xnvme]: Remove: archive file [/home/abi/fetcher/tmp/xnvme-0.2.0.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - processPackages [xnvme]: Remove: archive file [/home/abi/fetcher/tmp/xnvme-core-0.7.0.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - main [MainThread]: End processing [xnvme]: success
+[2023-06-26 09:17:05] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2023-06-26 09:17:05] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid-kit-0.5.1.tar.gz tmp/rid-kit-0.5.2.tar.gz --markdown 20230626/r/rid-kit/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-26 09:17:05] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.3.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - processPackages [personal-knowledge-library]: Remove: archive file [/home/abi/fetcher/tmp/personal_knowledge_library-1.0.4.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - main [MainThread]: End processing [personal-knowledge-library]: success
+[2023-06-26 09:17:05] INFO root fetch - processPackages [devCellPy]: Remove: archive file [/home/abi/fetcher/tmp/devCellPy-1.2.0.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - processPackages [devCellPy]: Remove: archive file [/home/abi/fetcher/tmp/devCellPy-1.3.0.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - main [MainThread]: End processing [devCellPy]: success
+[2023-06-26 09:17:05] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.2.1.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.2.2.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - main [MainThread]: End processing [geovisio_cli]: success
+[2023-06-26 09:17:05] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.18.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.19.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - main [MainThread]: End processing [SpaGoG]: success
+[2023-06-26 09:17:05] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.46.0.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.47.0.tar.gz]
+[2023-06-26 09:17:05] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-26 09:17:06] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.1.1.tar.gz]
+[2023-06-26 09:17:06] INFO root fetch - processPackages [fastapi-standalone-docs]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_standalone_docs-0.1.2.tar.gz]
+[2023-06-26 09:17:06] INFO root fetch - main [MainThread]: End processing [fastapi-standalone-docs]: success
+[2023-06-26 09:17:07] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.5.1.tar.gz]
+[2023-06-26 09:17:07] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.5.2.tar.gz]
+[2023-06-26 09:17:07] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
+[2023-06-26 09:18:34] INFO root fetch - processPackages [jijbench]: Remove: archive file [/home/abi/fetcher/tmp/jijbench-0.5.6.tar.gz]
+[2023-06-26 09:18:34] INFO root fetch - processPackages [jijbench]: Remove: archive file [/home/abi/fetcher/tmp/jijbench-0.5.7.tar.gz]
+[2023-06-26 09:18:34] INFO root fetch - main [MainThread]: End processing [jijbench]: success
+[2023-06-26 09:18:34] INFO root fetch - main [MainThread]: Store serial: [18643466]
