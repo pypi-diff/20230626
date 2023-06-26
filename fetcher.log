@@ -4887,3 +4887,69 @@
 [2023-06-26 03:33:54] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-26 03:33:54] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-26 03:33:54] INFO root fetch - main [MainThread]: Store serial: [18641213]
+[2023-06-26 03:38:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641213]
+[2023-06-26 03:39:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 03:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2023-06-26 03:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-subminute
+[2023-06-26 03:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-user
+[2023-06-26 03:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-06-26 03:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HawaData
+[2023-06-26 03:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-numpy
+[2023-06-26 03:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlite-utils
+[2023-06-26 03:39:03] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-26 03:39:03] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-26 03:39:03] INFO root fetch - processPackages [yplib]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-26 03:39:03] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 03:39:03] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 03:39:03] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-06-26 03:39:03] INFO root fetch - processPackages [sqlite-utils]: New version: [3.9.1] Old Version: [3.9]
+[2023-06-26 03:39:03] INFO root fetch - processPackages [HawaData]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-26 03:39:03] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/5a/b0/cab021592254928f5b7e9f73bb2318663c36e90e3f100ca604517b7a5db5/yplib-1.8.1.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-26 03:39:04] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230626/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:39:04] INFO root fetch - processPackages [sqlite-utils]: Downloading https://files.pythonhosted.org/packages/86/4f/17aaa5880391e1a982119013e590ae246d709d7bf797127ab7dedfacb10a/sqlite-utils-3.9.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/8a/88/1cf8aa626eddab66702e70e24e7eac86f3bdfdfb8b23caa8920789f0c3c3/HawaData-0.7.3.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-26 03:39:04] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230626/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-26 03:39:04] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-26 03:39:04] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230626/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:39:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/a3/09/48baad66c8f174902583166c0a960076234f3d607dbb2129e0475925787f/yplib-1.8.2.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-26 03:39:04] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.8.1.tar.gz tmp/yplib-1.8.2.tar.gz --markdown 20230626/y/yplib/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-26 03:39:04] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-26 03:39:04] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230626/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:39:04] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/a2/b1/88bbbf435609342551758c34ec8411b946181676cdc54db0e8d661c56902/HawaData-0.7.4.tar.gz
+[2023-06-26 03:39:04] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-26 03:39:04] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.7.3.tar.gz tmp/HawaData-0.7.4.tar.gz --markdown 20230626/H/HawaData/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-26 03:39:04] INFO root fetch - processPackages [sqlite-utils]: Downloading https://files.pythonhosted.org/packages/9c/c9/3b3d73898243153dd80aa56c1bf80f5dd700ae65d12c29324ac9db833e03/sqlite-utils-3.9.1.tar.gz
+[2023-06-26 03:39:05] INFO root fetch - processPackages [sqlite-utils]: executing diffoscope
+[2023-06-26 03:39:05] INFO root fetch - processPackages [sqlite-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite-utils-3.9.tar.gz tmp/sqlite-utils-3.9.1.tar.gz --markdown 20230626/s/sqlite-utils/3.9-3.9.1/diff.md --exclude *.pyd
+[2023-06-26 03:39:05] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-26 03:39:05] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-26 03:39:05] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-26 03:39:05] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-26 03:39:05] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-26 03:39:05] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-26 03:39:06] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.1.tar.gz]
+[2023-06-26 03:39:06] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.2.tar.gz]
+[2023-06-26 03:39:06] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-26 03:39:06] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-26 03:39:06] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-26 03:39:06] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-26 03:39:06] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-06-26 03:39:06] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-06-26 03:39:06] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-26 03:39:06] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.3.tar.gz]
+[2023-06-26 03:39:06] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.4.tar.gz]
+[2023-06-26 03:39:06] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-26 03:39:08] INFO root fetch - processPackages [sqlite-utils]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-utils-3.9.tar.gz]
+[2023-06-26 03:39:08] INFO root fetch - processPackages [sqlite-utils]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-utils-3.9.1.tar.gz]
+[2023-06-26 03:39:08] INFO root fetch - main [MainThread]: End processing [sqlite-utils]: success
+[2023-06-26 03:39:08] INFO root fetch - main [MainThread]: Store serial: [18641239]
