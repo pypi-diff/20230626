@@ -19118,3 +19118,176 @@ EOFError: EOF read where object expected
 [2023-06-26 15:29:59] INFO root fetch - processPackages [intel-sgx-ra]: Remove: archive file [/home/abi/fetcher/tmp/intel_sgx_ra-2.0a9-cp38-cp38-manylinux_2_34_x86_64.whl.zip]
 [2023-06-26 15:29:59] INFO root fetch - main [MainThread]: End processing [intel-sgx-ra]: success
 [2023-06-26 15:29:59] INFO root fetch - main [MainThread]: Store serial: [18647399]
+[2023-06-26 15:35:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18647399]
+[2023-06-26 15:35:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: berryworld
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wafermap-clustering
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adbc-driver-flightsql
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyko-sdk
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucleus-driver
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-intel
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydantic-settings-create
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adbc-driver-manager
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tendril-interests
+[2023-06-26 15:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lemon-ai
+[2023-06-26 15:35:18] INFO root fetch - processPackages [berryworld]: New version: [1.0.0.99947] Old Version: [1.0.0.98128]
+[2023-06-26 15:35:18] INFO root fetch - processPackages [lemon-ai]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-26 15:35:18] INFO root fetch - processPackages [nucleus-driver]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-26 15:35:18] INFO root fetch - processPackages [lemon-ai]: Downloading https://files.pythonhosted.org/packages/aa/54/c3e091f61bb62e952df4094ce6ec7d176a2c1eea373850c12bd8e0f0fb8d/lemon-ai-0.1.0.tar.gz
+[2023-06-26 15:35:18] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/84/a3/4b7b29c0f397c537cd42400bc43a3186746a00b238c0f8ce44ddf36d85ca/nucleus_driver-1.5.2.tar.gz
+[2023-06-26 15:35:18] INFO root fetch - processPackages [adbc-driver-flightsql]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 15:35:18] INFO root fetch - processPackages [adbc-driver-manager]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 15:35:18] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 15:35:18] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-26 15:35:18] INFO root fetch - processPackages [tendril-interests]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 15:35:18] WARNING root fetch - processPackages [pydantic-settings-create]: Skipping, unable to determine old version
+[2023-06-26 15:35:18] INFO root fetch - processPackages [pydantic-settings-create]: Start processing: dgl_client
+[2023-06-26 15:35:18] INFO root fetch - main [MainThread]: End processing [pydantic-settings-create] error
+[2023-06-26 15:35:18] INFO root fetch - processPackages [dgl_client]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-26 15:35:18] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/e3/b2/e55890bb3cd86b626b9431be7088976207c2c6ff2156111af7683a4d1d19/berryworld-1.0.0.98128-py3-none-any.whl
+[2023-06-26 15:35:18] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230626] Old Version: [2.14.0.dev20230625]
+[2023-06-26 15:35:19] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/11/8b/ec2758dd0195e3891486ee93196809c143740d508c03533f5bf1f4e1d286/dgl_client-0.4.4.tar.gz
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-flightsql]: Downloading https://files.pythonhosted.org/packages/9d/5e/213845f37ddd72ad3049e2d8de3473502224a6e3ea3f554ca77a04062760/adbc_driver_flightsql-0.5.0-py3-none-win_amd64.whl
+[2023-06-26 15:35:19] INFO root fetch - processPackages [lemon-ai]: Downloading https://files.pythonhosted.org/packages/60/e1/7dc1f9273c70b5230abff68098d9e8ba9c16138d56791868f783fcc78884/lemon-ai-0.1.2.tar.gz
+[2023-06-26 15:35:19] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/e9/df/0988efc951570eae05757a016d4c60fa83c9a24fc41f2e1433cc3168705c/nucleus_driver-1.5.3.tar.gz
+[2023-06-26 15:35:19] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-06-26 15:35:19] INFO root fetch - processPackages [lemon-ai]: executing diffoscope
+[2023-06-26 15:35:19] INFO root fetch - processPackages [lemon-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemon-ai-0.1.0.tar.gz tmp/lemon-ai-0.1.2.tar.gz --markdown 20230626/l/lemon-ai/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 15:35:19] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/77/1e/a021342c92f65dea19b6f329d032920affe7e78f39455999d8b807911812/tf_nightly_intel-2.14.0.dev20230625-cp39-cp39-win_amd64.whl
+[2023-06-26 15:35:19] INFO root fetch - processPackages [nucleus-driver]: executing diffoscope
+[2023-06-26 15:35:19] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/69/3f/ab09f737843e9f73a7c01c1b80e52ec7171907753bb72d849b79b9a9d0f2/tendril-interests-0.2.8.tar.gz
+[2023-06-26 15:35:19] INFO root fetch - processPackages [nucleus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucleus_driver-1.5.2.tar.gz tmp/nucleus_driver-1.5.3.tar.gz --markdown 20230626/n/nucleus-driver/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-26 15:35:19] INFO root fetch - processPackages [dgl_client]: Downloading https://files.pythonhosted.org/packages/9c/b0/5ece092b7dd586fac99702c1a6c008c416b5574b52b50c66f05143738fcb/dgl_client-0.4.5.tar.gz
+[2023-06-26 15:35:19] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 184183700>=10485760
+[2023-06-26 15:35:19] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: adbc-driver-postgresql
+[2023-06-26 15:35:19] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-06-26 15:35:19] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/76/7a/85e422f997ed11ae867d7de50d34dc4f96e9070f2fb630606a5c033fb214/berryworld-1.0.0.99947-py3-none-any.whl
+[2023-06-26 15:35:19] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/4e/4b/f3d9a942b7af5878145f35873d9a070254e3cba7bbdcde873afef9821534/wafermap-clustering-0.2.4.tar.gz
+[2023-06-26 15:35:19] INFO root fetch - processPackages [dgl_client]: executing diffoscope
+[2023-06-26 15:35:19] INFO root fetch - processPackages [dgl_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgl_client-0.4.4.tar.gz tmp/dgl_client-0.4.5.tar.gz --markdown 20230626/d/dgl_client/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-postgresql]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-flightsql]: Downloading https://files.pythonhosted.org/packages/bc/47/f793caa3d1250efcfab7e53af8ca7aff715c05b4fb28a4f11fa28ed56d65/adbc_driver_flightsql-0.5.1-py3-none-win_amd64.whl
+[2023-06-26 15:35:19] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-manager]: Downloading https://files.pythonhosted.org/packages/ce/27/83f5ac257f27627a267447d02c3847485c36b4db9ce584029bca13fee2d1/adbc_driver_manager-0.5.0-cp39-cp39-win_amd64.whl
+[2023-06-26 15:35:19] INFO root fetch - processPackages [berryworld]: executing diffoscope
+[2023-06-26 15:35:19] INFO root fetch - processPackages [berryworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip --markdown 20230626/b/berryworld/1.0.0.98128-1.0.0.99947/diff.md --exclude *.pyd
+[2023-06-26 15:35:19] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-26 15:35:19] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230626/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 15:35:19] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/ae/07/10d6d26d16c0d48c4bf6206f0f5b2a2d98e9d52740f65206d9960de615f4/wafermap-clustering-0.2.5.tar.gz
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-flightsql]: executing diffoscope
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-flightsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_flightsql-0.5.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_flightsql-0.5.1-py3-none-win_amd64.whl.zip --markdown 20230626/a/adbc-driver-flightsql/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-postgresql]: Downloading https://files.pythonhosted.org/packages/10/95/acc62f87610b91898fcb7e23ac5dcc8f7a6e71dd7a6f1b8570fc268b85b6/adbc_driver_postgresql-0.5.0-py3-none-win_amd64.whl
+[2023-06-26 15:35:19] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/b1/cf/a585e684d2253d773a1451924c5aa64bec8a95b0d20d8ae1ec6d84633cd2/tendril-interests-0.2.9.tar.gz
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-manager]: Downloading https://files.pythonhosted.org/packages/8a/1e/c259d39ed2863c61388b0cd46072533d0738cf6bdca5b95493f098d27ef8/adbc_driver_manager-0.5.1-cp39-cp39-win_amd64.whl
+[2023-06-26 15:35:19] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-06-26 15:35:19] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.2.4.tar.gz tmp/wafermap-clustering-0.2.5.tar.gz --markdown 20230626/w/wafermap-clustering/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-26 15:35:19] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2023-06-26 15:35:19] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.2.8.tar.gz tmp/tendril-interests-0.2.9.tar.gz --markdown 20230626/t/tendril-interests/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-manager]: executing diffoscope
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_manager-0.5.0-cp39-cp39-win_amd64.whl.zip tmp/adbc_driver_manager-0.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20230626/a/adbc-driver-manager/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 15:35:19] INFO root fetch - processPackages [adbc-driver-postgresql]: Downloading https://files.pythonhosted.org/packages/64/07/878672959bb425cddfc4b3b3088e0f08b48432e57e77a2af4fc5029ba94a/adbc_driver_postgresql-0.5.1-py3-none-win_amd64.whl
+[2023-06-26 15:35:20] INFO root fetch - processPackages [adbc-driver-postgresql]: executing diffoscope
+[2023-06-26 15:35:20] INFO root fetch - processPackages [adbc-driver-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_postgresql-0.5.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_postgresql-0.5.1-py3-none-win_amd64.whl.zip --markdown 20230626/a/adbc-driver-postgresql/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 15:35:21] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [hyko-sdk]: Start processing: adbc-driver-snowflake
+[2023-06-26 15:35:21] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-26 15:35:21] INFO root fetch - processPackages [adbc-driver-snowflake]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [lemon-ai]: Remove: archive file [/home/abi/fetcher/tmp/lemon-ai-0.1.0.tar.gz]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [lemon-ai]: Remove: archive file [/home/abi/fetcher/tmp/lemon-ai-0.1.2.tar.gz]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [lemon-ai]: Start processing: th2-grpc-common
+[2023-06-26 15:35:21] INFO root fetch - main [MainThread]: End processing [lemon-ai]: success
+[2023-06-26 15:35:21] INFO root fetch - processPackages [th2-grpc-common]: New version: [4.3.0.dev5374522280] Old Version: [4.3.0.dev5346797023]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [dgl_client]: Remove: archive file [/home/abi/fetcher/tmp/dgl_client-0.4.4.tar.gz]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [dgl_client]: Remove: archive file [/home/abi/fetcher/tmp/dgl_client-0.4.5.tar.gz]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [dgl_client]: Start processing: craft-parts
+[2023-06-26 15:35:21] INFO root fetch - main [MainThread]: End processing [dgl_client]: success
+[2023-06-26 15:35:21] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/45/46/d51ab7c52d9ebde0e4113a2538884f19aa53b65e6064a3ddac41f3f15295/th2_grpc_common-4.3.0.dev5346797023.tar.gz
+[2023-06-26 15:35:21] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [berryworld]: Start processing: adbc-driver-sqlite
+[2023-06-26 15:35:21] INFO root fetch - main [MainThread]: End processing [berryworld]: success
+[2023-06-26 15:35:21] INFO root fetch - processPackages [adbc-driver-snowflake]: Downloading https://files.pythonhosted.org/packages/d0/ea/cca3114454833dec545efa8e7fda10b4c435d3695505e7ac7506b6a6cbe6/adbc_driver_snowflake-0.5.0-py3-none-win_amd64.whl
+[2023-06-26 15:35:21] INFO root fetch - processPackages [craft-parts]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [adbc-driver-sqlite]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.4.tar.gz]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.2.5.tar.gz]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [wafermap-clustering]: Start processing: hyko-sdk
+[2023-06-26 15:35:21] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-06-26 15:35:21] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/68/1d/2c7ad500974ad3c66ff11c147d61349bdd6ad074a18e414c95679f99a659/th2_grpc_common-4.3.0.dev5374522280.tar.gz
+[2023-06-26 15:35:21] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 15:35:21] INFO root fetch - processPackages [th2-grpc-common]: executing diffoscope
+[2023-06-26 15:35:21] INFO root fetch - processPackages [th2-grpc-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_common-4.3.0.dev5346797023.tar.gz tmp/th2_grpc_common-4.3.0.dev5374522280.tar.gz --markdown 20230626/t/th2-grpc-common/4.3.0.dev5346797023-4.3.0.dev5374522280/diff.md --exclude *.pyd
+[2023-06-26 15:35:21] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/f8/1b/02137db3d93571c0867cacae818eb8136e59f81d7b8eeee650eb74521728/hyko_sdk-0.1.8.tar.gz
+[2023-06-26 15:35:21] INFO root fetch - processPackages [craft-parts]: Downloading https://files.pythonhosted.org/packages/a9/30/acf8d141cef6861894bdfdbfda10ea7293e1b2a90ee87f01f1ea8e8de4ff/craft-parts-1.8.1.tar.gz
+[2023-06-26 15:35:21] INFO root fetch - processPackages [adbc-driver-sqlite]: Downloading https://files.pythonhosted.org/packages/8a/7d/aa7f8c10584d51887f88273c1db68af1f3489eb246cbe048ae08d049c492/adbc_driver_sqlite-0.5.0-py3-none-win_amd64.whl
+[2023-06-26 15:35:21] INFO root fetch - processPackages [adbc-driver-snowflake]: Downloading https://files.pythonhosted.org/packages/40/af/316e6770d245169bdc9d7b729864f51b0108aa866b156927b1cfc8bff4bb/adbc_driver_snowflake-0.5.1-py3-none-win_amd64.whl
+[2023-06-26 15:35:21] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/18/dd/0fc13fe8ada91f69ab17997d640fbdeff420217e7e2dc38f5e85178a4187/hyko_sdk-0.1.9.tar.gz
+[2023-06-26 15:35:21] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-26 15:35:21] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.8.tar.gz tmp/hyko_sdk-0.1.9.tar.gz --markdown 20230626/h/hyko-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 15:35:22] INFO root fetch - processPackages [craft-parts]: Downloading https://files.pythonhosted.org/packages/b3/85/446d9b8eb87bca455449628cf0d7e85338a6d6b4de255aeacd095d7565b2/craft-parts-1.9.0.tar.gz
+[2023-06-26 15:35:22] INFO root fetch - processPackages [adbc-driver-snowflake]: executing diffoscope
+[2023-06-26 15:35:22] INFO root fetch - processPackages [adbc-driver-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_snowflake-0.5.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_snowflake-0.5.1-py3-none-win_amd64.whl.zip --markdown 20230626/a/adbc-driver-snowflake/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 15:35:22] INFO root fetch - processPackages [adbc-driver-sqlite]: Downloading https://files.pythonhosted.org/packages/8d/1c/1c1b4b3a6cfd1ab7f07e8149d1af97599d45f3c1b320a12617f162d0a9e7/adbc_driver_sqlite-0.5.1-py3-none-win_amd64.whl
+[2023-06-26 15:35:22] INFO root fetch - processPackages [craft-parts]: executing diffoscope
+[2023-06-26 15:35:22] INFO root fetch - processPackages [craft-parts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft-parts-1.8.1.tar.gz tmp/craft-parts-1.9.0.tar.gz --markdown 20230626/c/craft-parts/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 15:35:22] INFO root fetch - processPackages [adbc-driver-sqlite]: executing diffoscope
+[2023-06-26 15:35:22] INFO root fetch - processPackages [adbc-driver-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbc_driver_sqlite-0.5.0-py3-none-win_amd64.whl.zip tmp/adbc_driver_sqlite-0.5.1-py3-none-win_amd64.whl.zip --markdown 20230626/a/adbc-driver-sqlite/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 15:35:22] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.2.tar.gz]
+[2023-06-26 15:35:22] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.3.tar.gz]
+[2023-06-26 15:35:22] INFO root fetch - processPackages [nucleus-driver]: Start processing: mkdocs-dsfr
+[2023-06-26 15:35:22] INFO root fetch - main [MainThread]: End processing [nucleus-driver]: success
+[2023-06-26 15:35:22] INFO root fetch - processPackages [mkdocs-dsfr]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-26 15:35:22] INFO root fetch - processPackages [mkdocs-dsfr]: Downloading https://files.pythonhosted.org/packages/1b/41/0dfc16e78c013a23246a320ad7015866dbb3a3dd3014f2e34bb6c2a2be3d/mkdocs_dsfr-0.0.4.tar.gz
+[2023-06-26 15:35:22] INFO root fetch - processPackages [mkdocs-dsfr]: Downloading https://files.pythonhosted.org/packages/6b/d6/eb7e4a3c980f8f89045257ce5437c5282e32f753a22ca3b5ff94a82cf285/mkdocs_dsfr-0.1.0.tar.gz
+[2023-06-26 15:35:22] INFO root fetch - processPackages [mkdocs-dsfr]: executing diffoscope
+[2023-06-26 15:35:22] INFO root fetch - processPackages [mkdocs-dsfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_dsfr-0.0.4.tar.gz tmp/mkdocs_dsfr-0.1.0.tar.gz --markdown 20230626/m/mkdocs-dsfr/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-26 15:35:23] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.3.0.dev5346797023.tar.gz]
+[2023-06-26 15:35:23] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.3.0.dev5374522280.tar.gz]
+[2023-06-26 15:35:23] INFO root fetch - processPackages [th2-grpc-common]: Start processing: testflows.asserts
+[2023-06-26 15:35:23] INFO root fetch - main [MainThread]: End processing [th2-grpc-common]: success
+[2023-06-26 15:35:23] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.2.8.tar.gz]
+[2023-06-26 15:35:23] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.2.9.tar.gz]
+[2023-06-26 15:35:23] INFO root fetch - processPackages [tendril-interests]: Start processing: mltlk
+[2023-06-26 15:35:23] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2023-06-26 15:35:23] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 15:35:23] INFO root fetch - processPackages [testflows.asserts]: New version: [6.5.230626.1133416] Old Version: [6.5.230616.1120952]
+[2023-06-26 15:35:23] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-26 15:35:23] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.8.tar.gz]
+[2023-06-26 15:35:23] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.9.tar.gz]
+[2023-06-26 15:35:23] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-26 15:35:23] INFO root fetch - processPackages [testflows.asserts]: Downloading https://files.pythonhosted.org/packages/dd/56/8890732cd79e66b5bd25ffb423c783fa6c793090f293517f554fc4285ffa/testflows.asserts-6.5.230616.1120952.tar.gz
+[2023-06-26 15:35:23] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-26 15:35:23] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-26 15:35:23] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230626/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 15:35:23] INFO root fetch - processPackages [testflows.asserts]: Downloading https://files.pythonhosted.org/packages/63/76/56560bfff564c339fe3637db62080e6ff816f648942e8520aa9271d3b908/testflows.asserts-6.5.230626.1133416.tar.gz
+[2023-06-26 15:35:23] INFO root fetch - processPackages [testflows.asserts]: executing diffoscope
+[2023-06-26 15:35:23] INFO root fetch - processPackages [testflows.asserts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.asserts-6.5.230616.1120952.tar.gz tmp/testflows.asserts-6.5.230626.1133416.tar.gz --markdown 20230626/t/testflows.asserts/6.5.230616.1120952-6.5.230626.1133416/diff.md --exclude *.pyd
+[2023-06-26 15:35:24] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-26 15:35:24] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-26 15:35:24] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-26 15:35:24] INFO root fetch - processPackages [testflows.asserts]: Remove: archive file [/home/abi/fetcher/tmp/testflows.asserts-6.5.230616.1120952.tar.gz]
+[2023-06-26 15:35:24] INFO root fetch - processPackages [testflows.asserts]: Remove: archive file [/home/abi/fetcher/tmp/testflows.asserts-6.5.230626.1133416.tar.gz]
+[2023-06-26 15:35:24] INFO root fetch - main [MainThread]: End processing [testflows.asserts]: success
+[2023-06-26 15:35:25] INFO root fetch - processPackages [adbc-driver-manager]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_manager-0.5.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 15:35:25] INFO root fetch - processPackages [adbc-driver-manager]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_manager-0.5.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 15:35:25] INFO root fetch - main [MainThread]: End processing [adbc-driver-manager]: success
+[2023-06-26 15:35:25] INFO root fetch - processPackages [craft-parts]: Remove: archive file [/home/abi/fetcher/tmp/craft-parts-1.8.1.tar.gz]
+[2023-06-26 15:35:25] INFO root fetch - processPackages [craft-parts]: Remove: archive file [/home/abi/fetcher/tmp/craft-parts-1.9.0.tar.gz]
+[2023-06-26 15:35:25] INFO root fetch - main [MainThread]: End processing [craft-parts]: success
+[2023-06-26 15:35:30] INFO root fetch - processPackages [adbc-driver-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_sqlite-0.5.0-py3-none-win_amd64.whl.zip]
+[2023-06-26 15:35:30] INFO root fetch - processPackages [adbc-driver-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_sqlite-0.5.1-py3-none-win_amd64.whl.zip]
+[2023-06-26 15:35:30] INFO root fetch - main [MainThread]: End processing [adbc-driver-sqlite]: success
+[2023-06-26 15:35:33] INFO root fetch - processPackages [mkdocs-dsfr]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_dsfr-0.0.4.tar.gz]
+[2023-06-26 15:35:33] INFO root fetch - processPackages [mkdocs-dsfr]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_dsfr-0.1.0.tar.gz]
+[2023-06-26 15:35:33] INFO root fetch - main [MainThread]: End processing [mkdocs-dsfr]: success
+[2023-06-26 15:35:42] INFO root fetch - processPackages [adbc-driver-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_postgresql-0.5.0-py3-none-win_amd64.whl.zip]
+[2023-06-26 15:35:42] INFO root fetch - processPackages [adbc-driver-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_postgresql-0.5.1-py3-none-win_amd64.whl.zip]
+[2023-06-26 15:35:42] INFO root fetch - main [MainThread]: End processing [adbc-driver-postgresql]: success
+[2023-06-26 15:36:23] INFO root fetch - processPackages [adbc-driver-flightsql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_flightsql-0.5.0-py3-none-win_amd64.whl.zip]
+[2023-06-26 15:36:23] INFO root fetch - processPackages [adbc-driver-flightsql]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_flightsql-0.5.1-py3-none-win_amd64.whl.zip]
+[2023-06-26 15:36:23] INFO root fetch - main [MainThread]: End processing [adbc-driver-flightsql]: success
+[2023-06-26 15:36:34] INFO root fetch - processPackages [adbc-driver-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_snowflake-0.5.0-py3-none-win_amd64.whl.zip]
+[2023-06-26 15:36:34] INFO root fetch - processPackages [adbc-driver-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/adbc_driver_snowflake-0.5.1-py3-none-win_amd64.whl.zip]
+[2023-06-26 15:36:34] INFO root fetch - main [MainThread]: End processing [adbc-driver-snowflake]: success
+[2023-06-26 15:36:34] INFO root fetch - main [MainThread]: Store serial: [18647499]
