@@ -10243,3 +10243,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 09:18:34] INFO root fetch - processPackages [jijbench]: Remove: archive file [/home/abi/fetcher/tmp/jijbench-0.5.7.tar.gz]
 [2023-06-26 09:18:34] INFO root fetch - main [MainThread]: End processing [jijbench]: success
 [2023-06-26 09:18:34] INFO root fetch - main [MainThread]: Store serial: [18643466]
+[2023-06-26 09:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643466]
+[2023-06-26 09:23:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfq-nightly
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csv2sqltable
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csv2sqltable
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaohn-common-utils
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: upathlib
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axaiogram
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: axsqlalchemy
+[2023-06-26 09:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qinglan-bot
+[2023-06-26 09:23:43] INFO root fetch - processPackages [csv2sqltable]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 09:23:43] INFO root fetch - processPackages [qinglan-bot]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-26 09:23:43] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-06-26 09:23:43] INFO root fetch - processPackages [csv2sqltable]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 09:23:43] INFO root fetch - processPackages [axaiogram]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-06-26 09:23:43] INFO root fetch - processPackages [axsqlalchemy]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-26 09:23:43] INFO root fetch - processPackages [upathlib]: New version: [0.8.2b1] Old Version: [0.8.1]
+[2023-06-26 09:23:43] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-26 09:23:43] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/ad/42/11e95b302456cb5401129feba1252e53e059e82278dd6f4b59a890f10efc/qinglan-bot-0.1.3.tar.gz
+[2023-06-26 09:23:43] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230626] Old Version: [0.7.3.dev20230625]
+[2023-06-26 09:23:44] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-26 09:23:44] INFO root fetch - processPackages [csv2sqltable]: Downloading https://files.pythonhosted.org/packages/82/52/6ad422a845eb6721102768b3772d08c6bb353c0f7c7ccfa6d13416a7233f/csv2sqltable-0.0.3.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [csv2sqltable]: Downloading https://files.pythonhosted.org/packages/82/52/6ad422a845eb6721102768b3772d08c6bb353c0f7c7ccfa6d13416a7233f/csv2sqltable-0.0.3.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/10/fd/df310e85e44e1dc2ffdf646615277493381a0cab4040324d49fa801c83f2/axaiogram-0.0.1.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [axsqlalchemy]: Downloading https://files.pythonhosted.org/packages/c4/78/62a21690d6424385d4a49668a1ffba1247299da1fc711c659af494ebf90e/axsqlalchemy-0.0.1.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/ce/f5/d839a8d7e74b20e496f9960300aa458739e8e14e872da87e1ad93ce0e80a/upathlib-0.8.1.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/86/8e/fa812c30b2e0902d749490bd490905d4a0626af07546916f5d9ec01bbc41/gaohn-common-utils-0.0.80.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/67/9f/c9c117e297d93cb945db8636e23c0fe2d9dd8d80e889924956a638bd8f43/tfq_nightly-0.7.3.dev20230625-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 09:23:44] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822715>=10485760
+[2023-06-26 09:23:44] INFO root fetch - processPackages [tfq-nightly]: Start processing: fastapi-sql-profiler
+[2023-06-26 09:23:44] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-26 09:23:44] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [fastapi-sql-profiler]: New version: [5.0.0] Old Version: [4.0.0]
+[2023-06-26 09:23:44] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/d1/ac/f2e6f1e2c68a27a20f43dfba711e35054d59d44d509c0abf50b7f4608c95/qinglan-bot-0.1.4.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [axsqlalchemy]: Downloading https://files.pythonhosted.org/packages/d3/26/302905bf3e21e88b0d9e13778009654877b0a92d0408a65c0516181d1604/axsqlalchemy-0.0.3.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/f5/f7/0310f5d42f27dd05358e76f50bd5bab774922e31258259adeec35ff0ccc0/gaohn-common-utils-0.0.81.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [fastapi-sql-profiler]: Downloading https://files.pythonhosted.org/packages/a4/5c/6ea793a91626cce04ac886db1dc66a4d113478ea25b471f2d0583aca0b7f/fastapi-sql-profiler-4.0.0.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [csv2sqltable]: Downloading https://files.pythonhosted.org/packages/e7/d2/89c3942f5f929f2f13b55da12866bb65917335466fa1df5a8d6850c7d813/csv2sqltable-0.0.4.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [qinglan-bot]: executing diffoscope
+[2023-06-26 09:23:44] INFO root fetch - processPackages [upathlib]: Downloading https://files.pythonhosted.org/packages/b9/f8/ad447e3e248bae4cdfb3377ac32bb53665a567f0326bcb683e53820443b7/upathlib-0.8.2b1.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [qinglan-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qinglan-bot-0.1.3.tar.gz tmp/qinglan-bot-0.1.4.tar.gz --markdown 20230626/q/qinglan-bot/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-26 09:23:44] INFO root fetch - processPackages [csv2sqltable]: Downloading https://files.pythonhosted.org/packages/e7/d2/89c3942f5f929f2f13b55da12866bb65917335466fa1df5a8d6850c7d813/csv2sqltable-0.0.4.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [axaiogram]: Downloading https://files.pythonhosted.org/packages/79/12/8e35a8055eabb8ce1fc0ae71b35a4a9c861f0be9a1bde75cbdd70c7928ee/axaiogram-0.0.4.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-26 09:23:44] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.80.tar.gz tmp/gaohn-common-utils-0.0.81.tar.gz --markdown 20230626/g/gaohn-common-utils/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-06-26 09:23:44] INFO root fetch - processPackages [upathlib]: executing diffoscope
+[2023-06-26 09:23:44] INFO root fetch - processPackages [upathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upathlib-0.8.1.tar.gz tmp/upathlib-0.8.2b1.tar.gz --markdown 20230626/u/upathlib/0.8.1-0.8.2b1/diff.md --exclude *.pyd
+[2023-06-26 09:23:44] INFO root fetch - processPackages [axsqlalchemy]: executing diffoscope
+[2023-06-26 09:23:44] INFO root fetch - processPackages [axsqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axsqlalchemy-0.0.1.tar.gz tmp/axsqlalchemy-0.0.3.tar.gz --markdown 20230626/a/axsqlalchemy/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 09:23:44] INFO root fetch - processPackages [axaiogram]: executing diffoscope
+[2023-06-26 09:23:44] INFO root fetch - processPackages [axaiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axaiogram-0.0.1.tar.gz tmp/axaiogram-0.0.4.tar.gz --markdown 20230626/a/axaiogram/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 09:23:44] INFO root fetch - processPackages [csv2sqltable]: executing diffoscope
+[2023-06-26 09:23:44] INFO root fetch - processPackages [csv2sqltable]: executing diffoscope
+[2023-06-26 09:23:44] INFO root fetch - processPackages [csv2sqltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv2sqltable-0.0.3.tar.gz tmp/csv2sqltable-0.0.4.tar.gz --markdown 20230626/c/csv2sqltable/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 09:23:44] INFO root fetch - processPackages [csv2sqltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv2sqltable-0.0.3.tar.gz tmp/csv2sqltable-0.0.4.tar.gz --markdown 20230626/c/csv2sqltable/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 09:23:44] INFO root fetch - processPackages [fastapi-sql-profiler]: Downloading https://files.pythonhosted.org/packages/10/29/ef2b4f063d76b04805c811d75ca4863a8260b456cc499449cfcb1fede5da/fastapi-sql-profiler-5.0.0.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-26 09:23:44] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-26 09:23:44] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230626/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 09:23:44] INFO root fetch - processPackages [fastapi-sql-profiler]: executing diffoscope
+[2023-06-26 09:23:44] INFO root fetch - processPackages [fastapi-sql-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-sql-profiler-4.0.0.tar.gz tmp/fastapi-sql-profiler-5.0.0.tar.gz --markdown 20230626/f/fastapi-sql-profiler/4.0.0-5.0.0/diff.md --exclude *.pyd
+[2023-06-26 09:23:45] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-26 09:23:45] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230626/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-26 09:23:46] INFO root fetch - processPackages [axsqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/axsqlalchemy-0.0.1.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - processPackages [axsqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/axsqlalchemy-0.0.3.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - processPackages [axsqlalchemy]: Start processing: csv2sqltable
+[2023-06-26 09:23:46] INFO root fetch - main [MainThread]: End processing [axsqlalchemy]: success
+[2023-06-26 09:23:46] INFO root fetch - processPackages [csv2sqltable]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 09:23:46] INFO root fetch - processPackages [qinglan-bot]: Remove: archive file [/home/abi/fetcher/tmp/qinglan-bot-0.1.3.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - processPackages [qinglan-bot]: Remove: archive file [/home/abi/fetcher/tmp/qinglan-bot-0.1.4.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - main [MainThread]: End processing [qinglan-bot]: success
+[2023-06-26 09:23:46] INFO root fetch - processPackages [csv2sqltable]: executing diffoscope
+[2023-06-26 09:23:46] INFO root fetch - processPackages [csv2sqltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv2sqltable-0.0.3.tar.gz tmp/csv2sqltable-0.0.4.tar.gz --markdown 20230626/c/csv2sqltable/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 09:23:46] INFO root fetch - processPackages [csv2sqltable]: Remove: archive file [/home/abi/fetcher/tmp/csv2sqltable-0.0.3.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - processPackages [csv2sqltable]: Remove: archive file [/home/abi/fetcher/tmp/csv2sqltable-0.0.4.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - main [MainThread]: End processing [csv2sqltable]: success
+[2023-06-26 09:23:46] INFO root fetch - main [MainThread]: End processing [csv2sqltable]: success
+[2023-06-26 09:23:46] INFO root fetch - processPackages [fastapi-sql-profiler]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sql-profiler-4.0.0.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - processPackages [fastapi-sql-profiler]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sql-profiler-5.0.0.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - main [MainThread]: End processing [fastapi-sql-profiler]: success
+[2023-06-26 09:23:46] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.1.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - processPackages [axaiogram]: Remove: archive file [/home/abi/fetcher/tmp/axaiogram-0.0.4.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - main [MainThread]: End processing [axaiogram]: success
+[2023-06-26 09:23:46] INFO root fetch - processPackages [upathlib]: Remove: archive file [/home/abi/fetcher/tmp/upathlib-0.8.1.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - processPackages [upathlib]: Remove: archive file [/home/abi/fetcher/tmp/upathlib-0.8.2b1.tar.gz]
+[2023-06-26 09:23:46] INFO root fetch - main [MainThread]: End processing [upathlib]: success
+[2023-06-26 09:23:46] ERROR root fetch - processPackages [csv2sqltable]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/csv2sqltable-0.0.3.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/csv2sqltable-0.0.4.tar.gz: No such file or directory
+
+[2023-06-26 09:23:46] INFO root fetch - main [MainThread]: End processing [csv2sqltable] error
+[2023-06-26 09:23:47] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.80.tar.gz]
+[2023-06-26 09:23:47] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.81.tar.gz]
+[2023-06-26 09:23:47] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-26 09:23:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-26 09:23:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-26 09:23:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-26 09:23:57] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-26 09:23:57] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-26 09:23:57] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-26 09:23:57] INFO root fetch - main [MainThread]: Store serial: [18643500]
