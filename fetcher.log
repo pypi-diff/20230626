@@ -18076,3 +18076,182 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 15:02:00] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.5.0rc13-cp311-cp311-win_amd64.whl.zip]
 [2023-06-26 15:02:00] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
 [2023-06-26 15:02:00] INFO root fetch - main [MainThread]: Store serial: [18646926]
+[2023-06-26 15:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18646926]
+[2023-06-26 15:07:11] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voicemeeter-compact
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irene-pro
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robot-rumble
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exact
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: normflows
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adslproxy-enhance
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: waivek
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ninja-invoicing
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-adapter-villa
+[2023-06-26 15:07:11] INFO root fetch - processPackages [waivek]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-26 15:07:11] INFO root fetch - processPackages [exact]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-26 15:07:11] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: New version: [20230626.8.9.100481] Old Version: [20230626.8.40.156829]
+[2023-06-26 15:07:11] INFO root fetch - processPackages [adslproxy-enhance]: New version: [3.7.3] Old Version: [3.7.2]
+[2023-06-26 15:07:11] INFO root fetch - processPackages [voicemeeter-compact]: New version: [1.7.0] Old Version: [1.6.5]
+[2023-06-26 15:07:11] INFO root fetch - processPackages [exact]: Downloading https://files.pythonhosted.org/packages/10/9e/aa548e3be5ad6ac8c538534cca1bdacf0d66bd3fcf24ff288262330dc910/exact-1.1.3-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2023-06-26 15:07:11] INFO root fetch - processPackages [normflows]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-26 15:07:11] INFO root fetch - processPackages [irene-pro]: New version: [0.0.76] Old Version: [0.0.75]
+[2023-06-26 15:07:11] INFO root fetch - processPackages [adslproxy-enhance]: Downloading https://files.pythonhosted.org/packages/1c/90/00caa9750789768bcf56f230eb58ae5c7ad89ba43bbc84a1699302924d6b/adslproxy-enhance-3.7.2.tar.gz
+[2023-06-26 15:07:11] WARNING root fetch - processPackages [ninja-invoicing]: Skipping, unable to determine old version
+[2023-06-26 15:07:11] INFO root fetch - processPackages [ninja-invoicing]: Start processing: bump3version
+[2023-06-26 15:07:11] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Downloading https://files.pythonhosted.org/packages/69/74/60e4a6b0b9e7ea0c82343285032eb4d5b4819df6f202c3c2024dbb543895/certora-cli-alpha-cnandi-morpho-equiv-20230626.8.40.156829.tar.gz
+[2023-06-26 15:07:11] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-26 15:07:11] INFO root fetch - main [MainThread]: End processing [ninja-invoicing] error
+[2023-06-26 15:07:11] INFO root fetch - processPackages [robot-rumble]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-26 15:07:11] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping package: exceeds size limit 40305417>=10485760
+[2023-06-26 15:07:11] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Start processing: segmindapi
+[2023-06-26 15:07:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-26 15:07:12] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/09/4f9477492aa4f113a2fce161f19543ce84b73832e8db5138e3245f104c82/waivek-0.1.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [adslproxy-enhance]: Downloading https://files.pythonhosted.org/packages/ae/ad/92131373cde5ce29b471c5adada2f77afcdde1425db6fe49971c8e827b44/adslproxy-enhance-3.7.3.tar.gz
+[2023-06-26 15:07:12] WARNING root fetch - processPackages [bump3version]: Skipping, unable to determine old version
+[2023-06-26 15:07:12] INFO root fetch - processPackages [bump3version]: Start processing: ledger-bitcoin
+[2023-06-26 15:07:12] INFO root fetch - main [MainThread]: End processing [bump3version] error
+[2023-06-26 15:07:12] WARNING root fetch - processPackages [segmindapi]: Skipping, unable to determine old version
+[2023-06-26 15:07:12] INFO root fetch - processPackages [segmindapi]: Start processing: mech-client
+[2023-06-26 15:07:12] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/c1/92/a5dae265b7811215f6d7fccafe816f24cd3a1c26634594419835a0959cdb/irene_pro-0.0.75.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/3c/da/628f4460dc878cb3bb8e5a5430299944604505ec78dbd8f4b4f8c07c147b/nonebot_adapter_villa-0.2.1.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - main [MainThread]: End processing [segmindapi] error
+[2023-06-26 15:07:12] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/c4/61/4407aaf53160c7934f46de0f0f8eccce332700dc85ed4e39cb3059d12b16/voicemeeter-compact-1.6.5.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [exact]: Downloading https://files.pythonhosted.org/packages/2b/18/65d5e2fa2ecde450c5c654812c89bb7c0c13e38e5cb7dbff70a2fd7e004c/exact-1.1.4-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2023-06-26 15:07:12] INFO root fetch - processPackages [adslproxy-enhance]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [adslproxy-enhance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adslproxy-enhance-3.7.2.tar.gz tmp/adslproxy-enhance-3.7.3.tar.gz --markdown 20230626/a/adslproxy-enhance/3.7.2-3.7.3/diff.md --exclude *.pyd
+[2023-06-26 15:07:12] INFO root fetch - processPackages [normflows]: Downloading https://files.pythonhosted.org/packages/51/1d/2cb54a8402b7ce1418ff284eb633da2a53e256266aba563d875d2a28f77e/normflows-1.7.0.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/e5/8e/eb0750c51058ce471f4a559bcf04d6be3e8a8357f7707f1d4f7e2ab594cd/robot_rumble-0.0.9.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [ledger-bitcoin]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-26 15:07:12] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 22358375>=10485760
+[2023-06-26 15:07:12] INFO root fetch - processPackages [robot-rumble]: Start processing: webargs-sanic
+[2023-06-26 15:07:12] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-06-26 15:07:12] INFO root fetch - processPackages [exact]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exact-1.1.3-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip tmp/exact-1.1.4-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip --markdown 20230626/e/exact/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-26 15:07:12] INFO root fetch - processPackages [webargs-sanic]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-06-26 15:07:12] INFO root fetch - processPackages [mech-client]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-26 15:07:12] INFO root fetch - processPackages [webargs-sanic]: Downloading https://files.pythonhosted.org/packages/4e/24/419ef185f9760c112274527d0076e523aeb40efe11618ecbb6262e7e3500/webargs-sanic-2.3.3.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [ledger-bitcoin]: Downloading https://files.pythonhosted.org/packages/af/33/51fec042397fb26e307e2174dbb2c5b4e4402644dde646891c7766b51054/ledger_bitcoin-0.2.1.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/aa/d9/8605ebb814e53861f95b443b58069d4f7920dad14e886922424f47bd2987/nonebot_adapter_villa-0.3.0.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/e2/57/87f523a521446f66dc945c2739ea9a4562db45b7f5c9f7ae0fd60a7a4de5/irene_pro-0.0.76.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/b5/3c/9a620e4858ee5e92dcece23b7c263e43b0f43dbf89f4bd8c6e8cf8f36aeb/waivek-0.1.1.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/18/4a/1042c7b4a79cf0b0a81db1cf2025fb9539379892e6ed00c874956f96a199/mech_client-0.2.0.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [webargs-sanic]: Downloading https://files.pythonhosted.org/packages/46/34/a4a12c7742d27e07d43372b1636f130ce502da3b6cd1fbfbe184f0f03e91/webargs-sanic-2.3.4.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/b0/0d/edc6c17dc1d695b02dad323c753ca8ffc28b0ff1d1c2409f0674d71273b7/voicemeeter-compact-1.7.0.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.2.1.tar.gz tmp/nonebot_adapter_villa-0.3.0.tar.gz --markdown 20230626/n/nonebot-adapter-villa/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-26 15:07:12] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.75.tar.gz tmp/irene_pro-0.0.76.tar.gz --markdown 20230626/i/irene-pro/0.0.75-0.0.76/diff.md --exclude *.pyd
+[2023-06-26 15:07:12] INFO root fetch - processPackages [normflows]: Downloading https://files.pythonhosted.org/packages/09/2f/3e787c7cbd425c8e20731801fde900cb442287399e51544623d24d0980e7/normflows-1.7.1.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.tar.gz tmp/waivek-0.1.1.tar.gz --markdown 20230626/w/waivek/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 15:07:12] INFO root fetch - processPackages [webargs-sanic]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [webargs-sanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webargs-sanic-2.3.3.tar.gz tmp/webargs-sanic-2.3.4.tar.gz --markdown 20230626/w/webargs-sanic/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-06-26 15:07:12] INFO root fetch - processPackages [voicemeeter-compact]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [voicemeeter-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter-compact-1.6.5.tar.gz tmp/voicemeeter-compact-1.7.0.tar.gz --markdown 20230626/v/voicemeeter-compact/1.6.5-1.7.0/diff.md --exclude *.pyd
+[2023-06-26 15:07:12] INFO root fetch - processPackages [ledger-bitcoin]: Downloading https://files.pythonhosted.org/packages/25/6d/b2569086c30ee2dcec251124df817e662fbe05504c9be5392b8ad78f6351/ledger_bitcoin-0.2.2.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [normflows]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [normflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normflows-1.7.0.tar.gz tmp/normflows-1.7.1.tar.gz --markdown 20230626/n/normflows/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-26 15:07:12] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/14/a4/b6e644b888e41ad1bcd5f8ba6843ca651004503598f353dd503df79289ed/mech_client-0.2.1.tar.gz
+[2023-06-26 15:07:12] INFO root fetch - processPackages [mech-client]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [mech-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mech_client-0.2.0.tar.gz tmp/mech_client-0.2.1.tar.gz --markdown 20230626/m/mech-client/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-26 15:07:12] INFO root fetch - processPackages [ledger-bitcoin]: executing diffoscope
+[2023-06-26 15:07:12] INFO root fetch - processPackages [ledger-bitcoin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledger_bitcoin-0.2.1.tar.gz tmp/ledger_bitcoin-0.2.2.tar.gz --markdown 20230626/l/ledger-bitcoin/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-26 15:07:13] INFO root fetch - processPackages [adslproxy-enhance]: Remove: archive file [/home/abi/fetcher/tmp/adslproxy-enhance-3.7.2.tar.gz]
+[2023-06-26 15:07:13] INFO root fetch - processPackages [adslproxy-enhance]: Remove: archive file [/home/abi/fetcher/tmp/adslproxy-enhance-3.7.3.tar.gz]
+[2023-06-26 15:07:13] INFO root fetch - processPackages [adslproxy-enhance]: Start processing: napalm-nokia-olt
+[2023-06-26 15:07:13] INFO root fetch - main [MainThread]: End processing [adslproxy-enhance]: success
+[2023-06-26 15:07:14] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.2.1.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.3.0.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [nonebot-adapter-villa]: Start processing: ncOrtho
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-06-26 15:07:14] INFO root fetch - processPackages [napalm-nokia-olt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [webargs-sanic]: Remove: archive file [/home/abi/fetcher/tmp/webargs-sanic-2.3.3.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [webargs-sanic]: Remove: archive file [/home/abi/fetcher/tmp/webargs-sanic-2.3.4.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [webargs-sanic]: Start processing: peaks2utr
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [webargs-sanic]: success
+[2023-06-26 15:07:14] INFO root fetch - processPackages [ncOrtho]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.75.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.76.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [irene-pro]: Start processing: robot-rumble
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-26 15:07:14] INFO root fetch - processPackages [peaks2utr]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [robot-rumble]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/95/4a/463e5a6e3f5ba8421d06db70da311c31eabdaee3ff73b0d7b19fe6728fa2/napalm_nokia_olt-0.0.7.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/e5/8e/eb0750c51058ce471f4a559bcf04d6be3e8a8357f7707f1d4f7e2ab594cd/robot_rumble-0.0.9.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.1.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [waivek]: Start processing: tiledb
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-06-26 15:07:14] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 22358375>=10485760
+[2023-06-26 15:07:14] INFO root fetch - processPackages [robot-rumble]: Start processing: pysqrtrootof3taker
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-06-26 15:07:14] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/39/18/d38bdd7e45e06ccc83572479791e5099bbe8aa30eb00f72a554689f96081/ncOrtho-0.4.2.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [peaks2utr]: Downloading https://files.pythonhosted.org/packages/11/25/ded94ed2c5813c9315e14b20b43d9b3a3632e5737112df15205080cace3c/peaks2utr-1.1.0.tar.gz
+[2023-06-26 15:07:14] WARNING root fetch - processPackages [pysqrtrootof3taker]: Skipping, unable to determine old version
+[2023-06-26 15:07:14] INFO root fetch - processPackages [pysqrtrootof3taker]: Start processing: pillar1
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [pysqrtrootof3taker] error
+[2023-06-26 15:07:14] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.4] Old Version: [0.1.9.2]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [normflows]: Remove: archive file [/home/abi/fetcher/tmp/normflows-1.7.0.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [normflows]: Remove: archive file [/home/abi/fetcher/tmp/normflows-1.7.1.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [normflows]: Start processing: expert-intelligence-toolbox
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [normflows]: success
+[2023-06-26 15:07:14] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/5c/cb/2d567a660ca5a9b331bbc8c1e38928ff9790d6de8727c05a5ef868ec82b0/pillar1-0.1.9.2.tar.gz
+[2023-06-26 15:07:14] WARNING root fetch - processPackages [peaks2utr]: Skipping package: exceeds size limit 10594851>=10485760
+[2023-06-26 15:07:14] INFO root fetch - processPackages [peaks2utr]: Start processing: nhp-prep
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [peaks2utr] error
+[2023-06-26 15:07:14] INFO root fetch - processPackages [tiledb]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [napalm-nokia-olt]: Downloading https://files.pythonhosted.org/packages/f2/e7/76fe771f9b583c90c353da77e70894eb04e3f78092ccf4c2a426168d91a8/napalm_nokia_olt-0.0.8.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [ledger-bitcoin]: Remove: archive file [/home/abi/fetcher/tmp/ledger_bitcoin-0.2.1.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [ledger-bitcoin]: Remove: archive file [/home/abi/fetcher/tmp/ledger_bitcoin-0.2.2.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [ledger-bitcoin]: success
+[2023-06-26 15:07:14] INFO root fetch - processPackages [mech-client]: Remove: archive file [/home/abi/fetcher/tmp/mech_client-0.2.0.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [mech-client]: Remove: archive file [/home/abi/fetcher/tmp/mech_client-0.2.1.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [mech-client]: success
+[2023-06-26 15:07:14] INFO root fetch - processPackages [ncOrtho]: Downloading https://files.pythonhosted.org/packages/fd/98/a86897a5ad15de90dc09e2d7844c2344b31c085cf8bad9ba5af4ebaa9282/ncOrtho-0.4.3.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/6b/3e/05e004455f9e30b1af9204967b2101a9feb9cf7d1ccf8d3155d53b8f82f5/pillar1-0.1.9.4.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [nhp-prep]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-26 15:07:14] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.2.tar.gz tmp/pillar1-0.1.9.4.tar.gz --markdown 20230626/p/pillar1/0.1.9.2-0.1.9.4/diff.md --exclude *.pyd
+[2023-06-26 15:07:14] INFO root fetch - processPackages [napalm-nokia-olt]: executing diffoscope
+[2023-06-26 15:07:14] INFO root fetch - processPackages [napalm-nokia-olt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm_nokia_olt-0.0.7.tar.gz tmp/napalm_nokia_olt-0.0.8.tar.gz --markdown 20230626/n/napalm-nokia-olt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-26 15:07:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [ncOrtho]: executing diffoscope
+[2023-06-26 15:07:14] INFO root fetch - processPackages [ncOrtho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncOrtho-0.4.2.tar.gz tmp/ncOrtho-0.4.3.tar.gz --markdown 20230626/n/ncOrtho/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-26 15:07:14] INFO root fetch - processPackages [tiledb]: Downloading https://files.pythonhosted.org/packages/a6/bb/0b224f95554a746b8b636f3022ddc5a851deefae6fd90452b6ab95bd9de1/tiledb-0.9.4.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-26 15:07:14] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230626/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 15:07:14] INFO root fetch - processPackages [nhp-prep]: Downloading https://files.pythonhosted.org/packages/97/a3/532fa0be0bb64633deb9493bc90e12e4c67bc24dabe273fe4bc45684294d/nhp-prep-0.3.2.tar.gz
+[2023-06-26 15:07:14] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-compact-1.6.5.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-compact-1.7.0.tar.gz]
+[2023-06-26 15:07:14] INFO root fetch - main [MainThread]: End processing [voicemeeter-compact]: success
+[2023-06-26 15:07:15] INFO root fetch - processPackages [nhp-prep]: Downloading https://files.pythonhosted.org/packages/aa/45/51f3f35a8bd90dd31bb8f91eedc96def2a8a28083fc004fbea6fa8e015b2/nhp-prep-0.3.3.tar.gz
+[2023-06-26 15:07:15] INFO root fetch - processPackages [tiledb]: Downloading https://files.pythonhosted.org/packages/f8/e1/999448b6ef9ee22f6171c37306b83f59ccf699de7fee4ed271b7e06a796c/tiledb-0.9.5.tar.gz
+[2023-06-26 15:07:15] INFO root fetch - processPackages [nhp-prep]: executing diffoscope
+[2023-06-26 15:07:15] INFO root fetch - processPackages [nhp-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhp-prep-0.3.2.tar.gz tmp/nhp-prep-0.3.3.tar.gz --markdown 20230626/n/nhp-prep/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-26 15:07:15] INFO root fetch - processPackages [tiledb]: executing diffoscope
+[2023-06-26 15:07:15] INFO root fetch - processPackages [tiledb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb-0.9.4.tar.gz tmp/tiledb-0.9.5.tar.gz --markdown 20230626/t/tiledb/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-26 15:07:15] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-06-26 15:07:15] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-06-26 15:07:15] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-26 15:07:15] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.7.tar.gz]
+[2023-06-26 15:07:15] INFO root fetch - processPackages [napalm-nokia-olt]: Remove: archive file [/home/abi/fetcher/tmp/napalm_nokia_olt-0.0.8.tar.gz]
+[2023-06-26 15:07:15] INFO root fetch - main [MainThread]: End processing [napalm-nokia-olt]: success
+[2023-06-26 15:07:15] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.2.tar.gz]
+[2023-06-26 15:07:15] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.4.tar.gz]
+[2023-06-26 15:07:15] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-26 15:07:16] INFO root fetch - processPackages [nhp-prep]: Remove: archive file [/home/abi/fetcher/tmp/nhp-prep-0.3.2.tar.gz]
+[2023-06-26 15:07:16] INFO root fetch - processPackages [nhp-prep]: Remove: archive file [/home/abi/fetcher/tmp/nhp-prep-0.3.3.tar.gz]
+[2023-06-26 15:07:16] INFO root fetch - main [MainThread]: End processing [nhp-prep]: success
+[2023-06-26 15:07:16] INFO root fetch - processPackages [ncOrtho]: Remove: archive file [/home/abi/fetcher/tmp/ncOrtho-0.4.2.tar.gz]
+[2023-06-26 15:07:16] INFO root fetch - processPackages [ncOrtho]: Remove: archive file [/home/abi/fetcher/tmp/ncOrtho-0.4.3.tar.gz]
+[2023-06-26 15:07:16] INFO root fetch - main [MainThread]: End processing [ncOrtho]: success
+[2023-06-26 15:07:17] INFO root fetch - processPackages [tiledb]: Remove: archive file [/home/abi/fetcher/tmp/tiledb-0.9.4.tar.gz]
+[2023-06-26 15:07:17] INFO root fetch - processPackages [tiledb]: Remove: archive file [/home/abi/fetcher/tmp/tiledb-0.9.5.tar.gz]
+[2023-06-26 15:07:17] INFO root fetch - main [MainThread]: End processing [tiledb]: success
+[2023-06-26 15:07:33] INFO root fetch - processPackages [exact]: Remove: archive file [/home/abi/fetcher/tmp/exact-1.1.3-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2023-06-26 15:07:33] INFO root fetch - processPackages [exact]: Remove: archive file [/home/abi/fetcher/tmp/exact-1.1.4-py3-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2023-06-26 15:07:33] INFO root fetch - main [MainThread]: End processing [exact]: success
+[2023-06-26 15:07:33] INFO root fetch - main [MainThread]: Store serial: [18647045]
