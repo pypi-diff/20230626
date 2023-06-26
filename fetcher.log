@@ -23257,3 +23257,419 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:40:51] INFO root fetch - processPackages [ask-sdk-model]: Remove: archive file [/home/abi/fetcher/tmp/ask-sdk-model-1.9.0.tar.gz]
 [2023-06-26 17:40:51] INFO root fetch - main [MainThread]: End processing [ask-sdk-model]: success
 [2023-06-26 17:40:51] INFO root fetch - main [MainThread]: Store serial: [18649131]
+[2023-06-26 17:45:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18649131]
+[2023-06-26 17:46:00] INFO root fetch - main [MainThread]: Found 47 changed packages
+[2023-06-26 17:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azureml-contrib-fairness
+[2023-06-26 17:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-contrib-functions
+[2023-06-26 17:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-contrib-iot
+[2023-06-26 17:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-contrib-mir
+[2023-06-26 17:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azureml-contrib-notebook
+[2023-06-26 17:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azureml-contrib-pipeline-steps
+[2023-06-26 17:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azureml-contrib-reinforcementlearning
+[2023-06-26 17:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-06-26 17:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azureml-contrib-run
+[2023-06-26 17:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azureml-contrib-server
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-notebook]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-reinforcementlearning]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-fairness]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-mir]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-pipeline-steps]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-functions]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-iot]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-server]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-run]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-functions]: Downloading https://files.pythonhosted.org/packages/38/ae/0f5cd9e3e0de16fdf61b18f9c83717eb50d33eb87be39872b22c13a587ff/azureml_contrib_functions-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-fairness]: Downloading https://files.pythonhosted.org/packages/72/57/b45724b537199e9c01a86d80974adb3cb5971c733d2426204f2ccee8ee90/azureml_contrib_fairness-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-notebook]: Downloading https://files.pythonhosted.org/packages/ee/a4/5e1cef0c670c99cedc4cac8a24a277b008f5bc3f6c49767527bc24acd4d6/azureml_contrib_notebook-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-reinforcementlearning]: Downloading https://files.pythonhosted.org/packages/59/1a/cd93dc7e09038cb51114f56b38cd5e49b61b9ead4446298c4a7b541c10f2/azureml_contrib_reinforcementlearning-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-mir]: Downloading https://files.pythonhosted.org/packages/65/26/500ddc0e3b743a13ae65204c8b2a8445c8e1533f8f4872eda7ad7f0c854b/azureml_contrib_mir-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-pipeline-steps]: Downloading https://files.pythonhosted.org/packages/41/e8/7842e25fe97ac2fdee9fbe36014f49868075743207db6ff2212a8373d661/azureml_contrib_pipeline_steps-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-run]: Downloading https://files.pythonhosted.org/packages/d9/72/aca776a78f8edb94140da1040d8ca77630d0ee071a1c7c6e6975917abe0b/azureml_contrib_run-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-server]: Downloading https://files.pythonhosted.org/packages/4e/b3/f03994b9164912c321cb41e07df20f18076f152ca5404680a13c49bb5016/azureml_contrib_server-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-iot]: Downloading https://files.pythonhosted.org/packages/57/d9/47d3fc8dae3823c2cf7111ae81101488c99c6644414081479dde94ee0050/azureml_contrib_iot-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-fairness]: Downloading https://files.pythonhosted.org/packages/59/7e/4c8e82b2a6a312f4ebafea052537b3e7b2ecc37648a1cba2df9593c59668/azureml_contrib_fairness-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-functions]: Downloading https://files.pythonhosted.org/packages/3a/b7/ad5eae9016d2d29eb40cc25af4a8e92159340f9a60bd980694f3e2a852cb/azureml_contrib_functions-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-functions]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_functions-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_functions-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-functions/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-fairness]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-fairness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_fairness-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_fairness-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-fairness/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-reinforcementlearning]: Downloading https://files.pythonhosted.org/packages/f5/b8/fa131ac5d250c6355cad4da1e1cea8041e016a5b816746076993a5a504f4/azureml_contrib_reinforcementlearning-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-notebook]: Downloading https://files.pythonhosted.org/packages/e6/41/baf253262f55db5d5f4fa65f2d51fd49d0d1d90f8bf8622393c413934905/azureml_contrib_notebook-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-pipeline-steps]: Downloading https://files.pythonhosted.org/packages/11/7b/f7c393087e8ae224653a395df8c8c1e70a5893b55addc809dea32cbda249/azureml_contrib_pipeline_steps-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-mir]: Downloading https://files.pythonhosted.org/packages/71/ca/6c81f40c4a0324941f448f039d0f19e3f2db0352b4edd63555da0fab7e50/azureml_contrib_mir-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-run]: Downloading https://files.pythonhosted.org/packages/b4/8d/17a38e4542a85f020d247568425e0d1236478936817d1372d731a5282712/azureml_contrib_run-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-reinforcementlearning]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-reinforcementlearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_reinforcementlearning-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_reinforcementlearning-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-reinforcementlearning/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-iot]: Downloading https://files.pythonhosted.org/packages/b0/12/712e3299950674d766b3504bd140e5353b3a743bd0804fa288d0eb07bce1/azureml_contrib_iot-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-server]: Downloading https://files.pythonhosted.org/packages/ea/ce/99a4952f0297f035a182a778b8968b7fbe7492b3ec1886388afac788ad2f/azureml_contrib_server-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:01] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230626/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-notebook]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_notebook-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_notebook-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-notebook/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-pipeline-steps]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-pipeline-steps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_pipeline_steps-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_pipeline_steps-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-pipeline-steps/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-mir]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-iot]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-mir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_mir-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_mir-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-mir/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_iot-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_iot-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-iot/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-server]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_server-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_server-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-server/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-run]: executing diffoscope
+[2023-06-26 17:46:01] INFO root fetch - processPackages [azureml-contrib-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_run-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_run-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-run/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:02] INFO root fetch - processPackages [azureml-contrib-functions]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_functions-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:02] INFO root fetch - processPackages [azureml-contrib-functions]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_functions-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:02] INFO root fetch - processPackages [azureml-contrib-functions]: Start processing: azureml-contrib-services
+[2023-06-26 17:46:02] INFO root fetch - main [MainThread]: End processing [azureml-contrib-functions]: success
+[2023-06-26 17:46:02] INFO root fetch - processPackages [azureml-contrib-services]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:02] INFO root fetch - processPackages [azureml-contrib-fairness]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_fairness-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:02] INFO root fetch - processPackages [azureml-contrib-fairness]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_fairness-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:02] INFO root fetch - processPackages [azureml-contrib-fairness]: Start processing: azureml-core
+[2023-06-26 17:46:02] INFO root fetch - main [MainThread]: End processing [azureml-contrib-fairness]: success
+[2023-06-26 17:46:02] INFO root fetch - processPackages [azureml-core]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-06-26 17:46:02] INFO root fetch - processPackages [azureml-contrib-services]: Downloading https://files.pythonhosted.org/packages/20/2b/305118ea337376e16dd1b33c79864432fa3cca59998413bc3de3a9ad1589/azureml_contrib_services-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-core]: Downloading https://files.pythonhosted.org/packages/1d/58/e74e76d130cf1d65271f08475ac7ce9adfc01da89a018a6d88775131c3de/azureml_core-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-services]: Downloading https://files.pythonhosted.org/packages/62/c7/db5529ebc4946202cd6f404f116ec7f235f8f32b5cd11455d380cc2ce590/azureml_contrib_services-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-services]: executing diffoscope
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_contrib_services-1.8.0-py3-none-any.whl.zip tmp/azureml_contrib_services-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-contrib-services/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-notebook]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_notebook-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-notebook]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_notebook-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-notebook]: Start processing: azureml-datadrift
+[2023-06-26 17:46:03] INFO root fetch - main [MainThread]: End processing [azureml-contrib-notebook]: success
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-datadrift]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-pipeline-steps]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_pipeline_steps-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-pipeline-steps]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_pipeline_steps-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-pipeline-steps]: Start processing: azureml-dataset-runtime
+[2023-06-26 17:46:03] INFO root fetch - main [MainThread]: End processing [azureml-contrib-pipeline-steps]: success
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-dataset-runtime]: New version: [1.9.0] Old Version: [1.52.0]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-iot]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_iot-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-iot]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_iot-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-iot]: Start processing: azureml-defaults
+[2023-06-26 17:46:03] INFO root fetch - main [MainThread]: End processing [azureml-contrib-iot]: success
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-defaults]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-server]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_server-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-server]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_server-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-server]: Start processing: azureml-explain-model
+[2023-06-26 17:46:03] INFO root fetch - main [MainThread]: End processing [azureml-contrib-server]: success
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-explain-model]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-mir]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_mir-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-mir]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_mir-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-mir]: Start processing: azureml-interpret
+[2023-06-26 17:46:03] INFO root fetch - main [MainThread]: End processing [azureml-contrib-mir]: success
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-run]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_run-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-run]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_run-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-run]: Start processing: azureml-mlflow
+[2023-06-26 17:46:03] INFO root fetch - main [MainThread]: End processing [azureml-contrib-run]: success
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-interpret]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-datadrift]: Downloading https://files.pythonhosted.org/packages/d2/a5/9a64f301b6065218a56b8c88deaf99b6a1e76225c7f12d0217b15e9c30e2/azureml_datadrift-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-mlflow]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-dataset-runtime]: Downloading https://files.pythonhosted.org/packages/c9/b1/53223db5e17f65fb06815bd5582f12fb75aadc64e478d7fdfef7973d1d3b/azureml_dataset_runtime-1.52.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-reinforcementlearning]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_reinforcementlearning-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-reinforcementlearning]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_reinforcementlearning-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-contrib-reinforcementlearning]: Start processing: azureml-opendatasets
+[2023-06-26 17:46:03] INFO root fetch - main [MainThread]: End processing [azureml-contrib-reinforcementlearning]: success
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-defaults]: Downloading https://files.pythonhosted.org/packages/92/b4/2a3a1bd0cb31eb24a573594f05e693d15b6b605eab6b90a955046a97b9a7/azureml_defaults-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-opendatasets]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-explain-model]: Downloading https://files.pythonhosted.org/packages/f8/25/ee691885d267e4882c418403f99f8a1778ad76722eb8ef65466d5949cc4f/azureml_explain_model-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-core]: Downloading https://files.pythonhosted.org/packages/d9/6c/c1c7ef90ca99c1e5a613a6d512630e25aabc86fa8c8e4f16253c3a50548a/azureml_core-1.9.0.post1-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-interpret]: Downloading https://files.pythonhosted.org/packages/5a/5f/f207652fc9d4dfefc53e6bc9a833eea848632c789d0c27687f2412a39e9a/azureml_interpret-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-opendatasets]: Downloading https://files.pythonhosted.org/packages/85/05/81521d45547ab66af67c11799d4570f40e9016698d37c9fd2bb97d3f8ab3/azureml_opendatasets-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-dataset-runtime]: Downloading https://files.pythonhosted.org/packages/d1/eb/e5df28e897ad11e964b6d5ab016b848970e0ebdde230b977bfd3506bc0ac/azureml_dataset_runtime-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-core]: executing diffoscope
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_core-1.9.0-py3-none-any.whl.zip tmp/azureml_core-1.9.0.post1-py3-none-any.whl.zip --markdown 20230626/a/azureml-core/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-defaults]: Downloading https://files.pythonhosted.org/packages/e6/08/c4476f3c5c28bea57fe120a8868a579b4c82300219c9d140910b4808f083/azureml_defaults-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-datadrift]: Downloading https://files.pythonhosted.org/packages/6f/ff/dd94b677821123ca0e4879823ce9452586135e689f8aeb870c97eb6ad2d8/azureml_datadrift-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-mlflow]: Downloading https://files.pythonhosted.org/packages/9c/b6/87ddcee22d1e719784c93369e79c9fed603ef25ffde5bdee2b3cc2745edf/azureml_mlflow-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-dataset-runtime]: executing diffoscope
+[2023-06-26 17:46:03] INFO root fetch - processPackages [azureml-dataset-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_dataset_runtime-1.52.0-py3-none-any.whl.zip tmp/azureml_dataset_runtime-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-dataset-runtime/1.52.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-interpret]: Downloading https://files.pythonhosted.org/packages/92/ee/4356ba05e8d4f73ffda7961f319fdca64177420eb5ca7873962c0a8872a0/azureml_interpret-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-defaults]: executing diffoscope
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-defaults]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_defaults-1.8.0-py3-none-any.whl.zip tmp/azureml_defaults-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-defaults/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-explain-model]: Downloading https://files.pythonhosted.org/packages/67/44/b126b7c260b16e6756c27da3c833bb6d8f49839269768e2f977a213d55d7/azureml_explain_model-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-datadrift]: executing diffoscope
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-datadrift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_datadrift-1.8.0-py3-none-any.whl.zip tmp/azureml_datadrift-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-datadrift/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-interpret]: executing diffoscope
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-interpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_interpret-1.8.0-py3-none-any.whl.zip tmp/azureml_interpret-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-interpret/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-mlflow]: Downloading https://files.pythonhosted.org/packages/77/e3/cc95116561c1b1c25d376ceeb5f818021132c9806929b186d9f92b15781f/azureml_mlflow-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-explain-model]: executing diffoscope
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-explain-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_explain_model-1.8.0-py3-none-any.whl.zip tmp/azureml_explain_model-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-explain-model/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-mlflow]: executing diffoscope
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_mlflow-1.8.0-py3-none-any.whl.zip tmp/azureml_mlflow-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-mlflow/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-opendatasets]: Downloading https://files.pythonhosted.org/packages/73/b8/30b99e6ada39a1a3a2b6c776b1412bc8df3cb7119b212bcd6f3a073d46d8/azureml_opendatasets-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-contrib-services]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_services-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-contrib-services]: Remove: archive file [/home/abi/fetcher/tmp/azureml_contrib_services-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-contrib-services]: Start processing: azureml-pipeline
+[2023-06-26 17:46:04] INFO root fetch - main [MainThread]: End processing [azureml-contrib-services]: success
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-pipeline]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-pipeline]: Downloading https://files.pythonhosted.org/packages/39/4d/10954a6e3353cb19ef56082ef85d8051b93c35ee70846fa494d313ee3275/azureml_pipeline-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-opendatasets]: executing diffoscope
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-opendatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_opendatasets-1.8.0-py3-none-any.whl.zip tmp/azureml_opendatasets-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-opendatasets/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:04] INFO root fetch - processPackages [azureml-pipeline]: Downloading https://files.pythonhosted.org/packages/d3/e2/8aa9db8b15a383e16b30170ead963fccc9422d918d031caad74bd6bdb4c6/azureml_pipeline-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline]: executing diffoscope
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_pipeline-1.8.0-py3-none-any.whl.zip tmp/azureml_pipeline-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-pipeline/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-dataset-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_dataset_runtime-1.52.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-dataset-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_dataset_runtime-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-dataset-runtime]: Start processing: azureml-pipeline-core
+[2023-06-26 17:46:05] INFO root fetch - main [MainThread]: End processing [azureml-dataset-runtime]: success
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline-core]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-defaults]: Remove: archive file [/home/abi/fetcher/tmp/azureml_defaults-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-defaults]: Remove: archive file [/home/abi/fetcher/tmp/azureml_defaults-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-defaults]: Start processing: azureml-pipeline-steps
+[2023-06-26 17:46:05] INFO root fetch - main [MainThread]: End processing [azureml-defaults]: success
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline-steps]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline-core]: Downloading https://files.pythonhosted.org/packages/a9/04/336adc8a159fadd2586ed74974c41aa22bbdb96bf773c80dac20c71b5bad/azureml_pipeline_core-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline-steps]: Downloading https://files.pythonhosted.org/packages/70/62/0e2a6e4b13bfeafe6772ad0bf8a5b198a6c8a438fe0a84a4dfccce34fc04/azureml_pipeline_steps-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-interpret]: Remove: archive file [/home/abi/fetcher/tmp/azureml_interpret-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-interpret]: Remove: archive file [/home/abi/fetcher/tmp/azureml_interpret-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-interpret]: Start processing: azureml-responsibleai
+[2023-06-26 17:46:05] INFO root fetch - main [MainThread]: End processing [azureml-interpret]: success
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-responsibleai]: New version: [1.52.0] Old Version: [1.51.0]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline-core]: Downloading https://files.pythonhosted.org/packages/d2/8c/01c4ea7f976795fc68b98a3d42fa6f30db7c5b079da0931f50d6f3fa3249/azureml_pipeline_core-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline-steps]: Downloading https://files.pythonhosted.org/packages/f8/30/2b18fcdcc4928d510003a6184bc17df3470d98767ce1d66f08ba3184f075/azureml_pipeline_steps-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_mlflow-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/azureml_mlflow-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-mlflow]: Start processing: azureml-sdk
+[2023-06-26 17:46:05] INFO root fetch - main [MainThread]: End processing [azureml-mlflow]: success
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline-core]: executing diffoscope
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-pipeline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_pipeline_core-1.8.0-py3-none-any.whl.zip tmp/azureml_pipeline_core-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-pipeline-core/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-responsibleai]: Downloading https://files.pythonhosted.org/packages/f2/55/edbc7d4047d5301c8867484bbe9367f309abbe4b50ee867e6835335021ec/azureml_responsibleai-1.51.0-py3-none-any.whl
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-explain-model]: Remove: archive file [/home/abi/fetcher/tmp/azureml_explain_model-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-explain-model]: Remove: archive file [/home/abi/fetcher/tmp/azureml_explain_model-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-explain-model]: Start processing: azureml-synapse
+[2023-06-26 17:46:05] INFO root fetch - main [MainThread]: End processing [azureml-explain-model]: success
+[2023-06-26 17:46:05] INFO root fetch - processPackages [azureml-synapse]: New version: [1.52.0] Old Version: [1.51.0]
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-pipeline-steps]: executing diffoscope
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-pipeline-steps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_pipeline_steps-1.8.0-py3-none-any.whl.zip tmp/azureml_pipeline_steps-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-pipeline-steps/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-sdk]: Downloading https://files.pythonhosted.org/packages/b4/6d/0551f0f1b52bc3ad201276a82a243dc306e49c3f9ea2b5d7d19f1d5d0587/azureml_sdk-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-synapse]: Downloading https://files.pythonhosted.org/packages/31/cd/efbbf5cbd899b2c534d8b80f11b650210796bd4d5c3175dab73fcef48a9c/azureml_synapse-1.51.0-py3-none-any.whl
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-responsibleai]: Downloading https://files.pythonhosted.org/packages/e0/ef/8d7614c106dd70f1fdc501b1789016937f9b77c71c4181a778b1225b38ed/azureml_responsibleai-1.52.0-py3-none-any.whl
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-datadrift]: Remove: archive file [/home/abi/fetcher/tmp/azureml_datadrift-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-datadrift]: Remove: archive file [/home/abi/fetcher/tmp/azureml_datadrift-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-datadrift]: Start processing: azureml-telemetry
+[2023-06-26 17:46:06] INFO root fetch - main [MainThread]: End processing [azureml-datadrift]: success
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-responsibleai]: executing diffoscope
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-responsibleai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_responsibleai-1.51.0-py3-none-any.whl.zip tmp/azureml_responsibleai-1.52.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-responsibleai/1.51.0-1.52.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-telemetry]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-sdk]: Downloading https://files.pythonhosted.org/packages/14/e1/f91d7b2c5ec5c8c0374db4b95006a3e2911b5ef6991138149bb7d7a4a3ec/azureml_sdk-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-sdk]: executing diffoscope
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_sdk-1.8.0-py3-none-any.whl.zip tmp/azureml_sdk-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-sdk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-telemetry]: Downloading https://files.pythonhosted.org/packages/d0/72/23a197fc872cbd827c4e0d02f6e6d0de990c677a00472551670aaab5cf6b/azureml_telemetry-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/azureml_pipeline-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/azureml_pipeline-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-pipeline]: Start processing: azureml-tensorboard
+[2023-06-26 17:46:06] INFO root fetch - main [MainThread]: End processing [azureml-pipeline]: success
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-tensorboard]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-synapse]: Downloading https://files.pythonhosted.org/packages/fb/4f/e276d9c483d2b56af83e0bb7097827d3403d272fd98ac709d6ce9b9adeb1/azureml_synapse-1.52.0-py3-none-any.whl
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-tensorboard]: Downloading https://files.pythonhosted.org/packages/2f/7f/0f1bcaed5cfca99661ebce7ef4aee4fa25b78df85fc30dd598c3feea76dd/azureml_tensorboard-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-telemetry]: Downloading https://files.pythonhosted.org/packages/bb/82/a0689e1e249a999990e0264db4e3f206bacbb7550c695b24180a7c0073ed/azureml_telemetry-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-synapse]: executing diffoscope
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_synapse-1.51.0-py3-none-any.whl.zip tmp/azureml_synapse-1.52.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-synapse/1.51.0-1.52.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-opendatasets]: Remove: archive file [/home/abi/fetcher/tmp/azureml_opendatasets-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-opendatasets]: Remove: archive file [/home/abi/fetcher/tmp/azureml_opendatasets-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:06] INFO root fetch - processPackages [azureml-opendatasets]: Start processing: azureml-train
+[2023-06-26 17:46:06] INFO root fetch - main [MainThread]: End processing [azureml-opendatasets]: success
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-train]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-telemetry]: executing diffoscope
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_telemetry-1.8.0-py3-none-any.whl.zip tmp/azureml_telemetry-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-telemetry/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-tensorboard]: Downloading https://files.pythonhosted.org/packages/c1/6c/cbae3474bcc8d273056c27d6c74347ede18e79ff8bf520260af8c40e67b8/azureml_tensorboard-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-train]: Downloading https://files.pythonhosted.org/packages/bc/58/a0ec61bb041f7ff846bea5a7a04a049afe5f8c08604bc9664178178c6077/azureml_train-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-tensorboard]: executing diffoscope
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-tensorboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_tensorboard-1.8.0-py3-none-any.whl.zip tmp/azureml_tensorboard-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-tensorboard/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-train]: Downloading https://files.pythonhosted.org/packages/c4/16/ede281a41fedffee6dd055621ca8a894055a5934284fcefb93e9cb324cbd/azureml_train-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-pipeline-steps]: Remove: archive file [/home/abi/fetcher/tmp/azureml_pipeline_steps-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-pipeline-steps]: Remove: archive file [/home/abi/fetcher/tmp/azureml_pipeline_steps-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-pipeline-steps]: Start processing: azureml-training-tabular
+[2023-06-26 17:46:07] INFO root fetch - main [MainThread]: End processing [azureml-pipeline-steps]: success
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-training-tabular]: New version: [1.52.0] Old Version: [1.51.0.post1]
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-train]: executing diffoscope
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-train]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_train-1.8.0-py3-none-any.whl.zip tmp/azureml_train-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-train/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-training-tabular]: Downloading https://files.pythonhosted.org/packages/16/8d/80336426575351181c420dc79375470a120b88e1573931a09594e870bfd3/azureml_training_tabular-1.51.0.post1-py3-none-any.whl
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-sdk]: Remove: archive file [/home/abi/fetcher/tmp/azureml_sdk-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-sdk]: Remove: archive file [/home/abi/fetcher/tmp/azureml_sdk-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-sdk]: Start processing: azureml-train-automl
+[2023-06-26 17:46:07] INFO root fetch - main [MainThread]: End processing [azureml-sdk]: success
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-train-automl]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:07] INFO root fetch - processPackages [azureml-training-tabular]: Downloading https://files.pythonhosted.org/packages/12/2a/169385019ea5a6e14d1244fbb633d76739e04895f49caca59aec3891d3cb/azureml_training_tabular-1.52.0-py3-none-any.whl
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl]: Downloading https://files.pythonhosted.org/packages/bd/a2/19bc6afeda99baf0f9fcbe2896a93acd13bed65cc03b66563e30bd0148cb/azureml_train_automl-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-training-tabular]: executing diffoscope
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-training-tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_training_tabular-1.51.0.post1-py3-none-any.whl.zip tmp/azureml_training_tabular-1.52.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-training-tabular/1.51.0.post1-1.52.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-responsibleai]: Remove: archive file [/home/abi/fetcher/tmp/azureml_responsibleai-1.51.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-responsibleai]: Remove: archive file [/home/abi/fetcher/tmp/azureml_responsibleai-1.52.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-responsibleai]: Start processing: azureml-train-automl-client
+[2023-06-26 17:46:08] INFO root fetch - main [MainThread]: End processing [azureml-responsibleai]: success
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl-client]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl-client]: Downloading https://files.pythonhosted.org/packages/f3/08/9cf39d90d20e33d67412f942412586fbb659bf5dd34668b6e9352f8cc609/azureml_train_automl_client-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl]: Downloading https://files.pythonhosted.org/packages/12/d2/050281082b972226897a57f1b4fa9ad071979f0fc1e596ecc972d31f9186/azureml_train_automl-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/azureml_telemetry-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/azureml_telemetry-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-telemetry]: Start processing: azureml-train-automl-runtime
+[2023-06-26 17:46:08] INFO root fetch - main [MainThread]: End processing [azureml-telemetry]: success
+[2023-06-26 17:46:08] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [qontract-reconcile]: Start processing: azureml-train-core
+[2023-06-26 17:46:08] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl-runtime]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-core]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-tensorboard]: Remove: archive file [/home/abi/fetcher/tmp/azureml_tensorboard-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-tensorboard]: Remove: archive file [/home/abi/fetcher/tmp/azureml_tensorboard-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-tensorboard]: Start processing: azureml-train-restclients-hyperdrive
+[2023-06-26 17:46:08] INFO root fetch - main [MainThread]: End processing [azureml-tensorboard]: success
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-restclients-hyperdrive]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_pipeline_core-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-pipeline-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_pipeline_core-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-pipeline-core]: Start processing: azureml-widgets
+[2023-06-26 17:46:08] INFO root fetch - main [MainThread]: End processing [azureml-pipeline-core]: success
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-widgets]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl]: executing diffoscope
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_train_automl-1.8.0-py3-none-any.whl.zip tmp/azureml_train_automl-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-train-automl/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl-runtime]: Downloading https://files.pythonhosted.org/packages/ba/9b/bb904fd44db815be2718c446f11b8333ee9109dd70ff4dbf9da49127224d/azureml_train_automl_runtime-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-core]: Downloading https://files.pythonhosted.org/packages/aa/6f/7e4adedc265bb3979c9d3a8ab51ba6d90fa7c4ce6f3f92f3cdda8eae46b9/azureml_train_core-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl-client]: Downloading https://files.pythonhosted.org/packages/b1/b4/1dda2baf86d72382cb410d15c4f849666ea5a21c6568c77d7b7b25b8faaa/azureml_train_automl_client-1.9.0.post1-py3-none-any.whl
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-restclients-hyperdrive]: Downloading https://files.pythonhosted.org/packages/da/7f/2fd6bd00e2db910c89181fcac3965377147e29763c397e08cacc5a2c9e95/azureml_train_restclients_hyperdrive-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl-client]: executing diffoscope
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train-automl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_train_automl_client-1.9.0-py3-none-any.whl.zip tmp/azureml_train_automl_client-1.9.0.post1-py3-none-any.whl.zip --markdown 20230626/a/azureml-train-automl-client/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:08] INFO root fetch - processPackages [azureml-train]: Start processing: dysweep
+[2023-06-26 17:46:08] INFO root fetch - main [MainThread]: End processing [azureml-train]: success
+[2023-06-26 17:46:08] INFO root fetch - processPackages [dysweep]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-synapse]: Remove: archive file [/home/abi/fetcher/tmp/azureml_synapse-1.51.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-synapse]: Remove: archive file [/home/abi/fetcher/tmp/azureml_synapse-1.52.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-synapse]: Start processing: titan-iris
+[2023-06-26 17:46:09] INFO root fetch - main [MainThread]: End processing [azureml-synapse]: success
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-widgets]: Downloading https://files.pythonhosted.org/packages/78/93/9be3c4fb953e344cd4bd00d15773cdeeba8b3d91fbcce197949495fa998d/azureml_widgets-1.8.0-py3-none-any.whl
+[2023-06-26 17:46:09] INFO root fetch - processPackages [titan-iris]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-train-automl-runtime]: Downloading https://files.pythonhosted.org/packages/cc/5c/12605e98b7ef80cecc1fcd34099f80ee01a20ab40d014d52ce96f6cebe41/azureml_train_automl_runtime-1.9.0.post1-py3-none-any.whl
+[2023-06-26 17:46:09] INFO root fetch - processPackages [dysweep]: Downloading https://files.pythonhosted.org/packages/92/1d/9ee549d3150b6e14e2a72aa35ceea91941362e0a06069d64d530f6819ea4/dysweep-0.0.8.tar.gz
+[2023-06-26 17:46:09] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/94/08/66f9679778ece8b54299ac9defaa859c635cab675e033b45d38475dbdf82/titan-iris-0.8.7.tar.gz
+[2023-06-26 17:46:09] INFO root fetch - processPackages [dysweep]: Downloading https://files.pythonhosted.org/packages/e8/07/79adda083e992dcadf1e148f271ead095b725b5a035086fafafae191d4f3/dysweep-0.0.9.tar.gz
+[2023-06-26 17:46:09] INFO root fetch - processPackages [dysweep]: executing diffoscope
+[2023-06-26 17:46:09] INFO root fetch - processPackages [dysweep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dysweep-0.0.8.tar.gz tmp/dysweep-0.0.9.tar.gz --markdown 20230626/d/dysweep/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-train-automl-runtime]: executing diffoscope
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-train-automl-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_train_automl_runtime-1.9.0-py3-none-any.whl.zip tmp/azureml_train_automl_runtime-1.9.0.post1-py3-none-any.whl.zip --markdown 20230626/a/azureml-train-automl-runtime/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-06-26 17:46:09] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d7/15/feb7c005964ea5d16b9435b52600870cbc403d0898d8d62b11352acddcef/titan-iris-0.8.8.tar.gz
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-train-restclients-hyperdrive]: Downloading https://files.pythonhosted.org/packages/5f/b7/5677ebd56a8e4867184335dd0b8d5257057a29f637bae5c6a280d72abb7d/azureml_train_restclients_hyperdrive-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:09] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-26 17:46:09] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.7.tar.gz tmp/titan-iris-0.8.8.tar.gz --markdown 20230626/t/titan-iris/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-train-automl]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_automl-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-train-automl]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_automl-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-train-automl]: Start processing: tycholab
+[2023-06-26 17:46:09] INFO root fetch - main [MainThread]: End processing [azureml-train-automl]: success
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-train-restclients-hyperdrive]: executing diffoscope
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-train-restclients-hyperdrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_train_restclients_hyperdrive-1.8.0-py3-none-any.whl.zip tmp/azureml_train_restclients_hyperdrive-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-train-restclients-hyperdrive/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:09] WARNING root fetch - processPackages [tycholab]: Skipping, unable to determine old version
+[2023-06-26 17:46:09] INFO root fetch - processPackages [tycholab]: Start processing: lfinancial
+[2023-06-26 17:46:09] INFO root fetch - main [MainThread]: End processing [tycholab] error
+[2023-06-26 17:46:09] WARNING root fetch - processPackages [azureml-widgets]: Skipping package: exceeds size limit 14298477>=10485760
+[2023-06-26 17:46:09] INFO root fetch - processPackages [azureml-widgets]: Start processing: cyanure
+[2023-06-26 17:46:09] INFO root fetch - main [MainThread]: End processing [azureml-widgets] error
+[2023-06-26 17:46:09] INFO root fetch - processPackages [lfinancial]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 17:46:09] INFO root fetch - processPackages [cyanure]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-26 17:46:09] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/74/bf/d27ac0ca08e922be001f54de271d8fb8a0e01f1101714d4cff2200e46302/lfinancial-0.0.6.tar.gz
+[2023-06-26 17:46:10] INFO root fetch - processPackages [cyanure]: Downloading https://files.pythonhosted.org/packages/98/46/23e018b06a5c048a7ad207184a51aabd28ebb4e571104c708f4d39b1a9d0/cyanure-1.0.0.tar.gz
+[2023-06-26 17:46:10] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/a0/61/e02ec3313ea3379f0e22d74c9c8b7a5dd3f46b1adbd52b8bc997821665b4/lfinancial-0.0.7.tar.gz
+[2023-06-26 17:46:10] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-06-26 17:46:10] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.0.6.tar.gz tmp/lfinancial-0.0.7.tar.gz --markdown 20230626/l/lfinancial/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-train-automl-client]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_automl_client-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-train-automl-client]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_automl_client-1.9.0.post1-py3-none-any.whl.zip]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-train-automl-client]: Start processing: orbit-database
+[2023-06-26 17:46:10] INFO root fetch - main [MainThread]: End processing [azureml-train-automl-client]: success
+[2023-06-26 17:46:10] INFO root fetch - processPackages [orbit-database]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [cyanure]: Downloading https://files.pythonhosted.org/packages/da/47/43b2999aa319cfe8450d25e9dae804c0315ddf77aa4ae73a2253994ebf3f/cyanure-1.1.0.tar.gz
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-training-tabular]: Remove: archive file [/home/abi/fetcher/tmp/azureml_training_tabular-1.51.0.post1-py3-none-any.whl.zip]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-training-tabular]: Remove: archive file [/home/abi/fetcher/tmp/azureml_training_tabular-1.52.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-training-tabular]: Start processing: flowtask
+[2023-06-26 17:46:10] INFO root fetch - main [MainThread]: End processing [azureml-training-tabular]: success
+[2023-06-26 17:46:10] INFO root fetch - processPackages [orbit-database]: Downloading https://files.pythonhosted.org/packages/97/d5/266d154a2bc1af56e4a5c7682391f00ac1dea5edced81bccf614f1c9a337/orbit_database-1.0.0.tar.gz
+[2023-06-26 17:46:10] INFO root fetch - processPackages [cyanure]: executing diffoscope
+[2023-06-26 17:46:10] INFO root fetch - processPackages [cyanure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyanure-1.0.0.tar.gz tmp/cyanure-1.1.0.tar.gz --markdown 20230626/c/cyanure/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:10] INFO root fetch - processPackages [flowtask]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [dysweep]: Remove: archive file [/home/abi/fetcher/tmp/dysweep-0.0.8.tar.gz]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [dysweep]: Remove: archive file [/home/abi/fetcher/tmp/dysweep-0.0.9.tar.gz]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [dysweep]: Start processing: idem-core-functions
+[2023-06-26 17:46:10] INFO root fetch - main [MainThread]: End processing [dysweep]: success
+[2023-06-26 17:46:10] INFO root fetch - processPackages [idem-core-functions]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:46:10] INFO root fetch - processPackages [orbit-database]: Downloading https://files.pythonhosted.org/packages/40/8c/4c5f5d2c9dfb256effccc56862e95ab4e14ba318828cf69670e1b94875eb/orbit_database-1.0.1.tar.gz
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-train-core]: Downloading https://files.pythonhosted.org/packages/49/ca/4017fd0fd2f4a440cfac7b6f2464e6eee48d0e363318f08b177f49acc195/azureml_train_core-1.9.0-py3-none-any.whl
+[2023-06-26 17:46:10] INFO root fetch - processPackages [idem-core-functions]: Downloading https://files.pythonhosted.org/packages/27/24/121489290ba58047d9dcce0da21db36d63c89188e7f5f6a173d31f441552/idem-core-functions-0.3.0.tar.gz
+[2023-06-26 17:46:10] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/76/cb/ef23ff55853e577b3477d762009a1fc68908a244c1bfb016650886d6699b/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-train-automl-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_automl_runtime-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-train-automl-runtime]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_automl_runtime-1.9.0.post1-py3-none-any.whl.zip]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [azureml-train-automl-runtime]: Start processing: renumics-spotlight
+[2023-06-26 17:46:10] INFO root fetch - main [MainThread]: End processing [azureml-train-automl-runtime]: success
+[2023-06-26 17:46:10] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.3.0rc1] Old Version: [1.2.0rc2]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [orbit-database]: executing diffoscope
+[2023-06-26 17:46:10] INFO root fetch - processPackages [orbit-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_database-1.0.0.tar.gz tmp/orbit_database-1.0.1.tar.gz --markdown 20230626/o/orbit-database/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-26 17:46:10] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.7.tar.gz]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.8.tar.gz]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [titan-iris]: Start processing: opentile
+[2023-06-26 17:46:10] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-26 17:46:10] INFO root fetch - processPackages [opentile]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-26 17:46:10] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-26 17:46:10] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230626/f/flowtask/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-06-26 17:46:11] INFO root fetch - processPackages [azureml-train-restclients-hyperdrive]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_restclients_hyperdrive-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:11] INFO root fetch - processPackages [azureml-train-restclients-hyperdrive]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_restclients_hyperdrive-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:11] INFO root fetch - processPackages [azureml-train-restclients-hyperdrive]: Start processing: nonebot-plugin-songpicker2
+[2023-06-26 17:46:11] INFO root fetch - main [MainThread]: End processing [azureml-train-restclients-hyperdrive]: success
+[2023-06-26 17:46:11] INFO root fetch - processPackages [idem-core-functions]: Downloading https://files.pythonhosted.org/packages/f8/e0/69fda00ed1e3fa675b804105074d336d9853f180a918333edfc8a5323dde/idem-core-functions-1.0.0.tar.gz
+[2023-06-26 17:46:11] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/b2/26/b0aa03a796c74f92d24f27a23c2a7d9ff9006bf61b8195bf7d53d688666a/renumics_spotlight-1.2.0rc2-py3-none-any.whl
+[2023-06-26 17:46:11] INFO root fetch - processPackages [opentile]: Downloading https://files.pythonhosted.org/packages/8f/f3/0ca3a4fd421895c20e14a7fbd0c3c56826f2cdfd6c6b9c5967373354be53/opentile-0.8.1.tar.gz
+[2023-06-26 17:46:11] INFO root fetch - processPackages [idem-core-functions]: executing diffoscope
+[2023-06-26 17:46:11] INFO root fetch - processPackages [idem-core-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-core-functions-0.3.0.tar.gz tmp/idem-core-functions-1.0.0.tar.gz --markdown 20230626/i/idem-core-functions/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:11] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-26 17:46:11] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Downloading https://files.pythonhosted.org/packages/2d/9d/3afc03f6bd48f0f7550b6dbfc77bde818f8a0452387b8f3463b55829c643/nonebot_plugin_songpicker2-0.2.3.tar.gz
+[2023-06-26 17:46:11] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.0.6.tar.gz]
+[2023-06-26 17:46:11] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.0.7.tar.gz]
+[2023-06-26 17:46:11] INFO root fetch - processPackages [lfinancial]: Start processing: idem-helm
+[2023-06-26 17:46:11] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-06-26 17:46:11] INFO root fetch - processPackages [idem-helm]: New version: [1.0.0] Old Version: [0.4.0]
+[2023-06-26 17:46:11] INFO root fetch - processPackages [opentile]: Downloading https://files.pythonhosted.org/packages/b5/ce/c05b659efaf119ceabc13ca65a3b541eaac95e33baed9dfead2ba6d365b5/opentile-0.9.0.tar.gz
+[2023-06-26 17:46:11] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/45/e0/f6f54e70f54fbabdc02a8f3abacda8ba9184645a19a0ab87993dd14087d8/renumics_spotlight-1.3.0rc1-py3-none-any.whl
+[2023-06-26 17:46:11] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Downloading https://files.pythonhosted.org/packages/27/59/f8b7296442ba1595b94e99521024803a7c927e214ceb0cff695bd604a50b/nonebot_plugin_songpicker2-0.2.4.tar.gz
+[2023-06-26 17:46:11] INFO root fetch - processPackages [opentile]: executing diffoscope
+[2023-06-26 17:46:11] INFO root fetch - processPackages [opentile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentile-0.8.1.tar.gz tmp/opentile-0.9.0.tar.gz --markdown 20230626/o/opentile/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:11] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: executing diffoscope
+[2023-06-26 17:46:11] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_songpicker2-0.2.3.tar.gz tmp/nonebot_plugin_songpicker2-0.2.4.tar.gz --markdown 20230626/n/nonebot-plugin-songpicker2/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-26 17:46:11] INFO root fetch - processPackages [idem-helm]: Downloading https://files.pythonhosted.org/packages/3c/21/1ede1d70084bd228b07ac948b19d32b761302fb06c9b99726b4bca757c52/idem-helm-0.4.0.tar.gz
+[2023-06-26 17:46:11] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-06-26 17:46:11] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.2.0rc2-py3-none-any.whl.zip tmp/renumics_spotlight-1.3.0rc1-py3-none-any.whl.zip --markdown 20230626/r/renumics-spotlight/1.2.0rc2-1.3.0rc1/diff.md --exclude *.pyd
+[2023-06-26 17:46:11] INFO root fetch - processPackages [azureml-train-core]: executing diffoscope
+[2023-06-26 17:46:11] INFO root fetch - processPackages [azureml-train-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_train_core-1.8.0-py3-none-any.whl.zip tmp/azureml_train_core-1.9.0-py3-none-any.whl.zip --markdown 20230626/a/azureml-train-core/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:12] INFO root fetch - processPackages [idem-helm]: Downloading https://files.pythonhosted.org/packages/53/27/02a491bfa92cb575c7be99c06bc1eddd7a64c379f005e375621488dd13b3/idem-helm-1.0.0.tar.gz
+[2023-06-26 17:46:12] INFO root fetch - processPackages [idem-helm]: executing diffoscope
+[2023-06-26 17:46:12] INFO root fetch - processPackages [idem-helm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-helm-0.4.0.tar.gz tmp/idem-helm-1.0.0.tar.gz --markdown 20230626/i/idem-helm/0.4.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 17:46:12] INFO root fetch - processPackages [orbit-database]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database-1.0.0.tar.gz]
+[2023-06-26 17:46:12] INFO root fetch - processPackages [orbit-database]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database-1.0.1.tar.gz]
+[2023-06-26 17:46:12] INFO root fetch - main [MainThread]: End processing [orbit-database]: success
+[2023-06-26 17:46:12] INFO root fetch - processPackages [idem-core-functions]: Remove: archive file [/home/abi/fetcher/tmp/idem-core-functions-0.3.0.tar.gz]
+[2023-06-26 17:46:12] INFO root fetch - processPackages [idem-core-functions]: Remove: archive file [/home/abi/fetcher/tmp/idem-core-functions-1.0.0.tar.gz]
+[2023-06-26 17:46:12] INFO root fetch - main [MainThread]: End processing [idem-core-functions]: success
+[2023-06-26 17:46:13] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_songpicker2-0.2.3.tar.gz]
+[2023-06-26 17:46:13] INFO root fetch - processPackages [nonebot-plugin-songpicker2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_songpicker2-0.2.4.tar.gz]
+[2023-06-26 17:46:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-songpicker2]: success
+[2023-06-26 17:46:13] INFO root fetch - processPackages [opentile]: Remove: archive file [/home/abi/fetcher/tmp/opentile-0.8.1.tar.gz]
+[2023-06-26 17:46:13] INFO root fetch - processPackages [opentile]: Remove: archive file [/home/abi/fetcher/tmp/opentile-0.9.0.tar.gz]
+[2023-06-26 17:46:13] INFO root fetch - main [MainThread]: End processing [opentile]: success
+[2023-06-26 17:46:13] INFO root fetch - processPackages [cyanure]: Remove: archive file [/home/abi/fetcher/tmp/cyanure-1.0.0.tar.gz]
+[2023-06-26 17:46:13] INFO root fetch - processPackages [cyanure]: Remove: archive file [/home/abi/fetcher/tmp/cyanure-1.1.0.tar.gz]
+[2023-06-26 17:46:13] INFO root fetch - main [MainThread]: End processing [cyanure]: success
+[2023-06-26 17:46:13] INFO root fetch - processPackages [azureml-train-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_core-1.8.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:13] INFO root fetch - processPackages [azureml-train-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_train_core-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:13] INFO root fetch - main [MainThread]: End processing [azureml-train-core]: success
+[2023-06-26 17:46:13] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:46:13] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:46:13] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-26 17:46:13] INFO root fetch - processPackages [idem-helm]: Remove: archive file [/home/abi/fetcher/tmp/idem-helm-0.4.0.tar.gz]
+[2023-06-26 17:46:13] INFO root fetch - processPackages [idem-helm]: Remove: archive file [/home/abi/fetcher/tmp/idem-helm-1.0.0.tar.gz]
+[2023-06-26 17:46:13] INFO root fetch - main [MainThread]: End processing [idem-helm]: success
+[2023-06-26 17:46:17] INFO root fetch - processPackages [azureml-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_core-1.9.0-py3-none-any.whl.zip]
+[2023-06-26 17:46:17] INFO root fetch - processPackages [azureml-core]: Remove: archive file [/home/abi/fetcher/tmp/azureml_core-1.9.0.post1-py3-none-any.whl.zip]
+[2023-06-26 17:46:17] INFO root fetch - main [MainThread]: End processing [azureml-core]: success
+[2023-06-26 17:46:46] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.2.0rc2-py3-none-any.whl.zip]
+[2023-06-26 17:46:46] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc1-py3-none-any.whl.zip]
+[2023-06-26 17:46:46] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-06-26 17:46:46] INFO root fetch - main [MainThread]: Store serial: [18649267]
