@@ -9432,3 +9432,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:54:15] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.5.1.tar.gz]
 [2023-06-26 08:54:15] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
 [2023-06-26 08:54:15] INFO root fetch - main [MainThread]: Store serial: [18643090]
+[2023-06-26 08:59:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643090]
+[2023-06-26 08:59:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xw-utils
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csv-to-sql
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gcp
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmem-plugin-kafka
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irene-pro
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: allure-custom
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrdfj2
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: redbrick-sdk
+[2023-06-26 08:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpy-addon-build
+[2023-06-26 08:59:24] WARNING root fetch - processPackages [csv-to-sql]: Skipping, unable to determine old version
+[2023-06-26 08:59:24] INFO root fetch - processPackages [csv-to-sql]: Start processing: sdc-scissor
+[2023-06-26 08:59:24] INFO root fetch - main [MainThread]: End processing [csv-to-sql] error
+[2023-06-26 08:59:24] INFO root fetch - processPackages [cg]: New version: [37.0.1] Old Version: [37.0.0]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [bpy-addon-build]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [allure-custom]: New version: [2023.6.26] Old Version: [2023.6.14]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [pyrdfj2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [cmem-plugin-kafka]: New version: [1.3.1rc1] Old Version: [1.3.0rc1]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [irene-pro]: New version: [0.0.70] Old Version: [0.0.69]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [pulumi-gcp]: New version: [6.9.0a1643146354] Old Version: [6.9.0]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [sdc-scissor]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 08:59:24] INFO root fetch - processPackages [allure-custom]: Downloading https://files.pythonhosted.org/packages/69/5e/cb44d6e6f837ffd4df4408ba29dc95851fa218909a60fbd737a0660ec6c8/allure_custom-2023.6.14.tar.gz
+[2023-06-26 08:59:24] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/bf/31/cc6335693d3d54f17b70b7221bc14e50b23b7f3895391b523cd61ae7a09f/cg-37.0.0.tar.gz
+[2023-06-26 08:59:24] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/8b/97/f787f2d87260cd07ab7388d4c3002d55cab7a4fa7446dba6a2e884751b19/bpy_addon_build-0.1.7.tar.gz
+[2023-06-26 08:59:24] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/49/88/ac92fc37e504da15ede5d713a7d4469bd25032c43f25597481d4d2040394/cmem_plugin_kafka-1.3.0rc1.tar.gz
+[2023-06-26 08:59:24] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f0/d6/483ac32f0f9bbbc11c651b12494bfdfa27bb988ecfa6d6c972c8d5327b7b/irene_pro-0.0.69.tar.gz
+[2023-06-26 08:59:24] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/39/80/dc7084102f17b9bfc0989d45c43808a79888bb2b1ede233fc3c06f239087/redbrick-sdk-2.9.0.tar.gz
+[2023-06-26 08:59:24] INFO root fetch - processPackages [pyrdfj2]: Downloading https://files.pythonhosted.org/packages/10/96/875fd193d623a1b5d25c98e3e89156bfdcaeddfde9c6391e3d8da8b84a37/pyrdfj2-0.0.2.tar.gz
+[2023-06-26 08:59:24] WARNING root fetch - processPackages [allure-custom]: Skipping package: exceeds size limit 20715413>=10485760
+[2023-06-26 08:59:24] INFO root fetch - main [MainThread]: End processing [allure-custom] error
+[2023-06-26 08:59:24] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/03/9b/bb0c0f52cb17eac01abbac01348d951f12bac85014ab1d671932c5579a5b/pulumi_gcp-6.9.0.tar.gz
+[2023-06-26 08:59:24] INFO root fetch - processPackages [sdc-scissor]: Downloading https://files.pythonhosted.org/packages/ec/ef/dd8a95378b7e19ee48eb2c3a31ff2dae6b7dd8393a2fdd2aba04dff65806/sdc_scissor-2.2.0rc1.tar.gz
+[2023-06-26 08:59:25] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-26 08:59:25] INFO root fetch - processPackages [bpy-addon-build]: Downloading https://files.pythonhosted.org/packages/e8/b3/0fd69c2c570925d4f57e802b5c08f2a09561f3b99e57a070bd235ae22532/bpy_addon_build-0.1.8.tar.gz
+[2023-06-26 08:59:25] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/87/c0/ae04c98ee852ae251d2a7668a52292fc1f1f8c60ddd01ee034ebbd532057/cmem_plugin_kafka-1.3.1rc1.tar.gz
+[2023-06-26 08:59:25] INFO root fetch - processPackages [pyrdfj2]: Downloading https://files.pythonhosted.org/packages/e2/44/095149cdd4dcee4a1526252efea0d9f0e34a23dc47b8b463379e63dce51c/pyrdfj2-0.0.3.tar.gz
+[2023-06-26 08:59:25] INFO root fetch - processPackages [bpy-addon-build]: executing diffoscope
+[2023-06-26 08:59:25] INFO root fetch - processPackages [bpy-addon-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpy_addon_build-0.1.7.tar.gz tmp/bpy_addon_build-0.1.8.tar.gz --markdown 20230626/b/bpy-addon-build/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 08:59:25] INFO root fetch - processPackages [cmem-plugin-kafka]: executing diffoscope
+[2023-06-26 08:59:25] INFO root fetch - processPackages [cmem-plugin-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_kafka-1.3.0rc1.tar.gz tmp/cmem_plugin_kafka-1.3.1rc1.tar.gz --markdown 20230626/c/cmem-plugin-kafka/1.3.0rc1-1.3.1rc1/diff.md --exclude *.pyd
+[2023-06-26 08:59:25] INFO root fetch - processPackages [pyrdfj2]: executing diffoscope
+[2023-06-26 08:59:25] INFO root fetch - processPackages [pyrdfj2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrdfj2-0.0.2.tar.gz tmp/pyrdfj2-0.0.3.tar.gz --markdown 20230626/p/pyrdfj2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 08:59:25] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/a7/76/019f7262b8485c21cf169b7845636395b17c40312c8ef76d03c3492c4218/redbrick-sdk-2.9.1.tar.gz
+[2023-06-26 08:59:25] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/39/74/41d1cc3685622f458efd5675d5dac2a2be81a4c87627192c0fd616107756/pulumi_gcp-6.9.0a1643146354.tar.gz
+[2023-06-26 08:59:25] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/22/13/464cf7913a7f142920dbcc1f34238b91ed0e6132e56a4afd967d196ca2a7/irene_pro-0.0.70.tar.gz
+[2023-06-26 08:59:25] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-26 08:59:25] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2023-06-26 08:59:25] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20230626/r/redbrick-sdk/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-26 08:59:25] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/fe/11/5fe924ba312fbef3a57a969ce49fcb23f1697b48c91c2488ffbad35823c6/cg-37.0.1.tar.gz
+[2023-06-26 08:59:25] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-26 08:59:25] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230626/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 08:59:25] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-26 08:59:25] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.69.tar.gz tmp/irene_pro-0.0.70.tar.gz --markdown 20230626/i/irene-pro/0.0.69-0.0.70/diff.md --exclude *.pyd
+[2023-06-26 08:59:25] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2023-06-26 08:59:25] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-6.9.0.tar.gz tmp/pulumi_gcp-6.9.0a1643146354.tar.gz --markdown 20230626/p/pulumi-gcp/6.9.0-6.9.0a1643146354/diff.md --exclude *.pyd
+[2023-06-26 08:59:25] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-26 08:59:25] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.0.0.tar.gz tmp/cg-37.0.1.tar.gz --markdown 20230626/c/cg/37.0.0-37.0.1/diff.md --exclude *.pyd
+[2023-06-26 08:59:26] INFO root fetch - processPackages [sdc-scissor]: Downloading https://files.pythonhosted.org/packages/d8/da/6514fcb0bf2615e42bebb4d0d38fd4711f9fac5c9027aa8be9fe3bdcf41d/sdc_scissor-2.2.0rc2.tar.gz
+[2023-06-26 08:59:26] INFO root fetch - processPackages [sdc-scissor]: executing diffoscope
+[2023-06-26 08:59:26] INFO root fetch - processPackages [sdc-scissor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc_scissor-2.2.0rc1.tar.gz tmp/sdc_scissor-2.2.0rc2.tar.gz --markdown 20230626/s/sdc-scissor/2.2.0rc1-2.2.0rc2/diff.md --exclude *.pyd
+[2023-06-26 08:59:26] INFO root fetch - processPackages [bpy-addon-build]: Remove: archive file [/home/abi/fetcher/tmp/bpy_addon_build-0.1.7.tar.gz]
+[2023-06-26 08:59:26] INFO root fetch - processPackages [bpy-addon-build]: Remove: archive file [/home/abi/fetcher/tmp/bpy_addon_build-0.1.8.tar.gz]
+[2023-06-26 08:59:26] INFO root fetch - main [MainThread]: End processing [bpy-addon-build]: success
+[2023-06-26 08:59:26] INFO root fetch - processPackages [pyrdfj2]: Remove: archive file [/home/abi/fetcher/tmp/pyrdfj2-0.0.2.tar.gz]
+[2023-06-26 08:59:26] INFO root fetch - processPackages [pyrdfj2]: Remove: archive file [/home/abi/fetcher/tmp/pyrdfj2-0.0.3.tar.gz]
+[2023-06-26 08:59:26] INFO root fetch - main [MainThread]: End processing [pyrdfj2]: success
+[2023-06-26 08:59:27] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-1.3.0rc1.tar.gz]
+[2023-06-26 08:59:27] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-1.3.1rc1.tar.gz]
+[2023-06-26 08:59:27] INFO root fetch - main [MainThread]: End processing [cmem-plugin-kafka]: success
+[2023-06-26 08:59:27] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 08:59:27] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 08:59:27] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-26 08:59:27] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.69.tar.gz]
+[2023-06-26 08:59:27] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.70.tar.gz]
+[2023-06-26 08:59:27] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-26 08:59:29] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.0.tar.gz]
+[2023-06-26 08:59:29] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
+[2023-06-26 08:59:29] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2023-06-26 08:59:29] INFO root fetch - processPackages [sdc-scissor]: Remove: archive file [/home/abi/fetcher/tmp/sdc_scissor-2.2.0rc1.tar.gz]
+[2023-06-26 08:59:29] INFO root fetch - processPackages [sdc-scissor]: Remove: archive file [/home/abi/fetcher/tmp/sdc_scissor-2.2.0rc2.tar.gz]
+[2023-06-26 08:59:29] INFO root fetch - main [MainThread]: End processing [sdc-scissor]: success
+[2023-06-26 08:59:38] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0.tar.gz]
+[2023-06-26 08:59:38] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
+[2023-06-26 08:59:38] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2023-06-26 08:59:39] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.0.tar.gz]
+[2023-06-26 08:59:39] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.0.1.tar.gz]
+[2023-06-26 08:59:39] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-26 08:59:39] INFO root fetch - main [MainThread]: Store serial: [18643159]
