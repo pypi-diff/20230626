@@ -8847,3 +8847,221 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:22:31] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-26 08:22:31] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-26 08:22:31] INFO root fetch - main [MainThread]: Store serial: [18642836]
+[2023-06-26 08:27:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642836]
+[2023-06-26 08:27:40] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparrow-python
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transcriptorthology
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cloudformation-awscommunity-time-sleep
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-cloudformation-awscommunity-dynamodb-item
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-starter
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rid-kit
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-cloudformation-awscommunity-s3-bucket-module
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkTestCase
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-cloudformation-awscommunity-time-offset
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-sleep]: New version: [1.4.0a7] Old Version: [1.3.0a7]
+[2023-06-26 08:27:40] WARNING root fetch - processPackages [mkTestCase]: Skipping, unable to determine old version
+[2023-06-26 08:27:40] INFO root fetch - processPackages [mkTestCase]: Start processing: dank-mids
+[2023-06-26 08:27:40] INFO root fetch - main [MainThread]: End processing [mkTestCase] error
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ml-starter]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-26 08:27:40] INFO root fetch - processPackages [transcriptorthology]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-dynamodb-item]: New version: [1.5.0a7] Old Version: [1.4.0a7]
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction]: New version: [1.4.0a7] Old Version: [1.3.0a7]
+[2023-06-26 08:27:40] INFO root fetch - processPackages [sparrow-python]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-26 08:27:40] INFO root fetch - processPackages [rid-kit]: New version: [0.4.0] Old Version: [0.2.1]
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-bucket-module]: New version: [1.9.0a7] Old Version: [1.8.0a7]
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-offset]: New version: [1.4.0a7] Old Version: [1.3.0a7]
+[2023-06-26 08:27:40] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-26 08:27:40] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/8c/58/86465a837af20c1c06e74c5ab74bc954e520f4d66259f1f68d54e08d950c/transcriptorthology-2.0.5.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/b8/46/39746bc1a30bf8f191f2a6464a8bf447abdce6c21b62c584b34f553c43e7/ml-starter-0.1.6.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-sleep]: Downloading https://files.pythonhosted.org/packages/8c/e0/5b76ba8ba9ce1bd2fa6349cd328ae8582e15864e84c951503130df8f6cd8/cdk-cloudformation-awscommunity-time-sleep-1.3.0a7.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/08/1f/23a34713522d8dd071ca8b450d798df93a2194b1c455a455a2431026094f/rid_kit-0.2.1-py3-none-any.whl
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-dynamodb-item]: Downloading https://files.pythonhosted.org/packages/44/33/f8ac7cfb9303987ea7eccbcadf523bd82f5d4486e3febb0fe396f83da04f/cdk-cloudformation-awscommunity-dynamodb-item-1.4.0a7.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-bucket-module]: Downloading https://files.pythonhosted.org/packages/81/8d/854e2bce82058409d8bca7c1a70dc6f51bb022bc07e647de26cd0e77f6de/cdk-cloudformation-awscommunity-s3-bucket-module-1.8.0a7.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction]: Downloading https://files.pythonhosted.org/packages/af/8c/2a89a8ee1eca4992cd3e431cee8694bba86f677e3640a77e33a104de9afb/cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction-1.3.0a7.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-offset]: Downloading https://files.pythonhosted.org/packages/bc/15/9f53048fb85c0ab850cb85762b19fc4e8e7611857ab7e1baf5f8412fcffa/cdk-cloudformation-awscommunity-time-offset-1.3.0a7.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [sparrow-python]: Downloading https://files.pythonhosted.org/packages/ce/d8/b6c5e361f16dd9342c477d69f0be0962714a3555e48fdbf053fe17a9f805/sparrow_python-0.1.4.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [transcriptorthology]: Downloading https://files.pythonhosted.org/packages/fb/76/4841a9591d3df28cb5323480bd8108fb86c2a577ab768c12f3d4908fd9fa/transcriptorthology-2.0.6.tar.gz
+[2023-06-26 08:27:40] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-26 08:27:40] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230626/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-sleep]: Downloading https://files.pythonhosted.org/packages/75/da/904d4094607ffb7d9a14ad9fef3d56c5bfa82d589e9746679038638b3f5b/cdk-cloudformation-awscommunity-time-sleep-1.4.0a7.tar.gz
+[2023-06-26 08:27:41] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/36/97/7e86934f9759a1b9b39090aae8ed3b490bca7a781fb47e5750b5cd66c411/ml-starter-0.1.7.tar.gz
+[2023-06-26 08:27:41] INFO root fetch - processPackages [transcriptorthology]: executing diffoscope
+[2023-06-26 08:27:41] INFO root fetch - processPackages [transcriptorthology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcriptorthology-2.0.5.tar.gz tmp/transcriptorthology-2.0.6.tar.gz --markdown 20230626/t/transcriptorthology/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction]: Downloading https://files.pythonhosted.org/packages/bd/8f/7112097a071d1d6d961b899f3f2edf1000488233533a51a4336c87503a7c/cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction-1.4.0a7.tar.gz
+[2023-06-26 08:27:41] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/49/7a/29fbd2eb6848becd8688461efdb5d2676862f89cc352d48415ed5e301e4c/rid-kit-0.4.0.tar.gz
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-bucket-module]: Downloading https://files.pythonhosted.org/packages/bf/3a/32de302e7d39a398f10b36d4ac7885469b1a1929bf043e7cdadabbe68780/cdk-cloudformation-awscommunity-s3-bucket-module-1.9.0a7.tar.gz
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-sleep]: executing diffoscope
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-sleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-awscommunity-time-sleep-1.3.0a7.tar.gz tmp/cdk-cloudformation-awscommunity-time-sleep-1.4.0a7.tar.gz --markdown 20230626/c/cdk-cloudformation-awscommunity-time-sleep/1.3.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-dynamodb-item]: Downloading https://files.pythonhosted.org/packages/21/c4/186c624d82ba68e1f4ed10d78bbee2ba8e92f6b40aa0e16028a550cc0ecb/cdk-cloudformation-awscommunity-dynamodb-item-1.5.0a7.tar.gz
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction]: executing diffoscope
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction-1.3.0a7.tar.gz tmp/cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction-1.4.0a7.tar.gz --markdown 20230626/c/cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction/1.3.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-offset]: Downloading https://files.pythonhosted.org/packages/0e/01/6d4a1e8d009c24617e9f9015bf9369637ad17c9d830fbcb386d225d37798/cdk-cloudformation-awscommunity-time-offset-1.4.0a7.tar.gz
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-bucket-module]: executing diffoscope
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-bucket-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-awscommunity-s3-bucket-module-1.8.0a7.tar.gz tmp/cdk-cloudformation-awscommunity-s3-bucket-module-1.9.0a7.tar.gz --markdown 20230626/c/cdk-cloudformation-awscommunity-s3-bucket-module/1.8.0a7-1.9.0a7/diff.md --exclude *.pyd
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-dynamodb-item]: executing diffoscope
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-dynamodb-item]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-awscommunity-dynamodb-item-1.4.0a7.tar.gz tmp/cdk-cloudformation-awscommunity-dynamodb-item-1.5.0a7.tar.gz --markdown 20230626/c/cdk-cloudformation-awscommunity-dynamodb-item/1.4.0a7-1.5.0a7/diff.md --exclude *.pyd
+[2023-06-26 08:27:41] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-26 08:27:41] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.6.tar.gz tmp/ml-starter-0.1.7.tar.gz --markdown 20230626/m/ml-starter/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-offset]: executing diffoscope
+[2023-06-26 08:27:41] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-offset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-awscommunity-time-offset-1.3.0a7.tar.gz tmp/cdk-cloudformation-awscommunity-time-offset-1.4.0a7.tar.gz --markdown 20230626/c/cdk-cloudformation-awscommunity-time-offset/1.3.0a7-1.4.0a7/diff.md --exclude *.pyd
+[2023-06-26 08:27:41] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2023-06-26 08:27:41] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid_kit-0.2.1-py3-none-any.whl.zip tmp/rid-kit-0.4.0.tar.gz --markdown 20230626/r/rid-kit/0.2.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-26 08:27:41] INFO root fetch - processPackages [sparrow-python]: Downloading https://files.pythonhosted.org/packages/2e/be/70804c15b91df1f5753af363ca0e03774d2df2b121222526361cf6534daa/sparrow_python-0.1.5.tar.gz
+[2023-06-26 08:27:41] INFO root fetch - processPackages [sparrow-python]: executing diffoscope
+[2023-06-26 08:27:41] INFO root fetch - processPackages [sparrow-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow_python-0.1.4.tar.gz tmp/sparrow_python-0.1.5.tar.gz --markdown 20230626/s/sparrow-python/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-26 08:27:42] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-2.0.5.tar.gz]
+[2023-06-26 08:27:42] INFO root fetch - processPackages [transcriptorthology]: Remove: archive file [/home/abi/fetcher/tmp/transcriptorthology-2.0.6.tar.gz]
+[2023-06-26 08:27:42] INFO root fetch - processPackages [transcriptorthology]: Start processing: pretext
+[2023-06-26 08:27:42] INFO root fetch - main [MainThread]: End processing [transcriptorthology]: success
+[2023-06-26 08:27:42] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230626] Old Version: [1.6.1.dev20230625]
+[2023-06-26 08:27:42] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/d1/53/d43fa49b5749794ccb01eba2408565fcca00028bcf16f45b3759a7fca86f/pretext-1.6.1.dev20230625.tar.gz
+[2023-06-26 08:27:42] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-26 08:27:42] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-26 08:27:42] INFO root fetch - processPackages [dank-mids]: Start processing: th2-grpc-common
+[2023-06-26 08:27:42] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-26 08:27:42] INFO root fetch - processPackages [th2-grpc-common]: New version: [4.3.0.dev5374522280] Old Version: [4.3.0.dev5346797023]
+[2023-06-26 08:27:42] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/04/e5/7a9f12529aa1e0ec32dbadee8628ea9479f1736778f89b568106ee07a4a5/pretext-1.6.1.dev20230626.tar.gz
+[2023-06-26 08:27:43] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/45/46/d51ab7c52d9ebde0e4113a2538884f19aa53b65e6064a3ddac41f3f15295/th2_grpc_common-4.3.0.dev5346797023.tar.gz
+[2023-06-26 08:27:43] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/68/1d/2c7ad500974ad3c66ff11c147d61349bdd6ad074a18e414c95679f99a659/th2_grpc_common-4.3.0.dev5374522280.tar.gz
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-sleep]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-time-sleep-1.3.0a7.tar.gz]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-sleep]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-time-sleep-1.4.0a7.tar.gz]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-sleep]: Start processing: pyrew
+[2023-06-26 08:27:43] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-time-sleep]: success
+[2023-06-26 08:27:43] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-bucket-module]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-s3-bucket-module-1.8.0a7.tar.gz]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-bucket-module]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-s3-bucket-module-1.9.0a7.tar.gz]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-s3-bucket-module]: Start processing: pulumi-rke
+[2023-06-26 08:27:43] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-s3-bucket-module]: success
+[2023-06-26 08:27:43] INFO root fetch - processPackages [th2-grpc-common]: executing diffoscope
+[2023-06-26 08:27:43] INFO root fetch - processPackages [th2-grpc-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_common-4.3.0.dev5346797023.tar.gz tmp/th2_grpc_common-4.3.0.dev5374522280.tar.gz --markdown 20230626/t/th2-grpc-common/4.3.0.dev5346797023-4.3.0.dev5374522280/diff.md --exclude *.pyd
+[2023-06-26 08:27:43] INFO root fetch - processPackages [pulumi-rke]: New version: [3.3.0a1687758532] Old Version: [3.3.0a1687057109]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-26 08:27:43] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230625.tar.gz tmp/pretext-1.6.1.dev20230626.tar.gz --markdown 20230626/p/pretext/1.6.1.dev20230625-1.6.1.dev20230626/diff.md --exclude *.pyd
+[2023-06-26 08:27:43] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/64/69/8159a7dcf005a9e264127de535734128c82ba83ccbda77bb9d314ab042c4/pyrew-0.9.2.tar.gz
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction-1.3.0a7.tar.gz]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction-1.4.0a7.tar.gz]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction]: Start processing: rid-kit
+[2023-06-26 08:27:43] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-applicationautoscaling-scheduledaction]: success
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-dynamodb-item]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-dynamodb-item-1.4.0a7.tar.gz]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-dynamodb-item]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-dynamodb-item-1.5.0a7.tar.gz]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-dynamodb-item]: Start processing: newcaclculator
+[2023-06-26 08:27:43] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-dynamodb-item]: success
+[2023-06-26 08:27:43] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/05/6a/57e3855bc67ba118f704a19e15eb35d1f6edd7917bfbe297b68f97214d06/pulumi_rke-3.3.0a1687057109.tar.gz
+[2023-06-26 08:27:43] INFO root fetch - processPackages [rid-kit]: New version: [0.4.0] Old Version: [0.2.1]
+[2023-06-26 08:27:43] WARNING root fetch - processPackages [newcaclculator]: Skipping, unable to determine old version
+[2023-06-26 08:27:43] INFO root fetch - processPackages [newcaclculator]: Start processing: ilsadvbisnvavojebaij
+[2023-06-26 08:27:43] INFO root fetch - main [MainThread]: End processing [newcaclculator] error
+[2023-06-26 08:27:43] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 08:27:43] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/5f/d8/b2aead5fe934ff2e16c9321f31bfaa16a5ccce0bdbbfc70e97d52ea67a08/ilsadvbisnvavojebaij-0.1.1.tar.gz
+[2023-06-26 08:27:43] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2023-06-26 08:27:43] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid_kit-0.2.1-py3-none-any.whl.zip tmp/rid-kit-0.4.0.tar.gz --markdown 20230626/r/rid-kit/0.2.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-26 08:27:43] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/fa/f3/b1f7581fa7f9a3164b7d61b123316b735e87ce91ced1890d88dab5f5981e/pulumi_rke-3.3.0a1687758532.tar.gz
+[2023-06-26 08:27:43] INFO root fetch - processPackages [pyrew]: Downloading https://files.pythonhosted.org/packages/25/f4/85ad85fa368ea3c50f78e6e1c9a087d9bb4ab751750c8f47ff390f1ada6c/pyrew-0.9.3.tar.gz
+[2023-06-26 08:27:44] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2023-06-26 08:27:44] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.3.0a1687057109.tar.gz tmp/pulumi_rke-3.3.0a1687758532.tar.gz --markdown 20230626/p/pulumi-rke/3.3.0a1687057109-3.3.0a1687758532/diff.md --exclude *.pyd
+[2023-06-26 08:27:44] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-offset]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-time-offset-1.3.0a7.tar.gz]
+[2023-06-26 08:27:44] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-offset]: Remove: archive file [/home/abi/fetcher/tmp/cdk-cloudformation-awscommunity-time-offset-1.4.0a7.tar.gz]
+[2023-06-26 08:27:44] INFO root fetch - processPackages [cdk-cloudformation-awscommunity-time-offset]: Start processing: odoo-addon-account-asset-management
+[2023-06-26 08:27:44] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-awscommunity-time-offset]: success
+[2023-06-26 08:27:44] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.9]
+[2023-06-26 08:27:44] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.6.tar.gz]
+[2023-06-26 08:27:44] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-06-26 08:27:44] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230626/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-26 08:27:44] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.7.tar.gz]
+[2023-06-26 08:27:44] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-26 08:27:44] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/b7/8d/331f5f2f4de92e704ed6acb8a742d7d4706095ff2946d5386ab60993c394/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-26 08:27:44] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Downloading https://files.pythonhosted.org/packages/17/9d/fba399bd609622afaef85af08ba415429a4c3dfcaa0661b445b0c741c7c6/ilsadvbisnvavojebaij-0.1.2.tar.gz
+[2023-06-26 08:27:44] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: executing diffoscope
+[2023-06-26 08:27:44] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilsadvbisnvavojebaij-0.1.1.tar.gz tmp/ilsadvbisnvavojebaij-0.1.2.tar.gz --markdown 20230626/i/ilsadvbisnvavojebaij/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 08:27:44] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/b9/0d/42edcff8008d67c72f57563f5b66eb8fb34b3e2d0588de546645007d058e/odoo_addon_account_asset_management-16.0.1.0.1-py3-none-any.whl
+[2023-06-26 08:27:44] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2023-06-26 08:27:44] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-account-asset-management/16.0.1.0.0.9-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-26 08:27:45] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.3.0.dev5346797023.tar.gz]
+[2023-06-26 08:27:45] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.3.0.dev5374522280.tar.gz]
+[2023-06-26 08:27:45] INFO root fetch - main [MainThread]: End processing [th2-grpc-common]: success
+[2023-06-26 08:27:46] INFO root fetch - processPackages [pyrew]: Remove: archive file [/home/abi/fetcher/tmp/pyrew-0.9.2.tar.gz]
+[2023-06-26 08:27:46] INFO root fetch - processPackages [pyrew]: Remove: archive file [/home/abi/fetcher/tmp/pyrew-0.9.3.tar.gz]
+[2023-06-26 08:27:46] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-06-26 08:27:46] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1687057109.tar.gz]
+[2023-06-26 08:27:46] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1687758532.tar.gz]
+[2023-06-26 08:27:46] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2023-06-26 08:27:46] INFO root fetch - processPackages [sparrow-python]: Remove: archive file [/home/abi/fetcher/tmp/sparrow_python-0.1.4.tar.gz]
+[2023-06-26 08:27:46] INFO root fetch - processPackages [sparrow-python]: Remove: archive file [/home/abi/fetcher/tmp/sparrow_python-0.1.5.tar.gz]
+[2023-06-26 08:27:46] INFO root fetch - main [MainThread]: End processing [sparrow-python]: success
+[2023-06-26 08:27:46] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.1.1.tar.gz]
+[2023-06-26 08:27:46] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Remove: archive file [/home/abi/fetcher/tmp/ilsadvbisnvavojebaij-0.1.2.tar.gz]
+[2023-06-26 08:27:46] INFO root fetch - main [MainThread]: End processing [ilsadvbisnvavojebaij]: success
+[2023-06-26 08:27:46] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid_kit-0.2.1-py3-none-any.whl.zip]
+[2023-06-26 08:27:46] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.4.0.tar.gz]
+[2023-06-26 08:27:46] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
+[2023-06-26 08:27:47] ERROR root fetch - processPackages [rid-kit]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 235, in compare
+    details = self.compare_bytes(other, source=source)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-26 08:27:47] INFO root fetch - main [MainThread]: End processing [rid-kit] error
+[2023-06-26 08:27:51] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230625.tar.gz]
+[2023-06-26 08:27:51] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230626.tar.gz]
+[2023-06-26 08:27:51] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-26 08:27:51] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-26 08:27:51] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-26 08:27:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2023-06-26 08:27:51] INFO root fetch - main [MainThread]: Store serial: [18642892]
