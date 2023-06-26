@@ -20669,3 +20669,202 @@ EOFError: EOF read where object expected
 [2023-06-26 16:18:50] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.15.6.tar.gz]
 [2023-06-26 16:18:50] INFO root fetch - main [MainThread]: End processing [typos]: success
 [2023-06-26 16:18:50] INFO root fetch - main [MainThread]: Store serial: [18648104]
+[2023-06-26 16:23:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648104]
+[2023-06-26 16:23:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-useful
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tika-client
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semgrep
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pympipool
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mauth-client
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vcrpy
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: priceloop-api
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: priceloop-api
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: error-parity
+[2023-06-26 16:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vss-cli
+[2023-06-26 16:23:59] INFO root fetch - processPackages [flask-useful]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [pympipool]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [tika-client]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [error-parity]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [mauth-client]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [vcrpy]: New version: [4.4.0] Old Version: [4.3.1]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [vss-cli]: New version: [2023.6.1.dev3] Old Version: [2023.6.1.dev2]
+[2023-06-26 16:23:59] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/bc/7f/fed47dda45fe556e9b58d4a6bcf685535b8a5ae0b6230a47a1e28d1030e0/pympipool-0.5.0.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [vss-cli]: Downloading https://files.pythonhosted.org/packages/2a/97/f175882f22f6351d6347bfd93da9e1f2587537840822ffa77f9c29a191e9/vss-cli-2023.6.1.dev2.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [vcrpy]: Downloading https://files.pythonhosted.org/packages/5a/d2/07e523cf0532eaee956f40ec17fde9b7f41827f5deaac0d38db5fb10af18/vcrpy-4.3.1.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [flask-useful]: Downloading https://files.pythonhosted.org/packages/b3/43/0a2719992fa173e5c4470879e9af42e766a1d38539bcbb237a3c25aca76a/flask-useful-0.2.5.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/e8/01/19545ddda759ac5490b06824be79cc94ba77a16ead929171b99d0a246bad/semgrep-1.8.0.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/27/74/26e3c63c96a0745f7d2609c34bf8246d471d76f4339e8bafbe2baa19c80f/error-parity-0.1.3.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [tika-client]: Downloading https://files.pythonhosted.org/packages/0f/00/7dcd6724dc11f9a38839e7c919e1b06b967ff0a0a8e8505251d90a9a2e18/tika_client-0.1.1.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [mauth-client]: Downloading https://files.pythonhosted.org/packages/70/40/078927fddaa3695da3921ea3e4d4e4c396e895fb4cbbd97666d4317c4c7a/mauth_client-1.5.1.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-06-26 16:23:59] INFO root fetch - processPackages [vss-cli]: Downloading https://files.pythonhosted.org/packages/03/34/10a84b364ef7638a24f1d65d20081d03e9bb53ac796a291d57ebfcd718de/vss-cli-2023.6.1.dev3.tar.gz
+[2023-06-26 16:24:00] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/ea/76/b878a4212a3731a65c4ee077bdceebee4864b6690fcc63fbbfc468b27a98/pympipool-0.5.1.tar.gz
+[2023-06-26 16:24:00] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230626/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-06-26 16:24:00] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230626/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-06-26 16:24:00] INFO root fetch - processPackages [vss-cli]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [vss-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vss-cli-2023.6.1.dev2.tar.gz tmp/vss-cli-2023.6.1.dev3.tar.gz --markdown 20230626/v/vss-cli/2023.6.1.dev2-2023.6.1.dev3/diff.md --exclude *.pyd
+[2023-06-26 16:24:00] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.5.0.tar.gz tmp/pympipool-0.5.1.tar.gz --markdown 20230626/p/pympipool/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 16:24:00] INFO root fetch - processPackages [flask-useful]: Downloading https://files.pythonhosted.org/packages/f0/b3/6b843065fa2673e1db6c1f9c8d71090b9ab5e0d1b2187efdedd826b13893/flask-useful-0.2.6.tar.gz
+[2023-06-26 16:24:00] INFO root fetch - processPackages [vcrpy]: Downloading https://files.pythonhosted.org/packages/5f/03/d22af9c60b8e7e48cefb491b74b1eec46a3df071f4d024c159393a34690e/vcrpy-4.4.0.tar.gz
+[2023-06-26 16:24:00] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/b0/8f/052f8daf8c20f65afe95cb9f9ed12d31f0fa6cbc0e74725f6d54ebda2f16/error-parity-0.1.4.tar.gz
+[2023-06-26 16:24:00] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/36/c5/83e730de608ee46ac2e59871a9d5b8ab500f02215a25a3ed6300916d796f/semgrep-1.9.0.tar.gz
+[2023-06-26 16:24:00] INFO root fetch - processPackages [flask-useful]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [flask-useful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-useful-0.2.5.tar.gz tmp/flask-useful-0.2.6.tar.gz --markdown 20230626/f/flask-useful/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-26 16:24:00] INFO root fetch - processPackages [vcrpy]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [vcrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcrpy-4.3.1.tar.gz tmp/vcrpy-4.4.0.tar.gz --markdown 20230626/v/vcrpy/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2023-06-26 16:24:00] INFO root fetch - processPackages [mauth-client]: Downloading https://files.pythonhosted.org/packages/9d/39/6a162dd7a1822f76225d3369b4ee124a4f091adf9fe5ba903615a155fa41/mauth_client-1.6.0.tar.gz
+[2023-06-26 16:24:00] INFO root fetch - processPackages [error-parity]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [error-parity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-parity-0.1.3.tar.gz tmp/error-parity-0.1.4.tar.gz --markdown 20230626/e/error-parity/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-26 16:24:00] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20230626/s/semgrep/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-26 16:24:00] INFO root fetch - processPackages [mauth-client]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [mauth-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mauth_client-1.5.1.tar.gz tmp/mauth_client-1.6.0.tar.gz --markdown 20230626/m/mauth-client/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-26 16:24:00] INFO root fetch - processPackages [tika-client]: Downloading https://files.pythonhosted.org/packages/22/80/6e7827885f5dca789c1e742e5226da588e77b7dfe66aa65e653cb2ee9a42/tika_client-0.2.0.tar.gz
+[2023-06-26 16:24:00] INFO root fetch - processPackages [tika-client]: executing diffoscope
+[2023-06-26 16:24:00] INFO root fetch - processPackages [tika-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tika_client-0.1.1.tar.gz tmp/tika_client-0.2.0.tar.gz --markdown 20230626/t/tika-client/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 16:24:01] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.0.tar.gz]
+[2023-06-26 16:24:01] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.5.1.tar.gz]
+[2023-06-26 16:24:01] INFO root fetch - processPackages [pympipool]: Start processing: xia-sendinblue
+[2023-06-26 16:24:01] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2023-06-26 16:24:01] WARNING root fetch - processPackages [xia-sendinblue]: Skipping, unable to determine old version
+[2023-06-26 16:24:01] INFO root fetch - processPackages [xia-sendinblue]: Start processing: coiled
+[2023-06-26 16:24:01] INFO root fetch - main [MainThread]: End processing [xia-sendinblue] error
+[2023-06-26 16:24:01] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-26 16:24:02] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.95.0.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.97.0.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - processPackages [priceloop-api]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-06-26 16:24:02] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-06-26 16:24:02] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-26 16:24:02] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.28.0.dev20230623] Old Version: [1.28.0.dev20230622]
+[2023-06-26 16:24:02] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.1.3.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.1.4.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - main [MainThread]: End processing [error-parity]: success
+[2023-06-26 16:24:02] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/4c/fc/e78fe2e2b0074812d90169fc551e999006d16b894ae687486ef63145df2f/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230622.tar.gz
+[2023-06-26 16:24:02] INFO root fetch - processPackages [mauth-client]: Remove: archive file [/home/abi/fetcher/tmp/mauth_client-1.5.1.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - processPackages [mauth-client]: Remove: archive file [/home/abi/fetcher/tmp/mauth_client-1.6.0.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - main [MainThread]: End processing [mauth-client]: success
+[2023-06-26 16:24:02] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/1f/62/59b7a4f20c4556c7d5a0b7c6d1e4727f2c169543783955d4ef47e79e9818/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230623.tar.gz
+[2023-06-26 16:24:02] INFO root fetch - processPackages [vcrpy]: Remove: archive file [/home/abi/fetcher/tmp/vcrpy-4.3.1.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - processPackages [vcrpy]: Remove: archive file [/home/abi/fetcher/tmp/vcrpy-4.4.0.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - main [MainThread]: End processing [vcrpy]: success
+[2023-06-26 16:24:02] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-06-26 16:24:02] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230622.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230623.tar.gz --markdown 20230626/n/nvidia-dali-tf-plugin-nightly-cuda120/1.28.0.dev20230622-1.28.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-26 16:24:02] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-26 16:24:02] ERROR root fetch - processPackages [priceloop-api]: Diffoscope failed: gzip: tmp/priceloop-api-0.97.0.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/priceloop-api-0.97.0.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-26 16:24:02] INFO root fetch - main [MainThread]: End processing [priceloop-api] error
+[2023-06-26 16:24:02] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-26 16:24:02] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230626/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-26 16:24:02] INFO root fetch - processPackages [flask-useful]: Remove: archive file [/home/abi/fetcher/tmp/flask-useful-0.2.5.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - processPackages [flask-useful]: Remove: archive file [/home/abi/fetcher/tmp/flask-useful-0.2.6.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - main [MainThread]: End processing [flask-useful]: success
+[2023-06-26 16:24:02] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.8.0.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
+[2023-06-26 16:24:02] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2023-06-26 16:24:03] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230622.tar.gz]
+[2023-06-26 16:24:03] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230623.tar.gz]
+[2023-06-26 16:24:03] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-06-26 16:24:03] INFO root fetch - processPackages [vss-cli]: Remove: archive file [/home/abi/fetcher/tmp/vss-cli-2023.6.1.dev2.tar.gz]
+[2023-06-26 16:24:03] INFO root fetch - processPackages [vss-cli]: Remove: archive file [/home/abi/fetcher/tmp/vss-cli-2023.6.1.dev3.tar.gz]
+[2023-06-26 16:24:03] INFO root fetch - main [MainThread]: End processing [vss-cli]: success
+[2023-06-26 16:24:03] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-26 16:24:03] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-26 16:24:03] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-26 16:24:04] INFO root fetch - processPackages [tika-client]: Remove: archive file [/home/abi/fetcher/tmp/tika_client-0.1.1.tar.gz]
+[2023-06-26 16:24:04] INFO root fetch - processPackages [tika-client]: Remove: archive file [/home/abi/fetcher/tmp/tika_client-0.2.0.tar.gz]
+[2023-06-26 16:24:04] INFO root fetch - main [MainThread]: End processing [tika-client]: success
+[2023-06-26 16:24:04] INFO root fetch - main [MainThread]: Store serial: [18648178]
