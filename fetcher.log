@@ -22106,3 +22106,150 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:07:42] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-26 17:07:42] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-06-26 17:07:42] INFO root fetch - main [MainThread]: Store serial: [18648684]
+[2023-06-26 17:12:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648684]
+[2023-06-26 17:12:52] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datapusher-plus
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codercore
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gh-utils
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: querysource
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatgpt-functions
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voicemeeter-compact
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colored
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PennyLane-Lightning
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FuncsForSPO
+[2023-06-26 17:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CurrencyConverter
+[2023-06-26 17:12:52] INFO root fetch - processPackages [codercore]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [chatgpt-functions]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [gh-utils]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [datapusher-plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [voicemeeter-compact]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [colored]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [FuncsForSPO]: New version: [6.1.5] Old Version: [6.1.4]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [PennyLane-Lightning]: New version: [0.31.0] Old Version: [0.30.0]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:12:52] INFO root fetch - processPackages [gh-utils]: Downloading https://files.pythonhosted.org/packages/4a/59/4dd50ea91a86bf7baab7a6cc3503d88afd9e38d36ac7490f93c3497e79b4/gh_utils-0.6.7.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [datapusher-plus]: Downloading https://files.pythonhosted.org/packages/9f/68/397cd9810ab6732196e43b9478bb03405933602ff7a64c725dce6081e908/datapusher-plus-0.8.0.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/82/76/f335e9271ddcd6861c5083d7292bf4676a6d9259f477d6724ede2258f166/chatgpt_functions-0.0.4.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/b0/0d/edc6c17dc1d695b02dad323c753ca8ffc28b0ff1d1c2409f0674d71273b7/voicemeeter-compact-1.7.0.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/7b/a5/11470ea2d3f06aadc164319d32694915998caa33e3dfdf6370d4644750ab/FuncsForSPO-6.1.4.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [CurrencyConverter]: New version: [0.8.1] Old Version: [0.8]
+[2023-06-26 17:12:52] INFO root fetch - processPackages [colored]: Downloading https://files.pythonhosted.org/packages/8b/59/95fc71d0186b2ea57434f9bcc84bcd770fc488a921a7ca976f93b352eccd/colored-2.2.1.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:12:52] INFO root fetch - processPackages [codercore]: Downloading https://files.pythonhosted.org/packages/e7/4b/350656a549433c2655f283df8baab3e896b5850d216a61d89370d37e6453/codercore-2.2.0.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [datapusher-plus]: Downloading https://files.pythonhosted.org/packages/ee/ac/dec6609d2262650af59bb62a83a943cd36d1336a5daf933fe093085afa86/datapusher-plus-0.9.0.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [PennyLane-Lightning]: Downloading https://files.pythonhosted.org/packages/60/37/5f96dfc2d9cf01255aad9ece197b74f06064f2d1f0c10a6b47cf23d2af43/PennyLane-Lightning-0.30.0.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-26 17:12:52] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230626/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-26 17:12:52] INFO root fetch - processPackages [datapusher-plus]: executing diffoscope
+[2023-06-26 17:12:52] INFO root fetch - processPackages [datapusher-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapusher-plus-0.8.0.tar.gz tmp/datapusher-plus-0.9.0.tar.gz --markdown 20230626/d/datapusher-plus/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:12:52] INFO root fetch - processPackages [gh-utils]: Downloading https://files.pythonhosted.org/packages/1d/5d/9f71d935427481dd3f100396b9154efe1824551cee6c781ba4562fa77f06/gh_utils-0.6.8.tar.gz
+[2023-06-26 17:12:52] INFO root fetch - processPackages [CurrencyConverter]: Downloading https://files.pythonhosted.org/packages/5e/35/27a75584061a306b667745d40c3fd563c48adeff2a40d861a8681d789037/CurrencyConverter-0.8.tar.gz
+[2023-06-26 17:12:53] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/7e/08/eb5050105d5d78870a91777c5ffd08ce67d06e80300145740c667c48e2e2/voicemeeter-compact-1.7.1.tar.gz
+[2023-06-26 17:12:53] INFO root fetch - processPackages [colored]: Downloading https://files.pythonhosted.org/packages/11/87/e696653820d8845a791b0d72dd5a7cae6f9fd3466df64208ed08a3d70fed/colored-2.2.2.tar.gz
+[2023-06-26 17:12:53] INFO root fetch - processPackages [chatgpt-functions]: Downloading https://files.pythonhosted.org/packages/da/cd/153122090a56edfdf84c6892058bd8f383f94c9d8b2f7fea87b95fe36019/chatgpt_functions-0.0.5.tar.gz
+[2023-06-26 17:12:53] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/58/e7/42eee608f10e456a47362a7c6ac7b3a20265c3e1b3bd0f8d51af38f352da/FuncsForSPO-6.1.5.tar.gz
+[2023-06-26 17:12:53] INFO root fetch - processPackages [voicemeeter-compact]: executing diffoscope
+[2023-06-26 17:12:53] INFO root fetch - processPackages [voicemeeter-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter-compact-1.7.0.tar.gz tmp/voicemeeter-compact-1.7.1.tar.gz --markdown 20230626/v/voicemeeter-compact/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-26 17:12:53] INFO root fetch - processPackages [colored]: executing diffoscope
+[2023-06-26 17:12:53] INFO root fetch - processPackages [colored]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colored-2.2.1.tar.gz tmp/colored-2.2.2.tar.gz --markdown 20230626/c/colored/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-06-26 17:12:53] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-26 17:12:53] INFO root fetch - processPackages [chatgpt-functions]: executing diffoscope
+[2023-06-26 17:12:53] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-6.1.4.tar.gz tmp/FuncsForSPO-6.1.5.tar.gz --markdown 20230626/F/FuncsForSPO/6.1.4-6.1.5/diff.md --exclude *.pyd
+[2023-06-26 17:12:53] INFO root fetch - processPackages [chatgpt-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_functions-0.0.4.tar.gz tmp/chatgpt_functions-0.0.5.tar.gz --markdown 20230626/c/chatgpt-functions/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 17:12:53] INFO root fetch - processPackages [gh-utils]: executing diffoscope
+[2023-06-26 17:12:53] INFO root fetch - processPackages [gh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_utils-0.6.7.tar.gz tmp/gh_utils-0.6.8.tar.gz --markdown 20230626/g/gh-utils/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-06-26 17:12:53] INFO root fetch - processPackages [PennyLane-Lightning]: Downloading https://files.pythonhosted.org/packages/12/98/fbcc98af988c4fdc2d4b01fe383f846caaebb309404c66f1c8f24a12b001/PennyLane-Lightning-0.31.0.tar.gz
+[2023-06-26 17:12:53] INFO root fetch - processPackages [codercore]: Downloading https://files.pythonhosted.org/packages/88/ef/16d71c1ac18c5139d8c985bb2e3a4064ab243bcc571a6f75d6b913064463/codercore-2.3.0.tar.gz
+[2023-06-26 17:12:53] INFO root fetch - processPackages [CurrencyConverter]: Downloading https://files.pythonhosted.org/packages/36/b4/05f3a72c2d767d2c59859c5a8b23d26fed36b34113c28cf49e4857093a79/CurrencyConverter-0.8.1.tar.gz
+[2023-06-26 17:12:53] INFO root fetch - processPackages [codercore]: executing diffoscope
+[2023-06-26 17:12:53] INFO root fetch - processPackages [codercore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codercore-2.2.0.tar.gz tmp/codercore-2.3.0.tar.gz --markdown 20230626/c/codercore/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-26 17:12:53] INFO root fetch - processPackages [CurrencyConverter]: executing diffoscope
+[2023-06-26 17:12:53] INFO root fetch - processPackages [CurrencyConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CurrencyConverter-0.8.tar.gz tmp/CurrencyConverter-0.8.1.tar.gz --markdown 20230626/C/CurrencyConverter/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-06-26 17:12:53] INFO root fetch - processPackages [PennyLane-Lightning]: executing diffoscope
+[2023-06-26 17:12:53] INFO root fetch - processPackages [PennyLane-Lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PennyLane-Lightning-0.30.0.tar.gz tmp/PennyLane-Lightning-0.31.0.tar.gz --markdown 20230626/P/PennyLane-Lightning/0.30.0-0.31.0/diff.md --exclude *.pyd
+[2023-06-26 17:12:55] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.0.4.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [chatgpt-functions]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_functions-0.0.5.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [chatgpt-functions]: Start processing: hagrid
+[2023-06-26 17:12:55] INFO root fetch - main [MainThread]: End processing [chatgpt-functions]: success
+[2023-06-26 17:12:55] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [gh-utils]: Remove: archive file [/home/abi/fetcher/tmp/gh_utils-0.6.7.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [gh-utils]: Remove: archive file [/home/abi/fetcher/tmp/gh_utils-0.6.8.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [gh-utils]: Start processing: NeoBase
+[2023-06-26 17:12:55] INFO root fetch - main [MainThread]: End processing [gh-utils]: success
+[2023-06-26 17:12:55] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-26 17:12:55] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-26 17:12:55] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-26 17:12:55] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230626/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-26 17:12:55] INFO root fetch - processPackages [codercore]: Remove: archive file [/home/abi/fetcher/tmp/codercore-2.2.0.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [codercore]: Remove: archive file [/home/abi/fetcher/tmp/codercore-2.3.0.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [codercore]: Start processing: hexlet-code-frisson-version-0-0-3
+[2023-06-26 17:12:55] INFO root fetch - main [MainThread]: End processing [codercore]: success
+[2023-06-26 17:12:55] INFO root fetch - processPackages [colored]: Remove: archive file [/home/abi/fetcher/tmp/colored-2.2.1.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [colored]: Remove: archive file [/home/abi/fetcher/tmp/colored-2.2.2.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [colored]: Start processing: recursiveseriation
+[2023-06-26 17:12:55] INFO root fetch - main [MainThread]: End processing [colored]: success
+[2023-06-26 17:12:55] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2023-06-26 17:12:55] WARNING root fetch - processPackages [hexlet-code-frisson-version-0-0-3]: Skipping, unable to determine old version
+[2023-06-26 17:12:55] INFO root fetch - processPackages [hexlet-code-frisson-version-0-0-3]: Start processing: blackboardsync
+[2023-06-26 17:12:55] INFO root fetch - main [MainThread]: End processing [hexlet-code-frisson-version-0-0-3] error
+[2023-06-26 17:12:55] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.4rc3] Old Version: [0.9.4rc2]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [CurrencyConverter]: Remove: archive file [/home/abi/fetcher/tmp/CurrencyConverter-0.8.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [CurrencyConverter]: Remove: archive file [/home/abi/fetcher/tmp/CurrencyConverter-0.8.1.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [CurrencyConverter]: Start processing: PennyLane-Lightning-GPU
+[2023-06-26 17:12:55] INFO root fetch - main [MainThread]: End processing [CurrencyConverter]: success
+[2023-06-26 17:12:55] INFO root fetch - processPackages [recursiveseriation]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-compact-1.7.0.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter-compact-1.7.1.tar.gz]
+[2023-06-26 17:12:55] INFO root fetch - processPackages [voicemeeter-compact]: Start processing: chirpstack-api
+[2023-06-26 17:12:55] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/d8/d0/4d9687436a383b4302f7b27bb93175d13ec8a24b6bb2e3f1199f7968a6ad/blackboardsync-0.9.4rc2.tar.gz
+[2023-06-26 17:12:55] INFO root fetch - main [MainThread]: End processing [voicemeeter-compact]: success
+[2023-06-26 17:12:56] INFO root fetch - processPackages [PennyLane-Lightning-GPU]: New version: [0.31.0] Old Version: [0.30.0]
+[2023-06-26 17:12:56] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.4.tar.gz]
+[2023-06-26 17:12:56] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.5.tar.gz]
+[2023-06-26 17:12:56] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-26 17:12:56] INFO root fetch - processPackages [recursiveseriation]: Downloading https://files.pythonhosted.org/packages/09/5e/8a8b4e66a7071145f7f9915375d739dad0ca4913283c028b384e68933399/recursiveseriation-0.1.1.tar.gz
+[2023-06-26 17:12:56] INFO root fetch - processPackages [chirpstack-api]: New version: [4.4.0] Old Version: [4.3.1]
+[2023-06-26 17:12:56] INFO root fetch - processPackages [datapusher-plus]: Remove: archive file [/home/abi/fetcher/tmp/datapusher-plus-0.8.0.tar.gz]
+[2023-06-26 17:12:56] INFO root fetch - processPackages [datapusher-plus]: Remove: archive file [/home/abi/fetcher/tmp/datapusher-plus-0.9.0.tar.gz]
+[2023-06-26 17:12:56] INFO root fetch - main [MainThread]: End processing [datapusher-plus]: success
+[2023-06-26 17:12:56] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/4b/70/38940917ed46f842e89a1486a08458fd6602677272f9eddfba444a150949/blackboardsync-0.9.4rc3.tar.gz
+[2023-06-26 17:12:56] INFO root fetch - processPackages [PennyLane-Lightning-GPU]: Downloading https://files.pythonhosted.org/packages/ae/62/094bc03cc60c1260d800094e3791498faa352b15b5d01ad700ca370f9119/PennyLane-Lightning-GPU-0.30.0.tar.gz
+[2023-06-26 17:12:56] INFO root fetch - processPackages [chirpstack-api]: Downloading https://files.pythonhosted.org/packages/4d/81/c8b082876032b18962d766a59ee5ca86694b08054c22da439cc7af476b4e/chirpstack_api-4.3.1-py3-none-any.whl
+[2023-06-26 17:12:56] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-26 17:12:56] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.9.4rc2.tar.gz tmp/blackboardsync-0.9.4rc3.tar.gz --markdown 20230626/b/blackboardsync/0.9.4rc2-0.9.4rc3/diff.md --exclude *.pyd
+[2023-06-26 17:12:56] INFO root fetch - processPackages [recursiveseriation]: Downloading https://files.pythonhosted.org/packages/da/b1/3e82833bd6ea63847d3d9ca0aa6664d82a9c854ab367ba4ee12c625cba44/recursiveseriation-0.1.2.tar.gz
+[2023-06-26 17:12:56] INFO root fetch - processPackages [chirpstack-api]: Downloading https://files.pythonhosted.org/packages/9a/33/450faeb782e1f9cdd7a77a65ed68018ca4d953c28ecf1e1391c05f366cb2/chirpstack_api-4.4.0-py3-none-any.whl
+[2023-06-26 17:12:56] INFO root fetch - processPackages [recursiveseriation]: executing diffoscope
+[2023-06-26 17:12:56] INFO root fetch - processPackages [recursiveseriation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursiveseriation-0.1.1.tar.gz tmp/recursiveseriation-0.1.2.tar.gz --markdown 20230626/r/recursiveseriation/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 17:12:56] INFO root fetch - processPackages [PennyLane-Lightning-GPU]: Downloading https://files.pythonhosted.org/packages/73/eb/30bffb4b99f21b4e5431f289a83c1a3d05df84984427e01365413e747dfc/PennyLane_Lightning_GPU-0.31.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 17:12:56] INFO root fetch - processPackages [chirpstack-api]: executing diffoscope
+[2023-06-26 17:12:56] INFO root fetch - processPackages [chirpstack-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chirpstack_api-4.3.1-py3-none-any.whl.zip tmp/chirpstack_api-4.4.0-py3-none-any.whl.zip --markdown 20230626/c/chirpstack-api/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2023-06-26 17:12:56] WARNING root fetch - processPackages [PennyLane-Lightning-GPU]: Skipping package: exceeds size limit 27902448>=10485760
+[2023-06-26 17:12:56] INFO root fetch - main [MainThread]: End processing [PennyLane-Lightning-GPU] error
+[2023-06-26 17:12:57] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2023-06-26 17:12:57] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:12:57] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-26 17:12:57] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-26 17:12:57] INFO root fetch - processPackages [PennyLane-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/PennyLane-Lightning-0.30.0.tar.gz]
+[2023-06-26 17:12:57] INFO root fetch - processPackages [PennyLane-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/PennyLane-Lightning-0.31.0.tar.gz]
+[2023-06-26 17:12:57] INFO root fetch - main [MainThread]: End processing [PennyLane-Lightning]: success
+[2023-06-26 17:12:58] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.4rc2.tar.gz]
+[2023-06-26 17:12:58] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.4rc3.tar.gz]
+[2023-06-26 17:12:58] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-26 17:12:58] INFO root fetch - processPackages [recursiveseriation]: Remove: archive file [/home/abi/fetcher/tmp/recursiveseriation-0.1.1.tar.gz]
+[2023-06-26 17:12:58] INFO root fetch - processPackages [recursiveseriation]: Remove: archive file [/home/abi/fetcher/tmp/recursiveseriation-0.1.2.tar.gz]
+[2023-06-26 17:12:58] INFO root fetch - main [MainThread]: End processing [recursiveseriation]: success
+[2023-06-26 17:12:58] INFO root fetch - processPackages [chirpstack-api]: Remove: archive file [/home/abi/fetcher/tmp/chirpstack_api-4.3.1-py3-none-any.whl.zip]
+[2023-06-26 17:12:58] INFO root fetch - processPackages [chirpstack-api]: Remove: archive file [/home/abi/fetcher/tmp/chirpstack_api-4.4.0-py3-none-any.whl.zip]
+[2023-06-26 17:12:58] INFO root fetch - main [MainThread]: End processing [chirpstack-api]: success
+[2023-06-26 17:12:58] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2023-06-26 17:12:58] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20230626/N/NeoBase/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 17:12:58] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-26 17:12:58] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-26 17:12:58] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-26 17:13:01] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2023-06-26 17:13:01] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2023-06-26 17:13:01] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2023-06-26 17:13:01] INFO root fetch - main [MainThread]: Store serial: [18648760]
