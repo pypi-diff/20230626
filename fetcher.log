@@ -13268,3 +13268,88 @@ AssertionError: tmp/mrfix-2.0.8.tar.gz does not exist
 [2023-06-26 11:44:52] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9188807400796.tar.gz]
 [2023-06-26 11:44:52] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-06-26 11:44:52] INFO root fetch - main [MainThread]: Store serial: [18644717]
+[2023-06-26 11:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644717]
+[2023-06-26 11:50:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petisco
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-model-restrict-update
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scs-analysis
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vstt
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: priceloop-api
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: priceloop-api
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-engine-bigquery
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zombie-imp
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sentry-cli
+[2023-06-26 11:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mxcubeweb
+[2023-06-26 11:50:02] INFO root fetch - processPackages [scs-analysis]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-06-26 11:50:02] WARNING root fetch - processPackages [xia-engine-bigquery]: Skipping, unable to determine old version
+[2023-06-26 11:50:02] INFO root fetch - processPackages [xia-engine-bigquery]: Start processing: CONEstrip
+[2023-06-26 11:50:02] INFO root fetch - main [MainThread]: End processing [xia-engine-bigquery] error
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-06-26 11:50:02] INFO root fetch - processPackages [mxcubeweb]: New version: [1.50.0] Old Version: [1.49.0]
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-06-26 11:50:02] WARNING root fetch - processPackages [odoo-addon-base-model-restrict-update]: Skipping, unable to determine old version
+[2023-06-26 11:50:02] INFO root fetch - processPackages [vstt]: New version: [0.31.0] Old Version: [0.30.0]
+[2023-06-26 11:50:02] WARNING root fetch - processPackages [zombie-imp]: Skipping, unable to determine old version
+[2023-06-26 11:50:02] INFO root fetch - processPackages [odoo-addon-base-model-restrict-update]: Start processing: tabulation
+[2023-06-26 11:50:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-model-restrict-update] error
+[2023-06-26 11:50:02] INFO root fetch - main [MainThread]: End processing [zombie-imp] error
+[2023-06-26 11:50:02] INFO root fetch - processPackages [CONEstrip]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-26 11:50:02] INFO root fetch - processPackages [sentry-cli]: New version: [2.19.2] Old Version: [2.19.1]
+[2023-06-26 11:50:02] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc4] Old Version: [2.0.0rc3]
+[2023-06-26 11:50:02] ERROR root fetch - processPackages [tabulation]: Unable to get metadata: No such project 'tabulation'
+[2023-06-26 11:50:02] INFO root fetch - main [MainThread]: End processing [tabulation] error
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/b2/09/a99f505fcaab57f26c1d68249cc4b73f8be1fdc752f4d2a80fc3cc7c4f12/mxcubeweb-1.49.0.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/26/98/24d421b4adc3ca3082f4d71ed9818702f36c5b29ec7244f751a1cd1f6468/scs-analysis-2.7.2.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/a0/5c/13535e0c4cd1201cd6e02850a4a437cff78f25a3c94ed2739e4bfeb23d81/sentry_cli-2.19.1.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/2c/c1/1f4a81bbecde4059afbc7aa410057538bd54d020b3558ab1cd9de1e16dec/petisco-2.0.0rc3.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [vstt]: Downloading https://files.pythonhosted.org/packages/14/5e/9a0a64193e2871d63ab50e9e3f3e6768d02f7abc05537ec51050082a66d3/vstt-0.30.0.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [CONEstrip]: Downloading https://files.pythonhosted.org/packages/a3/5b/ed104ef1451b2ecc7cf9833d7bcfa1a944e41a897b6499c1c57d1faf0d2d/CONEstrip-0.1.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/78/51/bbd5d0407998190a74203784b4f303e40d0beaf311445142d50824df0d51/scs-analysis-2.7.3.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/f0/dc/0c5f808bd0990a50a5c6d93190b3e0e1112e6c2f64d4b94c8f88a7242599/mxcubeweb-1.50.0.tar.gz
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230626/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-06-26 11:50:02] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230626/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-06-26 11:50:02] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/e1/d5/b746d45df3efbfbbf2796d318deae3264b85984194d92f923aae2a03ef8c/sentry_cli-2.19.2.tar.gz
+[2023-06-26 11:50:03] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2023-06-26 11:50:03] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-analysis-2.7.2.tar.gz tmp/scs-analysis-2.7.3.tar.gz --markdown 20230626/s/scs-analysis/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-06-26 11:50:03] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/e6/d2/83f85846b318af04c1d3395154f4b94ef20c5b97ed37bc221d8877ee3c5a/petisco-2.0.0rc4.tar.gz
+[2023-06-26 11:50:03] INFO root fetch - processPackages [vstt]: Downloading https://files.pythonhosted.org/packages/a5/33/7ca5a42805f260c8a8cb319b6f909d55a497ef69c16cdceb4fa78069f681/vstt-0.31.0.tar.gz
+[2023-06-26 11:50:03] INFO root fetch - processPackages [CONEstrip]: Downloading https://files.pythonhosted.org/packages/44/9a/fb7ac1305dfa0738dbc56527dadb4b5ef852bf15d716fded05daf1ec6672/CONEstrip-0.1.1.tar.gz
+[2023-06-26 11:50:03] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-06-26 11:50:03] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.49.0.tar.gz tmp/mxcubeweb-1.50.0.tar.gz --markdown 20230626/m/mxcubeweb/1.49.0-1.50.0/diff.md --exclude *.pyd
+[2023-06-26 11:50:03] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-26 11:50:03] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc3.tar.gz tmp/petisco-2.0.0rc4.tar.gz --markdown 20230626/p/petisco/2.0.0rc3-2.0.0rc4/diff.md --exclude *.pyd
+[2023-06-26 11:50:03] INFO root fetch - processPackages [vstt]: executing diffoscope
+[2023-06-26 11:50:03] INFO root fetch - processPackages [vstt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstt-0.30.0.tar.gz tmp/vstt-0.31.0.tar.gz --markdown 20230626/v/vstt/0.30.0-0.31.0/diff.md --exclude *.pyd
+[2023-06-26 11:50:03] INFO root fetch - processPackages [sentry-cli]: executing diffoscope
+[2023-06-26 11:50:03] INFO root fetch - processPackages [sentry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_cli-2.19.1.tar.gz tmp/sentry_cli-2.19.2.tar.gz --markdown 20230626/s/sentry-cli/2.19.1-2.19.2/diff.md --exclude *.pyd
+[2023-06-26 11:50:03] INFO root fetch - processPackages [CONEstrip]: executing diffoscope
+[2023-06-26 11:50:03] INFO root fetch - processPackages [CONEstrip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CONEstrip-0.1.tar.gz tmp/CONEstrip-0.1.1.tar.gz --markdown 20230626/C/CONEstrip/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 11:50:04] INFO root fetch - processPackages [vstt]: Remove: archive file [/home/abi/fetcher/tmp/vstt-0.30.0.tar.gz]
+[2023-06-26 11:50:04] INFO root fetch - processPackages [vstt]: Remove: archive file [/home/abi/fetcher/tmp/vstt-0.31.0.tar.gz]
+[2023-06-26 11:50:04] INFO root fetch - main [MainThread]: End processing [vstt]: success
+[2023-06-26 11:50:04] INFO root fetch - processPackages [CONEstrip]: Remove: archive file [/home/abi/fetcher/tmp/CONEstrip-0.1.tar.gz]
+[2023-06-26 11:50:04] INFO root fetch - processPackages [CONEstrip]: Remove: archive file [/home/abi/fetcher/tmp/CONEstrip-0.1.1.tar.gz]
+[2023-06-26 11:50:04] INFO root fetch - main [MainThread]: End processing [CONEstrip]: success
+[2023-06-26 11:50:04] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.95.0.tar.gz]
+[2023-06-26 11:50:04] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.97.0.tar.gz]
+[2023-06-26 11:50:04] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-06-26 11:50:04] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-06-26 11:50:04] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.49.0.tar.gz]
+[2023-06-26 11:50:04] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.50.0.tar.gz]
+[2023-06-26 11:50:04] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-06-26 11:50:05] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.19.1.tar.gz]
+[2023-06-26 11:50:05] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.19.2.tar.gz]
+[2023-06-26 11:50:05] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
+[2023-06-26 11:50:06] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.2.tar.gz]
+[2023-06-26 11:50:06] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.3.tar.gz]
+[2023-06-26 11:50:06] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2023-06-26 11:50:07] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc3.tar.gz]
+[2023-06-26 11:50:07] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc4.tar.gz]
+[2023-06-26 11:50:07] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-26 11:50:07] INFO root fetch - main [MainThread]: Store serial: [18644768]
