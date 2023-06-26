@@ -9356,3 +9356,79 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:49:00] INFO root fetch - processPackages [stadiamaps]: Remove: archive file [/home/abi/fetcher/tmp/stadiamaps-1.0.6.tar.gz]
 [2023-06-26 08:49:00] INFO root fetch - main [MainThread]: End processing [stadiamaps]: success
 [2023-06-26 08:49:00] INFO root fetch - main [MainThread]: Store serial: [18643012]
+[2023-06-26 08:54:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643012]
+[2023-06-26 08:54:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-26 08:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: axabc
+[2023-06-26 08:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qinglan-bot
+[2023-06-26 08:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p2pd
+[2023-06-26 08:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonrequest-JustinRWong
+[2023-06-26 08:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-sql-profiler
+[2023-06-26 08:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rid-kit
+[2023-06-26 08:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: report2junit
+[2023-06-26 08:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axabc
+[2023-06-26 08:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exergenics
+[2023-06-26 08:54:09] INFO root fetch - processPackages [p2pd]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-06-26 08:54:09] INFO root fetch - processPackages [axabc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 08:54:09] INFO root fetch - processPackages [qinglan-bot]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-26 08:54:09] INFO root fetch - processPackages [fastapi-sql-profiler]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-06-26 08:54:09] WARNING root fetch - processPackages [jsonrequest-JustinRWong]: Skipping, unable to determine old version
+[2023-06-26 08:54:09] INFO root fetch - processPackages [rid-kit]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-26 08:54:09] INFO root fetch - main [MainThread]: End processing [jsonrequest-JustinRWong] error
+[2023-06-26 08:54:09] INFO root fetch - processPackages [axabc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 08:54:09] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/b1/e5/16ed434e63d473ef228190fb6ace97cef49471b86fbc78edc14e33ddb78e/axabc-0.0.4.tar.gz
+[2023-06-26 08:54:09] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/dd/38/ece2930e59c495ba7a2ff6c10df9909768211efd28cf233c46d922760571/rid-kit-0.5.0.tar.gz
+[2023-06-26 08:54:09] INFO root fetch - processPackages [fastapi-sql-profiler]: Downloading https://files.pythonhosted.org/packages/5d/7e/2d80b0bd5186256e7041f8ed1c9609b55a8bdcf0377e2bb7b324428bb89b/fastapi-sql-profiler-3.0.0.tar.gz
+[2023-06-26 08:54:09] INFO root fetch - processPackages [report2junit]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-26 08:54:09] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/b1/e5/16ed434e63d473ef228190fb6ace97cef49471b86fbc78edc14e33ddb78e/axabc-0.0.4.tar.gz
+[2023-06-26 08:54:09] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/b0/51/00c77a733bf4d60dfd8fa7b99d5600282bd54d949d3d512f9673d8e5953c/qinglan-bot-0.1.2.tar.gz
+[2023-06-26 08:54:09] INFO root fetch - processPackages [exergenics]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-26 08:54:09] INFO root fetch - processPackages [p2pd]: Downloading https://files.pythonhosted.org/packages/3a/13/88ff8f48405aa657cc614d220302213220ded5bda2b2e95dcc9206298190/p2pd-2.5.0.tar.gz
+[2023-06-26 08:54:09] INFO root fetch - processPackages [report2junit]: Downloading https://files.pythonhosted.org/packages/83/07/8084e3b5009be31c94787bdd72d13d842dc4a592b51d60bf46b230f9195f/report2junit-0.3.0.tar.gz
+[2023-06-26 08:54:10] INFO root fetch - processPackages [exergenics]: Downloading https://files.pythonhosted.org/packages/c1/90/66729379baf854109071c6ad50958949fcbca5fa979bedb94b63524c5a80/exergenics-2.8.0.tar.gz
+[2023-06-26 08:54:10] INFO root fetch - processPackages [fastapi-sql-profiler]: Downloading https://files.pythonhosted.org/packages/a4/5c/6ea793a91626cce04ac886db1dc66a4d113478ea25b471f2d0583aca0b7f/fastapi-sql-profiler-4.0.0.tar.gz
+[2023-06-26 08:54:10] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/18/49/e11a886b0ae4e7587764163b5f492fce30d60a400d72966ced79e846fb1d/axabc-0.0.5.tar.gz
+[2023-06-26 08:54:10] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/18/49/e11a886b0ae4e7587764163b5f492fce30d60a400d72966ced79e846fb1d/axabc-0.0.5.tar.gz
+[2023-06-26 08:54:10] INFO root fetch - processPackages [fastapi-sql-profiler]: executing diffoscope
+[2023-06-26 08:54:10] INFO root fetch - processPackages [fastapi-sql-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-sql-profiler-3.0.0.tar.gz tmp/fastapi-sql-profiler-4.0.0.tar.gz --markdown 20230626/f/fastapi-sql-profiler/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-06-26 08:54:10] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/1c/af/dd49f0791848881f1a005cd638bbaf2f87be684048dbaeb2f6565f7dc59c/rid-kit-0.5.1.tar.gz
+[2023-06-26 08:54:10] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/ad/42/11e95b302456cb5401129feba1252e53e059e82278dd6f4b59a890f10efc/qinglan-bot-0.1.3.tar.gz
+[2023-06-26 08:54:10] INFO root fetch - processPackages [p2pd]: Downloading https://files.pythonhosted.org/packages/da/ed/8b0df51817a28aa02574b62cf4bbc577e47674d322bd146ed7ef3ea67257/p2pd-2.6.0.tar.gz
+[2023-06-26 08:54:10] INFO root fetch - processPackages [report2junit]: Downloading https://files.pythonhosted.org/packages/90/2c/3ec18769736523cb628af0dd428c9278de959198b43453b4b02a559ad719/report2junit-0.3.1.tar.gz
+[2023-06-26 08:54:10] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-06-26 08:54:10] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-06-26 08:54:10] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.4.tar.gz tmp/axabc-0.0.5.tar.gz --markdown 20230626/a/axabc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 08:54:10] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.4.tar.gz tmp/axabc-0.0.5.tar.gz --markdown 20230626/a/axabc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 08:54:10] INFO root fetch - processPackages [exergenics]: Downloading https://files.pythonhosted.org/packages/03/2f/9dbdb120cb4f04dbc4bd713ec71a76f943eb731f39d525dde2f8a478a5df/exergenics-2.9-py3-none-any.whl
+[2023-06-26 08:54:10] INFO root fetch - processPackages [p2pd]: executing diffoscope
+[2023-06-26 08:54:10] INFO root fetch - processPackages [p2pd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p2pd-2.5.0.tar.gz tmp/p2pd-2.6.0.tar.gz --markdown 20230626/p/p2pd/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-06-26 08:54:10] INFO root fetch - processPackages [qinglan-bot]: executing diffoscope
+[2023-06-26 08:54:10] INFO root fetch - processPackages [qinglan-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qinglan-bot-0.1.2.tar.gz tmp/qinglan-bot-0.1.3.tar.gz --markdown 20230626/q/qinglan-bot/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-26 08:54:10] INFO root fetch - processPackages [report2junit]: executing diffoscope
+[2023-06-26 08:54:10] INFO root fetch - processPackages [report2junit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report2junit-0.3.0.tar.gz tmp/report2junit-0.3.1.tar.gz --markdown 20230626/r/report2junit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 08:54:10] INFO root fetch - processPackages [exergenics]: executing diffoscope
+[2023-06-26 08:54:10] INFO root fetch - processPackages [exergenics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-2.8.0.tar.gz tmp/exergenics-2.9-py3-none-any.whl.zip --markdown 20230626/e/exergenics/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-26 08:54:10] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2023-06-26 08:54:10] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid-kit-0.5.0.tar.gz tmp/rid-kit-0.5.1.tar.gz --markdown 20230626/r/rid-kit/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-26 08:54:12] INFO root fetch - processPackages [fastapi-sql-profiler]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sql-profiler-3.0.0.tar.gz]
+[2023-06-26 08:54:12] INFO root fetch - processPackages [fastapi-sql-profiler]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-sql-profiler-4.0.0.tar.gz]
+[2023-06-26 08:54:12] INFO root fetch - main [MainThread]: End processing [fastapi-sql-profiler]: success
+[2023-06-26 08:54:12] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.4.tar.gz]
+[2023-06-26 08:54:12] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.5.tar.gz]
+[2023-06-26 08:54:12] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-06-26 08:54:12] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-06-26 08:54:12] INFO root fetch - processPackages [qinglan-bot]: Remove: archive file [/home/abi/fetcher/tmp/qinglan-bot-0.1.2.tar.gz]
+[2023-06-26 08:54:12] INFO root fetch - processPackages [qinglan-bot]: Remove: archive file [/home/abi/fetcher/tmp/qinglan-bot-0.1.3.tar.gz]
+[2023-06-26 08:54:12] INFO root fetch - main [MainThread]: End processing [qinglan-bot]: success
+[2023-06-26 08:54:12] INFO root fetch - processPackages [report2junit]: Remove: archive file [/home/abi/fetcher/tmp/report2junit-0.3.0.tar.gz]
+[2023-06-26 08:54:12] INFO root fetch - processPackages [report2junit]: Remove: archive file [/home/abi/fetcher/tmp/report2junit-0.3.1.tar.gz]
+[2023-06-26 08:54:12] INFO root fetch - main [MainThread]: End processing [report2junit]: success
+[2023-06-26 08:54:13] INFO root fetch - processPackages [exergenics]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-2.8.0.tar.gz]
+[2023-06-26 08:54:13] INFO root fetch - processPackages [exergenics]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-2.9-py3-none-any.whl.zip]
+[2023-06-26 08:54:13] INFO root fetch - main [MainThread]: End processing [exergenics]: success
+[2023-06-26 08:54:13] INFO root fetch - processPackages [p2pd]: Remove: archive file [/home/abi/fetcher/tmp/p2pd-2.5.0.tar.gz]
+[2023-06-26 08:54:13] INFO root fetch - processPackages [p2pd]: Remove: archive file [/home/abi/fetcher/tmp/p2pd-2.6.0.tar.gz]
+[2023-06-26 08:54:13] INFO root fetch - main [MainThread]: End processing [p2pd]: success
+[2023-06-26 08:54:15] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.5.0.tar.gz]
+[2023-06-26 08:54:15] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.5.1.tar.gz]
+[2023-06-26 08:54:15] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
+[2023-06-26 08:54:15] INFO root fetch - main [MainThread]: Store serial: [18643090]
