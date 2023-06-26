@@ -21723,3 +21723,176 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 16:56:34] INFO root fetch - processPackages [ipymuvue]: Remove: archive file [/home/abi/fetcher/tmp/ipymuvue-0.3.0.tar.gz]
 [2023-06-26 16:56:34] INFO root fetch - main [MainThread]: End processing [ipymuvue]: success
 [2023-06-26 16:56:34] INFO root fetch - main [MainThread]: Store serial: [18648561]
+[2023-06-26 17:01:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18648561]
+[2023-06-26 17:01:44] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: titan-iris
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-express-components
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: comet-llm
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deltafi
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nomnomdata-engine
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grib2io
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydatawork
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: planetarypy
+[2023-06-26 17:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: planetarypy
+[2023-06-26 17:01:44] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [deltafi]: New version: [1.0.1rc1686869272397] Old Version: [1.0.1]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [grib2io]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [titan-iris]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [nomnomdata-engine]: New version: [1.1.9] Old Version: [1.1.84]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [comet-llm]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230626.9.34.254631] Old Version: [20230626.6.41.903469]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d5/7b/891b493b32448e7feadace1e1c971b2e63cd84199eed22ca8eaf11c99054/certora-cli-alpha-master-20230626.6.41.903469.tar.gz
+[2023-06-26 17:01:44] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37394054>=10485760
+[2023-06-26 17:01:44] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: astropandas
+[2023-06-26 17:01:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-26 17:01:44] INFO root fetch - processPackages [grib2io]: Downloading https://files.pythonhosted.org/packages/86/4d/04a8782c4e84597b4266790e9b6cb27ba18de134ed72c2439aefcd128428/grib2io-2.0.0rc1.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [nomnomdata-engine]: Downloading https://files.pythonhosted.org/packages/49/83/977749c68b71dfba6987f6fb4fff028a573df9ceccf98b1733d8e86a6307/nomnomdata_engine-1.1.84.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [astropandas]: New version: [1.2] Old Version: [1.1.3]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/1a/24/3f5674778363caaeee10fa16c761a224fed410ae5c0d02a3c17ca4e37144/planetarypy-0.8.0.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/45/7b/61b1675fed3cbd68bd3fe066763b3fc63536dbbc20acaef0ef22906a792b/dash_express_components-0.0.8.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/77/bfbef8440910fbd84fa769b2b45b8f7958b3a06a9c6011df3dc6d9c3502b/titan-iris-0.8.5.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/dc/cf/ab636084bfcd0769d08fbc6f18a70f23bd1471e1c09e40052f5619bc41c1/deltafi-1.0.1.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [comet-llm]: Downloading https://files.pythonhosted.org/packages/3a/9c/cf265136031751a4853c97581dffa14e93b4b0cfdeb73ace31fc22fc30f9/comet_llm-1.0.0.tar.gz
+[2023-06-26 17:01:44] WARNING root fetch - processPackages [grib2io]: Skipping package: exceeds size limit 48465449>=10485760
+[2023-06-26 17:01:44] INFO root fetch - processPackages [grib2io]: Start processing: coiled
+[2023-06-26 17:01:44] INFO root fetch - main [MainThread]: End processing [grib2io] error
+[2023-06-26 17:01:44] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/1a/24/3f5674778363caaeee10fa16c761a224fed410ae5c0d02a3c17ca4e37144/planetarypy-0.8.0.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-26 17:01:44] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-26 17:01:44] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230626/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 17:01:44] INFO root fetch - processPackages [astropandas]: Downloading https://files.pythonhosted.org/packages/4c/6d/1c9a4769d73a963690431b1a5ecef7e7372510faa7df0e8c46698b8b2a91/astropandas-1.1.3.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/b9/8a/0501c85429a67c118dfd5a60ff6bca1fc0e04d41d7163d284fa9184d27c6/planetarypy-0.9.0.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/b9/8a/0501c85429a67c118dfd5a60ff6bca1fc0e04d41d7163d284fa9184d27c6/planetarypy-0.9.0.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/7f/ca/0f715c28a3dd1b7ea22f416cd9c706b2cacde47e934b086d8318c562dc6d/titan-iris-0.8.6.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [nomnomdata-engine]: Downloading https://files.pythonhosted.org/packages/2f/c8/ecfb7b0b8c8d033e114ff0d96f1dd7bcc8133c9e475a23340d0103ee13c3/nomnomdata-engine-1.1.9.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [comet-llm]: Downloading https://files.pythonhosted.org/packages/09/e7/3d67f31de03d87e06f8296a9b892a3721f9fa2d8cefc1863f235f0ef2ee0/comet_llm-1.0.1.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/cf/dc/3f8da219275fff0ad23dacd1d2aaf621c6194fe7b50fbe3cabd334941e58/deltafi-1.0.1rc1686869272397.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-26 17:01:44] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-26 17:01:44] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.5.tar.gz tmp/titan-iris-0.8.6.tar.gz --markdown 20230626/t/titan-iris/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-26 17:01:44] INFO root fetch - processPackages [comet-llm]: executing diffoscope
+[2023-06-26 17:01:44] INFO root fetch - processPackages [comet-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_llm-1.0.0.tar.gz tmp/comet_llm-1.0.1.tar.gz --markdown 20230626/c/comet-llm/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: executing diffoscope
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetarypy-0.8.0.tar.gz tmp/planetarypy-0.9.0.tar.gz --markdown 20230626/p/planetarypy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: executing diffoscope
+[2023-06-26 17:01:44] INFO root fetch - processPackages [planetarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetarypy-0.8.0.tar.gz tmp/planetarypy-0.9.0.tar.gz --markdown 20230626/p/planetarypy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:01:44] INFO root fetch - processPackages [astropandas]: Downloading https://files.pythonhosted.org/packages/28/26/3441c37b755e313313b88f5dce71e030090c865dd1f18d6e866177a7c09b/astropandas-1.2.tar.gz
+[2023-06-26 17:01:45] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-06-26 17:01:45] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-1.0.1.tar.gz tmp/deltafi-1.0.1rc1686869272397.tar.gz --markdown 20230626/d/deltafi/1.0.1-1.0.1rc1686869272397/diff.md --exclude *.pyd
+[2023-06-26 17:01:45] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-26 17:01:45] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230626/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-26 17:01:45] INFO root fetch - processPackages [astropandas]: executing diffoscope
+[2023-06-26 17:01:45] INFO root fetch - processPackages [astropandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropandas-1.1.3.tar.gz tmp/astropandas-1.2.tar.gz --markdown 20230626/a/astropandas/1.1.3-1.2/diff.md --exclude *.pyd
+[2023-06-26 17:01:45] INFO root fetch - processPackages [nomnomdata-engine]: executing diffoscope
+[2023-06-26 17:01:45] INFO root fetch - processPackages [nomnomdata-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomnomdata_engine-1.1.84.tar.gz tmp/nomnomdata-engine-1.1.9.tar.gz --markdown 20230626/n/nomnomdata-engine/1.1.84-1.1.9/diff.md --exclude *.pyd
+[2023-06-26 17:01:45] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/19/bd/a24d847266cd35ecf1681d41420a9be0331b22fb730bef223ef869483a72/dash_express_components-0.0.9.tar.gz
+[2023-06-26 17:01:46] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [pydatawork]: Start processing: st4sd-runtime-core
+[2023-06-26 17:01:46] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-26 17:01:46] INFO root fetch - processPackages [st4sd-runtime-core]: New version: [2.0.0a9.dev8] Old Version: [2.0.0a9.dev7]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/f8/80/d329b6d6b491885e93d67347d73a6f1bf511452406c30914f4fa69817029/st4sd-runtime-core-2.0.0a9.dev7.tar.gz
+[2023-06-26 17:01:46] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2023-06-26 17:01:46] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.8.tar.gz tmp/dash_express_components-0.0.9.tar.gz --markdown 20230626/d/dash-express-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:01:46] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.5.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.6.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [titan-iris]: Start processing: telegram-types
+[2023-06-26 17:01:46] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-26 17:01:46] INFO root fetch - processPackages [st4sd-runtime-core]: Downloading https://files.pythonhosted.org/packages/d8/e8/7cfc981a124bd5a134ff8cc0f9597e07673ad694af3ac5209efd3ecdf64a/st4sd-runtime-core-2.0.0a9.dev8.tar.gz
+[2023-06-26 17:01:46] INFO root fetch - processPackages [telegram-types]: New version: [1.9] Old Version: [1.8]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [telegram-types]: Downloading https://files.pythonhosted.org/packages/69/61/0d16ada3d12402e3db069f1b142595f1527b3eca8437528653fd291c086b/telegram_types-1.8.tar.gz
+[2023-06-26 17:01:46] INFO root fetch - processPackages [st4sd-runtime-core]: executing diffoscope
+[2023-06-26 17:01:46] INFO root fetch - processPackages [st4sd-runtime-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st4sd-runtime-core-2.0.0a9.dev7.tar.gz tmp/st4sd-runtime-core-2.0.0a9.dev8.tar.gz --markdown 20230626/s/st4sd-runtime-core/2.0.0a9.dev7-2.0.0a9.dev8/diff.md --exclude *.pyd
+[2023-06-26 17:01:46] INFO root fetch - processPackages [astropandas]: Remove: archive file [/home/abi/fetcher/tmp/astropandas-1.1.3.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [astropandas]: Remove: archive file [/home/abi/fetcher/tmp/astropandas-1.2.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [astropandas]: Start processing: etherbase-predeployed
+[2023-06-26 17:01:46] INFO root fetch - main [MainThread]: End processing [astropandas]: success
+[2023-06-26 17:01:46] INFO root fetch - processPackages [etherbase-predeployed]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.8.0.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.9.0.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [planetarypy]: Start processing: kodexa-cli
+[2023-06-26 17:01:46] INFO root fetch - main [MainThread]: End processing [planetarypy]: success
+[2023-06-26 17:01:46] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25379724432] Old Version: [6.2.25379660892]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [nomnomdata-engine]: Remove: archive file [/home/abi/fetcher/tmp/nomnomdata_engine-1.1.84.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [nomnomdata-engine]: Remove: archive file [/home/abi/fetcher/tmp/nomnomdata-engine-1.1.9.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [nomnomdata-engine]: Start processing: planetarypy
+[2023-06-26 17:01:46] INFO root fetch - main [MainThread]: End processing [nomnomdata-engine]: success
+[2023-06-26 17:01:46] INFO root fetch - processPackages [telegram-types]: Downloading https://files.pythonhosted.org/packages/32/c0/4acf360a3815ab5389e9f16971be848c96aa88bc0244b64a63b8a06b46dc/telegram_types-1.9.tar.gz
+[2023-06-26 17:01:46] INFO root fetch - processPackages [planetarypy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/dd/3e/45136cd3af0c8e66451a330792cd16525658ac46b641369af8221c7f9b85/kodexa_cli-6.2.25379660892.tar.gz
+[2023-06-26 17:01:46] INFO root fetch - processPackages [planetarypy]: Start processing: QuNet
+[2023-06-26 17:01:46] INFO root fetch - main [MainThread]: End processing [planetarypy]: success
+[2023-06-26 17:01:46] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/51/21/b929f05a9c58146b2f29c0797c3ff99adef6ce1de0f05470ac5076d248fc/etherbase-predeployed-1.1.0b2.tar.gz
+[2023-06-26 17:01:46] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/1a/24/3f5674778363caaeee10fa16c761a224fed410ae5c0d02a3c17ca4e37144/planetarypy-0.8.0.tar.gz
+[2023-06-26 17:01:46] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.1.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-1.0.1rc1686869272397.tar.gz]
+[2023-06-26 17:01:46] INFO root fetch - processPackages [deltafi]: Start processing: pydatawork
+[2023-06-26 17:01:46] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-06-26 17:01:47] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 17:01:47] INFO root fetch - processPackages [comet-llm]: Remove: archive file [/home/abi/fetcher/tmp/comet_llm-1.0.0.tar.gz]
+[2023-06-26 17:01:47] INFO root fetch - processPackages [comet-llm]: Remove: archive file [/home/abi/fetcher/tmp/comet_llm-1.0.1.tar.gz]
+[2023-06-26 17:01:47] INFO root fetch - processPackages [comet-llm]: Start processing: odoo-addon-ddmrp-warning
+[2023-06-26 17:01:47] INFO root fetch - main [MainThread]: End processing [comet-llm]: success
+[2023-06-26 17:01:47] INFO root fetch - processPackages [telegram-types]: executing diffoscope
+[2023-06-26 17:01:47] INFO root fetch - processPackages [telegram-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_types-1.8.tar.gz tmp/telegram_types-1.9.tar.gz --markdown 20230626/t/telegram-types/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-26 17:01:47] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-26 17:01:47] INFO root fetch - processPackages [planetarypy]: Downloading https://files.pythonhosted.org/packages/b9/8a/0501c85429a67c118dfd5a60ff6bca1fc0e04d41d7163d284fa9184d27c6/planetarypy-0.9.0.tar.gz
+[2023-06-26 17:01:47] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/7d/36/bae6a5150353f0b5347bac4d3619e1e8d748ac80e27306fa7f69296f94e0/kodexa_cli-6.2.25379724432.tar.gz
+[2023-06-26 17:01:47] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: New version: [15.0.1.2.0] Old Version: [15.0.1.1.0.1]
+[2023-06-26 17:01:47] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-06-26 17:01:47] INFO root fetch - processPackages [planetarypy]: executing diffoscope
+[2023-06-26 17:01:47] INFO root fetch - processPackages [planetarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetarypy-0.8.0.tar.gz tmp/planetarypy-0.9.0.tar.gz --markdown 20230626/p/planetarypy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 17:01:47] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-26 17:01:47] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/3d/3d/9e8a9263aced10d2e82058dcb79e0685a5e6db3102a640656eebcfc6a889/etherbase-predeployed-1.1.0b3.tar.gz
+[2023-06-26 17:01:47] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-06-26 17:01:47] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25379660892.tar.gz tmp/kodexa_cli-6.2.25379724432.tar.gz --markdown 20230626/k/kodexa-cli/6.2.25379660892-6.2.25379724432/diff.md --exclude *.pyd
+[2023-06-26 17:01:47] INFO root fetch - processPackages [etherbase-predeployed]: executing diffoscope
+[2023-06-26 17:01:47] INFO root fetch - processPackages [etherbase-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etherbase-predeployed-1.1.0b2.tar.gz tmp/etherbase-predeployed-1.1.0b3.tar.gz --markdown 20230626/e/etherbase-predeployed/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-06-26 17:01:47] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-26 17:01:47] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230626/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 17:01:47] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/51/c2/db44fad08fefbb7bcd3eba6df5b44b474d8aa970353125112cd2f1d3106f/odoo_addon_ddmrp_warning-15.0.1.1.0.1-py3-none-any.whl
+[2023-06-26 17:01:47] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-06-26 17:01:47] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-26 17:01:47] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-26 17:01:47] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-26 17:01:47] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-26 17:01:47] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230626/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-26 17:01:47] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/92/d8/6a756efab49841e018756a3f63661dc540ca134a36a8728e15e7082cf438/odoo_addon_ddmrp_warning-15.0.1.2.0-py3-none-any.whl
+[2023-06-26 17:01:47] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: executing diffoscope
+[2023-06-26 17:01:47] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_warning-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_warning-15.0.1.2.0-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-ddmrp-warning/15.0.1.1.0.1-15.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-26 17:01:48] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-26 17:01:48] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-26 17:01:48] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-26 17:01:48] INFO root fetch - processPackages [telegram-types]: Remove: archive file [/home/abi/fetcher/tmp/telegram_types-1.8.tar.gz]
+[2023-06-26 17:01:48] INFO root fetch - processPackages [telegram-types]: Remove: archive file [/home/abi/fetcher/tmp/telegram_types-1.9.tar.gz]
+[2023-06-26 17:01:48] INFO root fetch - main [MainThread]: End processing [telegram-types]: success
+[2023-06-26 17:01:48] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25379660892.tar.gz]
+[2023-06-26 17:01:48] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25379724432.tar.gz]
+[2023-06-26 17:01:48] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-06-26 17:01:48] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-06-26 17:01:48] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-06-26 17:01:48] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-26 17:01:49] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_warning-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-26 17:01:49] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_warning-15.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-26 17:01:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-warning]: success
+[2023-06-26 17:01:49] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b2.tar.gz]
+[2023-06-26 17:01:49] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b3.tar.gz]
+[2023-06-26 17:01:49] INFO root fetch - main [MainThread]: End processing [etherbase-predeployed]: success
+[2023-06-26 17:01:49] INFO root fetch - processPackages [st4sd-runtime-core]: Remove: archive file [/home/abi/fetcher/tmp/st4sd-runtime-core-2.0.0a9.dev7.tar.gz]
+[2023-06-26 17:01:49] INFO root fetch - processPackages [st4sd-runtime-core]: Remove: archive file [/home/abi/fetcher/tmp/st4sd-runtime-core-2.0.0a9.dev8.tar.gz]
+[2023-06-26 17:01:49] INFO root fetch - main [MainThread]: End processing [st4sd-runtime-core]: success
+[2023-06-26 17:01:49] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.8.0.tar.gz]
+[2023-06-26 17:01:49] INFO root fetch - processPackages [planetarypy]: Remove: archive file [/home/abi/fetcher/tmp/planetarypy-0.9.0.tar.gz]
+[2023-06-26 17:01:49] INFO root fetch - main [MainThread]: End processing [planetarypy]: success
+[2023-06-26 17:02:23] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.8.tar.gz]
+[2023-06-26 17:02:23] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.9.tar.gz]
+[2023-06-26 17:02:23] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2023-06-26 17:02:23] INFO root fetch - main [MainThread]: Store serial: [18648618]
