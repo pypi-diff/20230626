@@ -5728,3 +5728,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 04:38:40] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.5-py3-none-any.whl.zip]
 [2023-06-26 04:38:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-accrual-picking]: success
 [2023-06-26 04:38:40] INFO root fetch - main [MainThread]: Store serial: [18641515]
+[2023-06-26 04:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641515]
+[2023-06-26 04:43:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-26 04:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feffery-antd-charts
+[2023-06-26 04:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grassmanntn
+[2023-06-26 04:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-interpreter
+[2023-06-26 04:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ipghrms-employee
+[2023-06-26 04:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-ipghrms-users
+[2023-06-26 04:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pykebab
+[2023-06-26 04:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pandora-Cloud
+[2023-06-26 04:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scratch-getdata
+[2023-06-26 04:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-24
+[2023-06-26 04:43:49] INFO root fetch - processPackages [langchain-interpreter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 04:43:49] INFO root fetch - processPackages [django-ipghrms-users]: New version: [1.2] Old Version: [1.1]
+[2023-06-26 04:43:49] INFO root fetch - processPackages [django-ipghrms-employee]: New version: [1.9] Old Version: [1.8]
+[2023-06-26 04:43:49] INFO root fetch - processPackages [scratch-getdata]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-06-26 04:43:49] WARNING root fetch - processPackages [grassmanntn]: Skipping, unable to determine old version
+[2023-06-26 04:43:49] INFO root fetch - main [MainThread]: End processing [grassmanntn] error
+[2023-06-26 04:43:49] INFO root fetch - processPackages [pykebab]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-26 04:43:49] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-26 04:43:49] INFO root fetch - processPackages [feffery-antd-charts]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-06-26 04:43:49] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-26 04:43:49] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/f2/77/94198b264a9952fe96ed7853315771e4415c1d39b74f2a8cb1f421465941/pykebab-0.7.4.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [django-ipghrms-users]: Downloading https://files.pythonhosted.org/packages/51/d8/4c4df0d6df444d9870f08b70d9079ace5b6232abed6ee0ff79c0a985d07c/django-ipghrms-users-1.1.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [feffery-antd-charts]: Downloading https://files.pythonhosted.org/packages/f9/f3/6ad824d78123497a085288ec78960c7656f20a43581d780714417bebca5a/feffery_antd_charts-0.0.1rc8.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/1c/e5/9a6fb04055451e40b69d37d8787f853843a3cf2e7d6794f99f8ca7880c98/django-ipghrms-employee-1.8.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/3b/e8/f5feed2a394176c2270583d276e667ab9ebfa98e0429675f9ecc88198da8/langchain_interpreter-0.0.1.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/be/dc/5d231208195fea893e82d74c6850b9ee48d854dce9dc4316674c0fa5591d/Pandora-Cloud-0.4.8.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/2c/8b/f0882e5f5b5aae0718cf88990d3a86378272dcdaeb1038a86fbbe9205410/scratch-getdata-0.0.9.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/ea/fb/659748c4355e7ac04c23aea7d20a32ce55ecfb7563f363d88b865bbd98e5/pykebab-0.7.5.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [django-ipghrms-users]: Downloading https://files.pythonhosted.org/packages/55/ef/b65e3096223aa37fe9821abe14763f7139add8160c331841586fbcd3bae6/django-ipghrms-users-1.2.tar.gz
+[2023-06-26 04:43:49] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/d6/b8/46e1013d04ed020b8340e6530e41ecaf8531f796a68610ca25730ab57b9f/django-ipghrms-employee-1.9.tar.gz
+[2023-06-26 04:43:50] INFO root fetch - processPackages [langchain-interpreter]: Downloading https://files.pythonhosted.org/packages/69/f1/fd89ab233fb41b555a49fbf9968219dd834b284c4b45224c353cb8885702/langchain_interpreter-0.0.2.tar.gz
+[2023-06-26 04:43:50] INFO root fetch - processPackages [scratch-getdata]: Downloading https://files.pythonhosted.org/packages/a9/d3/7191e65ef2fd87134bf620083bbf1a7610d2ef5bf0cf1e12ccb545b7627c/scratch-getdata-1.0.0.tar.gz
+[2023-06-26 04:43:50] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-06-26 04:43:50] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.7.4.tar.gz tmp/pykebab-0.7.5.tar.gz --markdown 20230626/p/pykebab/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-26 04:43:50] INFO root fetch - processPackages [scratch-getdata]: executing diffoscope
+[2023-06-26 04:43:50] INFO root fetch - processPackages [scratch-getdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratch-getdata-0.0.9.tar.gz tmp/scratch-getdata-1.0.0.tar.gz --markdown 20230626/s/scratch-getdata/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 04:43:50] INFO root fetch - processPackages [langchain-interpreter]: executing diffoscope
+[2023-06-26 04:43:50] INFO root fetch - processPackages [langchain-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_interpreter-0.0.1.tar.gz tmp/langchain_interpreter-0.0.2.tar.gz --markdown 20230626/l/langchain-interpreter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 04:43:50] INFO root fetch - processPackages [django-ipghrms-employee]: executing diffoscope
+[2023-06-26 04:43:50] INFO root fetch - processPackages [django-ipghrms-employee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-employee-1.8.tar.gz tmp/django-ipghrms-employee-1.9.tar.gz --markdown 20230626/d/django-ipghrms-employee/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-26 04:43:50] INFO root fetch - processPackages [django-ipghrms-users]: executing diffoscope
+[2023-06-26 04:43:50] INFO root fetch - processPackages [django-ipghrms-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-users-1.1.tar.gz tmp/django-ipghrms-users-1.2.tar.gz --markdown 20230626/d/django-ipghrms-users/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-26 04:43:50] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-26 04:43:50] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-26 04:43:50] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230626/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-26 04:43:51] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/c6/20/69a7147f7de9405f5a43ff2efa1042ed8464f9e0fbc21155c3df1c506081/Pandora-Cloud-0.4.9.tar.gz
+[2023-06-26 04:43:51] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-0.0.9.tar.gz]
+[2023-06-26 04:43:51] INFO root fetch - processPackages [scratch-getdata]: Remove: archive file [/home/abi/fetcher/tmp/scratch-getdata-1.0.0.tar.gz]
+[2023-06-26 04:43:51] INFO root fetch - main [MainThread]: End processing [scratch-getdata]: success
+[2023-06-26 04:43:51] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.1.tar.gz]
+[2023-06-26 04:43:51] INFO root fetch - processPackages [langchain-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/langchain_interpreter-0.0.2.tar.gz]
+[2023-06-26 04:43:51] INFO root fetch - main [MainThread]: End processing [langchain-interpreter]: success
+[2023-06-26 04:43:51] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-06-26 04:43:51] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.4.8.tar.gz tmp/Pandora-Cloud-0.4.9.tar.gz --markdown 20230626/P/Pandora-Cloud/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-26 04:43:51] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.4.tar.gz]
+[2023-06-26 04:43:51] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.7.5.tar.gz]
+[2023-06-26 04:43:51] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-06-26 04:43:52] INFO root fetch - processPackages [feffery-antd-charts]: Downloading https://files.pythonhosted.org/packages/76/ae/d6ee455c7e74f25e30497b74a1ce3479c1a39c35544edfa90632bbf52182/feffery_antd_charts-0.0.1rc9.tar.gz
+[2023-06-26 04:43:52] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-26 04:43:52] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-26 04:43:52] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-26 04:43:52] INFO root fetch - processPackages [django-ipghrms-users]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-users-1.1.tar.gz]
+[2023-06-26 04:43:52] INFO root fetch - processPackages [django-ipghrms-users]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-users-1.2.tar.gz]
+[2023-06-26 04:43:52] INFO root fetch - main [MainThread]: End processing [django-ipghrms-users]: success
+[2023-06-26 04:43:53] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.8.tar.gz]
+[2023-06-26 04:43:53] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.9.tar.gz]
+[2023-06-26 04:43:53] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
+[2023-06-26 04:43:53] INFO root fetch - processPackages [feffery-antd-charts]: executing diffoscope
+[2023-06-26 04:43:53] INFO root fetch - processPackages [feffery-antd-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_charts-0.0.1rc8.tar.gz tmp/feffery_antd_charts-0.0.1rc9.tar.gz --markdown 20230626/f/feffery-antd-charts/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-06-26 04:43:53] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.8.tar.gz]
+[2023-06-26 04:43:53] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.9.tar.gz]
+[2023-06-26 04:43:53] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-06-26 04:44:19] INFO root fetch - processPackages [feffery-antd-charts]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_charts-0.0.1rc8.tar.gz]
+[2023-06-26 04:44:19] INFO root fetch - processPackages [feffery-antd-charts]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_charts-0.0.1rc9.tar.gz]
+[2023-06-26 04:44:19] INFO root fetch - main [MainThread]: End processing [feffery-antd-charts]: success
+[2023-06-26 04:44:19] INFO root fetch - main [MainThread]: Store serial: [18641543]
