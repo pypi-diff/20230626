@@ -8071,3 +8071,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 07:37:53] INFO root fetch - processPackages [commonroad-io]: Remove: archive file [/home/abi/fetcher/tmp/commonroad_io-2023.2.tar.gz]
 [2023-06-26 07:37:53] INFO root fetch - main [MainThread]: End processing [commonroad-io]: success
 [2023-06-26 07:37:53] INFO root fetch - main [MainThread]: Store serial: [18642492]
+[2023-06-26 07:42:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642492]
+[2023-06-26 07:43:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberdrop-dl
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Flask-Cors
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kanu
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatllm
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: camply
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: re-common
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-login-flask
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: furiosa-server
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acore-server-config
+[2023-06-26 07:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Google-Ads-Transparency-Scraper
+[2023-06-26 07:43:03] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-26 07:43:03] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-06-26 07:43:03] WARNING root fetch - processPackages [xia-login-flask]: Skipping, unable to determine old version
+[2023-06-26 07:43:03] INFO root fetch - processPackages [Flask-Cors]: New version: [4.0.0a0] Old Version: [4.0.0]
+[2023-06-26 07:43:03] INFO root fetch - processPackages [kanu]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-26 07:43:03] INFO root fetch - processPackages [xia-login-flask]: Start processing: furiosa-sdk
+[2023-06-26 07:43:03] INFO root fetch - main [MainThread]: End processing [xia-login-flask] error
+[2023-06-26 07:43:03] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: New version: [1.0] Old Version: [0.1]
+[2023-06-26 07:43:03] INFO root fetch - processPackages [furiosa-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-26 07:43:03] INFO root fetch - processPackages [acore-server-config]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-26 07:43:03] INFO root fetch - processPackages [chatllm]: New version: [2023.6.26.13.38.53] Old Version: [2023.6.26.13.31.16]
+[2023-06-26 07:43:03] INFO root fetch - processPackages [re-common]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 07:43:03] INFO root fetch - processPackages [furiosa-sdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-26 07:43:03] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/55/a3/46b0e6b1649827c1f0ed50f158395156bf0f5ec2cd70e94992a228234b8e/chatllm-2023.6.26.13.31.16.tar.gz
+[2023-06-26 07:43:03] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/34/19/ac76486f04e542b83c586b0abf886aae0fe422e914481eb547062f1bed83/Google%20Ads%20Transparency%20Scraper-0.1.tar.gz
+[2023-06-26 07:43:03] INFO root fetch - processPackages [kanu]: Downloading https://files.pythonhosted.org/packages/d1/ec/e296412c92e3d6c11f2a94e333d7a0cd10db4ef2b46daea3c3ec8f20c5c0/kanu-0.7.0.tar.gz
+[2023-06-26 07:43:03] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2023-06-26 07:43:03] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-06-26 07:43:03] INFO root fetch - processPackages [Flask-Cors]: Downloading https://files.pythonhosted.org/packages/c8/b0/bd7130837a921497520f62023c7ba754e441dcedf959a43e6d1fd86e5451/Flask-Cors-4.0.0.tar.gz
+[2023-06-26 07:43:03] INFO root fetch - processPackages [furiosa-server]: Downloading https://files.pythonhosted.org/packages/5e/d6/3694e6a0941c2908964ec9685468855867fbd63027acd995833ec55d041b/furiosa_server-0.9.1.tar.gz
+[2023-06-26 07:43:03] INFO root fetch - processPackages [re-common]: Downloading https://files.pythonhosted.org/packages/66/37/b2bd5fc965119ca92be216cfa3768d68d1e3f24fa93bf29a71d1aca77dcb/re_common-0.2.8.tar.gz
+[2023-06-26 07:43:03] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/77/d1/052016d980c3896446215c48afecc115e78bc5ecb70680d97e25dd6a677a/acore_server_config-0.3.2.tar.gz
+[2023-06-26 07:43:03] INFO root fetch - processPackages [furiosa-sdk]: Downloading https://files.pythonhosted.org/packages/0b/d9/1efe5e5d2409d52fddadc80525309fa473c4b29ac93495730dda342a7605/furiosa_sdk-0.9.1.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [Flask-Cors]: Downloading https://files.pythonhosted.org/packages/fa/93/b52ee1819053ec169fd9f94ae5bcd2adf24e6c609a3d05507abf55595907/Flask-Cors-4.0.0a0.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Downloading https://files.pythonhosted.org/packages/fd/fc/ab636c685185180c26177ad956f66090fd64e114d2ffd515e1a735174982/Google%20Ads%20Transparency%20Scraper-1.0.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [kanu]: Downloading https://files.pythonhosted.org/packages/ba/91/3c997ec54952eff9b2ceee542ee1d725f7899d0162437a679c6df446847b/kanu-0.8.0.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/8d/e4/6f32b2d0a174353344a961ed9ee93580e3da4806b549964af4a8d6b1c835/chatllm-2023.6.26.13.38.53.tar.gz
+[2023-06-26 07:43:04] WARNING root fetch - processPackages [furiosa-server]: Skipping package: exceeds size limit 10788986>=10485760
+[2023-06-26 07:43:04] INFO root fetch - processPackages [furiosa-server]: Start processing: axabc
+[2023-06-26 07:43:04] INFO root fetch - main [MainThread]: End processing [furiosa-server] error
+[2023-06-26 07:43:04] INFO root fetch - processPackages [Flask-Cors]: executing diffoscope
+[2023-06-26 07:43:04] INFO root fetch - processPackages [Flask-Cors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Cors-4.0.0.tar.gz tmp/Flask-Cors-4.0.0a0.tar.gz --markdown 20230626/F/Flask-Cors/4.0.0-4.0.0a0/diff.md --exclude *.pyd
+[2023-06-26 07:43:04] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/e1/9c/7c04a54103c720b46f6293597d332ad768d3b86ed949519a769f1ea916d2/acore_server_config-0.3.3.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: executing diffoscope
+[2023-06-26 07:43:04] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Google Ads Transparency Scraper-0.1.tar.gz tmp/Google Ads Transparency Scraper-1.0.tar.gz --markdown 20230626/G/Google-Ads-Transparency-Scraper/0.1-1.0/diff.md --exclude *.pyd
+[2023-06-26 07:43:04] INFO root fetch - processPackages [axabc]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-26 07:43:04] INFO root fetch - processPackages [acore-server-config]: executing diffoscope
+[2023-06-26 07:43:04] INFO root fetch - processPackages [acore-server-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_config-0.3.2.tar.gz tmp/acore_server_config-0.3.3.tar.gz --markdown 20230626/a/acore-server-config/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-26 07:43:04] INFO root fetch - processPackages [kanu]: executing diffoscope
+[2023-06-26 07:43:04] INFO root fetch - processPackages [kanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanu-0.7.0.tar.gz tmp/kanu-0.8.0.tar.gz --markdown 20230626/k/kanu/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-26 07:43:04] INFO root fetch - processPackages [camply]: executing diffoscope
+[2023-06-26 07:43:04] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20230626/c/camply/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-26 07:43:04] INFO root fetch - processPackages [furiosa-sdk]: Downloading https://files.pythonhosted.org/packages/ee/23/36f0830e5fb377c8780d028f5da84c3720cebd7c18d81409f50f8835da52/furiosa_sdk-0.9.2.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [re-common]: Downloading https://files.pythonhosted.org/packages/a4/80/7e6052abba469f0e9f4e3f3931127b38d652aa10f2dfe197a1b0a8ca8c81/re_common-0.2.9.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-26 07:43:04] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230626/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-06-26 07:43:04] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/87/32/0cba581c39dbf6b47fc28c7a1feac80b8aa20793eb1f1f377b7c839028b2/axabc-0.0.2.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [furiosa-sdk]: executing diffoscope
+[2023-06-26 07:43:04] INFO root fetch - processPackages [furiosa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furiosa_sdk-0.9.1.tar.gz tmp/furiosa_sdk-0.9.2.tar.gz --markdown 20230626/f/furiosa-sdk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-26 07:43:04] INFO root fetch - processPackages [re-common]: executing diffoscope
+[2023-06-26 07:43:04] INFO root fetch - processPackages [re-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_common-0.2.8.tar.gz tmp/re_common-0.2.9.tar.gz --markdown 20230626/r/re-common/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 07:43:04] INFO root fetch - processPackages [axabc]: Downloading https://files.pythonhosted.org/packages/d3/38/29c72e42cf6aa19d7372741bca2490039ae5bad7c6662e25480544b3e994/axabc-0.0.3.tar.gz
+[2023-06-26 07:43:04] INFO root fetch - processPackages [axabc]: executing diffoscope
+[2023-06-26 07:43:04] INFO root fetch - processPackages [axabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axabc-0.0.2.tar.gz tmp/axabc-0.0.3.tar.gz --markdown 20230626/a/axabc/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-26 07:43:06] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2023-06-26 07:43:06] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2023.6.26.13.31.16.tar.gz tmp/chatllm-2023.6.26.13.38.53.tar.gz --markdown 20230626/c/chatllm/2023.6.26.13.31.16-2023.6.26.13.38.53/diff.md --exclude *.pyd
+[2023-06-26 07:43:06] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google Ads Transparency Scraper-0.1.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Remove: archive file [/home/abi/fetcher/tmp/Google Ads Transparency Scraper-1.0.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - processPackages [Google-Ads-Transparency-Scraper]: Start processing: raymics
+[2023-06-26 07:43:06] INFO root fetch - main [MainThread]: End processing [Google-Ads-Transparency-Scraper]: success
+[2023-06-26 07:43:06] INFO root fetch - processPackages [raymics]: New version: [0.7.0] Old Version: [0.5.9]
+[2023-06-26 07:43:06] INFO root fetch - processPackages [raymics]: Downloading https://files.pythonhosted.org/packages/7a/70/f7860f5f5fb3e496af15ebb74372fc5cab3b53a9b25c3da311e2b25643b0/raymics-0.5.9.tar.gz
+[2023-06-26 07:43:06] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.3.2.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.3.3.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - main [MainThread]: End processing [acore-server-config]: success
+[2023-06-26 07:43:06] INFO root fetch - processPackages [Flask-Cors]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Cors-4.0.0.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - processPackages [Flask-Cors]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Cors-4.0.0a0.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - main [MainThread]: End processing [Flask-Cors]: success
+[2023-06-26 07:43:06] INFO root fetch - processPackages [raymics]: Downloading https://files.pythonhosted.org/packages/b8/48/6fc55bd95989354086915938a875fde3892db4850ceb5795c6f256adc749/raymics-0.7.0.tar.gz
+[2023-06-26 07:43:06] INFO root fetch - processPackages [raymics]: executing diffoscope
+[2023-06-26 07:43:06] INFO root fetch - processPackages [raymics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raymics-0.5.9.tar.gz tmp/raymics-0.7.0.tar.gz --markdown 20230626/r/raymics/0.5.9-0.7.0/diff.md --exclude *.pyd
+[2023-06-26 07:43:06] INFO root fetch - processPackages [kanu]: Remove: archive file [/home/abi/fetcher/tmp/kanu-0.7.0.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - processPackages [kanu]: Remove: archive file [/home/abi/fetcher/tmp/kanu-0.8.0.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - main [MainThread]: End processing [kanu]: success
+[2023-06-26 07:43:06] INFO root fetch - processPackages [furiosa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_sdk-0.9.1.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - processPackages [furiosa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/furiosa_sdk-0.9.2.tar.gz]
+[2023-06-26 07:43:06] INFO root fetch - main [MainThread]: End processing [furiosa-sdk]: success
+[2023-06-26 07:43:07] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.2.tar.gz]
+[2023-06-26 07:43:07] INFO root fetch - processPackages [axabc]: Remove: archive file [/home/abi/fetcher/tmp/axabc-0.0.3.tar.gz]
+[2023-06-26 07:43:07] INFO root fetch - main [MainThread]: End processing [axabc]: success
+[2023-06-26 07:43:07] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.2.tar.gz]
+[2023-06-26 07:43:07] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
+[2023-06-26 07:43:07] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2023-06-26 07:43:07] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-06-26 07:43:07] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-06-26 07:43:07] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-26 07:43:08] INFO root fetch - processPackages [raymics]: Remove: archive file [/home/abi/fetcher/tmp/raymics-0.5.9.tar.gz]
+[2023-06-26 07:43:08] INFO root fetch - processPackages [raymics]: Remove: archive file [/home/abi/fetcher/tmp/raymics-0.7.0.tar.gz]
+[2023-06-26 07:43:08] INFO root fetch - main [MainThread]: End processing [raymics]: success
+[2023-06-26 07:43:09] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.26.13.31.16.tar.gz]
+[2023-06-26 07:43:09] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2023.6.26.13.38.53.tar.gz]
+[2023-06-26 07:43:09] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2023-06-26 07:43:09] INFO root fetch - processPackages [re-common]: Remove: archive file [/home/abi/fetcher/tmp/re_common-0.2.8.tar.gz]
+[2023-06-26 07:43:09] INFO root fetch - processPackages [re-common]: Remove: archive file [/home/abi/fetcher/tmp/re_common-0.2.9.tar.gz]
+[2023-06-26 07:43:09] INFO root fetch - main [MainThread]: End processing [re-common]: success
+[2023-06-26 07:43:09] INFO root fetch - main [MainThread]: Store serial: [18642537]
