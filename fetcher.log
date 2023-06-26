@@ -23673,3 +23673,231 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 17:46:46] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc1-py3-none-any.whl.zip]
 [2023-06-26 17:46:46] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
 [2023-06-26 17:46:46] INFO root fetch - main [MainThread]: Store serial: [18649267]
+[2023-06-26 17:51:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18649267]
+[2023-06-26 17:51:59] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evadb
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idem-tls
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 3D-registration
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FlaskSuper
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQt6-Fluent-Widgets
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: developers-chamber
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleqp
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robologs-ros-utils
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: locust
+[2023-06-26 17:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sssom
+[2023-06-26 17:51:59] INFO root fetch - processPackages [3D-registration]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-06-26 17:51:59] WARNING root fetch - processPackages [FlaskSuper]: Skipping, unable to determine old version
+[2023-06-26 17:51:59] INFO root fetch - processPackages [FlaskSuper]: Start processing: idem-spotinst
+[2023-06-26 17:51:59] INFO root fetch - main [MainThread]: End processing [FlaskSuper] error
+[2023-06-26 17:51:59] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-26 17:51:59] INFO root fetch - processPackages [robologs-ros-utils]: New version: [0.1.1a25] Old Version: [0.1.1a24]
+[2023-06-26 17:51:59] INFO root fetch - processPackages [sleqp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-26 17:51:59] INFO root fetch - processPackages [idem-tls]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-26 17:51:59] INFO root fetch - processPackages [developers-chamber]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 17:51:59] INFO root fetch - processPackages [evadb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-26 17:51:59] INFO root fetch - processPackages [sssom]: New version: [0.3.9] Old Version: [0.3.8.dev0]
+[2023-06-26 17:51:59] INFO root fetch - processPackages [idem-spotinst]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-26 17:51:59] INFO root fetch - processPackages [developers-chamber]: Downloading https://files.pythonhosted.org/packages/36/af/9798c6d41bf80ddb5c475cdcbc9239f5ff358acecb75df5af85aa4519fc7/developers-chamber-0.0.8.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-06-26 17:51:59] INFO root fetch - processPackages [3D-registration]: Downloading https://files.pythonhosted.org/packages/d6/6f/4e72a10509877ef3b5ac3957fe9562ddee8021c02a1ffc16169b3c27f01c/3D-registration-0.4.1.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [robologs-ros-utils]: Downloading https://files.pythonhosted.org/packages/67/ef/d258e005c17e3c6923f0d5ae48c0a9f2bfddc1c1e6d146653756381ef821/robologs_ros_utils-0.1.1a24.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [idem-tls]: Downloading https://files.pythonhosted.org/packages/cc/f5/3e8e708ea66bcaaf34821c2ddf7d19ddf3ed78165ce3f32bf0649e6f0e4c/idem-tls-0.2.0.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [sleqp]: Downloading https://files.pythonhosted.org/packages/40/cd/03edd757652ff38c514167e2090ec50f78d82d8167a7e9f761d1fb4a2643/sleqp-1.0.0.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/80/99/0d1461fc1bd65f162d6ccf2a8f372d743136031ce66bd304c17171d7d71d/PyQt6-Fluent-Widgets-0.9.8.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [idem-spotinst]: Downloading https://files.pythonhosted.org/packages/f3/26/3856d3095c03492ec7362c94c145a5091502705e6820c95b13e285203122/idem-spotinst-0.2.0.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/9d/93/b37b1cb993eeea7065f6708036ebd25c4d5313713a14dfbb763623451a3f/evadb-0.2.8.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [sssom]: Downloading https://files.pythonhosted.org/packages/fb/68/76e9ee21114a0826710c8716908a5548e11a334caeca846a34ca6f680f8e/sssom-0.3.8.dev0.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [developers-chamber]: Downloading https://files.pythonhosted.org/packages/53/06/448d9c575ddf6fcfcc48327cf6c988496a9fe8c338c5d3f88b1907645a36/developers-chamber-0.0.9.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [idem-tls]: Downloading https://files.pythonhosted.org/packages/7f/db/dca600d02c769bc2f1b9077041681fe7b636b9e9eed43e145c31f942840b/idem-tls-1.0.0.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [3D-registration]: Downloading https://files.pythonhosted.org/packages/19/1e/1c04f91c04ffd6987beba79faf9f22ee873b17293288873ef517c0244440/3D-registration-0.4.3.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [robologs-ros-utils]: Downloading https://files.pythonhosted.org/packages/18/28/7424a760f01155f0bbf89bf7f91609567eebcc56692db06dd3b63915b715/robologs_ros_utils-0.1.1a25.tar.gz
+[2023-06-26 17:51:59] INFO root fetch - processPackages [sleqp]: Downloading https://files.pythonhosted.org/packages/2e/40/6865baaee6cfc066f10cb994484c2f7825e44c5e7a6b41595db02a3ac354/sleqp-1.0.1.tar.gz
+[2023-06-26 17:52:00] INFO root fetch - processPackages [developers-chamber]: executing diffoscope
+[2023-06-26 17:52:00] INFO root fetch - processPackages [developers-chamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developers-chamber-0.0.8.tar.gz tmp/developers-chamber-0.0.9.tar.gz --markdown 20230626/d/developers-chamber/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 17:52:00] INFO root fetch - processPackages [3D-registration]: executing diffoscope
+[2023-06-26 17:52:00] INFO root fetch - processPackages [3D-registration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3D-registration-0.4.1.tar.gz tmp/3D-registration-0.4.3.tar.gz --markdown 20230626/3/3D-registration/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-06-26 17:52:00] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/c5/a2/5d4f3ecb64b992911d44cbc9a665c5a07c1e1132293b104115fc7bfce74a/PyQt6-Fluent-Widgets-0.9.9.tar.gz
+[2023-06-26 17:52:00] INFO root fetch - processPackages [idem-spotinst]: Downloading https://files.pythonhosted.org/packages/1b/10/a785ba5d02ff4f082f4d47fbd1dd0f317201a7c37ab0e757f979843dfe06/idem-spotinst-1.0.0.tar.gz
+[2023-06-26 17:52:00] INFO root fetch - processPackages [robologs-ros-utils]: executing diffoscope
+[2023-06-26 17:52:00] INFO root fetch - processPackages [robologs-ros-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robologs_ros_utils-0.1.1a24.tar.gz tmp/robologs_ros_utils-0.1.1a25.tar.gz --markdown 20230626/r/robologs-ros-utils/0.1.1a24-0.1.1a25/diff.md --exclude *.pyd
+[2023-06-26 17:52:00] INFO root fetch - processPackages [sleqp]: executing diffoscope
+[2023-06-26 17:52:00] INFO root fetch - processPackages [sleqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleqp-1.0.0.tar.gz tmp/sleqp-1.0.1.tar.gz --markdown 20230626/s/sleqp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-26 17:52:00] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/68/aa/b19d3f45b9444660fe9c64189284d835a6d90d952d099c10945f6a3cec49/evadb-0.2.9.tar.gz
+[2023-06-26 17:52:00] INFO root fetch - processPackages [idem-tls]: executing diffoscope
+[2023-06-26 17:52:00] INFO root fetch - processPackages [idem-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-tls-0.2.0.tar.gz tmp/idem-tls-1.0.0.tar.gz --markdown 20230626/i/idem-tls/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 17:52:00] INFO root fetch - processPackages [idem-spotinst]: executing diffoscope
+[2023-06-26 17:52:00] INFO root fetch - processPackages [idem-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-spotinst-0.2.0.tar.gz tmp/idem-spotinst-1.0.0.tar.gz --markdown 20230626/i/idem-spotinst/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 17:52:00] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-06-26 17:52:00] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.2.8.tar.gz tmp/evadb-0.2.9.tar.gz --markdown 20230626/e/evadb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-26 17:52:00] INFO root fetch - processPackages [sssom]: Downloading https://files.pythonhosted.org/packages/84/31/7dc51a85fbd7f7e60e1db58b033cf3b40b15106d5b17432f262f77358673/sssom-0.3.9.tar.gz
+[2023-06-26 17:52:00] INFO root fetch - processPackages [sssom]: executing diffoscope
+[2023-06-26 17:52:00] INFO root fetch - processPackages [sssom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssom-0.3.8.dev0.tar.gz tmp/sssom-0.3.9.tar.gz --markdown 20230626/s/sssom/0.3.8.dev0-0.3.9/diff.md --exclude *.pyd
+[2023-06-26 17:52:00] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-06-26 17:52:00] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.8.tar.gz tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz --markdown 20230626/P/PyQt6-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-26 17:52:00] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2023-06-26 17:52:01] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-06-26 17:52:01] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230626/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-06-26 17:52:01] INFO root fetch - processPackages [idem-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/idem-spotinst-0.2.0.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [idem-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/idem-spotinst-1.0.0.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [idem-spotinst]: Start processing: kangforecast
+[2023-06-26 17:52:01] INFO root fetch - main [MainThread]: End processing [idem-spotinst]: success
+[2023-06-26 17:52:01] INFO root fetch - processPackages [idem-tls]: Remove: archive file [/home/abi/fetcher/tmp/idem-tls-0.2.0.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [idem-tls]: Remove: archive file [/home/abi/fetcher/tmp/idem-tls-1.0.0.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [idem-tls]: Start processing: medkit-lib
+[2023-06-26 17:52:01] INFO root fetch - main [MainThread]: End processing [idem-tls]: success
+[2023-06-26 17:52:01] INFO root fetch - processPackages [kangforecast]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [medkit-lib]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [sleqp]: Remove: archive file [/home/abi/fetcher/tmp/sleqp-1.0.0.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [sleqp]: Remove: archive file [/home/abi/fetcher/tmp/sleqp-1.0.1.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [sleqp]: Start processing: dice-ml
+[2023-06-26 17:52:01] INFO root fetch - main [MainThread]: End processing [sleqp]: success
+[2023-06-26 17:52:01] INFO root fetch - processPackages [developers-chamber]: Remove: archive file [/home/abi/fetcher/tmp/developers-chamber-0.0.8.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [developers-chamber]: Remove: archive file [/home/abi/fetcher/tmp/developers-chamber-0.0.9.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [developers-chamber]: Start processing: langchain-serve
+[2023-06-26 17:52:01] INFO root fetch - main [MainThread]: End processing [developers-chamber]: success
+[2023-06-26 17:52:01] INFO root fetch - processPackages [3D-registration]: Remove: archive file [/home/abi/fetcher/tmp/3D-registration-0.4.1.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [3D-registration]: Remove: archive file [/home/abi/fetcher/tmp/3D-registration-0.4.3.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [3D-registration]: Start processing: myprofiler
+[2023-06-26 17:52:01] INFO root fetch - main [MainThread]: End processing [3D-registration]: success
+[2023-06-26 17:52:01] INFO root fetch - processPackages [dice-ml]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [robologs-ros-utils]: Remove: archive file [/home/abi/fetcher/tmp/robologs_ros_utils-0.1.1a24.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [robologs-ros-utils]: Remove: archive file [/home/abi/fetcher/tmp/robologs_ros_utils-0.1.1a25.tar.gz]
+[2023-06-26 17:52:01] INFO root fetch - processPackages [robologs-ros-utils]: Start processing: aa-miningtaxes
+[2023-06-26 17:52:01] INFO root fetch - main [MainThread]: End processing [robologs-ros-utils]: success
+[2023-06-26 17:52:01] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/66/61/879c4656eabf64232383680b21c9bce047dac4d08bde73c43661abeb2858/kangforecast-0.8.tar.gz
+[2023-06-26 17:52:01] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-26 17:52:01] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/79/da/8d142f6d700fcd56c045592bbb95f942e4e393bff9fdd1b3a76a0bb43c89/medkit_lib-0.6.0.tar.gz
+[2023-06-26 17:52:02] WARNING root fetch - processPackages [myprofiler]: Skipping, unable to determine old version
+[2023-06-26 17:52:02] INFO root fetch - processPackages [myprofiler]: Start processing: gpt-code-search
+[2023-06-26 17:52:02] INFO root fetch - main [MainThread]: End processing [myprofiler] error
+[2023-06-26 17:52:02] INFO root fetch - processPackages [gpt-code-search]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 17:52:02] INFO root fetch - processPackages [aa-miningtaxes]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-26 17:52:02] INFO root fetch - processPackages [sssom]: Remove: archive file [/home/abi/fetcher/tmp/sssom-0.3.8.dev0.tar.gz]
+[2023-06-26 17:52:02] INFO root fetch - processPackages [sssom]: Remove: archive file [/home/abi/fetcher/tmp/sssom-0.3.9.tar.gz]
+[2023-06-26 17:52:02] INFO root fetch - processPackages [sssom]: Start processing: lumaCLI
+[2023-06-26 17:52:02] INFO root fetch - main [MainThread]: End processing [sssom]: success
+[2023-06-26 17:52:02] INFO root fetch - processPackages [dice-ml]: Downloading https://files.pythonhosted.org/packages/2c/0f/ff86bb26c7aaa3834049516d640e5f53577d4fbf23b4e6217d6bc2ca0892/dice_ml-0.8.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/fa/d1/e7962cb8e61da2e7f0379178f8b92b6b270e42df8419fa1bb3010350fd50/gpt_code_search-0.0.4.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-26 17:52:02] WARNING root fetch - processPackages [lumaCLI]: Skipping, unable to determine old version
+[2023-06-26 17:52:02] INFO root fetch - processPackages [lumaCLI]: Start processing: robologs-ros-utils
+[2023-06-26 17:52:02] INFO root fetch - main [MainThread]: End processing [lumaCLI] error
+[2023-06-26 17:52:02] INFO root fetch - processPackages [robologs-ros-utils]: New version: [0.1.1a26] Old Version: [0.1.1a25]
+[2023-06-26 17:52:02] WARNING root fetch - processPackages [dice-ml]: Skipping package: exceeds size limit 12707518>=10485760
+[2023-06-26 17:52:02] INFO root fetch - processPackages [dice-ml]: Start processing: kodexa-cli
+[2023-06-26 17:52:02] INFO root fetch - processPackages [kangforecast]: Downloading https://files.pythonhosted.org/packages/30/93/8c1ad9b5ae15bd25b4cf4b3eb0eabae55525c5f834e1ec5122ad7d9c8f0a/kangforecast-0.9.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - main [MainThread]: End processing [dice-ml] error
+[2023-06-26 17:52:02] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-26 17:52:02] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230626/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-26 17:52:02] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/7c/f3/45ee0bbf0fc9855f82b844867f659bff5855842b93570125a6abf4e02e5e/gpt_code_search-0.0.5.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/56/f8/c8f84030472826fa8b0a973e4da9d101c7aaf5027dc9270c68ffa4b9c9b8/aa-miningtaxes-1.2.7.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/66/ae/994d615464e22180157f245eafc992940aa8d148ffe336a596eab3df2c6f/medkit_lib-0.7.0.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [kodexa-cli]: New version: [6.2.25379724432] Old Version: [6.2.25379660892]
+[2023-06-26 17:52:02] INFO root fetch - processPackages [robologs-ros-utils]: Downloading https://files.pythonhosted.org/packages/18/28/7424a760f01155f0bbf89bf7f91609567eebcc56692db06dd3b63915b715/robologs_ros_utils-0.1.1a25.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [kangforecast]: executing diffoscope
+[2023-06-26 17:52:02] INFO root fetch - processPackages [kangforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kangforecast-0.8.tar.gz tmp/kangforecast-0.9.tar.gz --markdown 20230626/k/kangforecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 17:52:02] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/dd/3e/45136cd3af0c8e66451a330792cd16525658ac46b641369af8221c7f9b85/kodexa_cli-6.2.25379660892.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [gpt-code-search]: executing diffoscope
+[2023-06-26 17:52:02] INFO root fetch - processPackages [gpt-code-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_search-0.0.4.tar.gz tmp/gpt_code_search-0.0.5.tar.gz --markdown 20230626/g/gpt-code-search/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 17:52:02] INFO root fetch - processPackages [medkit-lib]: executing diffoscope
+[2023-06-26 17:52:02] INFO root fetch - processPackages [medkit-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medkit_lib-0.6.0.tar.gz tmp/medkit_lib-0.7.0.tar.gz --markdown 20230626/m/medkit-lib/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-26 17:52:02] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/7d/36/bae6a5150353f0b5347bac4d3619e1e8d748ac80e27306fa7f69296f94e0/kodexa_cli-6.2.25379724432.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [robologs-ros-utils]: Downloading https://files.pythonhosted.org/packages/3d/52/98a4fd4c12a3e5ce3e9e051d13e23f31609d0b678806f3017f3259706fc8/robologs_ros_utils-0.1.1a26.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/39/64/c4e55485e6d772b15175375ca59650a5af4a3f7e712097ac2078078ab373/aa-miningtaxes-1.2.8.tar.gz
+[2023-06-26 17:52:02] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2023-06-26 17:52:02] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-6.2.25379660892.tar.gz tmp/kodexa_cli-6.2.25379724432.tar.gz --markdown 20230626/k/kodexa-cli/6.2.25379660892-6.2.25379724432/diff.md --exclude *.pyd
+[2023-06-26 17:52:02] INFO root fetch - processPackages [aa-miningtaxes]: executing diffoscope
+[2023-06-26 17:52:02] INFO root fetch - processPackages [aa-miningtaxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-miningtaxes-1.2.7.tar.gz tmp/aa-miningtaxes-1.2.8.tar.gz --markdown 20230626/a/aa-miningtaxes/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-26 17:52:02] INFO root fetch - processPackages [robologs-ros-utils]: executing diffoscope
+[2023-06-26 17:52:02] INFO root fetch - processPackages [robologs-ros-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robologs_ros_utils-0.1.1a25.tar.gz tmp/robologs_ros_utils-0.1.1a26.tar.gz --markdown 20230626/r/robologs-ros-utils/0.1.1a25-0.1.1a26/diff.md --exclude *.pyd
+[2023-06-26 17:52:03] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.8.tar.gz]
+[2023-06-26 17:52:03] INFO root fetch - processPackages [kangforecast]: Remove: archive file [/home/abi/fetcher/tmp/kangforecast-0.9.tar.gz]
+[2023-06-26 17:52:03] INFO root fetch - processPackages [kangforecast]: Start processing: idem-k8s
+[2023-06-26 17:52:03] INFO root fetch - main [MainThread]: End processing [kangforecast]: success
+[2023-06-26 17:52:03] INFO root fetch - processPackages [idem-k8s]: New version: [1.0.0] Old Version: [0.6.0]
+[2023-06-26 17:52:03] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-26 17:52:03] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-26 17:52:03] INFO root fetch - processPackages [langchain-serve]: Start processing: sc-cc-ng-sdk-python
+[2023-06-26 17:52:03] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-26 17:52:03] WARNING root fetch - processPackages [sc-cc-ng-sdk-python]: Skipping, unable to determine old version
+[2023-06-26 17:52:03] INFO root fetch - processPackages [sc-cc-ng-sdk-python]: Start processing: docarray
+[2023-06-26 17:52:03] INFO root fetch - main [MainThread]: End processing [sc-cc-ng-sdk-python] error
+[2023-06-26 17:52:03] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.4.tar.gz]
+[2023-06-26 17:52:03] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.5.tar.gz]
+[2023-06-26 17:52:03] INFO root fetch - processPackages [gpt-code-search]: Start processing: geometrical-layout
+[2023-06-26 17:52:03] INFO root fetch - main [MainThread]: End processing [gpt-code-search]: success
+[2023-06-26 17:52:03] INFO root fetch - processPackages [idem-k8s]: Downloading https://files.pythonhosted.org/packages/57/8c/d183e2f03bf0ba11f8fb031c8b61c969ea01c3612985834350b2c7e14e3d/idem-k8s-0.6.0.tar.gz
+[2023-06-26 17:52:03] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-26 17:52:03] WARNING root fetch - processPackages [geometrical-layout]: Skipping, unable to determine old version
+[2023-06-26 17:52:03] INFO root fetch - processPackages [geometrical-layout]: Start processing: sospice
+[2023-06-26 17:52:03] INFO root fetch - main [MainThread]: End processing [geometrical-layout] error
+[2023-06-26 17:52:04] INFO root fetch - processPackages [sospice]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [robologs-ros-utils]: Remove: archive file [/home/abi/fetcher/tmp/robologs_ros_utils-0.1.1a25.tar.gz]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [robologs-ros-utils]: Remove: archive file [/home/abi/fetcher/tmp/robologs_ros_utils-0.1.1a26.tar.gz]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [robologs-ros-utils]: Start processing: automation-utilities
+[2023-06-26 17:52:04] INFO root fetch - main [MainThread]: End processing [robologs-ros-utils]: success
+[2023-06-26 17:52:04] INFO root fetch - processPackages [automation-utilities]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [idem-k8s]: Downloading https://files.pythonhosted.org/packages/44/5a/ad35b1d815254c2e1f1c749e3aff46372be0b79482836186480b9b79ab69/idem-k8s-1.0.0.tar.gz
+[2023-06-26 17:52:04] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/22/fa/4cb3c302e771bbc9fd98a17299f6b53267ea6ddb6f63db69f09f00a15784/automation-utilities-1.2.3.tar.gz
+[2023-06-26 17:52:04] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-26 17:52:04] INFO root fetch - processPackages [idem-k8s]: executing diffoscope
+[2023-06-26 17:52:04] INFO root fetch - processPackages [idem-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-k8s-0.6.0.tar.gz tmp/idem-k8s-1.0.0.tar.gz --markdown 20230626/i/idem-k8s/0.6.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-26 17:52:04] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25379660892.tar.gz]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-6.2.25379724432.tar.gz]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [kodexa-cli]: Start processing: pytest-tinybird
+[2023-06-26 17:52:04] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2023-06-26 17:52:04] INFO root fetch - processPackages [sospice]: Downloading https://files.pythonhosted.org/packages/c1/e9/4f67b2476368a7a190b13084fa5e415fdef64de3b4fb087808b49fea66d6/sospice-0.0.3.tar.gz
+[2023-06-26 17:52:04] INFO root fetch - processPackages [automation-utilities]: Downloading https://files.pythonhosted.org/packages/0a/6c/4cae385ba002f84849f75adf46104763da958428b45da5ba1a600f9a4b4c/automation-utilities-1.2.4.tar.gz
+[2023-06-26 17:52:04] INFO root fetch - processPackages [pytest-tinybird]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [automation-utilities]: executing diffoscope
+[2023-06-26 17:52:04] INFO root fetch - processPackages [automation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-utilities-1.2.3.tar.gz tmp/automation-utilities-1.2.4.tar.gz --markdown 20230626/a/automation-utilities/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-26 17:52:04] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.6.0.tar.gz]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.7.0.tar.gz]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [medkit-lib]: Start processing: pytest-tinybird
+[2023-06-26 17:52:04] INFO root fetch - main [MainThread]: End processing [medkit-lib]: success
+[2023-06-26 17:52:04] INFO root fetch - processPackages [pytest-tinybird]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-26 17:52:04] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-26 17:52:04] INFO root fetch - processPackages [sospice]: Downloading https://files.pythonhosted.org/packages/d8/44/7da72259be3556af2e4e8d1000f8321b19531a664a13c58b8896e2a5e4b2/sospice-0.0.4.tar.gz
+[2023-06-26 17:52:04] INFO root fetch - processPackages [pytest-tinybird]: Downloading https://files.pythonhosted.org/packages/0c/30/c3732e3da3f33f2a664a7e700cc47bd254ec219828aea7c612a2c11f711c/pytest_tinybird-0.1.0-py3.10.egg
+[2023-06-26 17:52:04] INFO root fetch - processPackages [pytest-tinybird]: Downloading https://files.pythonhosted.org/packages/0c/30/c3732e3da3f33f2a664a7e700cc47bd254ec219828aea7c612a2c11f711c/pytest_tinybird-0.1.0-py3.10.egg
+[2023-06-26 17:52:04] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-26 17:52:04] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230626/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-26 17:52:04] INFO root fetch - processPackages [sospice]: executing diffoscope
+[2023-06-26 17:52:04] INFO root fetch - processPackages [sospice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sospice-0.0.3.tar.gz tmp/sospice-0.0.4.tar.gz --markdown 20230626/s/sospice/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 17:52:05] INFO root fetch - processPackages [pytest-tinybird]: Downloading https://files.pythonhosted.org/packages/28/1a/9348ef2518962f4d91756edb8070de1875f5a10eb81f6feb104e2cf511bc/pytest-tinybird-0.2.0.tar.gz
+[2023-06-26 17:52:05] INFO root fetch - processPackages [pytest-tinybird]: Downloading https://files.pythonhosted.org/packages/28/1a/9348ef2518962f4d91756edb8070de1875f5a10eb81f6feb104e2cf511bc/pytest-tinybird-0.2.0.tar.gz
+[2023-06-26 17:52:05] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.8.tar.gz]
+[2023-06-26 17:52:05] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
+[2023-06-26 17:52:05] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-06-26 17:52:05] INFO root fetch - processPackages [pytest-tinybird]: executing diffoscope
+[2023-06-26 17:52:05] INFO root fetch - processPackages [pytest-tinybird]: executing diffoscope
+[2023-06-26 17:52:05] INFO root fetch - processPackages [pytest-tinybird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_tinybird-0.1.0-py3.10.egg tmp/pytest-tinybird-0.2.0.tar.gz --markdown 20230626/p/pytest-tinybird/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 17:52:05] INFO root fetch - processPackages [pytest-tinybird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_tinybird-0.1.0-py3.10.egg tmp/pytest-tinybird-0.2.0.tar.gz --markdown 20230626/p/pytest-tinybird/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-26 17:52:05] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.3.tar.gz]
+[2023-06-26 17:52:05] INFO root fetch - processPackages [automation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/automation-utilities-1.2.4.tar.gz]
+[2023-06-26 17:52:05] INFO root fetch - main [MainThread]: End processing [automation-utilities]: success
+[2023-06-26 17:52:05] INFO root fetch - processPackages [sospice]: Remove: archive file [/home/abi/fetcher/tmp/sospice-0.0.3.tar.gz]
+[2023-06-26 17:52:05] INFO root fetch - processPackages [sospice]: Remove: archive file [/home/abi/fetcher/tmp/sospice-0.0.4.tar.gz]
+[2023-06-26 17:52:05] INFO root fetch - main [MainThread]: End processing [sospice]: success
+[2023-06-26 17:52:06] INFO root fetch - processPackages [idem-k8s]: Remove: archive file [/home/abi/fetcher/tmp/idem-k8s-0.6.0.tar.gz]
+[2023-06-26 17:52:06] INFO root fetch - processPackages [idem-k8s]: Remove: archive file [/home/abi/fetcher/tmp/idem-k8s-1.0.0.tar.gz]
+[2023-06-26 17:52:06] INFO root fetch - main [MainThread]: End processing [idem-k8s]: success
+[2023-06-26 17:52:06] INFO root fetch - processPackages [pytest-tinybird]: Remove: archive file [/home/abi/fetcher/tmp/pytest_tinybird-0.1.0-py3.10.egg]
+[2023-06-26 17:52:06] INFO root fetch - processPackages [pytest-tinybird]: Remove: archive file [/home/abi/fetcher/tmp/pytest-tinybird-0.2.0.tar.gz]
+[2023-06-26 17:52:06] INFO root fetch - main [MainThread]: End processing [pytest-tinybird]: success
+[2023-06-26 17:52:06] INFO root fetch - main [MainThread]: End processing [pytest-tinybird]: success
+[2023-06-26 17:52:06] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2023-06-26 17:52:06] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2023-06-26 17:52:06] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-06-26 17:52:06] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.8.tar.gz]
+[2023-06-26 17:52:06] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz]
+[2023-06-26 17:52:06] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-06-26 17:52:08] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.7.tar.gz]
+[2023-06-26 17:52:08] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.8.tar.gz]
+[2023-06-26 17:52:08] INFO root fetch - main [MainThread]: End processing [aa-miningtaxes]: success
+[2023-06-26 17:53:00] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-26 17:53:00] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-26 17:53:00] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-26 17:53:00] INFO root fetch - main [MainThread]: Store serial: [18649355]
