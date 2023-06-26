@@ -6446,3 +6446,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 05:32:58] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.tar.gz]
 [2023-06-26 05:32:58] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
 [2023-06-26 05:32:58] INFO root fetch - main [MainThread]: Store serial: [18641782]
+[2023-06-26 05:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641782]
+[2023-06-26 05:38:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-26 05:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypalert
+[2023-06-26 05:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-parallel-toolkit
+[2023-06-26 05:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lfinancial
+[2023-06-26 05:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grassmanntn
+[2023-06-26 05:38:07] INFO root fetch - processPackages [lfinancial]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-06-26 05:38:07] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-26 05:38:07] INFO root fetch - processPackages [pypalert]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-26 05:38:07] INFO root fetch - processPackages [grassmanntn]: New version: [1.1] Old Version: [1.0]
+[2023-06-26 05:38:07] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/43/d5/5c302fe387fd67388917b4e562100f3bdfe2e574d287cbcdb70947a534c2/openai_parallel_toolkit-0.5.1-py3-none-any.whl
+[2023-06-26 05:38:07] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/8b/c3/1ccc4b274d11870bd2231490a81549ec5553cf48281b0527592dbe05210c/lfinancial-0.0.3.tar.gz
+[2023-06-26 05:38:07] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/25/11/a730d976ebd429c0c4e02f49afd2c08cae685cee982d05c0db64bafef90f/grassmanntn-1.0.tar.gz
+[2023-06-26 05:38:07] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/6e/44/1583bda25c818b54786ca4204616d131da062d4b9ed2cb4776666844ee54/pypalert-2.0.2.tar.gz
+[2023-06-26 05:38:07] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/7a/db/c1d10dbcb51e73876fcadcb57df6e79003edf3c22019e0c8c08fdca87801/grassmanntn-1.1.tar.gz
+[2023-06-26 05:38:07] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-06-26 05:38:07] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.0.tar.gz tmp/grassmanntn-1.1.tar.gz --markdown 20230626/g/grassmanntn/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-26 05:38:07] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/98/42/22b46bcf703ea1b545d1c38185727c7e38295e0194831da3bcfa778e3a26/lfinancial-0.0.5.tar.gz
+[2023-06-26 05:38:07] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/35/f2/039dbb60ca3eb0df621209767e547659ccd353ede0f0117cec105a28774a/openai_parallel_toolkit-0.5.2-py3-none-any.whl
+[2023-06-26 05:38:07] INFO root fetch - processPackages [pypalert]: Downloading https://files.pythonhosted.org/packages/b8/c3/f698eeb7161e227a9014c98e5ac15e224018c52ccf370055e903636935b4/pypalert-2.0.3.tar.gz
+[2023-06-26 05:38:08] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-06-26 05:38:08] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-0.5.1-py3-none-any.whl.zip tmp/openai_parallel_toolkit-0.5.2-py3-none-any.whl.zip --markdown 20230626/o/openai-parallel-toolkit/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-26 05:38:08] INFO root fetch - processPackages [pypalert]: executing diffoscope
+[2023-06-26 05:38:08] INFO root fetch - processPackages [pypalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypalert-2.0.2.tar.gz tmp/pypalert-2.0.3.tar.gz --markdown 20230626/p/pypalert/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-26 05:38:08] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-06-26 05:38:08] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.0.3.tar.gz tmp/lfinancial-0.0.5.tar.gz --markdown 20230626/l/lfinancial/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 05:38:09] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.0.3.tar.gz]
+[2023-06-26 05:38:09] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.0.5.tar.gz]
+[2023-06-26 05:38:09] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-06-26 05:38:09] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-2.0.2.tar.gz]
+[2023-06-26 05:38:09] INFO root fetch - processPackages [pypalert]: Remove: archive file [/home/abi/fetcher/tmp/pypalert-2.0.3.tar.gz]
+[2023-06-26 05:38:09] INFO root fetch - main [MainThread]: End processing [pypalert]: success
+[2023-06-26 05:38:09] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.0.tar.gz]
+[2023-06-26 05:38:09] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.tar.gz]
+[2023-06-26 05:38:09] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-06-26 05:38:09] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-0.5.1-py3-none-any.whl.zip]
+[2023-06-26 05:38:09] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-0.5.2-py3-none-any.whl.zip]
+[2023-06-26 05:38:09] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-06-26 05:38:09] INFO root fetch - main [MainThread]: Store serial: [18641793]
