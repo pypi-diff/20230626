@@ -7680,3 +7680,133 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 07:08:05] INFO root fetch - processPackages [dss-python]: Remove: archive file [/home/abi/fetcher/tmp/dss_python-0.9.8-cp37-cp37m-win_amd64.whl.zip]
 [2023-06-26 07:08:05] INFO root fetch - main [MainThread]: End processing [dss-python]: success
 [2023-06-26 07:08:05] INFO root fetch - main [MainThread]: Store serial: [18642267]
+[2023-06-26 07:13:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642267]
+[2023-06-26 07:13:21] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tflite-model-maker-nightly
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-model-server
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfr
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robot-rumble
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helios-opentelemetry-sdk
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DroidRpc
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snk
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: axabc
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-animus
+[2023-06-26 07:13:21] INFO root fetch - processPackages [cfr]: New version: [2023.6.25] Old Version: [0.6.7]
+[2023-06-26 07:13:21] INFO root fetch - processPackages [snk]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-26 07:13:21] INFO root fetch - processPackages [robot-rumble]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-26 07:13:21] INFO root fetch - processPackages [py-animus]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 07:13:21] WARNING root fetch - processPackages [axabc]: Skipping, unable to determine old version
+[2023-06-26 07:13:21] INFO root fetch - processPackages [axabc]: Start processing: ChemCal
+[2023-06-26 07:13:21] INFO root fetch - main [MainThread]: End processing [axabc] error
+[2023-06-26 07:13:21] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-26 07:13:21] INFO root fetch - processPackages [helios-opentelemetry-sdk]: New version: [1.0.94] Old Version: [1.0.93]
+[2023-06-26 07:13:21] INFO root fetch - processPackages [DroidRpc]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-26 07:13:21] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230626] Old Version: [23.8.0a230625]
+[2023-06-26 07:13:21] INFO root fetch - processPackages [ChemCal]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-26 07:13:21] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306260507] Old Version: [0.4.3.dev202306240507]
+[2023-06-26 07:13:21] INFO root fetch - processPackages [DroidRpc]: Downloading https://files.pythonhosted.org/packages/27/8f/8f26071a398c3bde9a9fed00340db56230c692dfb0161d27e79b049cbf15/DroidRpc-1.6.8.tar.gz
+[2023-06-26 07:13:21] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/7a/04/04fc1869659c40d6e25cc3678d27abc1c1e618508367d94a7221658354e2/helios-opentelemetry-sdk-1.0.93.tar.gz
+[2023-06-26 07:13:21] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/e5/fa/7364cee42c144e604e244323f847586bf0aff605bf0c6ffa328dd8638ca3/py_animus-1.0.8.tar.gz
+[2023-06-26 07:13:21] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/f9/26/1c5c2930033fc25586b061c5c3a6f53cad69d33b14683c139ba5406088fb/cfr-0.6.7.tar.gz
+[2023-06-26 07:13:21] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/48/89/9953b3c1dd23996c5235b0197d66bd547206c3303ffb77fb4363ba8ba03f/robot_rumble-0.0.7.tar.gz
+[2023-06-26 07:13:21] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/74/71/ea84e7aef99999837d816bfb8e1748e35dcfd4902e9d11f84f33317eb3f9/dask-cuda-23.8.0a230625.tar.gz
+[2023-06-26 07:13:22] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 22358131>=10485760
+[2023-06-26 07:13:22] INFO root fetch - processPackages [robot-rumble]: Start processing: pathling
+[2023-06-26 07:13:22] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-06-26 07:13:22] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/4d/4e/16820d9c5795470ce02a6eb3098019ea152fb04686ffc43dc78534886650/snk-0.7.0.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [ChemCal]: Downloading https://files.pythonhosted.org/packages/f5/b5/dcd4d63eaa3a8873abbb9008375e423a5beb26bd60a7011f25ba0fccfb3d/ChemCal-0.0.2.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [pathling]: New version: [6.2.2.dev0] Old Version: [6.2.1]
+[2023-06-26 07:13:22] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/07/57/d9f2629f4e7f31aa84562b97396f2b8ef1b0615c8023b280cc2d8db79d58/tflite-model-maker-nightly-0.4.3.dev202306240507.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Downloading https://files.pythonhosted.org/packages/60/9e/e19397fed549a9b800c44ee8401be94179d47c8a309b5a02950c935ae7c7/helios-opentelemetry-sdk-1.0.94.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230626/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] INFO root fetch - processPackages [DroidRpc]: Downloading https://files.pythonhosted.org/packages/a1/e7/55475bac18be3aca6a0072dfcd8fcb3f2eed71e89a5694350455d7b2fc2c/DroidRpc-1.6.9.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [helios-opentelemetry-sdk]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [helios-opentelemetry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios-opentelemetry-sdk-1.0.93.tar.gz tmp/helios-opentelemetry-sdk-1.0.94.tar.gz --markdown 20230626/h/helios-opentelemetry-sdk/1.0.93-1.0.94/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] INFO root fetch - processPackages [pathling]: Downloading https://files.pythonhosted.org/packages/3b/23/8569972635afe7192df9b4ada5b20766c13ae2917a883142992b7ffdbe64/pathling-6.2.1.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/7c/7d/cba1b364d2a41232a5ca9077324962742ded82b5986529dc3b654a26f06c/snk-0.8.0.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [ChemCal]: Downloading https://files.pythonhosted.org/packages/ef/58/e875c8dd24277ed57b4e031c885e5717b6e1daae5940f57626b93220f233/ChemCal-0.0.4.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [py-animus]: Downloading https://files.pythonhosted.org/packages/d0/f2/ad85921f027bfea132df7280af98bacb101900532efd1d6e0a3cf1407033/py_animus-1.0.9.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/33/7a/361173fe891e347629fa9ade50e6567af664474c4d6e1f22e21ff3daff96/dask-cuda-23.8.0a230626.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.7.0.tar.gz tmp/snk-0.8.0.tar.gz --markdown 20230626/s/snk/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/07/c0/2ceb0bec0756d1728c72c6fe856022c00bc40317360a808b99e0706686fc/cfr-2023.6.25.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [ChemCal]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [ChemCal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChemCal-0.0.2.tar.gz tmp/ChemCal-0.0.4.tar.gz --markdown 20230626/C/ChemCal/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] WARNING root fetch - processPackages [pathling]: Skipping package: exceeds size limit 59643890>=10485760
+[2023-06-26 07:13:22] INFO root fetch - processPackages [pathling]: Start processing: gpubs
+[2023-06-26 07:13:22] INFO root fetch - main [MainThread]: End processing [pathling] error
+[2023-06-26 07:13:22] INFO root fetch - processPackages [DroidRpc]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [DroidRpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DroidRpc-1.6.8.tar.gz tmp/DroidRpc-1.6.9.tar.gz --markdown 20230626/D/DroidRpc/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] INFO root fetch - processPackages [gpubs]: New version: [4] Old Version: [3]
+[2023-06-26 07:13:22] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-0.6.7.tar.gz tmp/cfr-2023.6.25.tar.gz --markdown 20230626/c/cfr/0.6.7-2023.6.25/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] INFO root fetch - processPackages [gpubs]: Downloading https://files.pythonhosted.org/packages/3e/00/4c62ea7194857b8af21567c3330af3d7f7b13c6060f8efca926461c11c86/gpubs-3.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [py-animus]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [py-animus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_animus-1.0.8.tar.gz tmp/py_animus-1.0.9.tar.gz --markdown 20230626/p/py-animus/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230625.tar.gz tmp/dask-cuda-23.8.0a230626.tar.gz --markdown 20230626/d/dask-cuda/23.8.0a230625-23.8.0a230626/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/ea/05/f7659f55b9c009246e8c2f57e88043e6d887c9be5096268216b88a920a1a/tflite-model-maker-nightly-0.4.3.dev202306260507.tar.gz
+[2023-06-26 07:13:22] INFO root fetch - processPackages [gpubs]: Downloading https://files.pythonhosted.org/packages/fc/f8/4e342ece10c33f5ddc435b9ff1ee8c68309859736fe17472395a3273b7a2/gpubs-4.tar.gz
+[2023-06-26 07:13:22] ERROR root fetch - processPackages [DroidRpc]: Diffoscope failed: Error: error creating container storage: the container name "angry_thompson" is already in use by "3f1648f839fd262fe905cc8ab278ab2c296951aa997f4728e72722a5b59c2deb". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-26 07:13:22] INFO root fetch - processPackages [DroidRpc]: Start processing: potato-tool
+[2023-06-26 07:13:22] INFO root fetch - main [MainThread]: End processing [DroidRpc] error
+[2023-06-26 07:13:22] INFO root fetch - processPackages [potato-tool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 07:13:22] INFO root fetch - processPackages [gpubs]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [gpubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpubs-3.tar.gz tmp/gpubs-4.tar.gz --markdown 20230626/g/gpubs/3-4/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-26 07:13:22] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306240507.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306260507.tar.gz --markdown 20230626/t/tflite-model-maker-nightly/0.4.3.dev202306240507-0.4.3.dev202306260507/diff.md --exclude *.pyd
+[2023-06-26 07:13:22] INFO root fetch - processPackages [potato-tool]: Downloading https://files.pythonhosted.org/packages/df/ef/54436b9fdd8cb101ffee29f0bc1dc73c9547c35152e955fa4eb7df707cd8/potato_tool-0.0.1.tar.gz
+[2023-06-26 07:13:23] INFO root fetch - processPackages [potato-tool]: Downloading https://files.pythonhosted.org/packages/20/a7/bde0afa73fceae5c1a5639d5e4a0aa8e464c0a3f36d21f2b2193390a04a3/potato_tool-0.0.2.tar.gz
+[2023-06-26 07:13:23] INFO root fetch - processPackages [potato-tool]: executing diffoscope
+[2023-06-26 07:13:23] INFO root fetch - processPackages [potato-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potato_tool-0.0.1.tar.gz tmp/potato_tool-0.0.2.tar.gz --markdown 20230626/p/potato-tool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 07:13:24] INFO root fetch - processPackages [ChemCal]: Remove: archive file [/home/abi/fetcher/tmp/ChemCal-0.0.2.tar.gz]
+[2023-06-26 07:13:24] INFO root fetch - processPackages [ChemCal]: Remove: archive file [/home/abi/fetcher/tmp/ChemCal-0.0.4.tar.gz]
+[2023-06-26 07:13:24] INFO root fetch - processPackages [ChemCal]: Start processing: dvc
+[2023-06-26 07:13:24] INFO root fetch - main [MainThread]: End processing [ChemCal]: success
+[2023-06-26 07:13:24] INFO root fetch - processPackages [dvc]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-06-26 07:13:24] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.93.tar.gz]
+[2023-06-26 07:13:24] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/helios-opentelemetry-sdk-1.0.94.tar.gz]
+[2023-06-26 07:13:24] INFO root fetch - processPackages [helios-opentelemetry-sdk]: Start processing: hdx-python-api
+[2023-06-26 07:13:24] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
+[2023-06-26 07:13:24] INFO root fetch - processPackages [hdx-python-api]: New version: [6.0.4] Old Version: [6.0.2]
+[2023-06-26 07:13:24] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/91/1e/c1d96be626cbd97d76a896ad15db6a3328f8c2d9253822cd80fb99733d7d/dvc-3.2.1.tar.gz
+[2023-06-26 07:13:24] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/f2/38/bf6720078b114688879bf5c2bee64f6fa330fa66ef01ae1c6598e1ee71f1/hdx-python-api-6.0.2.tar.gz
+[2023-06-26 07:13:24] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.7.tar.gz]
+[2023-06-26 07:13:24] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-2023.6.25.tar.gz]
+[2023-06-26 07:13:24] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2023-06-26 07:13:24] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/8d/d1/a508f61ce0358487824b722b7b3543e0cc6d0228adf513bd6a6df1fd1a74/dvc-3.2.2.tar.gz
+[2023-06-26 07:13:24] INFO root fetch - processPackages [gpubs]: Remove: archive file [/home/abi/fetcher/tmp/gpubs-3.tar.gz]
+[2023-06-26 07:13:24] INFO root fetch - processPackages [gpubs]: Remove: archive file [/home/abi/fetcher/tmp/gpubs-4.tar.gz]
+[2023-06-26 07:13:24] INFO root fetch - main [MainThread]: End processing [gpubs]: success
+[2023-06-26 07:13:24] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-06-26 07:13:24] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.2.1.tar.gz tmp/dvc-3.2.2.tar.gz --markdown 20230626/d/dvc/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-06-26 07:13:24] INFO root fetch - processPackages [hdx-python-api]: Downloading https://files.pythonhosted.org/packages/d8/18/0fca0e6182f0b00551622439e171cd2cec8ccdbbb096fb121962d8739fdb/hdx_python_api-6.0.4.tar.gz
+[2023-06-26 07:13:24] INFO root fetch - processPackages [hdx-python-api]: executing diffoscope
+[2023-06-26 07:13:24] INFO root fetch - processPackages [hdx-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx-python-api-6.0.2.tar.gz tmp/hdx_python_api-6.0.4.tar.gz --markdown 20230626/h/hdx-python-api/6.0.2-6.0.4/diff.md --exclude *.pyd
+[2023-06-26 07:13:25] INFO root fetch - processPackages [py-animus]: Remove: archive file [/home/abi/fetcher/tmp/py_animus-1.0.8.tar.gz]
+[2023-06-26 07:13:25] INFO root fetch - processPackages [py-animus]: Remove: archive file [/home/abi/fetcher/tmp/py_animus-1.0.9.tar.gz]
+[2023-06-26 07:13:25] INFO root fetch - main [MainThread]: End processing [py-animus]: success
+[2023-06-26 07:13:25] INFO root fetch - processPackages [potato-tool]: Remove: archive file [/home/abi/fetcher/tmp/potato_tool-0.0.1.tar.gz]
+[2023-06-26 07:13:25] INFO root fetch - processPackages [potato-tool]: Remove: archive file [/home/abi/fetcher/tmp/potato_tool-0.0.2.tar.gz]
+[2023-06-26 07:13:25] INFO root fetch - main [MainThread]: End processing [potato-tool]: success
+[2023-06-26 07:13:26] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230625.tar.gz]
+[2023-06-26 07:13:26] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230626.tar.gz]
+[2023-06-26 07:13:26] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-26 07:13:27] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306240507.tar.gz]
+[2023-06-26 07:13:27] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306260507.tar.gz]
+[2023-06-26 07:13:27] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-26 07:13:31] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx-python-api-6.0.2.tar.gz]
+[2023-06-26 07:13:31] INFO root fetch - processPackages [hdx-python-api]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_api-6.0.4.tar.gz]
+[2023-06-26 07:13:31] INFO root fetch - main [MainThread]: End processing [hdx-python-api]: success
+[2023-06-26 07:13:31] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.2.1.tar.gz]
+[2023-06-26 07:13:31] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.2.2.tar.gz]
+[2023-06-26 07:13:31] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-06-26 07:14:09] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.7.0.tar.gz]
+[2023-06-26 07:14:09] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.8.0.tar.gz]
+[2023-06-26 07:14:09] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-06-26 07:16:22] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-26 07:16:22] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-26 07:16:22] INFO root fetch - main [MainThread]: Store serial: [18642326]
