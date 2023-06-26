@@ -13799,3 +13799,97 @@ AssertionError: tmp/mrfix-2.0.8.tar.gz does not exist
 [2023-06-26 12:00:45] INFO root fetch - processPackages [galaxy-web-apps]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-web-apps-23.0.3.tar.gz]
 [2023-06-26 12:00:45] INFO root fetch - main [MainThread]: End processing [galaxy-web-apps]: success
 [2023-06-26 12:00:45] INFO root fetch - main [MainThread]: Store serial: [18644973]
+[2023-06-26 12:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644973]
+[2023-06-26 12:05:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytedee-async
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titan-iris
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codestamper
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sihl
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otlmow-converter
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: report-dh
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deeppipe-api
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-cnandi-morpho-equiv
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flask-migratepg
+[2023-06-26 12:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ptrlib
+[2023-06-26 12:05:55] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: New version: [20230626.8.9.100481] Old Version: [20230626.8.40.156829]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [sihl]: New version: [0.0.3.dev0] Old Version: [0.0.2.dev0]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [codestamper]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [otlmow-converter]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [pytedee-async]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [ptrlib]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [flask-migratepg]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [deeppipe-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [titan-iris]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Downloading https://files.pythonhosted.org/packages/69/74/60e4a6b0b9e7ea0c82343285032eb4d5b4819df6f202c3c2024dbb543895/certora-cli-alpha-cnandi-morpho-equiv-20230626.8.40.156829.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [flask-migratepg]: Downloading https://files.pythonhosted.org/packages/72/90/a547c2634e4f19c3b9b2bc7cb1fa6dca60ae3d67dd229e04c5b5034ee180/flask-migratepg-0.0.3.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-06-26 12:05:55] WARNING root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Skipping package: exceeds size limit 40305417>=10485760
+[2023-06-26 12:05:55] INFO root fetch - processPackages [certora-cli-alpha-cnandi-morpho-equiv]: Start processing: django-oscar-stripe-sca
+[2023-06-26 12:05:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-cnandi-morpho-equiv] error
+[2023-06-26 12:05:55] INFO root fetch - processPackages [codestamper]: Downloading https://files.pythonhosted.org/packages/cb/16/32fdc8f9d43bd9a69346d8a32e30bc00ebae1966f9c175d4695862ae7ab6/codestamper-0.3.0.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/6a/a5/1d86cbfe8b61126f5d6cee30041d0ae735d76967fc69d10543d89efd2976/pytedee_async-0.0.6.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/57/fc/92ed365ca4d30b40821fa8cb328734f541030aa1a07433d4fb1533c8ca2a/deeppipe_api-0.1.1.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [ptrlib]: Downloading https://files.pythonhosted.org/packages/a9/01/f91c0f40e6e6f748b43d79ef43d3904634f0225e46bd70542248c1541ddf/ptrlib-2.0.8-py3-none-any.whl
+[2023-06-26 12:05:55] INFO root fetch - processPackages [sihl]: Downloading https://files.pythonhosted.org/packages/6e/ce/bb9ca576e77b38cf918617ceb87cdcdb0a941c4bd302a9ec7332e11c8236/sihl-0.0.2.dev0.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/94/db/3e9cfef4b03286e0f4f23dda3aa1e918b35c48c6a859b02d7cb0e047417a/titan-iris-0.8.0.tar.gz
+[2023-06-26 12:05:55] WARNING root fetch - processPackages [deeppipe-api]: Skipping package: exceeds size limit 49278872>=10485760
+[2023-06-26 12:05:55] INFO root fetch - main [MainThread]: End processing [deeppipe-api] error
+[2023-06-26 12:05:55] INFO root fetch - processPackages [otlmow-converter]: Downloading https://files.pythonhosted.org/packages/d8/9b/c7bb2f438cff3f42c7b57717f8e8928f896a1e04ebcff851e5cc79bf3883/otlmow_converter-0.8.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [flask-migratepg]: Downloading https://files.pythonhosted.org/packages/c1/3d/4dc1ff7a69c2596d984c70a77bff59c1fdeccba5c941ff6ba5346aa3d8e6/flask-migratepg-0.0.4.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [django-oscar-stripe-sca]: New version: [0.2] Old Version: [0.1]
+[2023-06-26 12:05:55] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-06-26 12:05:55] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230626/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-26 12:05:55] INFO root fetch - processPackages [pytedee-async]: Downloading https://files.pythonhosted.org/packages/8c/8d/539cb777b52c3d6dca5656c86e08c5ad1784eb5cb4c7d931d9a9f7777b13/pytedee_async-0.0.7.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [flask-migratepg]: executing diffoscope
+[2023-06-26 12:05:55] INFO root fetch - processPackages [flask-migratepg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-migratepg-0.0.3.tar.gz tmp/flask-migratepg-0.0.4.tar.gz --markdown 20230626/f/flask-migratepg/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 12:05:55] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/af/60/13a2ab0487c3284c66083b077b151b4068c216834ed2ae867fe2069d3fab/titan-iris-0.8.1.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [codestamper]: Downloading https://files.pythonhosted.org/packages/8d/9d/7c3ba918984be80161fdca8f14d4c442458d3a8da1759baa3ac79b0bd03e/codestamper-0.3.1.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [sihl]: Downloading https://files.pythonhosted.org/packages/24/97/79dc43d40625ca5adfddd03e99581e0aef42cf3609ce4717c6cafa0cc52b/sihl-0.0.3.dev0.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [pytedee-async]: executing diffoscope
+[2023-06-26 12:05:55] INFO root fetch - processPackages [pytedee-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytedee_async-0.0.6.tar.gz tmp/pytedee_async-0.0.7.tar.gz --markdown 20230626/p/pytedee-async/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-26 12:05:55] INFO root fetch - processPackages [ptrlib]: Downloading https://files.pythonhosted.org/packages/1d/74/0d7bae4f40e18c904871297f40bd2bd84bebd5f61c077ad75eb9a7a6602a/ptrlib-2.0.9-py3-none-any.whl
+[2023-06-26 12:05:55] INFO root fetch - processPackages [django-oscar-stripe-sca]: Downloading https://files.pythonhosted.org/packages/5a/9e/cd2307d60fc7203c37c84b93fe9092209ad5ed15747fa5fc5c69face74d1/django-oscar-stripe-sca-0.1.tar.gz
+[2023-06-26 12:05:55] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-26 12:05:55] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.8.0.tar.gz tmp/titan-iris-0.8.1.tar.gz --markdown 20230626/t/titan-iris/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-26 12:05:55] INFO root fetch - processPackages [sihl]: executing diffoscope
+[2023-06-26 12:05:55] INFO root fetch - processPackages [sihl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sihl-0.0.2.dev0.tar.gz tmp/sihl-0.0.3.dev0.tar.gz --markdown 20230626/s/sihl/0.0.2.dev0-0.0.3.dev0/diff.md --exclude *.pyd
+[2023-06-26 12:05:55] INFO root fetch - processPackages [codestamper]: executing diffoscope
+[2023-06-26 12:05:55] INFO root fetch - processPackages [codestamper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codestamper-0.3.0.tar.gz tmp/codestamper-0.3.1.tar.gz --markdown 20230626/c/codestamper/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-26 12:05:55] INFO root fetch - processPackages [ptrlib]: executing diffoscope
+[2023-06-26 12:05:55] INFO root fetch - processPackages [ptrlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptrlib-2.0.8-py3-none-any.whl.zip tmp/ptrlib-2.0.9-py3-none-any.whl.zip --markdown 20230626/p/ptrlib/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-26 12:05:55] INFO root fetch - processPackages [otlmow-converter]: Downloading https://files.pythonhosted.org/packages/0d/10/0291fca193db6bde455c97caa90df2aad98730c3c257da351667da3a8116/otlmow_converter-0.9.tar.gz
+[2023-06-26 12:05:56] INFO root fetch - processPackages [otlmow-converter]: executing diffoscope
+[2023-06-26 12:05:56] INFO root fetch - processPackages [otlmow-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otlmow_converter-0.8.tar.gz tmp/otlmow_converter-0.9.tar.gz --markdown 20230626/o/otlmow-converter/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 12:05:56] INFO root fetch - processPackages [django-oscar-stripe-sca]: Downloading https://files.pythonhosted.org/packages/c1/31/f1ea6e4d1ea186f4de2eac44d22009c4ad489355f13c412e9758e2646616/django_oscar_stripe_sca-0.2-py3-none-any.whl
+[2023-06-26 12:05:56] INFO root fetch - processPackages [django-oscar-stripe-sca]: executing diffoscope
+[2023-06-26 12:05:56] INFO root fetch - processPackages [django-oscar-stripe-sca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscar-stripe-sca-0.1.tar.gz tmp/django_oscar_stripe_sca-0.2-py3-none-any.whl.zip --markdown 20230626/d/django-oscar-stripe-sca/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-26 12:05:56] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-06-26 12:05:56] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-06-26 12:05:56] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-06-26 12:05:56] INFO root fetch - processPackages [flask-migratepg]: Remove: archive file [/home/abi/fetcher/tmp/flask-migratepg-0.0.3.tar.gz]
+[2023-06-26 12:05:56] INFO root fetch - processPackages [flask-migratepg]: Remove: archive file [/home/abi/fetcher/tmp/flask-migratepg-0.0.4.tar.gz]
+[2023-06-26 12:05:56] INFO root fetch - main [MainThread]: End processing [flask-migratepg]: success
+[2023-06-26 12:05:56] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.0.6.tar.gz]
+[2023-06-26 12:05:56] INFO root fetch - processPackages [pytedee-async]: Remove: archive file [/home/abi/fetcher/tmp/pytedee_async-0.0.7.tar.gz]
+[2023-06-26 12:05:56] INFO root fetch - main [MainThread]: End processing [pytedee-async]: success
+[2023-06-26 12:05:57] INFO root fetch - processPackages [codestamper]: Remove: archive file [/home/abi/fetcher/tmp/codestamper-0.3.0.tar.gz]
+[2023-06-26 12:05:57] INFO root fetch - processPackages [codestamper]: Remove: archive file [/home/abi/fetcher/tmp/codestamper-0.3.1.tar.gz]
+[2023-06-26 12:05:57] INFO root fetch - main [MainThread]: End processing [codestamper]: success
+[2023-06-26 12:05:57] INFO root fetch - processPackages [otlmow-converter]: Remove: archive file [/home/abi/fetcher/tmp/otlmow_converter-0.8.tar.gz]
+[2023-06-26 12:05:57] INFO root fetch - processPackages [otlmow-converter]: Remove: archive file [/home/abi/fetcher/tmp/otlmow_converter-0.9.tar.gz]
+[2023-06-26 12:05:57] INFO root fetch - main [MainThread]: End processing [otlmow-converter]: success
+[2023-06-26 12:05:57] INFO root fetch - processPackages [django-oscar-stripe-sca]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-stripe-sca-0.1.tar.gz]
+[2023-06-26 12:05:57] INFO root fetch - processPackages [django-oscar-stripe-sca]: Remove: archive file [/home/abi/fetcher/tmp/django_oscar_stripe_sca-0.2-py3-none-any.whl.zip]
+[2023-06-26 12:05:57] INFO root fetch - main [MainThread]: End processing [django-oscar-stripe-sca]: success
+[2023-06-26 12:05:57] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.0.tar.gz]
+[2023-06-26 12:05:57] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.8.1.tar.gz]
+[2023-06-26 12:05:57] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-26 12:05:57] INFO root fetch - processPackages [sihl]: Remove: archive file [/home/abi/fetcher/tmp/sihl-0.0.2.dev0.tar.gz]
+[2023-06-26 12:05:57] INFO root fetch - processPackages [sihl]: Remove: archive file [/home/abi/fetcher/tmp/sihl-0.0.3.dev0.tar.gz]
+[2023-06-26 12:05:57] INFO root fetch - main [MainThread]: End processing [sihl]: success
+[2023-06-26 12:05:57] INFO root fetch - processPackages [ptrlib]: Remove: archive file [/home/abi/fetcher/tmp/ptrlib-2.0.8-py3-none-any.whl.zip]
+[2023-06-26 12:05:57] INFO root fetch - processPackages [ptrlib]: Remove: archive file [/home/abi/fetcher/tmp/ptrlib-2.0.9-py3-none-any.whl.zip]
+[2023-06-26 12:05:57] INFO root fetch - main [MainThread]: End processing [ptrlib]: success
+[2023-06-26 12:05:57] INFO root fetch - main [MainThread]: Store serial: [18645011]
