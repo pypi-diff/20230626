@@ -4391,3 +4391,56 @@
 [2023-06-26 02:55:18] INFO root fetch - processPackages [blitzml]: Remove: archive file [/home/abi/fetcher/tmp/blitzml-0.9.0-py3-none-any.whl.zip]
 [2023-06-26 02:55:18] INFO root fetch - main [MainThread]: End processing [blitzml]: success
 [2023-06-26 02:55:18] INFO root fetch - main [MainThread]: Store serial: [18641011]
+[2023-06-26 03:00:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641011]
+[2023-06-26 03:00:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 03:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aider-chat
+[2023-06-26 03:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getpaper
+[2023-06-26 03:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gull-api
+[2023-06-26 03:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-06-26 03:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isoCycle
+[2023-06-26 03:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-slack-chatbot
+[2023-06-26 03:00:28] INFO root fetch - processPackages [getpaper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-26 03:00:28] INFO root fetch - processPackages [isoCycle]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-26 03:00:28] INFO root fetch - processPackages [aider-chat]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-26 03:00:28] INFO root fetch - processPackages [gull-api]: New version: [0.0.12rc3] Old Version: [0.0.12rc2]
+[2023-06-26 03:00:28] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-26 03:00:28] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-26 03:00:28] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/ba/3d/f659f5e9ef381024304219904273000f815ab9b18a5a04b8f76f6a260670/aider-chat-0.7.0.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/9f/0d/4f3aa6258ba3c00fadf4e8fd0b7d6df97c24a61a589c9aee7c17d2e0a7af/isoCycle-0.1.7.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/0f/93/33e4bd1a0fbae6610fa1aa68bd9e2c599108da3235bae7298192bcc8100f/getpaper-0.1.8.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/32/13/c593dbacedc98758b9fb615fb33cf93676a4f047fedf249b009313279b0d/gull_api-0.0.12rc2.tar.gz
+[2023-06-26 03:00:28] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 36958475>=10485760
+[2023-06-26 03:00:28] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-06-26 03:00:28] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/46/d1/14fead706c3f0eabc1646c293b8ece1c75c074f189f241fd3d104f3879b0/aider-chat-0.7.1.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/a1/64/5acb1b47a78335ef05bb1cba2d0b2e3fdc03fdabbf6777d62ee6ba2bb5de/getpaper-0.1.9.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2023-06-26 03:00:28] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.7.0.tar.gz tmp/aider-chat-0.7.1.tar.gz --markdown 20230626/a/aider-chat/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-26 03:00:28] INFO root fetch - processPackages [getpaper]: executing diffoscope
+[2023-06-26 03:00:28] INFO root fetch - processPackages [getpaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getpaper-0.1.8.tar.gz tmp/getpaper-0.1.9.tar.gz --markdown 20230626/g/getpaper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-26 03:00:28] INFO root fetch - processPackages [gull-api]: Downloading https://files.pythonhosted.org/packages/64/86/22462091f8e536e8b102da143822d3e8ad0e6a9ff622e0da7bcc53d08e1a/gull_api-0.0.12rc3.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [gull-api]: executing diffoscope
+[2023-06-26 03:00:28] INFO root fetch - processPackages [gull-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gull_api-0.0.12rc2.tar.gz tmp/gull_api-0.0.12rc3.tar.gz --markdown 20230626/g/gull-api/0.0.12rc2-0.0.12rc3/diff.md --exclude *.pyd
+[2023-06-26 03:00:28] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-26 03:00:28] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230626/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-26 03:00:28] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-26 03:00:28] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-26 03:00:28] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230626/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-26 03:00:29] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.1.8.tar.gz]
+[2023-06-26 03:00:29] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.1.9.tar.gz]
+[2023-06-26 03:00:29] INFO root fetch - main [MainThread]: End processing [getpaper]: success
+[2023-06-26 03:00:29] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.7.0.tar.gz]
+[2023-06-26 03:00:29] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.7.1.tar.gz]
+[2023-06-26 03:00:29] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2023-06-26 03:00:30] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-06-26 03:00:30] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-06-26 03:00:30] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-26 03:00:30] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.12rc2.tar.gz]
+[2023-06-26 03:00:30] INFO root fetch - processPackages [gull-api]: Remove: archive file [/home/abi/fetcher/tmp/gull_api-0.0.12rc3.tar.gz]
+[2023-06-26 03:00:30] INFO root fetch - main [MainThread]: End processing [gull-api]: success
+[2023-06-26 03:01:01] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-26 03:01:01] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-26 03:01:01] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-26 03:01:01] INFO root fetch - main [MainThread]: Store serial: [18641029]
