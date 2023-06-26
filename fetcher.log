@@ -11131,3 +11131,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 10:10:41] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0rc2.tar.gz]
 [2023-06-26 10:10:41] INFO root fetch - main [MainThread]: End processing [notebook]: success
 [2023-06-26 10:10:41] INFO root fetch - main [MainThread]: Store serial: [18643850]
+[2023-06-26 10:15:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18643850]
+[2023-06-26 10:15:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-caption
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.pipeline
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.static-website
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-service
+[2023-06-26 10:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gaussian-analytic
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 10:15:50] INFO root fetch - processPackages [mkdocs-caption]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 10:15:50] WARNING root fetch - processPackages [xia-service]: Skipping, unable to determine old version
+[2023-06-26 10:15:50] INFO root fetch - processPackages [xia-service]: Start processing: unrollcuda
+[2023-06-26 10:15:50] WARNING root fetch - processPackages [gaussian-analytic]: Skipping, unable to determine old version
+[2023-06-26 10:15:50] INFO root fetch - main [MainThread]: End processing [xia-service] error
+[2023-06-26 10:15:50] INFO root fetch - processPackages [gaussian-analytic]: Start processing: cdktf
+[2023-06-26 10:15:50] INFO root fetch - main [MainThread]: End processing [gaussian-analytic] error
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 10:15:50] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230626] Old Version: [0.3.1.dev20230625]
+[2023-06-26 10:15:50] INFO root fetch - processPackages [unrollcuda]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-06-26 10:15:50] INFO root fetch - processPackages [unrollcuda]: Downloading https://files.pythonhosted.org/packages/4d/cd/20229c3ad28dea396ce0ae2028543c7f464de12faf60447333b4b8155b04/unrollcuda-0.0.3.tar.gz
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-06-26 10:15:50] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-06-26 10:15:50] INFO root fetch - processPackages [mkdocs-caption]: Downloading https://files.pythonhosted.org/packages/d1/25/fcc7038c67abfd88d002fe56ee4ff357c00164a1c9783e2932f2e0eca52d/mkdocs_caption-0.0.4.tar.gz
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-06-26 10:15:50] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-06-26 10:15:50] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/f8/a5/c818cbbcbf7001fc26bd9a0c81a33dd78771927b93d583654ebb6c2b8541/pyglove-0.3.1.dev20230625.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230626/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 10:15:51] INFO root fetch - processPackages [unrollcuda]: Downloading https://files.pythonhosted.org/packages/92/fc/9a820c9292f8af403c063d3ddbb5aa9391fa35a6a2b17a9aa77aa1f8aab3/unrollcuda-0.0.4.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230626/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230626/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 10:15:51] INFO root fetch - processPackages [mkdocs-caption]: Downloading https://files.pythonhosted.org/packages/72/6e/b2e4598adeae9ec7b8f822fc81a21e175c4834dac60bb92c3a6cbd5d0aa3/mkdocs_caption-0.0.5.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/36/16/cf98a58228030a919fa77472be546dacb41c061e65bb7761da01f2db18de/pyglove-0.3.1.dev20230626.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [unrollcuda]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [unrollcuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unrollcuda-0.0.3.tar.gz tmp/unrollcuda-0.0.4.tar.gz --markdown 20230626/u/unrollcuda/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-26 10:15:51] INFO root fetch - processPackages [mkdocs-caption]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [mkdocs-caption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_caption-0.0.4.tar.gz tmp/mkdocs_caption-0.0.5.tar.gz --markdown 20230626/m/mkdocs-caption/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230626/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230626/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230625.tar.gz tmp/pyglove-0.3.1.dev20230626.tar.gz --markdown 20230626/p/pyglove/0.3.1.dev20230625-0.3.1.dev20230626/diff.md --exclude *.pyd
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230626/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 10:15:51] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2023-06-26 10:15:51] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-06-26 10:15:51] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230626/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 10:15:53] INFO root fetch - processPackages [unrollcuda]: Remove: archive file [/home/abi/fetcher/tmp/unrollcuda-0.0.3.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [unrollcuda]: Remove: archive file [/home/abi/fetcher/tmp/unrollcuda-0.0.4.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [unrollcuda]: Start processing: ml-pretrained
+[2023-06-26 10:15:53] INFO root fetch - main [MainThread]: End processing [unrollcuda]: success
+[2023-06-26 10:15:53] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: m-abac-test
+[2023-06-26 10:15:53] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-06-26 10:15:53] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [mkdocs-caption]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_caption-0.0.4.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [mkdocs-caption]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_caption-0.0.5.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - main [MainThread]: End processing [mkdocs-caption]: success
+[2023-06-26 10:15:53] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-06-26 10:15:53] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-06-26 10:15:53] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-06-26 10:15:53] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-06-26 10:15:53] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-06-26 10:15:53] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2023-06-26 10:15:53] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-06-26 10:15:53] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-06-26 10:15:54] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-26 10:15:54] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230626/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-26 10:15:54] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-06-26 10:15:54] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-06-26 10:15:54] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230626/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 10:15:54] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-06-26 10:15:54] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-06-26 10:15:54] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-06-26 10:15:55] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-06-26 10:15:55] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-06-26 10:15:55] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-26 10:15:55] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-06-26 10:15:55] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-06-26 10:15:55] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-06-26 10:15:55] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-06-26 10:15:55] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-06-26 10:15:55] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-06-26 10:15:57] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230625.tar.gz]
+[2023-06-26 10:15:57] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230626.tar.gz]
+[2023-06-26 10:15:57] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-26 10:15:57] INFO root fetch - main [MainThread]: Store serial: [18643909]
