@@ -4725,3 +4725,63 @@
 [2023-06-26 03:17:59] INFO root fetch - processPackages [vsc-dm]: Remove: archive file [/home/abi/fetcher/tmp/vsc_dm-0.0.1.5372751496-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-26 03:17:59] INFO root fetch - main [MainThread]: End processing [vsc-dm]: success
 [2023-06-26 03:17:59] INFO root fetch - main [MainThread]: Store serial: [18641129]
+[2023-06-26 03:23:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641129]
+[2023-06-26 03:23:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-26 03:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-shtc3
+[2023-06-26 03:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyproject-pre-commit
+[2023-06-26 03:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Flask-Cors
+[2023-06-26 03:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-06-26 03:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaraco.functools
+[2023-06-26 03:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbrlabs-pulumi-eks
+[2023-06-26 03:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kf6py
+[2023-06-26 03:23:12] INFO root fetch - processPackages [Flask-Cors]: New version: [4.0.0a0] Old Version: [3.0.9]
+[2023-06-26 03:23:12] INFO root fetch - processPackages [jaraco.functools]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-06-26 03:23:12] INFO root fetch - processPackages [pyproject-pre-commit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 03:23:12] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.0.4a1687719722] Old Version: [0.0.4a1687717427]
+[2023-06-26 03:23:12] INFO root fetch - processPackages [yplib]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-06-26 03:23:12] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/2e/d2/f57eb55dfcf03d5cac9a75392ce1b9fa490bb21534200328d576968bd6e5/lbrlabs_pulumi_eks-0.0.4a1687717427.tar.gz
+[2023-06-26 03:23:12] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/c8/a1/094c7409bce8a0e7f6e4e1ff4a7e1eea126396d2364808aff4b5e78ed182/yplib-1.8.0.tar.gz
+[2023-06-26 03:23:12] INFO root fetch - processPackages [kf6py]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-26 03:23:12] WARNING root fetch - processPackages [micropython-shtc3]: Skipping, unable to determine old version
+[2023-06-26 03:23:12] INFO root fetch - main [MainThread]: End processing [micropython-shtc3] error
+[2023-06-26 03:23:13] INFO root fetch - processPackages [Flask-Cors]: Downloading https://files.pythonhosted.org/packages/99/fc/cd117ea122e28037a5ec60356a7ffae8b77af527713f7b5e4eb63089f669/Flask-Cors-3.0.9.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [jaraco.functools]: Downloading https://files.pythonhosted.org/packages/a9/9b/5da438f6734ad7bc13ae1ab5d14329526f2c93b122d89482cb24bad97714/jaraco.functools-3.7.0.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/d6/37/7cefb7736c79bd5242b5d80c67ec2b5db58939b1af783cdd3f30f5054a0b/pyproject_pre_commit-0.0.8.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [kf6py]: Downloading https://files.pythonhosted.org/packages/67/d5/79ff90ca505a6980ca08359c93b5c111dbbd036f38071f9bf0e0bac5a15b/kf6py-0.2.2.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/5a/b0/cab021592254928f5b7e9f73bb2318663c36e90e3f100ca604517b7a5db5/yplib-1.8.1.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/bd/55/a07ee86fd54fdef59c11fa9ed3aab72e871edf54a0c524ef3ca5f6262174/lbrlabs_pulumi_eks-0.0.4a1687719722.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2023-06-26 03:23:13] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.0.4a1687717427.tar.gz tmp/lbrlabs_pulumi_eks-0.0.4a1687719722.tar.gz --markdown 20230626/l/lbrlabs-pulumi-eks/0.0.4a1687717427-0.0.4a1687719722/diff.md --exclude *.pyd
+[2023-06-26 03:23:13] INFO root fetch - processPackages [Flask-Cors]: Downloading https://files.pythonhosted.org/packages/fa/93/b52ee1819053ec169fd9f94ae5bcd2adf24e6c609a3d05507abf55595907/Flask-Cors-4.0.0a0.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-26 03:23:13] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.8.0.tar.gz tmp/yplib-1.8.1.tar.gz --markdown 20230626/y/yplib/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-06-26 03:23:13] INFO root fetch - processPackages [jaraco.functools]: Downloading https://files.pythonhosted.org/packages/99/62/3c214a2a6143701690af6a6687f324af93f6cb0222eee6dddd8196fcfd05/jaraco.functools-3.8.0.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [pyproject-pre-commit]: Downloading https://files.pythonhosted.org/packages/b4/05/ef39c872bbf4bec813b234e1b5bd2d0e72f0e12de11497ac672a94846e55/pyproject_pre_commit-0.0.9.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [Flask-Cors]: executing diffoscope
+[2023-06-26 03:23:13] INFO root fetch - processPackages [Flask-Cors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Cors-3.0.9.tar.gz tmp/Flask-Cors-4.0.0a0.tar.gz --markdown 20230626/F/Flask-Cors/3.0.9-4.0.0a0/diff.md --exclude *.pyd
+[2023-06-26 03:23:13] INFO root fetch - processPackages [jaraco.functools]: executing diffoscope
+[2023-06-26 03:23:13] INFO root fetch - processPackages [jaraco.functools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.functools-3.7.0.tar.gz tmp/jaraco.functools-3.8.0.tar.gz --markdown 20230626/j/jaraco.functools/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-06-26 03:23:13] INFO root fetch - processPackages [kf6py]: Downloading https://files.pythonhosted.org/packages/eb/eb/f3c60a2b57f8d4c61845652688337582e91389aadc5a15b0d11aa0cd0b3d/kf6py-0.2.3.tar.gz
+[2023-06-26 03:23:13] INFO root fetch - processPackages [pyproject-pre-commit]: executing diffoscope
+[2023-06-26 03:23:13] INFO root fetch - processPackages [pyproject-pre-commit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_pre_commit-0.0.8.tar.gz tmp/pyproject_pre_commit-0.0.9.tar.gz --markdown 20230626/p/pyproject-pre-commit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 03:23:13] INFO root fetch - processPackages [kf6py]: executing diffoscope
+[2023-06-26 03:23:13] INFO root fetch - processPackages [kf6py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kf6py-0.2.2.tar.gz tmp/kf6py-0.2.3.tar.gz --markdown 20230626/k/kf6py/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-26 03:23:15] INFO root fetch - processPackages [pyproject-pre-commit]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_pre_commit-0.0.8.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - processPackages [pyproject-pre-commit]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_pre_commit-0.0.9.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - main [MainThread]: End processing [pyproject-pre-commit]: success
+[2023-06-26 03:23:15] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.4a1687717427.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.0.4a1687719722.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2023-06-26 03:23:15] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.0.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.8.1.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-26 03:23:15] INFO root fetch - processPackages [Flask-Cors]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Cors-3.0.9.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - processPackages [Flask-Cors]: Remove: archive file [/home/abi/fetcher/tmp/Flask-Cors-4.0.0a0.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - main [MainThread]: End processing [Flask-Cors]: success
+[2023-06-26 03:23:15] INFO root fetch - processPackages [jaraco.functools]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.functools-3.7.0.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - processPackages [jaraco.functools]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.functools-3.8.0.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - main [MainThread]: End processing [jaraco.functools]: success
+[2023-06-26 03:23:15] INFO root fetch - processPackages [kf6py]: Remove: archive file [/home/abi/fetcher/tmp/kf6py-0.2.2.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - processPackages [kf6py]: Remove: archive file [/home/abi/fetcher/tmp/kf6py-0.2.3.tar.gz]
+[2023-06-26 03:23:15] INFO root fetch - main [MainThread]: End processing [kf6py]: success
+[2023-06-26 03:23:15] INFO root fetch - main [MainThread]: Store serial: [18641151]
