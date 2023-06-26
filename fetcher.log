@@ -8367,3 +8367,189 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 08:00:21] INFO root fetch - processPackages [weathon]: Remove: archive file [/home/abi/fetcher/tmp/weathon-0.0.0.14.tar.gz]
 [2023-06-26 08:00:21] INFO root fetch - main [MainThread]: End processing [weathon]: success
 [2023-06-26 08:00:21] INFO root fetch - main [MainThread]: Store serial: [18642636]
+[2023-06-26 08:05:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642636]
+[2023-06-26 08:05:32] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tailscale
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PointBlaster
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-asset-management
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-sumologic
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckm
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastexception
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsonrequest
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-signalfx
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xklb
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netspresso
+[2023-06-26 08:05:32] WARNING root fetch - processPackages [ckm]: Skipping, unable to determine old version
+[2023-06-26 08:05:32] INFO root fetch - processPackages [ckm]: Start processing: codeassist
+[2023-06-26 08:05:32] INFO root fetch - main [MainThread]: End processing [ckm] error
+[2023-06-26 08:05:32] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-26 08:05:32] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-06-26 08:05:32] WARNING root fetch - processPackages [jsonrequest]: Skipping, unable to determine old version
+[2023-06-26 08:05:32] INFO root fetch - processPackages [jsonrequest]: Start processing: pulumi-spotinst
+[2023-06-26 08:05:32] INFO root fetch - main [MainThread]: End processing [jsonrequest] error
+[2023-06-26 08:05:32] INFO root fetch - processPackages [fastexception]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-26 08:05:32] INFO root fetch - processPackages [PointBlaster]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-26 08:05:32] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-06-26 08:05:32] INFO root fetch - processPackages [netspresso]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-26 08:05:32] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-06-26 08:05:32] INFO root fetch - processPackages [xklb]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-26 08:05:32] WARNING root fetch - processPackages [codeassist]: Skipping, unable to determine old version
+[2023-06-26 08:05:32] INFO root fetch - processPackages [codeassist]: Start processing: pulumi-splunk
+[2023-06-26 08:05:32] INFO root fetch - main [MainThread]: End processing [codeassist] error
+[2023-06-26 08:05:32] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-06-26 08:05:32] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1687758094] Old Version: [1.3.0a1687056751]
+[2023-06-26 08:05:32] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/b1/a1/03a47da30bb6a1c754c92f2f9789d463bf99ff6025502a3b10459768037e/xklb-2.1.8.tar.gz
+[2023-06-26 08:05:32] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/ea/65/7f70651203e5f793f860949735cd6d4e009466486b9ed331ef3e634725fd/odoo_addon_account_asset_management-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-26 08:05:32] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/0c/0c/cb3928781a8897e29e2dedfb06eb285ad0aca1215677bbccc54db34feb07/PointBlaster-0.1.7.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/8a/59/067f7c35e51fd7c532c2f1315a007a09ff5006e840183f650d9bade4346f/netspresso-1.0.3.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/df/af/6ce59b7c2b16430059194f12915ea6e00f78750767ba049754c4cfbfe6a1/pulumi_splunk-1.3.0a1687056751.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/7e/61/ade4c59b6ce7c16df044d071b13218024e861c7693bfa058bbc2391d3850/pulumi_signalfx-5.9.0a1678129624.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [fastexception]: Downloading https://files.pythonhosted.org/packages/b6/c5/defef77be9cd1140da795face51fdd256855cb406ee644774ff6f7bde71d/fastexception-0.1.0.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/2e/31/1637bef7e4aaf8529af80e5d5d27b2eca11c30c3a63fd32033fb97549c52/xklb-2.1.9.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.1.8.tar.gz tmp/xklb-2.1.9.tar.gz --markdown 20230626/x/xklb/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-26 08:05:33] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/30/1c/086ee4d9ca976699aa43d693d113a596eb4c6edc78d399929851005307b5/netspresso-1.0.4-py3-none-any.whl
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/9a/43/44517e399d0b61e2550a11213e1ca666f0725315d1d12657de406ca94066/pulumi_splunk-1.3.0a1687758094.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/fb/07/e2e3b3e4b751b7698b98ba65696c236dfd745874033a3347f2bc7aa90a9d/PointBlaster-0.1.8.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [fastexception]: Downloading https://files.pythonhosted.org/packages/fe/61/13f60fa9b0d62f7969b4f63f1a2d84b8c9f49042535ac9a25f4db98d8559/fastexception-0.1.1.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230626/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-06-26 08:05:33] INFO root fetch - processPackages [fastexception]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [fastexception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastexception-0.1.0.tar.gz tmp/fastexception-0.1.1.tar.gz --markdown 20230626/f/fastexception/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/b7/8d/331f5f2f4de92e704ed6acb8a742d7d4706095ff2946d5386ab60993c394/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-1.0.3.tar.gz tmp/netspresso-1.0.4-py3-none-any.whl.zip --markdown 20230626/n/netspresso/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/de/fa/3f3b9230a1ef9eea16d4715b365d7651076d7530dc754902f930cb2a83cc/pulumi_signalfx-5.9.0a1678179334.tar.gz
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1687056751.tar.gz tmp/pulumi_splunk-1.3.0a1687758094.tar.gz --markdown 20230626/p/pulumi-splunk/1.3.0a1687056751-1.3.0a1687758094/diff.md --exclude *.pyd
+[2023-06-26 08:05:33] INFO root fetch - processPackages [PointBlaster]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [PointBlaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PointBlaster-0.1.7.tar.gz tmp/PointBlaster-0.1.8.tar.gz --markdown 20230626/P/PointBlaster/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230626/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230626/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-06-26 08:05:33] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-account-asset-management/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-06-26 08:05:33] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230626/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-06-26 08:05:36] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.8.tar.gz]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.1.9.tar.gz]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [xklb]: Start processing: aorta-sirius-dev
+[2023-06-26 08:05:36] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-26 08:05:36] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-26 08:05:36] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-26 08:05:36] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-26 08:05:36] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230626/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-26 08:05:36] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.0.3.tar.gz]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.0.4-py3-none-any.whl.zip]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [netspresso]: Start processing: newpackageone
+[2023-06-26 08:05:36] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-06-26 08:05:36] WARNING root fetch - processPackages [newpackageone]: Skipping, unable to determine old version
+[2023-06-26 08:05:36] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [newpackageone]: Start processing: odoo-addon-website-event-require-login
+[2023-06-26 08:05:36] INFO root fetch - main [MainThread]: End processing [newpackageone] error
+[2023-06-26 08:05:36] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [pulumi-tailscale]: Start processing: shoobx.mocks3
+[2023-06-26 08:05:36] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-06-26 08:05:36] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.1]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [shoobx.mocks3]: New version: [4.2.3] Old Version: [4.2.2.dev0]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [fastexception]: Remove: archive file [/home/abi/fetcher/tmp/fastexception-0.1.0.tar.gz]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [fastexception]: Remove: archive file [/home/abi/fetcher/tmp/fastexception-0.1.1.tar.gz]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [fastexception]: Start processing: permission-management
+[2023-06-26 08:05:36] INFO root fetch - main [MainThread]: End processing [fastexception]: success
+[2023-06-26 08:05:36] WARNING root fetch - processPackages [permission-management]: Skipping, unable to determine old version
+[2023-06-26 08:05:36] INFO root fetch - processPackages [permission-management]: Start processing: aliyun-python-sdk-rds
+[2023-06-26 08:05:36] INFO root fetch - main [MainThread]: End processing [permission-management] error
+[2023-06-26 08:05:36] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.8] Old Version: [2.7.7]
+[2023-06-26 08:05:36] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Downloading https://files.pythonhosted.org/packages/7b/d5/5e65bcb7f1850188aa076f986b7b04e45ec66923dc57dfc200e143e99261/odoo_addon_website_event_require_login-15.0.1.0.1.1-py3-none-any.whl
+[2023-06-26 08:05:36] INFO root fetch - processPackages [shoobx.mocks3]: Downloading https://files.pythonhosted.org/packages/71/89/9915289598b699fb1254f94c2f9e77c1eb6fd7bb71b874e0ce9acd3a86c5/shoobx.mocks3-4.2.2.dev0.tar.gz
+[2023-06-26 08:05:37] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/e6/46/83294f09d4351e34f4a6b8e85cff88807745ef3b07b85097ba1954de1fcb/aliyun-python-sdk-rds-2.7.7.tar.gz
+[2023-06-26 08:05:37] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Downloading https://files.pythonhosted.org/packages/86/07/bed1d1d5d49620687351559c11f042fc29ade0a8156d886402c484120f35/odoo_addon_website_event_require_login-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-26 08:05:37] INFO root fetch - processPackages [shoobx.mocks3]: Downloading https://files.pythonhosted.org/packages/04/64/9a48f12ac859bc4b0ab414d844ebdada6dc9cc1bbaeb45ee8a6b711c1975/shoobx.mocks3-4.2.3.tar.gz
+[2023-06-26 08:05:37] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: executing diffoscope
+[2023-06-26 08:05:37] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_event_require_login-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_website_event_require_login-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-website-event-require-login/15.0.1.0.1.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-26 08:05:37] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-06-26 08:05:37] INFO root fetch - processPackages [shoobx.mocks3]: executing diffoscope
+[2023-06-26 08:05:37] INFO root fetch - processPackages [shoobx.mocks3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shoobx.mocks3-4.2.2.dev0.tar.gz tmp/shoobx.mocks3-4.2.3.tar.gz --markdown 20230626/s/shoobx.mocks3/4.2.2.dev0-4.2.3/diff.md --exclude *.pyd
+[2023-06-26 08:05:37] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.7.tar.gz]
+[2023-06-26 08:05:37] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.1.8.tar.gz]
+[2023-06-26 08:05:37] INFO root fetch - processPackages [PointBlaster]: Start processing: pulumi-snowflake
+[2023-06-26 08:05:37] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
+[2023-06-26 08:05:37] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-06-26 08:05:37] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1687056751.tar.gz]
+[2023-06-26 08:05:37] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1687758094.tar.gz]
+[2023-06-26 08:05:37] INFO root fetch - processPackages [pulumi-splunk]: Start processing: pulumi-vsphere
+[2023-06-26 08:05:37] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-06-26 08:05:37] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-06-26 08:05:37] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.7.tar.gz tmp/aliyun-python-sdk-rds-2.7.8.tar.gz --markdown 20230626/a/aliyun-python-sdk-rds/2.7.7-2.7.8/diff.md --exclude *.pyd
+[2023-06-26 08:05:37] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.6.0a1687758153] Old Version: [4.6.0a1687057203]
+[2023-06-26 08:05:37] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-06-26 08:05:37] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/08/bb/90fa8a12ff47cc8e1e7363e3f427f299ad1b65c06e4b7251a48e9228330c/pulumi_vsphere-4.6.0a1687057203.tar.gz
+[2023-06-26 08:05:37] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/6a/c6/e7a7b5bd777c1a233efedea240643236ec417ac0c000e9d5e2da94991035/pulumi_vsphere-4.6.0a1687758153.tar.gz
+[2023-06-26 08:05:37] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.6.0a1687057203.tar.gz tmp/pulumi_vsphere-4.6.0a1687758153.tar.gz --markdown 20230626/p/pulumi-vsphere/4.6.0a1687057203-4.6.0a1687758153/diff.md --exclude *.pyd
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230626/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-06-26 08:05:38] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-26 08:05:38] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-26 08:05:38] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Start processing: pulumi-wavefront
+[2023-06-26 08:05:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2023-06-26 08:05:38] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-26 08:05:38] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-26 08:05:38] INFO root fetch - processPackages [aorta-sirius-dev]: Start processing: wprit
+[2023-06-26 08:05:38] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-wavefront]: New version: [1.5.0a1687758259] Old Version: [1.5.0a1687057378]
+[2023-06-26 08:05:38] WARNING root fetch - processPackages [wprit]: Skipping, unable to determine old version
+[2023-06-26 08:05:38] INFO root fetch - processPackages [wprit]: Start processing: odoo13-addon-sale-coupon-portal-commercial-partner-applicability
+[2023-06-26 08:05:38] INFO root fetch - main [MainThread]: End processing [wprit] error
+[2023-06-26 08:05:38] WARNING root fetch - processPackages [odoo13-addon-sale-coupon-portal-commercial-partner-applicability]: Skipping, unable to determine old version
+[2023-06-26 08:05:38] INFO root fetch - processPackages [odoo13-addon-sale-coupon-portal-commercial-partner-applicability]: Start processing: pulumi-venafi
+[2023-06-26 08:05:38] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-coupon-portal-commercial-partner-applicability] error
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.6.0a1687758204] Old Version: [1.6.0a1687057183]
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/9d/51/e0195c3e9383bdacfe5a20323f5ead168a09ad6417b8a8256ca63e9acbd1/pulumi_wavefront-1.5.0a1687057378.tar.gz
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/83/d9/cc52489d66537fba3a97fd52a7da47413d10abdfdc39f2d0738030101ff3/pulumi_venafi-1.6.0a1687057183.tar.gz
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/55/b8/9f0dc5a8843a3f5ce1c8c1ba5001bbd701181322e513207d44db015806e4/pulumi_wavefront-1.5.0a1687758259.tar.gz
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-06-26 08:05:38] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-1.5.0a1687057378.tar.gz tmp/pulumi_wavefront-1.5.0a1687758259.tar.gz --markdown 20230626/p/pulumi-wavefront/1.5.0a1687057378-1.5.0a1687758259/diff.md --exclude *.pyd
+[2023-06-26 08:05:39] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/28/7f/116d8d34437898974731ea8722d06ea2b5bf13759eaf50e2225ca7e7c3a8/pulumi_venafi-1.6.0a1687758204.tar.gz
+[2023-06-26 08:05:39] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_require_login-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-26 08:05:39] INFO root fetch - processPackages [odoo-addon-website-event-require-login]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_event_require_login-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-26 08:05:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-event-require-login]: success
+[2023-06-26 08:05:39] INFO root fetch - processPackages [shoobx.mocks3]: Remove: archive file [/home/abi/fetcher/tmp/shoobx.mocks3-4.2.2.dev0.tar.gz]
+[2023-06-26 08:05:39] INFO root fetch - processPackages [shoobx.mocks3]: Remove: archive file [/home/abi/fetcher/tmp/shoobx.mocks3-4.2.3.tar.gz]
+[2023-06-26 08:05:39] INFO root fetch - main [MainThread]: End processing [shoobx.mocks3]: success
+[2023-06-26 08:05:39] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2023-06-26 08:05:39] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.6.0a1687057183.tar.gz tmp/pulumi_venafi-1.6.0a1687758204.tar.gz --markdown 20230626/p/pulumi-venafi/1.6.0a1687057183-1.6.0a1687758204/diff.md --exclude *.pyd
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1687057203.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.6.0a1687758153.tar.gz]
+[2023-06-26 08:05:41] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2023-06-26 08:05:42] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1687057183.tar.gz]
+[2023-06-26 08:05:42] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.6.0a1687758204.tar.gz]
+[2023-06-26 08:05:42] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2023-06-26 08:05:42] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.7.tar.gz]
+[2023-06-26 08:05:42] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-06-26 08:05:42] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-06-26 08:05:43] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1687057378.tar.gz]
+[2023-06-26 08:05:43] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-1.5.0a1687758259.tar.gz]
+[2023-06-26 08:05:43] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-06-26 08:05:43] INFO root fetch - main [MainThread]: Store serial: [18642710]
