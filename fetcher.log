@@ -6662,3 +6662,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-06-26 05:59:01] INFO root fetch - processPackages [fasttreeshap]: Remove: archive file [/home/abi/fetcher/tmp/fasttreeshap-0.1.6.tar.gz]
 [2023-06-26 05:59:01] INFO root fetch - main [MainThread]: End processing [fasttreeshap]: success
 [2023-06-26 05:59:01] INFO root fetch - main [MainThread]: Store serial: [18641859]
+[2023-06-26 06:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18641859]
+[2023-06-26 06:04:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-26 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vessl
+[2023-06-26 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evals-nightly
+[2023-06-26 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mojo-xmodules
+[2023-06-26 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qinglan-bot
+[2023-06-26 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-06-26 06:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qinglan-bot
+[2023-06-26 06:04:10] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230624] Old Version: [1.0.3.dev20230623]
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 06:04:10] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-06-26 06:04:10] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 06:04:10] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 06:04:10] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/8e/5d/645cde37a49b819c229df0e53b8fc655f837f8b96ca12a634d98f6c0a6f0/evals-nightly-1.0.3.dev20230623.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/f0/4c/23e358a79017dd5f8da34bc2d3a4df360228cc08ac86a4aeb63427961504/qinglan-bot-0.1.1.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/f0/4c/23e358a79017dd5f8da34bc2d3a4df360228cc08ac86a4aeb63427961504/qinglan-bot-0.1.1.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-06-26 06:04:10] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230626/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-06-26 06:04:10] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/1f/d4/bbd8ea296a6acdeac016501c8ed7f5db63cc3ee923a0a4fb311d6a04d66f/evals-nightly-1.0.3.dev20230624.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-26 06:04:10] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230623.tar.gz tmp/evals-nightly-1.0.3.dev20230624.tar.gz --markdown 20230626/e/evals-nightly/1.0.3.dev20230623-1.0.3.dev20230624/diff.md --exclude *.pyd
+[2023-06-26 06:04:10] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/b0/51/00c77a733bf4d60dfd8fa7b99d5600282bd54d949d3d512f9673d8e5953c/qinglan-bot-0.1.2.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: Downloading https://files.pythonhosted.org/packages/b0/51/00c77a733bf4d60dfd8fa7b99d5600282bd54d949d3d512f9673d8e5953c/qinglan-bot-0.1.2.tar.gz
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: executing diffoscope
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qinglan-bot-0.1.1.tar.gz tmp/qinglan-bot-0.1.2.tar.gz --markdown 20230626/q/qinglan-bot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: executing diffoscope
+[2023-06-26 06:04:10] INFO root fetch - processPackages [qinglan-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qinglan-bot-0.1.1.tar.gz tmp/qinglan-bot-0.1.2.tar.gz --markdown 20230626/q/qinglan-bot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 06:04:10] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-06-26 06:04:10] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230626/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 06:04:10] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-06-26 06:04:10] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230626/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-26 06:04:11] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-06-26 06:04:11] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-06-26 06:04:11] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-06-26 06:04:12] INFO root fetch - processPackages [qinglan-bot]: Remove: archive file [/home/abi/fetcher/tmp/qinglan-bot-0.1.1.tar.gz]
+[2023-06-26 06:04:12] INFO root fetch - processPackages [qinglan-bot]: Remove: archive file [/home/abi/fetcher/tmp/qinglan-bot-0.1.2.tar.gz]
+[2023-06-26 06:04:12] INFO root fetch - main [MainThread]: End processing [qinglan-bot]: success
+[2023-06-26 06:04:12] INFO root fetch - main [MainThread]: End processing [qinglan-bot]: success
+[2023-06-26 06:04:12] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-06-26 06:04:12] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-06-26 06:04:12] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-06-26 06:04:13] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230623.tar.gz]
+[2023-06-26 06:04:13] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230624.tar.gz]
+[2023-06-26 06:04:13] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-26 06:04:18] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-06-26 06:04:18] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-06-26 06:04:18] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-06-26 06:04:18] INFO root fetch - main [MainThread]: Store serial: [18641878]
