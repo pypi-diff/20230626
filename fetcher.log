@@ -14895,3 +14895,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 12:45:37] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
 [2023-06-26 12:45:37] INFO root fetch - main [MainThread]: End processing [mltlk]: success
 [2023-06-26 12:45:37] INFO root fetch - main [MainThread]: Store serial: [18645418]
+[2023-06-26 12:50:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18645418]
+[2023-06-26 12:50:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ebcc
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygrb-lc
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytube-lanuma
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scs-analysis
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openlane
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uberweb
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ellipsis
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhei
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fantasy-agn
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-fr-fec-oca
+[2023-06-26 12:50:46] WARNING root fetch - processPackages [pytube-lanuma]: Skipping, unable to determine old version
+[2023-06-26 12:50:46] INFO root fetch - main [MainThread]: End processing [pytube-lanuma] error
+[2023-06-26 12:50:46] INFO root fetch - processPackages [pygrb-lc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-26 12:50:46] INFO root fetch - processPackages [scs-analysis]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-06-26 12:50:46] INFO root fetch - processPackages [zhei]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 12:50:46] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-26 12:50:46] INFO root fetch - processPackages [fantasy-agn]: New version: [0.7.0] Old Version: [0.6.7]
+[2023-06-26 12:50:46] WARNING root fetch - processPackages [ebcc]: Skipping, unable to determine old version
+[2023-06-26 12:50:46] INFO root fetch - main [MainThread]: End processing [ebcc] error
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ellipsis]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-26 12:50:46] WARNING root fetch - processPackages [uberweb]: Skipping, unable to determine old version
+[2023-06-26 12:50:46] INFO root fetch - main [MainThread]: End processing [uberweb] error
+[2023-06-26 12:50:46] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/e5/46/17080f9a15616da853bff32ad5c1d45ec851993b5555129267c361bb2aa7/scs-analysis-2.7.4.tar.gz
+[2023-06-26 12:50:46] WARNING root fetch - processPackages [odoo-addon-l10n-fr-fec-oca]: Skipping, unable to determine old version
+[2023-06-26 12:50:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-fec-oca] error
+[2023-06-26 12:50:46] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/dc/ed/6da28b13869354504234acf93a011d04e617bf6d22fa9e372b333a228965/pygrb_lc-0.0.8.tar.gz
+[2023-06-26 12:50:46] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/04/f6/d304840a82fb6ce80a770e92ecc32b7b471689d3867dbbc01a9531c9a7dc/zhei-0.0.1.tar.gz
+[2023-06-26 12:50:46] INFO root fetch - processPackages [ellipsis]: Downloading https://files.pythonhosted.org/packages/a2/22/bb4da3d801a1b7d0092b0ea94f3c3fee54c3a69263ee8cfc2894c5b54281/ellipsis-3.1.8.tar.gz
+[2023-06-26 12:50:46] INFO root fetch - processPackages [fantasy-agn]: Downloading https://files.pythonhosted.org/packages/33/c6/e908aa6831b371f73b12280d9f1158d63c6e8e6274852f46528c22fa689c/fantasy_agn-0.6.7.tar.gz
+[2023-06-26 12:50:46] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-06-26 12:50:46] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/e2/50/e00f70c96c81e89a5c74492c88e714c18ce77656c32a0a7a5f6af65b5bb2/scs-analysis-2.7.5.tar.gz
+[2023-06-26 12:50:47] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2023-06-26 12:50:47] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-analysis-2.7.4.tar.gz tmp/scs-analysis-2.7.5.tar.gz --markdown 20230626/s/scs-analysis/2.7.4-2.7.5/diff.md --exclude *.pyd
+[2023-06-26 12:50:47] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/42/12/fd3cc57b75f172184914dff3e104854d260f7408aa3f42696c4a90c2de41/pygrb_lc-0.0.9.tar.gz
+[2023-06-26 12:50:47] INFO root fetch - processPackages [ellipsis]: Downloading https://files.pythonhosted.org/packages/c8/9a/b783c46d8c7eba6c0acf3b9459c85984a1458ebf682cf37522bd573c7363/ellipsis-3.1.9.tar.gz
+[2023-06-26 12:50:47] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-06-26 12:50:47] INFO root fetch - processPackages [pygrb-lc]: executing diffoscope
+[2023-06-26 12:50:47] INFO root fetch - processPackages [pygrb-lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrb_lc-0.0.8.tar.gz tmp/pygrb_lc-0.0.9.tar.gz --markdown 20230626/p/pygrb-lc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-26 12:50:47] INFO root fetch - processPackages [ellipsis]: executing diffoscope
+[2023-06-26 12:50:47] INFO root fetch - processPackages [ellipsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ellipsis-3.1.8.tar.gz tmp/ellipsis-3.1.9.tar.gz --markdown 20230626/e/ellipsis/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-26 12:50:47] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-06-26 12:50:47] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230626/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-26 12:50:47] INFO root fetch - processPackages [zhei]: Downloading https://files.pythonhosted.org/packages/20/d1/67783b925c8919045516d0e27b25d72162e51f46e2a02c51d851a4a4929a/zhei-0.0.2.tar.gz
+[2023-06-26 12:50:47] WARNING root fetch - processPackages [fantasy-agn]: Skipping package: exceeds size limit 97551948>=10485760
+[2023-06-26 12:50:47] INFO root fetch - main [MainThread]: End processing [fantasy-agn] error
+[2023-06-26 12:50:47] INFO root fetch - processPackages [zhei]: executing diffoscope
+[2023-06-26 12:50:47] INFO root fetch - processPackages [zhei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhei-0.0.1.tar.gz tmp/zhei-0.0.2.tar.gz --markdown 20230626/z/zhei/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 12:50:48] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.0.8.tar.gz]
+[2023-06-26 12:50:48] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.0.9.tar.gz]
+[2023-06-26 12:50:48] INFO root fetch - main [MainThread]: End processing [pygrb-lc]: success
+[2023-06-26 12:50:48] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.1.tar.gz]
+[2023-06-26 12:50:48] INFO root fetch - processPackages [zhei]: Remove: archive file [/home/abi/fetcher/tmp/zhei-0.0.2.tar.gz]
+[2023-06-26 12:50:48] INFO root fetch - main [MainThread]: End processing [zhei]: success
+[2023-06-26 12:50:48] INFO root fetch - processPackages [ellipsis]: Remove: archive file [/home/abi/fetcher/tmp/ellipsis-3.1.8.tar.gz]
+[2023-06-26 12:50:48] INFO root fetch - processPackages [ellipsis]: Remove: archive file [/home/abi/fetcher/tmp/ellipsis-3.1.9.tar.gz]
+[2023-06-26 12:50:48] INFO root fetch - main [MainThread]: End processing [ellipsis]: success
+[2023-06-26 12:50:48] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.4.tar.gz]
+[2023-06-26 12:50:48] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-2.7.5.tar.gz]
+[2023-06-26 12:50:48] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2023-06-26 12:50:49] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-06-26 12:50:49] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-06-26 12:50:49] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-06-26 12:50:49] INFO root fetch - main [MainThread]: Store serial: [18645460]
