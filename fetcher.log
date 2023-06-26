@@ -11513,3 +11513,116 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 10:26:32] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.8.9.46.19.tar.gz]
 [2023-06-26 10:26:32] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-06-26 10:26:32] INFO root fetch - main [MainThread]: Store serial: [18644003]
+[2023-06-26 10:31:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18644003]
+[2023-06-26 10:31:42] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-engine-sql
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unrollcuda
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otel-tracer
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: premise-gwp
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLMS-SPODES
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deci-common
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-power-ops
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-vault-share
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-vault
+[2023-06-26 10:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: delphai-fastapi
+[2023-06-26 10:31:42] WARNING root fetch - processPackages [xia-engine-sql]: Skipping, unable to determine old version
+[2023-06-26 10:31:42] INFO root fetch - processPackages [xia-engine-sql]: Start processing: tealogger
+[2023-06-26 10:31:42] INFO root fetch - main [MainThread]: End processing [xia-engine-sql] error
+[2023-06-26 10:31:42] INFO root fetch - processPackages [premise-gwp]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-26 10:31:42] WARNING root fetch - processPackages [tealogger]: Skipping, unable to determine old version
+[2023-06-26 10:31:42] INFO root fetch - processPackages [tealogger]: Start processing: tf-nightly
+[2023-06-26 10:31:42] INFO root fetch - main [MainThread]: End processing [tealogger] error
+[2023-06-26 10:31:42] INFO root fetch - processPackages [otel-tracer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-26 10:31:42] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-26 10:31:42] INFO root fetch - processPackages [unrollcuda]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-26 10:31:42] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-26 10:31:42] INFO root fetch - processPackages [odoo-addon-vault-share]: New version: [15.0.1.1.1] Old Version: [15.0.1.1.0.8]
+[2023-06-26 10:31:42] INFO root fetch - processPackages [delphai-fastapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-26 10:31:42] INFO root fetch - processPackages [odoo-addon-vault]: New version: [15.0.1.6.3] Old Version: [15.0.1.6.2]
+[2023-06-26 10:31:42] INFO root fetch - processPackages [deci-common]: New version: [9.0.0] Old Version: [8.1.0]
+[2023-06-26 10:31:42] INFO root fetch - processPackages [unrollcuda]: Downloading https://files.pythonhosted.org/packages/92/fc/9a820c9292f8af403c063d3ddbb5aa9391fa35a6a2b17a9aa77aa1f8aab3/unrollcuda-0.0.4.tar.gz
+[2023-06-26 10:31:42] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/7a/8d/801f107a371b5e7be68f59d31af6d17306091c42118424f0b6005edf3a35/otel_tracer-0.0.5-py3-none-any.whl
+[2023-06-26 10:31:42] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-26 10:31:42] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230626] Old Version: [2.14.0.dev20230625]
+[2023-06-26 10:31:42] INFO root fetch - processPackages [deci-common]: Downloading https://files.pythonhosted.org/packages/29/f0/520c6cb82f1366858b5e8790cf3a36bad7b10652dc1e4df6a8d93efec990/deci_common-8.1.0.tar.gz
+[2023-06-26 10:31:42] INFO root fetch - processPackages [odoo-addon-vault-share]: Downloading https://files.pythonhosted.org/packages/1d/d7/3a08f511e45c8aea8b39f10718b43cad5784cc0b598d1ada0fe838072b35/odoo_addon_vault_share-15.0.1.1.0.8-py3-none-any.whl
+[2023-06-26 10:31:42] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-26 10:31:42] INFO root fetch - processPackages [premise-gwp]: Downloading https://files.pythonhosted.org/packages/1c/0a/611560a2119850c73841e58d9f964dab0266b7ebd1b148febce1fe2a3426/premise_gwp-0.9.3.tar.gz
+[2023-06-26 10:31:42] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/05/68/b0f41d519c322033da288ff569229b7b61fafcb0985dab4f3a47f46841b5/delphai_fastapi-0.1.1.tar.gz
+[2023-06-26 10:31:42] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/fa/a8/f20bb92953cf7ae3e00f7ea241765595be691a67e671808c5d53d0298ca8/odoo_addon_vault-15.0.1.6.2-py3-none-any.whl
+[2023-06-26 10:31:43] INFO root fetch - processPackages [otel-tracer]: Downloading https://files.pythonhosted.org/packages/b1/d6/a209762d954b73ee9cb373b4807aba48397c01b40da1d7e581bd341524df/otel_tracer-0.0.6-py3-none-any.whl
+[2023-06-26 10:31:43] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-26 10:31:43] INFO root fetch - processPackages [unrollcuda]: Downloading https://files.pythonhosted.org/packages/c3/e8/7ab31ba59e9f1a26457a9e5a7d0792814e37a5fef87fb509bfc249e39597/unrollcuda-0.0.5.tar.gz
+[2023-06-26 10:31:43] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/aa/33/df634e170d356ddee77383ff8eddee2a6dcef98c24019bf0e0210807ad75/tf_nightly-2.14.0.dev20230625-cp39-cp39-win_amd64.whl
+[2023-06-26 10:31:43] INFO root fetch - processPackages [premise-gwp]: Downloading https://files.pythonhosted.org/packages/09/95/c7da4f5804dfbaff40e6e70be93e14f4efbd30bbb57309e6373a75c29486/premise_gwp-0.9.4.tar.gz
+[2023-06-26 10:31:43] INFO root fetch - processPackages [otel-tracer]: executing diffoscope
+[2023-06-26 10:31:43] INFO root fetch - processPackages [otel-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otel_tracer-0.0.5-py3-none-any.whl.zip tmp/otel_tracer-0.0.6-py3-none-any.whl.zip --markdown 20230626/o/otel-tracer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-26 10:31:43] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/f1/8f/1d1e44a444f0c6fbcee77b345a66644557038c6da1f74cbc72e24b322487/delphai_fastapi-0.1.2.tar.gz
+[2023-06-26 10:31:43] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-26 10:31:43] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230626/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-26 10:31:43] INFO root fetch - processPackages [unrollcuda]: executing diffoscope
+[2023-06-26 10:31:43] INFO root fetch - processPackages [unrollcuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unrollcuda-0.0.4.tar.gz tmp/unrollcuda-0.0.5.tar.gz --markdown 20230626/u/unrollcuda/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-26 10:31:43] INFO root fetch - processPackages [premise-gwp]: executing diffoscope
+[2023-06-26 10:31:43] INFO root fetch - processPackages [premise-gwp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/premise_gwp-0.9.3.tar.gz tmp/premise_gwp-0.9.4.tar.gz --markdown 20230626/p/premise-gwp/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-26 10:31:43] INFO root fetch - processPackages [delphai-fastapi]: executing diffoscope
+[2023-06-26 10:31:43] INFO root fetch - processPackages [delphai-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_fastapi-0.1.1.tar.gz tmp/delphai_fastapi-0.1.2.tar.gz --markdown 20230626/d/delphai-fastapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-26 10:31:43] INFO root fetch - processPackages [deci-common]: Downloading https://files.pythonhosted.org/packages/d2/e4/f964630669e1c3968372619e15347d6dffc26456edaa9555fb42d5130c6e/deci_common-9.0.0.tar.gz
+[2023-06-26 10:31:43] INFO root fetch - processPackages [odoo-addon-vault-share]: Downloading https://files.pythonhosted.org/packages/17/b4/c44fc8c06ff87744c45fd5506e7ef007214f53e702139aeebfa0950c368a/odoo_addon_vault_share-15.0.1.1.1-py3-none-any.whl
+[2023-06-26 10:31:43] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-26 10:31:43] INFO root fetch - processPackages [odoo-addon-vault]: Downloading https://files.pythonhosted.org/packages/c4/b7/016b4a07e7ef8368e66223b54a8145af8ccdef52bef487f9b5b59180d2df/odoo_addon_vault-15.0.1.6.3-py3-none-any.whl
+[2023-06-26 10:31:43] INFO root fetch - processPackages [odoo-addon-vault-share]: executing diffoscope
+[2023-06-26 10:31:43] INFO root fetch - processPackages [odoo-addon-vault-share]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_vault_share-15.0.1.1.0.8-py3-none-any.whl.zip tmp/odoo_addon_vault_share-15.0.1.1.1-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-vault-share/15.0.1.1.0.8-15.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-26 10:31:43] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/63/a3/90e7074b2748bcf8e4ece6f926fc16eced8f4f101dcc7e4c0fc0cf02c92a/tf_nightly-2.14.0.dev20230626-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-26 10:31:43] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-26 10:31:43] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230626/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-26 10:31:43] INFO root fetch - processPackages [odoo-addon-vault]: executing diffoscope
+[2023-06-26 10:31:43] INFO root fetch - processPackages [odoo-addon-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_vault-15.0.1.6.2-py3-none-any.whl.zip tmp/odoo_addon_vault-15.0.1.6.3-py3-none-any.whl.zip --markdown 20230626/o/odoo-addon-vault/15.0.1.6.2-15.0.1.6.3/diff.md --exclude *.pyd
+[2023-06-26 10:31:43] INFO root fetch - processPackages [deci-common]: executing diffoscope
+[2023-06-26 10:31:43] INFO root fetch - processPackages [deci-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_common-8.1.0.tar.gz tmp/deci_common-9.0.0.tar.gz --markdown 20230626/d/deci-common/8.1.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-26 10:31:43] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491712714>=10485760
+[2023-06-26 10:31:43] INFO root fetch - processPackages [tf-nightly]: Start processing: premise
+[2023-06-26 10:31:43] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-26 10:31:43] INFO root fetch - processPackages [premise]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-26 10:31:44] INFO root fetch - processPackages [premise]: Downloading https://files.pythonhosted.org/packages/62/4c/3cce8cd094250c53dd46717092405fcbe25a5a4ccf308cc5bd06ededbfe2/premise-1.5.2.tar.gz
+[2023-06-26 10:31:44] WARNING root fetch - processPackages [premise]: Skipping package: exceeds size limit 68027566>=10485760
+[2023-06-26 10:31:44] INFO root fetch - processPackages [premise]: Start processing: xia-engine-terraform
+[2023-06-26 10:31:44] INFO root fetch - main [MainThread]: End processing [premise] error
+[2023-06-26 10:31:44] WARNING root fetch - processPackages [xia-engine-terraform]: Skipping, unable to determine old version
+[2023-06-26 10:31:44] INFO root fetch - processPackages [xia-engine-terraform]: Start processing: runtimepy
+[2023-06-26 10:31:44] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform] error
+[2023-06-26 10:31:44] INFO root fetch - processPackages [runtimepy]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-06-26 10:31:44] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/12/56/f0934a160f054eb69a609b9933c9badd29252f8fc67909eda782bff5282a/runtimepy-1.6.0.tar.gz
+[2023-06-26 10:31:44] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.5-py3-none-any.whl.zip]
+[2023-06-26 10:31:44] INFO root fetch - processPackages [otel-tracer]: Remove: archive file [/home/abi/fetcher/tmp/otel_tracer-0.0.6-py3-none-any.whl.zip]
+[2023-06-26 10:31:44] INFO root fetch - main [MainThread]: End processing [otel-tracer]: success
+[2023-06-26 10:31:44] INFO root fetch - processPackages [unrollcuda]: Remove: archive file [/home/abi/fetcher/tmp/unrollcuda-0.0.4.tar.gz]
+[2023-06-26 10:31:44] INFO root fetch - processPackages [unrollcuda]: Remove: archive file [/home/abi/fetcher/tmp/unrollcuda-0.0.5.tar.gz]
+[2023-06-26 10:31:44] INFO root fetch - main [MainThread]: End processing [unrollcuda]: success
+[2023-06-26 10:31:44] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-0.1.1.tar.gz]
+[2023-06-26 10:31:44] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-0.1.2.tar.gz]
+[2023-06-26 10:31:44] INFO root fetch - main [MainThread]: End processing [delphai-fastapi]: success
+[2023-06-26 10:31:44] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/33/8f/8245daeaa090b3177f132ccc1a3c5d3cb2965048242ade1436b53dff9795/runtimepy-1.7.0.tar.gz
+[2023-06-26 10:31:45] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2023-06-26 10:31:45] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-1.6.0.tar.gz tmp/runtimepy-1.7.0.tar.gz --markdown 20230626/r/runtimepy/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-06-26 10:31:45] INFO root fetch - processPackages [odoo-addon-vault-share]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault_share-15.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-06-26 10:31:45] INFO root fetch - processPackages [odoo-addon-vault-share]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault_share-15.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-26 10:31:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-vault-share]: success
+[2023-06-26 10:31:45] INFO root fetch - processPackages [premise-gwp]: Remove: archive file [/home/abi/fetcher/tmp/premise_gwp-0.9.3.tar.gz]
+[2023-06-26 10:31:45] INFO root fetch - processPackages [premise-gwp]: Remove: archive file [/home/abi/fetcher/tmp/premise_gwp-0.9.4.tar.gz]
+[2023-06-26 10:31:45] INFO root fetch - main [MainThread]: End processing [premise-gwp]: success
+[2023-06-26 10:31:45] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-26 10:31:45] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-26 10:31:45] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-26 10:31:45] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-26 10:31:45] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-26 10:31:45] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-26 10:31:45] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.1.6.2-py3-none-any.whl.zip]
+[2023-06-26 10:31:45] INFO root fetch - processPackages [odoo-addon-vault]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault-15.0.1.6.3-py3-none-any.whl.zip]
+[2023-06-26 10:31:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-vault]: success
+[2023-06-26 10:31:45] INFO root fetch - processPackages [deci-common]: Remove: archive file [/home/abi/fetcher/tmp/deci_common-8.1.0.tar.gz]
+[2023-06-26 10:31:45] INFO root fetch - processPackages [deci-common]: Remove: archive file [/home/abi/fetcher/tmp/deci_common-9.0.0.tar.gz]
+[2023-06-26 10:31:45] INFO root fetch - main [MainThread]: End processing [deci-common]: success
+[2023-06-26 10:31:46] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-1.6.0.tar.gz]
+[2023-06-26 10:31:46] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-1.7.0.tar.gz]
+[2023-06-26 10:31:46] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2023-06-26 10:31:46] INFO root fetch - main [MainThread]: Store serial: [18644059]
