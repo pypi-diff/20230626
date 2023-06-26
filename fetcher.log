@@ -7294,3 +7294,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-26 06:35:50] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-06-26 06:35:50] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-26 06:35:50] INFO root fetch - main [MainThread]: Store serial: [18642064]
+[2023-06-26 06:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18642064]
+[2023-06-26 06:41:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skmfforever
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arcee-align
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-product-attribute
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trtpg
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oxdork
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ioddcomchecker
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dss-python-backend
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trtpg
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grpcrest
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opendoor
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-26 06:41:01] INFO root fetch - processPackages [arcee-align]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-26 06:41:01] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: New version: [16.0.20230625.0] Old Version: [16.0.20230623.0]
+[2023-06-26 06:41:01] INFO root fetch - processPackages [grpcrest]: New version: [0.9] Old Version: [0.8]
+[2023-06-26 06:41:01] INFO root fetch - processPackages [oxdork]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-06-26 06:41:01] INFO root fetch - processPackages [opendoor]: New version: [4.0.5] Old Version: [3.3.36rc0]
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ioddcomchecker]: New version: [1.7.0] Old Version: [1.6.8]
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-26 06:41:01] INFO root fetch - processPackages [dss-python-backend]: New version: [0.13.4rc2] Old Version: [0.13.4rc1]
+[2023-06-26 06:41:01] WARNING root fetch - processPackages [skmfforever]: Skipping, unable to determine old version
+[2023-06-26 06:41:01] INFO root fetch - processPackages [skmfforever]: Start processing: ilsadvbisnvavojebaij
+[2023-06-26 06:41:01] INFO root fetch - main [MainThread]: End processing [skmfforever] error
+[2023-06-26 06:41:01] INFO root fetch - processPackages [oxdork]: Downloading https://files.pythonhosted.org/packages/35/2f/e7c6102c1318f1efa6a1c6d7d705aa77c5379db3ea996be55bbcf66019ec/oxdork-3.1.1.tar.gz
+[2023-06-26 06:41:01] WARNING root fetch - processPackages [ilsadvbisnvavojebaij]: Skipping, unable to determine old version
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ilsadvbisnvavojebaij]: Start processing: skmfforever
+[2023-06-26 06:41:01] INFO root fetch - main [MainThread]: End processing [ilsadvbisnvavojebaij] error
+[2023-06-26 06:41:01] WARNING root fetch - processPackages [skmfforever]: Skipping, unable to determine old version
+[2023-06-26 06:41:01] INFO root fetch - main [MainThread]: End processing [skmfforever] error
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/20/bd/3b65aa59d847dda73cfcd12abe87d052973f9c947141892be5b6b30deedc/trtpg-1.0.2-py3-none-any.whl
+[2023-06-26 06:41:01] INFO root fetch - processPackages [arcee-align]: Downloading https://files.pythonhosted.org/packages/5e/d1/7de32ee57a28609c1b3c99c626da40c3ca854f85d0d2700e11404767f154/arcee-align-0.0.1.tar.gz
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/20/bd/3b65aa59d847dda73cfcd12abe87d052973f9c947141892be5b6b30deedc/trtpg-1.0.2-py3-none-any.whl
+[2023-06-26 06:41:01] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/4a/6d/26b5f269309092846d7872f44114df778ef41626221dca516f28b02c4912/odoo_addons_oca_product_attribute-16.0.20230623.0-py3-none-any.whl
+[2023-06-26 06:41:01] INFO root fetch - processPackages [grpcrest]: Downloading https://files.pythonhosted.org/packages/99/01/f8075a5fd0069f8ba9f50d434bbe41a539e8b8c58a7f891d1ba643113602/grpcrest-0.8.tar.gz
+[2023-06-26 06:41:01] INFO root fetch - processPackages [opendoor]: Downloading https://files.pythonhosted.org/packages/fe/9c/c81ac56d74a8c86454a7a466ea7ee87d12e73c34223acfbcc27be018aab8/opendoor-3.3.36rc0.tar.gz
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ioddcomchecker]: Downloading https://files.pythonhosted.org/packages/5c/ce/5c0d44d4f12d6030baf9c51de042ebd187002ee7e03fcbc922f409666ddb/ioddcomchecker-1.6.8-cp39-cp39-win_amd64.whl
+[2023-06-26 06:41:01] INFO root fetch - processPackages [dss-python-backend]: Downloading https://files.pythonhosted.org/packages/ea/59/9cf39c82d7923243629d9ed201978fb72ac647fa8dd6557d812ee65addd9/dss_python_backend-0.13.4rc1-cp37-abi3-win_amd64.whl
+[2023-06-26 06:41:01] INFO root fetch - processPackages [oxdork]: Downloading https://files.pythonhosted.org/packages/32/63/58a1103a53a3ea1dcb00320db74c2847d49ee742877194be56abae5fee98/oxdork-3.2.0.tar.gz
+[2023-06-26 06:41:01] WARNING root fetch - processPackages [grpcrest]: Skipping package: exceeds size limit 21180887>=10485760
+[2023-06-26 06:41:01] INFO root fetch - main [MainThread]: End processing [grpcrest] error
+[2023-06-26 06:41:01] INFO root fetch - processPackages [arcee-align]: Downloading https://files.pythonhosted.org/packages/9a/48/3c5aa0e5e11e56b9f613d9dbd8f53758b506c7c3c7359a1b0f7ab389a05a/arcee-align-0.0.2.tar.gz
+[2023-06-26 06:41:01] WARNING root fetch - processPackages [dss-python-backend]: Skipping package: exceeds size limit 16967796>=10485760
+[2023-06-26 06:41:01] INFO root fetch - main [MainThread]: End processing [dss-python-backend] error
+[2023-06-26 06:41:01] INFO root fetch - processPackages [oxdork]: executing diffoscope
+[2023-06-26 06:41:01] INFO root fetch - processPackages [oxdork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxdork-3.1.1.tar.gz tmp/oxdork-3.2.0.tar.gz --markdown 20230626/o/oxdork/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/e9/25/aa4716b8fe56e64ffb6250d3904dfcbaddd267ae647798de534fa9d9b6c2/trtpg-1.0.3-py3-none-any.whl
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: Downloading https://files.pythonhosted.org/packages/e9/25/aa4716b8fe56e64ffb6250d3904dfcbaddd267ae647798de534fa9d9b6c2/trtpg-1.0.3-py3-none-any.whl
+[2023-06-26 06:41:01] INFO root fetch - processPackages [arcee-align]: executing diffoscope
+[2023-06-26 06:41:01] INFO root fetch - processPackages [arcee-align]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcee-align-0.0.1.tar.gz tmp/arcee-align-0.0.2.tar.gz --markdown 20230626/a/arcee-align/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-26 06:41:01] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/d8/19/ddab5761682cff8bec2b5f1035f8e497eaf98104096c39ff3e1be105c34d/odoo_addons_oca_product_attribute-16.0.20230625.0-py3-none-any.whl
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: executing diffoscope
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trtpg-1.0.2-py3-none-any.whl.zip tmp/trtpg-1.0.3-py3-none-any.whl.zip --markdown 20230626/t/trtpg/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: executing diffoscope
+[2023-06-26 06:41:01] INFO root fetch - processPackages [trtpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trtpg-1.0.2-py3-none-any.whl.zip tmp/trtpg-1.0.3-py3-none-any.whl.zip --markdown 20230626/t/trtpg/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-26 06:41:01] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: executing diffoscope
+[2023-06-26 06:41:01] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_attribute-16.0.20230623.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_attribute-16.0.20230625.0-py3-none-any.whl.zip --markdown 20230626/o/odoo-addons-oca-product-attribute/16.0.20230623.0-16.0.20230625.0/diff.md --exclude *.pyd
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ioddcomchecker]: Downloading https://files.pythonhosted.org/packages/e8/af/0b38d080851457ad550ac579a25841344830b8a22fcfff04d38e136e6a90/ioddcomchecker-1.7.0-cp39-cp39-win_amd64.whl
+[2023-06-26 06:41:01] INFO root fetch - processPackages [opendoor]: Downloading https://files.pythonhosted.org/packages/c0/ec/373bd8d8205bb69482c9f01564bb2aa8f872faa9ea4ae2d8f0c5f7052158/opendoor-4.0.5.tar.gz
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ioddcomchecker]: executing diffoscope
+[2023-06-26 06:41:01] INFO root fetch - processPackages [ioddcomchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioddcomchecker-1.6.8-cp39-cp39-win_amd64.whl.zip tmp/ioddcomchecker-1.7.0-cp39-cp39-win_amd64.whl.zip --markdown 20230626/i/ioddcomchecker/1.6.8-1.7.0/diff.md --exclude *.pyd
+[2023-06-26 06:41:02] INFO root fetch - processPackages [opendoor]: executing diffoscope
+[2023-06-26 06:41:02] INFO root fetch - processPackages [opendoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230626:/home/abi/fetcher/20230626:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendoor-3.3.36rc0.tar.gz tmp/opendoor-4.0.5.tar.gz --markdown 20230626/o/opendoor/3.3.36rc0-4.0.5/diff.md --exclude *.pyd
+[2023-06-26 06:41:03] INFO root fetch - processPackages [oxdork]: Remove: archive file [/home/abi/fetcher/tmp/oxdork-3.1.1.tar.gz]
+[2023-06-26 06:41:03] INFO root fetch - processPackages [oxdork]: Remove: archive file [/home/abi/fetcher/tmp/oxdork-3.2.0.tar.gz]
+[2023-06-26 06:41:03] INFO root fetch - main [MainThread]: End processing [oxdork]: success
+[2023-06-26 06:41:03] INFO root fetch - processPackages [trtpg]: Remove: archive file [/home/abi/fetcher/tmp/trtpg-1.0.2-py3-none-any.whl.zip]
+[2023-06-26 06:41:03] INFO root fetch - processPackages [trtpg]: Remove: archive file [/home/abi/fetcher/tmp/trtpg-1.0.3-py3-none-any.whl.zip]
+[2023-06-26 06:41:03] INFO root fetch - main [MainThread]: End processing [trtpg]: success
+[2023-06-26 06:41:03] INFO root fetch - main [MainThread]: End processing [trtpg]: success
+[2023-06-26 06:41:03] INFO root fetch - processPackages [arcee-align]: Remove: archive file [/home/abi/fetcher/tmp/arcee-align-0.0.1.tar.gz]
+[2023-06-26 06:41:03] INFO root fetch - processPackages [arcee-align]: Remove: archive file [/home/abi/fetcher/tmp/arcee-align-0.0.2.tar.gz]
+[2023-06-26 06:41:03] INFO root fetch - main [MainThread]: End processing [arcee-align]: success
+[2023-06-26 06:41:03] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20230623.0-py3-none-any.whl.zip]
+[2023-06-26 06:41:03] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20230625.0-py3-none-any.whl.zip]
+[2023-06-26 06:41:03] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-attribute]: success
+[2023-06-26 06:41:03] INFO root fetch - processPackages [ioddcomchecker]: Remove: archive file [/home/abi/fetcher/tmp/ioddcomchecker-1.6.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 06:41:03] INFO root fetch - processPackages [ioddcomchecker]: Remove: archive file [/home/abi/fetcher/tmp/ioddcomchecker-1.7.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-26 06:41:03] INFO root fetch - main [MainThread]: End processing [ioddcomchecker]: success
+[2023-06-26 06:41:06] INFO root fetch - processPackages [opendoor]: Remove: archive file [/home/abi/fetcher/tmp/opendoor-3.3.36rc0.tar.gz]
+[2023-06-26 06:41:06] INFO root fetch - processPackages [opendoor]: Remove: archive file [/home/abi/fetcher/tmp/opendoor-4.0.5.tar.gz]
+[2023-06-26 06:41:06] INFO root fetch - main [MainThread]: End processing [opendoor]: success
+[2023-06-26 06:41:06] INFO root fetch - main [MainThread]: Store serial: [18642128]
